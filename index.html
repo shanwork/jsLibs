@@ -1,0 +1,270 @@
+<html>
+
+    <script src="scripts/utils.js"></script>
+    
+<script>
+
+
+var circleStats = {
+    radius: 0.0,
+    initialize: function(b) { this.radius  = b; },
+    area: circleArea.bind(),
+    circumference: circleCircumference.bind()
+};
+var newCircle = circleStats;
+newCircle.initialize(2);
+console.log(newCircle.area(3,9,true));
+console.log(newCircle.circumference(3));
+
+function nonReferenceCopy( source, destination){
+   //  deepCopyOrig(source, null, destination); 
+   deepCopy(source,destination); 
+   
+   if (Array.isArray(source))
+       {
+           destination.push({ deepcopied: true})
+           destination.push({ dateCopied: new Date()})
+       }
+    else if(typeof(source)=="object" )
+        {
+             destination.deepcopied = true ;
+            destination.dateCopied = new Date();
+        }
+    var refDest = source ;
+    if (Array.isArray(source))
+       {
+           refDest.push({ dateReferenced: new Date()})
+       }
+    else if(typeof(source)=="object" )
+        {
+            refDest.dateReferenced = new Date();
+        }
+    console.log('original:');
+    console.log( source);
+    console.log( ' reference copy:');
+    console.log( refDest);
+    console.log( ' non reference copy:');
+    console.log( destination);
+    
+}
+   
+var testObj = 
+    {
+        name: 'Anna',
+        place: 'Agra',
+        animal: 'Antelope',
+        thing :'Almari',
+        0:"zero",
+        misc : {
+          item1:'Anteater',
+          item2:'Armchair' ,
+          item3: {
+            ten: "ten" ,
+             arr: [ "a", "b", {name:'1',afe:'2'}]
+           }
+          
+        }
+    };
+var des = {};
+nonReferenceCopy(testObj,des);
+var arrayX = ['a','b','c', {name: 'eeshan', age: 8, hobbies: ['cricket', 'reading', 'biking']}
+             ];
+var errB = [];
+nonReferenceCopy(arrayX,errB);
+var staticData = [
+  {
+    name:  'Clothes and Apparel',
+    level2 : [
+      {
+        name: 'Tee Shirts',
+        items : [
+            {
+           name: 'Quick Dry Tee, Champion gray with black lattice pattern',
+           skuNum: 'CHQDTGBL',
+           costPrice: 22.99
+            },
+            {
+           name: 'Quick Dry Tee, Champion beige with chocolate lattice pattern',
+           skuNum: 'CHQDTBBR',
+           costPrice: 22.99
+            },
+           {
+           name: 'Quick Dry Tee, Champion orange with yellow lattice pattern, Ferari Logo',
+           skuNum: 'CHQDTOYFER',
+           costPrice: 26.99
+            },
+            {
+           name: 'Quick Dry Tee, Nike plain red',
+           skuNum: 'SHIRNK2341DRY',
+           costPrice: 28.99
+            },
+             {
+           name: 'Quick Dry Tee, Ascis Soccer World cup 2014 logo special ed',
+           skuNum: '452ASCSPTEE',
+           costPrice: 44.99
+            },
+             {
+           name: 'Mesh Tee, Nautica light golden yellow',
+           skuNum: 'SWTEE7861',
+           costPrice: 54.99
+            },
+             {
+           name: 'Ascis Quick Dry Soccer World cup 2014 logo special ed',
+           skuNum: 'TEE452ASCSP',
+           costPrice: 44.99
+            },
+             {
+           name: 'Ascis Quick Dry Soccer World cup 2014 logo special ed',
+           skuNum: 'TEE452ASCSP',
+           costPrice: 44.99
+            }
+          
+        ]
+      },
+        {
+        name: 'Workout shorts',
+        items : [
+            {
+           name: 'Quick Dry shorts, Champion gray with black lattice pattern',
+           skuNum: 'CHQDSGBL',
+           costPrice: 22.99
+            },
+            {
+           name: 'Quick Dry shorts, Champion beige with chocolate lattice pattern',
+           skuNum: 'CHQDSBBR',
+           costPrice: 22.99
+            },
+           {
+           name: 'Champion orange with yellow lattice pattern, Ferari Logo',
+           skuNum: 'CHQDSOYFER',
+           costPrice: 26.99
+            },
+            {
+           name: 'Nike plain red, white strip at the side',
+           skuNum: 'SHORNK2341DRY',
+           costPrice: 28.99
+            },
+             {
+           name: 'Ascis complementary to special ed Tee',
+           skuNum: '452ASCSPSHORT',
+           costPrice: 44.99
+            },
+             {
+           name: 'Nautica light golden yellow',
+           skuNum: 'SWSHO7861',
+           costPrice: 54.99
+            },
+             {
+           name: 'Ascis Soccer World cup 2014 logo special ed',
+           skuNum: '452ASCSP',
+           costPrice: 44.99
+            },
+             {
+           name: 'Ascis Quick Dry Soccer World cup 2014 logo special ed',
+           skuNum: '452ASCSP',
+           costPrice: 44.99
+            }
+          
+        ]
+      }
+      
+    ]
+  },
+  {
+    name:  'Tennis Equipment',
+    level2 : [
+      {
+        name: 'Tennis Balls',
+        items : [
+            {
+           name: 'All court yellow 3 pack Wilson ',
+           skuNum: 'W3AYY',
+           costPrice: 7.99
+            }, {
+           name: 'Hard court yellow, 3 pack Wilson ',
+           skuNum: 'W3HYY',
+           costPrice: 7.99
+            }, {
+           name: 'Grass court yellow, 3 pack Wilson ',
+           skuNum: 'W3GRYY',
+           costPrice: 9.99
+            }, {
+           name: '3 pack Wilson all court yellow',
+           skuNum: 'W3GRYY',
+           costPrice: 9.99
+            }
+          
+        ]
+      }
+    ]
+  }
+];
+var staticDataDest = [];
+nonReferenceCopy(staticData, staticDataDest);
+    var prim1 = 1, prim2 = null;
+    nonReferenceCopy(prim1,prim2);
+let counter = 0;
+var setTimeout = function( callback, timeout){
+    for (let k = 0; k < timeout;k++){
+        if (k % 100 == 0)
+             console.log(k, 'th ieration')
+    }
+    console.log('executing function');
+    callback();
+}
+//setTimeout(function() { console.log('!!! CALLED BACK')}, 30000);
+var greetings = [
+    'Hello',
+    'Namaste',
+    'Hola',
+    'Bonjour',
+    'Guten Tag'
+]
+function makeGreeting(index)
+    {
+        return function (firstName, lastName){
+            console.log(greetings[index], ' ', firstName, ' ', lastName);
+        }
+        
+    }
+var functions = [];
+for (var k = 0; k < greetings.length;k++){
+    var indexToSeq = parseInt(Math.random() *(greetings.length));
+    functions.push(makeGreeting(indexToSeq));
+}
+    for (var l = 0; l < greetings.length;l++){
+        functions[l]('Jihn', 'doe');
+    }
+/*
+function greet(name, counter) {
+    var arr = [];
+    for (let i= 0 ; i < 3 ; i++)
+        arr.push(function()
+                 {
+            console.log(i);
+        })
+    
+    return arr;
+}
+var ff = greet();
+ff[0]();
+ff[1]();
+ff[2]();
+    
+function greet2(name, counter) {
+    var arr2 = [];
+    for (var i= 0 ; i < 3 ; i++)
+        arr2.push(( function(j)
+           {   return function()   {
+            console.log(j);
+        }})(i) );
+    
+    return arr2;
+}
+var ff2 = greet2();
+ff2[0]();
+ff2[1]();
+ff2[2]();
+*/
+     </script>
+</html>
