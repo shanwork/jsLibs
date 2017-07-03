@@ -6,7 +6,7 @@ APIS
 2. decimalRound(number, decPlaces) - rounds number to 'decPlaces' decimal places
 3. circleArea( radius, <decPlaces>,<roundOff?> ) - area of a circle, given radius
 4. circleCircumference( radius, <decPlaces>,<roundOff?> ) - circumference of a circle, given radius
-
+5. average(arrayOfNumbers, <decPlaces>,<roundOff?> ) 
 
 1. deepCopy
 The function below is used to deep (non reference ) copy an object to another, ie the source and destination
