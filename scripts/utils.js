@@ -87,3 +87,13 @@ var circleCircumference = function(radius, decPlaces=4, roundOff=true)
      return radius * 2 * (22.0/7.0);
     
 }
+
+// statistical APIS
+var average = function(numbersToAverage, decPlaces=4, roundOff=true){
+    let totalELements = numbersToAverage.length;
+    let totalElementsSum = 0.0;
+    numbersToAverage.forEach(function(element) { totalElementsSum += parseFloat(element);});
+     if (roundOff)
+        return decimalRound(totalElementsSum/parseFloat(totalELements),decPlaces) ;
+     return totalElementsSum/parseFloat(totalELements);
+}

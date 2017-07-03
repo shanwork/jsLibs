@@ -1,5 +1,5 @@
 <html>
-
+<!-- Sample placeholder markup to test the libary --->
     <script src="scripts/utils.js"></script>
     
 <script>
@@ -15,7 +15,10 @@ var newCircle = circleStats;
 newCircle.initialize(2);
 console.log(newCircle.area(3,9,true));
 console.log(newCircle.circumference(3));
-
+var stats = {
+    mean:  average.bind()
+}
+console.log(stats.mean.call(average,[1,2,3,4]));
 function nonReferenceCopy( source, destination){
    //  deepCopyOrig(source, null, destination); 
    deepCopy(source,destination); 
