@@ -57,7 +57,7 @@ function deepCopy(src, dest, modifyList=null){
         for (var arrayKey=0; arrayKey < objectValues.length;arrayKey++) {
           if (typeof(objectValues[arrayKey]) =="object") { // array element is an object 
             dest.push(new Object());
-            deepCopy(objectValues[arrayKey],dest[arrayKey]);
+            deepCopy(objectValues[arrayKey],dest[arrayKey], modifyList);
            }
            else { // array element is a primitive    
              dest.push(objectValues[arrayKey]);
@@ -75,7 +75,7 @@ function deepCopy(src, dest, modifyList=null){
               for (var srr=0; srr < valueList[kIndex].length;srr++){
                 if (typeof(valueList[kIndex][srr]) =="object"){
                   dest[destKey].push(new Object());
-                  deepCopy(valueList[kIndex][srr],dest[destKey][srr]);
+                  deepCopy(valueList[kIndex][srr],dest[destKey][srr],modifyList);
                 }
                 else { // simple array  
               //    dest[destKey].push(valueList[kIndex][srr]);
@@ -85,7 +85,7 @@ function deepCopy(src, dest, modifyList=null){
             } // isArray
             else if (typeof(valueList[kIndex])=="object"  ){ // element is an object 
               dest[destKey] = {};
-              deepCopy(valueList[kIndex],dest[destKey])
+              deepCopy(valueList[kIndex],dest[destKey],modifyList)
             }
             else {
               dest[destKey] = modifyList? keyModify(dest[destKey],destKey, valueList[kIndex], modifyList ):valueList[kIndex];
