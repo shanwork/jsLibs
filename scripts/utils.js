@@ -12,7 +12,7 @@ APIS
 The function below is used to deep (non reference ) copy an object to another, ie the source and destination
 objects are in totally different location; simply put changing the source object will not affect the destination object and vice versa
 
-Using regression, object.values, typeOf, isArray and regression, this builds the destination object element by element, layer by layer.
+Using object.values, typeOf, isArray and recusrsion, this builds the destination object element by element, layer by layer.
 Works for combination of JSON type objects and Arrays; havent implemented yet for functions.at
 
 July 5 2017 - variation as step 1 to generate test data.
@@ -78,7 +78,8 @@ function deepCopy(src, dest, modifyList=null){
                   deepCopy(valueList[kIndex][srr],dest[destKey][srr]);
                 }
                 else { // simple array  
-                  dest[destKey].push(valueList[kIndex][srr]);
+              //    dest[destKey].push(valueList[kIndex][srr]);
+                  dest[destKey].push(modifyList? keyModify(dest[destKey],destKey, valueList[kIndex][srr], modifyList ):valueList[kIndex][srr]);
                 }
               } // for 
             } // isArray
