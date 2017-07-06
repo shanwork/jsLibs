@@ -1,7 +1,16 @@
 <html>
 <!-- Sample placeholder markup to test the libary --->
     <script src="scripts/utils.js"></script>
-    
+    <h3>deep copy example</h3>
+    <div id='original'></div><br/>
+    After running deepCopy without a modify list, and adding a date field, this is what we get<br/>
+    <div id='simpleDeepCopy'></div><br/>
+    After running deepCopy WITH a modify list, and adding a date field, this is what we get<br/>
+    <div id='modifyList'></div><br/>
+    Modified deep copied object
+    <div id="deepCopyModified"></div>
+    <p>
+    </p>
 <script>
 
 
@@ -56,31 +65,37 @@ var testObj =
         name: 'Anna',
         place: 'Agra',
         animal: 'Antelope',
-        thing :'Almari',
+        thing :'Armchair',
         0:"zero",
         points: 10,
         playerNumber: 1,
-        misc : {
-          item1:'Anteater',
-          item2:'Armchair' ,
-          item3: {
+        alternates : {
+          item1:'Andrew',
+          item2:'Arnold' ,
+          item3:'Accra',
+          item4:'Adis Ababa' ,
+          item5:'African Elephant',
+          item6:'Armadillo' ,
+          item7: {
             ten: "ten" ,
              arr: [ "a", "b", {name:'1',afe:'2'}]
            }
           
         }
     };
+document.getElementById('original').innerHTML = 'This is the element being copied<br/> ' + JSON.stringify(testObj);
 var modifyListNPAT=
 [
     {
        key: 'name',
-       operation: 'concat',
-       operand: '2'
+       operation: 'searchReplace',
+       searchString: 'na',
+       operand: 'nabelle'
     } ,
     {
        key: 'animal',
        operation: 'concat',
-       operand: '32'
+       operand: 's'
     } ,
     {
        key: 'arr',
@@ -98,12 +113,30 @@ var modifyListNPAT=
        operation: '+',
        operand: '1'
     }
+     ,
+    {
+       key: 'item2',
+       operation: 'explicitReplace',
+       operand: 'Armitage'
+    } ,
+    {
+       key: 'item1',
+       operation: 'searchReplace',
+       searchString: 'drew',
+       operand: 'toine'
+    }
     
 ]
 var testNamePlaceAnimalThingArray = [];
 testNamePlaceAnimalThingArray.push(testObj);
+var simpleCopy = {} ;
+nonReferenceCopy(testObj,simpleCopy) ;    
+    
+document.getElementById('simpleDeepCopy').innerHTML = JSON.stringify(simpleCopy);
 var des={};
 nonReferenceCopy(testObj,des,modifyListNPAT);
+document.getElementById('modifyList').innerHTML = JSON.stringify(modifyListNPAT);    
+document.getElementById('deepCopyModified').innerHTML = JSON.stringify(des);    
 testNamePlaceAnimalThingArray.push(des);
 
 for (i = 0; i < 10; i++){

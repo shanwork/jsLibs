@@ -44,6 +44,12 @@ function keyModify(key,keyName, originalValue, modifyList )
                     break;
                case 'concat' :  originalValue +=  keyElement.operand ;
                     break;
+               case 'explicitReplace' :  originalValue = keyElement.operand;
+                    break;
+                case 'searchReplace' :  if(keyElement.searchString && originalValue.indexOf(keyElement.searchString)>=0)
+                     originalValue =  originalValue.replace(keyElement.searchString,  keyElement.operand) ;
+                    break;
+            
                                     }
         }
     })
