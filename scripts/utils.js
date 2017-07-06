@@ -13,9 +13,43 @@ The function below is used to deep (non reference ) copy an object to another, i
 objects are in totally different location; simply put changing the source object will not affect the destination object and vice versa
 
 Using regression, object.values, typeOf, isArray and regression, this builds the destination object element by element, layer by layer.
-Works for combination of JSON type objects and Arrays; havent implemented yet for functions.
+Works for combination of JSON type objects and Arrays; havent implemented yet for functions.at
+
+July 5 2017 - variation as step 1 to generate test data.
+modifyList array of the following object
+{
+   key: <keyName>,
+   operation: <string used in a switch case>
+   operand
+}
+
+This will use binding ultimately, and also include arrays. See the index.js for an example ('Name', 'place' animal thing ) where a deep copy has some keys' values modified and progressively modified objects are pushed into an array
 */
-function deepCopy(src, dest){
+// This function is used by deep copy, passing the key, keyname, existing value and the list of keys to be modified along with how to modify 
+// them. If the key passed is found in the list, the value is modified
+// will figure out how to bind this
+function keyModify(key,keyName, originalValue, modifyList )
+{
+    var returnValue = originalValue;
+    modifyList.forEach(function (keyElement){
+        if (keyElement.key== keyName){
+            switch(keyElement.operation){
+                case '+' : originalValue  += parseFloat(keyElement.operand);
+                    break;
+               case '-' :  originalValue  -= parseFloat(keyElement.operand);
+                    break;
+              case '*' :  originalValue  *= parseFloat(keyElement.operand);
+                    break;
+              case '//' :  originalValue  /= parseFloat(keyElement.operand);
+                    break;
+               case 'concat' :  originalValue +=  keyElement.operand ;
+                    break;
+                                    }
+        }
+    })
+    return originalValue ;
+}
+function deepCopy(src, dest, modifyList=null){
     if (src){
       var objectValues = Object.values(src);
       // small 'variance' from the recursion where the initial check whether the top level object is a JSON object or array
@@ -53,7 +87,7 @@ function deepCopy(src, dest){
               deepCopy(valueList[kIndex],dest[destKey])
             }
             else {
-              dest[destKey] = valueList[kIndex];
+              dest[destKey] = modifyList? keyModify(dest[destKey],destKey, valueList[kIndex], modifyList ):valueList[kIndex];
             }
            }
 

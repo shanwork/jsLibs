@@ -19,9 +19,9 @@ var stats = {
     mean:  average.bind()
 }
 console.log(stats.mean.call(average,[1,2,3,4]));
-function nonReferenceCopy( source, destination){
+function nonReferenceCopy( source, destination,modifyList=null){
    //  deepCopyOrig(source, null, destination); 
-   deepCopy(source,destination); 
+   deepCopy(source,destination,modifyList); 
    
    if (Array.isArray(source))
        {
@@ -58,6 +58,8 @@ var testObj =
         animal: 'Antelope',
         thing :'Almari',
         0:"zero",
+        points: 10,
+        playerNumber: 1,
         misc : {
           item1:'Anteater',
           item2:'Armchair' ,
@@ -68,8 +70,68 @@ var testObj =
           
         }
     };
-var des = {};
-nonReferenceCopy(testObj,des);
+var modifyListNPAT=
+[
+    {
+       key: 'name',
+       operation: 'concat',
+       operand: '2'
+    } ,
+    {
+       key: 'animal',
+       operation: 'concat',
+       operand: '32'
+    },
+    {
+       key: 'points',
+       operation: '*',
+       operand: '1.5'
+    }
+    ,
+    {
+       key: 'playerNumber',
+       operation: '+',
+       operand: '1'
+    }
+    
+]
+var testNamePlaceAnimalThingArray = [];
+testNamePlaceAnimalThingArray.push(testObj);
+var des={};
+nonReferenceCopy(testObj,des,modifyListNPAT);
+testNamePlaceAnimalThingArray.push(des);
+
+for (i = 0; i < 10; i++){
+    var nmodifyListNPAT=
+[
+    {
+       key: 'name',
+       operation: 'concat',
+       operand: i
+    } ,
+    {
+       key: 'animal',
+       operation: 'concat',
+       operand: i + ' ' + i    },
+    {
+       key: 'points',
+       operation: '*',
+       operand: parseFloat(i + '0.05')
+    }
+    ,
+    {
+       key: 'playerNumber',
+       operation: '+',
+       operand: i
+    }
+    
+]
+    var newDes = {};
+
+     nonReferenceCopy(des,newDes,nmodifyListNPAT);
+    testNamePlaceAnimalThingArray.push(newDes);
+}
+    console.log(testNamePlaceAnimalThingArray);
 var arrayX = ['a','b','c', {name: 'eeshan', age: 8, hobbies: ['cricket', 'reading', 'biking']}
              ];
 var errB = [];
