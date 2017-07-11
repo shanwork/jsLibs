@@ -2,11 +2,19 @@
 APIS
 <..> = optional argument
 
-1. deepCopy(src, dest) - non referencial copy from one object (src) to another (dest)
-2. decimalRound(number, decPlaces) - rounds number to 'decPlaces' decimal places
-3. circleArea( radius, <decPlaces>,<roundOff?> ) - area of a circle, given radius
-4. circleCircumference( radius, <decPlaces>,<roundOff?> ) - circumference of a circle, given radius
-5. average(arrayOfNumbers, <decPlaces>,<roundOff?> ) 
+1. deepCopy(src, dest, <modify list>) 
+- non referencial copy from one object (src) to another (dest), 
+- optionally, the cloned object fields can be modified after the copy using an array 'modifyList' 
+  This is a list of objects name (key), operation (string operations - concat, replace, search-replace, simple math operations )
+    
+2. modifyFields(modify list)  added to the Object.prototype 
+  - modifies field values of an object (as above)
+ ### NOTE: at this point, it fails for trying to modify fields of objects cloned by Object.create or new object, because the fields in the cloned object go to the '__proto__' component of the cloned object and my current logic does not yet provision for this
+ 
+3. decimalRound(number, decPlaces) - rounds number to 'decPlaces' decimal places
+4. circleArea( radius, <decPlaces>,<roundOff?> ) - area of a circle, given radius
+5. circleCircumference( radius, <decPlaces>,<roundOff?> ) - circumference of a circle, given radius
+6. average(arrayOfNumbers, <decPlaces>,<roundOff?> ) 
 
 1. deepCopy
 The function below is used to deep (non reference ) copy an object to another, ie the source and destination
@@ -54,6 +62,29 @@ function keyModify(key,keyName, originalValue, modifyList )
         }
     })
     return originalValue ;
+}
+
+Object.prototype.modifyFields = function(modifyList) {
+    let currentObject = this ;
+    if (typeof(currentObject)== "object"){
+        let currentObjectValues = Object.values(currentObject);
+        let currentObjectKeys = Object.keys(currentObject);
+        for (let valueIndex = 0; valueIndex < currentObjectValues.length; valueIndex++) {
+            if (Array.isArray(currentObjectValues[valueIndex])){
+            }
+            else if (typeof(currentObjectValues[valueIndex])=="object"){
+                currentObjectValues[valueIndex].modifyFields(modifyList);
+            }
+            else {
+                let currentKey = currentObjectKeys[valueIndex];
+                let modified =  keyModify(null, currentKey,currentObjectValues[valueIndex],  modifyList);
+                console.log(':::::',currentObject[currentKey]);
+                currentObject[currentKey] = modified;//keyModify(null, currentKey,currentObjectValues[valueIndex],  modifyList);
+                console.log(':::::',currentObject[currentKey]);
+                
+            }
+        }
+    }
 }
 function deepCopy(src, dest, modifyList=null){
     if (src){

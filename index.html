@@ -13,7 +13,10 @@
     </p>
 <script>
 
-
+Object.prototype.owner = '';
+Object.prototype.setOwner = function(stringy){
+    console.log('owned by', stringy)
+}   
 var circleStats = {
     radius: 0.0,
     initialize: function(b) { this.radius  = b; },
@@ -21,6 +24,7 @@ var circleStats = {
     circumference: circleCircumference.bind()
 };
 var newCircle = circleStats;
+newCircle.setOwner('shshsh');
 newCircle.initialize(2);
 console.log(newCircle.area(3,9,true));
 console.log(newCircle.circumference(3));
@@ -29,6 +33,7 @@ var stats = {
 }
 console.log(stats.mean.call(average,[1,2,3,4]));
 function nonReferenceCopy( source, destination,modifyList=null){
+    source.setOwner('monkey');
    //  deepCopyOrig(source, null, destination); 
    deepCopy(source,destination,modifyList); 
    
@@ -173,6 +178,38 @@ for (i = 0; i < 10; i++){
 var arrayX = ['a','b','c', {name: 'eeshan', age: 8, hobbies: ['cricket', 'reading', 'biking']}
              ];
 var errB = [];
+console.log('####### TESTING Object.modify fields');
+let OSource = {
+    name: "goofy",
+    lastName: "dock",
+    iteration: 1
+   
+};
+console.log('>>> Before', OSource);
+
+ var OmodifyList=
+[
+   
+   {
+       key: 'name',
+       operation: 'explicitReplace',
+       operand: 'Donald'
+    }, {
+       key: 'lastName',
+       operation: 'searchReplace',
+       searchString: 'o',
+       operand: 'u'
+    },
+    {
+       key: 'iteration',
+       operation: '+',
+       operand: 1
+    }
+    
+];
+OSource.modifyFields(OmodifyList);
+    console.log('<<<<  After', OSource);
+
 nonReferenceCopy(arrayX,errB);
 var staticData = [
   {
