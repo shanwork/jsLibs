@@ -15,6 +15,9 @@ APIS
 4. circleArea( radius, <decPlaces>,<roundOff?> ) - area of a circle, given radius
 5. circleCircumference( radius, <decPlaces>,<roundOff?> ) - circumference of a circle, given radius
 6. average(arrayOfNumbers, <decPlaces>,<roundOff?> ) 
+7. meanDeviation(arrayOfNumbers, <decPlaces>, <roundOff>)
+8. variance(arrayOfNumbers, <decPlaces>, <roundOff>) 
+9. standardDeviation(arrayOfNumbers, <decPlaces>, <roundOff>) 
 
 1. deepCopy
 The function below is used to deep (non reference ) copy an object to another, ie the source and destination
@@ -170,4 +173,38 @@ var average = function(numbersToAverage, decPlaces=4, roundOff=true){
      if (roundOff)
         return decimalRound(totalElementsSum/parseFloat(totalELements),decPlaces) ;
      return totalElementsSum/parseFloat(totalELements);
+}
+// mean deviation routine
+var meanDeviation = function(numbersToMeanDeviation, decPlaces=4, roundOff=true){
+    let totalELements = numbersToMeanDeviation.length;
+    let totalElementsDiffWithAvg = 0.0;
+    // 1. calculate the average
+    let mean = average(numbersToMeanDeviation,null, false) ;// round off at the end, we keep all decimal places until the last calculation
+    // 2. get the positive difference between each number and the average and add them
+    numbersToMeanDeviation.forEach(function(element) { totalElementsDiffWithAvg += Math.abs  ((element - mean),2);});
+    // 3. mean deviation - divide the above sum by the number of elements
+     if (roundOff)
+        return decimalRound(totalElementsDiffWithAvg/parseFloat(totalELements),decPlaces) ;
+     return totalElementsDiffWithAvg/parseFloat(totalELements);
+}
+// Variance - also called by the standard deviation routine
+var variance = function(numbersToVariance, decPlaces=4, roundOff=true){
+    let totalELements = numbersToVariance.length;
+    let totalElementsMinusAvgSquare = 0.0;
+    // 1. calculate the average
+    let mean = average(numbersToVariance,null, false) ;// round off at the end, we keep all decimal places until the last calculation
+    // 2. square the difference between each number and the average and add them
+    numbersToVariance.forEach(function(element) { totalElementsMinusAvgSquare += Math.pow((element - mean),2);});
+    // 3. Variance - divide the above sum by the number of elements
+     if (roundOff)
+        return decimalRound(totalElementsMinusAvgSquare/parseFloat(totalELements),decPlaces) ;
+     return totalElementsMinusAvgSquare/parseFloat(totalELements);
+}
+// standard deviation
+var standardDeviation = function(numbersToStdDev, decPlaces=4, roundOff=true){
+     // the first three steps are done in the variance method
+     var varianceNum = variance(numbersToStdDev, null, false );// round off at the end, we keep all decimal places until the last calculation
+     if (roundOff)
+        return decimalRound(Math.sqrt(varianceNum),decPlaces) ;
+     return Math.sqrt(varianceNum) ;
 }
