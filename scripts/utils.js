@@ -12,12 +12,20 @@ APIS
  ### NOTE: at this point, it fails for trying to modify fields of objects cloned by Object.create or new object, because the fields in the cloned object go to the '__proto__' component of the cloned object and my current logic does not yet provision for this
  
 3. decimalRound(number, decPlaces) - rounds number to 'decPlaces' decimal places
-4. circleArea( radius, <decPlaces>,<roundOff?> ) - area of a circle, given radius
-5. circleCircumference( radius, <decPlaces>,<roundOff?> ) - circumference of a circle, given radius
-6. average(arrayOfNumbers, <decPlaces>,<roundOff?> ) 
-7. meanDeviation(arrayOfNumbers, <decPlaces>, <roundOff>)
-8. variance(arrayOfNumbers, <decPlaces>, <roundOff>) 
-9. standardDeviation(arrayOfNumbers, <decPlaces>, <roundOff>) 
+
+4. swap(boxedSwapElements, ascending) 
+  - swaps two elements elem1, elem2 boxed in the object 'boxedSwapElements'
+  - ascending = true, swaps them so elem1 < elem2, ascending = false swaps so elem1 > elem2, ascending=null/undefined, swaps them anyway
+
+5. bubble (list, startIndex, endIndex) 
+    - pushes an element in list at startIndex to endIndex, after saving in temp and pushing in between elements forward
+6. circleArea( radius, <decPlaces>,<roundOff?> ) - area of a circle, given radius
+7. circleCircumference( radius, <decPlaces>,<roundOff?> ) - circumference of a circle, given radius
+8. sortList(list, ascending)  - sorts a list ascending (true) or descending (ascending=false). Currently using bubble sort. Quicksort WIP
+9. average(arrayOfNumbers, <decPlaces>,<roundOff?> ) 
+10. meanDeviation(arrayOfNumbers, <decPlaces>, <roundOff>)
+11. variance(arrayOfNumbers, <decPlaces>, <roundOff>) 
+12. standardDeviation(arrayOfNumbers, <decPlaces>, <roundOff>) 
 
 1. deepCopy
 The function below is used to deep (non reference ) copy an object to another, ie the source and destination
@@ -142,12 +150,34 @@ Object.prototype.modifyFields = function(modifyList) {
 }
 
 // Trigo and Math basic functions
+// reused utilities
 // 1. rounding off to x decimal places
 function decimalRound(num, decPlaces)
 {
     var multiplyBy = Math.pow(10, decPlaces);
     num *= multiplyBy;
     return parseFloat(Math.round(num))/ parseFloat(multiplyBy);
+}
+// Swap used mostly in sorting
+function swap( swapObject,  ascending){
+    if ((ascending == true && swapObject.elem1 > swapObject.elem2) ||
+        (ascending == false && swapObject.elem1 < swapObject.elem2) ||
+        (ascending==null || ascending==undefined)) {
+      swapObject.trans = swapObject.elem1;
+      swapObject.elem1 = swapObject.elem2;
+      swapObject.elem2 = swapObject.trans;
+    }
+    return swapObject;
+}
+// bubbling
+function bubble( arrayToBubble, bubbleStartIndex, bubbleEndIndex){
+    let tempValue = arrayToBubble[bubbleStartIndex];
+    for (let x = bubbleStartIndex; x < (bubbleEndIndex); x++){
+        if ((x+1) < arrayToBubble.length){
+            arrayToBubble[x] = arrayToBubble[x+1];
+        }
+    }
+    arrayToBubble[bubbleEndIndex]= tempValue;
 }
 // Circle area and cicumference
 function circleArea(radius,decPlaces=4, roundOff=true)
@@ -165,7 +195,69 @@ var circleCircumference = function(radius, decPlaces=4, roundOff=true)
     
 }
 
-// statistical APIS
+// algorithmic and statistical APIS
+var sortList =  function(numbersToSort, ascending=true){
+    let listLength = numbersToSort.length;
+    switch(listLength){
+        case 0:
+        case 1:
+            return numbersToSort;
+            break;
+        case 2:
+             
+            let swapValues = swap({elem1:numbersToSort[0], elem2:numbersToSort[1], trans:0}, ascending);
+            numbersToSort[0] = swapValues.elem1;
+            numbersToSort[1] = swapValues.elem2;
+            return numbersToSort;
+            break;
+        default:
+            break;
+      }
+    for (let pivotalIndex = 0; pivotalIndex <  listLength; pivotalIndex++){
+        for(remIndex = pivotalIndex+1; remIndex <  listLength; remIndex++){
+            let swapValues = swap({elem1:numbersToSort[pivotalIndex], elem2:numbersToSort[remIndex], trans:0}, ascending);
+            numbersToSort[pivotalIndex] = swapValues.elem1;
+            numbersToSort[remIndex] = swapValues.elem2;
+            
+        }
+    }
+    // quickSort does not work
+    // reverting to bubble sort
+    // ....
+    //pivotElement = numbersToSort[listLength-1];
+    //quickSortRecurse(numbersToSort, pivotElement, listLength-1);
+    return numbersToSort;
+    
+}
+function quickSortRecurse(sortArray, pivot, pivotIndex){
+    if (sortArray.length <= 1)
+        return;
+    let arrIndex = 0;
+    let outOfOrder = false ;
+    while (arrIndex < pivotIndex){
+        if (sortArray[arrIndex] >= pivot ) {
+            bubble(sortArray, arrIndex,pivotIndex );
+            pivotIndex--;
+            outOfOrder=true ;
+            arrIndex = 0;
+            continue;
+        }
+        arrIndex++;
+    }
+     
+    console.log('sorted ', sortArray)
+    if (pivotIndex <= 0 || !outOfOrder)
+        return;
+    let lowerArray = sortArray.slice(0,pivotIndex);
+    let lowerPivot = lowerArray[pivotIndex-1]
+    quickSortRecurse(sortArray, lowerPivot, pivotIndex-1)
+   // quickSortRecurse(lowerArray, lowerPivot, pivotIndex-1)
+    let upperArray = sortArray.slice(pivotIndex+1, sortArray.length);
+    let upperPivot = sortArray[sortArray.length-1]
+  // quickSortRecurse(upperArray, upperPivot, sortArray.length-1);
+     quickSortRecurse(sortArray, upperPivot, sortArray.length-1);
+    
+}
 var average = function(numbersToAverage, decPlaces=4, roundOff=true){
     let totalELements = numbersToAverage.length;
     let totalElementsSum = 0.0;

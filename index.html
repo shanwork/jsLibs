@@ -9,6 +9,7 @@
     <div id='modifyList'></div><br/>
     Modified deep copied object
     <div id="deepCopyModified"></div>
+    <button onclick ="testQuickSort()"></button>
     <p>
     </p>
 <script>
@@ -29,15 +30,39 @@ newCircle.initialize(2);
 console.log(newCircle.area(3,9,true));
 console.log(newCircle.circumference(3));
 var stats = {
+    sort: sortList.bind(),
     mean:  average.bind(),
     meanDeviationValue: meanDeviation.bind(),
     varianceValue: variance.bind(),
     standardDeviationValue: standardDeviation.bind()
 }
-console.log(stats.mean.call(average,[1,2,3,4]));
-console.log(stats.meanDeviationValue.call(meanDeviation,[3, 6, 6, 7, 8, 11, 15, 16]));
-console.log(stats.varianceValue.call(variance,[9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]));
-console.log(stats.standardDeviationValue.call(standardDeviation,[9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]));
+
+console.log('<<<< stats###' );
+    function testQuickSort() { 
+console.log('Asc Sort of [4,3,2,1]: ',
+            stats.sort.call(sortList,[4,3,2,1],true));
+console.log('Asc Sort of [9, 7, 5, 11, 12, 2, 14, 3, 10, 6]: ',
+            stats.sort.call(sortList,[9, 7, 5, 11, 12, 2, 14, 3, 10, 6],true));
+console.log('Asc Sort of [1, 1, 1, 1, 1, 1,1, 1, 1, 1]: ',
+            stats.sort.call(sortList,[1, 1, 1, 1, 1, 1,1, 1, 1, 1],true));
+console.log('Asc Sort of [1, 2, 2, 10, 4, 1,2, 1, 1, 1]: ',
+            stats.sort.call(sortList,[1, 2, 2, 10, 4, 1,2, 1, 1, 1],true));
+console.log('Desc Sort of [1, 2, 2, 10, 4, 1,2, 1, 1, 1]: ',
+            stats.sort.call(sortList,[1, 2, 2, 10, 4, 1,2, 1, 1, 1],false));
+console.log('Desc Sort of [1,2]: ',
+            stats.sort.call(sortList,[1,2],false));
+console.log('Sort of [1,1]: ',
+            stats.sort.call(sortList,[1,1],true));
+    }
+console.log('Average of [1,2,3,4]: ',
+            stats.mean.call(average,[1,2,3,4]));
+console.log('Mean Dev of [3, 6, 6, 7, 8, 11, 15, 16]: ',
+            stats.meanDeviationValue.call(meanDeviation,[3, 6, 6, 7, 8, 11, 15, 16]));
+console.log('Variance of [9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]: ',
+            stats.varianceValue.call(variance,[9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]));
+console.log('Std Dev of [9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]: ',
+            stats.standardDeviationValue.call(standardDeviation,[9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]));
+console.log('##### stats>>>>>' )
 function nonReferenceCopy( source, destination,modifyList=null){
     source.setOwner('monkey');
    //  deepCopyOrig(source, null, destination); 
