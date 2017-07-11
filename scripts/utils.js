@@ -64,28 +64,6 @@ function keyModify(key,keyName, originalValue, modifyList )
     return originalValue ;
 }
 
-Object.prototype.modifyFields = function(modifyList) {
-    let currentObject = this ;
-    if (typeof(currentObject)== "object"){
-        let currentObjectValues = Object.values(currentObject);
-        let currentObjectKeys = Object.keys(currentObject);
-        for (let valueIndex = 0; valueIndex < currentObjectValues.length; valueIndex++) {
-            if (Array.isArray(currentObjectValues[valueIndex])){
-            }
-            else if (typeof(currentObjectValues[valueIndex])=="object"){
-                currentObjectValues[valueIndex].modifyFields(modifyList);
-            }
-            else {
-                let currentKey = currentObjectKeys[valueIndex];
-                let modified =  keyModify(null, currentKey,currentObjectValues[valueIndex],  modifyList);
-                console.log(':::::',currentObject[currentKey]);
-                currentObject[currentKey] = modified;//keyModify(null, currentKey,currentObjectValues[valueIndex],  modifyList);
-                console.log(':::::',currentObject[currentKey]);
-                
-            }
-        }
-    }
-}
 function deepCopy(src, dest, modifyList=null){
     if (src){
       var objectValues = Object.values(src);
@@ -136,6 +114,30 @@ function deepCopy(src, dest, modifyList=null){
       }
    } // if src
 }
+
+Object.prototype.modifyFields = function(modifyList) {
+    let currentObject = this ;
+    if (typeof(currentObject)== "object"){
+        let currentObjectValues = Object.values(currentObject);
+        let currentObjectKeys = Object.keys(currentObject);
+        for (let valueIndex = 0; valueIndex < currentObjectValues.length; valueIndex++) {
+            if (Array.isArray(currentObjectValues[valueIndex])){
+            }
+            else if (typeof(currentObjectValues[valueIndex])=="object"){
+                currentObjectValues[valueIndex].modifyFields(modifyList);
+            }
+            else {
+                let currentKey = currentObjectKeys[valueIndex];
+                let modified =  keyModify(null, currentKey,currentObjectValues[valueIndex],  modifyList);
+                console.log(':::::',currentObject[currentKey]);
+                currentObject[currentKey] = modified;//keyModify(null, currentKey,currentObjectValues[valueIndex],  modifyList);
+                console.log(':::::',currentObject[currentKey]);
+                
+            }
+        }
+    }
+}
+
 // Trigo and Math basic functions
 // 1. rounding off to x decimal places
 function decimalRound(num, decPlaces)
