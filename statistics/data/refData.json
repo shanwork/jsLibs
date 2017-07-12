@@ -1,0 +1,17 @@
+﻿var refMenuItems = [
+    { 'menuItem': 'margarita pizza', 'size': 'personal',   'unitCost': '7.99',  } ,
+   { 'menuItem': 'margarita pizza', 'size': 'small',   'unitCost': '11.99',  } ,
+   { 'menuItem': 'margarita pizza', 'size': 'medium',   'unitCost': '13.99',  } ,
+   { 'menuItem': 'margarita pizza', 'size': 'large',   'unitCost': '15.99',  } ,
+   { 'menuItem': 'margarita pizza', 'size': 'extra Large',   'unitCost': '17.99',  } ,
+     { 'menuItem': 'veggie lovers pizza', 'size': 'personal',   'unitCost': '8.99',  } ,
+   { 'menuItem': 'veggie lovers pizza', 'size': 'small',   'unitCost': '12.99',  } ,
+   { 'menuItem': 'veggie lovers pizza', 'size': 'medium',   'unitCost': '14.99',  } ,
+   { 'menuItem': 'veggie lovers pizza', 'size': 'large',   'unitCost': '16.99',  } ,
+   { 'menuItem': 'veggie lovers pizza', 'size': 'extra Large',   'unitCost': '18.99',  }  ,
+     { 'menuItem': 'meat lovers pizza', 'size': 'personal',   'unitCost': '9.49',  } ,
+   { 'menuItem': 'meat lovers pizza', 'size': 'small',   'unitCost': '13.49',  } ,
+   { 'menuItem': 'meat lovers pizza', 'size': 'medium',   'unitCost': '15.49',  } ,
+   { 'menuItem': 'meat lovers pizza', 'size': 'large',   'unitCost': '17.49',  } ,
+   { 'menuItem': 'meat lovers pizza', 'size': 'extra Large',   'unitCost': '19.49',  }
+];

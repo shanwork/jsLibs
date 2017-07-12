@@ -1,0 +1,4 @@
+﻿/* Put your css in here */
+.dashed {
+    stroke-dasharray: 5,5;
+}
