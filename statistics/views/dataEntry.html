@@ -1,0 +1,58 @@
+ <label >Seed Object</label>{{seedObjectString}}
+    <br/>
+    <label for="sameDayCloneText">Number of duplicates to generate per day</label><input id="sameDayCloneText" ng-model="sameDayCloneNumber" />
+    <label for="daysToRepeatText">Number of days</label><input id="daysToRepeatText" ng-model="daysToRepeatNumber" />
+    <input type="button" class="btn btn-primary" value="Generate Test Data" ng-click="generateTestData()"/>
+         <table class="table table-striped" >
+            <tr>
+                <td colspan=9 style="border: 2px solid brown; background-color:beige; border-radius:3px;"><nvd3 options="options" data="allDaysData.data" class="with-3d-shadow with-transitions"></nvd3></td>
+            </tr>
+            <tr ng-repeat="todaysOrderList in allDaysData.dailyOrders track by $index" style="margin-top:5px;border: 2px outset black">
+                <td style="width:50%; ">
+                   <table  style="border: 2px solid brown; background-color:sandyBrown; border-radius:3px;">
+                     <tr>
+                         <td>Date:</td>
+                         <th> {{todaysOrderList.date}} &nbsp;&nbsp;</th>
+                        <td>Total Revenue:</td>
+                         <th>{{todaysOrderList.totalDailyRevenue }}</th>
+                        <td>Item quantities:</td>
+                         <th>{{todaysOrderList.totalQuantitiesSold}}</th>
+                        <td>Total Profit:</td>
+                         <th>{{todaysOrderList.totalDailyProfit }}&nbsp;</th>
+                        <td>
+                         <input type="button" ng-show=false class="btn btn-primary" value="+/-" ng-click="(todaysOrderList.expand= !todaysOrderList.expand)" />
+                        </td>
+                    </tr>
+                    <tr><td colspan=9 style="border: 2px solid brown; background-color:beige; border-radius:3px;"><nvd3 options="options" data="todaysOrderList.data" class="with-3d-shadow with-transitions"></nvd3></td></tr>
+                  </table>
+                </td>
+                <td>
+                 <table class="table table-striped" width="100%" ng-show=true> <!--todaysOrderList.expand -->
+                   <tr>
+                        <th>Item</th>
+                        <th>Size</th>
+                        <th>Quantity</th>
+                        <th>Unit Cost</th>
+                        <th>Total Cost</th>
+                        <th>Total Profit</th>
+                    </tr>
+                   <tr ng-repeat="todaysOrder in todaysOrderList.orders track by $index">
+                        <td>{{todaysOrder.menuItem}}</td>
+                        <td>{{todaysOrder.size}}</td>
+                        <td>{{todaysOrder.quantitySold}}</td>
+                        <td>{{todaysOrder.unitCost}}</td>
+                        <td>{{todaysOrder.totalCost}}</td>
+                        <td>{{todaysOrder.totalProfit}}</td>
+                        
+                    </tr>
+                
+        </table>
+                       
+                  
+                   
+                    
+               
+                </td>
+            </tr>
+        </table>
+   

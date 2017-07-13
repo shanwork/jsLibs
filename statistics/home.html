@@ -10,63 +10,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.css" />
     
 </head>
-<body ng-controller="StatisticalControl">
+<body >
     <div id="top-left-link"><a href="../index.html">go back to Parent Index page....</a></div>
     <h3> Generation of Test Data Statistics</h3>
     <h4>Pizzeria Sales</h4>
-    <label >Seed Object</label>{{seedObjectString}}
-    <br/>
-    <label for="sameDayCloneText">Number of duplicates to generate per day</label><input id="sameDayCloneText" ng-model="sameDayCloneNumber" />
-    <label for="daysToRepeatText">Number of days</label><input id="daysToRepeatText" ng-model="daysToRepeatNumber" />
-    <input type="button" class="btn btn-primary" value="Generate Test Data" ng-click="generateTestData()"/>
-         <table class="table table-striped" style="padding:0px" border="1">
-            <tr ng-repeat="todaysOrderList in allDaysData track by $index">
-                <td style="width:50%; ">
-                   <table  style="border: 2px solid brown; background-color:sandyBrown; border-radius:3px;">
-                     <tr>
-                         <td>Date:</td>
-                         <th> {{todaysOrderList.date}} &nbsp;&nbsp;</th>
-                        <td>Total Revenue:</td>
-                         <th>{{todaysOrderList.totalDailyRevenue }}</th>
-                        <td>Item quantities:</td>
-                         <th>{{todaysOrderList.totalQuantitiesSold}}</th>
-                        <td>Total Profit:</td>
-                         <th>{{todaysOrderList.totalDailyProfit }}&nbsp;</th>
-                        <td>
-                         <input type="button" class="btn btn-primary" value="+/-" ng-click="(todaysOrderList.expand= !todaysOrderList.expand)" />
-                        </td>
-                    </tr>
-                    <tr><td colspan=9 style="border: 2px solid brown; background-color:beige; border-radius:3px;"><nvd3 options="options" data="todaysOrderList.data" class="with-3d-shadow with-transitions"></nvd3></td></tr>
-                  </table>
-                </td>
-                <td>
-                 <table class="table table-striped" width="100%" ng-show=todaysOrderList.expand>
-                   <tr ng-repeat="todaysOrder in todaysOrderList.orders track by $index">
-                        <td>{{todaysOrder.menuItem}}</td>
-                        <td>{{todaysOrder.size}}</td>
-                        <td>{{todaysOrder.quantitySold}}</td>
-                        <td>{{todaysOrder.unitCost}}</td>
-                        <td>{{todaysOrder.totalProfit}}</td>
-                        <td>{{todaysOrder.totalCost}}</td>
-                    </tr>
-                
-        </table>
-                       
-                  
-                   
-                    
-               
-                </td>
-            </tr>
-        </table>
-   
+    <div data-ng-view></div>
+    
    
     <script src="data/refData.json"></script>
     <script src="scripts/utils.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-nvd3/1.0.5/angular-nvd3.min.js"></script>
     <script src="scripts/app.js"></script>
+    <script src="scripts/pages/DataEntryController.js"></script>
 </body>
 </html>
