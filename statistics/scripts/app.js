@@ -49,7 +49,24 @@ test_stats_app.controller('StatisticalControl', function ($scope, $interval) {
                 orders : [] // orde items
             } ;
             todaysOrdersList.date = $scope.seedObject.date ;
-                
+              todaysOrdersList.data     =[
+                     { values: [], 
+                        key: 'quantity', //key  - the name of the series.
+                        color: '#ff7f0e',
+                        strokeWidth: 2,
+                        classed: 'dashed'
+                    },
+                    {
+                        values:  [],
+                        key: 'Cost',
+                        color: '#2ca02c'
+                    },
+                    {
+                        values: [],
+                        key: 'Profit',
+                        color: '#7777ff'
+                    }
+                ];    
             if (days == 0 ) { // copy the seed object as is for the very first record
                 var initObject = {};
                 // we dont push seed object, but a deepcopy of the same because otherwise, a REFERENCE of seedboject is pushed, 
@@ -63,6 +80,9 @@ test_stats_app.controller('StatisticalControl', function ($scope, $interval) {
                 todaysOrdersList.totalDailyProfit += initObject.totalProfit;
                 
                 todaysOrdersList.orders.push(initObject);
+                todaysOrdersList.data[0].values.push({x:1, y:initObject.quantitySold})  ;
+            todaysOrdersList.data[1].values.push({x:1, y:initObject.totalCost})  ;
+            todaysOrdersList.data[2].values.push({x:1, y:initObject.totalProfit}) ;
             }
             else 
                 dayCloneStartindex = 0;
@@ -125,6 +145,10 @@ test_stats_app.controller('StatisticalControl', function ($scope, $interval) {
                 else 
                  
                     todaysOrdersList.orders.push(testCopy);
+            todaysOrdersList.data[0].values.push({x:(index+1), y:testCopy.quantitySold})  ;
+            todaysOrdersList.data[1].values.push({x:(index+1), y:testCopy.totalCost})  ;
+            todaysOrdersList.data[2].values.push({x:(index+1), y:testCopy.totalProfit}) ;
+             
             } // day clone loop
             todaysOrdersList.totalDailyRevenue = decimalRound(todaysOrdersList.totalDailyRevenue,2);
             todaysOrdersList.totalDailyProfit = decimalRound(todaysOrdersList.totalDailyProfit,2);
@@ -173,13 +197,13 @@ test_stats_app.controller('StatisticalControl', function ($scope, $interval) {
     $scope.options = {
         chart: {
             type: 'lineChart',
-            height: 450,
-            width: 800,
+            height: 250,
+            width: 500,
             margin: {
-                top: 20,
+                top: 5,
                 right: 20,
                 bottom: 40,
-                left: 55
+                left: 15
             },
             x: function (d) { return d.x; },
             y: function (d) { return d.y; },
@@ -191,13 +215,11 @@ test_stats_app.controller('StatisticalControl', function ($scope, $interval) {
                 tooltipHide: function (e) { console.log("tooltipHide"); }
             },
             xAxis: {
-                axisLabel: 'Index'
+                axisLabel: 'Days'
             },
             yAxis: {
-                axisLabel: 'Random Generated',
-                tickFormat: function (d) {
-                    return d3.format('.02f')(d);
-                },
+                axisLabel: 'variable',
+                
                 axisLabelDistance: -10
             },
             callback: function (chart) {
@@ -205,11 +227,11 @@ test_stats_app.controller('StatisticalControl', function ($scope, $interval) {
             }
         },
         title: {
-            enable: true,
+            enable: false,
             text: 'Demo showing NVD3 Angular with Interval for animation'
         },
         subtitle: {
-            enable: true,
+            enable: false,
             text: 'Using the $interval directive calling back the chart data generation, drawing a snapshot of three plots and the average',
             css: {
                 'text-align': 'center',
