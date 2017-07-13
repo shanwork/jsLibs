@@ -47,6 +47,10 @@ This will use binding ultimately, and also include arrays. See the index.js for 
 // This function is used by deep copy, passing the key, keyname, existing value and the list of keys to be modified along with how to modify 
 // them. If the key passed is found in the list, the value is modified
 // will figure out how to bind this
+function addDateEntity(dateObject, quantity){
+    let newDateObject = new Date(dateObject);
+    return newDateObject.addDays(quantity);
+}
 function keyModify(key,keyName, originalValue, modifyList )
 {
     var returnValue = originalValue;

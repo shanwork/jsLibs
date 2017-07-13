@@ -4,57 +4,136 @@ test_stats_app.controller('StatisticalControl', function ($scope, $interval) {
     $scope.init = function () {
         $scope.sameDayCloneNumber = 10;
         $scope.daysToRepeatNumber = 2;
-        $scope.initialUnits = 125;
+        $scope.initialUnits = 3;
         $scope.maxUnits = 200;
         $scope.minUnits = 2;
-        $scope.initDate =  new Date('2017-07-05')
-        $scope.seedObject = { 'menuItem': 'margarita pizza', 'size': 'personal', 'sale': $scope.initialUnits + " units", 'unitCost': '7.99', 'date': "'" + $scope.initDate + "'" };
+        $scope.initDate =  new Date('2017-07-05').toDateString();
+        $scope.seedObject = { 'menuItem': 'margarita pizza', 'size': 'personal', 'quantitySold': $scope.initialUnits  , 'unitCost': '7.99', 'date': "'" + $scope.initDate + "'", 'postTaxProfit':'1.25' };
         $scope.seedObjectString = JSON.stringify($scope.seedObject);
         $scope.allDaysData = [];
     }
     $scope.init();
-    $scope.generateTestData = function () {
-        let visitedNumbers = [];
-        $scope.todaysOrders = [];
-        $scope.seedObject.totalCost = decimalRound($scope.initialUnits * parseFloat($scope.seedObject.unitCost),2);
-        $scope.todaysOrders.push($scope.seedObject);
-       
-        for (let index = 1; index < $scope.sameDayCloneNumber; index++)
-        {
-           
-                let jsonIndex = parseInt(Math.random() * (refMenuItems.length - 1));
-             
-            let modifyList = [
-                 {
-                     key: 'menuItem',
-                     operation: 'explicitReplace',
-                     searchString: 'na',
-                     operand: refMenuItems[jsonIndex].menuItem
-                 },
-            {
-                key: 'size',
-                operation: 'explicitReplace',
-                searchString: 'na',
-                operand: refMenuItems[jsonIndex].size
-            },
-            {
-                key: 'sale',
-                operation: 'explicitReplace',
-                searchString: 'na',
-                operand: parseInt(Math.random() * 200) + ' units'
-            },
-            {
-                key: 'unitCost',
-                operation: 'explicitReplace',
-                searchString: 'na',
-                operand: refMenuItems[jsonIndex].unitCost
+    // have no clue why addDays doesnt work with angular
+    $scope.addDate = function(dateItem, day=1, monthP=1, yearP=1){
+        let test = new Date(dateItem);
+        let date = test.getDate()  ;
+        
+        let month = test.getMonth()+1;
+        let year = test.getFullYear();
+        date += day;
+        // to cut short stuff, let's just go with 28
+        if (date > 28){
+            date =1 ;
+            month++;
+            if (month > 12){
+                year++;
+                month = 1;
             }
-            ];
-            let testCopy = {};
-            deepCopy($scope.seedObject, testCopy, modifyList);
-            testCopy.totalCost = decimalRound(parseFloat(testCopy.sale.replace(' units', '')) * parseFloat(testCopy.unitCost), 2);
-            $scope.todaysOrders.push(testCopy);
         }
+        return new Date(year + '-' + month + '-' + date );
+        
+    }
+    $scope.generateTestData = function () {
+        // 2 dimensional data -
+        // order data per day x orders TIMES y days
+        
+         
+        let dayCloneStartindex=1;
+        for (let days = 0 ; days < $scope.daysToRepeatNumber; days++){
+            let todaysOrdersList = {
+                expand: false,// UI toggle
+                date: '',
+                totalDailyRevenue: 0.0, // adds total cost of each order item
+                totalDailyProfit: 0.0, // adds total cost of each order item
+                totalQuantitiesSold: 0, // adds quantity of each order item
+                orders : [] // orde items
+            } ;
+            todaysOrdersList.date = $scope.seedObject.date ;
+                
+            if (days == 0 ) { // copy the seed object as is for the very first record
+                var initObject = {};
+                // we dont push seed object, but a deepcopy of the same because otherwise, a REFERENCE of seedboject is pushed, 
+                // so when the date changes, it would reflect in all pushed instances of an uncopied seed
+                // ### Note for deep copy and modifyList go to util.js for documentation
+                deepCopy($scope.seedObject, initObject);
+                initObject.totalCost = decimalRound($scope.initialUnits * parseFloat($scope.seedObject.unitCost),2);
+                initObject.totalProfit = decimalRound(parseFloat(initObject.quantitySold) * parseFloat(initObject.postTaxProfit), 2);
+                todaysOrdersList.totalQuantitiesSold += initObject.quantitySold;
+                todaysOrdersList.totalDailyRevenue += initObject.totalCost;
+                todaysOrdersList.totalDailyProfit += initObject.totalProfit;
+                
+                todaysOrdersList.orders.push(initObject);
+            }
+            else 
+                dayCloneStartindex = 0;
+            for (let index = dayCloneStartindex; index < $scope.sameDayCloneNumber; index++)
+            {
+                let jsonIndex = parseInt(Math.random() * (refMenuItems.length - 1));
+                let modifyList = [
+                     {
+                         key: 'menuItem',
+                         operation: 'explicitReplace',
+                         searchString: 'na',
+                         operand: refMenuItems[jsonIndex].menuItem
+                     },
+                    {
+                        key: 'size',
+                        operation: 'explicitReplace',
+                        searchString: 'na',
+                        operand: refMenuItems[jsonIndex].size
+                    },
+                    {
+                        key: 'quantitySold',
+                        operation: 'explicitReplace',
+                        searchString: 'na',
+                        operand: parseInt(Math.random() * 5) 
+                    },
+                    {
+                        key: 'unitCost',
+                        operation: 'explicitReplace',
+                        searchString: 'na',
+                        operand: refMenuItems[jsonIndex].unitCost
+                    },
+                    ,
+                    {
+                        key: 'postTaxProfit',
+                        operation: 'explicitReplace',
+                        searchString: 'na',
+                        operand: refMenuItems[jsonIndex].postTaxProfit
+                    }
+                ];
+                let testCopy = {};
+                deepCopy($scope.seedObject, testCopy, modifyList);
+                if(testCopy.quantitySold==0)
+                    testCopy.quantitySold=1 ;
+                
+                testCopy.totalCost = decimalRound(parseFloat(testCopy.quantitySold) * parseFloat(testCopy.unitCost), 2);
+                testCopy.totalProfit = decimalRound(parseFloat(testCopy.quantitySold) * parseFloat(testCopy.postTaxProfit), 2);
+                todaysOrdersList.totalDailyRevenue += testCopy.totalCost;
+                todaysOrdersList.totalDailyProfit += testCopy.totalProfit;
+                console.log('total quanity, ', todaysOrdersList.totalQuantitiesSold, ' this order ', testCopy.menuItem,' quantity, ', testCopy.quantitySold)
+                todaysOrdersList.totalQuantitiesSold += testCopy.quantitySold;
+               let foundItem = todaysOrdersList.orders.find(function(itemToScan){
+                    return (itemToScan.menuItem == testCopy.menuItem && itemToScan.size==testCopy.size)
+                })
+                if (foundItem )
+                    {
+                        foundItem.quantitySold  += parseInt(testCopy.quantitySold);
+                        foundItem.totalCost  += parseFloat(testCopy.totalCost);
+                        foundItem.totalProfit  += parseFloat(testCopy.totalProfit);
+                    }
+                else 
+                 
+                    todaysOrdersList.orders.push(testCopy);
+            } // day clone loop
+            todaysOrdersList.totalDailyRevenue = decimalRound(todaysOrdersList.totalDailyRevenue,2);
+            todaysOrdersList.totalDailyProfit = decimalRound(todaysOrdersList.totalDailyProfit,2);
+            $scope.allDaysData.push(todaysOrdersList);
+             var newdate = $scope.addDate($scope.seedObject.date) ;
+             
+              $scope.seedObject.date = "'" +  newdate.toDateString() + "'";
+           // $scope.seedObject.date.addDays(1);
+        } 
 
         /*
         let modifyList = [
