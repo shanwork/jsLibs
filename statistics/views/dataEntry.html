@@ -4,7 +4,7 @@ A proof of concept for Developers (as on {{todaysDate}} ), this small applicatio
 <ul ng-show='showReadme' style="border: 2px inset gray; background-color: #EEEEFE; margin: 0px 100px 0px  20px; padding: 5px 15px 10px  21px;">
    <li>Look at the couple of label-input pairs and the button, and the JSON object below:</li>
    <li>Taking general x number orders of pizza daily ( 'Number of orders to generate per day' ) spread over a span of y ( 'Number of days' ) days it generates a set of data.</li>
-   <li>It takes a sample object ('seed object'), clones it 'x' * 'y' times, each object has certain key elements modified</li> 
+   <li>It takes a sample object ('seed object'), clones it 'x' * 'y' times, each object has certain key elements randomly modified using 'Math.random'</li> 
    <li>Clicking 'Generate Test Data' displays a summary graph (directly below) of daily revenues, quantities, 'post tax profits, and their respective average</li>
    <li>It also generates 'y sets of data showing a summary row at the top of each row, and below, a graph of order items daily on the left, and the tabulated data on the right</li>
     <li>Technically, this app is an Angularjs 1.x SPA. </li>
@@ -18,8 +18,8 @@ A proof of concept for Developers (as on {{todaysDate}} ), this small applicatio
 <li style="font-weight:bold"> **This app still is in 'WIP' mode. Also the data takes a while to load for more days, because of the graph rendering
     <ul style="font-weight:normal">
       <li>Less hard coding</li>
-      <li>Less hard coding</li>
-      <li>'coming soon' erases current data</li>
+      <li>More raw data in 'refData.json'</li>
+      <li>'coming soon' erases current data. Other 'bugs'.</li>
       <li>Moving the readme to a modal, perhaps?</li>
       <li>Styling refinements, moving the 'style=' into css</li>
         <li>I hope to build the stats view soon, atleast get some basic stuff in, then customize and make more flexible as I go along</li>
