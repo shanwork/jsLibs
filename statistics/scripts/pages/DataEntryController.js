@@ -1,6 +1,7 @@
 angular.module('test_stats_app').controller('DataEntryController',function($scope, $rootScope ){
     'use strict'
-     $scope.addDate = function(dateItem, day=1, monthP=1, yearP=1){
+   // have no clue why addDays doesnt work with angular
+   $scope.addDate = function(dateItem, day=1, monthP=1, yearP=1){
         let test = new Date(dateItem);
         let date = test.getDate()  ;
         
@@ -8,7 +9,12 @@ angular.module('test_stats_app').controller('DataEntryController',function($scop
         let year = test.getFullYear();
         date += day;
         // to cut short stuff, let's just go with 28
-        if (date > 28){
+        if (
+            ((month==1 || month==3 || month==5 || month == 7 || month == 8 || month == 10 || month == 12 ) &&  date > 31)||
+            (month == 2 && year% 4 != 0 && date> 28) ||
+            (month == 2 && date > 29 ) ||
+             date > 30
+        ){
             date =1 ;
             month++;
             if (month > 12){
@@ -22,13 +28,14 @@ angular.module('test_stats_app').controller('DataEntryController',function($scop
     
      $scope.init = function () {
         $scope.sameDayCloneNumber = 10;
-        $scope.daysToRepeatNumber = 14;
+        $scope.daysToRepeatNumber = 100;
         $scope.initialUnits = 3;
         $scope.maxUnits = 200;
         $scope.minUnits = 14;
-        $scope.initDate =  new Date('2017-07-05').toDateString();
+        $scope.initDate =  new Date('2000-02-15').toDateString();
         $scope.seedObject = { 'menuItem': 'margarita pizza', 'size': 'personal', 'quantitySold': $scope.initialUnits  , 'unitCost': '7.99', 'date': "'" + $scope.initDate + "'", 'postTaxProfit':'1.25' };
         $scope.seedObjectString = JSON.stringify($scope.seedObject);
+    
         $scope.allDaysData = { 
             initialDate : $scope.initDate,
             endDate: $scope.addDate($scope.initDate, $scope.daysToRepeatNumber).toDateString(),
@@ -52,13 +59,27 @@ angular.module('test_stats_app').controller('DataEntryController',function($scop
                         values: [],
                         key: 'Profits',
                         color: '#7777ff'
+                    },{
+                        values: [],
+                        key: 'Average Revenue',
+                        color: '#ffee77',
+                        classed: 'dotted'
+                    },{
+                        values: [],
+                        key: 'Average Quantity',
+                        color: '#ff77ee',
+                        classed: 'dashed'
+                    },{
+                        values: [],
+                        key: 'Average Profil',
+                        color: '#eeff77',
+                        classed: 'dotted'
                     }
                 ]   
         };
     }
     $scope.init();
-    // have no clue why addDays doesnt work with angular
-   $scope.generateTestData = function () {
+  $scope.generateTestData = function () {
         // 2 dimensional data -
         // order data per day x orders TIMES y days
          $scope.allDaysData.dailyOrders = [];
@@ -81,6 +102,24 @@ angular.module('test_stats_app').controller('DataEntryController',function($scop
                         values: [],
                         key: 'Profits',
                         color: '#7777ff'
+                    },{
+                        values: [],
+                        key: 'Average Revenue',
+                        color: '#ff1177',
+                        strokeWidth:2,
+                        classed: 'dashed'
+                    },{
+                        values: [],
+                        key: 'Average Quantity',
+                        color: '#ff7711',
+                        strokeWidth:3,
+                        classed: 'dashed'
+                    },{
+                        values: [],
+                        key: 'Average Profit',
+                        color: '#11ff77',
+                        strokeWidth:4,
+                        classed: 'dashed'
                     }
                 ];   
          
@@ -217,43 +256,92 @@ angular.module('test_stats_app').controller('DataEntryController',function($scop
             $scope.allDaysData.endDate = newdate.toDateString();
            // $scope.seedObject.date.addDays(1);
         } 
-
-        /*
-        let modifyList = [
-            {
-                key: 'menuItem',
-                operation: 'explicitReplace',
-                searchString: 'na',
-                operand: 'veggie lovers'
-            },
-            {
-                key: 'size',
-                operation: 'explicitReplace',
-                searchString: 'na',
-                operand: 'small'
-            },
-            {
-                key: 'sale',
-                operation: 'explicitReplace',
-                searchString: 'na',
-                operand: '75 units'
-            },
-            {
-                key: 'unitCost',
-                operation: 'explicitReplace',
-                searchString: 'na',
-                operand: '$11.99'
-            }
-        ];
-        $scope.todaysOrders = [];
-        $scope.todaysOrders.push($scope.seedObject);
-        let testCopy = {};
-        deepCopy($scope.seedObject, testCopy, modifyList);
-        $scope.todaysOrders.push(testCopy);
-        */
-       // $scope.allDaysData.push()
+        var averageRevenues = [];
+        $scope.allDaysData.data[0].values.forEach(function(revenue){
+            averageRevenues.push(revenue.y)
+        });
+        let revenueAverage = average(averageRevenues, 2, true ) ;
+        for (let rev = 0; rev < averageRevenues.length; rev++){
+            $scope.allDaysData.data[3].values.push({x:rev, y:revenueAverage});
+        }
+        var averageQuantities = [];
+        $scope.allDaysData.data[1].values.forEach(function(quantity){
+            averageQuantities.push(quantity.y)
+        });
+        let quantityAverage = average(averageQuantities, 2, true ) ;
+        for (let rev = 0; rev < averageQuantities.length; rev++){
+            $scope.allDaysData.data[4].values.push({x:rev, y:quantityAverage});
+        }
+        var averageProfits = [];
+        $scope.allDaysData.data[2].values.forEach(function(quantity){
+            averageProfits.push(quantity.y)
+        });
+        let profitAverage = average(averageProfits, 2, true ) ;
+        for (let rev = 0; rev < averageProfits.length; rev++){
+            $scope.allDaysData.data[5].values.push({x:rev, y:profitAverage});
+        }
+             /*
+          average(arrayOfNumbers, <decPlaces>,<roundOff?> ) 
+10. meanDeviation(arrayOfNumbers, <decPlaces>, <roundOff>)
+11. variance(arrayOfNumbers, <decPlaces>, <roundOff>) 
+12. standardDeviation(arrayOfNumbers, <decPlaces>, <roundOff>)
+         */
+    
     }
-    $scope.options = {
+    $scope.dayRangeOptions = {
+        chart: {
+            type: 'lineChart',
+            height: 350,
+            width: 800,
+            margin: {
+                top: 5,
+                right: 20,
+                bottom: 20,
+                left: 15
+            },
+            x: function (d) { return d.x; },
+            y: function (d) { return d.y; },
+            useInteractiveGuideline: true,
+            dispatch: {
+                stateChange: function (e) { console.log("stateChange"); },
+                changeState: function (e) { console.log("changeState"); },
+                tooltipShow: function (e) { console.log("tooltipShow"); },
+                tooltipHide: function (e) { console.log("tooltipHide"); }
+            },
+            xAxis: {
+                axisLabel: 'Days'
+            },
+            yAxis: {
+                axisLabel: 'variable',
+                
+                axisLabelDistance: -10
+            },
+            callback: function (chart) {
+                console.log("!!! lineChart callback !!!");
+            }
+        },
+        title: {
+            enable: false,
+            text: 'Demo showing NVD3 Angular with Interval for animation'
+        },
+        subtitle: {
+            enable: false,
+            text: 'Using the $interval directive calling back the chart data generation, drawing a snapshot of three plots and the average',
+            css: {
+                'text-align': 'center',
+                'margin': '10px 13px 0px 7px'
+            }
+        },
+        caption: {
+            enable: false,
+            html: '<b>Figure 1.</b> Lorem ipsum dolor sit amet, at eam blandit sadipscing, <span style="text-decoration: underline;">vim adhuc sanctus disputando ex</span>, cu usu affert alienum urbanitas. <i>Cum in purto erat, mea ne nominavi persecuti reformidans.</i> Docendi blandit abhorreant ea has, minim tantas alterum pro eu. <span style="color: darkred;">Exerci graeci ad vix, elit tacimates ea duo</span>. Id mel eruditi fuisset. Stet vidit patrioque in pro, eum ex veri verterem abhorreant, id unum oportere intellegam nec<sup>[1, <a href="https://github.com/krispo/angular-nvd3" target="_blank">2</a>, 3]</sup>.',
+            css: {
+                'text-align': 'justify',
+                'margin': '10px 13px 0px 7px'
+            }
+        }
+    };
+    $scope.dailyOrderOptions = {
         chart: {
             type: 'lineChart',
             height: 250,

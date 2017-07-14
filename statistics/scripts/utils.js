@@ -22,7 +22,7 @@ APIS
 6. circleArea( radius, <decPlaces>,<roundOff?> ) - area of a circle, given radius
 7. circleCircumference( radius, <decPlaces>,<roundOff?> ) - circumference of a circle, given radius
 8. sortList(list, ascending)  - sorts a list ascending (true) or descending (ascending=false). Currently using bubble sort. Quicksort WIP
-9. average(arrayOfNumbers, <decPlaces>,<roundOff?> ) 
+9.  average(arrayOfNumbers, <decPlaces>,<roundOff?> ) 
 10. meanDeviation(arrayOfNumbers, <decPlaces>, <roundOff>)
 11. variance(arrayOfNumbers, <decPlaces>, <roundOff>) 
 12. standardDeviation(arrayOfNumbers, <decPlaces>, <roundOff>) 
