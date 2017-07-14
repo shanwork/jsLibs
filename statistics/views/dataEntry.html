@@ -5,7 +5,9 @@
     <input type="button" class="btn btn-primary" value="Generate Test Data" ng-click="generateTestData()"/>
          <table class="table table-striped" >
             <tr>
-                <td colspan=9 style="border: 2px solid brown; background-color:beige; border-radius:3px;"><nvd3 options="options" data="allDaysData.data" class="with-3d-shadow with-transitions"></nvd3></td>
+                <td colspan=9 style="border: 2px solid brown; background-color:beige; border-radius:3px;">
+                <h5>Data from {{allDaysData.initialDate}} to {{allDaysData.endDate}}</h5>    
+                <nvd3 options="options" data="allDaysData.data" class="with-3d-shadow with-transitions"></nvd3></td>
             </tr>
             <tr ng-repeat="todaysOrderList in allDaysData.dailyOrders track by $index" style="margin-top:5px;border: 2px outset black">
                 <td style="width:50%; ">

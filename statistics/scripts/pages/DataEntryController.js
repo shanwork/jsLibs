@@ -1,15 +1,37 @@
 angular.module('test_stats_app').controller('DataEntryController',function($scope, $rootScope ){
+    'use strict'
+     $scope.addDate = function(dateItem, day=1, monthP=1, yearP=1){
+        let test = new Date(dateItem);
+        let date = test.getDate()  ;
+        
+        let month = test.getMonth()+1;
+        let year = test.getFullYear();
+        date += day;
+        // to cut short stuff, let's just go with 28
+        if (date > 28){
+            date =1 ;
+            month++;
+            if (month > 12){
+                year++;
+                month = 1;
+            }
+        }
+        return new Date(year + '-' + month + '-' + date );
+        
+    }
     
      $scope.init = function () {
         $scope.sameDayCloneNumber = 10;
         $scope.daysToRepeatNumber = 14;
         $scope.initialUnits = 3;
         $scope.maxUnits = 200;
-        $scope.minUnits = 2;
+        $scope.minUnits = 14;
         $scope.initDate =  new Date('2017-07-05').toDateString();
         $scope.seedObject = { 'menuItem': 'margarita pizza', 'size': 'personal', 'quantitySold': $scope.initialUnits  , 'unitCost': '7.99', 'date': "'" + $scope.initDate + "'", 'postTaxProfit':'1.25' };
         $scope.seedObjectString = JSON.stringify($scope.seedObject);
         $scope.allDaysData = { 
+            initialDate : $scope.initDate,
+            endDate: $scope.addDate($scope.initDate, $scope.daysToRepeatNumber).toDateString(),
             dailyOrders: [],
             revenueList:[],
             quanityList:[],
@@ -36,29 +58,32 @@ angular.module('test_stats_app').controller('DataEntryController',function($scop
     }
     $scope.init();
     // have no clue why addDays doesnt work with angular
-    $scope.addDate = function(dateItem, day=1, monthP=1, yearP=1){
-        let test = new Date(dateItem);
-        let date = test.getDate()  ;
-        
-        let month = test.getMonth()+1;
-        let year = test.getFullYear();
-        date += day;
-        // to cut short stuff, let's just go with 28
-        if (date > 28){
-            date =1 ;
-            month++;
-            if (month > 12){
-                year++;
-                month = 1;
-            }
-        }
-        return new Date(year + '-' + month + '-' + date );
-        
-    }
-        $scope.generateTestData = function () {
+   $scope.generateTestData = function () {
         // 2 dimensional data -
         // order data per day x orders TIMES y days
-        
+         $scope.allDaysData.dailyOrders = [];
+         $scope.allDaysData.revenueList = [] ;
+         $scope.allDaysData.quanityList  = [] ;
+         $scope.allDaysData.profitList = [] ;
+         $scope.allDaysData.data = [
+                     { values: [], 
+                        key: 'revenues', //key  - the name of the series.
+                        color: '#ff7f0e',
+                        strokeWidth: 2,
+                        
+                    },
+                    {
+                        values:  [],
+                        key: 'quantities',
+                        color: '#2ca02c'
+                    },
+                    {
+                        values: [],
+                        key: 'Profits',
+                        color: '#7777ff'
+                    }
+                ];   
+         
          
         let dayCloneStartindex=1;
         for (let days = 0 ; days < $scope.daysToRepeatNumber; days++){
@@ -189,6 +214,7 @@ angular.module('test_stats_app').controller('DataEntryController',function($scop
              var newdate = $scope.addDate($scope.seedObject.date) ;
              
               $scope.seedObject.date = "'" +  newdate.toDateString() + "'";
+            $scope.allDaysData.endDate = newdate.toDateString();
            // $scope.seedObject.date.addDays(1);
         } 
 
