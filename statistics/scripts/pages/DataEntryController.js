@@ -27,6 +27,8 @@ angular.module('test_stats_app').controller('DataEntryController',function($scop
     }
     
      $scope.init = function () {
+        $scope.showReadme=false;
+        $scope.todaysDate = new Date().toDateString();
         $scope.sameDayCloneNumber = 10;
         $scope.daysToRepeatNumber = 100;
         $scope.initialUnits = 3;
