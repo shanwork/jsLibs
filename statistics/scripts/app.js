@@ -7,10 +7,10 @@ test_stats_app.config(function($routeProvider){
              templateUrl:'testCrud.html'
          }
       )
-      .when ('/test',
+      .when ('/stats',
          {
-             controller: 'errorDataController',
-             templateUrl:'views/tables.html'
+             controller: 'RangeStatisticsController',
+             templateUrl:'views/rangeStatistics.html'
          }
       )
       .when ('/entry',

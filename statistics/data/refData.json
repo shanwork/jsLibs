@@ -15,3 +15,5 @@ var refMenuItems = [
    { 'menuItem': 'meat lovers pizza', 'size': 'large',   'unitCost': '17.49', 'postTaxProfit': '3.25' } ,
    { 'menuItem': 'meat lovers pizza', 'size': 'extra Large',   'unitCost': '19.49', 'postTaxProfit': '3.75' }
 ];
+
+var seedObject =  { 'menuItem': 'margarita pizza', 'size': 'personal', 'quantitySold': '5'  , 'unitCost': '7.99', 'date': "", 'postTaxProfit':'1.25' };
