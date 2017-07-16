@@ -37,8 +37,20 @@ A proof of concept for Developers (as on {{todaysDate}} ), this small applicatio
     <table class="table table-striped" ng-show="dataGenerated">
             <tr>
                 <td colspan=9 style="border: 2px solid brown; background-color:beige; border-radius:3px;">
-                <h5>Data from {{allDaysData.initialDate}} to {{allDaysData.endDate}}</h5>    
-                <nvd3 options="dayRangeOptions" data="allDaysData.data" class="with-3d-shadow with-transitions"></nvd3></td>
+                <h5>Data from {{allDaysData.initialDate}} to {{allDaysData.endDate}}</h5>   
+                <div class="row" >
+                    <div class="col-lg-7" style="border: 2px solid brown; background-color:#FFFFEE; border-radius:3px;margin: 2px 8px 2px 10px">
+                     <nvd3 options="dayRangeOptions" data="allDaysData.data" class="with-3d-shadow with-transitions"></nvd3>
+                    </div>
+                    <div class="col-md-4" style="border: 2px solid gray; background-color:#EEFFFF; border-radius:3px;margin: 2px 3px 2px 7px">
+                     <ul>
+                      <li>REVENUE: {{allDaysData.totalRevenue}}</li>    
+                      <li>QUANTITY: {{allDaysData.totalQuantity}}</li>    
+                      <li>PROFIT: {{allDaysData.totalProfit}}</li>    
+                    </ul>
+                    </div>
+                </div>
+               </td>
             </tr>
             <tr ng-repeat="todaysOrderList in allDaysData.dailyOrders track by $index" style="margin-top:5px;border: 2px outset black">
                 <td style="width:50%; ">

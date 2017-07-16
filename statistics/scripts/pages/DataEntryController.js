@@ -12,7 +12,13 @@
             $scope.initialUnits = 3;
             $scope.maxUnits = 200;
             $scope.minUnits = 14;
-            $scope.initDate =  new Date('2017-07-04').toDateString();
+            if (!$rootScope.allDaysBatchesData){
+                $scope.initDate =  new Date('2017-07-04').toDateString();
+            }
+            else {
+                if ( $rootScope.allDaysBatchesData.endDate) 
+                    $scope.initDate = $rootScope.allDaysBatchesData.endDate
+            }
             $scope.seedObject = { 
                 'menuItem': 'margarita pizza', 
                 'size': 'personal', 
@@ -53,7 +59,7 @@
         chart: {
             type: 'lineChart',
             height: 350,
-            width: 800,
+            width: 700,
             margin: {
                 top: 5,
                 right: 20,

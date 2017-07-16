@@ -233,7 +233,8 @@
                       allDaysData.endDate = newdate.toDateString();
                       //  seedObject.date.addDays(1);
                   } 
-                  
+                  allDaysData.totalRevenue = decimalRound(allDaysData.totalRevenue,2);
+                  allDaysData.totalProfit = decimalRound(allDaysData.totalProfit,2);
                   let averageRevenues = [];
                   allDaysData.data[0].values.forEach(function(revenue){
                       averageRevenues.push(revenue.y);
