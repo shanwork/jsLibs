@@ -1,1 +1,17 @@
 <h4>Statistics of data taken from {{allDaysBatchesData.startDate}} to {{allDaysBatchesData.endDate}}</h4>
+<table class="table table-striped">
+<tr>
+    <th>Start Date</th>
+    <th>End Date</th>
+    <th>Revenue</th>
+    <th>Quantity</th>
+    <th>Profit</th>
+ </tr>
+<tr ng-repeat="batchDataElement in allDaysBatchesData.daysData track by $index">
+    <th>{{batchDataElement.startDate}}</th>
+    <th>{{batchDataElement.endDate}}</th>
+    <th>{{batchDataElement.totalRevenue}}</th>
+    <th>{{batchDataElement.totalQuantity}}</th>
+    <th>{{batchDataElement.totalProfit}}</th>
+ </tr>
+</table>

@@ -43,7 +43,9 @@
                 $scope.allDaysData.initialDate = $scope.allDaysData.endDate;
             Hub.generateTestData($scope.allDaysData,$scope.seedObject, $scope.daysToRepeatNumber, $scope.sameDayCloneNumber);
             $rootScope.allDaysBatchesData.endDate = $scope.allDaysData.endDate
-            $rootScope.allDaysBatchesData.daysData.push($scope.allDaysData);
+            var daysRangeData = {};
+            deepCopy($scope.allDaysData, daysRangeData);
+            $rootScope.allDaysBatchesData.daysData.push(daysRangeData);
             
             $scope.dataGenerated=true ;         
         }
