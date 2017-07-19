@@ -13,8 +13,9 @@
                   let date = srcDate.getDate()  ;
                   let month = srcDate.getMonth()+1;
                   let year = srcDate.getFullYear();
-                  
                   date += day;
+                  if (month >=10) // hack  the date seems to get stuck oct 9
+                      date += day;
                   if (
                       ((month==1 || month==3 || month==5 || month == 7 || month == 8 || month == 10 || month == 12 ) &&  date > 31)||
                       (month == 2 && year% 4 != 0 && date> 28) ||
@@ -240,6 +241,7 @@
                       averageRevenues.push(revenue.y);
                   });
                   let revenueAverage = average(averageRevenues, 2, true ) ;
+                  allDaysData.revenueAverage = revenueAverage;
                   for (let rev = 0; rev < averageRevenues.length; rev++){
                       allDaysData.data[3].values.push({x:rev, y:revenueAverage});
                   }
@@ -249,6 +251,8 @@
                       averageQuantities.push(quantity.y);
                   });
                   let quantityAverage = average(averageQuantities, 2, true ) ;
+                  allDaysData.quantityAverage = quantityAverage;
+                  
                   for (let rev = 0; rev < averageQuantities.length; rev++){
                       allDaysData.data[4].values.push({x:rev, y:quantityAverage});
                   }
@@ -258,6 +262,7 @@
                       averageProfits.push(quantity.y);
                   });
                   let profitAverage = average(averageProfits, 2, true ) ;
+                  allDaysData.profitAverage = profitAverage;
                   for (let rev = 0; rev < averageProfits.length; rev++){
                       allDaysData.data[5].values.push({x:rev, y:profitAverage});
                   }

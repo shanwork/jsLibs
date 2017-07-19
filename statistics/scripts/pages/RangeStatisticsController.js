@@ -41,15 +41,45 @@
                 }
             }
         };
-  function generateData(){
+         $scope.statsOptions = {
+            chart: {
+                type: 'multiChart',
+                height: 450,
+                margin : {
+                    top: 30,
+                    right: 60,
+                    bottom: 50,
+                    left: 70
+                },
+                color: d3.scale.category10().range(),
+                //useInteractiveGuideline: true,
+                duration: 500,
+                xAxis: {
+                    tickFormat: function(d){
+                        return d3.format(',f')(d);
+                    }
+                },
+                yAxis1: {
+                    tickFormat: function(d){
+                        return d3.format(',.1f')(d);
+                    }
+                },
+                yAxis2: {
+                    tickFormat: function(d){
+                        return d3.format(',.1f')(d);
+                    }
+                }
+            }
+        };
+  function generateRangeData(){
       /*
        average(arrayOfNumbers, <decPlaces>,<roundOff?> ) 
 10. meanDeviation(arrayOfNumbers, <decPlaces>, <roundOff>)
 11. variance(arrayOfNumbers, <decPlaces>, <roundOff>) 
 12. standardDeviation(arrayOfNumbers, <decPlaces>, <roundOff>)
-      */
+      */let batchData = [];
             if ($rootScope.allDaysBatchesData && $rootScope.allDaysBatchesData.daysData){
-                let batchData = [];
+                
                 let i = 0;
                 let revenuesPlot = {};
                 revenuesPlot.type="bar";
@@ -87,11 +117,23 @@
                 quantitiesPlot.values = [];
                 quantitiesPlot.yAxis=1;
                
+                let quantitiesAveragePlot = {};
+                quantitiesAveragePlot.type="line";
+                quantitiesAveragePlot.key="Quantity Averages";
+                quantitiesAveragePlot.values = [];
+                quantitiesAveragePlot.yAxis=1;
+               
                 let profitsPlot = {};
                 profitsPlot.type="bar";
                 profitsPlot.key="Profits";
                 profitsPlot.values = [];
                 profitsPlot.yAxis=1;
+               
+                 let profitsAveragePlot = {};
+                profitsAveragePlot.type="line";
+                profitsAveragePlot.key="Profits";
+                profitsAveragePlot.values = [];
+                profitsAveragePlot.yAxis=1;
                
                 let revenueValues = [];
                 for(; i < $rootScope.allDaysBatchesData.daysData.length;i++){
@@ -99,6 +141,9 @@
                     revenueValues.push($rootScope.allDaysBatchesData.daysData[i].totalRevenue);
                     quantitiesPlot.values.push({x:i, y: $rootScope.allDaysBatchesData.daysData[i].totalQuantity});
                     profitsPlot.values.push({x:i, y: $rootScope.allDaysBatchesData.daysData[i].totalProfit});
+                    revenuesAveragePlot.values.push({x:i, y:  decimalRound($rootScope.allDaysBatchesData.daysData[i].revenueAverage/10.00,2)});
+                    quantitiesAveragePlot.values.push({x:i, y:  $rootScope.allDaysBatchesData.daysData[i].quantityAverage  });
+                    profitsAveragePlot.values.push({x:i, y:   $rootScope.allDaysBatchesData.daysData[i].profitAverage  });
                 }
                 /*
                 let revenuesAverage = decimalRound(average(revenueValues, 2, true )/10.00,2);
@@ -117,71 +162,32 @@
                 }
                 */
                 batchData.push(revenuesPlot);
-               // batchData.push(revenuesAveragePlot);
+                batchData.push(revenuesAveragePlot);
                //    batchData.push(revenuesVariancePlot);
                //    batchData.push(revenuesMeanDevPlot);
                //    batchData.push(revenuesStdDevPlot);
                 
                 batchData.push(quantitiesPlot);
-                batchData.push(profitsPlot);
+                 batchData.push(quantitiesAveragePlot);
+               batchData.push(profitsPlot);
+               batchData.push(profitsAveragePlot);
                 
                 
                  return batchData ;
             }
-            var testdata = stream_layers(7,10+Math.random()*100,.1).map(function(data, i) {
-                return {
-                    key: 'Stream' + i,
-                    values: data.map(function(a){a.y = a.y * (i <= 1 ? -1 : 1); return a})
-                };
-            });
-
-            testdata[0].type = "area"
-            testdata[0].yAxis = 1
-            testdata[1].type = "area"
-            testdata[1].yAxis = 1
-            testdata[2].type = "line"
-            testdata[2].yAxis = 1
-            testdata[3].type = "line"
-            testdata[3].yAxis = 2
-            testdata[4].type = "bar"
-            testdata[4].yAxis = 2
-            testdata[5].type = "bar"
-            testdata[5].yAxis = 2
-            testdata[6].type = "bar"
-            testdata[6].yAxis = 2
-
-            return testdata;
+            
         }
 
-        /* Inspired by Lee Byron's test data generator. */
-        function stream_layers(n, m, o) {
-            if (arguments.length < 3) o = 0;
-            function bump(a) {
-                var x = 1 / (.1 + Math.random()),
-                    y = 2 * Math.random() - .5,
-                    z = 10 / (.1 + Math.random());
-                for (var i = 0; i < m; i++) {
-                    var w = (i / m - y) * z;
-                    a[i] += x * Math.exp(-w * w);
-                }
-            }
-            return d3.range(n).map(function() {
-                var a = [], i;
-                for (i = 0; i < m; i++) a[i] = o + o * Math.random();
-                for (i = 0; i < 5; i++) bump(a);
-                return a.map(stream_index);
-            });
-        }
+   function generateStatsData() {
+       
+   }
 
-        function stream_index(d, i) {
-            return {x: i, y: Math.max(0, d)};
-        }
         $scope.init = function(){
            if ($rootScope.allDaysBatchesData && $rootScope.allDaysBatchesData.daysData)
                console.log($rootScope.allDaysBatchesData.daysData.length);
             else
                 console.log('Gotchhi') ;
-            $scope.rangeData = generateData();
+            $scope.rangeData = generateRangeData();
         
         }
         $scope.init();

@@ -7,6 +7,11 @@ test_stats_app.config(function($routeProvider){
              templateUrl:'testCrud.html'
          }
       )
+      .when ('/about',
+         {
+              templateUrl:'views/about.html'
+         }
+      )
       .when ('/stats',
          {
              controller: 'RangeStatisticsController',
