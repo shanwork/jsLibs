@@ -1,7 +1,40 @@
 <h4>Statistics of data taken from {{allDaysBatchesData.startDate}} to {{allDaysBatchesData.endDate}}</h4>
 <div class="row">
-  <div class="col-lg-4">
-      <span> Average {{revenuesAverage}}, Variance {{revenuesVariance}}, Mean Deviation: {{revenuesMeanDev}}, Standard Deviation {{revenuesStdDev}}</span>
+  <div class="col-lg-6">
+      <div class="row">
+        <div class='col-sm-3'>
+            <ul>
+              <li class='li-header'> Averages </li>
+              <li> Revenue (x10) {{batchRevenuesAverage}}</li>
+              <li> Quantity  {{batchQuantityAverage}}</li>
+              <li> Profit  {{batchProfitAverage}}</li>
+            </ul>
+        </div>
+         <div class='col-sm-3'>
+           <ul>
+              <li class='li-header'> Variance </li>
+              <li> Revenue (x10) {{batchRevenuesVariance}}</li>
+              <li> Quantity  {{batchQuantityVariance}}</li>
+              <li> Profit  {{batchProfitVariance}}</li>
+            </ul>
+        </div>
+         <div class='col-sm-3'>
+          <ul>
+              <li class='li-header'> Mean Deviation </li>
+              <li> Revenue (x10) {{batchRevenuesMeanDev}}</li>
+              <li> Quantity  {{batchQuantityMeanDev}}</li>
+              <li> Profit  {{batchProfitMeanDev}}</li>
+            </ul>
+        </div>
+          <div class='col-sm-3'>
+          <ul>
+              <li class='li-header'> Std Dev </li>
+              <li> Revenue (x10) {{batchRevenuesStdDev}}</li>
+              <li> Quantity  {{batchQuantityStdDev}}</li>
+              <li> Profit  {{batchProfitStdDev}}</li>
+            </ul>
+        </div>
+      </div>
       <table class="table table-striped">
 <tr>
     <th>Start Date</th>
@@ -19,7 +52,7 @@
  </tr>
 </table>
     </div>
-   <div class="col-lg-8">
+   <div class="col-lg-6">
        <nvd3 options="rangeOptions" data="rangeData"></nvd3>
     </div>
 </div>

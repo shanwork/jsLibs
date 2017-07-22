@@ -242,6 +242,9 @@
                   });
                   let revenueAverage = average(averageRevenues, 2, true ) ;
                   allDaysData.revenueAverage = revenueAverage;
+                  allDaysData.revenuesVariance = variance(averageRevenues, 2, true ) ;
+                  allDaysData.revenuesMeanDev = meanDeviation(averageRevenues, 2, true ) ;
+                  allDaysData.revenuesStdDev = standardDeviation(averageRevenues, 2, true ) ;
                   for (let rev = 0; rev < averageRevenues.length; rev++){
                       allDaysData.data[3].values.push({x:rev, y:revenueAverage});
                   }
@@ -252,7 +255,9 @@
                   });
                   let quantityAverage = average(averageQuantities, 2, true ) ;
                   allDaysData.quantityAverage = quantityAverage;
-                  
+                  allDaysData.quantityVariance = variance(averageQuantities, 2, true ) ;
+                  allDaysData.quantityMeanDev = meanDeviation(averageQuantities, 2, true ) ;
+                  allDaysData.quantityStdDev = standardDeviation(averageQuantities, 2, true ) ;
                   for (let rev = 0; rev < averageQuantities.length; rev++){
                       allDaysData.data[4].values.push({x:rev, y:quantityAverage});
                   }
@@ -263,12 +268,14 @@
                   });
                   let profitAverage = average(averageProfits, 2, true ) ;
                   allDaysData.profitAverage = profitAverage;
+                  allDaysData.profitVariance = variance(averageProfits, 2, true ) ;
+                  allDaysData.profitMeanDev = meanDeviation(averageProfits, 2, true ) ;
+                  allDaysData.profitStdDev = standardDeviation(averageProfits, 2, true ) ;
                   for (let rev = 0; rev < averageProfits.length; rev++){
                       allDaysData.data[5].values.push({x:rev, y:profitAverage});
                   }
               }
-             
-              return Hub;
+                           return Hub;
 
           } ]);
 })();
