@@ -19,13 +19,22 @@ a separate group
   - standardDeviation(arrayOfNumbers, <decPlaces>, <roundOff>) 
   
  2. JSObjects
+    usage : 
+   let objectUtils = JSObjects();
+    
    - deepCopy
+    usage and example
+    var testObject = { x: 3, y: { a:1, b:2}, z: [1,2,3,4]};
+   var copyTo = {} ;
+   var keymodifiers = [{key: 'x', operation: '+', operand: '1'}, {key: 'z', operation: 'concat', operand: '5'}
+   objectUtils.deepCopy(testObject,copyTo,keymodifiers)
+   // copyTo ={ x: 4, y: { a:1, b:2}, z: [15,25,35,45]};
 The function below is used to deep (non reference ) copy an object to another, ie the source and destination
 objects are in totally different location; simply put changing the source object will not affect the destination object and vice versa
 
 Using object.values, typeOf, isArray and recusrsion, this builds the destination object element by element, layer by layer.
 Works for combination of JSON type objects and Arrays; havent implemented yet for functions.at
-
+### STill some other use cases to take care of in nesting, array drill down, etc ###
 */
 
 (function (global){
