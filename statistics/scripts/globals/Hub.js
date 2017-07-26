@@ -5,7 +5,7 @@
           function ($http, $q ) {
               
               var Hub = {};
-              
+              Hub.stats = MathsAndStats();
               // angular seems to have overridden the addDays API. right now, functional for addDays only
               Hub.addDate = function(dateItem, day=1, monthP=1, yearP=1){
                   
@@ -123,9 +123,9 @@
                           // so when the date changes, it would reflect in all pushed instances of an uncopied seed
                           // ### Note for deep copy and modifyList go to util.js for documentation
                           deepCopy( seedObject, initObject);
-                          initObject.totalCost = decimalRound( initialUnits * parseFloat( seedObject.unitCost),2);
+                          initObject.totalCost = this.stats.decimalRound( initialUnits * parseFloat( seedObject.unitCost),2);
                           initObject.totalProfit = 
-                                decimalRound(parseFloat(initObject.quantitySold) * parseFloat(initObject.postTaxProfit), 2);
+                                this.stats.decimalRound(parseFloat(initObject.quantitySold) * parseFloat(initObject.postTaxProfit), 2);
                           
                           todaysOrdersList.totalQuantitiesSold += initObject.quantitySold;
                           todaysOrdersList.totalDailyRevenue += initObject.totalCost;
@@ -178,9 +178,9 @@
                           deepCopy( seedObject, addClone, modifyList);
                           if(addClone.quantitySold==0)
                               addClone.quantitySold=1 ;
-                          addClone.totalCost = decimalRound(parseFloat(addClone.quantitySold) * parseFloat(addClone.unitCost), 2);
+                          addClone.totalCost = this.stats.decimalRound(parseFloat(addClone.quantitySold) * parseFloat(addClone.unitCost), 2);
                           addClone.totalProfit = 
-                              decimalRound(parseFloat(addClone.quantitySold) * parseFloat(addClone.postTaxProfit), 2);
+                              this.stats.decimalRound(parseFloat(addClone.quantitySold) * parseFloat(addClone.postTaxProfit), 2);
                           todaysOrdersList.totalDailyRevenue += addClone.totalCost;
                           todaysOrdersList.totalDailyProfit += addClone.totalProfit;
                           console.log('total quanity, ', 
@@ -209,8 +209,8 @@
                           todaysOrdersList.data[2].values.push({x:(index+1), y:addClone.totalProfit}) ;
                       } // day clone loop
                       
-                      todaysOrdersList.totalDailyRevenue = decimalRound(todaysOrdersList.totalDailyRevenue,2);
-                      todaysOrdersList.totalDailyProfit = decimalRound(todaysOrdersList.totalDailyProfit,2);
+                      todaysOrdersList.totalDailyRevenue = this.stats.decimalRound(todaysOrdersList.totalDailyRevenue,2);
+                      todaysOrdersList.totalDailyProfit = this.stats.decimalRound(todaysOrdersList.totalDailyProfit,2);
                       
                       allDaysData.dailyOrders.push(todaysOrdersList);
                       
@@ -234,17 +234,17 @@
                       allDaysData.endDate = newdate.toDateString();
                       //  seedObject.date.addDays(1);
                   } 
-                  allDaysData.totalRevenue = decimalRound(allDaysData.totalRevenue,2);
-                  allDaysData.totalProfit = decimalRound(allDaysData.totalProfit,2);
+                  allDaysData.totalRevenue = this.stats.decimalRound(allDaysData.totalRevenue,2);
+                  allDaysData.totalProfit = this.stats.decimalRound(allDaysData.totalProfit,2);
                   let averageRevenues = [];
                   allDaysData.data[0].values.forEach(function(revenue){
                       averageRevenues.push(revenue.y);
                   });
-                  let revenueAverage = average(averageRevenues, 2, true ) ;
+                  let revenueAverage = this.stats.average(averageRevenues, 2, true ) ;
                   allDaysData.revenueAverage = revenueAverage;
-                  allDaysData.revenuesVariance = variance(averageRevenues, 2, true ) ;
-                  allDaysData.revenuesMeanDev = meanDeviation(averageRevenues, 2, true ) ;
-                  allDaysData.revenuesStdDev = standardDeviation(averageRevenues, 2, true ) ;
+                  allDaysData.revenuesVariance = this.stats.variance(averageRevenues, 2, true ) ;
+                  allDaysData.revenuesMeanDev = this.stats.meanDeviation(averageRevenues, 2, true ) ;
+                  allDaysData.revenuesStdDev = this.stats.standardDeviation(averageRevenues, 2, true ) ;
                   for (let rev = 0; rev < averageRevenues.length; rev++){
                       allDaysData.data[3].values.push({x:rev, y:revenueAverage});
                   }
@@ -253,11 +253,11 @@
                   allDaysData.data[1].values.forEach(function(quantity){
                       averageQuantities.push(quantity.y);
                   });
-                  let quantityAverage = average(averageQuantities, 2, true ) ;
+                  let quantityAverage = this.stats.average(averageQuantities, 2, true ) ;
                   allDaysData.quantityAverage = quantityAverage;
-                  allDaysData.quantityVariance = variance(averageQuantities, 2, true ) ;
-                  allDaysData.quantityMeanDev = meanDeviation(averageQuantities, 2, true ) ;
-                  allDaysData.quantityStdDev = standardDeviation(averageQuantities, 2, true ) ;
+                  allDaysData.quantityVariance = this.stats.variance(averageQuantities, 2, true ) ;
+                  allDaysData.quantityMeanDev = this.stats.meanDeviation(averageQuantities, 2, true ) ;
+                  allDaysData.quantityStdDev = this.stats.standardDeviation(averageQuantities, 2, true ) ;
                   for (let rev = 0; rev < averageQuantities.length; rev++){
                       allDaysData.data[4].values.push({x:rev, y:quantityAverage});
                   }
@@ -266,11 +266,11 @@
                   allDaysData.data[2].values.forEach(function(quantity){
                       averageProfits.push(quantity.y);
                   });
-                  let profitAverage = average(averageProfits, 2, true ) ;
+                  let profitAverage = this.stats.average(averageProfits, 2, true ) ;
                   allDaysData.profitAverage = profitAverage;
-                  allDaysData.profitVariance = variance(averageProfits, 2, true ) ;
-                  allDaysData.profitMeanDev = meanDeviation(averageProfits, 2, true ) ;
-                  allDaysData.profitStdDev = standardDeviation(averageProfits, 2, true ) ;
+                  allDaysData.profitVariance = this.stats.variance(averageProfits, 2, true ) ;
+                  allDaysData.profitMeanDev = this.stats.meanDeviation(averageProfits, 2, true ) ;
+                  allDaysData.profitStdDev = this.stats.standardDeviation(averageProfits, 2, true ) ;
                   for (let rev = 0; rev < averageProfits.length; rev++){
                       allDaysData.data[5].values.push({x:rev, y:profitAverage});
                   }

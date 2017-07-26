@@ -75,7 +75,7 @@ function keyModify(key,keyName, originalValue, modifyList )
     return originalValue ;
 }
 
-function deepCopy(src, dest, modifyList=null){
+function deepCopy2(src, dest, modifyList=null){
     if (src){
       var objectValues = Object.values(src);
       // small 'variance' from the recursion where the initial check whether the top level object is a JSON object or array

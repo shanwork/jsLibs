@@ -1,7 +1,7 @@
 <html>
 <!-- Sample placeholder markup to test the libary --->
-    <script src="scripts/utils.js"></script>
     <script src="scripts/MathStatsAndMisc.js"></script>
+    <script src="scripts/utils.js"></script>
     <h3>deep copy example</h3>
     <div id='original'></div><br/>
     After running deepCopy without a modify list, and adding a date field, this is what we get<br/>
@@ -14,9 +14,16 @@
     <p>
     </p>
 <script>
-var k = (MathsAndStats());
-console.log(k.decimalRound(3.4555,3));
-console.log(k.circleArea(3));
+var mathAPITest = MathsAndStats() ;
+console.log('var mathAPITest = MathsAndStats() ;')
+console.log('mathAPITest.decimalRound(3.4555,3) = ', mathAPITest.decimalRound(3.4555,3));
+console.log('mathAPITest.circleArea(3) = ',mathAPITest.circleArea(3));
+console.log('mathAPITest.circleCircumference(3,4, false/* no rounding */) = ',mathAPITest.circleCircumference(3,4, false));
+console.log('mathAPITest.circleCircumference(3,2 /* 2 decimal places */)',mathAPITest.circleCircumference(3,2));
+console.log('mathAPITest.average([1,2,3,4])',mathAPITest.average([1,2,3,4]));
+console.log('mathAPITest.meanDeviation([3, 6, 6, 7, 8, 11, 15, 16])',mathAPITest.meanDeviation([3, 6, 6, 7, 8, 11, 15, 16]));
+console.log('mathAPITest.variance([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4])',mathAPITest.variance([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]));
+console.log('mathAPITest.standardDeviation([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4])',mathAPITest.standardDeviation([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]));
 Object.prototype.owner = '';
 Object.prototype.setOwner = function(stringy){
     console.log('owned by', stringy)
@@ -59,6 +66,7 @@ console.log('Sort of [1,1]: ',
     }
 console.log('Average of [1,2,3,4]: ',
             stats.mean.call(average,[1,2,3,4]));
+
 console.log('Mean Dev of [3, 6, 6, 7, 8, 11, 15, 16]: ',
             stats.meanDeviationValue.call(meanDeviation,[3, 6, 6, 7, 8, 11, 15, 16]));
 console.log('Variance of [9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]: ',
@@ -67,9 +75,12 @@ console.log('Std Dev of [9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 
             stats.standardDeviationValue.call(standardDeviation,[9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]));
 console.log('##### stats>>>>>' )
 function nonReferenceCopy( source, destination,modifyList=null){
+    var jsObjects = JSObjects() ;
+    console.log('var jsObjects = JSObjects() ;')
     source.setOwner('monkey');
    //  deepCopyOrig(source, null, destination); 
-   deepCopy(source,destination,modifyList); 
+    console.log( 'jsObjects.deepCopy(source,destination,modifyList); ')
+   jsObjects.deepCopy(source,destination,modifyList); 
    
    if (Array.isArray(source))
        {
