@@ -5,7 +5,9 @@
           function ($http, $q ) {
               
               var Hub = {};
+              // using the JS framework
               Hub.stats = MathsAndStats();
+              Hub.objectUtils = JSObjects() ;
               // angular seems to have overridden the addDays API. right now, functional for addDays only
               Hub.addDate = function(dateItem, day=1, monthP=1, yearP=1){
                   
@@ -122,7 +124,7 @@
                           // we dont push seed object, but its deepcopy otherwise, a REFERENCE of seedboject is pushed, 
                           // so when the date changes, it would reflect in all pushed instances of an uncopied seed
                           // ### Note for deep copy and modifyList go to util.js for documentation
-                          deepCopy( seedObject, initObject);
+                          this.objectUtils.deepCopy( seedObject, initObject);
                           initObject.totalCost = this.stats.decimalRound( initialUnits * parseFloat( seedObject.unitCost),2);
                           initObject.totalProfit = 
                                 this.stats.decimalRound(parseFloat(initObject.quantitySold) * parseFloat(initObject.postTaxProfit), 2);
@@ -175,7 +177,7 @@
                               }
                           ];
                           let addClone= {};
-                          deepCopy( seedObject, addClone, modifyList);
+                          this.objectUtils.deepCopy( seedObject, addClone, modifyList);
                           if(addClone.quantitySold==0)
                               addClone.quantitySold=1 ;
                           addClone.totalCost = this.stats.decimalRound(parseFloat(addClone.quantitySold) * parseFloat(addClone.unitCost), 2);

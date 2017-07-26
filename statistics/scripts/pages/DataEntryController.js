@@ -36,6 +36,7 @@
         $scope.init();
         
         $scope.generateTestData = function () {
+            let objectUtil = JSObjects();
             if (!$rootScope.allDaysBatchesData) {
                 $rootScope.allDaysBatchesData = {
                     startDate: $scope.allDaysData.initialDate,
@@ -50,7 +51,7 @@
             Hub.generateTestData($scope.allDaysData,$scope.seedObject, $scope.daysToRepeatNumber, $scope.sameDayCloneNumber);
             $rootScope.allDaysBatchesData.endDate = $scope.allDaysData.endDate
             var daysRangeData = {};
-            deepCopy($scope.allDaysData, daysRangeData);
+            objectUtil.deepCopy($scope.allDaysData, daysRangeData);
             $rootScope.allDaysBatchesData.daysData.push(daysRangeData);
             
             $scope.dataGenerated=true ;         
