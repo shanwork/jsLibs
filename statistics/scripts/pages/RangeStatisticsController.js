@@ -177,7 +177,7 @@
             }
             
         }
-
+// https://stackoverflow.com/questions/34982363/angularjs-app-loading-and-processing-json-data-once-for-multiple-controllers
   function generateRangeAndStatsData(){
       
       let batchData = [];

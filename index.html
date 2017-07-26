@@ -1,6 +1,7 @@
 <html>
 <!-- Sample placeholder markup to test the libary --->
     <script src="scripts/utils.js"></script>
+    <script src="scripts/MathStatsAndMisc.js"></script>
     <h3>deep copy example</h3>
     <div id='original'></div><br/>
     After running deepCopy without a modify list, and adding a date field, this is what we get<br/>
@@ -13,7 +14,9 @@
     <p>
     </p>
 <script>
-
+var k = (MathsAndStats());
+console.log(k.decimalRound(3.4555,3));
+console.log(k.circleArea(3));
 Object.prototype.owner = '';
 Object.prototype.setOwner = function(stringy){
     console.log('owned by', stringy)
