@@ -35,6 +35,9 @@ objects are in totally different location; simply put changing the source object
 Using object.values, typeOf, isArray and recusrsion, this builds the destination object element by element, layer by layer.
 Works for combination of JSON type objects and Arrays; havent implemented yet for functions.at
 ### STill some other use cases to take care of in nesting, array drill down, etc ###
+
+3. DOMManipulator
+   Useful for custom DOM Manipulation. Very Early, but have basic single selector, some styling cues chained running
 */
 
 (function (global){
