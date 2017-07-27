@@ -3,6 +3,7 @@
     <script src="scripts/MathStatsAndMisc.js"></script>
     <script src="scripts/utils.js"></script>
     <h3>deep copy example</h3>
+    <div id='donDom'></div>
     <div id='original'></div><br/>
     After running deepCopy without a modify list, and adding a date field, this is what we get<br/>
     <div id='simpleDeepCopy'></div><br/>
@@ -14,7 +15,9 @@
     <p>
     </p>
 <script>
-var mathAPITest = MathsAndStats() ;
+var domElements = DOMElement('donDom');
+domElements.text('HEKKO').text('HEKKOOOO',"background-color: red;").border("2px solid orange").border("3px solid brown", true).text("Final") ;
+var mathAPITest = MathsAndStats()  ;
 console.log('var mathAPITest = MathsAndStats() ;')
 console.log('mathAPITest.decimalRound(3.4555,3) = ', mathAPITest.decimalRound(3.4555,3));
 console.log('mathAPITest.circleArea(3) = ',mathAPITest.circleArea(3));

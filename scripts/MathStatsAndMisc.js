@@ -130,7 +130,8 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
     {
         // this is a util function
         keyModify: function(key,keyName, originalValue, modifyList ) {
-                      var returnValue = originalValue;
+                      let returnValue = originalValue;
+                      
                       modifyList.forEach(function (keyElement){
                             if (keyElement.key== keyName){
                                 switch(keyElement.operation){
@@ -216,4 +217,41 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
     }
     JSObjects.init.prototype = JSObjects.API;
     global.JSObjects = JSObjects;
+    /* --------------------------------------------------------------------------------------- */
+    var DOMManipulator = function(elementName) {
+        return new DOMManipulator.init(elementName) ;
+    }
+    DOMManipulator.API = {
+        text: function(textToAdd, style=null){
+                 this.element.textContent  = textToAdd;
+                 if (style)
+                     this.element.setAttribute("style",style);
+                 return this;
+              },
+        border: function(borderStyle, override=false ){
+            
+                let addStyle= "border:" + borderStyle ;
+                if (!override) { 
+                    let existStyle = this.element.getAttribute("style");
+                     addStyle += ";"  + existStyle
+                 }
+                this.element.setAttribute("style",addStyle);
+            return this;
+             },
+        interval: function(timeOut){
+            window.setInterval(function(){}, timeOut)  ;  },
+        fadeIn: function(start=0, end=0, interval=0){
+            this.element.style.opacity = start;
+           // let end2 = false ;
+          //  window.setInterval(function(){end2 = true ;}, interval)  ;  }
+        }
+        
+    }
+    DOMManipulator.init = function(elementName){
+        // assume global is windows
+        this.element = document.getElementById(elementName);
+        
+    }
+    DOMManipulator.init.prototype = DOMManipulator.API;
+    global.DOMElement = DOMManipulator;
 }(window));
