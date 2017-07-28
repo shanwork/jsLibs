@@ -1,4 +1,4 @@
-var test_stats_app = angular.module('test_stats_app', ['nvd3','ngRoute']);
+var test_stats_app = angular.module('test_stats_app', ['nvd3','ngRoute','ngStorage']);
 test_stats_app.config(function($routeProvider){
     $routeProvider
      .when ('/default',

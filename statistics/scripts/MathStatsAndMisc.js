@@ -19,13 +19,36 @@ a separate group
   - standardDeviation(arrayOfNumbers, <decPlaces>, <roundOff>) 
   
  2. JSObjects
+    usage : 
+   let objectUtils = JSObjects();
+    
    - deepCopy
+    usage and example
+    var testObject = { x: 3, y: { a:1, b:2}, z: [1,2,3,4]};
+   var copyTo = {} ;
+   var keymodifiers = [{key: 'x', operation: '+', operand: '1'}, {key: 'z', operation: 'concat', operand: '5'}
+   objectUtils.deepCopy(testObject,copyTo,keymodifiers)
+   // copyTo ={ x: 4, y: { a:1, b:2}, z: [15,25,35,45]};
 The function below is used to deep (non reference ) copy an object to another, ie the source and destination
 objects are in totally different location; simply put changing the source object will not affect the destination object and vice versa
 
 Using object.values, typeOf, isArray and recusrsion, this builds the destination object element by element, layer by layer.
 Works for combination of JSON type objects and Arrays; havent implemented yet for functions.at
+### STill some other use cases to take care of in nesting, array drill down, etc ###
 
+3. DOMManipulator
+   Useful for custom DOM Manipulation. Implemented some (admittedly random) element look, feel and content APIs
+   let domElemment = DOMManipulator(elementID);
+   
+   - display(displayStyle)       sets display mode of the element(block, none, etc)
+   - text(textToAdd, style=null) sets the text of the element, optionally, sets the style
+   (below functions:
+       override=false, means it appends to existing style,true = override the style)
+   - background(backGroundStyle, override=false) sets background color
+   - foreground(foreGroundStyle, override=false) sets color
+   - border(borderStyle, override=false ) sets border style.  
+   - fade(startOpacity, endOpacity, timeInt ) fade in or out based on two opacities, in timeInt ms
+   - conditionExpressionStyle(expression, styleTrue, styleFalse) sets styleTrue or styleFalse based on condiiton expression
 */
 
 (function (global){
@@ -121,7 +144,8 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
     {
         // this is a util function
         keyModify: function(key,keyName, originalValue, modifyList ) {
-                      var returnValue = originalValue;
+                      let returnValue = originalValue;
+                      
                       modifyList.forEach(function (keyElement){
                             if (keyElement.key== keyName){
                                 switch(keyElement.operation){
@@ -207,4 +231,89 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
     }
     JSObjects.init.prototype = JSObjects.API;
     global.JSObjects = JSObjects;
+    /* --------------------------------------------------------------------------------------- */
+    var DOMManipulator = function(elementName) {
+        return new DOMManipulator.init(elementName) ;
+    }
+    DOMManipulator.API = {
+        display: function(displayMode){
+                 this.element.style.display  = displayMode;
+                 
+                 return this;
+              },
+        text: function(textToAdd, style=null){
+                 this.element.textContent  = textToAdd;
+                 if (style)
+                     this.element.setAttribute("style",style);
+                 return this;
+              },
+        html: function(textToAdd, style=null){
+                 this.element.innerHTML  = textToAdd;
+                 if (style)
+                     this.element.setAttribute("style",style);
+                 return this;
+              },
+        background: function(backgroundStyle, override=false ){
+            
+                let addStyle= "background-color:" + backgroundStyle ;
+                if (!override) { 
+                    let existStyle = this.element.getAttribute("style");
+                     addStyle = existStyle +  ";"  + addStyle ;
+                 }
+                this.element.setAttribute("style",addStyle);
+            return this;
+             },
+        foreground: function(foreGroundStyle, override=false ){
+            
+                let addStyle= "color:" + foreGroundStyle ;
+                if (!override) { 
+                    let existStyle = this.element.getAttribute("style");
+                     addStyle = existStyle +  ";"  + addStyle ;
+                 }
+                this.element.setAttribute("style",addStyle);
+            return this;
+             },
+        border: function(borderStyle, override=false ){
+            
+                let addStyle= "border:" + borderStyle ;
+                if (!override) { 
+                    let existStyle = this.element.getAttribute("style");
+                     addStyle  = existStyle +  ";"  + addStyle ;
+                 }
+                this.element.setAttribute("style",addStyle);
+            return this;
+             },
+        fade: function(start=0, end=0, interval=0){
+                this.element.style.opacity = start;
+                window.setTimeout(function(localElement){
+                // this.element.style.opacity = end;
+                        return function() { localElement.style.opacity = end; console.log(localElement) };
+                }(this.element), interval)  ;  
+                return this;
+                },
+        
+        conditionExpressionStyle: function(expression, styleTrue, styleFalse){
+                    if (expression == true){
+                        this.element.setAttribute("style",styleTrue);
+                    }
+                    else
+                    {
+                         this.element.setAttribute("style",styleFalse);
+                       
+                    }
+                        return this;
+                    },
+        conditionalStyle: function(value, referenceValue, conditionOperator, styleTrue, styleFalse){
+                   // WIP because there would be too many use cases
+                        return this;
+                    }
+        
+    }
+    DOMManipulator.init = function(elementName){
+        // assume global is windows
+        this.element = document.getElementById(elementName);
+        
+    }
+    DOMManipulator.init.prototype = DOMManipulator.API;
+    global.DOMElement = DOMManipulator;
 }(window));

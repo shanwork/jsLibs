@@ -1,7 +1,7 @@
 (function () {
     'use strict'
     
-    angular.module('test_stats_app').controller('DataEntryController',function($scope, $rootScope, Hub ){
+    angular.module('test_stats_app').controller('DataEntryController',function($scope, $rootScope, $localStorage, Hub ){
         
         $scope.init = function () {
             $scope.dataGenerated=false ;
@@ -28,9 +28,15 @@
                 'postTaxProfit':'1.25' 
             };
             $scope.seedObjectString = JSON.stringify($scope.seedObject);
-            $scope.allDaysData = { 
-                initialDate : $scope.initDate // everything else is initialized in the Hub.initializeDayData function
-            };
+            if ($localStorage.allDaysData){
+                $scope.allDaysData = $localStorage.allDaysData;
+                $scope.dataGenerated=true;
+            }
+            else {
+                $scope.allDaysData = { 
+                    initialDate : $scope.initDate // everything else is initialized in the Hub.initializeDayData function
+                };
+            }
         }
         
         $scope.init();
@@ -50,11 +56,22 @@
                 $scope.allDaysData.initialDate = $scope.allDaysData.endDate;
             Hub.generateTestData($scope.allDaysData,$scope.seedObject, $scope.daysToRepeatNumber, $scope.sameDayCloneNumber);
             $rootScope.allDaysBatchesData.endDate = $scope.allDaysData.endDate
+            $localStorage.allDaysData = $scope.allDaysData;
             var daysRangeData = {};
             objectUtil.deepCopy($scope.allDaysData, daysRangeData);
             $rootScope.allDaysBatchesData.daysData.push(daysRangeData);
             
             $scope.dataGenerated=true ;         
+        }
+        $scope.clearTestData = function(){
+            if (confirm('This will wipe out all data; do you want to proceed?')){
+                $localStorage.allDaysData = null;
+                $scope.allDaysData = null;
+                $rootScope.allDaysBatchesData = null;
+                $scope.dataGenerated=false ;   
+                $scope.init();
+       
+            }
         }
         $scope.dayRangeOptions = {
         chart: {
