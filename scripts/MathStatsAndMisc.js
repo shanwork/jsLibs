@@ -247,6 +247,12 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                      this.element.setAttribute("style",style);
                  return this;
               },
+        html: function(textToAdd, style=null){
+                 this.element.innerHTML  = textToAdd;
+                 if (style)
+                     this.element.setAttribute("style",style);
+                 return this;
+              },
         background: function(backgroundStyle, override=false ){
             
                 let addStyle= "background-color:" + backgroundStyle ;

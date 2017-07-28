@@ -19,29 +19,68 @@
               background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
               background: linear-gradient(antiqueWhite, silver); /* Standard syntax */
              }
+             #about > p  {
+                 padding-left:35px;
+             }
              div > div {
                  border:2px solid brown;
                  background-color: beige;
                  border-radius: 3px;
                  margin-top:5px;
+                 
+             }
+             div > div a {
+                 margin-left: 10px;
+                 margin-bottom: 10px;
+             }
+             li a {
+                 text-decoration: none;
              }
           h1,h2,h3 {
               margin:auto;
               text-align: center;
           }
+             .no-decor {
+                 list-style: none;
+                 font-weight: 600;
+             }
       </style>
     </head>
     <body>
-        <div>
-                <h2>Testing the APIs offered by  MathsStatsAndMisc.js </h2>
-            <script src='scripts/MathStatsAndMisc.js'></script> 
-            <div id='top' >
-                <h3>Index</h3>
+        <div  id='top'>
+                <h2>Showcasing the APIs offered by  MathsStatsAndMisc.js </h2>
+            <div >
+                <h3><strong>Table of Contents</strong></h3>
             <ul>
-                <li href=#about>About</li>
-                <li href=#cloning>Cloning and modifying</li>
-                <li href=#about>About</li>
+                <li><a href=#about>About</a></li>
+                <li><a href='#cloning'>Cloning and modifying</a></li>
+                <li><a href='#mathsAndStats'>Mathematical and Statistics API</a></li>
+                <li><a href='#domManupulation'>Dom Manipulation</a></li>
             </ul>
+            </div>
+            <div id='about'>
+                <h3>About the library and this page</h3>
+                <p>
+                    This is a simple, 'non third party framework' html page with JavaScript, including <em>JUST</em> the '.js' file <strong>MathsStatsAndMisc.js</strong>, which attempts to showcase the usage of the APIs contained in it. Barebones HTML, some basic CSS styling to make it presentable, this is broken up into divs, <em>EACH</em> with code examples bullet pointed. The library will have lot of additions, some (transparent) changes with time, but I like to think, there is enough to present at this stage.</p>
+                
+                
+                <ul>
+                    <li class='no-decor'>As of <span id='dateSpan'></span>, the file consists of three sets of APIs:</li>
+                    <li>JSObjects 
+                        <br/>At this point, there is only one function called <strong>deepCopy</strong> which clones an object with the option of modifying the values of the fields of the cloned object.
+                        <br/> This can be used to automate generation large amounts of test data, using cloning and modification with looping and randomization appropriately
+                        <br/> Some aspects of a JavaScript object like functions as values, and some use cases are still to be covered.
+                        <br/> See the section <a href='#cloning'>Cloning and modifying</a> for a sample implementation
+                    </li>
+                    <li>MathsAndStats
+                        <br/> APIs to calculate the circle area and circumference, given a radius value, and average, mean and standard deviation and variance for a list of numbers.
+                        <br/> There is also an API to round off to n decimal places
+                        <br/> See the section <a href='#mathsAndStats'>Mathematical and Statistics API</a> for a sample implementation
+                    </li>
+                    <li>DOMManipulator
+                    </li>
+                    </ul>
+               <a href="#top"><strong>Back To Top of Page</strong></a>
             </div>
             <div id='cloning'>
                 <h3>Cloning and modifying</h3>
@@ -51,18 +90,73 @@
                     <li >// Clone object 'frame' and deepCopy usage for simple clone (no modification list):<br/> 
                             &nbsp;<strong> var dest = {};<br/> 
                             &nbsp; jsObjects.deepCopy(src,dest) ;<br/></strong></li>
-                    <li id='simpleDeepCopy'></li>
-                    <li id='modifyObjectWith'></li>
+                     <li id='simpleDeepCopy'></li>
+                     <li id='modifyObjectWith'></li>
                      <li id='deepCopyModified'></li>
-            </ul>
-         <a href="#top">Index</a>
+                </ul>
+                <a href="#top"><strong>Back To Top of Page</strong></a>
+            </div>
+            <div id='mathsAndStats'>
+                <h3>Mathematical and Statistics API</h3>
+                <ul id="mathsAndStats">
+                    <li>// sample :<br/> <strong>var mathAPITest = MathsAndStats()  ; </strong></li>
+                    <li> /* all calculation APIs so far are default rounded to 4 decimal places <em>(mathAPITest.api(param1, decPlaces=4, rounding=true))</em> */ </li>
+                    <li id='roundAndtrigo'></li>
+                    <li id='stats'></li>
+                </ul>
+                <a href="#top"><strong>Back To Top of Page</strong></a>
+            </div>
+            <div id='domManupulation'>
+                <h3>DOM API</h3>
+               
+                 <ul id="Dom">
+                    <li>Chain method test. Click  <button onclick='manipulateStyle()' id='tryChain'>Me</button><br/><br/>
+                        <table border='0'>
+                          <tr>
+                              <td  valign=top><span id="domDom"  ></span> </td>
+                              <td  valign=top  id="domDomAPI"> </td>
+                          </tr>
+                        </table>
+                         <!-- for the context, wont bother with a class -->
+                         
+                      </li>
+                      <li>Another interesting API is conditional expression style.It changes the style of an element based on a condition<br/>
+                          Initial value = 1000.00, Below 500 is RED, at or above is green: <button onclick='Start()' id='tryAnimStart'>Start</button> &nbsp;&nbsp;<button onclick='window.clearInterval(start)' id='tryAnimEnd'>End</button><span id='testNumbers'>500</span>
+                     </li>
+                      <li>Code: <br/>
+                          <strong>onclick='Start()'.....<br/>
+                              let startNumber = 1000.00;<br/>
+                              var conditionalDOM = DOMElement('testNumbers');<br/>
+                              var start = null;<br/>
+                              conditionalDOM.text(startNumber,<br/>
+                                &nbsp;&nbsp;&nbsp;'font-weight:bold;padding-left:3px;border:1px solid silver;width:auto;margin-left:15px;background-color:gray');<br/>
+                                function Start() {<br/>
+                                &nbsp;&nbsp;start = window.setInterval(function() {<br/>
+                                &nbsp;&nbsp;return function(domAPI, element, value){ <br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let newValue = Math.random()* value * 1.5; <br/>
+                                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;element.textContent = mathAPITest.decimalRound(newValue,4).toString();<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domAPI.conditionExpressionStyle(newValue < value / 2.0, <br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"color: red;font-weight:600;padding-left:3px;border:1px solid silver;width:auto;margin-left:15px;background-color:silver",<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"color: green;;font-weight:800;padding-left:3px;border:1px solid silver;width:auto;margin-left:15px;background-color:silver");<br/>
+                                &nbsp;&nbsp;}(conditionalDOM, document.getElementById('testNumbers'),startNumber,mathAPITest);<br/>
+            },500 );
+                          </strong>
+                     </li>
+                </ul>
+                <a href="#top"><strong>Back To Top of Page</strong></a>
             </div>
         </div>
-        
+        <script src='scripts/MathStatsAndMisc.js'>
+        </script> 
+            
         <script>
+            /* General */
+            document.getElementById('dateSpan').textContent= new Date().toDateString();
+            
+            /* #### Cloning */
             function nonReferenceCopy( source, destination,modifyList=null){
-               let jsObjects = JSObjects() ;
-               console.log( 'jsObjects.deepCopy(source,destination,modifyList); ');
+                let jsObjects = JSObjects() ;
+                console.log( 'jsObjects.deepCopy(source,destination,modifyList); ');
                 jsObjects.deepCopy(source,destination,modifyList);
             }// non reference copy
             
@@ -95,6 +189,7 @@
                 JSON.stringify(testObj) + ';</strong>';
             document.getElementById('simpleDeepCopy').innerHTML =  '/* dest = <strong>' + JSON.stringify(simpleCopy) + 
                 '*/</strong>'; 
+            
             var copyModified = {};
             var modifyList =
                 [
@@ -138,7 +233,79 @@
                 ];
             nonReferenceCopy(testObj,copyModified,modifyList);
             document.getElementById('modifyObjectWith').innerHTML = '/* copying and modifying the object */<br/><strong>var copyModified = {} ;<br/> var modifyList = ' + JSON.stringify(modifyList) + '<br/><br/>jsObjects.deepCopy(src,destination,copyModified);</strong>'; 
-            document.getElementById('deepCopyModified').innerHTML = '/* copyModified = <strong>' + JSON.stringify(copyModified)+ 
-                '*/</strong>';   
+            document.getElementById('deepCopyModified').innerHTML = '/* copyModified = <strong>' + JSON.stringify(copyModified)+ '*/</strong>';  
+            /**** CLONING **/
+            
+            /* #### MATHS AND STATS*/
+            var mathAPITest = MathsAndStats()
+            document.getElementById('roundAndtrigo').innerHTML = '/* Rounding off and Circle APIs*/<br/>';
+            document.getElementById('roundAndtrigo').innerHTML += '<strong>mathAPITest.decimalRound(3.45557,3) = ' + mathAPITest.decimalRound(3.45557,3) + ';<br/>';
+            document.getElementById('roundAndtrigo').innerHTML += '<strong>mathAPITest.decimalRound(3.45557,4) = ' + mathAPITest.decimalRound(3.45557,4) + ';<br/>';
+            document.getElementById('roundAndtrigo').innerHTML += '<strong>mathAPITest.circleCircumference(3,4, false/* no rounding */) = '
+                + mathAPITest.circleCircumference(3,4, false) + '; <br/>';
+               
+            document.getElementById('stats').innerHTML = '/* Statistics*/<br/>';
+            document.getElementById('stats').innerHTML += '<strong>mathAPITest.average([1,2,3,4]) = ' + mathAPITest.average([1,2,3,4]) + ';<br/>';
+            document.getElementById('stats').innerHTML += '<strong>mathAPITest.average([1,2,3,4,6,7]) = ' + mathAPITest.average([1,2,3,4,6,7]) + ';<br/>';
+            document.getElementById('stats').innerHTML += '<strong>mathAPITest.average([1,2,3,4,6,7],4,false) = ' + mathAPITest.average([1,2,3,4,6,7],0,false) + '; // no rounding off<br/>';
+            document.getElementById('stats').innerHTML += '<strong>mathAPITest.meanDeviation([3, 6, 6, 7, 8, 11, 15, 16]) = ' + mathAPITest.meanDeviation([3, 6, 6, 7, 8, 11, 15, 16]) + ';<br/>';
+            document.getElementById('stats').innerHTML += '<strong>mathAPITest.meanDeviation([3, 6, 6, 7, 8, 11, 15, 16,<em>-10</em>]) = ' + mathAPITest.meanDeviation([3, 6, 6, 7, 8, 11, 15, 16,-10]) + ';<br/>';
+            document.getElementById('stats').innerHTML += '<strong>mathAPITest.variance([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]) = ' 
+                + mathAPITest.variance([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]) + ';<br/>';
+            document.getElementById('stats').innerHTML += '<strong>mathAPITest.variance([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4, <em>100</em>]) = ' 
+                + mathAPITest.variance([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4, 100]) + ';<br/>';
+            document.getElementById('stats').innerHTML += '<strong>mathAPITest.variance([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4, <em>100</em>],0) = ' 
+                + mathAPITest.variance([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4, 100],0) + '; // zero dec places = whole number<br/>';
+            document.getElementById('stats').innerHTML += '<strong>mathAPITest.standardDeviation([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]) = '
+                + mathAPITest.standardDeviation([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]) + ';<br/>';
+            document.getElementById('stats').innerHTML += '<strong>mathAPITest.standardDeviation([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4, <em>100</em>],6) = '
+                + mathAPITest.standardDeviation([9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4,100],6) + '; // six places<br/>';
+            
+
+            /**** MATHS AND STATS **/
+            /* ### DOM */
+            manipulateStyle = function(){
+                let domElement = DOMElement('domDom');
+                domElement.background('white') 
+                    .fade(1.0, 0.5, 800)
+                    .border("2px solid orange")
+                    .fade(0.5, 1.0, 1000)
+                    .text('Hope you are doing good')
+                    .border("3px solid brown")
+                    .foreground('red')
+    
+                    ;
+                let domAPIElement = DOMElement('domDomAPI')
+                domAPIElement.html("Code:<br/>let domElement = DOMElement('domDom');<br/>" + 
+                                        "domElement.background('white') <br/>" + 
+                                        "&nbsp;&nbsp;.fade(1.0, 0.5, 800)<br/>" + 
+                                        "&nbsp;&nbsp;.border('2px solid orange')<br/>" + 
+                                        "&nbsp;&nbsp;.fade(0.5, 1.0, 1000)<br/>" + 
+                                        "&nbsp;&nbsp;.text('Hope you are doing good')<br/>" + 
+                                        "&nbsp;&nbsp;.border('3px solid brown')<br/>" + 
+                                        "&nbsp;&nbsp;.foreground('red')", "background-color:silver;padding:3px;font-weight:bold")
+                                .border('2px outset gray');
+    
+            }
+            let startNumber = 1000.00;
+            var conditionalDOM = DOMElement('testNumbers');
+            var start = null;
+            conditionalDOM.text(startNumber,'font-weight:bold;padding-left:3px;border:1px solid silver;width:auto;margin-left:15px;background-color:gray');
+            function Start() {
+             start = window.setInterval(function() {
+                return function(domAPI, element, value){ 
+                    let newValue = Math.random()* value * 1.5; 
+                    element.textContent = mathAPITest.decimalRound(newValue,4).toString();
+                    domAPI.conditionExpressionStyle(newValue < value/2.0, 
+                                                    "color: red;font-weight:600;padding-left:3px;border:1px solid silver;width:auto;margin-left:15px;background-color:silver", 
+                                                    "color: green;;font-weight:800;padding-left:3px;border:1px solid silver;width:auto;margin-left:15px;background-color:silver")
+                }(conditionalDOM, document.getElementById('testNumbers'),startNumber,mathAPITest);
+            },500 );
+            }
+            function End()
+            {
+                window.clearInterval(start);
+            }
+            /*** DOM */
         </script>
     </body>
