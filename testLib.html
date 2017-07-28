@@ -1,22 +1,172 @@
 <html>
-<!-- Sample placeholder markup to test the libary --->
+  <head>
+      <style>
+          body {
+              background-color: azure;
+          }
+          body div:nth-child(1)
+          {
+              margin: 0px;
+              height:auto;
+              border: 3px inset darkGray;
+              border-radius:3px;
+              padding:10px;
+              background: -webkit-linear-gradient(antiqueWhite, silver); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(antiqueWhite, silver); /* Standard syntax */
+              
+          }
+          h1,h2,h3 {
+              margin:auto;
+              text-align: center;
+          }
+      </style>
+  </head>
     <script src="scripts/MathStatsAndMisc.js"></script>
     <script src="scripts/utils.js"></script>
-    <h3>deep copy example</h3>
-    <div id='donDom'></div>
-    <div id='testNumbers'>rewrewrwerw</div>
-    <div id='benchmark'></div>
-    <div id='original'></div><br/>
-    After running deepCopy without a modify list, and adding a date field, this is what we get<br/>
-    <div id='simpleDeepCopy'></div><br/>
+    <body>
+    <div>
+    <h2>Testing the MathStatsAndLib library</h2>
+    <p>I have written a set of APIs which started off as loose bunch of functions in a Javascript file, and bundled then into at this point three sets of APIS</p>
+    <div id='cloning_API'>
+         <h3>Cloning, modifying and propogation <button onclick='showHideDeepCopy()'> (show/ hide section) </button></h3>
+         <ul id="deepCopy">
+          <li>// sample :<br/> <strong>let jsObjects = JSObjects() ; </strong></li>
+          <li id='original'></li>
+          <li >// Clone object 'frame' and deepCopy usage for simple clone (no modification list):<br/> 
+              &nbsp;<strong> var dest = {};<br/> 
+              &nbsp; jsObjects.deepCopy(src,dest) ;<br/></strong></li>
+           <li id='simpleDeepCopy'></li>
+         </ul>
+        <br/>
+      
     After running deepCopy WITH a modify list, and adding a date field, this is what we get<br/>
     <div id='modifyList'></div><br/>
     Modified deep copied object
     <div id="deepCopyModified"></div>
+    </div>
+    <div id='donDom'></div>
+    <div id='testNumbers'>rewrewrwerw</div>
+    <div id='benchmark'></div>
+    
+    
     <button onclick ="window.clearInterval(start)">Stop</button>
     <p>
-    </p>
+    </p></div>
 <script>
+var showHideDeepCopy = 'block';
+var dcElement  = DOMElement('deepCopy')
+showHideDeepCopy = function(){
+     showHideDeepCopy == 'block'? showHideDeepCopy='none':showHideDeepCopy = 'block';
+     //dcElement.display(showHideDeepCopy);
+}
+     
+function nonReferenceCopy( source, destination,modifyList=null){
+    var jsObjects = JSObjects() ;
+    //  deepCopyOrig(source, null, destination); 
+    console.log( 'jsObjects.deepCopy(source,destination,modifyList); ')
+   jsObjects.deepCopy(source,destination,modifyList); 
+    
+   if (Array.isArray(source))
+       {
+           destination.push({ deepcopied: true})
+           destination.push({ dateCopied: new Date()})
+       }
+    else if(typeof(source)=="object" )
+        {
+             destination.deepcopied = true ;
+            destination.dateCopied = new Date();
+        }
+    var refDest = source ;
+    if (Array.isArray(source))
+       {
+           refDest.push({ dateReferenced: new Date()})
+       }
+    else if(typeof(source)=="object" )
+        {
+            refDest.dateReferenced = new Date();
+        }
+    console.log('original:');
+    console.log( source);
+    console.log( ' reference copy:');
+    console.log( refDest);
+    console.log( ' non reference copy:');
+    console.log( destination);
+    
+}// non reference copy
+var testObj = 
+    {
+        name: 'Anna',
+        place: 'Agra',
+        animal: 'Antelope',
+        thing :'Armchair',
+        0:"zero",
+        points: 10,
+        playerNumber: 1,
+        alternates : {
+          item1:'Andrew',
+          item2:'Arnold' ,
+          item3:'Accra',
+          item4:'Adis Ababa' ,
+          item5:'African Elephant',
+          item6:'Armadillo' ,
+          item7: {
+            ten: "ten" ,
+             arr: [ "a", "b", {name:'1',afe:'2'}]
+           }
+          
+        }
+    };
+    var simpleCopy = {} ;
+nonReferenceCopy(testObj,simpleCopy) ;    
+    
+document.getElementById('simpleDeepCopy').innerHTML =  '/* dest = <strong>' + JSON.stringify(simpleCopy) + '*/</strong>';   
+
+document.getElementById('original').innerHTML = '/*This is the element being copied*/<br/><strong>var src= ' + JSON.stringify(testObj) + ';</strong>';
+var modifyListNPAT=
+[
+    {
+       key: 'name',
+       operation: 'searchReplace',
+       searchString: 'na',
+       operand: 'nabelle'
+    } ,
+    {
+       key: 'animal',
+       operation: 'concat',
+       operand: 's'
+    } ,
+    {
+       key: 'arr',
+       operation: 'concat',
+       operand: '32'
+    },
+    {
+       key: 'points',
+       operation: '*',
+       operand: '1.5'
+    }
+    ,
+    {
+       key: 'playerNumber',
+       operation: '+',
+       operand: '1'
+    }
+     ,
+    {
+       key: 'item2',
+       operation: 'explicitReplace',
+       operand: 'Armitage'
+    } ,
+    {
+       key: 'item1',
+       operation: 'searchReplace',
+       searchString: 'drew',
+       operand: 'toine'
+    }
+    
+]
 var mathAPITest = MathsAndStats()  ;
 var domElements = DOMElement('donDom');
 domElements.text('HEKKO')
@@ -24,12 +174,7 @@ domElements.text('HEKKO')
     .fade(0.1, 0.5, 1000)
     .fade(0.5, 0.75, 2000)
     .border("2px solid orange")
-    .background('pink')
-    .background('yellow')
-    .border("3px solid brown",true)
-    .background('yellow')
-    .background('pink')
-    .foreground('pink')
+    .border("3px solid brown")
     .text("Final")
     .fade(0.75, 1.0, 1000)
     .fade(1.0, 0.75, 500)
@@ -38,8 +183,6 @@ domElements.text('HEKKO')
      .fade(0.25, 0.5, 800)
     .fade(0.5, 0.75, 600)
     .fade(0.75, 1.00, 200)
-    .foreground('orange')
-    
     ;
 var initialValue = 456.786;
 var numberElements = DOMElement('testNumbers');
@@ -110,115 +253,10 @@ console.log('Variance of [9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9,
 console.log('Std Dev of [9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]: ',
             stats.standardDeviationValue.call(standardDeviation,[9, 2, 5, 4, 12, 7, 8, 11, 9, 3, 7, 4, 12, 5, 4, 10, 9, 6, 9, 4]));
 console.log('##### stats>>>>>' )
-function nonReferenceCopy( source, destination,modifyList=null){
-    var jsObjects = JSObjects() ;
-    console.log('var jsObjects = JSObjects() ;')
-    source.setOwner('monkey');
-   //  deepCopyOrig(source, null, destination); 
-    console.log( 'jsObjects.deepCopy(source,destination,modifyList); ')
-   jsObjects.deepCopy(source,destination,modifyList); 
-   
-   if (Array.isArray(source))
-       {
-           destination.push({ deepcopied: true})
-           destination.push({ dateCopied: new Date()})
-       }
-    else if(typeof(source)=="object" )
-        {
-             destination.deepcopied = true ;
-            destination.dateCopied = new Date();
-        }
-    var refDest = source ;
-    if (Array.isArray(source))
-       {
-           refDest.push({ dateReferenced: new Date()})
-       }
-    else if(typeof(source)=="object" )
-        {
-            refDest.dateReferenced = new Date();
-        }
-    console.log('original:');
-    console.log( source);
-    console.log( ' reference copy:');
-    console.log( refDest);
-    console.log( ' non reference copy:');
-    console.log( destination);
-    
-}
-   
-var testObj = 
-    {
-        name: 'Anna',
-        place: 'Agra',
-        animal: 'Antelope',
-        thing :'Armchair',
-        0:"zero",
-        points: 10,
-        playerNumber: 1,
-        alternates : {
-          item1:'Andrew',
-          item2:'Arnold' ,
-          item3:'Accra',
-          item4:'Adis Ababa' ,
-          item5:'African Elephant',
-          item6:'Armadillo' ,
-          item7: {
-            ten: "ten" ,
-             arr: [ "a", "b", {name:'1',afe:'2'}]
-           }
-          
-        }
-    };
-document.getElementById('original').innerHTML = 'This is the element being copied<br/> ' + JSON.stringify(testObj);
-var modifyListNPAT=
-[
-    {
-       key: 'name',
-       operation: 'searchReplace',
-       searchString: 'na',
-       operand: 'nabelle'
-    } ,
-    {
-       key: 'animal',
-       operation: 'concat',
-       operand: 's'
-    } ,
-    {
-       key: 'arr',
-       operation: 'concat',
-       operand: '32'
-    },
-    {
-       key: 'points',
-       operation: '*',
-       operand: '1.5'
-    }
-    ,
-    {
-       key: 'playerNumber',
-       operation: '+',
-       operand: '1'
-    }
-     ,
-    {
-       key: 'item2',
-       operation: 'explicitReplace',
-       operand: 'Armitage'
-    } ,
-    {
-       key: 'item1',
-       operation: 'searchReplace',
-       searchString: 'drew',
-       operand: 'toine'
-    }
-    
-]
+
 var testNamePlaceAnimalThingArray = [];
 testNamePlaceAnimalThingArray.push(testObj);
-var simpleCopy = {} ;
-nonReferenceCopy(testObj,simpleCopy) ;    
-    
-document.getElementById('simpleDeepCopy').innerHTML = JSON.stringify(simpleCopy);
+
 var des={};
 nonReferenceCopy(testObj,des,modifyListNPAT);
 document.getElementById('modifyList').innerHTML = JSON.stringify(modifyListNPAT);    
@@ -488,4 +526,5 @@ ff2[1]();
 ff2[2]();
 */
      </script>
+        </body>
 </html>

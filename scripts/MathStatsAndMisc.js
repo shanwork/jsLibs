@@ -37,7 +37,18 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
 ### STill some other use cases to take care of in nesting, array drill down, etc ###
 
 3. DOMManipulator
-   Useful for custom DOM Manipulation. Very Early, but have basic single selector, some styling cues chained running
+   Useful for custom DOM Manipulation. Implemented some (admittedly random) element look, feel and content APIs
+   let domElemment = DOMManipulator(elementID);
+   
+   - display(displayStyle)       sets display mode of the element(block, none, etc)
+   - text(textToAdd, style=null) sets the text of the element, optionally, sets the style
+   (below functions:
+       override=false, means it appends to existing style,true = override the style)
+   - background(backGroundStyle, override=false) sets background color
+   - foreground(foreGroundStyle, override=false) sets color
+   - border(borderStyle, override=false ) sets border style.  
+   - fade(startOpacity, endOpacity, timeInt ) fade in or out based on two opacities, in timeInt ms
+   - conditionExpressionStyle(expression, styleTrue, styleFalse) sets styleTrue or styleFalse based on condiiton expression
 */
 
 (function (global){
@@ -225,29 +236,71 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
         return new DOMManipulator.init(elementName) ;
     }
     DOMManipulator.API = {
+        display: function(displayMode){
+                 this.element.style.display  = displayMode;
+                 
+                 return this;
+              },
         text: function(textToAdd, style=null){
                  this.element.textContent  = textToAdd;
                  if (style)
                      this.element.setAttribute("style",style);
                  return this;
               },
+        background: function(backgroundStyle, override=false ){
+            
+                let addStyle= "background-color:" + backgroundStyle ;
+                if (!override) { 
+                    let existStyle = this.element.getAttribute("style");
+                     addStyle = existStyle +  ";"  + addStyle ;
+                 }
+                this.element.setAttribute("style",addStyle);
+            return this;
+             },
+        foreground: function(foreGroundStyle, override=false ){
+            
+                let addStyle= "color:" + foreGroundStyle ;
+                if (!override) { 
+                    let existStyle = this.element.getAttribute("style");
+                     addStyle = existStyle +  ";"  + addStyle ;
+                 }
+                this.element.setAttribute("style",addStyle);
+            return this;
+             },
         border: function(borderStyle, override=false ){
             
                 let addStyle= "border:" + borderStyle ;
                 if (!override) { 
                     let existStyle = this.element.getAttribute("style");
-                     addStyle += ";"  + existStyle
+                     addStyle  = existStyle +  ";"  + addStyle ;
                  }
                 this.element.setAttribute("style",addStyle);
             return this;
              },
-        interval: function(timeOut){
-            window.setInterval(function(){}, timeOut)  ;  },
-        fadeIn: function(start=0, end=0, interval=0){
-            this.element.style.opacity = start;
-           // let end2 = false ;
-          //  window.setInterval(function(){end2 = true ;}, interval)  ;  }
-        }
+        fade: function(start=0, end=0, interval=0){
+                this.element.style.opacity = start;
+                window.setTimeout(function(localElement){
+                // this.element.style.opacity = end;
+                        return function() { localElement.style.opacity = end; console.log(localElement) };
+                }(this.element), interval)  ;  
+                return this;
+                },
+        
+        conditionExpressionStyle: function(expression, styleTrue, styleFalse){
+                    if (expression == true){
+                        this.element.setAttribute("style",styleTrue);
+                    }
+                    else
+                    {
+                         this.element.setAttribute("style",styleFalse);
+                       
+                    }
+                        return this;
+                    },
+        conditionalStyle: function(value, referenceValue, conditionOperator, styleTrue, styleFalse){
+                   // WIP because there would be too many use cases
+                        return this;
+                    }
         
     }
     DOMManipulator.init = function(elementName){

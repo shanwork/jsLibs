@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="utf-8" />
+        <title>Testing the Framework Library created by Shantanu</title>
+         <style>
+          body {
+              background-color: azure;
+          }
+          body div:nth-child(1)
+          {
+              margin: 0px;
+              height:auto;
+              border: 3px inset darkGray;
+              border-radius:3px;
+              padding:10px;
+              background: -webkit-linear-gradient(antiqueWhite, silver); /* For Safari 5.1 to 6.0 */
+              background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+              background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+              background: linear-gradient(antiqueWhite, silver); /* Standard syntax */
+             }
+             div > div {
+                 border:2px solid brown;
+                 background-color: beige;
+                 border-radius: 3px;
+                 margin-top:5px;
+             }
+          h1,h2,h3 {
+              margin:auto;
+              text-align: center;
+          }
+      </style>
+    </head>
+    <body>
+        <div>
+                <h2>Testing the APIs offered by  MathsStatsAndMisc.js </h2>
+            <script src='scripts/MathStatsAndMisc.js'></script> 
+            <div id='top' >
+                <h3>Index</h3>
+            <ul>
+                <li href=#about>About</li>
+                <li href=#cloning>Cloning and modifying</li>
+                <li href=#about>About</li>
+            </ul>
+            </div>
+            <div id='cloning'>
+                <h3>Cloning and modifying</h3>
+                 <ul id="deepCopy">
+                    <li>// sample :<br/> <strong>let jsObjects = JSObjects() ; </strong></li>
+                    <li id='original'></li>
+                    <li >// Clone object 'frame' and deepCopy usage for simple clone (no modification list):<br/> 
+                            &nbsp;<strong> var dest = {};<br/> 
+                            &nbsp; jsObjects.deepCopy(src,dest) ;<br/></strong></li>
+                    <li id='simpleDeepCopy'></li>
+                    <li id='modifyObjectWith'></li>
+                     <li id='deepCopyModified'></li>
+            </ul>
+         <a href="#top">Index</a>
+            </div>
+        </div>
+        
+        <script>
+            function nonReferenceCopy( source, destination,modifyList=null){
+               let jsObjects = JSObjects() ;
+               console.log( 'jsObjects.deepCopy(source,destination,modifyList); ');
+                jsObjects.deepCopy(source,destination,modifyList);
+            }// non reference copy
+            
+            var testObj = 
+                {
+                    name: 'Anna',
+                    place: 'Agra',
+                    animal: 'Antelope',
+                    thing :'Armchair',
+                    0:"zero",
+                    points: 10,
+                    playerNumber: 1,
+                    alternates : {
+                        item1:'Andrew',
+                        item2:'Arnold' ,
+                        item3:'Accra',
+                        item4:'Adis Ababa' ,
+                        item5:'African Elephant',
+                        item6:'Armadillo' ,
+                        item7: {
+                            ten: "ten" ,
+                            arr: [ "a", "b", {name:'1',afe:'2'}]
+                        }
+                    }
+                };
+            
+            var simpleCopy = {} ;
+            nonReferenceCopy(testObj,simpleCopy) ;
+            document.getElementById('original').innerHTML = '/*This is the element being copied*/<br/><strong>var src= ' + 
+                JSON.stringify(testObj) + ';</strong>';
+            document.getElementById('simpleDeepCopy').innerHTML =  '/* dest = <strong>' + JSON.stringify(simpleCopy) + 
+                '*/</strong>'; 
+            var copyModified = {};
+            var modifyList =
+                [
+                    {
+                        key: 'name',
+                        operation: 'searchReplace',
+                        searchString: 'na',
+                        operand: 'nabelle'
+                    } ,
+                    {
+                        key: 'animal',
+                        operation: 'concat',
+                        operand: 's'
+                    } ,
+                    {
+                        key: 'arr',
+                        operation: 'concat',
+                        operand: '32'
+                    },
+                    {
+                        key: 'points',
+                        operation: '*',
+                        operand: '1.5'
+                    },
+                    {
+                        key: 'playerNumber',
+                        operation: '+',
+                        operand: '1'
+                    },
+                    {
+                        key: 'item2',
+                        operation: 'explicitReplace',
+                        operand: 'Armitage'
+                    },
+                    {
+                        key: 'item1',
+                        operation: 'searchReplace',
+                        searchString: 'drew',
+                        operand: 'toine'
+                    }
+                ];
+            nonReferenceCopy(testObj,copyModified,modifyList);
+            document.getElementById('modifyObjectWith').innerHTML = '/* copying and modifying the object */<br/><strong>var copyModified = {} ;<br/> var modifyList = ' + JSON.stringify(modifyList) + '<br/><br/>jsObjects.deepCopy(src,destination,copyModified);</strong>'; 
+            document.getElementById('deepCopyModified').innerHTML = '/* copyModified = <strong>' + JSON.stringify(copyModified)+ 
+                '*/</strong>';   
+        </script>
+    </body>
