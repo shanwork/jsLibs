@@ -247,6 +247,12 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                      this.element.setAttribute("style",style);
                  return this;
               },
+        textClass: function(textToAdd, className=null){
+                this.element.textContent  = textToAdd;
+                 if (className)
+                     this.element.className = className;
+                 return this;
+              },
         html: function(textToAdd, style=null){
                  this.element.innerHTML  = textToAdd;
                  if (style)
@@ -299,6 +305,17 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                     else
                     {
                          this.element.setAttribute("style",styleFalse);
+                       
+                    }
+                        return this;
+                    },
+        conditionExpressionClass: function(expression, classTrue, classFalse){
+                    if (expression == true){
+                        this.element.className = classTrue;
+                    }
+                    else
+                    {
+                         this.element.className = classFalse;
                        
                     }
                         return this;
