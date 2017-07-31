@@ -25,7 +25,7 @@ a separate group
    - deepCopy
     usage and example
     var testObject = { x: 3, y: { a:1, b:2}, z: [1,2,3,4]};
-   var copyTo = {} ;
+   var copyTo = {} ;m
    var keymodifiers = [{key: 'x', operation: '+', operand: '1'}, {key: 'z', operation: 'concat', operand: '5'}
    objectUtils.deepCopy(testObject,copyTo,keymodifiers)
    // copyTo ={ x: 4, y: { a:1, b:2}, z: [15,25,35,45]};
@@ -42,13 +42,31 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
    
    - display(displayStyle)       sets display mode of the element(block, none, etc)
    - text(textToAdd, style=null) sets the text of the element, optionally, sets the style
+   - textClass(textToAdd, class=null) sets the text of the element, optionally, sets the class
    (below functions:
        override=false, means it appends to existing style,true = override the style)
    - background(backGroundStyle, override=false) sets background color
    - foreground(foreGroundStyle, override=false) sets color
    - border(borderStyle, override=false ) sets border style.  
    - fade(startOpacity, endOpacity, timeInt ) fade in or out based on two opacities, in timeInt ms
-   - conditionExpressionStyle(expression, styleTrue, styleFalse) sets styleTrue or styleFalse based on condiiton expression
+   - conditionExpressionStyle(expression, styleTrue, styleFalse) sets style=styleTrue or styleFalse based on condiiton expression
+   - conditionExpressionClass(expression, classTrue, classFalse) sets class=classTrue or classFalse based on condiiton expression
+   - switchExpressionClass(expressionClassList, append = true) 
+       sets class based on evaluation of each expression in 'expressionClassList', appends the class, else overwrites
+        example of expressionClassList = 
+        [
+           {
+               exp: areaZip == 94105,
+               className: SFOAreaClass
+           },
+            {
+               exp: material == 'marble',
+               className: primeMaterialClass
+           }
+        ]
+   WIP on existing:
+      - consolidate xx() and xxClass() API to a single function, making it transparent to the calling code to send a style string or a classname to the (same) function
+      - optional override/append apply to all relevant
 */
 
 (function (global){
@@ -318,6 +336,30 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                          this.element.className = classFalse;
                        
                     }
+                        return this;
+                    },
+        /* example of expressionClassList = 
+        [
+           {
+               exp: areaZip == 94105,
+               className: SFOAreaClass
+           },
+            {
+               exp: material == 'marble',
+               className: primeMaterialClass
+           }
+        ]*/
+        switchExpressionClass: function(expressionClassList, append = true){
+                   expressionClassList.forEach(function(expressionClasspair){
+                       if (expressionClasspair.exp == true && element.className){
+                           element.className += " " + expressionClasspair.className;
+                       }
+                       else  {
+                                element.className  = expressionClasspair.className;
+                       }
+                           }
+                   }
+                        )
                         return this;
                     },
         conditionalStyle: function(value, referenceValue, conditionOperator, styleTrue, styleFalse){
