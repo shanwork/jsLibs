@@ -51,7 +51,7 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
    - fade(startOpacity, endOpacity, timeInt ) fade in or out based on two opacities, in timeInt ms
    - conditionExpressionStyle(expression, styleTrue, styleFalse) sets style=styleTrue or styleFalse based on condiiton expression
    - conditionExpressionClass(expression, classTrue, classFalse) sets class=classTrue or classFalse based on condiiton expression
-   - switchExpressionClass(expressionClassList, append = true) 
+   - switchExpressionClass(expressionClassList, append = true) * Not tested yet *
        sets class based on evaluation of each expression in 'expressionClassList', appends the class, else overwrites
         example of expressionClassList = 
         [
