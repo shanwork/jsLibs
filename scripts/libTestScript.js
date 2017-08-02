@@ -238,6 +238,37 @@
                         ticketPurchased: '$130',
                         teamSupported: 'Cincinnati Bengals'
                     }
+                    ,
+                    {
+                        name: 'Dasgupta',
+                        ticketPurchased: '$130',
+                        teamSupported: 'Cincinnati Bengals'
+                    },
+                     {
+                        name: 'Mathew',
+                        ticketPurchased: '$30',
+                        teamSupported: 'Chicago Bears'
+                    },
+                    {
+                        name: 'Matt',
+                        ticketPurchased: '$50',
+                        teamSupported: 'Chicago Bears'
+                    },
+                    {
+                        name: 'Marie',
+                        ticketPurchased: '$75',
+                        teamSupported: 'Chicago Bears'
+                    },
+                    {
+                        name: 'Snehal',
+                        ticketPurchased: '$105',
+                        teamSupported: 'None'
+                    },
+                    {
+                        name: 'Bob',
+                        ticketPurchased: '$30',
+                        teamSupported: 'Arizona Cardinals'
+                    }
                 ]
             
             let conditionExpression = [
@@ -292,11 +323,13 @@
                 ];
                  let footballFans = document.getElementById('footballFans');
                 if (footballFans){
-                       
+                    
                      footballViewers.forEach(function (footballViewer){
                          let footballFanDivOuter = document.createElement("DIV");
                          footballFanDivOuter.id = footballViewer.name + 'O_' + footballViewer.ticketPurchased;
-                          footballFans.appendChild(footballFanDivOuter); 
+                         
+                         
+                         footballFans.appendChild(footballFanDivOuter); 
                          let footballFanDivOuterlDOM = DOMElement(footballFanDivOuter.id);
                          footballFanDivOuterlDOM.html(footballViewer.teamSupported + '<br/>', 'font-size:XLarge; color:white');
                          footballFanDivOuter.setAttribute('class', 'emblem') ;
