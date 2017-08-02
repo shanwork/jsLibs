@@ -7,8 +7,8 @@
           body {
               background-color: azure;
           }
-          body div:nth-child(1)
-          {
+         /* body div:nth-child(1)*/
+         #top {
               margin: 0px;
               height:auto;
               border: 3px inset darkGray;
@@ -71,11 +71,60 @@
                  margin-left:15px;
                  background-color:silver
              }
+             .innerInfo {
+                 border: 2px groove darkolivegreen;
+                 background-color: lightgoldenrodyellow;
+                 opacity: 0.5;
+                 color: black;
+                 font-weight: 800;
+                 
+             }
+             .dollar30 {
+                 border:3px solid black;
+                 background-color:  lightgrey;
+                 color:black;
+             }
+             .dollar50 {
+                 border:3px solid darkslateblue;
+                 background-color:skyblue;
+                 color: darkslateblue;
+             }
+             .dollar75 {
+                 border:3px solid saddlebrown ;
+                 background-color:  sandybrown;
+                 color:saddlebrown ;
+             }
+             
+             .emblem {
+                 border: 2px red outset;
+                 background-color: darkGray;  
+                 padding: 3px;
+                 margin:3px;
+                 border-radius: 5px;
+                 min-width: 100px;
+                 min-height: 50px;
+             }
+             .azCardinals {
+                background: linear-gradient( #9B2743,#FFCD00 )
+             }
+             .ordBears { /* chicago bears*/
+                background: linear-gradient( #051C2C,#DC4405 )
+             }
+             .cvgBengals {
+                  background: linear-gradient( #FB4F14,#000000) 
+             }
+             .oakRaiders {
+                background: linear-gradient( #101820, #A5ACAF )
+             }
+             .nyGiants {
+                background: linear-gradient( #001E62,#A6192E, #A2AAAD )
+             }
+             
       </style>
     </head>
     <body>
-        <div  id='top'>
-                <h2>Showcasing the APIs offered by  MathsStatsAndMisc.js </h2>
+        <div  id='top'   >
+                <h2 >Showcasing the APIs offered by  MathsStatsAndMisc.js </h2>
             <div >
                 <h3><strong>Table of Contents</strong></h3>
             <ul>
@@ -203,11 +252,16 @@
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"color: green;;font-weight:800;padding-left:3px;border:1px solid silver;width:auto;margin-left:15px;background-color:silver");</em><br/>
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let newValue2 = Math.random()* value2 * 1.5; <br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;element2.textContent = mathAPITest.decimalRound(newValue2,4).toString();<br/>
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>domAPI2.conditionExpressionClass(newValue2 < value2/2.0,'badValue', 'goodValue'); </em><br/>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>domAPI2.conditionExpressionClass(newValue2 &lt; value2/2.0, 'badValue',  'goodValue' ); </em><br/>
                                                     
                                 &nbsp;&nbsp;}(conditionalDOM, conditionalDOM2,document.getElementById('testNumbers'),document.getElementById('testNumbersClass'),startNumber,startNumber2,mathAPITest);<br/>
             },500 );
-                          </strong>
+                          </strong><br/><br/>
+                     </li>
+                     <li><strong> Using the <em>domAPI2.conditionExpressionClass(condition, classIfTrue, null (no class if false), append=true)</em></strong>
+                         <p>Shown colors of some football teams styled into a grandient. If no team, shows a gray background which is the default class.<br>
+                         <em>The nested divs (person name and ticket div within the Team color div, if available) have class='base css &lt;specific class&gt; format </em></p>
+                       <div id='footballFans'></div>
                      </li>
                 </ul>
                 <a href="#top"><strong>Back To Top of Page</strong></a>

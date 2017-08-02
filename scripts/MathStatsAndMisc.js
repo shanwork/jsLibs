@@ -327,11 +327,11 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                     }
                         return this;
                     },
-        conditionExpressionClass: function(expression, classTrue, classFalse){
+        conditionExpressionClass: function(expression, classTrue, classFalse=null, append=false){
                     if (expression == true){
-                        this.element.className = classTrue;
+                       this.element.className += ' ' + classTrue;
                     }
-                    else
+                    else if (classFalse)
                     {
                          this.element.className = classFalse;
                        
@@ -349,6 +349,7 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                className: primeMaterialClass
            }
         ]*/
+        // WIP
         switchExpressionClass: function(expressionClassList, append = true){
                    expressionClassList.forEach(function(expressionClasspair){
                        if (expressionClasspair.exp == true && element.className){
@@ -357,9 +358,8 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                        else  {
                                 element.className  = expressionClasspair.className;
                        }
-                           }
-                   }
-                        )
+                           })
+                       
                         return this;
                     },
         conditionalStyle: function(value, referenceValue, conditionOperator, styleTrue, styleFalse){

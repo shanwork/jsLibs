@@ -163,4 +163,164 @@
             {
                 window.clearInterval(start);
             }
+            function fallThrough() {
+/*
+  .dollar30 {
+                 border:3px solid black;
+                 background-color:  lightgrey;
+                 color:black;
+             }
+             .dollar50 {
+                 border:3px solid darkslateblue;
+                 background-color:skyblue;
+                 color: darkslateblue;
+             }
+             .dollar75 {
+                 border:3px solid saddlebrown ;
+                 background-color:  sandybrown;
+                 color:saddlebrown ;
+             }
+             .emblem {
+                 border: 2px black outset;
+                 background-color: azure;   
+                 padding: 3px;
+                 margin:3px;
+                 border-radius: 5px;
+                 min-width: 200px;
+                 min-height: 200px;
+             }
+             .nyGiants {
+                background: linear-gradient( #001E62,#A6192E, #A2AAAD )
+             }
+             .azCardinals {
+                background: linear-gradient( #9B2743,#FFCD00 )
+             }
+             .ordBears {  
+                background: linear-gradient( #051C2C,#DC4405 )
+             }
+             .cvgBengals {
+                  background: linear-gradient( #FB4F14,#000000) 
+             }
+             .oakRaiders {
+                background: linear-gradient( #101820, #A5ACAF )
+             }
+*/
+            let footballViewers = 
+                [
+                    {
+                        name: 'JANE',
+                        ticketPurchased: '$30',
+                        teamSupported: 'New York Giants'
+                    },
+                    {
+                        name: 'JOHN',
+                        ticketPurchased: '$50',
+                        teamSupported: 'Arizona Cardinals'
+                    },
+                    {
+                        name: 'HARRY',
+                        ticketPurchased: '$75',
+                        teamSupported: 'Oakland Raiders'
+                    },
+                    {
+                        name: 'SEJAL',
+                        ticketPurchased: '$105',
+                        teamSupported: 'None'
+                    },
+                    {
+                        name: 'Dirty HARRY',
+                        ticketPurchased: '$30',
+                        teamSupported: 'Oakland Raiders'
+                    }
+                    ,
+                    {
+                        name: 'Sengupta',
+                        ticketPurchased: '$130',
+                        teamSupported: 'Cincinnati Bengals'
+                    }
+                ]
+            
+            let conditionExpression = [
+              {
+                 exp: 'New York Giants',
+                 className: 'nyGiants'
+               },
+               {
+                 exp: 'Arizona Cardinals',
+                 className: 'azCardinals'
+               },
+               {
+                 exp: 'Chicago Bears',
+                 className: 'ordBears'
+               },
+               {
+                 exp: 'Cincinnati Bengals',
+                 className: 'cvgBengals'
+               },
+               {
+                 exp: 'Oakland Raiders',
+                 className: 'oakRaiders'
+               },
+               {
+                 exp: '$30',
+                 className: 'dollar30'
+               },
+               {
+                 exp:  '$50' ,
+                 className: 'dollar50'
+               },
+               {
+                 exp: '$75',
+                 className: 'dollar75'
+               },
+               {
+                 exp: "ticketPurchased=='$30'",
+                 className: 'dollar30'
+               },
+               {
+                 exp: "ticketPurchased=='$30'",
+                 className: 'dollar30'
+               },
+               {
+                 exp: "ticketPurchased=='$30'",
+                 className: 'dollar30'
+               },
+               {
+                 exp: "ticketPurchased=='$30'",
+                 className: 'dollar30'
+               }
+                ];
+                 let footballFans = document.getElementById('footballFans');
+                if (footballFans){
+                       
+                     footballViewers.forEach(function (footballViewer){
+                         let footballFanDivOuter = document.createElement("DIV");
+                         footballFanDivOuter.id = footballViewer.name + 'O_' + footballViewer.ticketPurchased;
+                          footballFans.appendChild(footballFanDivOuter); 
+                         let footballFanDivOuterlDOM = DOMElement(footballFanDivOuter.id);
+                         footballFanDivOuterlDOM.html(footballViewer.teamSupported + '<br/>', 'font-size:XLarge; color:white');
+                         footballFanDivOuter.setAttribute('class', 'emblem') ;
+                         conditionExpression.forEach (function(condition ){
+                               footballFanDivOuterlDOM.conditionExpressionClass(footballViewer.teamSupported== condition.exp,condition.className, null, true)   ;
+                                                   
+                         })
+                         let footballFanDivInner = document.createElement("DIV");
+                         footballFanDivInner.id = footballViewer.name + 'I_' + footballViewer.ticketPurchased;
+                         footballFanDivInner.className = 'innerInfo';
+                         footballFanDivInner.innerHTML = footballViewer.name + '<br/>' + footballViewer.ticketPurchased ;
+                       //  footballFanDivInner.className = 'dollar30';
+                         footballFanDivOuter.appendChild(footballFanDivInner);
+                         let footballFanDivInnerDOM = DOMElement(footballFanDivInner.id);
+                          conditionExpression.forEach (function(condition ){
+                               footballFanDivInnerDOM.conditionExpressionClass(footballViewer.ticketPurchased== condition.exp,condition.className, null, true)   ;
+                                                   
+                         })
+                         
+                            
+                          //  footballFans
+                })
+                }
+                } // .. fallThrough
+                fallThrough();
+          //  console.log(Boolean(Boolean.valueOf( "footballViewers[0]." + conditionExpression[0].exp)));
             /*** DOM */
