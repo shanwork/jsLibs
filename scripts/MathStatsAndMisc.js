@@ -160,12 +160,12 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
     }
     JSObjects.API = 
     {
-        // this is a util function
-        keyModify: function(key,keyName, originalValue, modifyList ) {
+        // this is a util function, 'bypassKey' added for top level arrays with primitives
+        keyModify: function(key,keyName, originalValue, modifyList, bypassKey=false ) {
                       let returnValue = originalValue;
                       
                       modifyList.forEach(function (keyElement){
-                            if (keyElement.key== keyName){
+                            if (keyElement.key== keyName || bypassKey==true){
                                 switch(keyElement.operation){
                                     case '+' : originalValue  += parseFloat(keyElement.operand);
                                         break;
@@ -173,7 +173,7 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                                         break;
                                     case '*' :  originalValue  *= parseFloat(keyElement.operand);
                                         break;
-                                    case '//' :  originalValue  /= parseFloat(keyElement.operand);
+                                    case '/' :  originalValue  /= parseFloat(keyElement.operand);
                                         break;
                                     case 'concat' :  originalValue +=  keyElement.operand ;
                                         break;
@@ -187,15 +187,71 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                     }) ;// forEach
                     return originalValue ;
                     },
-            deepCopy: function(src, dest, modifyList=null){
+        deepCopy: function(src, dest, modifyList=null){
+                        if (src){
+                            var objectValues = Object.values(src);
+                            // small 'variance' from the recursion where the initial check whether the top level object is a JSON object or array
+                            if (Array.isArray(src) ) {
+                        //        console.log(Object.keys(src));
+                                for (var arrayKey=0; arrayKey < objectValues.length;arrayKey++) {
+                                    if (typeof(objectValues[arrayKey]) =="object") { // array element is an object 
+                                    dest.push(new Object());
+                                    JSObjects.API.deepCopy(objectValues[arrayKey],dest[arrayKey], modifyList);
+                                   }
+                                   else { // array element is a primitive    
+                             //        dest.push(objectValues[arrayKey]);
+                                     dest.push(   modifyList? 
+                                                               JSObjects.API.keyModify('na','na', objectValues[arrayKey], modifyList,true ):
+                                                               objectValues[arrayKey]);/**/
+                                   } 
+                                 } 
+                            } // top level element is an array
+                        else if (typeof(src)=="object" ) {
+                            let keyList = Object.keys(src);
+                            let valueList = Object.values(src);
+                            if (keyList ) { // the object has keys
+                                for (let kIndex=0; kIndex < keyList.length;kIndex++){
+                                    var destKey = keyList[kIndex];
+                                    if (Array.isArray(valueList[kIndex])){ // element is an array 
+                                        dest[destKey] = [];
+                                        for (var srr=0; srr < valueList[kIndex].length;srr++){
+                                            if (typeof(valueList[kIndex][srr]) =="object"){
+                                                dest[destKey].push(new Object());
+                                                JSObjects.API.deepCopy(valueList[kIndex][srr],dest[destKey][srr],modifyList);
+                                            }
+                                            else { // simple array  
+                                            //    dest[destKey].push(valueList[kIndex][srr]);
+                                            dest[destKey].push(modifyList? 
+                                                               JSObjects.API.keyModify(dest[destKey],destKey, valueList[kIndex][srr], modifyList ):
+                                                               valueList[kIndex][srr]);
+                                            }
+                                        } // for 
+                                    } // isArray
+                                    else if (typeof(valueList[kIndex])=="object"  ){ // element is an object 
+                                        dest[destKey] = {};
+                                        JSObjects.API.deepCopy(valueList[kIndex],dest[destKey],modifyList)
+                                    }
+                                    else {
+                                        dest[destKey] = modifyList? 
+                                                               JSObjects.API.keyModify(dest[destKey],destKey, valueList[kIndex], modifyList ):
+                                                                valueList[kIndex];
+                                    }
+                                }// for 
+                            } // ... if keylist
+                        } // .. src is object
+                        else {
+                            dest = src ; // 
+                          }
+                        } // if src
+                     } ,// function deepCopy
+        deepModify: function(src,  modifyList ){
                         if (src){
                             var objectValues = Object.values(src);
                             // small 'variance' from the recursion where the initial check whether the top level object is a JSON object or array
                             if (Array.isArray(src) ) {
                                 for (var arrayKey=0; arrayKey < objectValues.length;arrayKey++) {
                                     if (typeof(objectValues[arrayKey]) =="object") { // array element is an object 
-                                    dest.push(new Object());
-                                    JSObjects.API.deepCopy(objectValues[arrayKey],dest[arrayKey], modifyList);
+                                       JSObjects.API.deepModify(objectValues[arrayKey] , modifyList);
                                    }
                                    else { // array element is a primitive    
                                      dest.push(objectValues[arrayKey]);

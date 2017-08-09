@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+    <head>
+    </head>
+    <body>
+    <script src="../scripts/MathStatsAndMisc.js"></script>
+    <script>
+     function jsObjectAPI(src, target, modify) {
+         let jsObjects =   JSObjects() ;
+    jsObjects.deepCopy(src, target, modify);
+   
+     }
+     let simpleObject = [1,2,3, '143214234'];
+     let simpleModify = [{key: 'simpleObject', operation: '-', operand: '1'}];
+        let simpleTarget=[];
+    jsObjectAPI(simpleObject, simpleTarget, simpleModify) ;
+        console.log(simpleTarget);
+     let testObject = [
+            { x: 3, y: { a:1, b:2}, z: [1,2,3,4, {L: 'A', M:[4,5,6,7, {N: 'ANNA'}]}]},
+            { x: 4, y: { a:3, b:4}, z: [5,6,7, {N: 'CHRISTA'}]},
+            { x: 5, y: { a:5, b:6}, z: [8,9,10]},
+            { x: 6, y: { a:7, b:8}, z: [11,12,13,14]},
+                       ];
+   let copyTo = [] ; 
+   let keymodifiers = [{key: 'x', operation: '+', operand: '1'},
+                       {key: 'z', operation: '*', operand: '5'}, 
+                       {key: 'L', operation: 'concat', operand: '5'} ,
+                       {key: 'M', operation: '/', operand: '5'} ,
+                       {key: 'N', operation: 'concat', operand: 'BELLE'}
+                      ];
+        jsObjectAPI(testObject, copyTo, keymodifiers) ;
+        console.log(copyTo);
+    </script>
+    </body>
