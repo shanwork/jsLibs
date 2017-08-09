@@ -161,6 +161,7 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
     JSObjects.API = 
     {
         // this is a util function, 'bypassKey' added for top level arrays with primitives
+        // ### TODO 'key' paramter is redundant. remove
         keyModify: function(key,keyName, originalValue, modifyList, bypassKey=false ) {
                       let returnValue = originalValue;
                       
@@ -253,8 +254,13 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                                     if (typeof(objectValues[arrayKey]) =="object") { // array element is an object 
                                        JSObjects.API.deepModify(objectValues[arrayKey] , modifyList);
                                    }
-                                   else { // array element is a primitive    
-                                     dest.push(objectValues[arrayKey]);
+                                   else { // array element is a primitive   
+                                    //   console.log(objectValues[arrayKey]);
+                                    // assigning objectValues[arrayKey] doesnt seem to work, need to figure out why
+                                    // workimg directly with the array
+                                     src[arrayKey] = JSObjects.API.keyModify('na','na', objectValues[arrayKey],                                              modifyList,true );
+                                    //    console.log(objectValues[arrayKey]);
+                                    // console.log(src);
                                    } 
                                  } 
                             } // top level element is an array
@@ -265,28 +271,21 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                                 for (let kIndex=0; kIndex < keyList.length;kIndex++){
                                     var destKey = keyList[kIndex];
                                     if (Array.isArray(valueList[kIndex])){ // element is an array 
-                                        dest[destKey] = [];
                                         for (var srr=0; srr < valueList[kIndex].length;srr++){
                                             if (typeof(valueList[kIndex][srr]) =="object"){
-                                                dest[destKey].push(new Object());
-                                                JSObjects.API.deepCopy(valueList[kIndex][srr],dest[destKey][srr],modifyList);
+                                                JSObjects.API.deepModify(valueList[kIndex][srr], modifyList);
                                             }
                                             else { // simple array  
-                                            //    dest[destKey].push(valueList[kIndex][srr]);
-                                            dest[destKey].push(modifyList? 
-                                                               JSObjects.API.keyModify(dest[destKey],destKey, valueList[kIndex][srr], modifyList ):
-                                                               valueList[kIndex][srr]);
+                                               valueList[kIndex][srr]=
+                                                   JSObjects.API.keyModify('na',destKey, valueList[kIndex][srr], modifyList ) ;
                                             }
                                         } // for 
                                     } // isArray
                                     else if (typeof(valueList[kIndex])=="object"  ){ // element is an object 
-                                        dest[destKey] = {};
-                                        JSObjects.API.deepCopy(valueList[kIndex],dest[destKey],modifyList)
+                                        JSObjects.API.deepModify(valueList[kIndex],modifyList)
                                     }
                                     else {
-                                        dest[destKey] = modifyList? 
-                                                               JSObjects.API.keyModify(dest[destKey],destKey, valueList[kIndex], modifyList ):
-                                                                valueList[kIndex];
+                                        valueList[kIndex] = JSObjects.API.keyModify('na',destKey, valueList[kIndex], modifyList );
                                     }
                                 }// for 
                             } // ... if keylist

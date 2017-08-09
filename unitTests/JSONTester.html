@@ -5,16 +5,27 @@
     <body>
     <script src="../scripts/MathStatsAndMisc.js"></script>
     <script>
-     function jsObjectAPI(src, target, modify) {
+     function jsObjectAPI(src, target, modify, operation=1) {
+         
          let jsObjects =   JSObjects() ;
-    jsObjects.deepCopy(src, target, modify);
+         switch (operation){
+             case  1: jsObjects.deepCopy(src, target, modify);
+                 break;
+             case 2:  jsObjects.deepModify(src, modify);
+                 break;
+            }
    
      }
      let simpleObject = [1,2,3, '143214234'];
      let simpleModify = [{key: 'simpleObject', operation: '-', operand: '1'}];
         let simpleTarget=[];
     jsObjectAPI(simpleObject, simpleTarget, simpleModify) ;
-        console.log(simpleTarget);
+        console.log('Simple Array',simpleObject)
+        console.log('Original object',simpleObject)
+        console.log('Copied and Modified',simpleTarget);
+    jsObjectAPI(simpleObject, null, simpleModify, 2) ;
+         console.log('Original object modified',simpleObject)
+        
      let testObject = [
             { x: 3, y: { a:1, b:2}, z: [1,2,3,4, {L: 'A', M:[4,5,6,7, {N: 'ANNA'}]}]},
             { x: 4, y: { a:3, b:4}, z: [5,6,7, {N: 'CHRISTA'}]},
