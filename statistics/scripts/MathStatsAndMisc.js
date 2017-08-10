@@ -303,6 +303,17 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                     }
                         return this;
                     },
+        conditionExpressionClass: function(expression, classTrue, classFalse=null, append=false){
+                    if (expression == true){
+                       this.element.className += ' ' + classTrue;
+                    }
+                    else if (classFalse)
+                    {
+                         this.element.className = classFalse;
+                       
+                    }
+                        return this;
+                    },
         conditionalStyle: function(value, referenceValue, conditionOperator, styleTrue, styleFalse){
                    // WIP because there would be too many use cases
                         return this;

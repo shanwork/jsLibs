@@ -1,9 +1,34 @@
 (function () {
     'use strict'
     
-    angular.module('test_stats_app').controller('HealthStatsController',function($scope, $rootScope, $localStorage, Hub ){
+    angular.module('test_stats_app').controller('HealthStatsController',function($scope,$interval, $rootScope, $localStorage, Hub ){
+        let start;
+        $scope.startPoll = function() {
+             if (angular.isDefined( start)){
+                 return ;
+             }
+             start =$interval(function() {
+                for (let pIndex = 0; pIndex < $scope.fivePatientData.length;pIndex++){
+               // $scope.fivePatientData.forEach(function(patient) {
+                    $scope.generateRandomData($scope.fivePatientData[pIndex], pIndex);
+                     
+                 //   $scope.$watch($scope.fivePatientData[pIndex]);
+                };//)
+            },500 );
+        }
+            $scope.endPoll = function(){
+                if (angular.isDefined( start)){
+                
+                $interval.cancel( start);
+                 start = undefined;
+            }
+            }
         $scope.markValue = function(id, value, cutoff){
-            return(value <= cutoff? 'goodValue': 'badValue');
+            return (value <= cutoff? 'goodValue': 'badValue');
+        }
+        $scope.getLevelClass = function(level,cutoff){
+              
+            return (level <= cutoff? 'goodValue': 'badValue');
         }
         $scope.curePatient = function(index){
             if (index == 1){
@@ -24,6 +49,15 @@
         $scope.init = function() {
             $scope.statsAPI = MathsAndStats();
             $scope.objectUtilsAPI = JSObjects() ;
+            // ranges
+            $scope.minAge = 40;
+            $scope.maxAge= 95;
+            $scope.minSystolic = 111;
+            $scope.maxSystolic = 200;
+            $scope.minDiastolic = 70;
+            $scope.maxDiastolic = 120;
+            $scope.minCholesterol = 190;
+            $scope.maxCholesterol = 350; 
             
             $scope.fivePatientData = [];
             $scope.seedObject = {
@@ -56,18 +90,31 @@
         $scope.generateRandomDataObject= function(src, index, modifyList){
             let minBadHealthCriterion = false ;
              modifyList[0].operand= 'paitent' + index;
-             modifyList[1].operand= $scope.mathRandom(95,40 ) ;
-             modifyList[2].operand= $scope.mathRandom(200,111 ) ;
+             modifyList[1].operand= $scope.mathRandom($scope.maxAge,$scope.minAge ) ;
+             modifyList[2].operand= $scope.mathRandom($scope.maxSystolic,$scope.minSystolic ) ;
              if(parseInt(modifyList[2].operand) > 150)
                  minBadHealthCriterion = true;
-            modifyList[3].operand= $scope.mathRandom(120,minBadHealthCriterion==true? 80:101 ) ;
+            modifyList[3].operand= $scope.mathRandom($scope.maxDiastolic,minBadHealthCriterion==true? 80:101 ) ;
             if(parseInt(modifyList[3].operand) > 100)
                  minBadHealthCriterion = true;
-            modifyList[4].operand= $scope.mathRandom(350,minBadHealthCriterion==true? 230:271 ) ;
+            modifyList[4].operand= $scope.mathRandom($scope.maxCholesterol,minBadHealthCriterion==true? 230:271 ) ;
             let clone = {} ;
             $scope.objectUtilsAPI.deepCopy(src, clone, modifyList);
             return clone;
              
+            
+        }
+        // will use deepModify from jSobjects once tested
+        $scope.generateRandomData= function(patient, index) { //, modifyList){
+            patient.systolic= $scope.mathRandom($scope.maxSystolic,$scope.minSystolic ) ;
+            let systolicDom = DOMElement('systolic'+ index);
+            systolicDom.conditionExpressionClass(patient.systolic<= $scope.minSystolic,'goodValue', 'badValue')
+            patient.diastolic= $scope.mathRandom($scope.maxDiastolic,$scope.minDiastolic ) ;
+            let diastolicDom = DOMElement('diastolic'+ index);
+            diastolicDom.conditionExpressionClass(patient.diastolic<= $scope.minDiastolic,'goodValue', 'badValue')
+            patient.cholesterol= $scope.mathRandom($scope.maxCholesterol,$scope.minCholesterol) ;
+            let cholesterolDom = DOMElement('cholesterol'+ index);
+            cholesterolDom.conditionExpressionClass(patient.cholesterol<= $scope.minCholesterol,'goodValue', 'badValue')
             
         }
         $scope.init();
