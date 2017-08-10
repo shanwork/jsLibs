@@ -2,6 +2,62 @@
     'use strict'
     
     angular.module('test_stats_app').controller('HealthStatsController',function($scope,$interval, $rootScope, $localStorage, Hub ){
+        
+        $scope.statsOptions = {
+            chart: {
+                type: 'multiChart',
+                height: 300,
+                margin : {
+                    top: 30,
+                    right: 60,
+                    bottom: 50,
+                    left: 70
+                },
+                color: d3.scale.category10().range(),
+                //useInteractiveGuideline: true,
+                duration: 500,
+                xAxis: {
+                    tickFormat: function(d){
+                        return d3.format(',f')(d);
+                    }
+                },
+                yAxis1: {
+                    tickFormat: function(d){
+                        return d3.format(',.1f')(d);
+                    }
+                },
+                yAxis2: {
+                    tickFormat: function(d){
+                        return d3.format(',.1f')(d);
+                    }
+                }
+            }
+        };
+        // flat average average of each %age of level over healthy level
+        $scope.calculateHealth = function(patientReadings){
+            let averageHealth = 1.0;
+            let percentSystolic = (parseFloat(patientReadings.systolic) / 120.00 );
+            let percentDiastolic = (parseFloat(patientReadings.diastolic) / 80.00 );
+            let percentCholesterol = (parseFloat(patientReadings.cholesterol) / 200.00 );
+            averageHealth = Math.round(((percentSystolic+ percentDiastolic + percentCholesterol) / 3.00 ) * 100);
+            return averageHealth; 
+            
+        }
+        $scope.plotPoint = function(patientReadings, index){
+            let yVal = $scope.calculateHealth(patientReadings);
+            let currentPlotIndex = $scope.statsData[index].values.length ;
+            if (currentPlotIndex >= 7)
+                {
+                    for (let shiftIndex = 0 ; shiftIndex < currentPlotIndex-1; shiftIndex++){
+                        $scope.statsData[index].values[shiftIndex+1].x = $scope.statsData[index].values[shiftIndex].x;
+                    }
+                    $scope.statsData[index].values.shift();
+                 //   currentPlotIndex = 7;
+                }
+            console.log(index + ", x:" + ", y:" + yVal);
+                $scope.statsData[index].values.push({x:currentPlotIndex, y:yVal});
+            console.log($scope.statsData[index].values);
+        }
         let start;
         $scope.startPoll = function() {
              if (angular.isDefined( start)){
@@ -11,10 +67,10 @@
                 for (let pIndex = 0; pIndex < $scope.fivePatientData.length;pIndex++){
                // $scope.fivePatientData.forEach(function(patient) {
                     $scope.generateRandomData($scope.fivePatientData[pIndex], pIndex);
-                     
+                    $scope.plotPoint($scope.fivePatientData[pIndex], pIndex);
                  //   $scope.$watch($scope.fivePatientData[pIndex]);
                 };//)
-            },500 );
+            },2000 );
         }
             $scope.endPoll = function(){
                 if (angular.isDefined( start)){
@@ -47,6 +103,17 @@
             return z;
         }
         $scope.init = function() {
+            $scope.statsData = [
+               
+            ]
+            for (let pI =0 ; pI < 5 ; pI++){
+            let patientPlot = {};
+                patientPlot.type="line";
+                patientPlot.key="Patient" + (pI+1);
+                patientPlot.values = [];
+                patientPlot.yAxis=1;
+                $scope.statsData.push(patientPlot);
+            }
             $scope.statsAPI = MathsAndStats();
             $scope.objectUtilsAPI = JSObjects() ;
             // ranges

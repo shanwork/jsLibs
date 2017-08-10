@@ -11,6 +11,7 @@
     <li><em>Step  4</em> Add charting - average % over good health limits <em>Coming soon!!</em></li>
 <ul>
     <div class="row">
+         <div class="col-lg-4">
     <h4> step 1 add the static data </h4>
         <table class='table table-striped' style='width:90%'>
         <tr>
@@ -28,6 +29,9 @@
              <td id='cholesterol{{$index}}' ng-class=markValue('cholesterol{{$index}}',{{patient.cholesterol}},270)>{{patient.cholesterol}}</td>
             </tr>
         </table>
+        </div><div class="col-lg-8"><H4> step 4 Plot of average health  </H4> 
+     <nvd3 options="statsOptions" data="statsData"></nvd3>
+     </div>
     </div>
      <div class="row" >
     
@@ -46,5 +50,9 @@
     <button class='btn btn-default' ng-click='endPoll(2)'>Pause</button>
           </div>
     </div>
+    <div class="row">
+  
+ 
+</div>
 </p>
 </div>
