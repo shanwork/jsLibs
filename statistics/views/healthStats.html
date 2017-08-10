@@ -1,0 +1,40 @@
+<div>
+<p>
+<ul>
+    <li class="li-header"> Attempt to build a 5 bed ICU system</li>
+    <li>This is for a 5 bed ICU system where patients with BP above 150 Syst or 100 Diast or 270 cholesterol are admitted</li>
+    <li>The exit criteria is 125/85/230</li>
+    <li>The table shows red for over and green for below</li>
+    <li>On exit one more patient is added, and the cured patient is removed from the list</li>
+    <li><em>Step  1</em> initializes the first set of 5 records using the deepCopy API of my JSObjects library and an extension of Math.Radom to generate ramdom levels.Also ng-class mapped to a function returning value dependant class </li>
+    <li><em>Step  2</em> a manual simulation of curing patients, using Array.shift and splice. and my deepCopy </li>
+    <li><em>Step  3</em> coming soon - will use ng-inteval to periodically change the levels and, if the levels are good, 'cure' the patient, and add a new one </li>
+<ul>
+    <div class="row">
+    <span> step 1 add the static data </span>
+        <table class='table table-striped' style='width:90%'>
+        <tr>
+          <th>Name</th>    
+          <th>Age</th>    
+          <th>BP Systolic</th>    
+          <th>BP Diastolic</th>    
+          <th>Choleterol</th>    
+        </tr>
+            <tr ng-repeat = 'patient in fivePatientData'>
+              <td>{{patient.name}}</td>
+             <td>{{patient.age}}</td>
+             <td id='systolic{{$index}}' ng-class=markValue('systolic{{$index}}',{{patient.systolic}},125)>{{patient.systolic}}</td>
+             <td id='diastolic{{$index}}' ng-class=markValue('diastolic{{$index}}',{{patient.diastolic}},100)>{{patient.diastolic}}</td>
+             <td id='cholesterol{{$index}}' ng-class=markValue('cholesterol{{$index}}',{{patient.cholesterol}},270)>{{patient.cholesterol}}</td>
+            </tr>
+        </table>
+    </div>
+     <div class="row">
+    <span> step 2 cure a patient </span>
+    <button ng-click='curePatient(1)'>cure patient1</button>
+    <button ng-click='curePatient(2)'>cure patient2</button>
+    <button ng-click='curePatient(3)'>cure patient3</button>
+    <button ng-click='curePatient(4)'>cure patient4</button>
+    <button ng-click='curePatient(5)'>cure patient5</button>
+</p>
+</div>

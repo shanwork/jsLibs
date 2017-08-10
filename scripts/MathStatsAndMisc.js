@@ -258,7 +258,7 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                                     //   console.log(objectValues[arrayKey]);
                                     // assigning objectValues[arrayKey] doesnt seem to work, need to figure out why
                                     // workimg directly with the array
-                                     src[arrayKey] = JSObjects.API.keyModify('na','na', objectValues[arrayKey],                                              modifyList,true );
+                                     src[arrayKey] = JSObjects.API.keyModify('na','na', objectValues[arrayKey],                                              modifyList, true );
                                     //    console.log(objectValues[arrayKey]);
                                     // console.log(src);
                                    } 
@@ -276,17 +276,24 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                                                 JSObjects.API.deepModify(valueList[kIndex][srr], modifyList);
                                             }
                                             else { // simple array  
+                                             //   console.log('nested array',valueList[kIndex]);
+                                             //   console.log('nested array element',valueList[kIndex][srr]);
                                                valueList[kIndex][srr]=
                                                    JSObjects.API.keyModify('na',destKey, valueList[kIndex][srr], modifyList ) ;
-                                            }
+                                             //console.log('nested array',valueList[kIndex]);
+                                             //    console.log('nested array element',valueList[kIndex][srr]);
+                                               }
                                         } // for 
                                     } // isArray
                                     else if (typeof(valueList[kIndex])=="object"  ){ // element is an object 
                                         JSObjects.API.deepModify(valueList[kIndex],modifyList)
                                     }
                                     else {
+                                           console.log('nested array element',valueList[kIndex]);
                                         valueList[kIndex] = JSObjects.API.keyModify('na',destKey, valueList[kIndex], modifyList );
-                                    }
+                                       console.log('nested array element',valueList[kIndex]);
+                                        console.log('nested array',valueList);
+                                        }
                                 }// for 
                             } // ... if keylist
                         } // .. src is object

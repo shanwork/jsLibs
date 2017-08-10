@@ -39,6 +39,24 @@ input[type= label ]
     list-style: none;
     font-weight:bolder;
 }
+ .badValue {
+               color: red;
+               font-weight:600;
+               padding-left:3px;
+                 border:1px solid gray;
+                 width:auto;margin-left:15px;
+                
+             }
+             .goodValue 
+             {
+                 color: green;
+                 font-weight:800;
+                 padding-left:3px;
+                 border:1px solid silver;
+                 width:auto;
+                 margin-left:15px;
+                
+             }
 </style>    
 </head>
 <body >
@@ -49,7 +67,7 @@ input[type= label ]
            <li><span  ><a href="#/about" style="background-color:aliceBlue;text-decorations:none;padding-right:20px;margin-left">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
           <li><span  ><a href="#/entry" style="background-color:antiqueWhite;text-decorations:none;padding-right:20px;margin-left">Data Entry</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
           <li><span  ><a href="#/stats" style="background-color:beige;text-decorations:none;padding-right:20px;margin-left">Range Statistics</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
-                            
+           <li><span  ><a href="#/generalHealthStats" style="background-color:beige;text-decorations:none;padding-right:20px;margin-left">Health Monitoring</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                 
                         </ul>
                     </nav>
     <div data-ng-view></div>
@@ -67,5 +85,6 @@ input[type= label ]
     <script src="scripts/globals/Hub.js"></script>
     <script src="scripts/pages/DataEntryController.js"></script>
     <script src="scripts/pages/RangeStatisticsController.js"></script>
+      <script src="scripts/pages/HealthStatsController.js"></script>
 </body>
 </html>

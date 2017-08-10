@@ -24,5 +24,11 @@ test_stats_app.config(function($routeProvider){
              templateUrl:'views/dataEntry.html'
          }
       )
+      .when ('/generalHealthStats',
+         {
+             controller: 'HealthStatsController',
+             templateUrl:'views/healthStats.html'
+         }
+      )
       .otherwise( {redirectTo : '/entry'});
 })

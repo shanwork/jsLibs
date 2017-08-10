@@ -32,6 +32,7 @@
             { x: 5, y: { a:5, b:6}, z: [8,9,10]},
             { x: 6, y: { a:7, b:8}, z: [11,12,13,14]},
                        ];
+   let copyToNonModified = [] ; 
    let copyTo = [] ; 
    let keymodifiers = [{key: 'x', operation: '+', operand: '1'},
                        {key: 'z', operation: '*', operand: '5'}, 
@@ -39,7 +40,17 @@
                        {key: 'M', operation: '/', operand: '5'} ,
                        {key: 'N', operation: 'concat', operand: 'BELLE'}
                       ];
+        jsObjectAPI(testObject, copyToNonModified, null) ;
+        console.log('Complex object copied NOT modified', copyToNonModified);
         jsObjectAPI(testObject, copyTo, keymodifiers) ;
-        console.log(copyTo);
+        console.log('Complex object copied and modified', copyTo);
+    let keymodifiers2 = [{key: 'x', operation: '+', operand: '1'},
+                       {key: 'z', operation: '*', operand: '5'}, 
+                       {key: 'L', operation: 'concat', operand: '5'} ,
+                       {key: 'M', operation: '/', operand: '5'} ,
+                       {key: 'N', operation: 'concat', operand: 'BELLE'}
+                      ];
+  jsObjectAPI(testObject, null, keymodifiers2,2) ;
+        console.log('Complex object  modified', testObject);
     </script>
     </body>
