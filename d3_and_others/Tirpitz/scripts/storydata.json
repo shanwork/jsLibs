@@ -1,0 +1,284 @@
+var storyList = [
+    
+    {
+        title: 'Overview',
+        buttonStyle :  "padding:3px;background-color:antiquewhite  ; border: 2px outset red;margin:2px; border-radius:3px;color:firebrick;font-weight:bold",
+        contentStyle: { 'border':'4px outset darkgray',
+             'background-image': 'url("images/300px-Tirpitz-2.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'lightgoldenrodyellow'} ,
+        subsections: [
+           { 
+                subTitle: 'Outline Story',
+                content: '<p>Tirpitz was the second of two Bismarck-class battleships built for Nazi Germany\s Kriegsmarine (navy) during World War II. Named after Grand Admiral Alfred von Tirpitz, the architect of the Kaiserliche Marine (Imperial Navy), the ship was laid down at the Kriegsmarinewerft Wilhelmshaven in November 1936 and her hull was launched two and a half years later. Work was completed in February 1941, when she was commissioned into the German fleet. Like her sister ship Bismarck, Tirpitz was armed with a main battery of eight 38-centimetre (15 in) guns in four twin turrets. After a series of wartime modifications she was 2,000 tonnes (2,000 long tons) heavier than Bismarck, making her the heaviest battleship ever built by a European navy.[3]</p>'
+            },{
+                content:'<p>After completing sea trials in early 1941, Tirpitz briefly served as the centrepiece of the Baltic Fleet, which was intended to prevent a possible break-out attempt by the Soviet Baltic Fleet. In early 1942, the ship sailed to Norway to act as a deterrent against an Allied invasion. While stationed in Norway, Tirpitz was also intended to be used to intercept Allied convoys to the Soviet Union, and two such missions were attempted in 1942. This was the only feasible role for her, since the St Nazaire Raid had made operations against the Atlantic convoy lanes too risky. Tirpitz acted as a fleet in being, forcing the British Royal Navy to retain significant naval forces in the area to contain the battleship.[4]</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>In September 1943, Tirpitz, along with the battleship Scharnhorst, bombarded Allied positions on Spitzbergen, the only time the ship used her main battery in an offensive role. Shortly thereafter, the ship was damaged in an attack by British mini-submarines and subsequently subjected to a series of large-scale air raids. On 12 November 1944, British Lancaster bombers equipped with 12,000-pound (5,400 kg) "Tallboy" bombs scored two direct hits and a near miss which caused the ship to capsize rapidly. A deck fire spread to the ammunition magazine for one of the main battery turrets, which caused a large explosion. Figures for the number of men killed in the attack range from 950 to 1,204. Between 1948 and 1957 the wreck was broken up by a joint Norwegian and German salvage operation.</p>'
+            } 
+        ]
+    },
+    {
+        title: 'Construction and characteristics',
+        headerStyle: { 'color': 'white','font-weight': '900','background-color': 'maroon', 'opacity':'0.56'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/construction.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Tirpitz was ordered as Ersatz Schleswig-Holstein as a replacement for the old pre-dreadnought Schleswig-Holstein, under the contract name "G".[1] The Kriegsmarinewerft shipyard in Wilhelmshaven was awarded the contract, where the keel was laid on 20 October 1936.[5] The hull was launched on 1 April 1939; during the elaborate ceremonies, the ship was christened by the daughter of Admiral Alfred von Tirpitz, the ship\'s namesake.[6] Adolf von Trotha, a former admiral in the Imperial German Navy, spoke at the ship\'s launching, which was also attended by Adolf Hitler.[7] Fitting-out work followed her launch, and was completed by February 1941.[6] British bombers repeatedly attacked the harbour in which the ship was being built; no bombs struck Tirpitz, but the attacks did slow construction work.[8] Tirpitz was commissioned into the fleet on 25 February for sea trials,[2] which were conducted in the Baltic.[6]</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Tirpitz displaced 42,900 t (42,200 long tons) as built and 52,600 tonnes (51,800 long tons) fully loaded, with a length of 251 m (823 ft 6 in), a beam of 36 m (118 ft 1 in) and a maximum draft of 10.60 m (34 ft 9 in).[c] She was powered by three Brown, Boveri & Cie geared steam turbines and twelve oil-fired Wagner superheated boilers, which developed a total of 163,023 PS (160,793 shp; 119,903 kW) and yielded a maximum speed of 30.8 knots (57.0 km/h; 35.4 mph) on speed trials.[1] Her standard crew numbered 103 officers and 1,962 enlisted men; during the war this was increased to 108 officers and 2,500 men.[2] As built, Tirpitz was equipped with Model 23 search radars[d] mounted on the forward, foretop, and rear rangefinders. These were later replaced with Model 27 and then Model 26 radars, which had a larger antenna array. A Model 30 radar, known as the Hohentwiel, was mounted in 1944 in her topmast, and a Model 213 Würzburg fire-control radar was added on her stern 10.5 cm (4.1 in) Flak rangefinders.[11]</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>She was armed with eight 38 cm SK C/34 L/52 guns arranged in four twin gun turrets: two superfiring turrets forward—Anton and Bruno—and two aft—Caesar and Dora.[e] Her secondary armament consisted of twelve 15 cm L/55 guns, sixteen 10.5 cm L/65 and sixteen 3.7 cm (1.5 in) L/83, and initially twelve 2 cm (0.79 in) C/30 antiaircraft guns. The number of 2 cm guns was eventually increased to 58. After 1942, eight 53.3 cm (21.0 in) above-water torpedo tubes were installed in two quadruple mounts, one mount on each side of the ship.[2] The ship\'s main belt was 320 mm (13 in) thick and was covered by a pair of upper and main armoured decks that were 50 mm (2.0 in) and 100 to 120 mm (3.9 to 4.7 in) thick, respectively. The 38 cm turrets were protected by 360 mm (14 in) thick faces and 220 mm (8.7 in) thick sides.[1]</p>'
+            }
+        ]
+    },
+    {
+        title: 'Service history',
+        headerStyle: { 'color': '#004455','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.7'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/tirpitz_service.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '<p>After sea trials, Tirpitz was stationed in Kiel and performed intensive training in the Baltic. While the ship was in Kiel, Germany invaded the Soviet Union. A temporary Baltic Fleet was created to prevent the possible break-out of the Soviet fleet based in Leningrad. Tirpitz was briefly made the flagship of the squadron, which consisted of the heavy cruiser Admiral Scheer, the light cruisers Köln, Nürnberg, Leipzig, and Emden, several destroyers, and two flotillas of minesweepers.[8] The Baltic Fleet, under the command of Vice Admiral Otto Ciliax,[7] patrolled off the Aaland Islands from 23 to 26 September 1941, after which the unit was disbanded and Tirpitz resumed training.[13] During the training period, Tirpitz tested her primary and secondary guns on the old pre-dreadnought battleship Hessen,[14] which had been converted into a radio-controlled target ship.[15] The British Royal Air Force (RAF) continued to launch unsuccessful bombing raids on Tirpitz while she was stationed in Kiel.[16]</p>'
+            },{ 
+                subTitle: 'Deployment to Norway',
+                content: '<p>Grand Admiral Erich Raeder, the commander of the Kriegsmarine, proposed on 13 November that Tirpitz be deployed to Norway. The ship would be able to attack convoys bound for the Soviet Union, as well as act as a fleet in being to tie down British naval assets and deter an Allied invasion of Norway. Hitler, who had forbidden an Atlantic sortie after the loss of Bismarck, agreed to the proposal. The ship was taken into dock for modifications for the deployment. The ship\'s antiaircraft battery was strengthened, and the 10.5 cm guns on the superstructure next to the catapult were moved outboard to increase their field of fire. The two quadruple 53.3 cm torpedo tube mounts were also installed during this refit.[17] The ship\'s commander, Kapitän zur See (KzS—Captain at Sea) Karl Topp,[18] pronounced the ship ready for combat operations on 10 January 1942.[16] The following day, Tirpitz left for Wilhelmshaven, a move designed to conceal her actual destination.[17]</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>The ship left Wilhelmshaven at 23:00 on 14 January and made for Trondheim.[17] British military intelligence, which was capable of decrypting the Enigma messages sent by the German navy, detected the departure of the vessel, but poor weather in Britain prevented action by the RAF.[19] Admiral John Tovey, the commander in chief of the British Home Fleet, was not made aware of Tirpitz\'s activities until 17 January, well after the ship had arrived in Norway.[20] On 16 January, British aerial reconnaissance located the ship in Trondheim. Tirpitz then moved to the Fættenfjord, just north of Trondheim.[21] The movement was codenamed Operation Polarnacht (Polar Night); the battleship was escorted by the destroyers Z4 Richard Beitzen, Z5 Paul Jakobi, Z8 Bruno Heinemann and Z29 for the voyage.[22] The Norwegian resistance movement transmitted the location to London.[23] She was moored next to a cliff, which protected the ship from air attacks from the southwest. The ship\'s crew cut down trees and placed them aboard Tirpitz to camouflage her.[21] Additional antiaircraft batteries were installed around the fjord, as were anti-torpedo nets and heavy booms in the entrance to the anchorage.[24] Life for the crew of Tirpitz was very monotonous during the deployment to Norway. Frequent fuel shortages curtailed training and kept the battleship and her escorts moored behind their protective netting. The crew was primarily occupied with maintaining the ship and continuously manning antiaircraft defences. Sports activities were organised to keep the crew occupied and physically fit.[25]</p>'
+            },{ 
+                subTitle: 'Operations against Allied convoys',
+                content: '<p>Several factors served to restrain Tirpitz\'s freedom of operation in Norway. The most pressing were shortages of fuel and the withdrawal of the German destroyer forces to support Operation Cerberus, the movement of the battleships Scharnhorst and Gneisenau and the heavy cruiser Prinz Eugen up through the English Channel. These caused a planned attack against the outbound convoy PQ 8 at the end of January to be abandoned.[26] A planned British air attack at the end of January by four-engined heavy bombers was disrupted by poor weather over the target, which prevented the aircraft from finding the ship.[27] In early February, Tirpitz took part in the deceptions that distracted the British in the run-up to Operation Cerberus. These included steaming out of the fjord and the appearance of preparations for a sortie into the North Sea.[28] Later that month, the ship was reinforced by the heavy cruisers Admiral Scheer and Prinz Eugen and several destroyers. Prinz Eugen had been torpedoed by a British submarine at the entrance to the Fættenfjord, and was therefore temporarily out of action.[29]</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>In March 1942 Tirpitz and Admiral Scheer, along with the destroyers Z14 Friedrich Ihn, Z5 Paul Jakobi, Z7 Hermann Schoemann and Z25 and a pair of torpedo boats,[22] were intended to attack the homebound convoy QP 8 and the outbound Convoy PQ 12 as part of Unternehmen Sportpalast (Operation Sports Palace).[26][30] Admiral Scheer,[26] with a design speed of 26 knots (48 km/h; 30 mph),[31] was too slow to operate with Tirpitz and was left in port,[26] as was the destroyer Paul Jakobi. The two torpedo boats were also released from the operation.[22] On 5 March, Luftwaffe reconnaissance aircraft spotted PQ 12 near Jan Mayen Island; the reconnaissance failed to note the battleship HMS Duke of York or the battlecruiser HMS Renown, both of which escorted the convoy, along with four destroyers. Unknown to the Germans, Admiral Tovey provided distant support to the convoys with the battleship HMS King George V, the aircraft carrier HMS Victorious, the heavy cruiser HMS Berwick, and six destroyers. Enigma intercepts again forewarned the British of Tirpitz\'s attack, which allowed them to reroute the convoys. Admiral Tovey attempted to pursue Tirpitz on 9 March,[26] but Admiral Otto Ciliax, the commander of the German squadron, had decided to return to port the previous evening. An air attack was launched early on the 9th; twelve Fairey Albacore torpedo bombers attacked the ship in three groups, and Tirpitz successfully evaded the torpedoes. Only three men were wounded in the attack.[32] Tirpitz\'s anti-aircraft gunners shot down two of the British aircraft.[33] After the conclusion of the attack, Tirpitz made for Vestfjord, and from there to Trondheim, arriving on the evening of 13 March.[34] On 30 March, thirty-three Halifax bombers attacked the ship; they scored no hits, and five aircraft were shot down.[35] The RAF launched a pair of unsuccessful strikes in late April. On the night of 27–28 April, thirty-one Halifaxes and twelve Lancasters; five of the bombers were shot down. Another raid, composed of twenty-three Halifaxes and eleven Lancasters, took place the following night. Two of the bombers were shot down by the German anti-aircraft defences.[36]</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>The actions of Tirpitz and her escorting destroyers in March used up 8,230 metric tons (8,100 long tons) of fuel oil, which greatly reduced the available fuel supply. It took the Germans three months to replenish the fuel spent in the attempt to intercept the two Allied convoys. Convoy PQ 17, which left Iceland on 27 June bound for the Soviet Union, was the next convoy targeted by Tirpitz and the rest of the German fleet stationed in Norway,[34] during Unternehmen Rösselsprung (Operation Knight\'s Move).[37] Escorting the convoy were the battleships Duke of York and USS Washington and the carrier Victorious.[34] Tirpitz, Admiral Hipper, and six destroyers sortied from Trondheim, while a second task force consisting of Lützow, Admiral Scheer, and six destroyers operated out of Narvik and Bogenfjord.[38] Lützow and three of the destroyers struck uncharted rocks while en route to the rendezvous and had to return to port. Shortly after Tirpitz left Norway, the Soviet submarine K-21 fired two or four torpedoes at the ship, all of which missed.[39][40] The Soviets claimed two hits on the battleship.[41] Swedish intelligence had meanwhile reported the German departures to the British Admiralty, which ordered the convoy to disperse. Aware that they had been detected, the Germans aborted the operation and turned over the attack to U-boats and the Luftwaffe. The scattered vessels could no longer be protected by the convoy escorts, and the Germans sank 21 of the 34 isolated transports. Tirpitz returned to Altafjord via the Lofoten Islands.[39]</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Following Rösselsprung, the Germans moved Tirpitz to Bogenfjord near Narvik. By this time, the ship needed a major overhaul. Hitler had forbidden the ship to make the dangerous return to Germany, and so the overhaul was conducted in Trondheim. On 23 October, the ship left Bogenfjord and returned to Fættenfjord outside Trondheim. The defences of the anchorage were further strengthened; additional anti-aircraft guns were installed, and double anti-torpedo nets were erected around the vessel. The repairs were conducted in limited phases, such that Tirpitz would remain partially operational for the majority of the overhaul. A caisson was built around the stern to allow the replacement of the ship\'s rudders.[39] During the repair process, the British attempted to attack the battleship with two Chariot human torpedoes, but before they could be launched, rough seas caused the human torpedoes to break away from the fishing vessel which was towing them.[42] By 28 December, the overhaul had been completed, and Tirpitz began sea trials. She conducted gunnery trials on 4 January 1943 in Trondheim Fjord.[43] On 21 February, Topp was promoted to Rear Admiral and was replaced by Captain Hans Meyer; five days later the battleship Scharnhorst was ordered to reinforce the fleet in Norway. Vice Admiral Oskar Kummetz was given command of the warships stationed in Norway.[44]</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>By the time Scharnhorst arrived in Norway in March 1943, Allied convoys to the Soviet Union had temporarily ceased. To give the ships an opportunity to work together, Admiral Karl Dönitz, who had replaced Raeder in the aftermath of the Battle of the Barents Sea on 31 December 1942, ordered an attack on the island of Spitzbergen, which housed a British weather station and refuelling base.[43] Several settlements and outposts on Spitzbergen were defended by a garrison of 152 men from the Norwegian Armed Forces in exile.[45] The two battleships, escorted by ten destroyers, left port on 6 September; in a ruse de guerre, Tirpitz flew the white ensign on the approach to the island the following day.[46] During the bombardment, Tirpitz fired 52 main-battery shells and 82 rounds from her 15 cm secondaries.[47] This was the first and only time the ship fired her main battery at an enemy surface target.[43] An assault force destroyed shore installations and captured 74 prisoners.[45][48] By 11:00, the battleships had destroyed their targets and headed back to their Norwegian ports.[43]</p>'
+            }
+        ]
+    },
+    {
+        title: 'PART 4 Krishna\s Death and the Prophecy',
+        headerStyle: { 'color': 'antiquewhite','font-weight': '1900', 'background-color': 'transparent', 'opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/krishna_death.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.9',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: 'The news and the prophecy',
+                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Arjuna was walking briskly and he was quickly approaching the Royal apartment. Everyone rose as if they had suddenly come to life; they hurried forward to meet Arjuna, thirsty for the news from Dwaraka. Arjuna came in, depressed and despondent devoid of any joy. Without looking at anyone, he fell at the feet of Dharmaraja and tears started streaming from Arjuna’s eyes. Nobody had the courage to ask Arjuna about the happenings in Dwaraka.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Dharmaraja mustered some courage and asked Arjuna in pathetic tone, “Have you any news about Lord Krishna and the Yadavas?” Arjuna with sobbing eyes said, “Brother, Sri Krishna has departed from this world. The Yadavas left the world even before news came of His departure.”</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>At this Dhramaraja exclaimed, “Hari, Hari, O God! What is it that you said now? What a catastrophe? I do not understand anything.” Dharmaraja hugged Arjuna and sobbed. All the Pandava brothers were thrown into deep sorrow. He continued, “The Lord causes beings to create beings and He causes beings to end beings. Bodies get born, bodies die. Nothing more happens at birth or death. This has been taught to us by Vaasudeva (Krishna).”</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Hearing what had happened to Krishna, mother Kunti fainted and breathed last. Dharmaraja and Arjuna felt that there is no point in living in this world when the Lord has left the earth. Bhima, Nakula and Sahadeva also had the same feeling.  They all decided to go the Himalayas and work towards their salvation. But, somebody has to hold the reigns of the kingdom. The young boy Parikshith is the only crown prince who has to shoulder the responsibilities of managing the kingdom.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Dharmaraja called renowned astrologers and asked them, “O wise men, who know the past, present and future! Examine the horoscope of Parikshith and tell me how the future will be shaped.” The Pundits examined the horoscope at length and the head Pundit stood up and addressed King Yudhistra, “Maharaja, I have examined thousands of horoscopes, but I never yet to come across a more auspicious grouping than is indicated in this horoscope. All virtues will gather in this child. The great Manu has again come in your dynasty. He will revere and serve Gods and the Brahmins. He will outdistance all those who gone before him.”</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Dharmaraja was still not satisfied. He asked, “I am happy with all the answers you have given. But, I would like to know how he will meet his end.”  The Pundits set about the calculations again and took a long time over it. Finally, they announced, “This prince will give up his kingdom as a result of a sage’s curse. He will be bitten by a serpent.”.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>After hearing this, Dharmaraja was very unhappy. He lamented, “O, the horror of it. Why should this child end up like that?” The Brahmins hastened to console him. “Maharaja”, they said, “There is no reason to grieve. As soon as he learns of the curse, he will give up his kingdom, as well as his wife and children and retire to the bank of the holy Bhagirathi river and surrender himself to the Lord. The great sage Suka, son of Vyasa, will arrive there and initiate him into Atma Jnana (Self-knowledge) through the recital of the glories of Lord Krishna and singing of His praise. Thus, he will spend his last days on the sacred bank of Ganga and breathe his last with the adoration of the Lord. He will not born again, for, through Bhakti Yoga (Path of devotion), he will attain oneness with the Lord.  Hearing this, Dharmaraja was consoled and said, “If so, this is no curse; it is a unique boon!”</p>'
+            }
+        ]
+    },
+    {
+        title: 'PART 5 Parikshit Coronation and the curse',
+        headerStyle: { 'color': 'cyan','font-weight': '1900', 'background-color': 'darkblue', 'opacity':'0.5' },
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/parikshit-snake-sage-mahabharata.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.9',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: 'Parikshith Coronated',
+                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;After the Pundits were sent away with gifts, Dharmaraja called Arjuna near him and said, “Arjuna! Let us not delay any further. The funeral rites of dear mother must begin immediately. We must have Parikshith crowned Emperor. We must leave Hasthinapura this night itself; every moment without Krishna appears as a Yuga (eon) to me.”</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Parikshith was given a ceremonial bath, crown jewels put on him and sworn-in as crown Prince with only a few invitees for the event. Parikshith was weeping knowing that his grandfather Arjuna is going to leave soon after the event. Since Parikshith was still a small boy, Kripacharya, the Guru of the family was asked take care of the kingdom and advice Parikshith accordingly. The Pandava brothers showered auspicious sacred rice on the head of Parikshith and started heading in the northerly direction for their salvation. Tears filled the eyes of everyone who witnessed these events.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Slowly, over time, Parikshith learnt the details, strategies and intricacies of a ruling a kingdom from Kripacharya. At the right age, he got married and had a few children. The citizens of the country were very happy under the rule of king Parikshith.</p>'
+            },{ 
+                subTitle: 'Parikshith cursed',
+                content: '<p>One day, Parikshith went all alone into a forest for hunting. He lost his way, trekked a long distance and could not bag a beast; a fierce thirst began to torment him. He was exhausted beyond endurance. Frantically, he searched for water. Luckily, he found a hermitage, a cottage thatched with grass. When he entered, he found Sage Sameeka in deep meditation. He went near him and addressed, “Sir, Sir, Water!” but Sameeka was deep in meditation. At this, the King was overcome by a fierce gust of anger. His feet trod on some rope on the floor. He discovered it was a snake. Deluded by anger and by a twist of fate, he threw the dead snake around the neck of the hermit and left the hermitage in a hurry to slake his thirst elsewhere.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Some boys saw him emerge from the cottage and they entered the cottage to find out why he had gone inside. They saw the snake around the neck of Sameeka. They surmised that it must be the handiwork of the man who had just left the hermitage. They ran out and informed Sringi, the son of Sameeka who was playing with his friends. Sringi ran into the cottage and found that the unbelievable had happened. He ran in the direction of the King and threw a handful of water at the King and pronounced the curse: “Let him be bitten by a snake on the seventh day and may he die of that poison”. Meanwhile Sameeka emerged from his deep meditation. He removed the dead snake from his neck and placed it beside him. Sringi told his father, “This was a prank played by a man in the garb of a King. I cursed him that he dies on the seventh day of a snake bite”.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Sameeka was shocked at this news and astonished at the behavior of his son. He knew that the curse could not be taken back. He instructed Sringi to go to King Parikshith’s palace and inform the King of the curse and seek his pardon. Sringi obediently followed the instructions of his father and informed King Pariskhith about the forthcoming danger from the snake. Parikshith knowing that his end is going to come in seven days, left the palace and began to seek sages and saints for spiritual knowledge. Parikshith was not satisfied with the advice many of them gave him.  Finally, he settled under a tree near Bhagirathi river and started to meditate on the Lord.  The story takes a sudden turn now!.</p>'
+            }
+        ]
+    },
+    {
+        title: 'PART 6a Parikshit meets Sage Suka',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'transparent', 'opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/parikshit_and_sukha.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.9',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: 'Parikshith meets Sage Suka',
+                content: '<p>Though Parikshith was trying to meditate, he could not bring his mind to one- pointedness. The fear of impending death was tormenting him. His heart had become soft and tender due to the fate he had to face in a week and the time was slipping away fast. He was shedding tears profusely and sharing his fate with many sages who were present on the banks of Bhagirathi river. </p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Meanwhile, a youthful ascetic with an extraordinary bright face and splendor moved through the gathering of the sages, like a fast stream of light and reaching the presence of the king, he seated himself on a sand pedestal. The onlookers were amazed at this sudden appearance. Very soon, one wise old sage recognized him and approached him with folded palms. “Blessed indeed are all of us. This ray of Divine effulgence is coming from no other than Sage Suka, the son of Sage Vyasa”, said the old sage, “From the moment of birth, this person is free from all attachment. He is the master of all knowledge.”</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>King Parikshith was gazing with devoted admiration at the face of Sage Suka and said, “Lord, I have a doubt pestering me. Please remove it and give peace to my heart.” Sage Suka interrupted him and said, “King! The reason I have come to you is to end this doubt that is pestering you. I shall resolve your doubt and grant you peace.”</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>The King spoke humbly and with great anxiety, “Lord! What should a person facing death, who is aware of the end, engage in? What should his mind dwell upon? After succumbing to death, he should not be born gain. If this is his desire, how should he spend the days at his disposal? This is the problem that is bothering me at present.” “What should I do now?” The King pleaded gain for guidance.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Sage Suka answered: “King! Withdraw your mind from worldly thoughts and fix it on Hari, the Lord who charms all hearts. There can be no greater spiritual exercise than this.” Suka asked (as if he didn’t know), “O King, please reveal to me who you are and why you are worrying about your death?” At this, the king replied, “Lord, my name is Parikshith. I am the son of Abhimanyu who was killed in the Mahabharata war. I am the grandson of Arjuna, the great warrior.” The king then narrated the curse he had received.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>At the mention of the name Arjuna, Sage Suka’s eyes began to sparkle! “Your grandfather Arjuna and Lord Krishna were very good friends. So, I shall instruct you in the Divine wisdom of Srimad Bhagavtham. Listen to it with all your heart. There is no activity holier than that. It has incorporated in it, every conceivable source of auspiciousness and joy.” Once the other sages heard this, all the sages and king Parikshith sat around Sage Suka below the pedestal to hear the stories.</p>'
+            },{ 
+                subTitle: 'Narration by Sage Suka: Meeting and Friendship of Shree Krishna and Arjuna',
+                content: '<p>Parikshith was curious to know how Arjuna and Krishna became good friends. So, he posed the question, “Swami! How did Arjuna and Krishna meet?” Sage Suka smiled and said, “It is a long story! So, I will tell you a brief version of it. Listen carefully!”</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Krishna and Balaram (Krishna’s elder brother) were present at Draupadi’s Swayamvaram (the festival for choice of bride-groom). Arjuna won Draupadi’s hand by hitting the rotating fish with his bow which was the testing game that Draupadi’s father had set up. Arjuna started walking towards the Palace exit holding Draupadis hand. At that time, Krishna approached Arjuna and said, “I know you - but you do not know Me! I am the son of Vasudeva. My name is Sri Krishna. I am older than you. I recognized that you are one of the Pandava brothers. At last, I am able to meet you. This bride is an embodiment of virtue and intelligence.” This was their first meeting.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Parikshith asked, “Lord, How did they become thick friends after this first meeting?” “There is more to it” said Sage Suka, “ Vasudeva’s (Krishna’s father) sister is Kunti. Kunti is the mother of Arjuna. So, Kunti is Krishna’s aunt. Arjuna is Krishna’s nephew. Not only that, Subhadra was the daughter of Vasudeva and  Rohini (second wife of Vasudeva). She was born after Krishna and therefore she is Krishna’s younger sister. Arjuna married Subhadra and therefore, Arjuna is Krishna’s bother-in-law. Because of these multiple relationships, Krishna became the dearest friend of Arjuna.”</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Sage Suka started narrating all the stories of Krishna and interesting episodes of Arjuna with Krishna over the next six days. From the stories, Parikshith felt as if he was standing in front of Lord Krishna completely bathed in His Divine grace. Parikshith shed tears of joy when he heard all the sweet stories consecutively for six days.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>At this time, King Parikshith told Sage Suka, “Master! Time is fast approaching its end as far as my body is concerned. Please tell me the story of the birth of Lord as Krishna. May my final hour be blessed by that sacred story.”At this, Sage Suka became very happy and spoke thus: “Maharaja Parikshith, I am also filled with joy at the prospect of spending the few remaining hours in reciting the wondrous birth of Sri Krishna. Only those who are ripe in Bhakthi can grasp its meaning. Others revel in the depths of sin and have no use for it.”</p>'
+            }
+        ]
+    },
+    {
+        title: 'PART 6b Suka Narrates Events leading Shree Kirshna\s Birth  1',
+        buttonStyle :  "opacity:0.8;padding:4px;background-color:orange  ; border: 2px outset crimson;margin:2px; border-radius:3px;color:crimson;font-weight:bold",
+        headerStyle: { 'color': 'antiquewhite','font-weight': '1900', 'background-color': 'transparent', 'opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/kama_narada.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.9',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: 'Lineage of Sri Krishna’s parents',
+                content: '<p>(Suka narrates)<br/>"Maharaja, long long ago, the world was ruled by a Yadu dynasty king named Ahuka. He had two sons Devaka and Ugrasena. When they grew up, the king got them married and they shared the burden of the kingdom. Years slipped by. Devaka had seven daughters and Devaki was the eldest of all. Ugrasena had nine sons and Kamsa was he eldest son. Devaki and Kamsa play a vital role in this story of Sri Krishna. Within the precincts of the capital city of Mathura, there lived a Yadu prince Surasena. He had ten sons and five daughters; the eldest son was Vasudeva and the eldest daughter was Kunthi."</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>"Devaki, the daughter of Kamsa’s paternal uncle was given in marriage to Vasudeva; the marriage was celebrated on a grand scale. Kamsa had no sisters of his own and so he loved Devaki as his dearest self.Kamsa showered Devaki with costly raiments, and precious jewels and took special interest in pompous hospitality to everyone. On the third day, the bride has to be sent to the groom’s home and Kamsa himself drove the newly-weds in a magnificent chariot."</p>'
+            },{ 
+                subTitle: 'The thundering prophecy and Kamsa’s anger',
+                content: '<p>"Suddenly, there was a brilliant lightning flash and a terrific sound over the chariot. Everyone froze into pillars of immobility. All the music was silenced in an instant. Through the sky the following words exploded: “O, Kamsa! This very sister whom you love as your own self so affectionately – her eighth child will deal you death! Reflect on that coming calamity!” and the shining figure disappeared from the sky.”</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>"Kamsa lost control of himself, the reins fell off his grasp and was filled with fury. His thoughts took a decisive turn. With the sister alive, the killer will be born; with the sister killed, no one can deal him death! Kamsa lifted Devaki from her seat by her plaited hair and pulled the sword out of the scabbard with the intention of slicing her head off. What an awful sight was this! He should attempt to kill the very sister he loved so long deeply and whom he was escorting! No one dared to avert this disaster."</p>'
+            },{ 
+                subTitle: 'Vasudeva pleads',
+                content: '<p>"Meanwhile, Vasudeva rose and held both the hands of Kamsa tight in his grasp. “Dear brother-in-law! I too heard the voice from the sky. We do not like any harm come to you. For a man like you, it is not proper to indulge in such cruel acts. Release your sister from the hold. If you firmly believe in the voice from the sky, I assure you that I shall entrust to your care every child that is born of her. While my offer is there, if you still slaughter your sister, you will suffer from this monstrous sin”. When Vasudeva pleaded like this, Kamsa said, “Well! Be warned! Keep up the word you have given me”. He asked his brother to take charge of the chariot and returned to his palace."</p>'
+            },{ 
+                subTitle: 'Time passes',
+                content: '<p>"In due course, Devaki became pregnant, nine months passed and she delivered a son. As promised, Vasudeva handed over the new-born babe, rolled in warm clothing to the tender mercies of Kamsa. However, Kamsa had no mind to kill the tender baby. He said, “Dear brother-in-law, this babe can cause no harm to me! It is the eighth child! Please take back this child!” Devaki was extremely happy that her first born was restored to her. She poured her heart out in gratitude to God for this blessing.".</p>'
+            },{ 
+                subTitle: 'Narada creates confusion',
+                content: '<p>"Meanwhile, sage Narada came to Kamsa’s court and enquired about Kamsa and his kingdom. During the course of the conversation, Narada said, “So, it is the eighth child that is going to kill you. Is it the eighth child counting from the first born or the last born or from the middle? Do not disregard death as a distant contingency!” With these parting wordsNarada left the palace.”</p>'
+            },{ 
+                subTitle: 'Kamsa’s anger',
+                content: '<p>"Narada’s words were like poking a dagger into a bleeding wound. Kamsa flew into a rage and sent word for Vasudeva. He roared, “How many children you have now?”Vasudeva’s lips quivered as he replied, “Now I have six!” Kamsa yelled, “Tomorrow morning bring all six and hand them over to me.” Vasudeva walked like a corpse, went to Devaki, held her in tight embrace and broke the sad news. Next morning, Vasudeva handed over all the six children unwillingly to Kamsa and burst into tears. The ego centric maniac caught hold of each of them by the leg and beat them out of shapeon the hard floor! Meanwhile, the seventh pregnancy! Surprisingly, it was aborted in the seventh month! When Kamsa came to knew about this, he thought that Devaki was capable of some strategy to deceive him. So, he put both of them in a closely guarded prison.”</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>Sage Suka started narrating all the stories of Krishna and interesting episodes of Arjuna with Krishna over the next six days. From the stories, Parikshith felt as if he was standing in front of Lord Krishna completely bathed in His Divine grace. Parikshith shed tears of joy when he heard all the sweet stories consecutively for six days.</p>'
+            }
+        ]
+    },
+    {
+        title: 'PART 7 The Birth of Shree Krishna',
+        buttonStyle :  "padding:4px;background-color:orange  ; border: 2px outset crimson;margin:2px; border-radius:3px;color:crimson;font-weight:bold",
+        
+        headerStyle: { 'color': 'antiquewhite','font-weight': '1900', 'background-color': 'transparent', 'opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/shree_krishna_birth.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.9',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: 'The Divine pregnancy',
+                content: '<p>At this point, Sage Suka moistened his lips with his tongue and continued: Devaki and Vasudeva being in prison, looked like mad persons. They sat with unkempt hair, lean and lanky due to lack of appetite and no means to feed their bodies. They could not sleep and they were consumed by grief over the children they had lost. After another year, Devaki conceived for the eighth time. O, it was wondrous! What a transformation it had brought about!</p>'
+            },{ 
+                subTitle: 'The wonderful transformation',
+                content: '<p>The faces of Devaki and Vasudeva, which had drooped and dried up, suddenly blossomed like lotuses in full bloom. They shone with a strange splendor. Their bodies which were reduced to mere skin and bone, took on flesh, became round and smooth and shone with a charming golden hue. The prison cell of Devaki and Vasudeva became fragrant with pleasing odors; it cast a wondrous light and was filled with inexplicable music and jingling of dancing feet. Devaki and Vasudeva became aware of these happenings, but they were afraid to inform Kamsa, lest in his vindictive frenzy, he might hack the womb to pieces. They were anxious about the strange future of the son to be born and were restless with weird forebodings.</p>'
+            },{ 
+                subTitle: 'Kamsa’s meanness and Pariskshith’s question',
+                content: '<p>Kamsa knew his time was fast approaching; he was torn by greed to continue as an unquestioned Emperor; he was overcome by conspiracy; he overran the territories of Yadu, Vrishni, Bhoja and Andaka and added them to his domain; he threw his father Ugrasena into prison; thereafter, his will was sovereign. Hearing these words of Suka, Parikshith said, “What foolishness is this? Knowing fully well that his end was drawing near, should he not give up his greed and turn his mind towards God?” Suka burst into laughter and said, “Maharaja! You think that all those whose end is near will utilize the time at their disposal to seek the vision of the Lord! Such yearning can arise in the mind only due to good deeds performed in the previous lives. Those who have acquired good merits from their past actions, have compassion towards all beings, do not swerve from the right path and adhere to truth, non-violence and love. They have only thoughts of God and urge to do sanctifying deeds till their last days. Instead, those who are immersed in selfishness, egotism, greed, vice, violence and unrighteousness will suffer from increased evil urges in their last days and destroy themselves. Hence the saying <em>Vinaasa Kaale, Vipareetha Buddhi.</em></p>'
+            },{ 
+                subTitle: '',
+                content: '<p>(Suka continues)<br/>"The fetus of the seventh pregnancy was taken from Devaki and transferred to Rohini who was in Gokula under the protection of Nanda. This was done so that the child may grow into a companion and helpmate for Krishna. Rohini gave birth to a son who was named as Balarama because of his extraordinarily strong body and his charming innocence and intelligence. Since he was transferred from the womb of Devaki to Rohini, he was also called Samkarshana (who was attracted or drawn). Meanwhile, the eighth pregnancy completed nine months; Devaki and Vasudeva sat helpless in great anguish without food or sleep fearing what would Kamsa do next. Kamsa took extra precautions to see that the child does not escape him. He ordered that Vasudeva and Devaki be shackled with chains on hand and feet. But, who can hinder the inscrutable operation of the will of God?"</p>'
+            } ,{ 
+                subTitle: '',
+                content: '<h2>The Advent of the Lord</h2><p id="special" style="font-size:larger;font-weight:900;color:firebrick;border:2px solid maroon;border-radius:5px;padding:10px;"><em>One night, Devaki developed labor pains; with her mind firmly fixed on God, she was looking at the oil lamp in the cell, asking herself, “What is going to happen to me?” Suddenly, the flame went out and darkness filled the cell. Just then, there was an effulgent Form with a strange splendor standing before her. Gradually, the Form became clear! It was armed with the Conch, the Discus and the Mace; the fourth hand was held in Abhaya pose. It said softly and sweetly, “Do not fear! I am Narayana. I am to be born in a few minutes as your son in an answer to the promise I made as a result of your earnest prayers. I will be known as Krishna and also as Vasudeva. As soon as I am born, the shackles will fall off from your hands and feet. The doors of the prison will open by themselves. Take Me from here without anyone’s knowledge, to the home of Nanda in Gokula. Place Me by the side of his wife, Yasoda who is having labor pains now. Bring the baby girl that Yasoda has delivered back into this prison and keep her with you. Then, send word to Kamsa. Until he gets the news, no one either in Mathura or Gokula will notice you. I shall arrange it so.” Blessing Devaki and Vasudeva, the effulgent Form entered the womb of Devaki as an Orb of Light. Within minutes the Divine Child was born! It was 3:30AM. The shackles that bound the hands and feet of Vasudeva fell off in a trice. The doors and the gates flew open. Though it was still dark, a cuckoo was cooing with a sudden spurt of joy. The Rain-God was showering flower drops of rain on the earth. Around the prison, flocks of bird clustered in happy song, twittering sweet melody. Vasudeva turned his eyes towards the new born child and was astounded. Encircling the Babe was a brilliant halo of Light!</em></p>'
+            },{ 
+                subTitle: 'The Lord moves to Gokul',
+                content: '<p>Vasudeva did not delay. He spread an old dhoti on a bamboo basket and placed the Babe on it. He tore an old sari of Devaki and covered the Babe and placed the basket on his head. He moved out of the open doors and gates, past the sleeping guards. He noticed the little drops of rain that was falling on the Babe and was afraid that the Babe would be soaked. But, when he turned back, he found a snake following his footsteps, holding the ribbed umbrella of its broad hoods over the child preventing the rain from wetting the Babe. He soon realized that it was Adisesha protecting the Lord. Though the sun had not risen yet, the lotus bloomed in all the tanks and leaned on its stalk towards the Babe. Though it was a dark night, with a deep yearning to look at the Babe, the full moon peeped through the clouds, with its cool rays illuminating the entire route to Gokul. Vasudeva began to cross Yamuna river to reach Gokul. The water was rising very rapidly above Vasudeva’s head and he was afraid that he would drown. It dawned on him that Yamuna was paying its respects to the Lord by wetting the feet of the Babe! The Babe was placed next to Yashoda and the baby girl that had just been born there was brought and placed into the hands of Devaki. No sooner this was done, Vasudeva burst into tears! While these words were coming from Suka’s lips, Parikshith exclaimed aloud, “Krishna, Krishna!” Everyone looked at the King. They saw a snake crawling away fast, after biting the right toe of the King. Suka shed tears of Bliss; He announced, “The King has merged with the Lord”. The word Suka means parrot. Yes, he was the parrot that plucked the ripe nectar filled fruit called Bhagavatha from the tree of the Vedas and enabled the world to taste it. May the world relish the fruit and derive the Atmic Bliss!</p>'
+            }
+        ]
+    }
+];
