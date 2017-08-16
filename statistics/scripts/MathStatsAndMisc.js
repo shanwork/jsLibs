@@ -283,12 +283,17 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                 this.element.setAttribute("style",addStyle);
             return this;
              },
-        fade: function(start=0, end=0, interval=0){
+        fade: function(start=0, end=0, interval=0, callback==null){
                 this.element.style.opacity = start;
-                window.setTimeout(function(localElement){
+                window.setTimeout(function(localElement, returnFunc){
                 // this.element.style.opacity = end;
-                        return function() { localElement.style.opacity = end; console.log(localElement) };
-                }(this.element), interval)  ;  
+                        return function() { 
+                            localElement.style.opacity = end; 
+                            console.log(localElement);
+                            if (returnFunc)
+                                returnFunc();
+                        };
+                }(this.element,callback), interval)  ;  
                 return this;
                 },
         

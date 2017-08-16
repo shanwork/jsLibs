@@ -115,9 +115,13 @@
             manipulateStyle = function(){
                 let domElement = DOMElement('domDom');
                 domElement.background('white') 
-                    .fade(1.0, 0.5, 800)
+                    .fade(1.0, 0.5, 900, function() { 
+                            let domElement2 = DOMElement("domDom2");
+                            domElement2.text('row 2');
+                        })
                     .border("2px solid orange")
-                    .fade(0.5, 1.0, 1000)
+                    .fade(0.01, 1.0, 3000, function() { let domElementAPI2 = DOMElement("domDomAPI2");
+                            domElementAPI2.text('API row 2');})
                     .text('Hope you are doing good')
                     .border("3px solid brown")
                     .foreground('red')
@@ -126,7 +130,10 @@
                 let domAPIElement = DOMElement('domDomAPI')
                 domAPIElement.html("Code:<br/>let domElement = DOMElement('domDom');<br/>" + 
                                         "domElement.background('white') <br/>" + 
-                                        "&nbsp;&nbsp;.fade(1.0, 0.5, 800)<br/>" + 
+                                        "&nbsp;&nbsp;.fade(1.0, 0.5, 800, 900, function() { <br/>" +
+                                        "&nbsp;&nbsp;&nbsp;&nbsp;let domElement2 = DOMElement(\"domDom2\");<br/>" +
+                                        "&nbsp;&nbsp;&nbsp;&nbsp;domElement2.text('row 2');<br/>" +
+                                        "&nbsp;&nbsp;&nbsp;&nbsp; })<br/>" + 
                                         "&nbsp;&nbsp;.border('2px solid orange')<br/>" + 
                                         "&nbsp;&nbsp;.fade(0.5, 1.0, 1000)<br/>" + 
                                         "&nbsp;&nbsp;.text('Hope you are doing good')<br/>" + 

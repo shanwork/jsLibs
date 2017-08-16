@@ -369,15 +369,34 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                 this.element.setAttribute("style",addStyle);
             return this;
              },
-        fade: function(start=0, end=0, interval=0){
-                this.element.style.opacity = start;
-                window.setTimeout(function(localElement){
-                // this.element.style.opacity = end;
-                        return function() { localElement.style.opacity = end; console.log(localElement) };
-                }(this.element), interval)  ;  
+      fadeSync: function(start=0, end=0, interval=0, callback=null){
+               this.element.style.opacity = start;
+               let timeoutFunc = function(   end, callback){
+                   if (element && element.style)
+                      element.style.opacity = end;
+                   if (callback) callback();
+                   console.log('callback');
+               }
+           //    callback.bind(this.element);
+               let a = 0;
+          window.element = this.element;
+                window.setTimeout( timeoutFunc( end, callback)  , interval)  ;  
                 return this;
                 },
         
+       fade: function(start=0, end=0, interval=0, callback=null){
+                this.element.style.opacity = start;
+                window.setTimeout(function(localElement, returnFunc){
+                // this.element.style.opacity = end;
+                        return function() { 
+                            localElement.style.opacity = end; 
+                            console.log('callback calling');
+                            if (returnFunc)
+                                   returnFunc() ;
+                        };
+                }(this.element,callback), interval)  ;  
+                return this;
+                },
         conditionExpressionStyle: function(expression, styleTrue, styleFalse){
                     if (expression == true){
                         this.element.setAttribute("style",styleTrue);
