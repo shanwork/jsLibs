@@ -141,7 +141,8 @@
                                         "&nbsp;&nbsp;&nbsp;&nbsp; })<br/>" + 
                                         "&nbsp;&nbsp;.border('2px solid orange')<br/>" + 
                                         "&nbsp;&nbsp;.fade(0.5, 1.0, 3000, function() { <br/>" +
-                                        "&nbsp;&nbsp;&nbsp;&nbsp;let domElement2 = DOMElement(\"domDom2\");<br/>" +
+                                        "&nbsp;&nbsp;&nbsp;&nbsp;let domElementAPI2 = DOMElement(\"domDomAPI2\");<br/>" +
+                                        "&nbsp;&nbsp;&nbsp;&nbsp;domElementAPI2.fade(0.0, 1, 900)<br/>" +
                                         "&nbsp;&nbsp;&nbsp;&nbsp;domElement2.text('SECOND CALL BACK DELAY And FADE IN',<br/>"+ 
                                          "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"padding:3px;color:darkgreen;background-color:#22CC88;border:4px outset darkgreen; border-radius:10px;\");<br/>" +
                                         "&nbsp;&nbsp;&nbsp;&nbsp; })<br/>" + 
