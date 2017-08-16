@@ -117,11 +117,15 @@
                 domElement.background('white') 
                     .fade(1.0, 0.5, 900, function() { 
                             let domElement2 = DOMElement("domDom2");
-                            domElement2.text('row 2');
+                            domElement2
+                                .html('ADDING CONTENT <br/>IN CALLBACK OF FADE API',"padding:3px;color:firebrick;background-color:pink;border:3px inset brown; border-radius:6px;");
                         })
                     .border("2px solid orange")
-                    .fade(0.01, 1.0, 3000, function() { let domElementAPI2 = DOMElement("domDomAPI2");
-                            domElementAPI2.text('API row 2');})
+                    .fade(0.01, 1.0, 3000, function() { 
+                            let domElementAPI2 = DOMElement("domDomAPI2");
+                            domElementAPI2.fade(0.0, 1, 900)
+                                .text('SECOND CALL BACK DELAY And FADE IN',"padding:3px;color:darkgreen;background-color:#22CC88;border:4px outset darkgreen; border-radius:10px;") }
+                    )
                     .text('Hope you are doing good')
                     .border("3px solid brown")
                     .foreground('red')
@@ -132,10 +136,15 @@
                                         "domElement.background('white') <br/>" + 
                                         "&nbsp;&nbsp;.fade(1.0, 0.5, 800, 900, function() { <br/>" +
                                         "&nbsp;&nbsp;&nbsp;&nbsp;let domElement2 = DOMElement(\"domDom2\");<br/>" +
-                                        "&nbsp;&nbsp;&nbsp;&nbsp;domElement2.text('row 2');<br/>" +
+                                        "&nbsp;&nbsp;&nbsp;&nbsp;domElement2..html('ADDING CONTENT &lt;br&gt; IN CALLBACK OF FADE API',<br/>" +
+                                        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"padding:3px;color:firebrick;border:3px inset brown; border-radius:6px;\");<br/>" +
                                         "&nbsp;&nbsp;&nbsp;&nbsp; })<br/>" + 
                                         "&nbsp;&nbsp;.border('2px solid orange')<br/>" + 
-                                        "&nbsp;&nbsp;.fade(0.5, 1.0, 1000)<br/>" + 
+                                        "&nbsp;&nbsp;.fade(0.5, 1.0, 3000, function() { <br/>" +
+                                        "&nbsp;&nbsp;&nbsp;&nbsp;let domElement2 = DOMElement(\"domDom2\");<br/>" +
+                                        "&nbsp;&nbsp;&nbsp;&nbsp;domElement2.text('SECOND CALL BACK DELAY And FADE IN',<br/>"+ 
+                                         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"padding:3px;color:darkgreen;background-color:#22CC88;border:4px outset darkgreen; border-radius:10px;\");<br/>" +
+                                        "&nbsp;&nbsp;&nbsp;&nbsp; })<br/>" + 
                                         "&nbsp;&nbsp;.text('Hope you are doing good')<br/>" + 
                                         "&nbsp;&nbsp;.border('3px solid brown')<br/>" + 
                                         "&nbsp;&nbsp;.foreground('red')", "background-color:silver;padding:3px;font-weight:bold")
