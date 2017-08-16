@@ -30,6 +30,44 @@ for (let i = 0; i < currentChapter.subsections.length;i++){
                         {
                             text +=   currentChapter.subsections[i].content  ;
                         }
+                        if (currentChapter.subsections[i].tableData)
+                        {
+                            let tableBuilder = '<table border=1 cellspacing=0 cellpadding=0>';
+                            if (currentChapter.subsections[i].tableData.header){
+                                tableBuilder += '<tr'; 
+                               tableBuilder +=      currentChapter.subsections[i].tableData.tableHeaderRowStyle?
+                                    ' style="' +  currentChapter.subsections[i].tableData.tableHeaderRowStyle + '">':'>';
+                                for (let m = 0;
+                                     m < currentChapter.subsections[i].tableData.header.length;
+                                     m++)
+                                    {
+                                        tableBuilder += '<th>' + currentChapter.subsections[i].tableData.header[m] + '</th>'
+                                    }
+                                tableBuilder += '</tr>'
+                            }
+                            if (currentChapter.subsections[i].tableData.content)
+                            {
+                                for (n = 0 ; n < currentChapter.subsections[i].tableData.content.length;n++){
+                                     tableBuilder += '<tr';
+                                    if (n % 2== 0 && currentChapter.subsections[i].tableData.tableEvenRowStyle){
+                                         tableBuilder += ' style="' +  currentChapter.subsections[i].tableData.tableEvenRowStyle + '">';
+                                    }
+                                    else if (currentChapter.subsections[i].tableData.tableOddRowStyle){
+                                         tableBuilder += ' style="' +  currentChapter.subsections[i].tableData.tableOddRowStyle + '">';
+                                    }
+                                    else {
+                                        tableBuilder += ">";
+                                    }
+                                    for (o = 0 ; o < currentChapter.subsections[i].tableData.content[n].length;o++){
+                                        tableBuilder += '<td>' + currentChapter.subsections[i].tableData.content[n][o] + '</td>';
+                                    }
+                                    tableBuilder += '</tr>'
+                           
+                                }
+                            }
+                            tableBuilder += '</table>';
+                            text +=   tableBuilder  ;
+                        }
                     }
 let defaultHeaderStyle= 
     {
