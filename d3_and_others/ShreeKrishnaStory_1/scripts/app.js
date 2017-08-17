@@ -2,6 +2,45 @@ var removeAll = function()
 {
        console.log(d3.select("#storyBoard").selectAll('div').html());
 }
+openStory = function(){
+    let domElement = DOMElement('curtain');
+    domElement.fade(1.0, 0.8,800, function() { 
+         let domElement2 = DOMElement('curtain');
+         domElement2.fade(0.8, 0.4,800, function() {
+            let domElement3 = DOMElement('curtain');
+            domElement3.fade(0.4, 0.0,1000, function() {
+              DOMElement('curtain').display('none');
+              let domElement4 = DOMElement('mainStory');
+              domElement4.display('block')
+                .fade(0.0,5.0,600, function(){
+                   let domElement5 = DOMElement('mainStory');
+                  domElement5.fade(0.5,1.0,600);
+                });
+            }); 
+         });
+    });
+ 
+}
+
+openStory2 = function(){
+    let domElement = DOMElement('introImage');
+    domElement.fade(1.0, 0.8,4000, function() { 
+         let domElement2 = DOMElement('introImage');
+         domElement2.fade(0.8, 0.4,3000, function() {
+            let domElement3 = DOMElement('introImage');
+            domElement3.fade(0.4, 0.0,1000, function() {
+             
+            }); 
+         });
+         DOMElement('curtain').display('none');
+    });
+  let domElement4 = DOMElement('mainStory');
+              domElement4.display('block')
+                .fade(0.0,5.0,600, function(){
+                   let domElement5 = DOMElement('mainStory');
+                  domElement5.fade(0.5,1.0,600);
+                });
+}
 loadChapterDiv = function(index, postBack=true){
 if (postBack==false)
     {
@@ -10,7 +49,9 @@ if (postBack==false)
             let defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
             for (let chaptIndex=0; chaptIndex < shreeKrishnaStory.length;chaptIndex++){
                 let chapterButton = document.createElement("button");
-                chapterButton.innerHTML = "Chapter " + (chaptIndex+1);
+                let buttonText = shreeKrishnaStory[chaptIndex].buttonText?
+                    shreeKrishnaStory[chaptIndex].buttonText:"Chapter " + (chaptIndex+1);
+                chapterButton.innerHTML = buttonText;
                 chapterButton.setAttribute("style", shreeKrishnaStory[chaptIndex].buttonStyle?   shreeKrishnaStory[chaptIndex].buttonStyle  :defaultButtonStyle);
                 chapterButton.setAttribute("title", shreeKrishnaStory[chaptIndex].title);
                 chapterButton.addEventListener('click', function() { loadChapterDiv( chaptIndex+1 ) } );
