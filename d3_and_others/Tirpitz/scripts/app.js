@@ -2,6 +2,26 @@ var removeAll = function()
 {
        console.log(d3.select("#storyBoard").selectAll('div').html());
 }
+openStory = function(){
+    let domElement = DOMElement('curtain');
+    domElement.fade(1.0, 0.8,800, function() { 
+         let domElement2 = DOMElement('curtain');
+         domElement2.fade(0.8, 0.4,800, function() {
+            let domElement3 = DOMElement('curtain');
+            domElement3.fade(0.4, 0.0,1000, function() {
+              DOMElement('curtain').display('none');
+              let domElement4 = DOMElement('mainStory');
+              domElement4.display('block')
+                .fade(0.0,5.0,600, function(){
+                   let domElement5 = DOMElement('mainStory');
+                  domElement5.fade(0.5,1.0,600);
+                });
+            }); 
+         });
+    });
+ 
+}
+  
 loadChapterDiv = function(index, postBack=true){
 if (postBack==false)
     {
