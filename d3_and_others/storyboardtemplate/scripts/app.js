@@ -4,21 +4,141 @@ var removeAll = function()
 }
 // worry about optimization, closure and IIFE later
 openStory = function(){
+    let iterations = [
+        {
+            start:1.0, 
+            end:0.9,
+            timout:200
+        }, {
+            start:0.9, 
+            end:0.8,
+            timout:200
+        },
+        {
+            start:0.8, 
+            end:0.6,
+            timout:600
+        },
+        {
+            start:0.6, 
+            end:0.4,
+            timout:400
+        },
+        {
+            start:0.4, 
+            end:0.2,
+            timout:500
+        }
+        ,
+        {
+            start:0.2, 
+            end:0.0,
+            timout:500
+        }
+    ];
+    let index = 0;
+    let domElement = DOMElement('curtain');
+    fade = function(domElement, iterations, index, callback){
+        console.log(callback);
+        console.log(  iterations[index], index);
+        if (index < iterations.length){
+        domElement.fade(iterations[index].start, iterations[index].end,  iterations[index].timout, function(){
+            
+                    fade(domElement, iterations, index,callback) ;
+           
+        })
+            index++;
+        }
+        else if (callback){
+            callback() ;
+        
+        }
+    };
+    fade (domElement, iterations, index, function() {
+        let index2 = 0;
+         let iterations2 = [
+        {
+            start:0.0, 
+            end:0.2,
+            timout:800
+        },
+        {
+            start:0.2, 
+            end:0.4,
+            timout:600
+        },
+        {
+            start:0.4, 
+            end:0.6,
+            timout:400
+        },
+        {
+            start:0.6, 
+            end:0.8,
+            timout:500
+        }
+        ,
+        {
+            start:0.8, 
+            end:1.0,
+            timout:500
+        }
+    ];
+         let domElement2 = DOMElement('mainStory');
+         domElement2.display('block');
+        fade(domElement2,iterations2,index2);
+       /* console.log('  hdhd');
+                                DOMElement('curtain').display('none');
+                                let domElement4 = DOMElement('mainStory');
+                                domElement4.display('block').fade(0.0,5.0,600, 
+                                    function(){
+                                        let domElement5 = DOMElement('mainStory');
+                                        domElement5.fade(0.5,1.0,600);
+                                    });*/
+    });
+    return;
+}
+function A2(){
     let domElement = DOMElement('curtain');
     domElement.fade(1.0, 0.8,800, function() { 
-         let domElement2 = DOMElement('curtain');
-         domElement2.fade(0.8, 0.4,800, function() {
-            let domElement3 = DOMElement('curtain');
-            domElement3.fade(0.4, 0.0,1000, function() {
-              DOMElement('curtain').display('none');
-              let domElement4 = DOMElement('mainStory');
-              domElement4.display('block')
-                .fade(0.0,5.0,600, function(){
-                   let domElement5 = DOMElement('mainStory');
-                  domElement5.fade(0.5,1.0,600);
-                });
-            }); 
-         });
+          return  function() { 
+                    domElement2.fade(0.8, 0.4,800, 
+                      function() {
+                        let domElement3 = DOMElement('curtain');
+                        domElement3.fade(0.4, 0.0,1000, 
+                            function() {
+                                DOMElement('curtain').display('none');
+                                let domElement4 = DOMElement('mainStory');
+                                domElement4.display('block').fade(0.0,5.0,600, 
+                                    function(){
+                                        let domElement5 = DOMElement('mainStory');
+                                        domElement5.fade(0.5,1.0,600);
+                                    });
+                            }); 
+                        });
+            }(domElement);
+    });
+ 
+}
+openStoryNonCascade = function(){
+    let domElement = DOMElement('curtain');
+    domElement.fade(1.0, 0.8,800, function() { 
+          return  function() { 
+                    domElement2.fade(0.8, 0.4,800, 
+                      function() {
+                        let domElement3 = DOMElement('curtain');
+                        domElement3.fade(0.4, 0.0,1000, 
+                            function() {
+                                DOMElement('curtain').display('none');
+                                let domElement4 = DOMElement('mainStory');
+                                domElement4.display('block').fade(0.0,5.0,600, 
+                                    function(){
+                                        let domElement5 = DOMElement('mainStory');
+                                        domElement5.fade(0.5,1.0,600);
+                                    });
+                            }); 
+                        });
+            }(domElement);
     });
  
 }
