@@ -2,8 +2,49 @@ var removeAll = function()
 {
        console.log(d3.select("#storyBoard").selectAll('div').html());
 }
+// shift to API
+let fadeSequence = function(domElement, iterations, index, callback){
+        console.log(callback);
+        console.log(  iterations[index], index);
+        if (index < iterations.length){
+        domElement.fade(iterations[index].start, iterations[index].end,  iterations[index].timout, function(){
+            
+                    fadeSequence(domElement, iterations, index,callback) ;
+           
+        })
+            index++;
+        }
+        else if (callback){
+            callback() ;
+        
+        }
+ };
+ let fadeParallel = function(domElementFadeout, domElementFadein=null, iterations, iterations2=null, index,index2=0, callback){
+        console.log(callback,domElementFadein);
+        console.log(  iterations[index], index);
+        if (domElementFadein)
+            domElementFadeout.fadeIn = domElementFadein;
+        if (index < iterations.length){
+                    domElementFadeout.fade(iterations[index].start, iterations[index].end,  iterations[index].timout, function(){
+                       if(domElementFadeout.fadeIn)// && iterations2 && index < iterations2.length) 
+                           {
+                               let index2 = iterations.length - index -1;
+                               if (index2 >=0 ){
+                               domElementFadeout.fadeIn.display('block');
+                               domElementFadeout.fadeIn.fade(iterations[index2].end, iterations[index2].start,  iterations[index2].timout);
+                               }
+                           }
+                        fadeParallel(domElementFadeout,null, iterations, iterations2, index,index2, callback) ;
+                    })
+            index++;
+        }
+        else if (callback){
+            callback() ;
+        
+        }
+    };
 // worry about optimization, closure and IIFE later
-openStory = function(){
+openStoryWorking = function(){
     let iterations = [
         {
             start:1.0, 
@@ -38,23 +79,12 @@ openStory = function(){
     ];
     let index = 0;
     let domElement = DOMElement('curtain');
-    fade = function(domElement, iterations, index, callback){
-        console.log(callback);
-        console.log(  iterations[index], index);
-        if (index < iterations.length){
-        domElement.fade(iterations[index].start, iterations[index].end,  iterations[index].timout, function(){
-            
-                    fade(domElement, iterations, index,callback) ;
-           
-        })
-            index++;
-        }
-        else if (callback){
-            callback() ;
-        
-        }
-    };
-    fade (domElement, iterations, index, function() {
+    let domElementCurtain = DOMElement('curtain');
+    let domElementMainStory = DOMElement('mainStory');
+   // fadeNext(domElementCurtain,domElementMainStory,20000)
+  
+    let domElement2 = DOMElement('mainStory');
+   fade (domElement, iterations, index, function() {
         let index2 = 0;
          let iterations2 = [
         {
@@ -87,60 +117,122 @@ openStory = function(){
          let domElement2 = DOMElement('mainStory');
          domElement2.display('block');
         fade(domElement2,iterations2,index2);
-       /* console.log('  hdhd');
-                                DOMElement('curtain').display('none');
-                                let domElement4 = DOMElement('mainStory');
-                                domElement4.display('block').fade(0.0,5.0,600, 
-                                    function(){
-                                        let domElement5 = DOMElement('mainStory');
-                                        domElement5.fade(0.5,1.0,600);
-                                    });*/
+      
     });
+ 
     return;
 }
-function A2(){
-    let domElement = DOMElement('curtain');
-    domElement.fade(1.0, 0.8,800, function() { 
-          return  function() { 
-                    domElement2.fade(0.8, 0.4,800, 
-                      function() {
-                        let domElement3 = DOMElement('curtain');
-                        domElement3.fade(0.4, 0.0,1000, 
-                            function() {
-                                DOMElement('curtain').display('none');
-                                let domElement4 = DOMElement('mainStory');
-                                domElement4.display('block').fade(0.0,5.0,600, 
-                                    function(){
-                                        let domElement5 = DOMElement('mainStory');
-                                        domElement5.fade(0.5,1.0,600);
-                                    });
-                            }); 
-                        });
-            }(domElement);
+openStory = function(fadeMode=0){
+    let fadeOutIterations = [
+        {
+            start:1.0, 
+            end:0.9,
+            timout:200
+        }, {
+            start:0.9, 
+            end:0.8,
+            timout:200
+        },
+        {
+            start:0.8, 
+            end:0.6,
+            timout:600
+        },
+        {
+            start:0.6, 
+            end:0.4,
+            timout:400
+        },
+        {
+            start:0.4, 
+            end:0.2,
+            timout:500
+        }
+        ,
+        {
+            start:0.2, 
+            end:0.0,
+            timout:500
+        }
+    ];
+      let iterationsFadeIn = [
+        {
+            start:0.0, 
+            end:0.2,
+            timout:400
+        },
+        {
+            start:0.2, 
+            end:0.4,
+            timout:500
+        },
+        {
+            start:0.4, 
+            end:0.6,
+            timout:300
+        },
+        {
+            start:0.6, 
+            end:0.8,
+            timout:100
+        }
+        ,
+        {
+            start:0.8, 
+            end:1.0,
+            timout:100
+        }
+    ];
+    let index = 0;
+    
+    let domElementCurtain = DOMElement('curtain');
+    let domElementMainStory = DOMElement('mainStory');
+   
+    switch(fadeMode){
+        case 0: fadeParallel (domElementCurtain, domElementMainStory, fadeOutIterations, iterationsFadeIn, index,0);
+            break;
+        case 1: fadeSequence(domElementCurtain, fadeOutIterations, index, function() {
+        let index2 = 0;
+         let iterations2 = [
+        {
+            start:0.0, 
+            end:0.2,
+            timout:800
+        },
+        {
+            start:0.2, 
+            end:0.4,
+            timout:600
+        },
+        {
+            start:0.4, 
+            end:0.6,
+            timout:400
+        },
+        {
+            start:0.6, 
+            end:0.8,
+            timout:500
+        }
+        ,
+        {
+            start:0.8, 
+            end:1.0,
+            timout:500
+        }
+    ];
+         let domElement2 = DOMElement('mainStory');
+         domElement2.display('block');
+        fadeSequence(domElement2,iterations2,index2);
+      
     });
- 
-}
-openStoryNonCascade = function(){
+    }
     let domElement = DOMElement('curtain');
-    domElement.fade(1.0, 0.8,800, function() { 
-          return  function() { 
-                    domElement2.fade(0.8, 0.4,800, 
-                      function() {
-                        let domElement3 = DOMElement('curtain');
-                        domElement3.fade(0.4, 0.0,1000, 
-                            function() {
-                                DOMElement('curtain').display('none');
-                                let domElement4 = DOMElement('mainStory');
-                                domElement4.display('block').fade(0.0,5.0,600, 
-                                    function(){
-                                        let domElement5 = DOMElement('mainStory');
-                                        domElement5.fade(0.5,1.0,600);
-                                    });
-                            }); 
-                        });
-            }(domElement);
-    });
- 
+   
+  
+    
+  
+    return;
 }
 loadChapterDiv = function(index, postBack=true){
 if (postBack==false)
