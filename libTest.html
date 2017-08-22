@@ -185,7 +185,7 @@
                 </ul>
                 <a href="#top"><strong>Back To Top of Page</strong></a>
             </div>
-            <div id='domManupulation' style='overflow:auto'>
+            <div id='domManupulation' style='overflow:scroll;height:auto'>
                 <h3>DOM API</h3>
                
                  <ul id="Dom">
@@ -264,11 +264,21 @@
             },500 );
                           </strong><br/><br/>
                      </li>
+                       <li>
+                     Tranistions fade
+                         <div id="transitSequence" onclick='seqFadeIn()' style="border:3px outset brown;background-color:lightgoldenrodyellow;padding-top:50px;padding-bottom:50px;"> click me for sequential fade transition</div>
+                         <div id="transitSequenceNext"  onclick='parallelFadeIn()'  style="border:4px inset gray;background-color:silver;padding-top:50px;padding-bottom:50px;"> Sequential Fade In</div>
+                         <div id="transitParallel" onclick='parallelFadeIn()' style="position:absolute;top:500px;width:100%;border:3px outset brown;background-color:beige;padding-top:50px;padding-bottom:50px;"> click me for parallel fade transition</div>
+                           <div id="transitParallelNext" style="display:none;position:absolute;top:500px;width:100%;border:4px inset blue;background-color:skyBlue;padding-top:50px;padding-bottom:50px;"> Parallel Fade In</div>
+                         
+                     </li>
                      <li><strong> Using the <em>domAPI2.conditionExpressionClass(condition, classIfTrue, null (no class if false), append=true)</em></strong>
                          <p>Shown colors of some football teams styled into a grandient. If no team, shows a gray background which is the default class.<br>
                          <em>The nested divs (person name and ticket div within the Team color div, if available) have class='base css &lt;specific class&gt; format </em></p>
                        <div id='footballFans'></div>
+                         <br/>
                      </li>
+                   
                 </ul>
                
             </div>

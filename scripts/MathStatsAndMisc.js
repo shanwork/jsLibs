@@ -397,6 +397,58 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                 }(this.element,callback), interval)  ;  
                 return this;
                 },
+        /****
+        Transition functions.. These functions take two domElements, hide the first and show the second
+        - domElement1 is by default 'this'
+        - domElement2 is the destination
+        */
+        transitionFadeSequential: function(domElement2, iterations, index, callback,domElement1=this, index2=iterations.length-1){
+                                    // console.log(callback);
+                                    // console.log(  iterations[index], index);
+                                    if (index < iterations.length){
+                                        
+                                        domElement1.fade(iterations[index].start, iterations[index].end,  iterations[index].timout, function(){
+                                        domElement1.transitionFadeSequential(domElement2, iterations, index,callback) ;
+                                        });
+                                        index++;
+                                    }
+                                    else if (index2 >=0) {
+                                        domElement2.display('block');
+                                        
+                                        while (index2 >=0){
+                                            domElement2.fade(iterations[index2].end, iterations[index2].start,  iterations[index2].timout, function(){
+                                                
+                                            } );
+                                          //  domElement2.transitionFadeSequential(null, iterations, index2,callback) ;
+                                            index2--;
+                                        }
+                                        if (callback) 
+                                            callback() ;
+                                    }
+                                    return this;
+                                },
+        transitionFadeParallel: function( domElement2, iterations,  index,  callback,domElement1=this){
+                                    //console.log(callback,domElement1);
+                                    // console.log(  iterations[index], index);
+                                if (domElement2)
+                                    domElement1.nextElement = domElement2;
+                                if (index < iterations.length){
+                                        domElement1.fade(iterations[index].start, iterations[index].end,  iterations[index].timout, function(){
+                                            if(domElement1.nextElement) {
+                                                let index2 = iterations.length - index -1;
+                                                if (index2 >=0 ){
+                                                    domElement1.nextElement.display('block');
+                                                    domElement1.nextElement.fade(iterations[index2].end, iterations[index2].start,  iterations[index2].timout);
+                                                }
+                                            }   
+                                        domElement1.transitionFadeParallel( domElement2, iterations,  index,  callback,domElement1) ;
+                                        });
+                                    index++;
+                                }
+                                else if (callback){
+                                        callback() ;
+                                }
+                                },
         conditionExpressionStyle: function(expression, styleTrue, styleFalse){
                     if (expression == true){
                         this.element.setAttribute("style",styleTrue);

@@ -373,4 +373,76 @@
                 } // .. fallThrough
                 fallThrough();
           //  console.log(Boolean(Boolean.valueOf( "footballViewers[0]." + conditionExpression[0].exp)));
+ let fadeOutIterations = [
+        {
+            start:1.0, 
+            end:0.9,
+            timout:200
+        }, {
+            start:0.9, 
+            end:0.8,
+            timout:200
+        },
+        {
+            start:0.8, 
+            end:0.6,
+            timout:600
+        },
+        {
+            start:0.6, 
+            end:0.4,
+            timout:400
+        },
+        {
+            start:0.4, 
+            end:0.2,
+            timout:500
+        }
+        ,
+        {
+            start:0.2, 
+            end:0.0,
+            timout:500
+        }
+    ];
+      let iterationsFadeIn = [
+        {
+            start:0.0, 
+            end:0.2,
+            timout:400
+        },
+        {
+            start:0.2, 
+            end:0.4,
+            timout:500
+        },
+        {
+            start:0.4, 
+            end:0.6,
+            timout:300
+        },
+        {
+            start:0.6, 
+            end:0.8,
+            timout:100
+        }
+        ,
+        {
+            start:0.8, 
+            end:1.0,
+            timout:100
+        }
+    ];
+    let index1 = 0,index2=0;
+    
+    let domElement1Seq = DOMElement('transitSequence');
+    let domElement2Seq = DOMElement('transitSequenceNext');
+let domElement1Pll = DOMElement('transitParallel');
+    let domElement2Pll = DOMElement('transitParallelNext');
+seqFadeIn = function(){
+    
+} 
+parallelFadeIn= function(){
+    domElement1Pll.transitionFadeParallel(domElement2Pll,fadeOutIterations,index1,null);
+} 
             /*** DOM */

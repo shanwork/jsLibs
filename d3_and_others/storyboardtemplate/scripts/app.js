@@ -189,9 +189,10 @@ openStory = function(fadeMode=0){
     let domElementMainStory = DOMElement('mainStory');
    
     switch(fadeMode){
-        case 0: fadeParallel (domElementCurtain, domElementMainStory, fadeOutIterations, iterationsFadeIn, index,0);
+        case 0: domElementCurtain.transitionFadeParallel(domElementMainStory,fadeOutIterations,index,null);//fadeParallel (domElementCurtain, domElementMainStory, fadeOutIterations, iterationsFadeIn, index,0);
             break;
-        case 1: fadeSequence(domElementCurtain, fadeOutIterations, index, function() {
+        case 1: domElementCurtain.transitionFadeSequential(domElementMainStory,fadeOutIterations,index,null);
+            /*fadeSequence(domElementCurtain, fadeOutIterations, index, function() {
         let index2 = 0;
          let iterations2 = [
         {
@@ -225,7 +226,7 @@ openStory = function(fadeMode=0){
          domElement2.display('block');
         fadeSequence(domElement2,iterations2,index2);
       
-    });
+    });*/
     }
     let domElement = DOMElement('curtain');
    
