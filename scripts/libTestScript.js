@@ -445,4 +445,5 @@ seqFadeIn = function(){
 parallelFadeIn= function(){
     domElement1Pll.transitionFadeParallel(domElement2Pll,fadeOutIterations,index1,null);
 } 
+ 
             /*** DOM */

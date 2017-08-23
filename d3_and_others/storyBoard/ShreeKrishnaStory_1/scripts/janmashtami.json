@@ -1,10 +1,11 @@
-var storyList = [
+var shreeKrishnaStory = [
     
     {
         title: 'PART 1 Overview',
+        buttonText: 'OVERVIEW',
         buttonStyle :  "padding:3px;background-color:aliceblue  ; border: 2px outset blue;margin:2px; border-radius:3px;color:blue;font-weight:bold",
         contentStyle: { 'border':'3px outset orange',
-             'background-image': 'url("images/sample1.jpg")',
+             'background-image': 'url("images/lord-krishna-786.jpg")',
              'background-size': 'contain',
              'border-radius':'4px', 
              'padding':'2px',
@@ -13,16 +14,19 @@ var storyList = [
               'background-color':'lightgoldenrodyellow'} ,
         subsections: [
            { 
-                subTitle: 'Lorem ipsum dolor sit amet',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit velit vitae magna mollis luctus. Nulla tincidunt justo eu lectus hendrerit, ac vehicula mauris consequat. Cras sed est ac urna posuere ullamcorper. Donec in ipsum ut turpis porta blandit quis ut massa. Duis congue pretium rhoncus. Sed vel sapien in eros scelerisque bibendum eu at enim. Sed justo est, condimentum ut semper sed, viverra et metus.</p>'
+                subTitle: 'Story of Sri Krishna’s Birth -1',
+                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Krishna Janmashtami (birth day of Lord Sri Krishna) provides a motivation to narrate the story of birth of the Lord, a saint, a prophet or a messenger of God. The story is always very beautiful, completely absorbing and spiritually elevating.. Out of all the incarnations, the birth of Sri Krishna is the most beautiful one. This is because He personifies Pure Love. Man has an element of Love in him and it is easy to connect with the Lord who is pure, unsullied Love. In the next seven days, with Baba’s grace, I will narrate the wonderful story of Sri Krishna’s birth as told in Srimad Bhagavatam (This is not Bhagavad Gita).</p>'
             },{
-                content:'<p>&nbsp;&nbsp;&nbsp;&nbsp;Suspendisse sit amet enim tristique, lobortis ipsum sit amet, faucibus sapien. In nec congue mi. Sed mollis justo odio, cursus cursus ante hendrerit ac. Curabitur mollis ipsum eu tempus suscipit. Cras volutpat tempus augue id dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam facilisis tellus dignissim vestibulum sodales. Donec vestibulum id nibh ut imperdiet. Duis commodo, felis vitae lacinia consectetur, lectus lorem auctor justo, vel rhoncus lectus nulla quis ante. Etiam vitae iaculis sapien. Suspendisse ullamcorper enim sit amet mattis semper.</p>'
+                content:'<p>&nbsp;&nbsp;&nbsp;&nbsp;Bhagavatam narrates the experiences of those who have contacted God and the devotee (Bhagavan + Bhakta).  Reading Bhagavatm cures physical, mental and spiritual illnesses. Listening to it promotes the realization of God.</p>'
             },{ 
                 subTitle: 'Background and Setting the stage',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Praesent et lorem ligula. Sed vulputate consectetur nisi in convallis. Nullam luctus luctus odio eu lacinia. Maecenas mattis nunc vel ornare dignissim. Integer eget justo eget neque elementum vulputate non at diam. Donec cursus eleifend leo, auctor tempus dui laoreet eu. Donec sed sodales lectus, ornare tempus diam. Fusce sodales tortor et massa tincidunt, non tempus neque posuere. Nunc tincidunt fringilla nibh, interdum feugiat orci aliquet non. Morbi sit amet dui est.</p>'
+                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Pandavas (five in number) go to war with Kauravas (100 in number) after 13 years, to regain the kingdom they lost in a game of dice. Out of the five Pandavas,  Arjuna and Yudhistra (also known as Dharma Raja) play a very important role in the story of Mahabharata. Lord Sri Krishna becomes the Arjuna’s charioteer.</p>'
             },{ 
                 subTitle: '',
-                content: '<p>Suspendisse sit amet enim tristique, lobortis ipsum sit amet, faucibus sapien. In nec congue mi. Sed mollis justo odio, cursus cursus ante hendrerit ac. Curabitur mollis ipsum eu tempus suscipit. Cras volutpat tempus augue id dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam facilisis tellus dignissim vestibulum sodales. Donec vestibulum id nibh ut imperdiet. Duis commodo, felis vitae lacinia consectetur, lectus lorem auctor justo, vel rhoncus lectus nulla quis ante. Etiam vitae iaculis sapien. Suspendisse ullamcorper enim sit amet mattis semper.Suspendisse sit amet enim tristique, lobortis ipsum sit amet, faucibus sapien. In nec congue mi. Sed mollis justo odio, cursus cursus ante hendrerit ac. Curabitur mollis ipsum eu tempus suscipit. Cras volutpat tempus augue id dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam facilisis tellus dignissim vestibulum sodales. Donec vestibulum id nibh ut imperdiet. Duis commodo, felis vitae lacinia consectetur, lectus lorem auctor justo, vel rhoncus lectus nulla quis ante. Etiam vitae iaculis sapien. Suspendisse ullamcorper enim sit amet mattis semper.</p>'
+                content: '<p>On the Kaurava side,  Dronacharya, the Guru and the Master of Archery and his son Ashwatthama, play an important role. Dronacharya is very much attached to his only son Ashwatthama, treats him as his life breath and protects him as eyelids protect the eye.</p>'
+            },{ 
+                subTitle: '',
+                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;During the war, it becomes impossible for the Pandavas to kill Dronacharya as he is invincible due to his mastery of Archery. In the war, there was an elephant by name Ashwatthama which gets killed. Krishna asks Yudhistra to say loudly that “Ashwatthama is killed” and followed by “the elephant”. Just when Yudhistra completes saying “Ashwatthama is killed”, Krishna blows the conch loudly that the words “the elephant” is not at all heard.  Hearing that Ashwatthama is killed, Dronacharya thinks that his son is killed in the war and he loses his hold on the bow. The bow falls to the ground. At this time, Arjuna sends an arrow and kills Dronacharya. Also, Abhimanyu, the son of Arjuna, gets killed by Kauravas when they cleverly surround him from all sides.</p>'
             },{ 
                 subTitle: '',
                 content: '<p>After the war was over, when Ashwatthama comes to know about the foul play by which his father Dronacharya was killed, he decides to take revenge by killing all the descendants of Pandavas.  Abhimanyu’s wife Uttara was pregnant at that time. Ashwatthama  goes to the house of Abhimanyu and shoots an arrow at Uttara’s womb. But, mysteriously, a spinning wheel comes and grinds the arrow to pieces. Uttara with her fetus was saved. An interesting story begins to develop from here. .</p>'
@@ -289,5 +293,34 @@ var storyList = [
                 content: '<p>Vasudeva did not delay. He spread an old dhoti on a bamboo basket and placed the Babe on it. He tore an old sari of Devaki and covered the Babe and placed the basket on his head. He moved out of the open doors and gates, past the sleeping guards. He noticed the little drops of rain that was falling on the Babe and was afraid that the Babe would be soaked. But, when he turned back, he found a snake following his footsteps, holding the ribbed umbrella of its broad hoods over the child preventing the rain from wetting the Babe. He soon realized that it was Adisesha protecting the Lord. Though the sun had not risen yet, the lotus bloomed in all the tanks and leaned on its stalk towards the Babe. Though it was a dark night, with a deep yearning to look at the Babe, the full moon peeped through the clouds, with its cool rays illuminating the entire route to Gokul. Vasudeva began to cross Yamuna river to reach Gokul. The water was rising very rapidly above Vasudeva’s head and he was afraid that he would drown. It dawned on him that Yamuna was paying its respects to the Lord by wetting the feet of the Babe! The Babe was placed next to Yashoda and the baby girl that had just been born there was brought and placed into the hands of Devaki. No sooner this was done, Vasudeva burst into tears! While these words were coming from Suka’s lips, Parikshith exclaimed aloud, “Krishna, Krishna!” Everyone looked at the King. They saw a snake crawling away fast, after biting the right toe of the King. Suka shed tears of Bliss; He announced, “The King has merged with the Lord”. The word Suka means parrot. Yes, he was the parrot that plucked the ripe nectar filled fruit called Bhagavatha from the tree of the Vedas and enabled the world to taste it. May the world relish the fruit and derive the Atmic Bliss!</p>'
             }
         ]
-    }
+    },
+     {
+        title: 'Addendum',
+        buttonText: 'Addendum',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'url("images/lord-krishna-786.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'darkslateblue', 
+             'opacity':'0.9',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: 'How did Devaki become Krishna’s mother?',
+                content: '<p>Devaki in her previous birth was a very pious woman and always thinking of Lord Narayana. After many years of her prayer, Lord Narayana appeared before her and asked what she wanted. She could have asked for Moksha then and there. However, since she was always thinking of God, her selfish needs did not surface to her mind. She felt that her body should be useful to humanity. So, she asked Lord Narayana, “Please give me the boon so that you will be born in my womb”. Lord Narayana granted her boon saying that in her next birth He will be born to her. She thought that she could love the Lord even more because as a baby, she could nurse Him, fondle Him with love, feed Him, bathe Him, clothe Him and play with Him.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;As destined, baby Krishna was born to Devaki and Vasudeva in the prison at the early morning hours. As instructed by the Lord, the baby had to be transported to Gokul and placed beside Yashoda, before dawn. Devaki did not get to a chance to fondle baby Krishna but Yashoda had the great fortune of bringing up Krishna. As you can see, the Lord gave her the boon exactly as she requested: “Please give me the boon so that you will be born in my womb”. One must be very careful when asking God for a boon! Look at the sacrifice that Devaki has done to mankind! Without the advent of Krishna, humanity would not have turned towards God.</p>'
+            },{ 
+                subTitle: 'Who is Sage Suka?',
+                content: '<p>Sage Suka was waiting for Parikshith to approach him to impart this Divine Knowledge. Suka was the son of Sage Vyasa. Vyasa classified the Vedas, composed Puranas, Mahabharata and gave the world Bhagavatam. He also gave Bhagavad Gita and Brahma Sutras. Vyasa was the son of Sage Parasara and great grandson on Sage Vasishta. Sage Suka came from Vasudeva, recounted the story of Vasudeva to Parikshith and finally merged in Lord Vasudeva. Sage Suka, after God realization, took pity on humanity and helped humanity by establishing the practice of  NamaSmarana (repetition of the Lord’s name). The sweetness of NamaSmarana evokes God’s Form and His Grace. Suka gave this precious gem to mankind.</p>'
+            },{ 
+                subTitle: 'Sri Ramakrishna Paramahamsa’s comments on Sage Suka:',
+                content: '<p>What Brahman (Ultimate  Reality or God) is cannot be described. Even he, who knows Brahman, cannot describe it. There is a saying that a boat, once reaching the ‘black waters’ of the ocean cannot come back. When ‘I’ (ego) drops completely, one attains the Knowledge of Brahman (God realization occurs) and there is no coming back!  Suka returned to the world of name and form, even after attaining the Knowledge of Brahman, for the purpose of teaching others. He had to recite the Bhagavatam to King Parikshith and had to teach people the power of NamaSmarana. Therefore, God did not destroy his ‘I’ altogether. God kept in him the ‘ego of knowledge’. Note: Only after reciting of the Bhagavatam to King Parikshith did his ‘I’ disappear altogether and he merged with the Lord Vasudeva. And, so did King Parikshith after the snake bite. The power of Bhagavatam is that, the one who recites it with devotion and the one who listens to it with Bhakthi, both reach Lord Vasudeva!</p>'
+            },{ 
+                subTitle: 'EPILOGUE',
+                content: '<p>I hope you could find time to read Sri Krishna\'s story and enjoy it. As the Lord has said, "Whenever you shed tears in repentance for the sins you have committed or whenever you shed tears of joy by hearing or reading about the glories of Me, be assured that some of your Karmas are being washed away\". I hope your tears of joy wiped out some of your past Karmas and sprouted love in your heart to seek the Lord with even more devotion. That was the very purpose for which this story was presented to all of you.  May the Lord’s blessings be upon you and your family!</p>'
+            }
+        ]
+    },
+   
 ];

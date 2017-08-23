@@ -1,0 +1,124 @@
+﻿body {
+/* Background Gradient for Monochromatic Colors */
+
+    background-color: #FFFFFF;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #FFFFFF -webkit-gradient(linear, left top, left bottom, from(#D4D4D4), to(#FFFFFF)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #FFFFFF -moz-linear-gradient(top, #D4D4D4, #FFFFFF) no-repeat;
+     
+    color:darkslategrey;
+    margin:2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:2px;
+    max-height:1000px;
+    min-height:800px;
+}
+ul {
+   background-color:gray;
+   border: outset 2px darkslateblue;
+   border-radius:9px;
+   margin-top:20px;
+   margin-left:20px;
+   margin-right:200px;
+   opacity:0.72;
+}
+
+header nav   
+{
+    margin-top:30px;
+    margin-left:auto;
+   margin-right:auto;
+    width:1600px;
+    opacity:0.9;
+    
+}
+header nav ul
+{
+    margin-top:30px;
+    margin-left:20px;
+    width:1600px;
+    background-color:rgba(20,33,33,0.65);
+    box-shadow:5px 5px;
+    opacity:0.9;
+    padding-top:15px;
+    color:lightgray;
+
+    
+}
+header nav ul li  a
+{
+   
+   font-weight: 800; 
+  
+         color:antiquewhite;
+         text-decoration: solid;
+         font-style:italic ;
+    
+}
+#dynamicPhotoListContainer {
+    background-color:rgba(50,56,56,0.1);
+    padding:20px;
+    
+}
+#left-side{
+    background-color:rgba(50,76,56,0.125);
+    color:rgb(50,76,56  );
+    float:left;
+    padding:5px;
+    margin-bottom:20px;
+    width:90%;
+     vertical-align:middle;
+
+}
+#left-side span:nth-of-type(1){
+    background-color:transparent;
+    border:none;   
+    vertical-align:middle;
+    color:inherit;
+    font-size:x-large;
+    font-style:italic;
+
+}
+#left-side div{
+    float:left;
+}
+#left-side span:nth-of-type(2){
+    background-color:transparent;
+    border:none;   
+    vertical-align:middle;
+    color:inherit;
+    font-size:large;
+    font-style:italic;
+    font-family:'Times New Roman';
+
+}
+   button{
+             background-color:darkslategray;
+             color:antiquewhite;
+             font-weight:900;
+             font-style:italic;
+             border:outset 3px  silver;
+             border-radius:5px;
+             margin-bottom:12px;
+             padding:5px 15px 5px 15px;
+             float:right;
+              vertical-align:middle;
+         }
+        #dynamicPhotoListContainer div {
+             float:left;
+            width:31%;
+            border:2px solid darkslategray;
+            margin:2px;
+             
+          
+        }
+         #dynamicPhotoListContainer img {
+            float:left;
+            width:100%; 
+            height:98%;
+             margin:1px;
+            
+             
+          
+        }

@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html ng-app="test_app">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta title="Photo Gallery">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style/styles.css" rel="stylesheet" type="text/css" />
+
+    <style>
+    
+    </style>
+    <title>Photo Gallery</title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <ul class="navbar navbar-nav">
+
+                <li>
+                    <b><a href="../index.html">Parent Index Page</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </li>
+                <li>
+                    <b><a href="adjustibleGallery.html">Dynamic Photo Gallery</a> </b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </li>
+                <li>
+                    <b><a href="scenic_nature.html">Grand Canyon West Rim Snaps  Gallery </a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </li>
+                <li><b> Grand Canyon West Rim Static Slide Show </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li><b><a href="home.html">Grand Canyon West Rim Carousel Slide Show</a></b></li>
+            </ul>
+        </nav>
+    </header>  
+    <!-- Main SPA area    -->
+    
+        <div class="slider-wrapper">
+           
+            <ul class="s-thumbs">
+                <li><a href='#slide1'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_1.jpg" /><span>slide 1</span></a></li>
+                <li><a href='#slide2'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_2.jpg" /></a></li>
+                <li><a href='#slide3'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_3.jpg" /></a></li>
+                <li><a href='#slide4'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_4.jpg" /></a></li>
+                <li><a href='#slide5'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_5.jpg" /></a></li>
+                <li><a href='#slide6'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_6.jpg" /></a></li>
+                <li><a href='#slide7'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_7.jpg" /></a></li>
+                <li><a href='#slide8'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_8.jpg" /></a></li>
+                <li><a href='#slide9'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_9.jpg" /></a></li>
+                <li><a href='#slide10'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_10.jpg" /></a></li>
+                <li><a href='#slide11'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_11.jpg" /></a></li>
+                <li><a href='#slide12'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_12.jpg" /></a></li>
+                <li><a href='#slide13'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_13.jpg" /></a></li>
+                <li><a href='#slide14'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_14.jpg" /></a></li>
+                <li><a href='#slide15'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_15.jpg" /></a></li>
+                <li><a href='#slide16'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_16.jpg" /></a></li>
+                <li><a href='#slide17'><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_17.jpg" /><span>Tet</span></a></li>
+            </ul>
+            <div class="row">.....</div>
+            <ul class="s-slides">
+                <li id='slide1' class="slideLeft"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_1.jpg" /></li>
+                <li id='slide2'class="slideRight"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_2.jpg" /></li>
+                <li id='slide3'class="slideRight"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_3.jpg" /></li>
+                <li id='slide4'class="slideLeft"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_4.jpg" /></li>
+                <li id='slide5'class="slideLeft"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_5.jpg" /></li>
+                <li id='slide6' class="slideRight"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_6.jpg" /></li>
+                <li id='slide7' class="slideLeft"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_7.jpg" /></li>
+                <li id='slide8' class="slideRight"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_8.jpg" /></li>
+                <li id='slide9' class="slideRight"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_9.jpg" /></li>
+                <li id='slide10' class="slideLeft"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_10.jpg" /></li>
+                <li id='slide11' class="slideLeft"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_11.jpg" /></li>
+                <li id='slide12' class="slideRight"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_12.jpg" /></li>
+                <li id='slide13' class="slideLeft"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_13.jpg" /></li>
+                <li id='slide14' class="slideLeft"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_14.jpg" /></li>
+                <li id='slide15' class="slideRight"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_15.jpg" /></li>
+                <li id='slide16' class="slideLeft"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_16.jpg" /></li>
+                <li id='slide17' class="slideRight"><img src="images/scenic_nature/grand_canyon_west_rim/gc_westrim12_2016_17.jpg" /></li>
+            </ul>
+
+            <!---- /MAIN CONTENT-->
+
+
+        </div>
+    </div>
+    <!-- SCRIPTING-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+   
+  
+</body>
+</html>
