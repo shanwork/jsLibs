@@ -445,7 +445,9 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                                         });
                                     index++;
                                 }
-                                else if (callback){
+                                else { 
+                                    domElement1.text('none', 'height:0px;width:0px');
+                                    if (callback) 
                                         callback() ;
                                 }
                                 },

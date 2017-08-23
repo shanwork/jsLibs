@@ -2,7 +2,87 @@ var removeAll = function()
 {
        console.log(d3.select("#storyBoard").selectAll('div').html());
 }
-openStory = function(){
+openStory = function(fadeMode=0){
+     let index = 0;
+    
+    let domElementCurtain = DOMElement('curtain');
+    let domElementMainStory = DOMElement('mainStory');
+    let fadeOutIterations = [
+        {
+            start:1.0, 
+            end:0.9,
+            timout:200
+        }, {
+            start:0.9, 
+            end:0.8,
+            timout:200
+        },
+        {
+            start:0.8, 
+            end:0.6,
+            timout:600
+        },
+        {
+            start:0.6, 
+            end:0.4,
+            timout:400
+        },
+        {
+            start:0.4, 
+            end:0.2,
+            timout:500
+        }
+        ,
+        {
+            start:0.2, 
+            end:0.0,
+            timout:500
+        }
+    ];
+            
+    switch(fadeMode){
+        case 0: domElementCurtain.transitionFadeParallel(domElementMainStory,fadeOutIterations,index,null);//fadeParallel (domElementCurtain, domElementMainStory, fadeOutIterations, iterationsFadeIn, index,0);
+            break;
+        case 1: 
+            let iterationsFadeIn = [
+        {
+            start:0.0, 
+            end:0.2,
+            timout:400
+        },
+        {
+            start:0.2, 
+            end:0.4,
+            timout:500
+        },
+        {
+            start:0.4, 
+            end:0.6,
+            timout:300
+        },
+        {
+            start:0.6, 
+            end:0.8,
+            timout:100
+        }
+        ,
+        {
+            start:0.8, 
+            end:1.0,
+            timout:100
+        }
+    ];
+            domElementCurtain.transitionFadeSequential(domElementMainStory,fadeOutIterations,index,null);
+            break;
+    }
+    let domElement = DOMElement('curtain');
+   
+  
+    
+  
+    return;
+}
+openStoryOld= function(){
     let domElement = DOMElement('curtain');
     domElement.fade(1.0, 0.8,800, function() { 
          let domElement2 = DOMElement('curtain');
@@ -21,6 +101,7 @@ openStory = function(){
     });
  
 }
+
 
 openStory2 = function(){
     let domElement = DOMElement('introImage');
@@ -59,6 +140,7 @@ if (postBack==false)
             }
         }
     }
+
 console.log(index);
 let currentChapter = shreeKrishnaStory[index-1];// ,end) ;//index+1);
 let text = ''; 
