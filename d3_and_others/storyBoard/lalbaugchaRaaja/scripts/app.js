@@ -130,7 +130,7 @@ if (postBack==false)
             for (let chaptIndex=0; chaptIndex < kellysPaintings.length;chaptIndex++){
                 let chapterButton = document.createElement("button");
                 let buttonText = kellysPaintings[chaptIndex].buttonText?
-                    kellysPaintings[chaptIndex].buttonText:"Chapter " + (chaptIndex+1);
+                    kellysPaintings[chaptIndex].buttonText:"" + (chaptIndex+1);
                 chapterButton.innerHTML = buttonText;
                 chapterButton.setAttribute("style", kellysPaintings[chaptIndex].buttonStyle?   kellysPaintings[chaptIndex].buttonStyle  :defaultButtonStyle);
                 chapterButton.setAttribute("id", 'chapt_' + (chaptIndex+1) );
