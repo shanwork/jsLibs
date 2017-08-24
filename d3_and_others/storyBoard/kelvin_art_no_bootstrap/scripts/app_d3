@@ -2,7 +2,6 @@ var removeAll = function()
 {
        console.log(d3.select("#storyBoard").selectAll('div').html());
 }
-var currentIndex =1, prevIndex=1;
 openStory = function(fadeMode=0){
      let index = 0;
     
@@ -83,66 +82,67 @@ openStory = function(fadeMode=0){
   
     return;
 }
-
-
+openStoryOld= function(){
+    let domElement = DOMElement('curtain');
+    domElement.fade(1.0, 0.8,800, function() { 
+         let domElement2 = DOMElement('curtain');
+         domElement2.fade(0.8, 0.4,800, function() {
+            let domElement3 = DOMElement('curtain');
+            domElement3.fade(0.4, 0.0,1000, function() {
+              DOMElement('curtain').display('none');
+              let domElement4 = DOMElement('mainStory');
+              domElement4.display('block')
+                .fade(0.0,5.0,600, function(){
+                   let domElement5 = DOMElement('mainStory');
+                  domElement5.fade(0.5,1.0,600);
+                });
+            }); 
+         });
+    });
  
+}
+
+
+openStory2 = function(){
+    let domElement = DOMElement('introImage');
+    domElement.fade(1.0, 0.8,4000, function() { 
+         let domElement2 = DOMElement('introImage');
+         domElement2.fade(0.8, 0.4,3000, function() {
+            let domElement3 = DOMElement('introImage');
+            domElement3.fade(0.4, 0.0,1000, function() {
+             
+            }); 
+         });
+         DOMElement('curtain').display('none');
+    });
+  let domElement4 = DOMElement('mainStory');
+              domElement4.display('block')
+                .fade(0.0,5.0,600, function(){
+                   let domElement5 = DOMElement('mainStory');
+                  domElement5.fade(0.5,1.0,600);
+                });
+}
 loadChapterDiv = function(index, postBack=true){
 if (postBack==false)
     {
         let chapterRowDiv = document.getElementById('chapterRow');
         if (chapterRowDiv){
             let defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
-            let prevButton = document.createElement("button");
-            prevButton.setAttribute("style", defaultButtonStyle);
-            prevButton.innerHTML = '<<< PREV'
-            prevButton.addEventListener('click', function() { loadChapterDiv( -1 ) } );
-            chapterRowDiv.appendChild(prevButton);
-            for (let chaptIndex=0; chaptIndex < shreeKrishnaStory.length;chaptIndex++){
+            for (let chaptIndex=0; chaptIndex < kellysPaintings.length;chaptIndex++){
                 let chapterButton = document.createElement("button");
-                let buttonText = shreeKrishnaStory[chaptIndex].buttonText?
-                    shreeKrishnaStory[chaptIndex].buttonText:"Chapter " + (chaptIndex+1);
+                let buttonText = kellysPaintings[chaptIndex].buttonText?
+                    kellysPaintings[chaptIndex].buttonText:"Chapter " + (chaptIndex+1);
                 chapterButton.innerHTML = buttonText;
-                chapterButton.setAttribute("style", shreeKrishnaStory[chaptIndex].buttonStyle?   shreeKrishnaStory[chaptIndex].buttonStyle  :defaultButtonStyle);
-                chapterButton.setAttribute("id", 'chapt_' + (chaptIndex+1) );
-                chapterButton.setAttribute("title", shreeKrishnaStory[chaptIndex].title);
+                chapterButton.setAttribute("style", kellysPaintings[chaptIndex].buttonStyle?   kellysPaintings[chaptIndex].buttonStyle  :defaultButtonStyle);
+                chapterButton.setAttribute("title", kellysPaintings[chaptIndex].title);
                 chapterButton.addEventListener('click', function() { loadChapterDiv( chaptIndex+1 ) } );
                 chapterRowDiv.appendChild(chapterButton);
-                let currentButton = document.getElementById('chapt_1');
-                if (currentButton)
-                    currentButton.style.opacity='0.2';
-                        
             }
-            let nextButton = document.createElement("button");
-            nextButton.setAttribute("style", defaultButtonStyle);
-            nextButton.innerHTML = 'NEXT >>>'
-            nextButton.addEventListener('click', function() { loadChapterDiv( -2 ) } );
-            chapterRowDiv.appendChild(nextButton);
-            
         }
     }
-if (index ==-1){
-    index = currentIndex-1;
-    if (index ==0 )
-        index =  shreeKrishnaStory.length;
-}
-    if (index ==-2){
-    index = currentIndex+1;
-    if (index >  shreeKrishnaStory.length)
-        index = 1;
-}
-if (index != currentIndex){
-    prevIndex = currentIndex;
-     let prevClickButton = document.getElementById('chapt_'+ currentIndex);
-     if (prevClickButton)
-         prevClickButton.style.opacity='1.0';
-    let currentClickButton = document.getElementById('chapt_'+ index);
-     if (currentClickButton) 
-         currentClickButton.style.opacity='0.2';
-    currentIndex=index;
-}
-    console.log(index);
 
-let currentChapter = shreeKrishnaStory[index-1];// ,end) ;//index+1);
+console.log(index);
+let currentChapter = kellysPaintings[index-1];// ,end) ;//index+1);
 let text = ''; 
 for (let i = 0; i < currentChapter.subsections.length;i++){
                         if (currentChapter.subsections[i].subTitle && currentChapter.subsections[i].subTitle != '')
@@ -195,7 +195,7 @@ if (postBack==false)
     {
         let chapterRowDiv = document.getElementById('chapterRow');
         if (chapterRowDiv){
-            for (let chaptIndex=0; chaptIndex < shreeKrishnaStory.length;chaptIndex++){
+            for (let chaptIndex=0; chaptIndex < kellysPaintings.length;chaptIndex++){
                 let chapterButton = document.createElement("button");
                 chapterButton.value = "Chapter " + (chaptIndex+1);
                 chapterButton.addEventListener('click', function() { loadChapterDiv( chaptIndex+1 ) } );
@@ -204,7 +204,7 @@ if (postBack==false)
         }
     }
 console.log(index);
-let array = shreeKrishnaStory.slice(index-1, index+1);// ,end) ;//index+1);
+let array = kellysPaintings.slice(index-1, index+1);// ,end) ;//index+1);
  
 
 d3.select("#storyBoard")

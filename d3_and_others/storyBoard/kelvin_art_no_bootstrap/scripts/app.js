@@ -85,7 +85,25 @@ openStory = function(fadeMode=0){
 }
 
 
- 
+openStory2 = function(){
+    let domElement = DOMElement('introImage');
+    domElement.fade(1.0, 0.8,4000, function() { 
+         let domElement2 = DOMElement('introImage');
+         domElement2.fade(0.8, 0.4,3000, function() {
+            let domElement3 = DOMElement('introImage');
+            domElement3.fade(0.4, 0.0,1000, function() {
+             
+            }); 
+         });
+         DOMElement('curtain').display('none');
+    });
+  let domElement4 = DOMElement('mainStory');
+              domElement4.display('block')
+                .fade(0.0,5.0,600, function(){
+                   let domElement5 = DOMElement('mainStory');
+                  domElement5.fade(0.5,1.0,600);
+                });
+}
 loadChapterDiv = function(index, postBack=true){
 if (postBack==false)
     {
@@ -97,14 +115,14 @@ if (postBack==false)
             prevButton.innerHTML = '<<< PREV'
             prevButton.addEventListener('click', function() { loadChapterDiv( -1 ) } );
             chapterRowDiv.appendChild(prevButton);
-            for (let chaptIndex=0; chaptIndex < shreeKrishnaStory.length;chaptIndex++){
+            for (let chaptIndex=0; chaptIndex < kellysPaintings.length;chaptIndex++){
                 let chapterButton = document.createElement("button");
-                let buttonText = shreeKrishnaStory[chaptIndex].buttonText?
-                    shreeKrishnaStory[chaptIndex].buttonText:"Chapter " + (chaptIndex+1);
+                let buttonText = kellysPaintings[chaptIndex].buttonText?
+                    kellysPaintings[chaptIndex].buttonText:"Chapter " + (chaptIndex+1);
                 chapterButton.innerHTML = buttonText;
-                chapterButton.setAttribute("style", shreeKrishnaStory[chaptIndex].buttonStyle?   shreeKrishnaStory[chaptIndex].buttonStyle  :defaultButtonStyle);
+                chapterButton.setAttribute("style", kellysPaintings[chaptIndex].buttonStyle?   kellysPaintings[chaptIndex].buttonStyle  :defaultButtonStyle);
                 chapterButton.setAttribute("id", 'chapt_' + (chaptIndex+1) );
-                chapterButton.setAttribute("title", shreeKrishnaStory[chaptIndex].title);
+                chapterButton.setAttribute("title", kellysPaintings[chaptIndex].title);
                 chapterButton.addEventListener('click', function() { loadChapterDiv( chaptIndex+1 ) } );
                 chapterRowDiv.appendChild(chapterButton);
                 let currentButton = document.getElementById('chapt_1');
@@ -123,11 +141,11 @@ if (postBack==false)
 if (index ==-1){
     index = currentIndex-1;
     if (index ==0 )
-        index =  shreeKrishnaStory.length;
+        index =  kellysPaintings.length;
 }
     if (index ==-2){
     index = currentIndex+1;
-    if (index >  shreeKrishnaStory.length)
+    if (index >  kellysPaintings.length)
         index = 1;
 }
 if (index != currentIndex){
@@ -142,7 +160,7 @@ if (index != currentIndex){
 }
     console.log(index);
 
-let currentChapter = shreeKrishnaStory[index-1];// ,end) ;//index+1);
+let currentChapter = kellysPaintings[index-1];// ,end) ;//index+1);
 let text = ''; 
 for (let i = 0; i < currentChapter.subsections.length;i++){
                         if (currentChapter.subsections[i].subTitle && currentChapter.subsections[i].subTitle != '')
@@ -195,7 +213,7 @@ if (postBack==false)
     {
         let chapterRowDiv = document.getElementById('chapterRow');
         if (chapterRowDiv){
-            for (let chaptIndex=0; chaptIndex < shreeKrishnaStory.length;chaptIndex++){
+            for (let chaptIndex=0; chaptIndex < kellysPaintings.length;chaptIndex++){
                 let chapterButton = document.createElement("button");
                 chapterButton.value = "Chapter " + (chaptIndex+1);
                 chapterButton.addEventListener('click', function() { loadChapterDiv( chaptIndex+1 ) } );
@@ -204,7 +222,7 @@ if (postBack==false)
         }
     }
 console.log(index);
-let array = shreeKrishnaStory.slice(index-1, index+1);// ,end) ;//index+1);
+let array = kellysPaintings.slice(index-1, index+1);// ,end) ;//index+1);
  
 
 d3.select("#storyBoard")

@@ -1,0 +1,153 @@
+var kellysPaintings = [
+    
+     {
+        title: '',
+        buttonText: '1',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/kellys_painting_1.jpeg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        buttonText: '2',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/kellys_painting_2.jpeg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        buttonText: '3',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/kellys_painting_3.jpeg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        buttonText: '4',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/kellys_painting_4.jpeg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        buttonText: '5',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/kellys_painting_5.jpeg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        buttonText: '6',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/kellys_painting_6.jpeg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        buttonText: '7',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/kellys_painting_7.jpeg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }
+    
+   
+];

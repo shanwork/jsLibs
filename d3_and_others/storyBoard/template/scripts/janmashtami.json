@@ -1,8 +1,10 @@
 var shreeKrishnaStory = [
     
     {
+        id:'Overview',
         title: 'PART 1 Overview',
         buttonText: 'OVERVIEW',
+        buttonClickedStyle :  "padding:3px;background-color: blue ; border: 2px inset aliceblue;margin:2px; border-radius:3px;color:aliceblue;font-weight:bold",
         buttonStyle :  "padding:3px;background-color:aliceblue  ; border: 2px outset blue;margin:2px; border-radius:3px;color:blue;font-weight:bold",
         contentStyle: { 'border':'3px outset orange',
              'background-image': 'url("images/lord-krishna-786.jpg")',
@@ -322,5 +324,27 @@ var shreeKrishnaStory = [
             }
         ]
     },
+     {
+        title: 'Addendum2',
+        buttonText: 'Addendum',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: 'EPILOGUE',
+                content: ' <img src="images/lord-krishna-786.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }
    
 ];
