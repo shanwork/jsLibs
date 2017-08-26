@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="test_stats_app">
+<head>
+    <meta charset="utf-8" />
+  <link rel='stylesheet' href="styles/style.css">
+    </head>
+<body onload='loadChapterDiv(1, false)'>
+ 
+   <div  title="Art is Divine. Divine is Spiritual" id="curtain" onclick="openStory()" > 
+       <div id="top-left-link">
+           <a href="../../index.html"><span>go back to Parent Index page....</span></a>
+       </div>
+        <button id="entryButton" style=" ">Click Me</button>
+        <H2 >Art is Divine. Divine is Spiritual. Spritual is Bliss</H2>
+       <img src="images/kellys_painting_20.jpeg" style="opacity:0.6;">
+    </div>
+    <div id="mainStory" >
+        <div id="top-left-link">
+                <a href="../../index.html" >
+                    <span>go back to Parent Index page....</span>
+                </a>
+        </div>
+    <div id="storySummary"  >
+        
+         <button id='endShow' class='playButtons' disabled onclick='endSlideShow()'>Pause Slide Show</button>
+                <button id='startShow' class='playButtons playButtonGreen'  onclick='startSlideShow()'>Start Slide Show</button>
+        <h2 style="">Kellys Paintings</h2>
+        <p>These are photos of some of my friend Kelvin's art work. He is in Goa, India and these are his contact details: Kcasper09@hotmail.com . +919545922802<br/> Kindly try to see these on a bug screen</p>
+        
+    </div>
+    <div id="chapterRow"></div>
+    <div id="storyBoard">
+      <H2></H2>
+      <div id='details'></div>
+    </div>
+    </div><!-- main story -->
+   
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src='scripts/kellysGallery.json'></script>
+    <script src='scripts/MathStatsAndMisc.js'></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
