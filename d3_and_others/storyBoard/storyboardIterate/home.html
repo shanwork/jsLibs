@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body onload='loadChapterDiv(1, false)'>
+    <div  title="Aum Shree Ganeshaya Namaha" id="curtain" onclick="openStory()"  > 
+            <div id="top-left-link">
+                <a href="../../index.html" >
+                    <span>go back to Parent Index page....</span>
+                </a>
+            </div>
+        <button id='entryButton'  >Click to Let the story begin!!</button>
+        <H2 >EIGHTY TWO YEARS OF LALBAGCHA RAJA</H2>
+      </div>
+    <div id="mainStory" >
+         <div id="top-left-link">
+                <a href="../../index.html" >
+                    <span>go back to Parent Index page....</span>
+                </a>
+            </div>
+            <div id="storySummary" title='The most famous Sarvajanik Ganapati, kept at Lalbag, a prominent locality in Mumbai during Ganesh Chaturthi festival, for darshan over 11 days then immersed on the auspicious day of Anant Chaturdashi.It is believed that this Idol of Lord Ganesha is Navsacha Ganpati (Marathi: नवसाचा गणपती) (which means the "one who fulfills all wishes")Over 1.5 million people visit this Ganesh Pandal daily during the 10-day Ganesha festival.  In 2016, the Lalbaugcha Raja Ganpati completed its 82nd year and here are photos of the idols over the years... ' >
+                <button id='endShow' class='playButtons' disabled onclick='endSlideShow()'>Pause Slide Show</button>
+                <button id='startShow' class='playButtons playButtonGreen'  onclick='startSlideShow()'>Start Slide Show</button>
+                <h2 >Lalbagcha Raja - till 2016</h2>
+                <!--p style='text-align:left'> The most famous Sarvajanik Ganapati, kept at Lalbag, a prominent locality in Mumbai during Ganesh Chaturthi festival, for darshan over 11 days then immersed on the auspicious day of Anant Chaturdashi.It is believed that this Idol of Lord Ganesha is Navsacha Ganpati (Marathi: नवसाचा गणपती) (which means the "one who fulfills all wishes")Over 1.5 million people visit this Ganesh Pandal daily during the 10-day Ganesha festival.<br/> In 2016, the Lalbaugcha Raja Ganpati completed its 82nd year and here are photos of the idols over the years... </p-->
+        
+            </div>
+            <div id="chapterRow"></div>
+            <div id="storyBoard">
+                <H2 id="storyBoardHeader"></H2>
+                <div id='details'></div>
+            </div>
+    </div><!-- main story -->
+   
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src='scripts/rajaPics.json'></script>
+    <script src='scripts/MathStatsAndMisc.js'></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
