@@ -2,6 +2,7 @@
 <html ng-app="test_stats_app">
 <head>
     <meta charset="utf-8" />
+     <link rel="stylesheet" href="../styles/global-style.css">
     <style>
     H1, H2, H3, H4, H5, H6 
         {
@@ -13,30 +14,34 @@
         }
         #curtain
         {
-            background-image: url('images/coverpageImage.jpg');
+            background-image: url('images/shivPuran1_Cover.jpg');
             background-size: cover;
+            background-repeat:repeat;
             min-width:1024px;
             min-height:768px;
             margin:10px; 
             border:6px outset gray;
             border-radius:10px;
-            color:yellow;
+            color:darkblue;
+            background-color:  blue;
             position: absolute;
             top:25px;left:5px;
         }
         #curtain > H2 
         {
-            width:500px;background-color:transparent; color:yellow;font-style:italic;margin: 20px 100px 100px 100px;
+            background-color:aqua; color:darkblue;font-style:italic;margin: 5x ;
         }
         #curtain > H2 > span 
         {
-            float:left;
+            float:right;
             font-size:smaller;
             font-weight:900;
             width:auto;
-            color:orangered; 
-            border:3px outset orange; 
-            background-color:lightgoldenrodyellow;margin-right:  100px ;padding:5px;
+            color:darkslateblue; 
+            border:3px outset darkslateblue; 
+            background-color:skyblue;
+            margin-right:  100px ; 
+            margin-bottom: 15px;
         }
         #mainStory 
         {
@@ -67,10 +72,10 @@
     </style>
     </head>
 <body onload='loadChapterDiv(1, false)'>
-    <div id="top-left-link"><a href="../index.html">go back to Parent Index page....</a></div>
+    <div id="top-left-link"><a href="../home.html">go back to Parent Index page....</a></div>
              
     <div id="curtain" onclick='openStory()' >
-        <H2  >SAMPLE STORY WIZARD <span  >Click Me</span> </H2>
+        <H2  >SHIV PURAN BOOK1 - INTRODUCTION  AND THE GLORY OF SIVAPURANA<span  >&nbsp; &nbsp; &nbsp;Click Me&nbsp; &nbsp;  &nbsp;</span> </H2>
         
     </div>
     <div id="mainStory" >

@@ -133,43 +133,6 @@ loadChapterDiv = function(index, postBack=true,static=true){
         if (index >  chapterData.length)
             index = 1;
     }
-    /*
-     <div  id='top'   >
-                <h2 >Showcasing the APIs offered by  MathsStatsAndMisc.js </h2>
-            <div >
-                <h3><strong>Table of Contents</strong></h3>
-            <ul>
-                <li><a href=#about>About</a></li>
-                <li><a href='#cloning'>Cloning and modifying</a></li>
-                <li><a href='#mathsAndStats'>Mathematical and Statistics API</a></li>
-                <li><a href='#domManupulation'>Dom Manipulation</a></li>
-            </ul>
-            </div>
-            <div id='about'>
-                <h3>About the library and this page</h3>
-                <p>
-                    This is a simple, 'non third party framework' html page with JavaScript, including <em>JUST</em> the '.js' file <strong>MathsStatsAndMisc.js</strong>, which attempts to showcase the usage of the APIs contained in it. Barebones HTML, some basic CSS styling to make it presentable, this is broken up into divs, <em>EACH</em> with code examples bullet pointed. The library will have lot of additions, some (transparent) changes with time, but I like to think, there is enough to present at this stage.</p>
-                
-                
-                <ul>
-                    <li class='no-decor'>As of <span id='dateSpan'></span>, the file consists of three sets of APIs:</li>
-                    <li>JSObjects 
-                        <br/>At this point, there is only one function called <strong>deepCopy</strong> which clones an object with the option of modifying the values of the fields of the cloned object.
-                        <br/> This can be used to automate generation large amounts of test data, using cloning and modification with looping and randomization appropriately
-                        <br/> Some aspects of a JavaScript object like functions as values, and some use cases are still to be covered.
-                        <br/> See the section <a href='#cloning'>Cloning and modifying</a> for a sample implementation
-                    </li>
-                    <li>MathsAndStats
-                        <br/> APIs to calculate the circle area and circumference, given a radius value, and average, mean and standard deviation and variance for a list of numbers.
-                        <br/> There is also an API to round off to n decimal places
-                        <br/> See the section <a href='#mathsAndStats'>Mathematical and Statistics API</a> for a sample implementation
-                    </li>
-                    <li>DOMManipulator<br/>
-                        Set of chained APIs styled on jQuery and d3, though I have not implemented a symbol like '$(' or 'd3.'
-                    </li>
-                    </ul>
-               <a href="#top"><strong>Back To Top of Page</strong></a>
-    */
     highlightSelectionButton(index);
     // .. loading content
     let currentChapter = chapterData[index-1]; 
@@ -190,6 +153,44 @@ loadChapterDiv = function(index, postBack=true,static=true){
         if (currentChapter.subsections[i].content && currentChapter.subsections[i].content != '') {
             contentText +=   currentChapter.subsections[i].content  ;
         }
+                if (currentChapter.subsections[i].tableData)
+                        {
+                            let tableBuilder = '<table border=1 cellspacing=0 cellpadding=0>';
+                            if (currentChapter.subsections[i].tableData.header){
+                                tableBuilder += '<tr'; 
+                               tableBuilder +=      currentChapter.subsections[i].tableData.tableHeaderRowStyle?
+                                    ' style="' +  currentChapter.subsections[i].tableData.tableHeaderRowStyle + '">':'>';
+                                for (let m = 0;
+                                     m < currentChapter.subsections[i].tableData.header.length;
+                                     m++)
+                                    {
+                                        tableBuilder += '<th>' + currentChapter.subsections[i].tableData.header[m] + '</th>'
+                                    }
+                                tableBuilder += '</tr>'
+                            }
+                            if (currentChapter.subsections[i].tableData.content)
+                            {
+                                for (n = 0 ; n < currentChapter.subsections[i].tableData.content.length;n++){
+                                     tableBuilder += '<tr';
+                                    if (n % 2== 0 && currentChapter.subsections[i].tableData.tableEvenRowStyle){
+                                         tableBuilder += ' style="' +  currentChapter.subsections[i].tableData.tableEvenRowStyle + '">';
+                                    }
+                                    else if (currentChapter.subsections[i].tableData.tableOddRowStyle){
+                                         tableBuilder += ' style="' +  currentChapter.subsections[i].tableData.tableOddRowStyle + '">';
+                                    }
+                                    else {
+                                        tableBuilder += ">";
+                                    }
+                                    for (o = 0 ; o < currentChapter.subsections[i].tableData.content[n].length;o++){
+                                        tableBuilder += '<td>' + currentChapter.subsections[i].tableData.content[n][o] + '</td>';
+                                    }
+                                    tableBuilder += '</tr>'
+                           
+                                }
+                            }
+                            tableBuilder += '</table>';
+                            contentText +=   tableBuilder  ;
+                        }
     }//.. loading content
     if (subTitleList.length > 1){
         contentText += "<a href='#top'><strong>Back To Top</strong></a>";
@@ -209,8 +210,8 @@ loadChapterDiv = function(index, postBack=true,static=true){
     }
     text += contentText;
     // fade out
-  let headerStyleNoCSS ='';// currentChapter.headerStyleNoCSS?currentChapter.headerStyleNoCSS:defaultHeaderStyleNoCSS ;
-  let detailStyleNoCSS = '';// currentChapter.detailStyleNoCSS?currentChapter.detailStyleNoCSS:defaultDetailStyleNoCSS;
+  let headerStyleNoCSS = currentChapter.headerStyleNoCSS?currentChapter.headerStyleNoCSS:defaultHeaderStyleNoCSS ;
+  let detailStyleNoCSS = currentChapter.detailStyleNoCSS?currentChapter.detailStyleNoCSS:defaultDetailStyleNoCSS;
   
   loadContent = function () {
                details.setAttribute("style", detailStyleNoCSS);
@@ -251,7 +252,7 @@ loadChapterDiv = function(index, postBack=true,static=true){
         if(oldChapterD)
             details.removeChild(oldChapterD.element);
     }
-    };
+    }();
    // contentContainer = 
     let headerStyle = currentChapter.headerStyle?currentChapter.headerStyle:defaultHeaderStyle
     let detailStyle = currentChapter.detailStyle?currentChapter.detailStyle:defaultDetailStyle
@@ -267,6 +268,6 @@ loadChapterDiv = function(index, postBack=true,static=true){
     d3.select("#details")
         .style(detailStyle)
       .html(text); 
-    }();
+    };
     
 }

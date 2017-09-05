@@ -24,7 +24,8 @@ var defaultContentStyle =   { 'border':'3px outset orange',
 var chapterData = [
     
     {
-        title: 'PART 1 Overview',
+        title: 'Introduction',
+        buttonText: 'Introduction',
         buttonStyle :  "padding:3px;background-color:aliceblue  ; border: 2px outset blue;margin:2px; border-radius:3px;color:blue;font-weight:bold",
         contentStyle: { 'border':'3px outset orange',
              'background-image': 'url("images/sample1.jpg")',
@@ -33,22 +34,13 @@ var chapterData = [
              'padding':'2px',
              'color':'orange', 
              'opacity':'0.5',
-              'background-color':'lightgoldenrodyellow'} ,
+              'background-color':'lightgoldenrodyellow',
+            'text-align':'left'} ,
         subsections: [
            { 
-                subTitle: 'Lorem ipsum dolor sit amet',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit velit vitae magna mollis luctus. Nulla tincidunt justo eu lectus hendrerit, ac vehicula mauris consequat. Cras sed est ac urna posuere ullamcorper. Donec in ipsum ut turpis porta blandit quis ut massa. Duis congue pretium rhoncus. Sed vel sapien in eros scelerisque bibendum eu at enim. Sed justo est, condimentum ut semper sed, viverra et metus.</p>'
-            },{
-                content:'<p>&nbsp;&nbsp;&nbsp;&nbsp;Suspendisse sit amet enim tristique, lobortis ipsum sit amet, faucibus sapien. In nec congue mi. Sed mollis justo odio, cursus cursus ante hendrerit ac. Curabitur mollis ipsum eu tempus suscipit. Cras volutpat tempus augue id dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam facilisis tellus dignissim vestibulum sodales. Donec vestibulum id nibh ut imperdiet. Duis commodo, felis vitae lacinia consectetur, lectus lorem auctor justo, vel rhoncus lectus nulla quis ante. Etiam vitae iaculis sapien. Suspendisse ullamcorper enim sit amet mattis semper.</p>'
-            },{ 
-                subTitle: 'Background and Setting the stage',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Praesent et lorem ligula. Sed vulputate consectetur nisi in convallis. Nullam luctus luctus odio eu lacinia. Maecenas mattis nunc vel ornare dignissim. Integer eget justo eget neque elementum vulputate non at diam. Donec cursus eleifend leo, auctor tempus dui laoreet eu. Donec sed sodales lectus, ornare tempus diam. Fusce sodales tortor et massa tincidunt, non tempus neque posuere. Nunc tincidunt fringilla nibh, interdum feugiat orci aliquet non. Morbi sit amet dui est.</p>'
-            },{ 
                 subTitle: '',
-                content: '<p>Suspendisse sit amet enim tristique, lobortis ipsum sit amet, faucibus sapien. In nec congue mi. Sed mollis justo odio, cursus cursus ante hendrerit ac. Curabitur mollis ipsum eu tempus suscipit. Cras volutpat tempus augue id dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam facilisis tellus dignissim vestibulum sodales. Donec vestibulum id nibh ut imperdiet. Duis commodo, felis vitae lacinia consectetur, lectus lorem auctor justo, vel rhoncus lectus nulla quis ante. Etiam vitae iaculis sapien. Suspendisse ullamcorper enim sit amet mattis semper.Suspendisse sit amet enim tristique, lobortis ipsum sit amet, faucibus sapien. In nec congue mi. Sed mollis justo odio, cursus cursus ante hendrerit ac. Curabitur mollis ipsum eu tempus suscipit. Cras volutpat tempus augue id dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam facilisis tellus dignissim vestibulum sodales. Donec vestibulum id nibh ut imperdiet. Duis commodo, felis vitae lacinia consectetur, lectus lorem auctor justo, vel rhoncus lectus nulla quis ante. Etiam vitae iaculis sapien. Suspendisse ullamcorper enim sit amet mattis semper.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>After the war was over, when Ashwatthama comes to know about the foul play by which his father Dronacharya was killed, he decides to take revenge by killing all the descendants of Pandavas.  Abhimanyu’s wife Uttara was pregnant at that time. Ashwatthama  goes to the house of Abhimanyu and shoots an arrow at Uttara’s womb. But, mysteriously, a spinning wheel comes and grinds the arrow to pieces. Uttara with her fetus was saved. An interesting story begins to develop from here. .</p>'
+                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;The Purana is a class of literature that treats of ancient religion, philosophy, history, sociology, politics and other subjects. It is an encyclopaedia of various branches of knowledge and ancient wisdom. It has been defined as a class of' + 
+               ' literature that contains material on the topics of Creation, Dissolution of Manus, Ages of Manus, Genealogies and the History of glorious kings. For dealing primarily with these subjects it has been called Panchalaksana -a title that was incorporated in the Puranas  themselves and had become popular by the Fifth century A.D.</p>'
             }
         ]
     },

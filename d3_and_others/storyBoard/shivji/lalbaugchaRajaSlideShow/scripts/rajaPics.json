@@ -1,0 +1,1877 @@
+var slideShowInterval = 1200;
+var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultHeaderStyle= 
+    {
+        'font-weight': '900',
+        'color':'firebrick',
+         'background-color': 'transparent', 'opacity':'1.5'
+    };
+var defaultContentStyle =  { 
+    'border':'3px outset orange',
+    'background-image': 'url("images/lord-krishna-786.jpg")',
+    'background-size': 'contain',
+    'border-radius':'4px',
+    'padding':'2px',
+    'color':'orange', 
+    'opacity':'0.5',
+    'background': 'silver', /* For browsers that do not support gradients */
+    'background': '-webkit-linear-gradient(left, red , yellow)',/* For Safari 5.1 to 6.0 */
+    'background': '-o-linear-gradient(right, red, yellow)', /* For Opera 11.1 to 12.0 */
+    'background': '-moz-linear-gradient(right, red, yellow)', /* For Firefox 3.6 to 15 */
+    'background': 'linear-gradient(to right, red , yellow)', /* Standard syntax */
+    'background-color':'lightgoldenrodyellow'
+}
+
+var defaultDetailStyle =  { 
+        'background-color':'#AA8866',
+        'opacity':'0.7',
+        'margin': '10px',
+        'padding':'5px',
+        'color':'black',
+        'font-weight':'900',
+        'border':'2px solid #334455'
+    }
+var chapterData = [
+    
+     {
+        title: '',
+        btnText: '1',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset darkgray',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'darkgray', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , grey)', /* Standard syntax */ 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-001.jpg" alt="1934"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '2',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , grey)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-002.jpg" alt="1935"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '3',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-003.jpg" alt="1936"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '4',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-004.jpg" alt="1937"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '5',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-005.jpg" alt="1938"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '6',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-006.jpg" alt="1939"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '7',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-007.jpg" alt="1940"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '8',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-008.jpg" alt="1941"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '9',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-009.jpg" alt="1942"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '10',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-010.jpg" alt="1943"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '11',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-011.jpg" alt="1944"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '12',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-012.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '13',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-013.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '14',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-014.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '15',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-015.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '16',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-016.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '17',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-017.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '18',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-018.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '19',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-019.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    } , {
+        title: '',
+        btnText: '1',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset darkgray',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'darkgray', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-019.jpg" alt="1955"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '2',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        detailStyle:  { 
+            'background-color':'#AA1533',
+            'opacity':'0.8',
+            'margin': '10px',
+            'padding':'5px',
+            'color':'black',
+            'font-weight':'900',
+            'border':'2px solid #334455'
+        },
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-020.jpg" alt="1956"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '3',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        detailStyle:  { 
+            'background-color':'#AA5546',
+            'opacity':'0.7',
+            'margin': '10px',
+            'padding':'5px',
+            'color':'black',
+            'font-weight':'900',
+            'border':'2px solid #334455'
+        },
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-021.jpg" alt="1957"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '4',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-022.jpg" alt="1958"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '5',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-023.jpg" alt="1959"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '6',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-024.jpg" alt="1960"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '7',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-025.jpg" alt="1961"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '8',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-026.jpg" alt="1962"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '9',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-027.jpg" alt="1963"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '10',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-028.jpg" alt="1964"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '11',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-029.jpg" alt="1965"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '12',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-030.jpg" alt="1966"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '1',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset darkgray',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'darkgray', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-031.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '2',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-032.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '3',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-033.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '4',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-034.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '5',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-035.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '6',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-036.jpg" alt="1939"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '7',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-037.jpg" alt="1940"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '8',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-038.jpg" alt="1941"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '9',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-039.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '10',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-040.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '11',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-041.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '12',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-042.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '13',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-043.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '14',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-044.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '15',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-045.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '16',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-046.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '17',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-047.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '16',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-048.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '17',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-049.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }  , {
+        title: '',
+        btnText: '10',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-050.jpg" alt="1943"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '11',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-051.jpg" alt="1944"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '12',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-052.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '13',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-053.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '14',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-054.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '15',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-055.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '16',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-056.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '17',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-057.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '18',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-058.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '19',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-059.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    } , {
+        title: '',
+        btnText: '1',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset darkgray',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'darkgray', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-060.jpg" alt="1955"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '2',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-060.jpg" alt="1956"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '3',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-061.jpg" alt="1957"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '4',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-062.jpg" alt="1958"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '5',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-063.jpg" alt="1959"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '6',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-064.jpg" alt="1960"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '7',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-065.jpg" alt="1961"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '8',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-066.jpg" alt="1962"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '9',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-067.jpg" alt="1963"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '10',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-068.jpg" alt="1964"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '11',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-069.jpg" alt="1965"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '12',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-070.jpg" alt="1966"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '1',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset darkgray',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'darkgray', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-071.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '2',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-072.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '3',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-073.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '4',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-074.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '5',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-075.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '6',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-076.jpg" alt="1939"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '7',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-077.jpg" alt="1940"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '8',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-078.jpg" alt="1941"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '9',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        detailStyle:  { 
+            'background-color':'#AA5546',
+            'opacity':'0.7',
+            'margin': '10px',
+            'padding':'5px',
+            'color':'black',
+            'font-weight':'900',
+            'border':'2px solid #334455'
+        },
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/82 Years Of Lalbaugcha Raja-page-079.jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }
+    
+   
+];

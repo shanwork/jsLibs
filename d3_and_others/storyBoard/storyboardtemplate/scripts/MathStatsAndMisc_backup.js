@@ -401,13 +401,6 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
         Transition functions.. These functions take two domElements, hide the first and show the second
         - domElement1 is by default 'this'
         - domElement2 is the destination
-        - iterations is an array of opacity-timeout objects, start and end opacity, self explanatory. For proper sequencing the 
-          opacity values across the array should be in order. see example
-        e.g. [   { start:1.0,  end:0.7, timout:200  }, { start:0.7,  end:0.3,timout:300 },, { start:0.3,  end:0.0,timout:400 }]
-        Notes, some of which may be obvious, but mentioning all the same
-        1. Typically used for two overlapping html elements, where one transitions out an the other comes in
-        2. Both elements style should preferably have position as absolute, with the same boxing values
-        
         */
         transitionFadeSequential: function(domElement2, iterations, index, callback,domElement1=this, index2=iterations.length-1){
                                     // console.log(callback);
@@ -452,10 +445,12 @@ Works for combination of JSON type objects and Arrays; havent implemented yet fo
                                         });
                                     index++;
                                 }
-                                else {
-                                    if (callback) callback() ;
-                                } 
-                        },
+                                else { 
+                                    domElement1.text('none', 'height:0px;width:0px');
+                                    if (callback) 
+                                        callback() ;
+                                }
+                                },
         conditionExpressionStyle: function(expression, styleTrue, styleFalse){
                     if (expression == true){
                         this.element.setAttribute("style",styleTrue);
