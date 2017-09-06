@@ -45,43 +45,10 @@ var chapterData = [
         ]
     },
     {
-        title: 'PART 2 Parikshith Birth, his Savor. Arjuna accompanies Shree Krishna on return to Dwarka',
-        headerStyle: { 'color': 'darkblue','font-weight': '900','background-color': 'transparent', 'opacity':'1.5'},
-        contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/parikshit.jpg")',
-             'background-size': 'contain',
-             'border-radius':'4px', 
-             'padding':'2px',
-             'color':'orange', 
-             'opacity':'0.5',
-              'background-color':'skyblue'} ,
-        subsections: [
-           { 
-                subTitle: 'Birth of Parikshith',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;The embryo, growing in the womb of Uttara,  saw a sharp arrow let off by Aswatthama (Drona’s son) flying towards him, emitting sparks of fury and terror, bent on his destruction. But, at that very moment, he also saw a Person of Brilliant Charm armed with a Terrific Wheel, breaking that death-dealing arrow into a hundred pieces. The royal fetus was filled with wonder and gratitude.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;The fetus pondered deeply on the identity of the savior. “Who is he? He must be dwelling with me in this womb. Otherwise, how could he see the arrow at the very moment I saw it? He has a dexterous skill that he could destroy it before it reached me. Can he be my uterine brother? How could he get hold of that wheel? If he is endowed with a wheel, how did I miss having it? No, he is not a mortal. He is Divine.” Thus he grew in the womb, contemplating on that Form.  At the end of the period of gestation, he was born into the world with strange splendor. The child too was very bright; it seemed to watch the lineaments of everyone who fondled it or came before it. It stared into their faces very longingly and lovingly. All were surprised at this strange behavior. Every person who came to it was subjected to this searching examination by the child who seemed determined to trace someone or something, in the world into which it was born. The fact remained that the child was examining all, for some trait or sign which it knew already, and recognize the Form it had in mind. “Pariksha” was the word used by every one for the “quest” the child was engaged in. So, even before the formal naming ceremony, everyone was referring to the child as Parikshith (the one who is enagaged in Pariksha) and the name stayed.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;The child was growing bigger every day and  Subhadra (Krishna’s sister) and Uttara were rejoicing watching the frolics of the child. Meanwhile, Yudhistra (Dharama Raja) consulted the court priest and set an auspicious day for the naming ceremony of the child. Invitations were sent to Kings, Rulers, Scholars, Pundits and prominent citizens. Arjuna went to Sri Krishna and reverentially prayed that He should shower His grace on the child on this occasion. He succeeded in bringing Krishna along when he returned. Sahadeva (one of the Pandavas) a took the child and placed it on a bed of flowers in the Mantap that was erected for the naming ceremony. But, the child rose on all fours and started crawling bravely in spite of the remonstrance of the maids. Apparently, the child wanted to proceed somewhere!</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;The efforts of Sahadeva to stop its journey proved futile. Yudhistra, who was observing its movements with interest said with a smile, “Sahadeva! Do not stand in the way. Leave him alone. Let us see what he does”. The child soon made a bee-line towards the place where Lord Krishna was seated, as if He was a long acquaintance whom he was longing to meet. The child grasped the feet of Krishna and pleaded by his looks, that he may be taken on the lap and fondled.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Lord Krishna saw his yearning. He laughed aloud! He graciously bent low and lifted the child on to His lap. Sitting on His lap, the prince was staring at the Lord’s face without even a wink; he did not turn his head this way or that. He just sat and stared. Everyone was amazed at this behavior, so unlike that of a child. Sri Krishna turned to Yudhistra and said, “This fellow has started examining even Me! Well, I must test his behavior a little”. Then the Lord tried to distract the attention of the child by placing a variety of toys in front of him and hiding Himself from the view. But, his attention was not drawn towards any object. He had his eyes fixed inexorably on the Lord and he was seeking the Lord always! Krishna declared, “This is no ordinary child. So, Parikshith is the most appropriate name for him”. At this point, the Brahmins recited relevant passages from the Vedas and women sang auspicious songs. The family preceptor dipped a Navaratna (nine-gem) jewel in honey and wrote the name on the tongue of the child and the naming ceremony came to a happy end.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Krishna stayed with the Pandavas for several months after the ceremony. The Pandavas enjoyed the intimacy with Krishna and benefited immensely from the Lord’s teachings every day. Finally, Krishna decided to go back to Dwaraka. Arjuna also decided to go with Krishna to Dwaraka to give Him company during the long journey, assure His safety and then return to Hastinapura. But, Arjuna does not return to Hastinapura for a very long time!</p>'
-            }
-        ]
-    },
-    {
-        title: 'PART 3 The long suspense, ill omens, waiting for Arjuna\'s return',
+        title: 'THE GLORY OF SIVAPURANA',
         headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/arjuna_krishna.jpg")',
+             'background-image': 'url("images/meditation_1.jpg")',
              'background-size': 'contain',
              'border-radius':'4px', 
              'padding':'2px',
@@ -90,8 +57,14 @@ var chapterData = [
               'background-color':'skyblue'} ,
         subsections: [
            { 
-                subTitle: 'The long suspense',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;It has been a very long time since Arjuna left along with Lord Krishna to Dwaraka and there was no information from him about his whereabouts.  The Pandavas and mother Kunti were getting worried. Yudhistra’s face was becoming pale with anxiety and constant agitation. Day by day his face was becoming dimmer and dimmer and he was sinking in agony. Dharmaraja (Yudhistra) told his brothers, “I see ominous things all around. I see only inauspiciousness, ill-fortune and negation of joy. I thought this was my imagination due to my sadness and anxiety. But, I could not succeed and muster up courage and confidence.”</p>'
+                subTitle: 'Greatness of Sivapurana',
+                content: '<p><ol>' +
+                    '<li>0 Suta of great intellect, 0 my lord, the knower ofhilosophical principles, please narrate to me the essence ofthe Pura!).as in detail.</li>' +
+                    '<li>How do good conduct, good devotion and power ofdiscrimination flourish ? How are base feelings dispelled bygood men ?</li>' +
+                    '<li>In this terrible Kali age all living beings have almost become demoniac in character. What is the effective mode of remedying the same ?</li>' +
+                    '<li> Now tell me about the greatest means to achieve the  most perfect weal, the holiest of the holy modes.</li>' +
+                    '<li> What is that, the practice of which particularly purifies the soul ? What is that which enables a man of unsullied mind to attain Siva ?<br/> Suta said :-</li>' +
+'<li>  0 foremost among sages, you are blessed indeed as</p>'
             },{ 
                 subTitle: '',
                 content: '<p>“To make things worse, I saw some scenes that are contrary to established morals and Dharma. The Courts of Justice in this kingdom have been receiving petitions and pleas regarding wrongs, injustices and misdeeds which make me grieve deeply. I saw some situations which were even worse. Last evening, I saw a mother cow refusing to nurse and feed her new-born calf! This is quite strange and contrary to nature. I saw some women wantonly loitering in the bazaar. I hoped that they would rush into their homes when they saw me; No. Instead, they started staring at me. They had no reverence for authority. They went on as if I was not in the picture. They continued to talk without restraint to the menfolk. I saw all this with my own eyes. I simply proceeded from that horrid place.”</p>'
