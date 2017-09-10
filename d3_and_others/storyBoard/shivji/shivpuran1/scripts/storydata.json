@@ -59,41 +59,27 @@ var chapterData = [
            { 
                 subTitle: 'Greatness of Sivapurana',
                 content: '<p><ol>' +
-                    '<li>0 Suta of great intellect, 0 my lord, the knower ofhilosophical principles, please narrate to me the essence ofthe Pura!).as in detail.</li>' +
-                    '<li>How do good conduct, good devotion and power ofdiscrimination flourish ? How are base feelings dispelled bygood men ?</li>' +
-                    '<li>In this terrible Kali age all living beings have almost become demoniac in character. What is the effective mode of remedying the same ?</li>' +
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said: </span>'+
+                    '<li>"0 Suta of great intellect, 0 my lord, the knower ofhilosophical principles, please narrate to me the essence ofthe Puranas in detail.</li>' +
+                    '<li>How do good conduct, good devotion and power ofdiscrimination flourish ? How are base feelings dispelled by good men ?</li>' +
+                    '<li>In this terrible Kali age all living beings have almost become demonic in character. What is the effective mode of remedying the same ?</li>' +
                     '<li> Now tell me about the greatest means to achieve the  most perfect weal, the holiest of the holy modes.</li>' +
-                    '<li> What is that, the practice of which particularly purifies the soul ? What is that which enables a man of unsullied mind to attain Siva ?<br/> Suta said :-</li>' +
-'<li>  0 foremost among sages, you are blessed indeed asyou are desirous of hearing. Hence I shall ponder over the greatest of the Sacred lore intelligently and tell you.</li>' +
+                    '<li> What is that, the practice of which particularly purifies the soul ? What is that which enables a man of unsullied mind to attain Siva ?"<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said: </span> </li>' +
+'<li>  0 foremost among sages, you are blessed indeed as you are desirous of hearing. Hence I shall ponder over the greatest of the Sacred Lore intelligently and tell you.</li>' +
 '<li> 0 dear, listen to that divine panacea evolved out of all religious tenets, heightening true devotion and conducive to the pleasure of Siva.</li>' +
-'<li> It is destructive of the great fear of "the Python of Kala (Death).· 0 sage, it is the noble Siva Purana formerly narrated by Siva Himself.</li>' +
-'<li> For the benefit of the people in the age of Kali, the sage Vyasa4 has abridged it out of great respect for the sage Sanatkumara  on being instructed by him.</li>' +
-'<li> 0 sage, there is nothing other than Siva Purana for the purification of the mind especially of the people of the Kali age. 6</li>' +
-'<li> It is only the intelligent and the highly fortunate :man who has accumulated great merits in his previous birth who will be drawn towards it.</li>' +
-'<li> This Sivapural).a is the greatest and the noblest of the sacred lore. It is the form of Siva and as such is to be served and realised in this world.</li>' +
-'<li> By reading this and listening to it the good man becomes very pious. By all means he instantly attains Siva"s region.</li>' +
+'<li> It is destructive of the great fear of  the Python of Kala (Death).· 0 sage, it is the noble Siva Purana formerly narrated by Siva Himself.</li>' +
+'<li> For the benefit of the people in the age of Kali, the sage Vyasa has abridged it out of great respect for the sage Sanatkumara  on being instructed by him.</li>' +
+'<li> 0 sage, there is nothing other than Siva Purana for the purification of the mind especially of the people of the Kali age. </li>' +
+'<li> It is only the intelligent and the highly fortunate man who has accumulated great merits in his previous birth who will be drawn towards it.</li>' +
+'<li> This Sivapurana is the greatest and the noblest of the sacred lore. It is the form of Siva and as such is to be served and realised in this world.</li>' +
+'<li> By reading this and listening to it the good man becomes very pious. By all means he instantly attains Siva\'s region.</li>' +
 '<li> Hence every endeavour of men to read this is desirable. Loving care to listen to it yields all desired results.</li>' +
 '<li> By listening to this Purana of Siva a man becomes sinless. After enjoying all extensive worldly pleasures he will attain the region of Siva.</li></p>'
-            },{ 
-                subTitle: '',
-                content: '<p>“To make things worse, I saw some scenes that are contrary to established morals and Dharma. The Courts of Justice in this kingdom have been receiving petitions and pleas regarding wrongs, injustices and misdeeds which make me grieve deeply. I saw some situations which were even worse. Last evening, I saw a mother cow refusing to nurse and feed her new-born calf! This is quite strange and contrary to nature. I saw some women wantonly loitering in the bazaar. I hoped that they would rush into their homes when they saw me; No. Instead, they started staring at me. They had no reverence for authority. They went on as if I was not in the picture. They continued to talk without restraint to the menfolk. I saw all this with my own eyes. I simply proceeded from that horrid place.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>“Very near the Raja Bhavan, when I was about to enter, I saw a Brahmin selling milk and curds! I saw people emerging out of their houses and closing the doors behind them. I found them fixing an iron thing to the doors so that it can’t be opened. (They were locking the doors for fear of thieves.) My mind was very much concerned with all these tragic transformations.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>“For, how else are we to explain such a fact as this: a wife quarreled with her husband and is arguing before the judge in court that she should be permitted to go to her parents, leaving him to himself. How I am to face such a plea in court that she should be permitted to dissolve the marriage and leave for her parent’s home, deserting her husband? A petition from such a wife was admitted yesterday in the Court of Justice! How am I to ignore such disgraces?”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>“Yesterday, the horses in the royal stables started weeping. They were shedding copious tears, the workers in the stables reported. These are the indications of wholesale destruction, not of any minor danger or small evil.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Meanwhile, a guard from the main entrance rushed in announcing that the soldiers had spotted Arjuna approaching the outskirts of the city.</p>'
             }
         ]
     },
     {
-        title: 'PART 4 Krishna\s Death and the Prophecy',
+        title: 'Coming soon',
         headerStyle: { 'color': 'antiquewhite','font-weight': '1900', 'background-color': 'transparent', 'opacity':'0.9'},
         contentStyle: { 'border':'3px outset blue',
              'background-image': 'url("images/krishna_death.jpg")',
@@ -105,150 +91,8 @@ var chapterData = [
               'background-color':'skyblue'} ,
         subsections: [
            { 
-                subTitle: 'The news and the prophecy',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Arjuna was walking briskly and he was quickly approaching the Royal apartment. Everyone rose as if they had suddenly come to life; they hurried forward to meet Arjuna, thirsty for the news from Dwaraka. Arjuna came in, depressed and despondent devoid of any joy. Without looking at anyone, he fell at the feet of Dharmaraja and tears started streaming from Arjuna’s eyes. Nobody had the courage to ask Arjuna about the happenings in Dwaraka.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Dharmaraja mustered some courage and asked Arjuna in pathetic tone, “Have you any news about Lord Krishna and the Yadavas?” Arjuna with sobbing eyes said, “Brother, Sri Krishna has departed from this world. The Yadavas left the world even before news came of His departure.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>At this Dhramaraja exclaimed, “Hari, Hari, O God! What is it that you said now? What a catastrophe? I do not understand anything.” Dharmaraja hugged Arjuna and sobbed. All the Pandava brothers were thrown into deep sorrow. He continued, “The Lord causes beings to create beings and He causes beings to end beings. Bodies get born, bodies die. Nothing more happens at birth or death. This has been taught to us by Vaasudeva (Krishna).”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Hearing what had happened to Krishna, mother Kunti fainted and breathed last. Dharmaraja and Arjuna felt that there is no point in living in this world when the Lord has left the earth. Bhima, Nakula and Sahadeva also had the same feeling.  They all decided to go the Himalayas and work towards their salvation. But, somebody has to hold the reigns of the kingdom. The young boy Parikshith is the only crown prince who has to shoulder the responsibilities of managing the kingdom.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Dharmaraja called renowned astrologers and asked them, “O wise men, who know the past, present and future! Examine the horoscope of Parikshith and tell me how the future will be shaped.” The Pundits examined the horoscope at length and the head Pundit stood up and addressed King Yudhistra, “Maharaja, I have examined thousands of horoscopes, but I never yet to come across a more auspicious grouping than is indicated in this horoscope. All virtues will gather in this child. The great Manu has again come in your dynasty. He will revere and serve Gods and the Brahmins. He will outdistance all those who gone before him.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Dharmaraja was still not satisfied. He asked, “I am happy with all the answers you have given. But, I would like to know how he will meet his end.”  The Pundits set about the calculations again and took a long time over it. Finally, they announced, “This prince will give up his kingdom as a result of a sage’s curse. He will be bitten by a serpent.”.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>After hearing this, Dharmaraja was very unhappy. He lamented, “O, the horror of it. Why should this child end up like that?” The Brahmins hastened to console him. “Maharaja”, they said, “There is no reason to grieve. As soon as he learns of the curse, he will give up his kingdom, as well as his wife and children and retire to the bank of the holy Bhagirathi river and surrender himself to the Lord. The great sage Suka, son of Vyasa, will arrive there and initiate him into Atma Jnana (Self-knowledge) through the recital of the glories of Lord Krishna and singing of His praise. Thus, he will spend his last days on the sacred bank of Ganga and breathe his last with the adoration of the Lord. He will not born again, for, through Bhakti Yoga (Path of devotion), he will attain oneness with the Lord.  Hearing this, Dharmaraja was consoled and said, “If so, this is no curse; it is a unique boon!”</p>'
-            }
-        ]
-    },
-    {
-        title: 'PART 5 Parikshit Coronation and the curse',
-        headerStyle: { 'color': 'cyan','font-weight': '1900', 'background-color': 'darkblue', 'opacity':'0.5' },
-        contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/parikshit-snake-sage-mahabharata.jpg")',
-             'background-size': 'contain',
-             'border-radius':'4px', 
-             'padding':'2px',
-             'color':'orange', 
-             'opacity':'0.9',
-              'background-color':'skyblue'} ,
-        subsections: [
-           { 
-                subTitle: 'Parikshith Coronated',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;After the Pundits were sent away with gifts, Dharmaraja called Arjuna near him and said, “Arjuna! Let us not delay any further. The funeral rites of dear mother must begin immediately. We must have Parikshith crowned Emperor. We must leave Hasthinapura this night itself; every moment without Krishna appears as a Yuga (eon) to me.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Parikshith was given a ceremonial bath, crown jewels put on him and sworn-in as crown Prince with only a few invitees for the event. Parikshith was weeping knowing that his grandfather Arjuna is going to leave soon after the event. Since Parikshith was still a small boy, Kripacharya, the Guru of the family was asked take care of the kingdom and advice Parikshith accordingly. The Pandava brothers showered auspicious sacred rice on the head of Parikshith and started heading in the northerly direction for their salvation. Tears filled the eyes of everyone who witnessed these events.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Slowly, over time, Parikshith learnt the details, strategies and intricacies of a ruling a kingdom from Kripacharya. At the right age, he got married and had a few children. The citizens of the country were very happy under the rule of king Parikshith.</p>'
-            },{ 
-                subTitle: 'Parikshith cursed',
-                content: '<p>One day, Parikshith went all alone into a forest for hunting. He lost his way, trekked a long distance and could not bag a beast; a fierce thirst began to torment him. He was exhausted beyond endurance. Frantically, he searched for water. Luckily, he found a hermitage, a cottage thatched with grass. When he entered, he found Sage Sameeka in deep meditation. He went near him and addressed, “Sir, Sir, Water!” but Sameeka was deep in meditation. At this, the King was overcome by a fierce gust of anger. His feet trod on some rope on the floor. He discovered it was a snake. Deluded by anger and by a twist of fate, he threw the dead snake around the neck of the hermit and left the hermitage in a hurry to slake his thirst elsewhere.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Some boys saw him emerge from the cottage and they entered the cottage to find out why he had gone inside. They saw the snake around the neck of Sameeka. They surmised that it must be the handiwork of the man who had just left the hermitage. They ran out and informed Sringi, the son of Sameeka who was playing with his friends. Sringi ran into the cottage and found that the unbelievable had happened. He ran in the direction of the King and threw a handful of water at the King and pronounced the curse: “Let him be bitten by a snake on the seventh day and may he die of that poison”. Meanwhile Sameeka emerged from his deep meditation. He removed the dead snake from his neck and placed it beside him. Sringi told his father, “This was a prank played by a man in the garb of a King. I cursed him that he dies on the seventh day of a snake bite”.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Sameeka was shocked at this news and astonished at the behavior of his son. He knew that the curse could not be taken back. He instructed Sringi to go to King Parikshith’s palace and inform the King of the curse and seek his pardon. Sringi obediently followed the instructions of his father and informed King Pariskhith about the forthcoming danger from the snake. Parikshith knowing that his end is going to come in seven days, left the palace and began to seek sages and saints for spiritual knowledge. Parikshith was not satisfied with the advice many of them gave him.  Finally, he settled under a tree near Bhagirathi river and started to meditate on the Lord.  The story takes a sudden turn now!.</p>'
-            }
-        ]
-    },
-    {
-        title: 'PART 6a Parikshit meets Sage Suka',
-        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'transparent', 'opacity':'0.9'},
-        contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/parikshit_and_sukha.jpg")',
-             'background-size': 'contain',
-             'border-radius':'4px', 
-             'padding':'2px',
-             'color':'orange', 
-             'opacity':'0.9',
-              'background-color':'skyblue'} ,
-        subsections: [
-           { 
-                subTitle: 'Parikshith meets Sage Suka',
-                content: '<p>Though Parikshith was trying to meditate, he could not bring his mind to one- pointedness. The fear of impending death was tormenting him. His heart had become soft and tender due to the fate he had to face in a week and the time was slipping away fast. He was shedding tears profusely and sharing his fate with many sages who were present on the banks of Bhagirathi river. </p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Meanwhile, a youthful ascetic with an extraordinary bright face and splendor moved through the gathering of the sages, like a fast stream of light and reaching the presence of the king, he seated himself on a sand pedestal. The onlookers were amazed at this sudden appearance. Very soon, one wise old sage recognized him and approached him with folded palms. “Blessed indeed are all of us. This ray of Divine effulgence is coming from no other than Sage Suka, the son of Sage Vyasa”, said the old sage, “From the moment of birth, this person is free from all attachment. He is the master of all knowledge.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>King Parikshith was gazing with devoted admiration at the face of Sage Suka and said, “Lord, I have a doubt pestering me. Please remove it and give peace to my heart.” Sage Suka interrupted him and said, “King! The reason I have come to you is to end this doubt that is pestering you. I shall resolve your doubt and grant you peace.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>The King spoke humbly and with great anxiety, “Lord! What should a person facing death, who is aware of the end, engage in? What should his mind dwell upon? After succumbing to death, he should not be born gain. If this is his desire, how should he spend the days at his disposal? This is the problem that is bothering me at present.” “What should I do now?” The King pleaded gain for guidance.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Sage Suka answered: “King! Withdraw your mind from worldly thoughts and fix it on Hari, the Lord who charms all hearts. There can be no greater spiritual exercise than this.” Suka asked (as if he didn’t know), “O King, please reveal to me who you are and why you are worrying about your death?” At this, the king replied, “Lord, my name is Parikshith. I am the son of Abhimanyu who was killed in the Mahabharata war. I am the grandson of Arjuna, the great warrior.” The king then narrated the curse he had received.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>At the mention of the name Arjuna, Sage Suka’s eyes began to sparkle! “Your grandfather Arjuna and Lord Krishna were very good friends. So, I shall instruct you in the Divine wisdom of Srimad Bhagavtham. Listen to it with all your heart. There is no activity holier than that. It has incorporated in it, every conceivable source of auspiciousness and joy.” Once the other sages heard this, all the sages and king Parikshith sat around Sage Suka below the pedestal to hear the stories.</p>'
-            },{ 
-                subTitle: 'Narration by Sage Suka: Meeting and Friendship of Shree Krishna and Arjuna',
-                content: '<p>Parikshith was curious to know how Arjuna and Krishna became good friends. So, he posed the question, “Swami! How did Arjuna and Krishna meet?” Sage Suka smiled and said, “It is a long story! So, I will tell you a brief version of it. Listen carefully!”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Krishna and Balaram (Krishna’s elder brother) were present at Draupadi’s Swayamvaram (the festival for choice of bride-groom). Arjuna won Draupadi’s hand by hitting the rotating fish with his bow which was the testing game that Draupadi’s father had set up. Arjuna started walking towards the Palace exit holding Draupadis hand. At that time, Krishna approached Arjuna and said, “I know you - but you do not know Me! I am the son of Vasudeva. My name is Sri Krishna. I am older than you. I recognized that you are one of the Pandava brothers. At last, I am able to meet you. This bride is an embodiment of virtue and intelligence.” This was their first meeting.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Parikshith asked, “Lord, How did they become thick friends after this first meeting?” “There is more to it” said Sage Suka, “ Vasudeva’s (Krishna’s father) sister is Kunti. Kunti is the mother of Arjuna. So, Kunti is Krishna’s aunt. Arjuna is Krishna’s nephew. Not only that, Subhadra was the daughter of Vasudeva and  Rohini (second wife of Vasudeva). She was born after Krishna and therefore she is Krishna’s younger sister. Arjuna married Subhadra and therefore, Arjuna is Krishna’s bother-in-law. Because of these multiple relationships, Krishna became the dearest friend of Arjuna.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Sage Suka started narrating all the stories of Krishna and interesting episodes of Arjuna with Krishna over the next six days. From the stories, Parikshith felt as if he was standing in front of Lord Krishna completely bathed in His Divine grace. Parikshith shed tears of joy when he heard all the sweet stories consecutively for six days.</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>At this time, King Parikshith told Sage Suka, “Master! Time is fast approaching its end as far as my body is concerned. Please tell me the story of the birth of Lord as Krishna. May my final hour be blessed by that sacred story.”At this, Sage Suka became very happy and spoke thus: “Maharaja Parikshith, I am also filled with joy at the prospect of spending the few remaining hours in reciting the wondrous birth of Sri Krishna. Only those who are ripe in Bhakthi can grasp its meaning. Others revel in the depths of sin and have no use for it.”</p>'
-            }
-        ]
-    },
-    {
-        title: 'PART 6b Suka Narrates Events leading Shree Kirshna\s Birth  1',
-        buttonStyle :  "opacity:0.8;padding:4px;background-color:orange  ; border: 2px outset crimson;margin:2px; border-radius:3px;color:crimson;font-weight:bold",
-        headerStyle: { 'color': 'antiquewhite','font-weight': '1900', 'background-color': 'transparent', 'opacity':'0.9'},
-        contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/kama_narada.jpg")',
-             'background-size': 'contain',
-             'border-radius':'4px', 
-             'padding':'2px',
-             'color':'orange', 
-             'opacity':'0.9',
-              'background-color':'skyblue'} ,
-        subsections: [
-           { 
-                subTitle: 'Lineage of Sri Krishna’s parents',
-                content: '<p>(Suka narrates)<br/>"Maharaja, long long ago, the world was ruled by a Yadu dynasty king named Ahuka. He had two sons Devaka and Ugrasena. When they grew up, the king got them married and they shared the burden of the kingdom. Years slipped by. Devaka had seven daughters and Devaki was the eldest of all. Ugrasena had nine sons and Kamsa was he eldest son. Devaki and Kamsa play a vital role in this story of Sri Krishna. Within the precincts of the capital city of Mathura, there lived a Yadu prince Surasena. He had ten sons and five daughters; the eldest son was Vasudeva and the eldest daughter was Kunthi."</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>"Devaki, the daughter of Kamsa’s paternal uncle was given in marriage to Vasudeva; the marriage was celebrated on a grand scale. Kamsa had no sisters of his own and so he loved Devaki as his dearest self.Kamsa showered Devaki with costly raiments, and precious jewels and took special interest in pompous hospitality to everyone. On the third day, the bride has to be sent to the groom’s home and Kamsa himself drove the newly-weds in a magnificent chariot."</p>'
-            },{ 
-                subTitle: 'The thundering prophecy and Kamsa’s anger',
-                content: '<p>"Suddenly, there was a brilliant lightning flash and a terrific sound over the chariot. Everyone froze into pillars of immobility. All the music was silenced in an instant. Through the sky the following words exploded: “O, Kamsa! This very sister whom you love as your own self so affectionately – her eighth child will deal you death! Reflect on that coming calamity!” and the shining figure disappeared from the sky.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>"Kamsa lost control of himself, the reins fell off his grasp and was filled with fury. His thoughts took a decisive turn. With the sister alive, the killer will be born; with the sister killed, no one can deal him death! Kamsa lifted Devaki from her seat by her plaited hair and pulled the sword out of the scabbard with the intention of slicing her head off. What an awful sight was this! He should attempt to kill the very sister he loved so long deeply and whom he was escorting! No one dared to avert this disaster."</p>'
-            },{ 
-                subTitle: 'Vasudeva pleads',
-                content: '<p>"Meanwhile, Vasudeva rose and held both the hands of Kamsa tight in his grasp. “Dear brother-in-law! I too heard the voice from the sky. We do not like any harm come to you. For a man like you, it is not proper to indulge in such cruel acts. Release your sister from the hold. If you firmly believe in the voice from the sky, I assure you that I shall entrust to your care every child that is born of her. While my offer is there, if you still slaughter your sister, you will suffer from this monstrous sin”. When Vasudeva pleaded like this, Kamsa said, “Well! Be warned! Keep up the word you have given me”. He asked his brother to take charge of the chariot and returned to his palace."</p>'
-            },{ 
-                subTitle: 'Time passes',
-                content: '<p>"In due course, Devaki became pregnant, nine months passed and she delivered a son. As promised, Vasudeva handed over the new-born babe, rolled in warm clothing to the tender mercies of Kamsa. However, Kamsa had no mind to kill the tender baby. He said, “Dear brother-in-law, this babe can cause no harm to me! It is the eighth child! Please take back this child!” Devaki was extremely happy that her first born was restored to her. She poured her heart out in gratitude to God for this blessing.".</p>'
-            },{ 
-                subTitle: 'Narada creates confusion',
-                content: '<p>"Meanwhile, sage Narada came to Kamsa’s court and enquired about Kamsa and his kingdom. During the course of the conversation, Narada said, “So, it is the eighth child that is going to kill you. Is it the eighth child counting from the first born or the last born or from the middle? Do not disregard death as a distant contingency!” With these parting wordsNarada left the palace.”</p>'
-            },{ 
-                subTitle: 'Kamsa’s anger',
-                content: '<p>"Narada’s words were like poking a dagger into a bleeding wound. Kamsa flew into a rage and sent word for Vasudeva. He roared, “How many children you have now?”Vasudeva’s lips quivered as he replied, “Now I have six!” Kamsa yelled, “Tomorrow morning bring all six and hand them over to me.” Vasudeva walked like a corpse, went to Devaki, held her in tight embrace and broke the sad news. Next morning, Vasudeva handed over all the six children unwillingly to Kamsa and burst into tears. The ego centric maniac caught hold of each of them by the leg and beat them out of shapeon the hard floor! Meanwhile, the seventh pregnancy! Surprisingly, it was aborted in the seventh month! When Kamsa came to knew about this, he thought that Devaki was capable of some strategy to deceive him. So, he put both of them in a closely guarded prison.”</p>'
-            },{ 
-                subTitle: '',
-                content: '<p>Sage Suka started narrating all the stories of Krishna and interesting episodes of Arjuna with Krishna over the next six days. From the stories, Parikshith felt as if he was standing in front of Lord Krishna completely bathed in His Divine grace. Parikshith shed tears of joy when he heard all the sweet stories consecutively for six days.</p>'
+                subTitle: 'Aum',
+                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Aum Namaha Shivay</p>'
             }
         ]
     },
