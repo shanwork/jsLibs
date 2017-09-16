@@ -189,7 +189,8 @@ loadChapterDiv = function(index, postBack=true,static=true){
         }
         if (currentChapter.subsections[i].content && currentChapter.subsections[i].content != '') {
             contentText +=   currentChapter.subsections[i].content
-                .replace(/\<note/g,'\<sup\><a href=\'#note_')
+                .replace(/\<noteref/g,'\<sup\><a id=\'noteref_')
+                .replace(/\_note/g,'\' href=\'#note_')
                 .replace(/footer\>/g,'\'\>')
                 .replace(/\<\/note\>/g,'\<\/a\><\/sup\>');
         //     contentText +=   currentChapter.subsections[i].content.replace(/\<note[0-9]*\>\(/g,'\<sup\><a href=\'#').replace(/\)<\/note\>/g,'\'\>note\<\/a\><\/sup\>');
@@ -197,6 +198,14 @@ loadChapterDiv = function(index, postBack=true,static=true){
        // workimg  contentText +=   currentChapter.subsections[i].content.replace(/\<note\>\(.\)<\/note>/g,'\<sup\>A<\/sup\>')  ;
        //              contentText +=   currentChapter.subsections[i].content.replace(/\<note\>\(.\)\<\\note\>/,'<sup>t</sup>')  ;
     
+        }
+        if(currentChapter.subsections[i].notes && currentChapter.subsections[i].notes.length > 0)
+        {
+             contentText +=  '<p><strong>Notes</strong><ol>';
+            for (let mm=1 ; mm <= currentChapter.subsections[i].notes.length ; mm++){
+                contentText +=  '<li id=\'note_' + mm + '\'>' +  currentChapter.subsections[i].notes[mm-1] + '        <a href=\'#noteref_' + mm + '\'>(return)</a></li>';
+            }
+               contentText +=  '</ol></p>';
         }
     }//.. loading content
     if (subTitleList.length > 1){

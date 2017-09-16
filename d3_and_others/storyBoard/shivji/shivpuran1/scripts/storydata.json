@@ -59,22 +59,22 @@ var chapterData = [
            { 
                 subTitle: 'Greatness of Sivapurana',
                 content: '<p><ol>' +
-                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka<note1footer>(1)</note> said:  </span>'+
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka<noteref1_note1footer>(1)</note> said:  </span>'+
                     '<li>"0 Suta of great intellect, 0 my lord, the knower ofhilosophical principles, please narrate to me the essence ofthe Puranas in detail.</li>' +
                     '<li>How do good conduct, good devotion and power ofdiscrimination flourish ? How are base feelings dispelled by good men ?</li>' +
                     '<li>In this terrible Kali age all living beings have almost become demonic in character. What is the effective mode of remedying the same ?</li>' +
                     '<li> Now tell me about the greatest means to achieve the  most perfect weal, the holiest of the holy modes.</li>' +
-                    '<li> What is that, the practice of which particularly purifies the soul ? What is that which enables a man of unsullied mind to attain Siva ?"<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:<note2footer>(2)</note> </span> </li>' +
+                    '<li> What is that, the practice of which particularly purifies the soul ? What is that which enables a man of unsullied mind to attain Siva ?"<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:<noteref2_note2footer>(2)</note> </span> </li>' +
 '<li>  0 foremost among sages, you are blessed indeed as you are desirous of hearing. Hence I shall ponder over the greatest of the Sacred Lore intelligently and tell you.</li>' +
 '<li> 0 dear, listen to that divine panacea evolved out of all religious tenets, heightening true devotion and conducive to the pleasure of Siva.</li>' +
-'<li> It is destructive of the great fear of  the Python of Kala (Death).· 0 sage, it is the noble Siva Purana formerly narrated by Siva Himself.</li>' +
-'<li> For the benefit of the people in the age of Kali, the sage Vyasa has abridged it out of great respect for the sage Sanatkumara  on being instructed by him.</li>' +
-'<li> 0 sage, there is nothing other than Siva Purana for the purification of the mind especially of the people of the Kali age. </li>' +
+'<li> It is destructive of the great fear of  the Python of Kala (Death).· 0 sage, it is the noble Siva Purana<noteref3_note3footer>(3)</note> formerly narrated by Siva Himself.</li>' +
+'<li> For the benefit of the people in the age of Kali, the sage Vyasa<noteref4_note4footer>(4)</note>  has abridged it out of great respect for the sage Sanatkumara<noteref5_note5footer>(5)</note>  on being instructed by him.</li>' +
+'<li> 0 sage, there is nothing other than Siva Purana for the purification of the mind especially of the people of the Kali age.<noteref6_note6footer>(6)</note>  </li>' +
 '<li> It is only the intelligent and the highly fortunate man who has accumulated great merits in his previous birth who will be drawn towards it.</li>' +
 '<li> This Sivapurana is the greatest and the noblest of the sacred lore. It is the form of Siva and as such is to be served and realised in this world.</li>' +
 '<li> By reading this and listening to it the good man becomes very pious. By all means he instantly attains Siva\'s region.</li>' +
 '<li> Hence every endeavour of men to read this is desirable. Loving care to listen to it yields all desired results.</li>' +
-'<li> By listening to this Purana of Siva a man becomes sinless. After enjoying all extensive worldly pleasures he will attain the region of Siva.</li><li>Merely by listening to the story of Siva a man secures that merit which results from the performance of Rajasuya  and a hundred Agnistomas.</li>' +
+'<li> By listening to this Purana of Siva a man becomes sinless. After enjoying all extensive worldly pleasures he will attain the region of Siva.</li><li>Merely by listening to the story of Siva a man secures that merit which results from the performance of Rajasuya<noteref7_note7footer>(7)</note>  and a hundred Agnistomas.<noteref8_note8footer>(8)</note></li>' +
 '<li>0 sage, those who listen to Sivapurana the noblest of Sacred lore, cease to be mere human beings. They must be undoubtedly considered as manifestations of Rudra, a form of Siva.</li>' +
 '<li>Sages consider the dust in the feet of those who habitually listen to that Purana and recite it, on a par with holy centres.</li>' +
 '<li>>May those who wish to attain the seat of salvation, listen always to the holy Sivapural).a with great devotion.</li>' +
@@ -85,7 +85,7 @@ var chapterData = [
 '<li>0 sage, the· merit that accrues from all gifts and all</li>' +
 '<li>Sacrifices becomes stabilised after listening to Sivapurana.</li>' +
 '<li>Particularly in the age of Kali there is no greater virtue conducive to the achievement of liberation by men, 0 sage, than listening to Sivapurana.</li>' +
-'<li>There is no doubt in this that, listening to the Purana and reciting the names of Siva is as efficacious as the Kalpa tree  in yielding one\'s desires.</li>' +
+'<li>There is no doubt in this that, listening to the Purana and reciting the names of Siva is as efficacious as the Kalpa tree<noteref9_note9footer>(9)</note>  in yielding one\'s desires.</li>' +
 '<li>For the benefit of the evil-minded persons of the</li>' +
 '<li>Kali age, bereft of virtuous conduct, .Lord Siva has produced the nectar in the form of Sivapurana.</li>' +
 '<li>A single man, the man who drinks nectar, becomes immortal and unageing. But the nectar of the divine story of Siva, if drunk, makes the whole family immortal and unageing..</li>' +
@@ -96,9 +96,9 @@ var chapterData = [
 '<li>He who reads the entire Sivapural).a without omitting any of the seven samhitas can be called a Jivanmukta (a living liberated soul).</li>' + '<li>0 sage, the ignorant man is tossed about in the ocean of worldly existence till the excellent Sivapurana reaches his ears.</li>' + 
 '<li>Of what avail is listening ·to many sacred texts and other confounding Pura:t,1as ? The Sivapurana alone loudly proclaims (its readiness) to grant salvation.</li>' + 
 '<li>The house where the discourse on this Sivapuana is held becomes a holy centre. It destroys the sins of the inmates of the house.</li>' + 
-'<li>Thousands of horse-sacrifces10 and hundreds of Vajapeyan sacrifices do not merit even a sixteenth part of Sivapurana.</li>' + 
+'<li>Thousands of horse-sacrifces1<noteref10_note10footer>(10)</note>  and hundreds of Vajapeyan<noteref11_note11footer>(11)</note> sacrifices do not merit even a sixteenth part of Sivapurana.</li>' + 
 '<li>0 best of sages, a sinner is called a sinner till the moment he hears Sivapqra:Q.a with great devotion.</li>' + 
-'<li>The holy rivers, Ganga and others, the seven sacred cities12 and Gaya can never be equal to Sivapurana .</li>' + 
+'<li>The holy rivers, Ganga and others, the seven sacred cities<noteref12_note12footer>(12)</note> and Gaya can never be equal to Sivapurana .</li>' + 
 '<li> If· one wishes for the greatest of goals (Liberation) one shall recite at least a stanza or even half of it from Sivapural).</li>' + 
                '<li>He who constantly listens to Sivapurana fully comprehending its meaning or simply reads it with devotion is  undoubtedly a meritorious soul.</li>' +
 '<li>Lord Mahesana (Siva) is extremely pleased with the sensible man who listens to Sivapurana when death is imminent. Lord Siva accords him a seat in his own region.</li>' +
@@ -108,7 +108,17 @@ var chapterData = [
 '<li>The holy Sivapurana that accords the four aims of life (virtue, wealth, love and salvation) must be heard and read with great devotion always.</li>' +
 '<li>The Sivapurana, the greatest harbinger of the perfect welfare among the Vedas, Itihasas and other sacred texts must be thoroughly understood by those who seek salvation.</li>' +
 '<li>This Sivapural}a is the greatest resort of the knowers of Atman (Spiritual Seekers) for ever; it is the noblest objectworthy of adoration of good men ; it suppresses the three types of distresses (i. e. physical illness, extraneous attacks and divine calamities) ; it accords happiness always ; and it is very pleasing to all Devas led by Brahma, Hari and Isa.</li>' +
-'<li>With the mind extremely delighted I bow unto Sivapurana for ever. May Siva be pleased and bestow on me a devotion to His feet.</li></p>'
+'<li>With the mind extremely delighted I bow unto Sivapurana for ever. May Siva be pleased and bestow on me a devotion to His feet.</li></p>',
+               notes: ['Saunaka was the chief of the sages at the great sacrifice in Naimisa forest to whom the Mahabharata and the Pura:r:tas were recited by the Siita in the reign of AdhisimakniJa, the great-grandson of Janamejaya ·and the sixth in generation from Arjuna in the Paurava line.',
+                       'The Sutas (Va I. 32-3; Padma I. I. 27-28) preserved the genealogies of Gods, sages, and glorious monarchs as well as the traditions of great men. Th~ Su ta here is not a caste that is described by Manu (X. I I. I 7) as the offspring of a K~atriya father and Brahman mother. He is a venerable Brahmana who has preserved ballads, songs, genealogies of Gods, sages and glorious Kings.-Pargiter','For the nomenclature and authenticity of this Purfu;ta see Introduction.',
+ 'According to the Pauranic tradition, Krisa Dvaipayana Vyasa, the son of Satyavati, composed the eighteen puranas or superintended their compilation.',
+'The puranas were first compiled by Brahma.  Sanatkumara, a son of Brahma  inherited them from his father and imparted them to Vyasa who in turn abridged them in 18 compendiums.',
+'The beginning of the Kali age has been discussed by Dr. Fleet and he has pointed out that it began on th.e day on which Lord Krisna died, which the chronology of the Mahabba rata places, as he shows, some twenty years after the great battle and that it was then that Yudhishthira abdicated and Parikshit began to reign','Rajasiiya is a great sacrifice performed by a universal monarch (in which the tributary princes also take part) at the time of his coronation as a mark of his undisputed sovereignty.',
+'Agnistoma is a sacrificial rite ex tending over several days in spring and forming an essential part of the Jyotistqma.',' Kalpadruma is a mythological tree supposed to grant all  desires.',
+ 'In Vedic times the Asvamedha sacrifice was performed by kings desirous of offspring but subsequently it was performed by them for the achievement of universal supremacy: A horse was turned loose- to· wander  at will for a -year, attendeq l;>y 4 guardian; .when the horse enter,ed a foreigncountry, the ruler was bouni either to submit or to fight. In this way the horse returned at the end of a year, the guardian obtaining or enforcing the submission of princes whom he brought in this train. After the succe~sful return of the horse, the horse was sacrificed amidst great rejoicings. It is s~id that the horse was sometimes not immolated ,but kept bound dur,ing the ceremony',
+'Vajapeya is one of the seven forms of the Soma-sacrifice offered by kings or .Bnihmans aspiring to the highest position, and preceding the Rajasuya and the Brhaspatisava.',
+'The seven sacred cities of the Hindus are :Ayodhya, Mathura, Maya, Kasi, Kanchi Avantika and Dvarika.'
+                      ]
             }
         ]
     },
