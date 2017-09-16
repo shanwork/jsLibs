@@ -57,7 +57,7 @@ var chapterData = [
               'background-color':'skyblue'} ,
         subsections: [
            { 
-                subTitle: 'Greatness of Sivapurana',
+                subTitle: 'Greatness of Sivapurana<span id=\'top\'>..</span>',
                 content: '<p><ol>' +
                     '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka<noteref1_note1footer>(1)</note> said:  </span>'+
                     '<li>"0 Suta of great intellect, 0 my lord, the knower ofhilosophical principles, please narrate to me the essence ofthe Puranas in detail.</li>' +
@@ -108,7 +108,7 @@ var chapterData = [
 '<li>The holy Sivapurana that accords the four aims of life (virtue, wealth, love and salvation) must be heard and read with great devotion always.</li>' +
 '<li>The Sivapurana, the greatest harbinger of the perfect welfare among the Vedas, Itihasas and other sacred texts must be thoroughly understood by those who seek salvation.</li>' +
 '<li>This Sivapural}a is the greatest resort of the knowers of Atman (Spiritual Seekers) for ever; it is the noblest objectworthy of adoration of good men ; it suppresses the three types of distresses (i. e. physical illness, extraneous attacks and divine calamities) ; it accords happiness always ; and it is very pleasing to all Devas led by Brahma, Hari and Isa.</li>' +
-'<li>With the mind extremely delighted I bow unto Sivapurana for ever. May Siva be pleased and bestow on me a devotion to His feet.</li></p>',
+'<li>With the mind extremely delighted I bow unto Sivapurana for ever. May Siva be pleased and bestow on me a devotion to His feet.</li><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
                notes: ['Saunaka was the chief of the sages at the great sacrifice in Naimisa forest to whom the Mahabharata and the Pura:r:tas were recited by the Siita in the reign of AdhisimakniJa, the great-grandson of Janamejaya ·and the sixth in generation from Arjuna in the Paurava line.',
                        'The Sutas (Va I. 32-3; Padma I. I. 27-28) preserved the genealogies of Gods, sages, and glorious monarchs as well as the traditions of great men. Th~ Su ta here is not a caste that is described by Manu (X. I I. I 7) as the offspring of a K~atriya father and Brahman mother. He is a venerable Brahmana who has preserved ballads, songs, genealogies of Gods, sages and glorious Kings.-Pargiter','For the nomenclature and authenticity of this Purfu;ta see Introduction.',
  'According to the Pauranic tradition, Krisa Dvaipayana Vyasa, the son of Satyavati, composed the eighteen puranas or superintended their compilation.',
@@ -117,7 +117,7 @@ var chapterData = [
 'Agnistoma is a sacrificial rite ex tending over several days in spring and forming an essential part of the Jyotistqma.',' Kalpadruma is a mythological tree supposed to grant all  desires.',
  'In Vedic times the Asvamedha sacrifice was performed by kings desirous of offspring but subsequently it was performed by them for the achievement of universal supremacy: A horse was turned loose- to· wander  at will for a -year, attendeq l;>y 4 guardian; .when the horse enter,ed a foreigncountry, the ruler was bouni either to submit or to fight. In this way the horse returned at the end of a year, the guardian obtaining or enforcing the submission of princes whom he brought in this train. After the succe~sful return of the horse, the horse was sacrificed amidst great rejoicings. It is s~id that the horse was sometimes not immolated ,but kept bound dur,ing the ceremony',
 'Vajapeya is one of the seven forms of the Soma-sacrifice offered by kings or .Bnihmans aspiring to the highest position, and preceding the Rajasuya and the Brhaspatisava.',
-'The seven sacred cities of the Hindus are :Ayodhya, Mathura, Maya, Kasi, Kanchi Avantika and Dvarika.'
+'The seven sacred cities of the Hindus are :Ayodhya, Mathura, Maya, Kasi, Kanchi Avantika and Dvarika.' 
                       ]
             }
         ]
@@ -156,10 +156,12 @@ var chapterData = [
         subsections: [
            { 
                 subTitle: 'The Divine pregnancy',
-                content: '<p>At this point, Sage Suka moistened his lips with his tongue and continued: Devaki and Vasudeva being in prison, looked like mad persons. They sat with unkempt hair, lean and lanky due to lack of appetite and no means to feed their bodies. They could not sleep and they were consumed by grief over the children they had lost. After another year, Devaki conceived for the eighth time. O, it was wondrous! What a transformation it had brought about!</p>'
+                content: '<p>At this point, Sage Suka<noteref1_note1footer>(1)</note> moistened his lips with his tongue and continued: Devaki and Vasudeva being in prison, looked like mad persons. They sat with unkempt hair, lean and lanky due to lack of appetite and no means to feed their bodies. They could not sleep and they were consumed by grief over the children they had lost. After another year, Devaki conceived for the eighth time. O, it was wondrous! What a transformation it had brought about!</p>',
+               notes: ['Sage Suka is Sage Vyasa\'s son']
             },{ 
                 subTitle: 'The wonderful transformation',
-                content: '<p>The faces of Devaki and Vasudeva, which had drooped and dried up, suddenly blossomed like lotuses in full bloom. They shone with a strange splendor. Their bodies which were reduced to mere skin and bone, took on flesh, became round and smooth and shone with a charming golden hue. The prison cell of Devaki and Vasudeva became fragrant with pleasing odors; it cast a wondrous light and was filled with inexplicable music and jingling of dancing feet. Devaki and Vasudeva became aware of these happenings, but they were afraid to inform Kamsa, lest in his vindictive frenzy, he might hack the womb to pieces. They were anxious about the strange future of the son to be born and were restless with weird forebodings.</p>'
+                content: '<p>The faces of Devaki and Vasudeva<noteref2_note1footer>(2)</note>, which had drooped and dried up, suddenly blossomed like lotuses in full bloom. They shone with a strange splendor. Their bodies which were reduced to mere skin and bone, took on flesh, became round and smooth and shone with a charming golden hue. The prison cell of Devaki and Vasudeva became fragrant with pleasing odors; it cast a wondrous light and was filled with inexplicable music and jingling of dancing feet. Devaki and Vasudeva became aware of these happenings, but they were afraid to inform Kamsa, lest in his vindictive frenzy, he might hack the womb to pieces. They were anxious about the strange future of the son to be born and were restless with weird forebodings.</p>',
+                notes: ['Bhagawan\'s earth biological parents']
             },{ 
                 subTitle: 'Kamsa’s meanness and Pariskshith’s question',
                 content: '<p>Kamsa knew his time was fast approaching; he was torn by greed to continue as an unquestioned Emperor; he was overcome by conspiracy; he overran the territories of Yadu, Vrishni, Bhoja and Andaka and added them to his domain; he threw his father Ugrasena into prison; thereafter, his will was sovereign. Hearing these words of Suka, Parikshith said, “What foolishness is this? Knowing fully well that his end was drawing near, should he not give up his greed and turn his mind towards God?” Suka burst into laughter and said, “Maharaja! You think that all those whose end is near will utilize the time at their disposal to seek the vision of the Lord! Such yearning can arise in the mind only due to good deeds performed in the previous lives. Those who have acquired good merits from their past actions, have compassion towards all beings, do not swerve from the right path and adhere to truth, non-violence and love. They have only thoughts of God and urge to do sanctifying deeds till their last days. Instead, those who are immersed in selfishness, egotism, greed, vice, violence and unrighteousness will suffer from increased evil urges in their last days and destroy themselves. Hence the saying <em>Vinaasa Kaale, Vipareetha Buddhi.</em></p>'

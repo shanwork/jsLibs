@@ -174,7 +174,7 @@ loadChapterDiv = function(index, postBack=true,static=true){
     // .. loading content
     let currentChapter = chapterData[index-1]; 
     let subTitleList = [];
-    let contentText = '',text=''; 
+    let contentText = '',text='', notesText = ''; 
     for (let i = 0; i < currentChapter.subsections.length;i++){
         if (currentChapter.subsections[i].subTitle && currentChapter.subsections[i].subTitle != '') {
             if (subTitleList.length >= 1){
@@ -201,11 +201,11 @@ loadChapterDiv = function(index, postBack=true,static=true){
         }
         if(currentChapter.subsections[i].notes && currentChapter.subsections[i].notes.length > 0)
         {
-             contentText +=  '<p><strong>Notes</strong><ol>';
+             notesText +=  '<p><strong>Notes</strong><ol>';
             for (let mm=1 ; mm <= currentChapter.subsections[i].notes.length ; mm++){
-                contentText +=  '<li id=\'note_' + mm + '\'>' +  currentChapter.subsections[i].notes[mm-1] + '        <a href=\'#noteref_' + mm + '\'>(return)</a></li>';
+                notesText +=  '<li id=\'note_' + mm + '\'>' +  currentChapter.subsections[i].notes[mm-1] + '        <a href=\'#noteref_' + mm + '\'>(return)</a></li>';
             }
-               contentText +=  '</ol></p>';
+               notesText +=  '</ol></p>';
         }
     }//.. loading content
     if (subTitleList.length > 1){
@@ -224,7 +224,7 @@ loadChapterDiv = function(index, postBack=true,static=true){
         }
         text+= "</ul>";
     }
-    text += contentText;
+    text += contentText + notesText;
     // fade out
   let headerStyleNoCSS ='';// currentChapter.headerStyleNoCSS?currentChapter.headerStyleNoCSS:defaultHeaderStyleNoCSS ;
   let detailStyleNoCSS = '';// currentChapter.detailStyleNoCSS?currentChapter.detailStyleNoCSS:defaultDetailStyleNoCSS;
