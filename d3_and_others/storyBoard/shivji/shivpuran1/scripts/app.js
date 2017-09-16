@@ -188,7 +188,11 @@ loadChapterDiv = function(index, postBack=true,static=true){
             subTitleList.push( currentChapter.subsections[i].subTitle);
         }
         if (currentChapter.subsections[i].content && currentChapter.subsections[i].content != '') {
-              contentText +=   currentChapter.subsections[i].content.replace(/\<note\>\(/g,'\<sup\><a href=\'#').replace(/\)<\/note\>/g,'\'\>note\<\/a\><\/sup\>');//\'\>*</a>\<\sup\>');//.replace(/\)<\/note>,'\\'>*\<\\a\><\/sup\>')  ;
+            contentText +=   currentChapter.subsections[i].content
+                .replace(/\<note/g,'\<sup\><a href=\'#note_')
+                .replace(/footer\>/g,'\'\>')
+                .replace(/\<\/note\>/g,'\<\/a\><\/sup\>');
+        //     contentText +=   currentChapter.subsections[i].content.replace(/\<note[0-9]*\>\(/g,'\<sup\><a href=\'#').replace(/\)<\/note\>/g,'\'\>note\<\/a\><\/sup\>');
        //       contentText +=   currentChapter.subsections[i].content.replace(/\<note\>\(/g,'\<sup\><a href=\'#\'\>*</a>\<\sup\>');//.replace(/\)<\/note>,'\\'>*\<\\a\><\/sup\>')  ;
        // workimg  contentText +=   currentChapter.subsections[i].content.replace(/\<note\>\(.\)<\/note>/g,'\<sup\>A<\/sup\>')  ;
        //              contentText +=   currentChapter.subsections[i].content.replace(/\<note\>\(.\)\<\\note\>/,'<sup>t</sup>')  ;
