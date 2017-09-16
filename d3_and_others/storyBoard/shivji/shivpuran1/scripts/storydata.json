@@ -59,12 +59,12 @@ var chapterData = [
            { 
                 subTitle: 'Greatness of Sivapurana',
                 content: '<p><ol>' +
-                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said: </span>'+
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka<note>(1)</note> said:  </span>'+
                     '<li>"0 Suta of great intellect, 0 my lord, the knower ofhilosophical principles, please narrate to me the essence ofthe Puranas in detail.</li>' +
                     '<li>How do good conduct, good devotion and power ofdiscrimination flourish ? How are base feelings dispelled by good men ?</li>' +
                     '<li>In this terrible Kali age all living beings have almost become demonic in character. What is the effective mode of remedying the same ?</li>' +
                     '<li> Now tell me about the greatest means to achieve the  most perfect weal, the holiest of the holy modes.</li>' +
-                    '<li> What is that, the practice of which particularly purifies the soul ? What is that which enables a man of unsullied mind to attain Siva ?"<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said: </span> </li>' +
+                    '<li> What is that, the practice of which particularly purifies the soul ? What is that which enables a man of unsullied mind to attain Siva ?"<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:<note>(1)</note> </span> </li>' +
 '<li>  0 foremost among sages, you are blessed indeed as you are desirous of hearing. Hence I shall ponder over the greatest of the Sacred Lore intelligently and tell you.</li>' +
 '<li> 0 dear, listen to that divine panacea evolved out of all religious tenets, heightening true devotion and conducive to the pleasure of Siva.</li>' +
 '<li> It is destructive of the great fear of  the Python of Kala (Death).· 0 sage, it is the noble Siva Purana formerly narrated by Siva Himself.</li>' +
