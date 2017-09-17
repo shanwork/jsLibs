@@ -45,7 +45,7 @@ var chapterData = [
         ]
     },
     {
-        title: 'THE GLORY OF SIVAPURANA',
+        title: 'Chapter One: THE GLORY OF SIVAPURANA',
         headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
              'background-image': 'url("images/meditation_1.jpg")',
@@ -118,6 +118,30 @@ var chapterData = [
  'In Vedic times the Asvamedha sacrifice was performed by kings desirous of offspring but subsequently it was performed by them for the achievement of universal supremacy: A horse was turned loose- to· wander  at will for a -year, attendeq l;>y 4 guardian; .when the horse enter,ed a foreigncountry, the ruler was bouni either to submit or to fight. In this way the horse returned at the end of a year, the guardian obtaining or enforcing the submission of princes whom he brought in this train. After the succe~sful return of the horse, the horse was sacrificed amidst great rejoicings. It is s~id that the horse was sometimes not immolated ,but kept bound dur,ing the ceremony',
 'Vajapeya is one of the seven forms of the Soma-sacrifice offered by kings or .Bnihmans aspiring to the highest position, and preceding the Rajasuya and the Brhaspatisava.',
 'The seven sacred cities of the Hindus are :Ayodhya, Mathura, Maya, Kasi, Kanchi Avantika and Dvarika.' 
+                      ]
+            }
+        ]
+    } , {
+        title: 'Chapter Two: The liberation of Devaraya',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/lord-shiva-chalisa.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '<p><ol>' +
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>'+
+                    '<li>0 Suta, thou art the most blessed and the most fortunate knower of the greatest Truth. Thou hast narrated tous, out of great com passion, this divine wonderful tale.</li>' + 
+'<li>This wonderful narrative that destroys hosts of sins,purifies the mind, and propitiates Lord Siva has been heardby us.</li>' + 
+'<li>Thanks to thy compassion we have decisively realised that there is nothing so fine and nice as this tale.</li>' + 
+'<li>Who are those among sinners in the Kali age who get sanctified by this story ? Please enlighten us. Make the whole world gratified.<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:<noteref2_note2footer>(2)</note> </span></li><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: ['' 
                       ]
             }
         ]
