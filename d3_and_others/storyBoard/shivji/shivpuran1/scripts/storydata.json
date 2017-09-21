@@ -165,8 +165,74 @@ var chapterData = [
 '<li>Yama came to know of everything through his vision of wisdom. Out of fear he did not~question the noble attendants of Siva.</li>'   + '<li>Being duly honoured and adored by Yama, they went to Kailasa and handed over the brahmin to Siva, the very ocean of mercy and to the divine mother Parvati.</li>' +
 '<li>Blessed indeed is the story of Sivapurai}.a, the holiest of holy stories, a mere hearing of which qualifies even the greatest sinner for salvation.</li>' +
 '<li>The great seat of Sadasiva is the greatest abode and the noblest of positions which Vedic scholars have extolled as stationed above all Lokas (worlds).</li>' +
-'<li>Devaraja the base brahmin, addicted to wine, enamoured of a vile harlot, slayer of his own father, mother and wife and who out of greed for money had killed many brahmins, k~atriyas, vaisyas and sudras and others became a liberated soul instantaneously on reaching that supreme Loka</li>'+ '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+'<li>Devaraja the base brahmin, addicted to wine, enamoured of a vile harlot, slayer of his own father, mother and wife and who out of greed for money had killed many brahmins, k~atriyas, vaisyas and sudras and others became a liberated soul instantaneously on reaching that supreme Loka</li>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
                notes: ['(13) Pratistnaa : There are references to two towns of the same name :.<ul><li> (r) a town at the confiuence ofthe Ganges and Yamuna and capital of the early kings of the lunar race,</li><li> (Q) a town on the Godavari arid capital 01 Salivanana.</li></ul> The latter town can be identified with the modern Paithan the Aurangabad district. lt was known \'aS Paithinasipuri\'' 
+                      ]
+            }
+        ]
+    }, {
+        title: 'Chapter Two: Cancula\'s disillusion and detachment',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/shivKailash.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '<p><ol>' +
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>'+
+                    '<li>0 SUta of great intellect, thou art extremely blessed and omniscient. By thy favour 1 am gratified to satiety again and again.</LI>' +
+'<LI>My mind rejoices much on hearing this old anecdote. Please narrate another story equally increasing devotion  to Siva.</LI>' +
+'<LI>Nowhere in the world are those who drink nectar honoured with liberation. But in regard to the nectar of the Sivapuratna story of Siva it is different. When drunk, it straightway accords salvation.</LI>' +
+'<LI>Thou art blessed, blessed indeed. Blessed, blessed is the story of Siva on hearing which a man attains Sivaloka.<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: [' ' 
+                      ]
+            }
+        ]
+    }, {
+        title: 'Chapter Two: Cancula\'s disillusion and detachment',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/lord-shiva-chalisa.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '<p><ol>' +
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>'+
+                    '<li><br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: [' ' 
+                      ]
+            }
+        ]
+    }, {
+        title: 'Chapter Two: Cancula\'s disillusion and detachment',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/lord-shiva-chalisa.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '<p><ol>' +
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>'+
+                    '<li><br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: [' ' 
                       ]
             }
         ]
