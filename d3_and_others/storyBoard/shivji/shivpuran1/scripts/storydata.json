@@ -171,7 +171,7 @@ var chapterData = [
             }
         ]
     }, {
-        title: 'Chapter Two: Cancula\'s disillusion and detachment',
+        title: 'Chapter Three: Cancula\'s disillusion and detachment',
         headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
              'background-image': 'url("images/shivKailash.jpg")',
