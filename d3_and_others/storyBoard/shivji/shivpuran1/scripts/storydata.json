@@ -189,8 +189,16 @@ var chapterData = [
                     '<li>0 SUta of great intellect, thou art extremely blessed and omniscient. By thy favour 1 am gratified to satiety again and again.</LI>' +
 '<LI>My mind rejoices much on hearing this old anecdote. Please narrate another story equally increasing devotion  to Siva.</LI>' +
 '<LI>Nowhere in the world are those who drink nectar honoured with liberation. But in regard to the nectar of the Sivapuratna story of Siva it is different. When drunk, it straightway accords salvation.</LI>' +
-'<LI>Thou art blessed, blessed indeed. Blessed, blessed is the story of Siva on hearing which a man attains Sivaloka.<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
-               notes: [' ' 
+'<LI>Thou art blessed, blessed indeed. Blessed, blessed is the story of Siva on hearing which a man attains Sivaloka.<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>' + '<li>There is a seaside village "Baskala Grama"<noteref1_note1footer>(1) - (14)</note>  where sinful people bereft of Vedic virtue reside.</li>' +
+'<li>They are wicked debauchees with deceptive means of livelihood, atheists, farmers bearing weapons and adulterous rogues.</li>' +
+'<li>They know not anything about true knowledge, detachment or true virtue.They are brutish in their mental make-up and take a great deal of interest in listening to evil gossips and slander.</li>' +
+'<li>People of different castes are equally roguish never paying attention to their duties. Always drawn to worldly pleasures they are ever engrossed in one evil action or another.</li>' +
+'<li> All the women too are equally crooked, whorish and sinful. Evil-tempered, loose in morals they are devoid of good behaviour and disciplined life.</li>' +
+'<li>In the village "Ba~kala" peopled by wicked people, there was a base brahmin called Binduga.</li>' +
+'<li>He was a wicked sinner traversing evil paths. Although he had a beautiful wife he was enamoured of a prostitute. His passion for her completely upset his mind.</li>' +
+'<li>He forsook his devoted wife Cancula and indulged in sexual dalliance with the prostitute overwhelmed by Cupid\'s arrows.</li>' +
+'<li>Many years thus elapsed without any abatement in his evil action. Afraid of violating her chastity Cancula, though smitten by Cupid bore her distress (calmly for a short while).</li>' + '<li>But later on as her youthful health and boisterous virility increased, cupid\'s onslaught became extremely unbearable for her and she ceased from strictly adhering to her virtuous conduct</li>' +'<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: ['(14)  Baskala grama.  It has not been possible to identify and locate this village.' 
                       ]
             }
         ]
