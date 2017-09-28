@@ -287,24 +287,25 @@ var chapterData = [
             {
             subTitle: '5. Binduga\'s Salvation',
             content: '<p><ol>' +
-'<em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>'  +
-'<li> 0 Brahmin lady, fortunately you have realisedat the proper time on hearing the story of Sivapurana that isconducive to non-attachment. Do not be a fraid. Seek refugein Siva. All sins perish instantaneously by Siva\'s grace.</li>' +
-'<li>I shall explain to you that great object attached to the glorification of Siva whereby your course hereafter will be pleasant always.</li>' +
-'<li>It is by listening to the excellent story that your mind The glory of Sivapurana has now turned to the pure path of repentance and detachment towards worldly pleasures.</li>' +
-'<li>Repentance is the only is the only way of acquittance for all sinners.Saintly men have extolled it as the only way of expiation for all sins.</li>' +
-'<li>Purity can be realised by repentence alone. If the sinner expiates in the manner advised by saintly men it removes all sins.</li>' +
-'<li>After due expiation he becomes free from fear. By repentance he attains salvation undoubtedly.</li>' +
-'<li>The mental purity that one derives on hearing the story of Sivapurana cannot be gained by any other means.</li>' +
-'<li>As a mirror bec~mes free from dirt on being wiped with a cloth, so is the mind undoubtedly purified by listening to this story.</li>' +
-'<li>Accompanied by Amba, Siva stays in the minds of pure men. The sanctified soul thereupon attains the region of Siva and Amba.</li>' +
-'<li> Hence this story is the means of realising the fourfold aim of life. It is for this that Mahadeva earnestly created this.</li>' +
-'<li> Listening to the story of Parvati\'s consort (Siva) brings about steady contemplation. Contemplation leads to perfect knowledge which certainly brings in salvation.</li>' +
-'<li> A person who listens to the story in this birth though he be unable to meditate, realises the same in the next birth after which he reaches the goal of Siva</li>' +
-'<li>Many repentant sinners have meditated upon Siva after hearing this story and have achieved salvation.</li>' +
-'<li> Listening to the excellent story is the cause of beatitude for all men. Properly entertained, it dispels the ailment of worldly bondage.</li>' +
-'<li> Listening to the story of Siva, constant meditations thereon and repeated musings certainly purify the mind.</li>' +
-'<li> That (the purity of the mind) leads the meditator to a devotion of Mahesha and his two sons (Ganesa and Kartikeya). With their blessings one undoubtedly attains liberation</li></ol>' ,
-notes: [ ]
+/*'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>
+'<noteref2_note1footer>(2) - (17)</note>-->'  +
+*/
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span><li>0 Suta, the fortunate Suta, thou art blessed with thy mind engrossed in Siva. The story that thou hast narrated to us is wonderful and conducive to the increase of devotion. What did the woman. Cancula do after obtaining her  salvation?  0 intelligent one, please tell me in detail the story of her husband too. </li>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span><li>Once she approached goddess Uma Parvati.<noteref1_note1footer>(1) - (18)</note> She bowed and offered prayers to her with palms joined in her flutter of delight. </li>' +
+'<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span><li>0 mother of Skanda, daughter of mountain, Thou art always served by men. 0 beloved of Siva, the bestower of all pleasures, having the form of Supreme Brahman,</li>' +
+'<li>Thou art worthy of being served by Vishnu, Brahma and others. Thou art both endowed with and devoid of attributes. Thou art the subtle primordial Prakrti, with Existence, Knowledge and Bliss for thy forms.</li>' +
+'<li> Thou createst, maintainest and annihilatest. Thou hast the three Gunnas. Thou art the refuge of the three types of divine beings. Thou sustainest Brahma, Vishnu and Mahesa. </li>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span><li>Offering thus her prayers to the Goddess, Caficula who had attained salvation ceased to talk with shoulders stooping and eyes brimming with tears of love.</li>' +
+'<li> Parvati, the beloved of Siva, ever favouring her devotees, was greatly moved by pity and said to Caficula lovingly. </li>' +
+        '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+'<li>0 Caiicula, my friend, I am pleased to hear your prayer. 0 beautiful woman, what is the boon you crave from me ? Tell me. There is nothing that I cannot give you. </li>' +
+'<li> </li></ol>' ,
+notes: [ '18 In the. Pauranic Mythology, P.arvati is the daughter of Himalaya and the wtfe of Siva. In the cult of Saktl and Tantras, she has been identified with Prakrti itself. Almost all the Puranas speak of her as Prakriti and her three Gunas Sattva, Rajas and Tamas are the three Gods : .Brahma, Vishnu and Siva. ']
 }
        
          

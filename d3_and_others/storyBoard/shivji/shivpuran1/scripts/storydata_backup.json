@@ -171,7 +171,7 @@ var chapterData = [
             }
         ]
     }, {
-        title: 'Chapter Three/Four: Cancula\'s disillusion and detachment, and her Salvation',
+        title: 'Chapter Three- Five: Cancula\'s disillusion and detachment, her Salvation, and Binduga\'s Salvation',
         headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
              'background-image': 'url("images/shivKailash.jpg")',
@@ -227,14 +227,15 @@ var chapterData = [
 '<li>0 Brahmin, my present pain is millions of times more than that of a man stuck to the stake or hurled from a high mountain-top.</li>' +
 '<li>My sin is so great that it cannot be washed away even if I take ablutions in the Ganga for a hundred years or even if I perform a hundred sacrifices.</li>' +
 '<li>What shall I do ? Where shall I go ? Whom shall I resort to ? I am falling into the ocean of Hell. Who can save me in this world ?</li>' +
-'<li>0 noble sir, thou art my preceptor. Thou art my mother. Thou art my father. I seek refuge in Thee. I am in a pitiable plight. Lift me; lift me.<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>'+ '<li>The intelligent Brahmin mercifully lifted up Caficula who had become disgusted (with worldly affairs) and had fallen at his feet. That Brahmin then spoke (as follows).</li>' ,
+'<li>0 noble sir, thou art my preceptor. Thou art my mother. Thou art my father. I seek refuge in Thee. I am in a pitiable plight. Lift me; lift me.<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>'+
+'<li>The intelligent Brahmin mercifully lifted up Cancula who had become disgusted (with worldly affairs) and had fallen at his feet. That Brahmin then spoke (as follows).</li>' ,
                notes: ['(14)  Baskala grama.  It has not been possible to identify and locate this village.' ,'(15) Gokar.Q.a : cow\'s ear. It is a place of pilgrimage sacred toSiva, on the west coast, near  Mangalore. It has the temple of Mahadeva,supposed to ha,ve been ·established by Ravana.'
                       ]
             },
                 { 
                  subTitle: '4. Cancula\'s Salvation',
                 content: '<p><ol>' +
-                    '<em><span style="font-weight:900;color:gray;font-size:larger"> The Brahmin said:  </span>'  + 
+                    '<em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>'  +
                     '<li> 0 Brahmin lady, fortunately you have realisedat the proper time on hearing the story of Sivapurana that isconducive to non-attachment. Do not be a fraid. Seek refugein Siva. All sins perish instantaneously by Siva\'s grace.</li>' +
 '<li>I shall explain to you that great object attached to the glorification of Siva whereby your course hereafter will be pleasant always.</li>' +
 '<li>It is by listening to the excellent story that your mind The glory of Sivapurana has now turned to the pure path of repentance and detachment towards worldly pleasures.</li>' +
@@ -243,9 +244,68 @@ var chapterData = [
 '<li>After due expiation he becomes free from fear. By repentance he attains salvation undoubtedly.</li>' +
 '<li>The mental purity that one derives on hearing the story of Sivapurana cannot be gained by any other means.</li>' +
 '<li>As a mirror bec~mes free from dirt on being wiped with a cloth, so is the mind undoubtedly purified by listening to this story.</li>' +
-'<li>Accompanied by Amba, Siva stays in the minds of pure men. The sanctified soul thereupon attains the region of Siva and Amba.</li></ol>' ,
-               notes: [ ]
-            }
+'<li>Accompanied by Amba, Siva stays in the minds of pure men. The sanctified soul thereupon attains the region of Siva and Amba.</li>' +
+'<li> Hence this story is the means of realising the fourfold aim of life. It is for this that Mahadeva earnestly created this.</li>' +
+'<li> Listening to the story of Parvati\'s consort (Siva) brings about steady contemplation. Contemplation leads to perfect knowledge which certainly brings in salvation.</li>' +
+'<li> A person who listens to the story in this birth though he be unable to meditate, realises the same in the next birth after which he reaches the goal of Siva</li>' +
+'<li>Many repentant sinners have meditated upon Siva after hearing this story and have achieved salvation.</li>' +
+'<li> Listening to the excellent story is the cause of beatitude for all men. Properly entertained, it dispels the ailment of worldly bondage.</li>' +
+'<li> Listening to the story of Siva, constant meditations thereon and repeated musings certainly purify the mind.</li>' +
+'<li> That (the purity of the mind) leads the meditator to a devotion of Mahesha and his two sons (Ganesa and Kartikeya). With their blessings one undoubtedly attains liberation</li>' +
+'<li>A person ·devoid of that devotion with his mind  entangled in the bondage of ignorance is a brute. He. can never be liberated from the worldly bondage.</li>' +
+'<li>Hen,ce 0 Brahmin lady, you turn away from worldly pleasures. Listen to the sanctifying story of Siva with devotion.</li>' +
+'<li>Your mind, as you listen to the excellent story of Siva, the Supreme Soul, will become pure and thereafter you will realise liberation.</li>' +
+'<li>Liberation is assured in this very birth to a persqn who meditates on the lotus-like feet of Siva, with a pure mind. I am saying the truth.</li>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span><br/><li>After saying this, that excelent brahmin with his mind melting with pity ceased talking and turned his attention to the meditation on Siva with the purity of the Soul.</li>' +
+'<li>The wife of Binduga, called CaficuHi, when thus addressed· by the brahmin, became delighted and her eyes brimmed with tears.</li>' +
+'<li>With great delight in her heart she fell at the brahmin\'s feet. Cancula with her palms joined together said "I am blessed". · · </li>' +
+'<li>Afterwards she rose up with great mental agitation. With h.er hands joined together, her words faltering in excitement, the woman of good intellect in her detached mood said to the brahmin, the great devotee of Siva.</li>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>' +
+'<li>0 my lord, great brahmin devotee of Siva, you are blessed. You are endowed with the vision of Truth. You are devoted . to rendering · help to others. You are to be described among great saintly men. </li>' +
+'<li>0 saintly one, I am about to fall into the ocean of Hell. Save me. I am now faithfully eager to listen to the Fural)a. On hearing its excellent story I became .detached from ·worldly pleasures.<br/> <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span><br/>' +
+'<li>So saying with reverence she got ·the blessings of the glory of  the brahmin. Desirous of hearing the Pural)a she stayed there rendering service to him.</li>' +
+'<li>The intelligent brahmin devotee narrated the Puranic story to the woman on the spot.</li>' +
+'<li>In this manner she listened to the excellent story of Sivapurana in that holy centre from that excellent brahmin.</li>' +
+'<li>On hearing that excellent story that heightened devotion, knowledge and detachment and yielded liberation, she became greatly blessed. </li>' +
+'<li>Favoured by the good· preceptor she quickly gained purity of mind. By the blessings of Siva she could meditate on Siva\'s forms and features . . </li>' +
+'<li>Thus, resorting to the .good preceptor, her mind was drawn towards Siva. She constantly meditated on the sentient blissful body of Siva.</li>' +
+'<li>She wore barks of trees and had her hair matted. She smeared ashes over her body. She wore garlands of Rudrak~a beads. Every day she took her ablutions in the sacred water. She regularly repeated Siva\'s names. She regulated her speech and diet. She propitiated Lord Siva in the manner advised by the preceptor.</li>' +
+'<li>0 Saunaka, thus for a long time Cancula continued her meditation on Lord Siva.</li>' +
+'<li>When the stipulated period was over, Caiicula in her practice of the three-fold<noteref1_note1footer>(1) - (16)</note> devotion cast-off her body without any difficulty.</li>' +
+'<li> The divine aerial chariot shining in brilliant colours, sent by Tripurari<noteref2_note1footer>(2) - (17)</note> (Siva) Himself, accompanied by His attendants, arrived there quickly. </li>' +
+'<li>With her dirt and sin removed she mt,mnted the aerial chariot and was immediately taken to Siva\'s city by the lord\'s noble attendants.</li>' +
+'<li>She assumed a divine form. Her limbs were djvine in their features. She assumed the form of Gauri with the crescent moon as ·her coronet and divine ornaments shining brilliantly.</li>' +
+'<li>She saw the three-eyed Mahadeva, the eternal, being served devotedly by Vig1u, Brahma and other gods. He had the brilliance of ten million suns and was reverently served by Ganesa, Bhrngi, Nandisa Virabhadresvara and others.</li>' +
+'<li>His neck had a blue hue; he had five faces, three eyes) the crescent moon as crest-ornament and his left side was apportioned to Gauri who had the brilliance of lightning. He was white in complexion like camphor and wore all ornaments. Besmeared with white ashes all over the body and clad in white cloth he shone brilliantly.</li>' +
+'<li>The woman Cancula became highly delighted on seeing Sankara. In her flutter of delight she bowed again and again to Him. She joined her palms in reverence with great pleasure, love and humility. In her great delight she shed tears of joy and had feelings of horripilation.</li>' +
+'<li>With sympathy she was allowed to approach Parvati and Sarikara who gracefully looked at her.</li>' +
+'<li>Cancula, the beloved wife of Binduga, thus attained a divine form and was blessed with divine pleasures and made a chaperon by Parvati.</li>' +
+'<li>In that permanent abode of excellent bliss and sublime lustre she acquired a permanent residence and unobstructed pleasure. </li></ol>' ,
+               notes: [' (16) The three kinds of devotion are :-(r) the devotion of hearing (sravan), (2) of glorifying (Kirtana) and (3) of deliberating (manana) the attributes of God. SP. VS. 3· 2!-!21; ',
+'(17) Siva is called \'Tripurari; the slayer of Tripura,. for he killc:d the demon Tripura who pres1ded over three c1ties of gold, silver and iron m the sky, air and earth built for demons by Maya. ']
+            },
+            {
+            subTitle: '5. Binduga\'s Salvation',
+            content: '<p><ol>' +
+'<em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>'  +
+'<li> 0 Brahmin lady, fortunately you have realisedat the proper time on hearing the story of Sivapurana that isconducive to non-attachment. Do not be a fraid. Seek refugein Siva. All sins perish instantaneously by Siva\'s grace.</li>' +
+'<li>I shall explain to you that great object attached to the glorification of Siva whereby your course hereafter will be pleasant always.</li>' +
+'<li>It is by listening to the excellent story that your mind The glory of Sivapurana has now turned to the pure path of repentance and detachment towards worldly pleasures.</li>' +
+'<li>Repentance is the only is the only way of acquittance for all sinners.Saintly men have extolled it as the only way of expiation for all sins.</li>' +
+'<li>Purity can be realised by repentence alone. If the sinner expiates in the manner advised by saintly men it removes all sins.</li>' +
+'<li>After due expiation he becomes free from fear. By repentance he attains salvation undoubtedly.</li>' +
+'<li>The mental purity that one derives on hearing the story of Sivapurana cannot be gained by any other means.</li>' +
+'<li>As a mirror bec~mes free from dirt on being wiped with a cloth, so is the mind undoubtedly purified by listening to this story.</li>' +
+'<li>Accompanied by Amba, Siva stays in the minds of pure men. The sanctified soul thereupon attains the region of Siva and Amba.</li>' +
+'<li> Hence this story is the means of realising the fourfold aim of life. It is for this that Mahadeva earnestly created this.</li>' +
+'<li> Listening to the story of Parvati\'s consort (Siva) brings about steady contemplation. Contemplation leads to perfect knowledge which certainly brings in salvation.</li>' +
+'<li> A person who listens to the story in this birth though he be unable to meditate, realises the same in the next birth after which he reaches the goal of Siva</li>' +
+'<li>Many repentant sinners have meditated upon Siva after hearing this story and have achieved salvation.</li>' +
+'<li> Listening to the excellent story is the cause of beatitude for all men. Properly entertained, it dispels the ailment of worldly bondage.</li>' +
+'<li> Listening to the story of Siva, constant meditations thereon and repeated musings certainly purify the mind.</li>' +
+'<li> That (the purity of the mind) leads the meditator to a devotion of Mahesha and his two sons (Ganesa and Kartikeya). With their blessings one undoubtedly attains liberation</li></ol>' ,
+notes: [ ]
+}
        
          
        
