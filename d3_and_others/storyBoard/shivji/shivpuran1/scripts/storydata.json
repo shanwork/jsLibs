@@ -326,7 +326,9 @@ var chapterData = [
 '<li>If your husband were to hear the holy story of Siva, he shall surmount the misery entirely and attain salvation.</li>' +
 '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
 '<li>On hearing these words of Gauri, little short of nectar, she bent her shoulders, joined her palms and bowed repeatedly with great devotion.</li>' +
-'<li>She requested the goddess to provide an opportunity for her husband to hear the story for quelling his sins and gaining redemption.</li></ol>' ,
+'<li>She requested the goddess to provide an opportunity for her husband to hear the story for quelling his sins and gaining redemption.</li>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li>Gauri, the beloved of Siva</li></ol>' ,
 notes: [ '18 In the. Pauranic Mythology, P.arvati is the daughter of Himalaya and the wtfe of Siva. In the cult of Saktl and Tantras, she has been identified with Prakrti itself. Almost all the Puranas speak of her as Prakriti and her three Gunas Sattva, Rajas and Tamas are the three Gods : .Brahma, Vishnu and Siva. ']
 }
        
