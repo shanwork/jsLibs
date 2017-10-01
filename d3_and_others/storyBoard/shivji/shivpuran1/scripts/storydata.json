@@ -292,8 +292,12 @@ var chapterData = [
 '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
 '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
 <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+
 '<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
 */
 '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span><li>0 Suta, the fortunate Suta, thou art blessed with thy mind engrossed in Siva. The story that thou hast narrated to us is wonderful and conducive to the increase of devotion. What did the woman. Cancula do after obtaining her  salvation?  0 intelligent one, please tell me in detail the story of her husband too. </li>' +
 '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span><li>Once she approached goddess Uma Parvati.<noteref1_note1footer>(1) - (18)</note> She bowed and offered prayers to her with palms joined in her flutter of delight. </li>' +
@@ -328,8 +332,45 @@ var chapterData = [
 '<li>On hearing these words of Gauri, little short of nectar, she bent her shoulders, joined her palms and bowed repeatedly with great devotion.</li>' +
 '<li>She requested the goddess to provide an opportunity for her husband to hear the story for quelling his sins and gaining redemption.</li>' +
 '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-'<li>Gauri, the beloved of Siva</li></ol>' ,
-notes: [ '18 In the. Pauranic Mythology, P.arvati is the daughter of Himalaya and the wtfe of Siva. In the cult of Saktl and Tantras, she has been identified with Prakrti itself. Almost all the Puranas speak of her as Prakriti and her three Gunas Sattva, Rajas and Tamas are the three Gods : .Brahma, Vishnu and Siva. ']
+'<li>Gauri, the beloved of Sivaon being frequently requested by the woman, took pity on her, (making it clear thereby that) she was favourably disposed to her devotees.</li>' +
+'<li>Lovingly she sent for the Gandharva king Tumburu who used to sing songs of praise of Siva. The daughter of Himalaya said thus to him.</li>'+
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Girija said:  </span>' +
+'<li>0 Tumburu, the favourite of Siva, ever ready to do as I wish, blessedness be thine. Accompany this lady immediately to Vindhya mountain.</li>' +
+'<li>There is an awfully terrible Pisaca there. I shall tell you all his antecedents. You will be interested to know the same.</li>' +
+'<li>This Pisaca had been ·a brahmin in his previous birth. Then he was the husband of this woman who is my chaperon now. He was very wicked and had a Sudra concubine.</li>' +
+'<li>He was impure, never caring for the daily performance of ablutions and Sandhya prayers. His mind was ever ·vitiated by anger. He ate all sorts of foul things. He quarrelled with good men and whatever he undertook had been bad. </li>' +
+'<li>He was violent in his ways, bearing weapons and ·oppressing poor people cruelly. He used to take food with his left hand. He used to commit arson in othe:r people\'s house.</li>' +
+'<li>He was friendiy with Chandalas. Every day he took delight in the company of prostitutes forsaking his own wife. The roguish sinner took delight in associating with the wicked.</li>' +
+'<li>In evil association with harlots he destroyed all his merits. Besides, coveting more and more wealth, he made his own wife a fearless sharer of her paramours\' beds.</li>' +
+'<li>His evil ways continued till the last moments of his life and when he died he went to Yama\'s city, the terrible place where sinners reap the fruits of their misdeeds.</li>' +
+'<li>After undergoing! the tortures of many hells, the wicked wretch is now roaming in the Vindhya mountain as a roguish sinful Pisaca.</li>' +
+'<li>Narrate the holy sanctifying tale of sacred Sivapurarna, that quells all sins, in front of him.</li>' +
+'<li>Immediately after hearing the great story of Sivapurarna, his soul will be cleared of sins and he will cast off his. ghosthood.</li>' +
+'<li>I order you to set that Binduga free from the miserable plight of Pisaca and bring him in the aerial chariot in the presence of lord Siva.</li>'
++'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> '
++ '<li>Commanded thus by Parvati, Tumburu, the lord of Gandharvas, was much delighted and thought within himself how fortunate he was.</li>' +
+'<li>Tumburu, the comrade of Narada, went to the Vindhya mountain seated in the aerial chariot in the company of Cancula, the sinless woman and saw the Pisaca laughing, crying and loudly shouting by turns. His body was very huge,. his jaws were immensely large and his form was very crooked. </li>' +
+'<li>The powerful Tumburu, the singer of the excellent songs of praise of Siva, forcefully caught hold of the terrible Pisaca by means of nooses. </li>' +
+'<li>Thereafter, for the sake of the discourse on Sivapurana, Tumburu made elaborate festive arrangements. </li>' +
+'<li> There was much talk and discussion among the people of all the worlds "Oh, Tumburu has gone to the Vindhya<noteref2_note1footer>(2) - (19)</note>  mountain at the suggestion of Goddess, to narrate the story of Sivapurana to redeem the Pisaca." The , divine sages too hastened to the place for listening to the same. </li>' +
+'<li>The wonderful congregation of those who assembled there, reverently eager to listen to Sivapural).a; was very auspicious.</li>' +
+'<li>They bound the Pisaca with nooses and compelled him to sit there. With the lute in his hands, Tumburu began to sing the story of Gauri\'s consort. </li>' +
+'<li>Starting with the -first Samhita (compendium) and ending with the seventh one he clearly expounded the whole of Sivapural)a along with its Mahatmya (greatness). </li>' +
+'<li>On hearing the Sivapurana consisting of seven compendiums with great reverence all the listeners deemed themselves highly blessed. </li>' +
+'<li>The Pisaca too, on hearing the holy Sivapuralna, cast-off all his sins and discarded his ghostly body. </li>' +
+'<li>He assumed the divine form of the three-eyed mooncrested God (Siva), white in complexion, clad in white cloth, with the body illuminated and embellished by all ornaments. </li>' +
+'<li>Taking up the divine body, the glorious Binduga accompanied by his wife sang the story of Parvati\'s consort. </li>' +
+'<li>On seeing his wife thus, all the divine sages had a welcome surprise and were highly delighted in their minds. </li>' +
+'<li> Gratified on hearing the wonderful story of Siva they returned to their respective abodes delightedly glorifying Siva. </li>' +
+'<li>Binduga in his divine form ascended the aerial chariot with great pleasure. High up in the sky, with his wife at his side he shone brilliantly. · </li>' +
+'<li>Singing the pleasing attributes of Siva he hastened to Siva\'s region accompanied by Tumburu and his own wife. </li>' +
+'<li>Binduga was welcomed by Siva and Parvati and was lovingly made their attendant. His wife became the chaperon of Girija. </li>' +
+'<li>In that permanent abode of excellent bliss and sublime lustre he acquired an unassailable residence and unobstructed pleasure. </li>' +
+'<li>Thus I have narrated this holy anecdote that removes sins, is highly delightful to Siva and Parvati in pure and heightening devotion. </li>' +
+'<li>He who listens to this account with devotion and recites this piously shall enjoy immense pleasures and obtain liberation. </li>' +
+'</ol>' ,
+notes: [ '18 In the. Pauranic Mythology, P.arvati is the daughter of Himalaya and the wtfe of Siva. In the cult of Saktl and Tantras, she has been identified with Prakrti itself. Almost all the Puranas speak of her as Prakriti and her three Gunas Sattva, Rajas and Tamas are the three Gods : .Brahma, Vishnu and Siva. ',
+'19 Vindhya : It is a range of mountains which stretches across India and divides Madhyadesa or Middle Land from the south. It is one of the seven Kulaparvatas and is personified in the Puranas']
 }
        
          
