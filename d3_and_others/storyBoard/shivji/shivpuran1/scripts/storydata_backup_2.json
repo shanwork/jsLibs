@@ -387,18 +387,7 @@ notes: [ '18 In the. Pauranic Mythology, P.arvati is the daughter of Himalaya an
              'color':'orange', 
              'opacity':'0.8',
               'background-color':'skyblue'} ,
-/*'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
 
-'<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/
         subsections: [
            { 
                 subTitle: '',
@@ -474,23 +463,79 @@ notes: [ '18 In the. Pauranic Mythology, P.arvati is the daughter of Himalaya an
                       ]
             }
         ]
-    }, {
-        title: 'Chapter Two: Cancula\'s disillusion and detachment',
-        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+    }, /*'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+
+'<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/{
+        title: 'Chapter SEVEN: Do\'s and Dont\'s ...',
+        headerStyle: { 'color': 'purple','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/lord-shiva-chalisa.jpg")',
+             'background-image': 'url("images/shiv1_7.jfif")',
              'background-size': 'contain',
              'border-radius':'4px', 
              'padding':'2px',
              'color':'orange', 
-             'opacity':'0.5',
+             'opacity':'0.8',
               'background-color':'skyblue'} ,
         subsections: [
            { 
                 subTitle: '',
-                content: '<p><ol>' +
+                content: '<p>(Description of Do\'s and Don\'ts to those who take up listening to the Sivapurana as a rite and that of the worship of the discourser).<ol>' +
                     '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>'+
-                    '<li><br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+                    '<li> 0 Suta, Suta of great intellect, thou art foremost among devotees of Siva and the most blessed. Thou hast narrated this wonderfully auspicious story, 0 sage, please tell me the rules governing those who perform the rite of listening to Sivapurana, for the benefit of the whole world. <br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>' +
+ '<li>0 Saunaka, listen with devotion to the rules governing those persons. If you hear the excellent story with due observance of the rules, the fruit is excellent and there is no obstacle in the achievement of the fruit.</li>' +
+'<li> 0 Suta, Suta of great intellect, thou art foremost among devotees of Siva and the most blessed. Thou hast narrated this wonderfully auspicious story,' +
+'0 sage, please tell me the rules governing those who perform the rite of listening to Sivapurana, for the benefit of the whole world. ' +
+'<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>' +
+'<li>Persons devoid of initiation are not entitled to listen to the story. Hence those who wish to listen must take initiation, 0 sage, from the discourser. </li>' +
+'<li>The devotee who takes up this rite shall take his daily meal only at the end of the daily discourse. He must observe Brahmacarya (celibacy) during those days. He must iie on the ground and take food only in the Patravalli (a number of leaves stitched together· to serve the purpose of a plate).</li>' +
+'<li> The man who has the strength in abundance shall observe fast till the conclusion of the whole Purana and listen to the excellent Sivapurana with great devotion and purity. </li>' +
+'<li>He may drink only milk or ghee throughout and listen to the story with pleasure. He may live on fruit diet or take a single meal or even eschew that and proceed with the listening rite. ·</li>' +
+'<li>Or· he may take Havi~yanna (cooked rice soaked in ghee and sacrificially offered) once a day and maintain the rite. The diet part is according to convenience and comfort but the listening shall be strictly maintained.</li>' +
+'<li>If there is more facility in hearing let the devotee take food. If observing fast causes hindrance to listening to the story it is not to be recommended.</li>' +
+'<li>The householder taking the rite shall avoid heavy indigestible pulses like Nispava, Masiirika etc., stale food, defiled food, brinjals, gourds, radish, pumpkins, coconuts, garlic, onion, asafoetida, intoxicating beverages and all kinds of meat. </li>' +
+'<li>He shall avoid the six base feelings of lust, anger etc., he shall not despise brahmins and bear ill will towards chaste ladies and good men. </li>' +
+'<li>He shall not look at women in their menstrual period. He shall not converse with fallen people, nor talk to haters of brahmins or unbelievers in the Vedas. </li>' +
+'<li>The house-holder shall practise and strictly adhere to truthfulness, purity, mercy, restraint in speech, straightforwardness, humility, liberalmindedness and other virtues. </li>' +
+'<li>The householder may listen ,to the story with any specific desire cherished in his mind or absolutely free from any desire. If he has any desire it will be fulfilled; if he is free from desire he shall attain salvation. </li>' +
+'<li>An indigent person, a consumptive, a sinner, an unfortunate person and a person having no child shall hear this excellent story. </li>' +
+'<li>The seven types of wicked women like Kakavandhya (a woman having a single child) and those suffering from miscarriages shall hear this story. </li>' +
+'<li>Whether women or men, all must hear the story of Sivapurana, 0 sage, in the manner prescribed. </li>' +
+'<li>The days of discourse on Sivapurana must be considered very excellent, even on a par with millions of sacrifices. </li>' +
+'<li>Gifts duly bestowed on these excellent days, even though they may not be much in quantity, yield everlasting benefit. </li>' +
+'<li>Observing the rites thus, and listening to the great story the flourishing house-holder shall delightedly perform the Udyapana rite (at the end of completion). </li>' +
+'<li>This Udyapana rite is on a par with the Caturdasi rite (observed on the fourteenth day of the lunar month) .. Rich men who wish to secure the fruits thereof must perform it likewise. </li>' +
+'<li>Indigent devotees usually do not and need not perform the U dyapana rite. They are sanctified by the listening alone. Pious devotees of Siva are free from desires. </li>' +
+'<li>After the festive celebration of the sacrifice of the discourse on Sivapurana is thus concluded, the listeners shall perform the worship. </li>' +
+'<li>0 sage, due worship must be performed in front of the book in the manner of the worship of Siva. </li>' +
+'<li>A fine new cloth to cover the book and a strong silken cord to tie it up must be given. </li>' +
+'<li>Those who give silken cord and new cloth for the book of Purana become yogins endowed with knowledge in every birth they take. </li>' +
+'<li>Many kinds of valuable objects, cloth, ornaments, vessels and much wealth in particular should be given to the discourser. </li>' +
+'<li>Those who give carpets, deer skins, cloth, elevated couches and planks to keep the volume of Purana on, attain heaven, enjoy all desirable pleasures, stay in Brahma\'s region for the duration of a Kalpa and finally attain Siva\'s region.</li>' +
+'<li>After performing the worship of the book as stipulated, 0 foremost among sages, and also that of the discourser with great eclat, the scholar who had been appointed assistant should be duly honoured in the same manner but with a smaller sum of money. </li>' +
+'<li>Food and monetary gifts and other things must be given to the brahmin visitors. A great festival must be celebrated with vocal and instrumental music and.performance of dances. ., </li>' +
+'<li>The listener shall gradually become detached and especially on the next day, 0 sage, the ·holy Gita narrated by Siva to Ramacandra must be read. </li>' +
+'<li>If the listener is a householder he must perform Homa with pure Havis (holy ghee) for tranquilising the rite. </li>' +
+'<li>The Homa must be performed with Rudrasamhita or with each verse of Gayatri, for in fact, this Purana is identical with it, </li>' +
+'<li>or with the Miilamantra of Siva of five syllables. If he is incompetent to perform Homa let him give the gheeo:ffering to a brahmin. </li>' +
+'<li>In order to suppress the defects of deficiency and excess he shall either read or listen with devotion to the thousand names of Siva. </li>' +
+'<li>Undoubtedly, thus, every thing shall be fruitful and the fruit too shall be excellent since there is no greater thing in the· three worlds than this. ·</li>' +
+'<li>He shall feed eleven brahmins with honey and milk puddings. He must give them Dakshina also to complete the rite. </li>' +
+'<li>If he is competent, 0 sage, he must make an image of a lion with three Palas of gold and either engrave the name of this Puranaa on it or affix a label with the name written on it. He must worship his preceptor of great restraint with the gifts of cloth, ornaments, scents etc., and hand them over to him for propitiating Siva. </li>' +
+'<li>0 Saunaka, by the power of this gift and of the PuraJ).a he shall secure the blessings of Siva and be freed from the bondage of worldly existence. </li>' +
+'<li>If these rites are performed, the Sivapurana shall yield entire fruit, enjoyment of worldly pleasures and salvation. </li>' +
+'<li>Thus I have narrated to you the greatness of Sivapurana that bestows every cherished desire. What else do you wish to hear ? </li>' +
+'<li>The Sivapurana holds the mark of distinction among all Puranas. It is highly pleasing to Siva. It wards off the ailment of worldly existence. </li>' +
+'<li>Those who are always engaged in the meditation of Siva, those whose tongue adores the attributes of Siva, and those whose ears listen to the story of Siva, cross the ocean of worldly existence. </li>' +
+'<li>I seek refuge in Siva the great, of infinite thickset bliss, Siva whose form is unaffected by all the three Gunas, Siva who manifests Himself within and without this world, within and without the mind, Siva whose form is variously evolved by mental ideas and verbal expressions. </li>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
                notes: [' ' 
                       ]
             }
