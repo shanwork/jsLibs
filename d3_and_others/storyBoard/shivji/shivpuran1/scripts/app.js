@@ -98,6 +98,30 @@ loadChapterDiv = function(index, postBack=true,static=true){
             prevButton.innerHTML = '<<< PREV'
             prevButton.addEventListener('click', function() { loadChapterDiv( -1 ) } );
             chapterRowDiv.appendChild(prevButton);
+            let chapterDetailDiv = document.createElement("div");
+            chapterDetailDiv.setAttribute("id", 'chapt_details'  );
+            chapterDetailDiv.style.width="20px";
+            chapterDetailDiv.style.backgroundColor='red';
+            chapterDetailDiv.innerHTML = "<span>Click to Hide Me</span>";
+            chapterDetailDiv.textContent = "Click to Hide Me";
+            chapterDetailDiv.setAttribute("title", 'click to hide');
+            chapterDetailDiv.addEventListener('click',
+                function() {
+                    document.getElementById('chapt_details').style.display='none';
+                    document.getElementById('show_chapt_details').style.display='block';
+                } );
+            chapterRowDiv.appendChild(chapterDetailDiv);
+            let showChapterDetailDiv = document.createElement("div");
+            showChapterDetailDiv.setAttribute("id", 'show_chapt_details'  );
+            chapterDetailDiv.innerHTML = "Click to Hide Me"
+            chapterDetailDiv.style.display= 'none' ;
+            showChapterDetailDiv.setAttribute("title", 'click to hide');
+            showChapterDetailDiv.addEventListener('click',
+                function() {
+                    document.getElementById('chapt_details').style.display='block';
+                    document.getElementById('show_chapt_details').style.display='none';
+                } );
+            chapterRowDiv.appendChild(showChapterDetailDiv);
             for (let chaptIndex=0; chaptIndex < chapterData.length;chaptIndex++){
                 let chapterButton = document.createElement("button");
                 let buttonText = chapterData[chaptIndex].buttonText?
