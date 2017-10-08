@@ -1,5 +1,8 @@
 var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
-var defaultHeaderStyle= 
+var defaultPrevButtonStyle = "float:left;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultNextButtonStyle = "float:right;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right:20px;";
+        var leftNavigation = true ;
+var defaultHeaderStyle=
     {
         'font-weight': '900',
         'color':'firebrick',
@@ -173,7 +176,7 @@ var chapterData = [
             }
         ]
     }, {
-    buttonText: '3',
+    buttonText: '3-5',
     title: 'Chapter Three- Five: Cancula\'s disillusion and detachment, her Salvation, and Binduga\'s Salvation',
         headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
@@ -380,7 +383,7 @@ notes: [ '18 In the. Pauranic Mythology, P.arvati is the daughter of Himalaya an
        
         ]
     }, {
-    buttonText: '4',
+    buttonText: '6',
     title: 'Chapter SIX: Rules for listening to Sivapurana',
         headerStyle: { 'color': 'slateblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
@@ -479,7 +482,7 @@ notes: [ '18 In the. Pauranic Mythology, P.arvati is the daughter of Himalaya an
 </li>' +
 '<li>
 */{
-    buttonText: '5',
+    buttonText: '7',
     title: 'Chapter SEVEN: Do\'s and Dont\'s ...',
         headerStyle: { 'color': 'purple','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
@@ -611,7 +614,7 @@ content: '<p><em>(Benedictory Prayer)</em><br/> I meditate on Siva, the lord of 
 '<li>0 Suta, how can these deluded people who have abandoned their traditional virtues get salvation here and hereafter. </li>' +
 '<li>Hence our minds are always agitated. Indeed there is no virtue equal to helping others. </li>' +
 '<li>Since thou art conversant with the essentials of all tenets  please tell us the easiest remedy for the immediate destruction of the sins of these people.<br/><em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span></li>' +
-'<li>On hearing these words of the sages of sanctified souls Suta thought of Siva and told them thus.</li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+'<li>On hearing these words of the sages of sanctified souls Suta thought of Siva and told them thus.</li>' +'</ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
 notes: ['25. Panchananam : In Hindu Mythology God Siva has five faces. Pisupata teachers had developed a special doctrine ofPaiicd-Brahma in which they ascribed five faces to Siva symbolising the five elements (Linga. 2. 14. 1. 33., SP I. 10. 1-g). It is stated that Siva has the form of twentyfive tattvas symbolised by his five faces as follows : ' +
 '<table><tr><th>N. of faces </th><th>Murtis</th><th>Jnyanendriyas</th><th>Kurmendriyas</th><th>Tanmatras</th><th>Bhutas</th></tr>' +
 '<tr><td>1 ISana</td><td>Ksetrajna purusa</td><td>Sravana</td><td>Vak</td><td>Sabda</td><td>Akasa</td></tr>' +
@@ -670,9 +673,43 @@ content: '<em><span style="font-weight:900;color:green;font-size:larger"> Suta s
 '<li>He who observes fast on the Caturdasi (fourteenth day in the lunar fortnight) and conducts discourses and comments on the Sivapurana in the assembly of the devotees of Siva is the most excellent of all. </li>' +
 '<li>He shall derive the benefit of the repetition of Gayatri<noteref1_note1footer>(6) - (30)</note> syllable by syllable. He will enjoy all worldly pleasures here and attain salvation hereafter. </li>' +
 '<li>I shall tell you the benefit derived by him who reads or listens to this after observing fast on the Caturdasi day by keeping awake in the !light. </li>' +
-'<li>This is the truth, undoubtedly the truth that he will get the benefit derived by the man who makes gifts of wealth equal in weight to him~elf to brahmins with Vyasas at their head at the complete eclipse of the sun, many a time, in all holy centres, Kuruk~etra<noteref2_note2footer>(7) - (31)</note> etc. </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+'<li>This is the truth, undoubtedly the truth that he will get the benefit derived by the man who makes gifts of wealth equal in weight to him~elf to brahmins with Vyasas at their head at the complete eclipse of the sun, many a time, in all holy centres, Kuruksetra<noteref2_note2footer>(7) - (31)</note> etc. </li>' +
+'<li>Indra and other devas wait eagerly for the directives of the man who chants day and night the verses of the Sivapurana.</li>' +
+'<li> The sacred rites performed by the man who regularly reads or listens to the Sivapurana are effective millions of times more than usual.</li>' +
+'<li>He who reads the Rudrasamhita portion of Sivapurana with pure and concentrated mind becomes a purified soul within three days even though he might have killed a brahmin.</li>' +
+'<li>He who reads the Rudrasarilhita three times a day near the image of Bhaira va, refraining from useless talk, shall get all cherished desires fulfilled. </li>' +
+'<li>If a slayer of brahmin circumambulates the trees of Vata and Bilva reciting the verses from Rudrasamhita he will become purified of the sin of Brahmin-slaughter. </li>' +
+'<li>The Kailasa samhita is even greater than that. It is of Vedic status and stature. The meaning of Pranava (the sacred syllable Om) is amplified in it. </li>' +
+'<li>0 Brahmins, Lord Siva knows the greatness of Kailasasamhita in its entirety. Vyasa knows half of it and I a moiety of the same. </li>' +
+'<li>A part of it, I shall tell you, since it is impossible to say everything. On comprehending it people attain purity of their minds instantaneously. </li>' +
+'<li>0 Brahmins, seeking for it ever and anon, I do not see a sin that cannot be quelled by Rudrasamhita. </li>' +
+'<li>Drinking that nectar prepared by Lord Siva after churning the ocean of the Upanisads (a class of Vedic literature) and handed over to Kumara (Lord Kartikeya) the devotee shall become immortal. </li>' +
+'<li>The person intending to perform expiatory rites for the sins of Brahma-hatya etc. should read that Samhita for a month. He shall be freed of that sin. </li>' +
+'<li>By a single recital, that Samhita destroys the sin originating from the acceptance of monetary gifts from defiled persons, partaking of defiled food and indulging in foul talks. </li>' +
+'<li>The benefit derived by a person who reads that Sarhhita in the grove of Bilva trees in a temple of Siva is beyond description in words. </li>' +
+'<li>If a person reads that Samhita with devotion at the time of performing Sraddha and feeding the brahmins, all his Pitrs (manes) attain the great region of Siva. </li>' +
+'<li>The devotee who observes fast on the Caturdasi day and reads that Sarhhita under the Bilva tree is directly identified with Siva and is worshipped by the gods. </li>' +
+'<li>The other Samhitas are no doubt the bestowers of the benefit of fulfilling all cherished desires. These two Samhitas are particularly excellent as they are full of divine sports and divine knowledge. </li>' +
+'<li>Such is the Sivapurana, extolled on a par with the Vedas, created by Lord Siva Himself at first and commensurate with the supreme Brahman. </li>' +
+'<li>Originally the Sivapurana was of very enormous size consisting of twelve sacred Samhitas :-(1) Vidye8vara (2) Rudra, (3) Vainayaka, ( 4) Aumika, ( 5 ) Matri (6) Rudraikadasa, (7) Kailasa, (8) Satarudraka, (9) Sahasrakotirudra, (10) Kotirudra, (11) Vayaviya and (12) Dharmasariljfia. 0 brahmins, I shall mention the number of verses in those Samhitas. Please listen with due attention.</li>' +
+'<li>The first Samhhita of Vidyesvara, consisted of ten thousand verses. The Raudra, Vainayaka Aumika and Matr Sarhhitas consisted of eight thousand verses each. </li>' +
+'<li>0 brahmins, the Rudraikadasa samhita consisted of thirteen thousand verses; the Kailasa samhi Hi of six thousand verses and the Satarudra of three thousand verses.</li>' +
+'<li>The Kotirudra samhita consisted of nine thousand verses ; the Sahasrakoti-Rudra samhita of eleven thousand verses. </li>' +
+'<li>The Vayaviya samhita consisted of 4000 verses and the Dharma samhita of twelve thousand verses. Thus the whole Sivapurana contained a hundred thousand verses. </li>' +
+'<li> That has been condensed by Vyasa to twenty-four thousand verses; that is to about a fourth of the original PuraiJ.a and he retained seven samhitas. </li>' +
+'<li>The Puranic lore at the. time of the first creation as conceived by Siva contained a thousand million (hundred crores) verses.</li>' +
+'<li>In the Krta age<noteref3_note3footer>(8) - (32)</note>  Dvaipayana and others condensed it into four hundred thousand verses which in the beginning of Dvapara age was separated into eighteen different Puranas. </li>' +
+'<li>Of these the Sivapurana contains twenty-four thousand verses with seven Samhitas and the Purana is on a par with the Vedas (in excellence). </li>' +
+'<li>The .first Sarnhita is called Vidyesvara, the second Rudra, the third Satarudra and the fourth Kotirudra. </li>' +
+'<li>The fifth is Aumi (of Uma), the sixth Kailasa and the seventh Vayaviya ; these are the seven Sarbhitas. </li>' +
+'<li>Thus the divine Sivapurana with its seven Samhitas stands on a par with the Vedas, according salvation more than anything else. </li>' +
+'<li>He who reads this Sivapurana complete with the seven Samhitas devotedly is a living liberated soul.</li>' +
+'<li>Hundreds of other sacred texts as the Vedas, Smrtis, Puranas, Itihasas., and Agamas do not merit even a sixteenth of this Sivapurana. </li>' +
+'<li> Sivapurana is first expounded by Siva and then condensed by Vyasa, a devotee of Siva. It is pure and brief and as such it renders help to all living beings. As a queller of the threefold calamities {physical, extraneous and divine) it is unrivalled. It bestows welfare upon the good. </li>' +
+'<li>Undeceptive virtue is extolled herein; it is, in the main, of the nature of Vedantic wisdom. It contains mantras, and three aims of life and the thing knowable by wise men of unprejudiced mind. The Sivapurana is the best among the Puranas, extolling the great Being that glows in Vedanta and the Vedas. He who reads and listens to it with devotion becomes a favourite of Siva and attains the supreme position </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
 notes: ['30. Gayatri : a most sacred· verse of the ~gveda which is the duty of every BrahmaQ.a to repeat in his every day prayers. It is addressed to the Sun, Savitr and is called Savitri also. ',
-'31  Kuruksetra, \'land of Kuru\' is the territory around Thanesar between the Sarasvati and Dr~advati rivers. It is so called because King Kuru ploughed it. (Va gg, rr5-6; Mat 50, ~o-~r) whereas it really denoted that it was his cultivated territory (MB. I. 94, 3739), east ofwhich lay, .his tract .(apparently less cultivated) called Kuru-Jai:tgala.-Pargiter AIHT P. 76. alSo Cunningham : Ancient Geography of India. '
+'31  Kuruksetra, \'land of Kuru\' is the territory around Thanesar between the Sarasvati and Dr~advati rivers. It is so called because King Kuru ploughed it. (Va gg, rr5-6; Mat 50, ~o-~r) whereas it really denoted that it was his cultivated territory (MB. I. 94, 3739), east ofwhich lay, .his tract .(apparently less cultivated) called Kuru-Jai:tgala.-Pargiter AIHT P. 76. alSo Cunningham : Ancient Geography of India. ',
+        '32  Yugas : According to tradition, historical time is dividted into four ages, viz. the Krta (or Satya), Treta, Dvapara and Kali. This system is the peculiarity of India alone. Krta age ended with the destruction of the Haihayas by Rama Jamadagnya; Treta began with Sagara and ended with Rama Dasarathi\'s consecration at Ayodhya and closed with the Bharata war; the Kali began immediately after the passing away of the great heroes of the Bharata war, Kreyrya and the Pandavas and with the changes in the political condition of Northern India that ensued. '
 
 ]
 }
@@ -691,7 +728,7 @@ notes: ['30. Gayatri : a most sacred· verse of the ~gveda which is the duty of 
 */
     {
     newButtonRow:true,
-    buttonText: '2',
+    buttonText: '3',
 buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
 title: 'VIDYESVARASAMHITA: Chapter 1, Answers to ',
 headerStyle: { 'color': 'purple','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},

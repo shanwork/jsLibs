@@ -1,7 +1,15 @@
 
 /* Slide show functions..*/
 var start=null, slideShowIndex=1;
-
+var leftNavMenu= document.getElementById('leftNavMenu');
+if (leftNavigation && leftNavigation==true){
+    leftNavMenu.style.display = 'block';
+    let storyBoard = document.getElementById('storyBoard');
+    storyBoard.style.float = 'right';
+    storyBoard.style.marginLeft = '200px';
+}
+else
+    leftNavMenu.style.display = 'none';
 startSlideShow = function(){
    let startShow = document.getElementById('startShow');
     if (startShow){
@@ -33,6 +41,11 @@ endSlideShow = function(){
     }
 }
 /* ... Slide show functions*/
+storyBoardSize = function(margin,leftDisplayStyle='block'){
+    storyBoard.style.marginLeft =margin ;// "'" + margin +  "px'" ;
+    if(leftNavigation && leftNavigation==true)
+        leftNavMenu.style.display =leftDisplayStyle
+}
 
 /* cover page to main section merge.. in time, the cover page will be absorbed in the json as well */
 var currentIndex =1, prevIndex=1;
@@ -84,6 +97,9 @@ highlightSelectionButton = function(index){
             slideShowIndex=index;
     }
 }
+toggleChapterDetailMenu = function(detailStyle, hideDetailStyle){
+//    document.getElementById('chapt_details')?
+}
 loadChapterDiv = function(index, postBack=true,static=true){
    
     // for the slide show
@@ -94,35 +110,44 @@ loadChapterDiv = function(index, postBack=true,static=true){
         let chapterRowDiv = document.getElementById('chapterRow');
         if (chapterRowDiv) {
             let prevButton = document.createElement("button");
-            prevButton.setAttribute("style", defaultButtonStyle);
-            prevButton.innerHTML = '<<< PREV'
+            prevButton.setAttribute("style", defaultPrevButtonStyle);
+            prevButton.innerHTML = '<<< PREVIOUS'
+            prevButton.setAttribute("id", 'prev_btn'  );
             prevButton.addEventListener('click', function() { loadChapterDiv( -1 ) } );
             chapterRowDiv.appendChild(prevButton);
             let chapterDetailDiv = document.createElement("div");
             chapterDetailDiv.setAttribute("id", 'chapt_details'  );
-            chapterDetailDiv.style.width="20px";
-            chapterDetailDiv.style.backgroundColor='red';
-            chapterDetailDiv.innerHTML = "<span>Click to Hide Me</span>";
-            chapterDetailDiv.textContent = "Click to Hide Me";
+           chapterDetailDiv.innerHTML = "<span style='color:darkslateblue; background-color: skyblue'>Click to show chapters</span>";
+            chapterDetailDiv.setAttribute('style','color:darkslateblue; background-color: skyblue');
+            chapterDetailDiv.textContent = "Click to show chapters";
             chapterDetailDiv.setAttribute("title", 'click to hide');
             chapterDetailDiv.addEventListener('click',
                 function() {
                     document.getElementById('chapt_details').style.display='none';
                     document.getElementById('show_chapt_details').style.display='block';
+                    storyBoardSize('200px');
+
                 } );
             chapterRowDiv.appendChild(chapterDetailDiv);
             let showChapterDetailDiv = document.createElement("div");
             showChapterDetailDiv.setAttribute("id", 'show_chapt_details'  );
-            chapterDetailDiv.innerHTML = "Click to Hide Me"
-            chapterDetailDiv.style.display= 'none' ;
+             chapterDetailDiv.style.display= 'none' ;
             showChapterDetailDiv.setAttribute("title", 'click to hide');
-            showChapterDetailDiv.addEventListener('click',
-                function() {
+            let hideChapterButton = document.createElement("button");
+            hideChapterButton.setAttribute("style", defaultButtonStyle);
+            hideChapterButton.style.color = 'maroon';
+            hideChapterButton.innerHTML = 'Hide Chapter Links'
+            hideChapterButton.setAttribute("id", 'hide_chapts_btn'  );
+            hideChapterButton.addEventListener('click', function()  {
                     document.getElementById('chapt_details').style.display='block';
                     document.getElementById('show_chapt_details').style.display='none';
-                } );
-            chapterRowDiv.appendChild(showChapterDetailDiv);
+                storyBoardSize('0px','none');
+            } );
+            showChapterDetailDiv.appendChild(hideChapterButton);
+             chapterRowDiv.appendChild(showChapterDetailDiv);
             for (let chaptIndex=0; chaptIndex < chapterData.length;chaptIndex++){
+             //   if (chapterData[chaptIndex].newButtonRow)
+             //       showChapterDetailDiv.appendChild(document.createElement("p"));
                 let chapterButton = document.createElement("button");
                 let buttonText = chapterData[chaptIndex].buttonText?
                     chapterData[chaptIndex].buttonText:"" + (chaptIndex+1);
@@ -131,15 +156,16 @@ loadChapterDiv = function(index, postBack=true,static=true){
                 chapterButton.setAttribute("id", 'chapt_' + (chaptIndex+1) );
                 chapterButton.setAttribute("title", chapterData[chaptIndex].title);
                 chapterButton.addEventListener('click', function() { loadChapterDiv( chaptIndex+1 ) } );
-                chapterRowDiv.appendChild(chapterButton);
+                showChapterDetailDiv.appendChild(chapterButton);
                 let currentButton = document.getElementById('chapt_1');
                 if (currentButton)
                     currentButton.style.opacity='0.2';
-                        
+                leftNavMenu.appendChild(chapterButton);
             }
             let nextButton = document.createElement("button");
-            nextButton.setAttribute("style", defaultButtonStyle);
+            nextButton.setAttribute("style", defaultNextButtonStyle);
             nextButton.innerHTML = 'NEXT >>>'
+            nextButton.style.float = 'right';
             nextButton.addEventListener('click', function() { loadChapterDiv( -2 ) } );
             chapterRowDiv.appendChild(nextButton);
             
