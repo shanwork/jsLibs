@@ -745,21 +745,34 @@ contentStyle: { 'border':'4px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>'+
-'<ol><li>On hearing the wo~ds of Suta, the great sages said~ "Please narrate the wonderful Pural).a that fully treats of the essence of Vedanta".</li>' +
+content: '<ol><em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>'+
+'<li>On hearing the wo~ds of Suta, the great sages said~ "Please narrate the wonderful Pural).a that fully treats of the essence of Vedanta".</li>' +
 '<li>Very delighted at the request of the sages Suta meditated on Siva and spoke to them. </li>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
 
 '<li>Contemplating on Siva free from ailments may ye all hear this Sivapurana, the foremost among Puranas, that amplifies the essence of the Vedas.</li>' +
 '<li>Where the trio, Bhakti (Piety) Jnana (Wisdom) and Vairagya (non-attachment) has been proclaimed and the object which is knowable only through Vedanta, has been particularly described.</li>' +
 '<li>May ye all hear the Purana that embibes the essence of the Vedas. Formerly, when many Kalpas (Aeons) elapsed and this Kalpa started with the process of creation, a· great dispute arose among the sages of six clans who held divergent views as to which is great and which is not. They approached Brahma the Creator, to ask him about the imperishable. </li>' +
 '<li>All of them with palms joined in reverence addressed him with words couched in humility-"Thou art the creator of the entire universe, the cause of all causes. Who is that Being older than all Principles, the greatest of the great?</li>' +
 '<p><em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span><br/>' +
-        '"That from whom words recede, not approaching , him even with the mind ; that from whom this entire universe beginning with Brahma, Vig1u, Rudra and Indra, along with all elements and all sense-organs, is evolved at first ; he is the lord Mahadeva the omniscient, the lord of the universe. He can be realised by supreme devotion and not by other means. "</p>' +
-'<li>Rudra, Had, Hara and other lords of Devas are ever desirous of seeing Him, moved by great devotion. </li>' +
+        '"That from whom words recede, not approaching , him even with the mind ; that from whom this entire universe beginning with Brahma, Vishnu, Rudra and Indra, along with all elements and all sense-organs, is evolved at first ; he is the lord Mahadeva the omniscient, the lord of the universe. He can be realised by supreme devotion and not by other means. "</p>' +
+'<li>Rudra, Hari, Hara and other lords of Devas are ever desirous of seeing Him, moved by great devotion. </li>' +
 '<li>Of what avail is a verbose statement ? One is liberated by devotion unto Siva. Devotion to the deity is due to His Grace; and His grace is due to devotion just as the seed gives rise to the sprout and the sprout produces the seed. </li>' +
-'<li>Hence, 0 Brahmins, all of you descend to the earth, to propitiate the Lord. You have to perform a sacrifice of long duration for a thousand years. 16. It is by the grace of Siva alone who will be the presiding deity of this sacrifice that the means of achievement of the Achievable can be realised and that is the essence of the Vidya (mystic learning) mentioned in the Vedas.</li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
-notes: ['']
+'<li>Hence, 0 Brahmins, all of you descend to the earth, to propitiate the Lord. You have to perform a sacrifice of long duration for a thousand years. </li>' +
+'<li>It is by the grace of Siva alone who will be the presiding deity of this sacrifice that the means of achievement of the Achievable can be realised and that is the essence of the Vidya (mystic learning) mentioned in the Vedas.</li>' +
+'<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<li>What is that great Achievable ? What is that great means of achievement ? Of what sort is the performer of the rite ? Please mention these precisely. </li>' +
+'<br/><em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>' +
+'<li>The attainment of Siva\'s region is the Achievable. Means of achievement is the service rendered unto Him. Sadhaka (the performer of the rite) is the person who is free from desire even for permanence which attitude is the result of His grace. </li>' +
+'<li>Rites mentioned in the Vedas should be performed with the fruits thereof dedicated to Him. Thence, through Salokya<noteref1_note1footer>(1) - (33)</note> he attains the feet of the great Lord. </li>' +
+'<li>All attain the great fruit according to the standard in devotion achieved. The ways of achieving these standards are manifold as expounded by lsa Himself. </li>' +
+'<li>I shall condense the same and tell you the essential means. Listening to the glory of Siva, glorifying him by me~ns of words, and deliberation in the mind, these constitute the greatest of the means. Mahesvara is to be heard, glorified and meditated upon. </li>' +
+'<li>Thus Sruti<noteref2_note2footer>(1) - (34)</note> is our authority. Resorting solely to this great means, all of you attain the Achievable. </li>' +
+'<li>Regarding visible things people see with their eyes and begin their act1v1ty. Concerning. the invisible everywhere, they know through the ears and activise themselves. </li>' +
+'<li>Hence Sravana (listening) is the :first rite. The intelligent scholar must listen to the oral explanation of the preceptor and then practise the other rites.-Kirtana (glorifying) and Manana {deliberation).</li>' +
+'<li>When all the means upto Manana are well exercised, Sivayoga (unification with Siva) results gradually through Salokya etc. All the ailments of the body are nullified and supreme bliss is realised. Painful indeed is the process but later on everything becomes auspicious from beginning to end.</li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['33· The devotee attains exemption from further transmigration and his it;lentification with the deity, gradually through four st~;tges ; viz. Salokya (being in the same world with the deity), (Samipya (nearness to the deity), Sayujya (intimate union with the deity) and Sarupya. (assimilation to the deity). SP. adds Sar~ti (g.26) (equality in rank, condition or power) as one of the grades of Mukti. ',
+'34· The word Sruti in the Purai)as does not mean \'sacred tradition;· but simply \'tradition\' .-Pargiter AIHT. Ch. II. ']
 }
 ]
 },

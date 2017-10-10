@@ -45,6 +45,7 @@ var chapterData = [
         ]
     },
     {
+    buttonText: 'SIVAPURANA-MAHATMYAM, Chapter One',
         title: 'Chapter One: THE GLORY OF SIVAPURANA',
         headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
@@ -455,7 +456,7 @@ notes: [ '18 In the. Pauranic Mythology, P.arvati is the daughter of Himalaya an
 '<li>"0 Thou,· the foremost of discoursers, identified with Vyasa, well-versed in the sacred literature of Siva, please remove my ignorance· through the light of this story." </li>' +
 '<li>He shall invite five brahmins (if he can) or at least a brahmin for repeating Siva Pancarna mantra.<noteref5_note5footer>(5) - (24)</note></li>' +
 '<li>Thus 0 sage, I have told you the rules of listening to the story _with devotion as well as those of governing the pious recipients. What else do you wish to hear ? </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
-               notes: ['20  Gaunanatha : It is an epithet of Siva and also of Ganesa . But as the worship of Siva is mentioned separately in the following line of this verse the term Gaunanatha here signifies Ganesa, the son of Siva and Parvati (See V. 54 of this chapter) .. He is invariably propitiated at the beginning of any important undertakmg. ',
+               notes: ['Test','20  Gaunanatha : It is an epithet of Siva and also of Ganesa . But as the worship of Siva is mentioned separately in the following line of this verse the term Gaunanatha here signifies Ganesa, the son of Siva and Parvati (See V. 54 of this chapter) .. He is invariably propitiated at the beginning of any important undertakmg. ',
         '21 Sadvikaras : Six causes of perturbation are the following : lust (kama), anger ,krodha), greed (lobha), pride (mada), delusion (moha), envy (matsara). ',
         '22 Virasana also called Paryanka bam;lha. It is a p~rticular kind of posture practised by ascetics in meditation setting .on the hams. ',
         '23 Nine planets : Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn, Rahu and Ketu. ',
@@ -535,29 +536,58 @@ notes: [ '18 In the. Pauranic Mythology, P.arvati is the daughter of Himalaya an
 '<li>Thus I have narrated to you the greatness of Sivapurana that bestows every cherished desire. What else do you wish to hear ? </li>' +
 '<li>The Sivapurana holds the mark of distinction among all Puranas. It is highly pleasing to Siva. It wards off the ailment of worldly existence. </li>' +
 '<li>Those who are always engaged in the meditation of Siva, those whose tongue adores the attributes of Siva, and those whose ears listen to the story of Siva, cross the ocean of worldly existence. </li>' +
-'<li>I seek refuge in Siva the great, of infinite thickset bliss, Siva whose form is unaffected by all the three Gunas, Siva who manifests Himself within and without this world, within and without the mind, Siva whose form is variously evolved by mental ideas and verbal expressions. </li>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
-               notes: [' ' 
-                      ]
+'<li>I seek refuge in Siva the great, of infinite thickset bliss, Siva whose form is unaffected by all the three Gunas, Siva who manifests Himself within and without this world, within and without the mind, Siva whose form is variously evolved by mental ideas and verbal expressions. </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: [''                      ]
             }
         ]
-    },
+    },/*'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+
+'<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
     {
-        title: 'Coming soon',
-        headerStyle: { 'color': 'antiquewhite','font-weight': '1900', 'background-color': 'transparent', 'opacity':'0.9'},
-        contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/krishna_death.jpg")',
-             'background-size': 'contain',
-             'border-radius':'4px', 
-             'padding':'2px',
-             'color':'orange', 
-             'opacity':'0.9',
-              'background-color':'skyblue'} ,
-        subsections: [
-           { 
-                subTitle: 'Aum',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;Aum Namaha Shivay</p>'
-            }
-        ]
+            newButtonRow:true,
+    buttonText: 'VIDYESVARASAMHITA: Chapter 1',
+    buttonStyle :  "padding:3px;background-color:lightBlue  ; border: 2px outset slateBlue;margin:2px; border-radius:3px;color:blue;font-weight:bold",
+title: 'VIDYESVARASAMHITA: Chapter 1, The Doubt of the Sages',
+headerStyle: { 'color': 'purple','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/lingam1-186x253.jpg")',
+'background-size': 'cover',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p><em>(Benedictory Prayer)</em><br/> I meditate on Siva, the lord of Ambika (Parvati ), auspicious from the beginning to the end, having no parallel, the noble lord, the unaging and the undying, the lord of Atmans, the five-faced<noteref1_note1footer>(1) - (25)</note> and the dispeller of the five powerful sins. <ol>' +
+'<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas<noteref2_note1footer>(2) - (26)</note> said:  </span>'+
+'<li>Sages of edified souls, engaged in truthful rites, powerful and blessed, performed a great sacrifice at the confluence of Ganga and Kalindi (Yamuna) in the most sacred city of Prayaga,<noteref3_note1footer>(3) - (27)</note> a great holy centre, the path that leads to Brahmaloka<noteref4_note1footer>(4) - (28)</note>.</li>' +
+'<li>On hearing that a sacrifice was being performed there, the disciple of Vyasa, the great sage Suta, an excellent scholar in the Pural).as, arrived there to see the sages.</li>' +
+'<li> </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['25. Panchananam : In Hindu Mythology God Siva has five faces. Pisupata teachers had developed a special doctrine ofPaiicd-Brahma in which they ascribed five faces to Siva symbolising the five elements (Linga. 2. 14. 1. 33., SP I. 10. 1-g). It is stated that Siva has the form of twentyfive tattvas symbolised by his five faces as follows : ' +
+'<table><tr><th>N. of faces </th><th>Murtis</th><th>Jnyanendriyas</th><th>Kurmendriyas</th><th>Tanmatras</th><th>Bhutas</th></tr>' +
+'<tr><td>1 ISana</td><td>Ksetrajna purusa</td><td>Sravana</td><td>Vak</td><td>Sabda</td><td>Akasa</td></tr>' +
+'<tr><td>2. Tat-Purusa</td><td>Prakrti</td><td>Tvacha</td><td>Pani</td><td>Sparsha</td><td> Vayu</td></tr>' +
+'<tr><td>3. Aghora or<br/> Agni</td><td>Buddhi</td><td>Caksu</td><td>Pada</td><td>Rupa</td><td>Agni</td></tr>' +
+'<tr><td>4· Vamadeva</td><td>Ahankara</td><td>Jihva</td><td>Payu</td><td>Rasa</td><td>]ala</td></tr>' +
+'<tr><td>5·>Sadyojata</td><td>Manastattva</td><td>Ghrana</td><td>Upastha</td><td>Gandha</td><td>Prthivi</td></tr></table>' +
+'<p>Thus the whole scheme of creation is explained by the doctrine of Panca-Brahma. The great statue of Siva in the Elephanta caves represents the Panca-Brahma form which is also known as Mahesamurti in which the frontal view depicts three heads only, the fourth one on the back is conceale-d from view and the fifth one on the top dropped out as the symbol of invisible Akasa or Avyakta Prakrti : See V. S. Agrawal : A1atsya Puriil;za : A Study PP. 51-52. 26 </p>',
+        '26 Vyasa : The title is applied to Vedavyasa, the arranger of the Vedas, the compiler of the Mahabharata, the founder of the Vedanta philosophy and the arranger of the Puranas. Dawson doubts the identity of these different arrangers. Vyasa is also called KrishnaDvaipayana. From his complexion he received the name KrsnQa and from his birth place he was called Dvaipayars regarded the confluence at Prayaga as the visible symbol of Madhyadda. ',
+        '28 Brahmaloka, also caJled Satyaloka, is the abode of Brahma. '
+
+]
+}
+]
     },
     {
         title: 'PART 7 The Birth of Shree Krishna',
