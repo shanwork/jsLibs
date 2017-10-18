@@ -943,8 +943,7 @@ content: '<p style="margin-left:60px;margin-right:60px;"><em>The journey to Kail
 notes: ['42 Sodasopadira: The sixteen acts of homage to a deity are mentioned in SP I I. 25-29. They are differently enumerated elsewhere  Tantrasara enumerates 64 Upadiras. ']
 }
 ]
-},
-    {/*
+},{/*
     <br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
     '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
 '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
@@ -962,10 +961,144 @@ notes: ['42 Sodasopadira: The sixteen acts of homage to a deity are mentioned in
 '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
 <br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
 <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
 ''<noteref2_note1footer>(2) - (17)</note>-->'  +
 </li>' +
 '<li>
 */
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '8',
+title: 'VIDYESVARASAMHITA: Chapter 8: Siva\'s forgiveness of Brahma',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'slateblue', 'opacity':'0.5'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt8.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<ol><br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+'<li> Mahadeva then created a wonderful person, Bhairava, from the middle of his brows to quell the pride of Brahma.  </li>'+
+'<li>This Bhairava knelt before the lord in the battle-field and said-"0 lord, what shall I do ? Please give me your directives quickly." </li>'+
+'<li>"Dear, here is Brahma, the first deity of the universe. Worship him with your sharp-pointed quick-moving sword." </li>'+
+'<li>With one of his hands he caught hold of the tuft of Brahma\'s fifth head that was guilty of haughtily uttering a falsehood, and with the hands he furiously shook his sword in order to cut it off. </li>'+
+'<li>Your father trembled like a plantain tree in a whirlwind, with his ornaments scattered here and there, his cloth ruffled and loosened, the garland displaced, the upper cloth hanging loose and the glossy tuft dishevelled, and fell at the feet of Bhairava. </li>'+
+'<li>Meanwhile the sympathetic Acyuta desirous of saving Brahma, shed tears over the lotus-like feet of our lord and said with palms joined in reverence just like a child lisping words of entreaty to its father. </li>'+
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<li>0 Lord, it was you who gave him five heads<noteref1_note1footer>(1) - (43)</note> as a special symbol, long ago. Hence please forgive him his first guilt. Please favour him. </li>'+
+'<li>The lord thus requested by Acyuta relented and in the presence of all devas asked Bhairava to desist from punishing Brahma. </li>'+
+'<li>Then the lord turned to the deceitful Brahma who bent down his neck and said "0 Brahma, in order to extort honour from the people you assumed the role of the lord in a roguish manner. </li>'+
+'<li>Hence you shall not be honoured, nor shall you have your own temple or festival. </li>'+
+'<li>On seeing the mutual fight of Brahma and Visnu, lord Siva laughed. When his head shook, the Ketaki flower dropped down. Although it had been in its downward course for many years, neither its fragrance nor its lustre had been diminished even a bit. The flower had been intended to bless them. </li>'+
+'<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span><br/>' +
+'<li>0 Lord, be pleased. 0 flourishing one, _I consider this sparing of my head itself a great blessing and a boon. Obeisance to Thee, the lord, the kinsman, the originator of the universe, the forbearing, the forgiver of defects, the benevolent one, wielding the mountain as his bow. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<li>0 child, the whole universe will be ruined if it loses the fear of a king Hence you mete out punishment to the guilty and bear the burden of administering this universe. </li>'+
+'<li>I shall grant you another boon which is very difficult to get. In all domestic and public sacrifices you will be the presiding deity. Even though a sacrifice is complete with all the ancillary rites and offerings of monetary gifts, it will be fruitless without you. Then the lord turned to the deceitful Ketaka flower guilty of perjury and said :</li>'+
+'<li>"0 you Ketaka flower, you are roguish and deceitful. Go away from here. Hereafter I have no desire to include you in my worship." </li>'+
+'<li>When the lord said thus, all the devas shunned the very presence of the flower. </li>' +
+'<br/><em><span style="font-weight:900;color:brown;font-size:larger"> Ketaka said:  </span> ' +
+'<li>Obeisance to Thee, 0 Lord, Your bidding will mean that my very birth is fruitless. May the lord be pleased to make it fruitful by forgiving my sin. </li>'+
+'<li>Thy remembrance is reputed to quell all sins perpetrated consciously or unconsciously. Now that I have seen Thee, how can the sin of uttering falsehood sully me? </li>'+
+'<li>Thus entreated in the middle of the council the lord said-\'It is not proper for me to wear you. I am the lord and my words must stay true. My attendants and followers shall wear thee. Hence thy birth shall be fruitful. Of course in the canopies over my idol you can be used for decoration."<br/> The lord thus blessed the three-the flower Ketaka, Brahma and Visnu. He shone in the assembly duly eulogised by the Devas. </li>' +
+'</ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['4~· Brahma\'s five heads : When the four faces of Brahma became thwarted in their function because of Brahma\'s erotic impulse, then out of his Tapas was produced a fifth head on the top and that head was covered with matted locks. In image No 382 of Brahma in the Kush~na period at Mathura, the fifth head on the top is shown with moustaches, beard and long locks, a feature which is only found in the Kusana period from the first to the third century A. D. But later on, the fifth head was eliminated and a new theory (contradicted by SP. I. 8.8) was devised thai Brahma\'s head was clipped by Rudra. The fact was that the fifth hea.-1 l\'c-·--r~-:,--ri-rr to Akasa was taken to be invisible, being a symbol of his · .. : :: :.: =: ·· ··,··~~· (Avyakta murti) and that only the four others became manifest.-V.S. Agrawal : M.P. A Study. ']
+}
+]
+},{/*
+    <br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '9',
+title: 'VIDYESVARASAMHITA: Chapter 9: The Proclamation of Siva as Mahesvara',
+headerStyle: { 'color': 'crimson','font-weight': '1900', 'background-color': 'white', 'text-shadow': '3px 3px 2px white','opacity':'0.9', 'border': '2px outset gray'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt9.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<ol><br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+'<li>In the mean time Brahma and Visnu had been standing silently on either side of the lord with the palms joined in reverence. </li>'+
+'<li>Then they installed the lord with all the members of His family on a splendid seat and worshipped Him with all holy personal things. </li>'+
+'<li>The personal things constitute those natural things of long and short duration such as necklaces, anklets, bracelets coronets, ear-rings, sacrificial threads, upper cloth of lace border, garlands, silk cloth chokers, rings, flowers, betel leaves, camphor, sandal paste, Aguru unguents, incense, lamps, white umbrella, fans, banners, chowries and other divine offerings whose greatness cannot be expressed or even thought of. Both of them adored the lord with all these things worthy of the lord and inaccessible to Pasu (the animal i.e. the individual soul). All excellent things are worthy of the lord, 0 brahmin. </li>'+
+'<li>In order to set up a precedence the delighted lord handed over all those articles to the attendants assembled according to the order of priority. </li>'+
+'<li>The bustle of those who came to receive them was too much. It was there that Brahma and Visnu adored Sankara at first. When they stood there humbly, the gratified lord spoke smilingly heightening their devotion. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<p>"Dear children, I am delighted at your worship on this holy day. Henceforth this day will be famous as "SivaratriH the holiest of holy days pleasing to me.</p>"' +
+'<li>He who performs the worship of my phallic emblem and the embodied image on this day will be competent to perform the task of creation and the maintenance etc. of th~ universe. </li>'+
+'<li>The devotee shall observe fast on Sivaratri, both during the day and the night. He shall perfectly restrain his sense-organs. He shall adore (with flowers) to the extent of his strength. He shall not deceive any one. </li>'+
+'<li>By the worship on Sivaratri day the devotee attains that fruit which usually accrues tp one who continuously worships me for a year. </li>'+
+'<li>This is the time when the virtue of devotion to me increases like the tide in the ocean at the rise of the moon. Festivities like the installation of my idols etc. on that day are very auspicious. </li>'+
+'<li>The day on which I manifested myself in the form of a column of fire is the Ardra star in the month of Margasira (November-December), 0 children. </li>'+
+'<li>He who sees me on the day of Ardra star in the month of Margasiqa in the company of Uma and worships my phallic emblem or embodied image is dearer to me than even Guha (Kartikeya) .</li>'+
+'<li>On that auspicious day the vision alone accords ample results. If he worships too, the result cannot be adequately described. </li>'+
+'<li>Since I manifested myself in the form of phallic emblem in the field of battle, this place will be known as Lingasthana. </li>'+
+'<li>0 sons, this column without root or top will henceforth be diminutive in size for the sake of the vision and worship of the world. </li>'+
+'<li>The phallic emblem confers enjoyment. It is the only means of worldly enjoyment and salvation. Viewed, touched or meditated upon, it wards off all future births of the living beings. </li>'+
+'<li>Since the phallic emblem rose high resembling a mountain of fire, this shaH be famous as Ruddy (Aruna) mountain<noteref1_note1footer>(1) - (44)</note>.« </li>'+
+'<li>Many holy centres will spring up here. A residence or death in this holy place ensures liberation. </li>'+
+'<li>The celebration of chariot festivals, the congrega-tion of devotees, the presentation of ordinary as well as sacrificial gifts and offering of prayers at this place shall be millionfold efficacious. </li>'+
+'<li>Of all my sectors this sector shall be the greatest. A mere remembrance of me at this place shall accord salvation to all souls. </li>'+
+'<li>Hence this sector shall be greater than all other sectors, very auspicious, full of all sorts of welfare and according salvation to everyone. </li>'+
+'<li>Worshipping me in my supreme phallic form at this place an4 performing the other sacred rites shall accord the five types of salvation-Salokya, Samipya, Sarii.pya, SarHi and Sayujya. May all of you achieve all your cherished desires . </li>' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+'<li>Thus blessing Brahma and Vigm who had been made humble, the lord resuscitated by His nectar-like power all the soldiers of the two deities that had been killed in the battle before and spoke to them in order to remove their foolishness and mutual enmity. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<li>I have two forms : the manifest and the unmanifest. No one else has these two forms. Hence all else are nonlsvaras. </li>'+
+'<li>Dear sons, first in the form of the column and afterwards in this embodied form I have expounded to you ·my formless Brahma-hood, and embodied !Sa-hood. These two are present only in me and not in anyone else. Hence no one else, not even you too can claim ISatva (Isa-hood). </li>'+
+'<li>It is out of your ignorance of this fact that you were swept. away by your false prestige and pride of being Isa, surprising as it is. I rose up in the middle of the battle-field for quelling the same. . </li>'+
+'<li>Cast off your false pride. Fix your thought in me as your lord. It is out of my favour that all the objects in the world are illuminated. </li>'+
+'<li>The statement of the preceptor is the reminder and the authority on all occasions. This secret truth of Brahman I am revealing to you out of love. </li>'+
+'<li>I am the supreme Brahman. My form is both manifest and unmanifest in view of my Brahma-hood and Isvaratva. My duty is blessing etc. </li>'+
+'<li>0 Brahma and Visnu, I am Brahman because of Brhatva (huge size) and Bpithanatva (causing to grow). 0 children, similarly I am Atman due to Samatva (equality) and Vyapakatva (Pervasiveness). </li>'+
+'<li>All others are Anatmans, individual souls undoubtedly. There are five activities <noteref2_note2footer>(2) - (45)</note> in respect of the universe beginning with Anugraha <noteref3_note1footer>(3) - (46)</note> (liberation) and ending with Sarga (creation). Therefore these activities devolve on me because I am Isa and not on anyone else. It is to make my Brahmatva understood that my phallic emblem rose up. </li>'+
+'<li>In order to clarify my Is a tva, unknown hitherto, I have manifested myself immediately in the embodied form of ISa. </li>'+
+'<li>The Isatva in me is to be known as the embodied form and this symbolic column is indicative of my Brahmatva. </li>'+
+'<li>Since it has all the characteristic features of my phallic emblem, it shall be my symbol. 0 sons, you shall worship it every day . </li>'+
+'<li>The phallic symbol and the symbolised Siva are non-different. Hence this phallic emblem is identical with me. It brings devotees quite near to me. It is worthy of worship therefore. </li>'+
+'<li>0 dear sons, if phallic emblem of this sort in installed I can be considered installed, though my idol is not installed. </li>'+
+'<li>The result of installing the phallic emblem is the attainment of similarity with me. If a second phallic emblem is installed, the result is union with me. </li>'+
+'<li> The installation of the phallic emblem is primary and that of embodied idol is secondary. A temple with the embodied idol of Siva is unfructuous if it has no phallic image. </li>'+
+'</ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['44· Arunacala : The Aruna mountain lies to the west of Kailasa and is the abode of Siva (Va. 47· 17-rB; Br. II. 18. 18; Sk. III. 59-61; IV g. q. 2r. 37; also Kern : M. I. P. 3; See Awasthi : Studies in Skanda Purarza P. 54· ',
+'45 In respect of creation, SP speaks of different five activities in the Vayaviya Samhita g. 4--5. ',
+'46 The text reads \'anugrahadyam Sargantam\ i. e. beginning with liberation and ending with creation. But correctly it should be anugrahintam Sargadyam\' i. e. begining with creation and ending with liberation. The correct process of activities is mentioned in the following Chapter, Verses 3-5. ']
+}
+]
+},
+    {
         title: 'PART 7 The Birth of Shree Krishna',
         buttonStyle :  "padding:4px;background-color:orange  ; border: 2px outset crimson;margin:2px; border-radius:3px;color:crimson;font-weight:bold",
         

@@ -1097,6 +1097,87 @@ notes: ['44· Arunacala : The Aruna mountain lies to the west of Kailasa and is 
 '46 The text reads \'anugrahadyam Sargantam\ i. e. beginning with liberation and ending with creation. But correctly it should be anugrahintam Sargadyam\' i. e. begining with creation and ending with liberation. The correct process of activities is mentioned in the following Chapter, Verses 3-5. ']
 }
 ]
+},{/*
+    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '10',
+title: 'VIDYESVARASAMHITA: Chapter 10: The Evanescence of Siva ',
+headerStyle: { 'color': 'crimson','font-weight': '1900', 'background-color': 'white', 'text-shadow': '3px 3px 2px white','opacity':'0.9', 'border': '2px outset gray'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt10.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p style="text-align:center">(The Evanescence of Siva after expounding the Five-fold duties and the Omkara mantra to Brahma and Vishnu)</p> ' +
+'<br/><em><span style="font-weight:900;color:#ff3300;text-shadow: 3px 3px 2px pink;background-color:skyblue;font-size:x-large">Shree Brahma and Shree Vishnu said:  </span>' +
+'<ol><li>0 Lord, please tell us the characteristic feature of the five-fold duties beginning with creation. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>' +
+'<li>I shall tell you the great secret of the five-fold duties, out of compassion for you. </li>'+
+'<li>0 Brahma and Visnu, the permanent cycle of the five-fold duties consists of creation, maintenance, annihilation, concealment, and blessing. </li>'+
+'<li>Sarga is the creation of the world ; Sthiti is its maintenance; Samhara is the annihilation; Tirobhava is the removal and concealment </li>'+
+'<li>Liberation (from the cycle of birth and death) IS blessing. These five are my activities but are carried on by others silently as in the case of the statue at the Portal. </li>'+
+'<li>The first four activities concern the evolution of the world and the fifth one is the cause of salvation. All these constitute my prerogatives. </li>'+
+'<li>These activities are observed in the five elements by devotees-Sarga (creation) in the Earth, Sthiti (maintenance) in the waters, Samhara (annihilation) in the fire, Tirobhava (concealment) in the wind and Anugraha (liberation, the blessed state) in the firmament. Everything is created by the Earth; everything flourishes by virtue of the waters; everything is urged by the fire, everything is removed by the wind and everything is blessed by the firmament. Thus intelligent men must know the same. </li>'+
+'<li>In order to look after these five-fold activities I have five faces, four in the four quarters and the fifth in the middle. </li>'+
+'<li>0 sons, in view of your austerities you two have received the first two activities :-creation and maintenance. Yon have gratified me and are blessed therefore. </li>'+
+'<li>Similarly, the other two activities (annihilation and concealment} have been assigned to Rudra and Mahesa. The fifth one of Anugraha (liberation) cannot be taken up by any other. </li>'+
+'<li>All this previous arrangement has been forgotten by both of you due to lapse of time, not so by Rudra and Mahesa. </li>'+
+'<li>I have assigned them my equality in form, dress, activity, vehicle, seat, weapons etc. </li>'+
+'<li>0 dear sons, your delusion was the result of your not meditating upon me. If you had retained my knowledge you would not have embibed this false pride of being Mahesa yourselves. </li>'+
+'<li>Hence, hereafter, both of you shall start reciting the mantra Omkara to acquire knowledge of me. It shall quell your false pride as well. </li>'+
+'<li>I. have taught this great auspicious mantra. Orhkara came out of my mouth. Originally it indicated me. </li>'+
+'<li>It is the indicator and I am the indicated. This mantra is identical with me. The repetition of this mantra is verily my repeated remembrance. </li>'+
+'<li>The syllable "A" came first from northern face; the syllable c \'U" from the western ; the syllable "M" from the southern and the Bindu (dot) from the eastern face. The Nada (mystical sound) came from the middle face. Thus the complete set cropped up in five-fold form. Then all of them united in the syllable of "Om". </li>'+
+'<li>The two sets of created beings-Nama (name) and Rupa (form) are pervaded by this mantra. It indicates Siva and Sakti. </li>'+
+'<li>From this also is born the five-syllabled mantra (Namassivaya ). It indicates all knowledge. The syllables "NA" etc. follow the order of the syllables "A" etc. </li>'+
+'<li>From the five-syllabled mantra the five mothers were born. The Siromantra is born of that. The three-footed Gayatri also came out of the four faces. </li>'+
+'<li>The entire set of Vedas and crores of mantras were born of that. Different things are achieved through different mantras but everything is achieved through Ori:Jkara alone. </li>'+
+'<li>By this root-mantra, the very enjoyment as well as salvation is achieved. All the royal mantras are auspicious and directly accord enjoyment. </li>'+
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+'<li>The phallic emblem confers enjoyment. It is the only means of worldly enjoyment and salvation. Viewed, touched or meditated upon, it wards off all future births of the living beings. </li>'+
+'<li>The lord in the company of his. consort Ambika, assumed the role of the preceptor for both of them. He screened them and placed his lotus-like hand on their heads as they faced the north and slowly taught them the great mantra. </li>'+
+'<li>The two disciples received the mantra by repeating it thrice, along with the requisite Yantra and Tantra<noteref1_note1footer>(1) - (47)</note> duly expounded. By way of fees, the disciples dedicated themselves. Thereafter standing near him with hands clasped in reverence they addressed the lord, the preceptor of the universe. </li>'+
+'<br/><em><span style="font-weight:900;color:#ff3300;text-shadow: 3px 3px 2px pink;background-color:skyblue;font-size:x-large">Shree Brahma and Shree Vishnu said:  </span>' +
+'<li>(The prayer) :-<br/>Obeisance to Thee of the bodiless form. Obeisance to Thee of the formless lustre. Obeisance to Thee the lord of everything. Obeisance to Thee the soul of everything or of the embodied form. Obeisance to Thee stated by the Pranava. Obeisance to Thee having Pra"Q.ava as Thy symbol. Obeisance to Thee the author of creation etc. Obeisance to Thee of five faces. Obeisance to Thee identical with Paficabrahma form. Obeisance to Thee of five-fold· functions. Obeisance to Thee the Atman, the Brahman, of endless attributes and power. Obeisance to Siva the preceptor, possessed of both embodied and bodiless forms." <br/>&nbsp;&nbsp;After eulogising the preceptor in verses Brahma and Visnu bowed to him. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>' +
+'<li>0 dear sons, the truthful extract of every-thing has been narrated to you with demonstration. You shall recite as directed by the Goddess this Om mantra which is identical with me. </li>'+
+'<li>Your knowledge shall be stabilised. Permanent fortune shall stand by you. On the Chaturdasi day and on the day with Ardra star, the recital of this mantra will give you everlasting efficacy. </li>'+
+'<li>The recital of this mantra at the time when the transit of the sun is in the Ardra star is million-fold efficacious. In the context of worship, Homa and Tarpana, the last quarter of the star Mrgasiras and the first quarter of Punarvasu must always be considered on a par with Ardra. The Vision is to be had at early dawn and within three muhilrtas (two hours twentyfour minutes) thereafter. </li>'+
+'<li>Chaturdasi is to be taken when it continues up to midnight. If it is only upto the early part of the night and joined with another thereafter, it is also recommended. </li>'+
+'<li>Although I consider the phallic and the embodied form to be equal, the phallic form is excellent for those who worship. Hence for those who seek salvation the latter is preferable to the former. </li>'+
+'<li>The others too shall install the phallic form with Omkara mantra and the embodied form with the fivesyllabled mantra, with excellent articles of worship and adore with due homage. It will be easy for them to attain my region. ' +
+'<br/>&nbsp;&nbsp;&nbsp;&nbsp;Having thus instructed His disciples Siva vanished there itself. </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['47· The rites of worship are performed in accompaniment with Tantra, Yantra and Mantra appliances. Yantra is a mystical diagram po~sessed of occult powers. Tantra is a ritual, th,_e chief peculiarity of which is. the· ~orship of the female energy of Siva, personified in the person of ~1s Saktl. This special energy, the Sakti of Siva is concerned with sexual mtercourse and magic power. M~ntra is a magical formula. ']
+}
+]
 },
     {
         title: 'PART 7 The Birth of Shree Krishna',
