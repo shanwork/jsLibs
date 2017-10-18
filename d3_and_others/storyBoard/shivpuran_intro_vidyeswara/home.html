@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html ng-app="test_stats_app">
+<head>
+    <meta charset="utf-8" />
+     <link rel="stylesheet" href="../styles/global-style.css">
+    <style>
+    H1, H2, H3, H4, H5, H6 
+        {
+            font-weight: 900;
+            color:firebrick;
+        }
+        #special {
+            font-size: larger;
+        }
+        #curtain
+        {
+            background-image: url('images/shivPuran1_Cover.jpg');
+            background-size: cover;
+            background-repeat:repeat;
+            min-width:1024px;
+            min-height:768px;
+            margin:10px; 
+            border:6px outset gray;
+            border-radius:10px;
+            color:darkblue;
+            background-color:  blue;
+            position: absolute;
+            top:25px;left:5px;
+        }
+        #curtain > H2 
+        {
+            background-color:aqua; color:darkblue;font-style:italic;margin: 5x ;
+        }
+        #curtain > H2 > span 
+        {
+            float:right;
+            font-size:smaller;
+            font-weight:900;
+            width:auto;
+            color:darkslateblue; 
+            border:3px outset darkslateblue; 
+            background-color:skyblue;
+            margin-right:  100px ; 
+            margin-bottom: 15px;
+        }
+        #mainStory 
+        {
+            display:none;
+            opacity:0.0;
+            position: absolute;
+            top:25px;left:5px;
+        }
+        #heading
+        {
+            background-color: aliceblue;
+            background-size:contain ;
+            min-height:100px;
+            border:3px outset lightblue;
+            border-radius:6px
+        }
+        #heading > img
+        {
+            float:left;
+            max-height:80px;
+            margin:10px;
+            border:1px solid slateblue;
+        }
+        #heading > h1,h2,h3
+        {
+            font-style:italic; color:darkslateblue;margin-top:10px;margin-left:15px;
+        }
+        #chapterRow {
+            width:auto;overflow:hidden; height:auto; float:left; text-align:justify;  margin-top: 0px;
+        }
+         #prev_btn {
+            width:auto; float:left; background-color: #0b93d5; margin:16px 12px 12px 1215px;
+        }
+    #next_btn {
+        width:auto; float:left; margin:16px 12px 12px 1215px;
+    }
+    #show_chapt_details  {
+        width:auto; float:left; margin:0px 12px 12px 15px;
+    }
+    #chapt_details  {
+        width:800px; text-align: center; float:left; margin:0px 12px 12px 15px;
+        padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;
+    }
+        #leftNavMenu {
+            float:left;
+            position: fixed;
+            top: 180px;
+            width:190px;
+            border:2px outset brown;
+            border-radius:6px;
+
+        }
+    </style>
+    </head>
+<body onload='loadChapterDiv(1, false)'>
+    <div id="top-left-link"><a href="../home.html">go back to Parent Index page....</a></div>
+             
+    <div id="curtain" onclick='openStory()' >
+        <H2  >SHIV PURAN : MAHATMYAM, VIDYESVARASAMHITA<span  >&nbsp; &nbsp; &nbsp;Click Me&nbsp; &nbsp;  &nbsp;</span> </H2>
+        
+    </div>
+    <div id="mainStory" >
+    <div id='heading' >
+        <img src="images/meditation_1.jpg" />
+        <h2 >The Shiva Purana :</h2>
+        <p></p>
+        
+    </div>
+
+        <!--div id="chapterRow2" style="float:left">SSS<button style="padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;"  style="float:left">&lt;&lt;&lt; PREVW</button>
+            <div id="chapt_details2" title="click to hide" style="width: 20px; background-color: red; display: none;">Click to Hide Me</div>
+            <span  id="show_chapt_details" style="float:left;margin-left:100px;background-color: #0b3e6f;margin-right:25px;" title="click to hide"  ><button style="padding: 3px; background-color: aliceblue; border: 2px outset blue; margin: 2px; border-radius: 3px; color: blue; font-weight: bold; opacity: 0.2;" id="chapt_1" title="Introduction">Introduction</button><button style="padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;" id="chapt_2" title="Chapter One: THE GLORY OF SIVAPURANA">SIVAPURANA-MAHATMYAM, Chapter 1</button><button style="padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;" id="chapt_3" title="Chapter Two: The liberation of Devaraya">2</button><button style="padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;" id="chapt_4" title="Chapter Three- Five: Cancula's disillusion and detachment, her Salvation, and Binduga's Salvation">3</button><button style="padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;" id="chapt_5" title="Chapter SIX: Rules for listening to Sivapurana">4</button><button style="padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;" id="chapt_6" title="Chapter SEVEN: Do's and Dont's ...">5</button><button style="padding:3px;background-color:lightBlue  ; border: 2px outset slateBlue;margin:2px; border-radius:3px;color:blue;font-weight:bold" id="chapt_7" title="VIDYESVARASAMHITA: Chapter 1-2, The Doubt of the Sages, and Answers Clarifying their Doubts">VIDYESVARASAMHITA: Chapter 1 and 2</button><button style="padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold" id="chapt_8" title="VIDYESVARASAMHITA: Chapter 1, Answers to ">2</button><button style="padding:4px;background-color:orange  ; border: 2px outset crimson;margin:2px; border-radius:3px;color:crimson;font-weight:bold" id="chapt_9" title="PART 7 The Birth of Shree Krishna">9</button></span>
+            <div style="float:right;margin-right:-10px;background-color: #1b911b"><button style="padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right: 5px;float:right" >NEXT E&gt;&gt;&gt;</button></div>
+        </div-->
+        <div id="chapterRow"></div><br/>..
+       <div id="leftNavMenu" >
+<h4>Chapters</h4>
+       </div>
+    <div id="storyBoard">
+      <H2></H2>
+      <div id='details'></div>
+    </div>
+        </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src='scripts/storydata.json'></script>
+    <script src="scripts/MathStatsAndMisc.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

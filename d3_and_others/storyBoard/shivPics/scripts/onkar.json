@@ -1,0 +1,1141 @@
+var slideShowInterval = 1200;
+var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultHeaderStyle= 
+    {
+        'font-weight': '900',
+        'color':'firebrick',
+         'background-color': 'transparent', 'opacity':'1.5'
+    };
+var defaultHeaderStyleNoCSS = "font-weight :  900; color:firebrick;background-color:transparent;opacity:1.0";
+var defaultContentStyle =  { 
+    'border':'3px outset orange',
+    'background-image': 'url("images/lord-krishna-786).jpg")',
+    'background-size': 'contain',
+    'border-radius':'4px',
+    'padding':'2px',
+    'color':'orange', 
+    'opacity':'0.5',
+    'background': 'silver', /* For browsers that do not support gradients */
+    'background': '-webkit-linear-gradient(left, red , yellow)',/* For Safari 5.1 to 6.0 */
+    'background': '-o-linear-gradient(right, red, yellow)', /* For Opera 11.1 to 12.0 */
+    'background': '-moz-linear-gradient(right, red, yellow)', /* For Firefox 3.6 to 15 */
+    'background': 'linear-gradient(to right, red , yellow)', /* Standard syntax */
+    'background-color':'lightgoldenrodyellow'
+};
+var defaultDetailStyleNoCSS =  "background-color:#AA8866;" +
+        "opacity:0.7;" +
+        "margin :  10px;" +
+        "padding:5px;" +
+        "color:black;" +
+        "font-weight:900;" +
+        "max-height:50%;" +
+        "border:2px solid #334455";
+
+var defaultDetailStyle =  { 
+        'background-color':'#AA8866',
+        'opacity':'0.7',
+        'margin': '10px',
+        'padding':'5px',
+        'color':'black',
+        'font-weight':'900',
+        'border':'2px solid #334455'
+    };
+var chapterData = [
+    
+     {
+         btnText: '1',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyle: "border : 3px outset darkgray;background-image:none;background-size: contain;border-radius : 4px;padding': 2px;color : darkgray;opacity : 1.0;background-color: silver;" + 
+                        "background:  -webkit-linear-gradient(left, silver , gray);background: o-linear-gradient(right, silver , gray);background': '-moz-linear-gradient(right, silver , gray);" + 
+                        "background: linear-gradient(to right, green ,lightgreen, grey,silver)" ,
+        contentStyleCSS: { 'border':'3px outset darkgray',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'darkgray', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , grey)', /* Standard syntax */ 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (1).jpg" alt="1934"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '2',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , grey)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (2).jpg" alt="1935"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '3',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (3).jpg" alt="1936"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '4',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (4).jpg" alt="1937"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '5',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (5).jpg" alt="1938"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '6',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (6).jpg" alt="1939"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '7',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (7).jpg" alt="1940"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '8',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (8).jpg" alt="1941"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '9',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (9).jpg" alt="1942"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '10',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (10).jpg" alt="1943"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '11',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (11).jpg" alt="1944"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '12',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (12).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '13',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (13).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '14',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (14).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '15',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (15).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '16',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (16).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '17',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (17).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '18',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (18).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '19',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (19).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    } , {
+        title: '',
+        btnText: '1',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset darkgray',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'darkgray', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (19).jpg" alt="1955"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '2',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        detailStyle:  { 
+            'background-color':'#AA1533',
+            'opacity':'0.8',
+            'margin': '10px',
+            'padding':'5px',
+            'color':'black',
+            'font-weight':'900',
+            'border':'2px solid #334455'
+        },
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (20).jpg" alt="1956"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '3',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        detailStyle:  { 
+            'background-color':'#AA5546',
+            'opacity':'0.7',
+            'margin': '10px',
+            'padding':'5px',
+            'color':'black',
+            'font-weight':'900',
+            'border':'2px solid #334455'
+        },
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (21).jpg" alt="1957"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '4',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (22).jpg" alt="1958"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '5',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (23).jpg" alt="1959"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '6',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (24).jpg" alt="1960"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '7',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (25).jpg" alt="1961"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '8',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (26).jpg" alt="1962"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '9',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (27).jpg" alt="1963"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '10',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (28).jpg" alt="1964"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '11',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (29).jpg" alt="1965"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '12',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (30).jpg" alt="1966"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '1',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset darkgray',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'darkgray', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (31).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '2',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (32).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '3',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (33).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '4',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+             'background-color': 'silver', /* For browsers that do not support gradients */
+  'background': '-webkit-linear-gradient(left, silver , gray)',/* For Safari 5.1 to 6.0 */
+  'background': '-o-linear-gradient(right, silver , gray)', /* For Opera 11.1 to 12.0 */
+  'background': '-moz-linear-gradient(right, silver , gray)', /* For Firefox 3.6 to 15 */
+  'background': 'linear-gradient(to right, silver , gray)', /* Standard syntax */ 
+                       
+             
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (34).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '5',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (35).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '6',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (36).jpg" alt="1939"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '7',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (37).jpg" alt="1940"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '8',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (38).jpg" alt="1941"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '9',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (39).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '10',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (40).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '11',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (41).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '12',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (42).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '13',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (43).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '14',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (44).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '15',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (45).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '16',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (46).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }, {
+        title: '',
+        btnText: '17',
+        buttonStyle :  "padding:3px;background-color:bluegray  ; border: 2px outset #004488;margin:2px; border-radius:3px;color:#004488;font-weight:bold",
+        contentStyleCSS: { 'border':'3px outset orange',
+             'background-image': 'none',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'1.0',
+              'background-color':'lightgoldenrodyellow' 
+                       
+             } ,
+        subsections: [
+            { 
+                subTitle: '',
+                content: ' <img src="images/shiva_photo (47).jpg" alt="Smiley face"  >'
+            }
+       
+        ]
+    }
+   
+];
