@@ -48,9 +48,33 @@ var chapterData = [
         ]
     },
     {
+    /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
     buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: 'SIVAPURANA-MAHATMYAM, Chapter 1',
-        title: 'Chapter One: THE GLORY OF SIVAPURANA',
+    buttonText: 'RUDRA-SAMHITA SECTION I, Chapter 1',
+        title: 'Chapter One: Inquiry of the sages ',
         headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
              'background-image': 'url("images/meditation_1.jpg")',
@@ -63,72 +87,37 @@ var chapterData = [
         subsections: [
            { 
                 subTitle: 'Greatness of Sivapurana<span id=\'top\'>..</span>',
-                content: '<p><ol>' +
-                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka<noteref1_note1footer>(1)</note> said:  </span>'+
-                    '<li>"0 Suta of great intellect, 0 my lord, the knower ofhilosophical principles, please narrate to me the essence ofthe Puranas in detail.</li>' +
-                    '<li>How do good conduct, good devotion and power ofdiscrimination flourish ? How are base feelings dispelled by good men ?</li>' +
-                    '<li>In this terrible Kali age all living beings have almost become demonic in character. What is the effective mode of remedying the same ?</li>' +
-                    '<li> Now tell me about the greatest means to achieve the  most perfect weal, the holiest of the holy modes.</li>' +
-                    '<li> What is that, the practice of which particularly purifies the soul ? What is that which enables a man of unsullied mind to attain Siva ?"<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:<noteref2_note2footer>(2)</note> </span> </li>' +
-'<li>  0 foremost among sages, you are blessed indeed as you are desirous of hearing. Hence I shall ponder over the greatest of the Sacred Lore intelligently and tell you.</li>' +
-'<li> 0 dear, listen to that divine panacea evolved out of all religious tenets, heightening true devotion and conducive to the pleasure of Siva.</li>' +
-'<li> It is destructive of the great fear of  the Python of Kala (Death).· 0 sage, it is the noble Siva Purana<noteref3_note3footer>(3)</note> formerly narrated by Siva Himself.</li>' +
-'<li> For the benefit of the people in the age of Kali, the sage Vyasa<noteref4_note4footer>(4)</note>  has abridged it out of great respect for the sage Sanatkumara<noteref5_note5footer>(5)</note>  on being instructed by him.</li>' +
-'<li> 0 sage, there is nothing other than Siva Purana for the purification of the mind especially of the people of the Kali age.<noteref6_note6footer>(6)</note>  </li>' +
-'<li> It is only the intelligent and the highly fortunate man who has accumulated great merits in his previous birth who will be drawn towards it.</li>' +
-'<li> This Sivapurana is the greatest and the noblest of the sacred lore. It is the form of Siva and as such is to be served and realised in this world.</li>' +
-'<li> By reading this and listening to it the good man becomes very pious. By all means he instantly attains Siva\'s region.</li>' +
-'<li> Hence every endeavour of men to read this is desirable. Loving care to listen to it yields all desired results.</li>' +
-'<li> By listening to this Purana of Siva a man becomes sinless. After enjoying all extensive worldly pleasures he will attain the region of Siva.</li><li>Merely by listening to the story of Siva a man secures that merit which results from the performance of Rajasuya<noteref7_note7footer>(7)</note>  and a hundred Agnistomas.<noteref8_note8footer>(8)</note></li>' +
-'<li>0 sage, those who listen to Sivapurana the noblest of Sacred lore, cease to be mere human beings. They must be undoubtedly considered as manifestations of Rudra, a form of Siva.</li>' +
-'<li>Sages consider the dust in the feet of those who habitually listen to that Purana and recite it, on a par with holy centres.</li>' +
-'<li>>May those who wish to attain the seat of salvation, listen always to the holy Sivapural).a with great devotion.</li>' +
-'<li>0 noblest among sages, if he is unable to listen to it always, let him hear it for a short while every day with h]s mind fully controlled.</li>' +
-'<li>If any one is unable to listen to it every day, 0 sage, let him listen to Sivapurana in the holy months</li>' +
-'<li>Those who listen to that Pural).a even for a Muhurta (48 minutes), half that period, one fourth of that period or even for a moment will not suffer from mishaps.</li>' +
-'<li>0 lord of sages, the man who listens to that Purana crosses the ocean of worldly existence after burning the great forest of Karma (binding actions).</li>' +
-'<li>0 sage, the· merit that accrues from all gifts and all</li>' +
-'<li>Sacrifices becomes stabilised after listening to Sivapurana.</li>' +
-'<li>Particularly in the age of Kali there is no greater virtue conducive to the achievement of liberation by men, 0 sage, than listening to Sivapurana.</li>' +
-'<li>There is no doubt in this that, listening to the Purana and reciting the names of Siva is as efficacious as the Kalpa tree<noteref9_note9footer>(9)</note>  in yielding one\'s desires.</li>' +
-'<li>For the benefit of the evil-minded persons of the</li>' +
-'<li>Kali age, bereft of virtuous conduct, .Lord Siva has produced the nectar in the form of Sivapurana.</li>' +
-'<li>A single man, the man who drinks nectar, becomes immortal and unageing. But the nectar of the divine story of Siva, if drunk, makes the whole family immortal and unageing..</li>' +
-'<li>The sanctifying story of Sivapurana  must always be resorted to, definitely so.</li>' +
-'<li>Merely by listening to Sivapurana (if such good results) what am I to say about the result when Siva abides in the heart ?</li>' + 
-'<li>This work consists of twenty-four thousand verses divided into seven samhitas (compendiums). The three kinds of Devotion [(I ) by meditation, (2) recital of prayer and (3) acts of worship and service] are fully explained in it.It must be listened to with great respect.</li>' + 
-'<li>The first compendium is called Vidyesvara samhita, second is Rudrasamhita, the third is Sata-Rudra and the fourth is Koti-Rudra;The fifth compendium is called Umasamhita, the sixth is Kailasasamhita and the seventh is Vayaviya. Thus,there are seven samhitas in this Purana.</li><li>This divine Purana of seven samhitas and called after Siva stands on an equal footing with Brahman (i. e. Vedic Texts) and accords an achievement that is superior to everything else.</li>' + 
-'<li>He who reads the entire Sivapural).a without omitting any of the seven samhitas can be called a Jivanmukta (a living liberated soul).</li>' + '<li>0 sage, the ignorant man is tossed about in the ocean of worldly existence till the excellent Sivapurana reaches his ears.</li>' + 
-'<li>Of what avail is listening ·to many sacred texts and other confounding Pura:t,1as ? The Sivapurana alone loudly proclaims (its readiness) to grant salvation.</li>' + 
-'<li>The house where the discourse on this Sivapuana is held becomes a holy centre. It destroys the sins of the inmates of the house.</li>' + 
-'<li>Thousands of horse-sacrifces1<noteref10_note10footer>(10)</note>  and hundreds of Vajapeyan<noteref11_note11footer>(11)</note> sacrifices do not merit even a sixteenth part of Sivapurana.</li>' + 
-'<li>0 best of sages, a sinner is called a sinner till the moment he hears Sivapqra:Q.a with great devotion.</li>' + 
-'<li>The holy rivers, Ganga and others, the seven sacred cities<noteref12_note12footer>(12)</note> and Gaya can never be equal to Sivapurana .</li>' + 
-'<li> If· one wishes for the greatest of goals (Liberation) one shall recite at least a stanza or even half of it from Sivapural).</li>' + 
-               '<li>He who constantly listens to Sivapurana fully comprehending its meaning or simply reads it with devotion is  undoubtedly a meritorious soul.</li>' +
-'<li>Lord Mahesana (Siva) is extremely pleased with the sensible man who listens to Sivapurana when death is imminent. Lord Siva accords him a seat in his own region.</li>' +
-'<li> He who adores this Sivapurana with great devotion enjoys in the world ail desired objects and attains Sivaloka.</li>' +
-'<li> Never slack in his devotion to the Sivapurana he who keeps this work well wrapped in a silk cloth, will ever be happy.</li>' +
-'<li>The holy Sivapurana, the sole possession of a devotee of Siva, should assiduously be resorted to by a person who desires for happiness here and hereafter.</li>' +
-'<li>The holy Sivapurana that accords the four aims of life (virtue, wealth, love and salvation) must be heard and read with great devotion always.</li>' +
-'<li>The Sivapurana, the greatest harbinger of the perfect welfare among the Vedas, Itihasas and other sacred texts must be thoroughly understood by those who seek salvation.</li>' +
-'<li>This Sivapural}a is the greatest resort of the knowers of Atman (Spiritual Seekers) for ever; it is the noblest objectworthy of adoration of good men ; it suppresses the three types of distresses (i. e. physical illness, extraneous attacks and divine calamities) ; it accords happiness always ; and it is very pleasing to all Devas led by Brahma, Hari and Isa.</li>' +
-'<li>With the mind extremely delighted I bow unto Sivapurana for ever. May Siva be pleased and bestow on me a devotion to His feet.</li><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
-               notes: ['Saunaka was the chief of the sages at the great sacrifice in Naimisa forest to whom the Mahabharata and the Pura:r:tas were recited by the Siita in the reign of AdhisimakniJa, the great-grandson of Janamejaya ·and the sixth in generation from Arjuna in the Paurava line.',
-                       'The Sutas (Va I. 32-3; Padma I. I. 27-28) preserved the genealogies of Gods, sages, and glorious monarchs as well as the traditions of great men. Th~ Su ta here is not a caste that is described by Manu (X. I I. I 7) as the offspring of a K~atriya father and Brahman mother. He is a venerable Brahmana who has preserved ballads, songs, genealogies of Gods, sages and glorious Kings.-Pargiter','For the nomenclature and authenticity of this Purfu;ta see Introduction.',
- 'According to the Pauranic tradition, Krisa Dvaipayana Vyasa, the son of Satyavati, composed the eighteen puranas or superintended their compilation.',
-'The puranas were first compiled by Brahma.  Sanatkumara, a son of Brahma  inherited them from his father and imparted them to Vyasa who in turn abridged them in 18 compendiums.',
-'The beginning of the Kali age has been discussed by Dr. Fleet and he has pointed out that it began on th.e day on which Lord Krisna died, which the chronology of the Mahabba rata places, as he shows, some twenty years after the great battle and that it was then that Yudhishthira abdicated and Parikshit began to reign','Rajasiiya is a great sacrifice performed by a universal monarch (in which the tributary princes also take part) at the time of his coronation as a mark of his undisputed sovereignty.',
-'Agnistoma is a sacrificial rite ex tending over several days in spring and forming an essential part of the Jyotistqma.',' Kalpadruma is a mythological tree supposed to grant all  desires.',
- 'In Vedic times the Asvamedha sacrifice was performed by kings desirous of offspring but subsequently it was performed by them for the achievement of universal supremacy: A horse was turned loose- to· wander  at will for a -year, attendeq l;>y 4 guardian; .when the horse enter,ed a foreigncountry, the ruler was bouni either to submit or to fight. In this way the horse returned at the end of a year, the guardian obtaining or enforcing the submission of princes whom he brought in this train. After the succe~sful return of the horse, the horse was sacrificed amidst great rejoicings. It is s~id that the horse was sometimes not immolated ,but kept bound dur,ing the ceremony',
-'Vajapeya is one of the seven forms of the Soma-sacrifice offered by kings or .Bnihmans aspiring to the highest position, and preceding the Rajasuya and the Brhaspatisava.',
-'The seven sacred cities of the Hindus are :Ayodhya, Mathura, Maya, Kasi, Kanchi Avantika and Dvarika.' 
-                      ]
+                content: '<p><ol><li></li><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: []
             }
         ]
     } , {
+    /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
     buttonText: '2',
-    title: 'Chapter Two: The liberation of Devaraya',
+    title: 'Chapter Two: lndra sends Kamadeva to disturb the penance of Narada ',
         headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
              'background-image': 'url("images/lord-shiva-chalisa.jpg")',
@@ -141,39 +130,8 @@ var chapterData = [
         subsections: [
            { 
                 subTitle: '',
-                content: '<p><ol>' +
-                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>'+
-                    '<li>0 Suta, thou art the most blessed and the most fortunate knower of the greatest Truth. Thou hast narrated tous, out of great com passion, this divine wonderful tale.</li>' + 
-'<li>This wonderful narrative that destroys hosts of sins,purifies the mind, and propitiates Lord Siva has been heardby us.</li>' + 
-'<li>Thanks to thy compassion we have decisively realised that there is nothing so fine and nice as this tale.</li>' + 
-'<li>Who are those among sinners in the Kali age who get sanctified by this story ? Please enlighten us. Make the whole world gratified.<br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span></li>' + '<li><ul><li>Men who habitually commit sins, wicked persons indulging in vicious activities and persons of lecherous disposition become pure here by.</li>' +
-'<li>This is a greatJiianayajfia (sacrificial rite of wisdom) ; it yields worldly enjoyment as well as salvation ; it dispels all sins and delights Siva.</li>' +
-'<li>Men overwhelmed by the thirst of covetousness, those devoid of truthfulness, those who decry even their parents, haughty vain fellows and persons prone to violent activities become sanctified by this.</li>' +
-'<li>Those who never practise the duties of their Varnas fie glory of $ivapurana and Asramas {castes and walks of life) and those of malicious temperament become sanctified thanks to the Dnyaanayagnyaeven in the Kali age.</li>' +'<li>Those who always indulge in sinful actions and those who are roguish persons of wicked mind become sanctified by this ]Dnyaanayagnya even in the Kali age.</li>' +
-'<li>Men of unclean habits and wicked minds, men who know no peace and men who swallow temple and trust properties become sanctified by this jfianayajfia even in the Kali age.</li>' +
-'<li>The merit accruing from this Puran.a destroys great sins, yields worldly enjoyments and salvation and delights Lord Siva.</li></ul></li>' +
-'<li>In this context an ancient anecdote is cited as an example, the mere hearing of which, removes all sins utterly.</li>' +
-'<li>In the city of Kiratas there lived a brahmin extremely poor and deficient in (brahmanical) knowledge. He used to sell various kinds of beverage and was averse to the worship of gods or to virtuous ac tivities.</li>' +
-'<li>He never practised the daily Sandhya prayers or ablutions. His practice resembled a Vaisya\'s mode of living. He never hesitated to deceive credulous persons. His name  was Devaraja.</li>' +
-'<li>Either by killing or by using various deceitful means he used to rob Brahmins, K~atriyas, VaiSyas, Siidras and others.</li>' +
-'<li>Thus by foul means much wealth was later accumulated by him. But the sinner that he was, not even the slightest part of his wealth was utilised in virtuous acts .</li>' +
-'<li>Once that brahmin went to a lake to take his bath. There he saw a harlot called Sobhavati and was much agitated at her sight.</li>' +
-'<li>The beautiful woman was extremely delighted on coming to know that a rich brahmin had become her willing slave. The brahmin\'s heart was filled with love due to her pleasant talk.</li>' +
-'<li>He decided to make her his wife and she consented to have him as her husband. Thus in mutual love they sported for a long time.</li>' +
-'<li>Sitting, lying, eating, drinking and playing together they were not at all different from any other wedded couple.</li>' +
-'<li> Dissuaded again and· again by his mother, father, first wife and others though he was, he never paid heed to their words but continued his sinful activities.</li>' +
-'<li> Once he became so enraged as to kill his mother, father and wedded wife at dead of night while they were asleep and took possession of their wealth.</li>' +
-'<li>Enamoured of the courtesan he handed over to her his own wealth and also the wealth that he looted from his father, mother and first wife.</li>' +
-'<li> In the company of this harlot he used to eat all sorts of forbidden food, became an addict to wine and spirituous liquors and partook of his food from the same plate as his concubine.</li>' +
-'<li>Once, by chance, he came to the city of Pratisthana.<noteref1_note1footer>(1) - (13)</note>  He saw a Siva temple where saintly men had congregated.</li>' +
-'<li>During his stay there, he was afflicted by an acute fever. He heard the discourse on Siva conducted by a brahmin.</li>' +
-'<li>The brahmin Devaraja suffering from fever died at the end of a month. He was bound with nooses</li>'+ '<li>In the mean while Siva\'s attendants dressed in white, smeared with ashes all over the body, wearing garlands of Rudraksha and wielding tridents in their hands started furiously from Sivaloka and reached Yama\'s city. They threatened the attendants of Yama (the God of death) and thrashed them. Releasing Devaraja from their clutches they seated him in a wonderful aerial chariot. When they wereabout to start to Kailasa a great tumult arose in the middle of Yama\'s city on hearing which Dharmaraja (the God of Death) himself came out of his palace.</li>' + '<li>  On seeing the four messengers who appeared like replicas of Rudra Himself, Dharmaraja the knower of virtues honoured them in accordance with the custom.</li>' +
-'<li>Yama came to know of everything through his vision of wisdom. Out of fear he did not~question the noble attendants of Siva.</li>'   + '<li>Being duly honoured and adored by Yama, they went to Kailasa and handed over the brahmin to Siva, the very ocean of mercy and to the divine mother Parvati.</li>' +
-'<li>Blessed indeed is the story of Sivapurai}.a, the holiest of holy stories, a mere hearing of which qualifies even the greatest sinner for salvation.</li>' +
-'<li>The great seat of Sadasiva is the greatest abode and the noblest of positions which Vedic scholars have extolled as stationed above all Lokas (worlds).</li>' +
-'<li>Devaraja the base brahmin, addicted to wine, enamoured of a vile harlot, slayer of his own father, mother and wife and who out of greed for money had killed many brahmins, k~atriyas, vaisyas and sudras and others became a liberated soul instantaneously on reaching that supreme Loka</li>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
-               notes: ['(13) Pratistnaa : There are references to two towns of the same name :.<ul><li> (r) a town at the confiuence ofthe Ganges and Yamuna and capital of the early kings of the lunar race,</li><li> (Q) a town on the Godavari arid capital 01 Salivanana.</li></ul> The latter town can be identified with the modern Paithan the Aurangabad district. lt was known \'aS Paithinasipuri\'' 
-                      ]
+                content: '<p><ol><li></li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: []
             }
         ]
     }, {
