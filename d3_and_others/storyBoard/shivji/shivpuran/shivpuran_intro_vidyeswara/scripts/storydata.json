@@ -1479,6 +1479,156 @@ notes: ['73· Three-footed sacred mantra of the Rgveda well-known after its metr
 '75· Guha, literally the mysterious one, is Karttikeya, so called because of his mysterious birth. According to a legend he was the son of Siva produced without the intervention of a woman. Siva cost his seed into fire which was afterwards received by the Ganges : Karttikeya was the result. He is therefore called as the son of Agni and Gailga. When born he was fostered by the · six Krttikas and these offering their. six breasts to the child he became six-heaqed. ']
 }
 ]
+},{/*
+    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '14',
+title: 'VIDYESVARASAMHITA: Chapter 14: Description of Fire Sacrifice, etc',
+headerStyle: { 'color': 'darkorange','font-weight': '1900', 'background-color': 'lightyellow', 'text-shadow': '2px 2px 2px red','opacity':'0.9', 'border': '3px outset crimson'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt14.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<ol><li>0 lord, please tell us in order in detail all these rites viz. the fire sacrifice, the sacrifice to gods, Brahmayajfia, the worship of the preceptor and the gratification of brahmins. </li>'+
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li>The offering made into the fire is called firesacrifice (Agniyajna ). In the case of persons in the Brahmacarya Arama (i.e Religious Students) it is called samidadhana ( collection of sacrificial twigs) . 0 brahmins, until the rite of Aupasana (fire sacrifice of the householder) all the persons in the first Asrama perform their Vratas and special sacrifices in the fire from sacrificial twigs. </li>'+
+'<li>0 brahmins, in the case of ascetics and forestdwellers who have consigned the sacred fire to the Atman, taking a restricted quantity of wholesome food is itself the sacrificial offering. </li>'+
+'<li>Householders who have started their Aupasana rite shall maintain the rite in the sacrificial fire kept in a vessel or pit always. </li>'+
+'<li>The sacrificial fire shall be maintained either in the Atman or in the Arani (the sacrificial churning twig from which fire is kindled) lest the fire should be extinguished by royal or divine intercession. </li>'+
+'<li>0 brahmins, the offering in the fire in the evening for the fire-god is the bestower of prosperity. The offering in the morning for the sun-god is conducive to longevity. </li>'+
+'<li>This is called Agniyajna in as much as it enters the sun during the day. The different sacrifices Sthalipaka etc. for the propitiation of Indra and other gods by offerings in the fire are called Devayajna. The rites of Caula (ceremony of tonsure) etc. are performed in the ordinary fir€. </li>'+
+'<li>The regular study of the Vedas is called Brahmayajna. A brahmin shall perform this constantly for the propitiation of gods. </li>'+
+'<li>This is to be practised by all and hence no special rules are prescribed here. Now attend to the explanation of certain Devayajnas without fire. </li>'+
+'<li>At the beginning of the first creation, the omniscient, merciful Lord Mahadeva created the different week days for the benefit of the entire world. </li>'+
+'<li>Lord Mahadeva, the global physician, the omnisw cient, the panacea of all panaceas, made the first day his own day that bestows good health. </li>'+
+'<li>Next he created the day of his Maya (Illusion) the bestower of prosperity. Afterwards when the birth of Kumara was attended with some mishaps he created the day for the sake of surmounting mishaps and idleness. With a desire to bless the worlds and for their nurture and protection he created the next day dedicated to Visnu, the protector of the worlds. . The next day created by the lord is for the sake of the longevity of the worlds dedicated to the creator of the three worlds, Brahma, called also Paramesthin, who is the bestower of longevity too. Hence this day too bestows longevity. </li>'+
+'<li>The last two days of the week created by the lord are those of Indra and Yama. In the beginning when the lord created Punya and Papa (Virtue and Sin) for making the three worlds flourish, these deities who preside over them were assigned these two days. </li>'+
+'<li>The last two days are the bestowers of worldly enjoyments and removers of premature death respectively. The lord made the sun etc. who are His own manifestations and are firmly established in the solar cycle (Jyotiscakra<noteref1_note1footer>(1) - (76)</note>)  the lords of the different days. Their worship in their resw pective days accords the respective benefits viz :-health, riches, removal of sickness, nourishment, longevity. enjoyw ment of pleasures and prevention of death respectively. It is said that the respective merits of the different days are secured through the gratification of the gods. Siva is the ultimate bestower of the fruits accruing from the worship of other gods as well.  </li>'+
+'<li>The worship for the propitiation of the deities is, fivefold. 1. the repeated recitation of the respective mantras 2. sacrifice 3. charitable gift 4. austerities and 5. propitiation, on the altar, idol, fire or a brahmin. The sixteen forms of service and homage shall be duly observed. </li>'+
+'<li>Of the fivefold forms of worship the latter are more efficacious than the former. In the absence of the earlier ones the latter ones can be observed. In the ailments of the eyes or head or for quelling leprosy, the sun shall be worshipped and the brahmins fed for a day, a month, a year or three years.</li>'+
+'<li>If the action meritorious or otherwise that has begun to fructify is sufficiently strong, the ailments old age etc. are alleviated. The repetition of the mantras of the favourite deity accords the respective benefits of the day of the week. The first day of the week dedicated to the sun has the special merit of the removal of sin, especially for brahmins. </li>'+
+'<li>For the sake of riches, the intelligent devotee shalL worship Lakshmi etc. on Monday with cooked rice soaked in ghee and shall feed brahmin couples. </li>'+
+'<li>For alleviating ailments the devotee shall worship Kali and others on Tuesday. He shall feed brahmins with an Adhaka (a measure) of cooked rice, the pulse, black gram and green gram. </li>'+
+'<li>The scholarly devotee shall worship Visnu with curd-rice on Wednesday. Sons, friends, womenfolk etc. will always be well-nourished for ever. </li>'+
+'<li>A person who seeks longevity shall worship the deities for their gratification, with sacred thread, cloth, milk and ghee on Thursday. </li>'+
+'<li>On Friday, for the sake of enjoyment of worldly pleasures, the devotee shall worship devas with concentration. Brahmins should be propitiated with the cooked food consisting of six :flavours.<noteref2_note2footer>(2) - (77)</note> </li>'+
+'<li>Good cloth should be presented to women to gladden them. The wise devotee shall worship Rudra and others on Saturday that wards off premature death, by performing Homa with gingelly seeds. He shall make gifts to the brahmins and feed them with cooked rice and gingelly seeds. Thus worshipping the deities he shall derive the fruit of good health etc. </li>'+
+'<li>In the daily or special sacrifices of the deities, ceremonial ablutions, charitable gifts, repeated muttering of mantras, sacrifices, propitiation of the brahmins, in the worship of the different devas in view of special dates or special conjunction of the planets, or in the different days of the week it is the omniscient lord of the universe who bestows health and other benefits by assuming the different forms. He bestows the same according to the time, place and the deserts of the recipient. </li>'+
+'<li>The articles for worship shall be in accordance with one\'s faith or local conventions. The lord bestows health etc. in accordance with the comparative quality of the same. </li>'+
+'<li>In the beginning of the period of auspiciousness, the end of the period of inauspiciousness, on birth days (according to the stars) etc. the householder shall worship the planets, Sun etc. in his own house for his good health etc. </li>'+
+'<li>Hence the · worship of gods bestows all desired fruits. The worship conducted by brahmins must be along with mantras and by means of gesticulations in the case of others. </li>'+
+'<li>The worship shall be carried out by men seeking good benefits in all the seven days in accordance with their capacity. </li>'+
+'<li>Indigent men shall worship devas with austerities and rich men by spending money. Again and again they shall do virtuous actions with sufficient faith. </li>'+
+'<li>After enjoying the pleasures in heaven they are reborn again in the world. For better enjoyment the rich shall always plant trees for shade, dig tanks etc, install deities, and carry on virtuous activities. After the lapse of some time, when the virtue becomes ripe he shall achieve perfect knowledge. 0 brahmins, he who hears this chapter, or reads it or he who facilitates the hearing of the same shall derive the fruit of Devayajna.</li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['76. Jyotichakra or Simsumara Chakra refers to the system of stars, planets and constellations conceived of as a Cakra rotating like the Potter\'s wheel. The vast space is an ocean in which the stars are arranged like the body of a giant alligator. The imagery of the wheel implies a fixed centre to which the whole system of moving stars is secured by certain pulls, spoken of as winds (Vata) in physical form but actually invisible forces exercised by the centre on the peripheral stars. ',
+'77· Six flavours are : (1) pungent, (2) sour, (3) sweet, (4) salt, (5) bitter and (6) astringent. ']
+}
+]
+},{/*
+    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '15',
+title: 'VIDYESVARASAMHITA: Chapter 15: Description of the qualification, time and place for Devayajna etc',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'beige', 'text-shadow': '2px 2px 2px darkorange','opacity':'0.9', 'border': '3px outset red'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt15.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<ol><li> 0 Suta, foremost among those who know everything, please expound to us the place etc. </li>'+
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li>The offering made into the fire is called firesacrifice (Agniyajna ). In the case of persons in the Brahmacarya Arama (i.e Religious Students) it is called samidadhana ( collection of sacrificial twigs) . 0 brahmins, until the rite of Aupasana (fire sacrifice of the householder) all the persons in the first Asrama perform their Vratas and special sacrifices in the fire from sacrificial twigs. </li>'+
+'<li>0 brahmins, in the case of ascetics and forestdwellers who have consigned the sacred fire to the Atman, taking a restricted quantity of wholesome food is itself the sacrificial offering. </li>'+
+'<li>Householders who have started their Aupasana rite shall maintain the rite in the sacrificial fire kept in a vessel or pit always. </li>'+
+'<li>The sacrificial fire shall be maintained either in the Atman or in the Arani (the sacrificial churning twig from which fire is kindled) lest the fire should be extinguished by royal or divine intercession. </li>'+
+'<li>0 brahmins, the offering in the fire in the evening for the fire-god is the bestower of prosperity. The offering in the morning for the sun-god is conducive to longevity. </li>'+
+'<li>This is called Agniyajna in as much as it enters the sun during the day. The different sacrifices Sthalipaka etc. for the propitiation of Indra and other gods by offerings in the fire are called Devayajna. The rites of Caula (ceremony of tonsure) etc. are performed in the ordinary fir€. </li>'+
+'<li>The regular study of the Vedas is called Brahmayajna. A brahmin shall perform this constantly for the propitiation of gods. </li>'+
+'<li>This is to be practised by all and hence no special rules are prescribed here. Now attend to the explanation of certain Devayajnas without fire. </li>'+
+'<li>At the beginning of the first creation, the omniscient, merciful Lord Mahadeva created the different week days for the benefit of the entire world. </li>'+
+'<li>Lord Mahadeva, the global physician, the omnisw cient, the panacea of all panaceas, made the first day his own day that bestows good health. </li>'+
+'<li>Next he created the day of his Maya (Illusion) the bestower of prosperity. Afterwards when the birth of Kumara was attended with some mishaps he created the day for the sake of surmounting mishaps and idleness. With a desire to bless the worlds and for their nurture and protection he created the next day dedicated to Visnu, the protector of the worlds. . The next day created by the lord is for the sake of the longevity of the worlds dedicated to the creator of the three worlds, Brahma, called also Paramesthin, who is the bestower of longevity too. Hence this day too bestows longevity. </li>'+
+'<li>The last two days of the week created by the lord are those of Indra and Yama. In the beginning when the lord created Punya and Papa (Virtue and Sin) for making the three worlds flourish, these deities who preside over them were assigned these two days. </li>'+
+'<li>The last two days are the bestowers of worldly enjoyments and removers of premature death respectively. The lord made the sun etc. who are His own manifestations and are firmly established in the solar cycle (Jyotiscakra<noteref1_note1footer>(1) - (76)</note>)  the lords of the different days. Their worship in their resw pective days accords the respective benefits viz :-health, riches, removal of sickness, nourishment, longevity. enjoyw ment of pleasures and prevention of death respectively. It is said that the respective merits of the different days are secured through the gratification of the gods. Siva is the ultimate bestower of the fruits accruing from the worship of other gods as well.  </li>'+
+'<li>The worship for the propitiation of the deities is, fivefold. 1. the repeated recitation of the respective mantras 2. sacrifice 3. charitable gift 4. austerities and 5. propitiation, on the altar, idol, fire or a brahmin. The sixteen forms of service and homage shall be duly observed. </li>'+
+'<li>Of the fivefold forms of worship the latter are more efficacious than the former. In the absence of the earlier ones the latter ones can be observed. In the ailments of the eyes or head or for quelling leprosy, the sun shall be worshipped and the brahmins fed for a day, a month, a year or three years.</li>'+
+'<li>If the action meritorious or otherwise that has begun to fructify is sufficiently strong, the ailments old age etc. are alleviated. The repetition of the mantras of the favourite deity accords the respective benefits of the day of the week. The first day of the week dedicated to the sun has the special merit of the removal of sin, especially for brahmins. </li>'+
+'<li>For the sake of riches, the intelligent devotee shalL worship Lakshmi etc. on Monday with cooked rice soaked in ghee and shall feed brahmin couples. </li>'+
+'<li>For alleviating ailments the devotee shall worship Kali and others on Tuesday. He shall feed brahmins with an Adhaka (a measure) of cooked rice, the pulse, black gram and green gram. </li>'+
+'<li>The scholarly devotee shall worship Visnu with curd-rice on Wednesday. Sons, friends, womenfolk etc. will always be well-nourished for ever. </li>'+
+'<li>A person who seeks longevity shall worship the deities for their gratification, with sacred thread, cloth, milk and ghee on Thursday. </li>'+
+'<li>On Friday, for the sake of enjoyment of worldly pleasures, the devotee shall worship devas with concentration. Brahmins should be propitiated with the cooked food consisting of six :flavours.<noteref2_note2footer>(2) - (77)</note> </li>'+
+'<li>Good cloth should be presented to women to gladden them. The wise devotee shall worship Rudra and others on Saturday that wards off premature death, by performing Homa with gingelly seeds. He shall make gifts to the brahmins and feed them with cooked rice and gingelly seeds. Thus worshipping the deities he shall derive the fruit of good health etc. </li>'+
+'<li>In the daily or special sacrifices of the deities, ceremonial ablutions, charitable gifts, repeated muttering of mantras, sacrifices, propitiation of the brahmins, in the worship of the different devas in view of special dates or special conjunction of the planets, or in the different days of the week it is the omniscient lord of the universe who bestows health and other benefits by assuming the different forms. He bestows the same according to the time, place and the deserts of the recipient. </li>'+
+'<li>The articles for worship shall be in accordance with one\'s faith or local conventions. The lord bestows health etc. in accordance with the comparative quality of the same. </li>'+
+'<li>In the beginning of the period of auspiciousness, the end of the period of inauspiciousness, on birth days (according to the stars) etc. the householder shall worship the planets, Sun etc. in his own house for his good health etc. </li>'+
+'<li>Hence the · worship of gods bestows all desired fruits. The worship conducted by brahmins must be along with mantras and by means of gesticulations in the case of others. </li>'+
+'<li>The worship shall be carried out by men seeking good benefits in all the seven days in accordance with their capacity. </li>'+
+'<li>Indigent men shall worship devas with austerities and rich men by spending money. Again and again they shall do virtuous actions with sufficient faith. </li>'+
+'<li>After enjoying the pleasures in heaven they are reborn again in the world. For better enjoyment the rich shall always plant trees for shade, dig tanks etc, install deities, and carry on virtuous activities. After the lapse of some time, when the virtue becomes ripe he shall achieve perfect knowledge. 0 brahmins, he who hears this chapter, or reads it or he who facilitates the hearing of the same shall derive the fruit of Devayajna.</li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['76. Jyotichakra or Simsumara Chakra refers to the system of stars, planets and constellations conceived of as a Cakra rotating like the Potter\'s wheel. The vast space is an ocean in which the stars are arranged like the body of a giant alligator. The imagery of the wheel implies a fixed centre to which the whole system of moving stars is secured by certain pulls, spoken of as winds (Vata) in physical form but actually invisible forces exercised by the centre on the peripheral stars. ',
+'77· Six flavours are : (1) pungent, (2) sour, (3) sweet, (4) salt, (5) bitter and (6) astringent. ']
+}
+]
 },
     {
         title: 'PART 7 The Birth of Shree Krishna',
