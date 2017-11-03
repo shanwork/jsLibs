@@ -1917,6 +1917,97 @@ notes: ['87. The words Pravrtta and Nivrtta designate respectively the persons w
 '88. Vyahrtis are the mystical utterances, seven in number, viz. Bhuha:, Bhuwaha, Swaha, Maha, Janaha, Tapaha, Satyam Each of the vyahrtis are preceded by the Om. ']
 }
 ]
+},{/*
+    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note2footer>(2) - (79)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '18',
+title: 'VIDYESVARASAMHITA: Chapter 18: The nature of bondage and liberation and Glorification of the phallic emblem of Siva',
+headerStyle: { 'color': 'blue','font-weight': '1900', 'background-color': 'lightblue', 'text-shadow': '1px 1px 1px darkblue','opacity':'0.9', 'border': '3px outset gray', 'padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt18.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<ol><li> 0 foremost among those who know everytliing, please explain the nature of bondage and liberation. </li>'+
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span><br/>' +
+'I shall explain bondage, liberation and the means of liberation. Please listen attentively<br/>' +
+'<li>A Jiva is said to be in bondage if he is tied up by the noose of eightfold primary essences, Prakrti etc. When freed from them he is called liberated.</li>' +
+'<li>Perfect control and subjugation of Prakrti and its offshoots is Salvation. A Jiva in bondage when freed from it is called a liberated soul. </li>' +
+'<li>The set of eight that binds is :-Prakrti, Buddhi (cosmic intellect), Ahamkara (cosmic ego) of the nature of attributes, and the five Tanmatras (cosmic principles of Ether etc.) </li>'+
+'<li>The body is evolved out of these eight. The body carries on activities. The activities generate the body. Thus birth and activities continue in a series. </li>' +
+'<li>The body is of three types: the gross, the subtle and the causal. The gross body is responsible for all activities; the subtle body yields the enjoyment of pleasures through the senses. . The causal body is for the sake of experiencing the good and bad results of the activities of the Jiva. The Jiva experiences happiness as a result of virtue and misery as a result of sin. </li>' +
+'<li>The Jiva bound by the rope of activities revolves round and round for ever like a wheel by means of the three types of body and their activities. </li>' +
+'<li>The creator of the wheel must be worshipped for the cessation of the revolution of the wheel. The Prakrti etc. constitute the great wheel and Siva is beyond the Prakrti. </li>' +
+'<li>The creator of the wheel is the Lord Siva. He is beyond the Prakrti. Just as a boy drinks or spits out water as he pleases so also Siva keeps Prak:rti etc. just as he pleases. He is called Siva because he has brought it under his control. (Vasikrta). Siva alone is omniscient, perfect and free from desire. </li>' +
+'<li>The mental prowess of Mahesvara which Vedas alone can comprehend consists of omniscience, satiety, beginningless understanding, independence, never failing and and infinite power. . </li>' +
+'<li>Hence Prakirti etc. came under control due to Siva\'s grace. One shall worship Siva alone for the acquisition of Siva\'s grace. </li>' +
+'<li>If one were to ask "How can there be a self-less worship of a perfect being?" the answer is "An activity done with dedication to Siva shall cause pleasure to him". </li>' +
+'<li>Keeping Siva in view the devotee shall worship the phallic or the embodied image of Siva, or his devotee. He shall worship his devotee by means of the body, mind, speech and money spent. </li>' +
+'<li>Siva, the great lord, who is beyond Prakrti is delighted at the worship and specially blesses the worshipper. </li>' +
+'<li>The Karma etc. come under control gradually due to Siva\'s grace. Beginning with Karma and ending with Prak:rti when everything comes under control, the Jiva is called liberated and he shines as a self-realised person. By the grace of Siva, when this body which is resultant from activities (Karmadeha) comes under control, the devotee attains residence in Sivaloka. This is called Salokya form of liberation. When the subtle elements come under control, the devotee attains nearness to Siva</li>'+
+'<li>Then he attains similarity with Siva by means of weapons and activities. This is called Sarupya. When the devotee acquires the great favour, the cosmic intellect too comes under control. </li>' +
+'<li>The cosmic intellect is only an effect of the Prakrti. The control of Intellect is called Sarsti - a form of liberation wherein the devotee has the same rank and power as Siva. Then due to a further great favour of Siva, the Prakrti comes under control. </li>' +
+'<li>The mental prowess of Siva becomes his without any difficulty. On acquiring the omniscience and prosperity of Siva, the devotee becomes resplendent in his soul. This is called Sayujya (complete identity) by persons wellversed in the Vedas and Agamas (Traditional Sacred Texts). It is in this order that one gets salvation by the worship of the phallic image of Siva. </li>' +
+'<li>Hence the devotee shall worship Siva by performing sacred rites etc. for the acquisition of Siva\'s favour. Siva\'s sacr~ rites, Siva\'s penance, and the Japas of Siva mantras always. </li>' +
+'<li>Knowledge of Siva and meditation on Him shall be practised more and more. The time till retirement to bed, the time till death shall be spent in contemplating over Siva. </li>' +
+'<li>He shall adore Siva by means of the "Sadyo" mantras and flowers. He will attain welfare. </li>'+
+'<em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span><br/>' +
+'0 excellent one of good rites, please explain the rules governing worship of Siva in the phallic and other forms.<br/>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span><br/>' +
+'I shall explain, 0 brahmins, the procedure of the worship of the phallic form, please listen. The first phallic form is the Pra:gava that confers all desires. <br/>' +
+'<li>It is called Suksma Pra:gava (the subtle one) if it is Niskala. The Sthula (gross one) is Sakala and it consists of five constituent syllables. </li>' +
+'<li>The worship of these two is called a penance. Both of them accord salvation. There are many phallic emblems of Purusa Prakrti. </li>' +
+'<li>Siva alone can explain them in detail. No one else. Such as are evolved of Earthly material are known to me which I shall explain to you all. </li>' +
+'<li>These are of five types: (I) Svayambhu, ( 2) Bindu, ( 3) Pratisthita, ( 4) Cara, ( 5) Guru Linga. </li>' +
+'<li>When he is gladdened by the austerities of devas and sages, Siva in the form of Nada assumes the form of a seed under the ground and suddenly piercing the ground above like a germinating sprout manifests Himself outside and makes His presence felt. Since this emblem is self-raised it is called Svayambhii. </li>' +
+'<li>By worshipping it the devotee gains increasing knowledge automatically. In a gold or silver plate or on the ground or an altar, the devotee draws the picture of the phallic emblem, the pure Pranava mantra and shall invoke it with the rites of Pratistha and Avahana. </li>' +
+'<li>The Bindu and Nada forms, the stationary or mobile ohes are conceptual but belong to Siva, undoubtedly. </li>' +
+'<li>Wherever Siva is sincerely believed to be present, the lord bestows on the devotee the benefit through that alone. The devotee can invoke the lord in a natural immobile thing-a rock or a stump-or an engraved picture and worship Siva by the sixteen Upacharas (services and homage). He will attain supreme power of the lord and by practice gain knowledge. </li>' +
+'<li>If the· image is installed with pure mind in a pure altar either by the Gods or the sages for the realisation of the soul, it is called Paurusa and it comes under the category of the installed pha1lic image of Siva.</li>' +
+'<li>By a regular worship of this phallic image, the devotee will obtain all Pauru~a Aisvaryas (human riches). If great brahmins or ric.h kings install a linga prepared by the artisans, it is called Prati~thita and Prakrta. It accords enjoyment of Prakrta Aisvarya (Natural riches ) to the worshipper. </li>' +
+'<li>That which IS forceful and permanent is called Paurusa. That which Is weak and temporary is called Prakrta. </li>' +
+'<li>The spiritual cum mobile form is represented by the constituents of the body, viz. the penis, navel, tongue, the tip of the nose, hips etc. </li>' +
+'<li>The mountain comes under the Paurusa class and the surface of the world under the Prakrta class. Trees etc. are Paurusa and creepers etc. are Prakrta. </li>' +
+'<li>The $astika rice is Prakrta but rice of the Sali variety and wheat are Paurusa. The Aisvarya is Paurusa. It bestows eightfold siddhis viz. Apima etc. </li>' +
+'<li>The Prakrta linga bestows good women, riches etc. according to the believers. Now, first of all I shall mention the Rasalinga from among Caralingas. ( Rasalinga is mentioned as the foremost among mobile lirigas). </li>' +
+'<li>Rasalinga is a bestower of all wishes to the brahmins. The auspicious Banalinga is a bestower of vast kingdoms to the Ksatriyas. </li>' +
+'<li>A gold linga bestows the ownership of vast wealth on the Vaisyas. A Shilalinga (a linga made of rock) bestows great purity on the Sudras. </li>' +
+'<li>A crystal linga and a Banalinga bestow all sort of wishes on all. If a devotee does not possess a linga of his own, there is no harm in using another\'s liriga for the purpose of worship. </li>' +
+'<li>An Earthly linga shall be used by women especially by those whose husbands are alive. In the case of widows who are engaged in worldly and sacred rites a crystal liriga is recommended. </li>' +
+'<li>0 sages of good rites, in the cases of widows whether they be in a childhood, youth or old age, a Rasaliriga is specially recommended if they continue to be holding rites. </li>' +
+'<li>A ling a of pure crystal bestows all sorts of worldly enjoyment on women. The worship of the pedestal grants all cherished desires of the worshipper in this world. </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: []
+}
+]
 },
     {
         title: 'PART 7 The Birth of Shree Krishna',
