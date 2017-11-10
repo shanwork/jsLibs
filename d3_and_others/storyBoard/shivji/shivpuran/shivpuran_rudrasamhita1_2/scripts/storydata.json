@@ -26,27 +26,7 @@ var defaultContentStyle =   { 'border':'3px outset orange',
               'background-color':'lightgoldenrodyellow'};
 var chapterData = [
     
-    {
-        title: 'Introduction',
-        buttonText: 'Introduction',
-        buttonStyle :  "padding:3px;background-color:aliceblue  ; border: 2px outset blue;margin:2px; border-radius:3px;color:blue;font-weight:bold",
-        contentStyle: { 'border':'3px outset orange',
-             'background-image': 'url("images/sample1.jpg")',
-             'background-size': 'contain',
-             'border-radius':'4px', 
-             'padding':'2px',
-             'color':'orange', 
-             'opacity':'0.5',
-              'background-color':'lightgoldenrodyellow',
-            'text-align':'left'} ,
-        subsections: [
-           { 
-                subTitle: '',
-                content: '<p>&nbsp;&nbsp;&nbsp;&nbsp;The Purana is a class of literature that treats of ancient religion, philosophy, history, sociology, politics and other subjects. It is an encyclopaedia of various branches of knowledge and ancient wisdom. It has been defined as a class of' + 
-               ' literature that contains material on the topics of Creation, Dissolution of Manus, Ages of Manus, Genealogies and the History of glorious kings. For dealing primarily with these subjects it has been called Panchalaksana -a title that was incorporated in the Puranas  themselves and had become popular by the Fifth century A.D.</p>'
-            }
-        ]
-    },
+
     {
     /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
@@ -73,8 +53,8 @@ var chapterData = [
 '<li>
 */
     buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: 'RUDRA-SAMHITA SECTION I, Chapter 1',
-        title: 'Chapter One: Inquiry of the sages ',
+    buttonText: 'RUDRA-SAMHITA, SRISHTI-KHAND,VICTORY OF NARADA OVER \'KAMA\'',
+        title: 'RUDRA-SAMHITA, SRISHTI-KHAND,VICTORY OF NARADA OVER \'KAMA\' ',
         headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
              'background-image': 'url("images/meditation_1.jpg")',
@@ -86,8 +66,20 @@ var chapterData = [
               'background-color':'skyblue'} ,
         subsections: [
            { 
-                subTitle: 'Greatness of Sivapurana<span id=\'top\'>..</span>',
-                content: '<p><ol><li></li><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+                subTitle: '',
+                content: '<p>Once upon a time a Narada was performing a penance in the cave of Himalaya mountain. Indra becoming fearful sent Kamadev to obstruct his penance. But Kamadeva was unsuccessful in his attempt as the place where Narada was doing penance was the same place where Lord Shiva did penance. After the completion of his penance, Narada became arrogant that he had defeated Kamadeva. He went to Kailash mountain and narrated about his feat to Lord Shiva. Narada was naïve not to realize the fact hat is happened only because of the divine power of Shiva. </p>' +
+                          '<p>Lord Shiva listened to his arrogant statement. He advised Narada not to reveal this secret to anybody. But Narada went to Brahmaloka and boasted about his feet to Lord Brahma.</p>' +
+           '<p>Lord Brahma listened to his boisterous statements and advised him not to reveal this to anybody.</p>' +
+'<p>But Narada was not satisfied. He wanted to give the news of his achievement to Lord Vishnu. So, he went to Lord Vishnu\'s abode and boasted about his feat of defeating Kamdeva.</p>' +
+'<p>Lord Vishnu with a desire to subdue his inflated ego, manifested his illusionary power with the blessings of Lord Shiva.</p>' +
+'<p>While Narada was returning from Vaikuntha Loka, he saw a beautiful city. This city was ruled by a king named Sheelnidhi. The king had a daughter and her Swayamvar was being organised. Numerous kings had arrived to take part in that Swayamvar. Narada, curiously entered the place were Swayamvar was being held. The king requested Narada to study the lines of the palm of the princess. Narada was infatuated by the princess‘ beauty. He returned back to Lord Vishnu and expressed his desire of marrying that princess. He also requested Vishnu to make him as handsome as himself (Vishnu).</p>' +
+'<p>Lord Vishnu made Narada\'s whole body very beautiful except his face. Which he made like a monkey. Narada being unaware of this happily went back to Swayamvar site. Narada sat among the kings - his face resembling like a monkey Lord Vishnu too was present there. The princess saw Narada, whose face was looking like a monkey. She was amused. Ultimately she put the garland around the neck of Lord Vishnu and went to Vaikuntha Loka alongwith him.  </p>' +
+'<p>Some of the Shiva\'s gana too were present there in the guise of a brahmin. Their names were Marud ganas. When they saw Narada to see the reflection of his face in the water.  </p>' +
+'<p>When Narada saw his face in the water, he saw that he was looking like a monkey. He became very furious and cursed the Marudganas to be the born as demons, even though being brahmins by birth.</p>' +
+'<p>Furious Narada then went to Lord Vishnu and cursed him- "You too would suffer due to separation from your wife, during your incarnation of Rama and the monkey would come to your help.</p>' +
+'<p>Lord Vishnu accepted Narada\'s curse without any hesitation. He then removed the illusionary powers by which Naradas\' mind was influenced. Now Narada regretted his actions. Lord Vishnu told Narada that everything happened because of Shiva\'s divine illusions.</p>' +
+'<p>"You did not pay heed to his advice and hence Shiva by his illusions, has taught you a lesson. Shiva is beyond the reach of the three basic qualities -Satva, Rajas and Tamas. Therefore you must worship and contemplate on the name of Shiva. All of your sins will be destroyed. </p>' +
+'<p>After preaching Narada, Lord Vishnu vanished from his sight. Narada then descended down to earth and while having darshan of numerous Shivalingas, he saw two of the Marudganas, whom he had cursed. He told both of them that they would take birth from a giantess\'s womb, but their father would be sages. He also told them that they would become very famous due to their devotion, Narada went to lord Brahma and requested him to tell about the divinity of Shiva.</p><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
                notes: []
             }
         ]
