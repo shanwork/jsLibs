@@ -1,0 +1,161 @@
+var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultPrevButtonStyle = "float:left;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultNextButtonStyle = "float:right;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right:20px;";
+        var leftNavigation = true ;
+var defaultHeaderStyle=
+    {
+        'font-weight': '900',
+        'color':'firebrick',
+         'background-color': 'transparent', 'opacity':'1.5'
+    };
+var defaultDetailStyle = { 
+      'background-color':'lightgoldenrodyellow',
+        'opacity':'0.7',
+        'margin': '10px',
+      'padding':'5px',
+        'color':'black',
+        'font-weight':'900',
+        'border':'2px solid red'};
+var defaultContentStyle =   { 'border':'3px outset orange',
+             'background-image': 'url("images/lord-krishna-786.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'lightgoldenrodyellow'};
+var chapterData = [
+    
+
+    {
+    /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: 'RUDRA-SAMHITA, SRISHTI-KHAND,',
+        title: 'SRISHTI-KHAND',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/rudraSamhita/shrishti_khand1.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: 'VICTORY OF NARADA OVER \'KAMA\'',
+                content: '<p>Once upon a time a Narada was performing a penance in the cave of Himalaya mountain. Indra becoming fearful sent Kamadev to obstruct his penance. But Kamadeva was unsuccessful in his attempt as the place where Narada was doing penance was the same place where Lord Shiva did penance. After the completion of his penance, Narada became arrogant that he had defeated Kamadeva. He went to Kailash mountain and narrated about his feat to Lord Shiva. Narada was naïve not to realize the fact hat is happened only because of the divine power of Shiva. </p>' +
+                          '<p>Lord Shiva listened to his arrogant statement. He advised Narada not to reveal this secret to anybody. But Narada went to Brahmaloka and boasted about his feet to Lord Brahma.</p>' +
+           '<p>Lord Brahma listened to his boisterous statements and advised him not to reveal this to anybody.</p>' +
+'<p>But Narada was not satisfied. He wanted to give the news of his achievement to Lord Vishnu. So, he went to Lord Vishnu\'s abode and boasted about his feat of defeating Kamdeva.</p>' +
+'<p>Lord Vishnu with a desire to subdue his inflated ego, manifested his illusionary power with the blessings of Lord Shiva.</p>' +
+'<p>While Narada was returning from Vaikuntha Loka, he saw a beautiful city. This city was ruled by a king named Sheelnidhi. The king had a daughter and her Swayamvar was being organised. Numerous kings had arrived to take part in that Swayamvar. Narada, curiously entered the place were Swayamvar was being held. The king requested Narada to study the lines of the palm of the princess. Narada was infatuated by the princess‘ beauty. He returned back to Lord Vishnu and expressed his desire of marrying that princess. He also requested Vishnu to make him as handsome as himself (Vishnu).</p>' +
+'<p>Lord Vishnu made Narada\'s whole body very beautiful except his face. Which he made like a monkey. Narada being unaware of this happily went back to Swayamvar site. Narada sat among the kings - his face resembling like a monkey Lord Vishnu too was present there. The princess saw Narada, whose face was looking like a monkey. She was amused. Ultimately she put the garland around the neck of Lord Vishnu and went to Vaikuntha Loka alongwith him.  </p>' +
+'<p>Some of the Shiva\'s gana too were present there in the guise of a brahmin. Their names were Marud ganas. When they saw Narada to see the reflection of his face in the water.  </p>' +
+'<p>When Narada saw his face in the water, he saw that he was looking like a monkey. He became very furious and cursed the Marudganas to be the born as demons, even though being brahmins by birth.</p>' +
+'<p>Furious Narada then went to Lord Vishnu and cursed him- "You too would suffer due to separation from your wife, during your incarnation of Rama and the monkey would come to your help.</p>' +
+'<p>Lord Vishnu accepted Narada\'s curse without any hesitation. He then removed the illusionary powers by which Naradas\' mind was influenced. Now Narada regretted his actions. Lord Vishnu told Narada that everything happened because of Shiva\'s divine illusions.</p>' +
+'<p>"You did not pay heed to his advice and hence Shiva by his illusions, has taught you a lesson. Shiva is beyond the reach of the three basic qualities -Satva, Rajas and Tamas. Therefore you must worship and contemplate on the name of Shiva. All of your sins will be destroyed. </p>' +
+'<p>After preaching Narada, Lord Vishnu vanished from his sight. Narada then descended down to earth and while having darshan of numerous Shivalingas, he saw two of the Marudganas, whom he had cursed. He told both of them that they would take birth from a giantess\'s womb, but their father would be sages. He also told them that they would become very famous due to their devotion, Narada went to lord Brahma and requested him to tell about the divinity of Shiva.</p><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: []
+            },{
+            subTitle: 'BRAHMA PREACHES NARADA ON ORIGIN OF VISHNU',
+            content: '<p>On Narada\'s request Brahma said-</p>' +
+'<p>During the period of MahaPralaya (Final annihilation) nothing exist, except Shiva. The power which Shiva manifested from his own self came to be known as Ambika. This Ambika is understood to be the cause of the whole world as well as the Nature. Lord Shiva then created a Shivaloka, which is known as Kashi. It is the abode of Shiva and Parvati. A man who makes a pilgrimages of Kashi attains salvation.  </p>' +
+'<p>Lord Shiva, felt the need of somebody, who could look after the creation in his absence, as he wanted to retire along with Ambika at Kashi. The unified energy of Shiva and Ambika, resulted into a radiant physical form of a child. The child asked Shiva about his name and purpose of his being. </p>' +
+'<p>Lord Shiva named the child as Vishnu and advised him to do a penance which would help him to attain all kinds of accomplishment. He then offered him the knowledge of Vedas, through his breath. For this reason it has been said-</p>' +
+'<p>"YASYA NISHVASITAM VEDAH " Meaning: Whose exhaled air is Veda. </p>' +
+'<p>Vishnu followed the instruction of Shiva and did a tremendous penance for twelve years, but still he was not successful in having a darshan of lord Shiva for the second time. He became worried. He heard a heavenly voice, instructing him to do further penance</p>' +
+'<p>Vishnu then recommenced his penance. It continued for many days. By the blessings of Shiva, numerous fountain of streams errupted from his body, which spread in all directions in the form of Brahma. Vishnu was very pleased to see that stream. He went to sleep in that streams due to which he also came to be known as \'Narayan\'. One who has his abode in the water. After that, all the five elements manifested from his self. The three qualities- Salva, Rajos and Tamas as well as the ego manifested from his body. Similarly, five Tanmantras (Subtle form of matter), Panchabhuta (Sky water, air, fire and earth) and ultimately five sense organs and five organs of action also manifested from. Altogether twenty-four types of element manifested from the body of Sri Vishnu. </p>' +
+'<p>Brahma told Narada- </p>' +
+'<p>"While Vishnu was sleeping in the water, a lotus flower manifested from the navel of Vishnu according to the wish of Shiva. On that lotus was seated with four heads. I did not see anything except that lotus flower. I had a desire to know about my identity. So I entered into the hollow tubular stalk of that lotus flower, but I was not able to find the source. I returned back to the same place. Suddenly I heard a voice which instructed me to do penance. I did a tremendous penance for twelve years with a desire to know about my creator. Being pleased with me, lord Vishnu manifested before me with in his Chaturbhuj form, but I could not identify him, being influenced by the illusionary power of Shiva. I quarreled with him." </p>' ,
+notes: []
+},
+{
+subTitle: 'SIVA ENDS BRAHMA – VISHNU  DISPUTE AND SHABDA BRAHMA ',
+content: '<p>"I asked him as to who he was. Vishnu replied that he was the fulfiller of all of his desires. But I replied to him that I only was the creator, nurturer and the supreme soul of this world. Vishnu became angry and said that undoubtedly I (Brahma) was the creator of this world, but he (Vishnu) was the one, who had created me (Brahma) and the whole world. Vishnu also ordered me to take his refuge and promised to protect me. But being an ignorant I did not believe him. A fierce battle was fought between both of us. A Shivalinga manifested between us to end the battle. We requested that Shivalinga to show its real identity. That Shivalinga had destroyed our pride."</p>' +
+'<p>We heard a sound OM. We became curious to know the origin of that sound. Vishnu saw a letter \'A\' towards the south of that Shivalinga. He also saw the letters \'U\' and \'M\' center towards the north of the Shivalinga and in its center respectively. He also saw the mantra \'OM\', which was dazzling like a Sun. There was no beginning and end to this mantra OM. As we were making efforts to know about its origin, suddenly Shiva appeared in the form of a sage. He gave us the knowledge regarding OM. He also revealed to us that I originated from the letter \'A\', Vishnu originated from letter \'U\' and Shiva himself originated from letter \'M\'. The letter A signifies creation, U Signifies nurturement and M signifies salvation. </p>' +
+'<p>Lord Shiva, felt the need of somebody, who could look after the creation in his absence, as he wanted to retire along with Ambika at Kashi. The unified energy of Shiva and Ambika, resulted into a radiant physical form of a child. The child asked Shiva about his name and purpose of his being. </p>' +
+'<p>The three letters A, V and M also symbolizes the basic causes of creation. A or brahma also symbolizes the semen, U or Vishnu symbolizes the Vagina and the sound of OM is Maheshwar- the combined sound of A, U and M. All the three united from which manifested a golden egg. This golden egg remained submerged in the water for one thousand years. The almighty then cut that egg into two halves, from which appeared heaven and Earth. We also saw the divine beauty of Maheshwar." </p>' +
+'<p>Then we saw all the vowels and consonants emanating from the physique of Mahadeva. Vishnu saw the forty eight letters within OMKAR, which in fact were the two following mantras- "TAT PURUSHAY VIDDYAMAHE MAHADEVAY DHIMAHI, TANNO RUDRAH PRACHODAYAT." And "TAT SAVITUR VARENYAM BHARGO DEVASYA DHIMAHI DHIYO YONAH PRACHODAYAT.</p>' +
+'<p>"After that we also received the Mahamrityunjay mantras like "OM JOOM SAH", "HRAUM HRIM JOOM SAH" and "TRAYAMBAKAM YAJAMAHE". After that we received the five lettered mantra "OM NAMAH SHIVAY", the chintamani mantra \'KSHAMYAUM\', the Dakshainamurti mantra -  "OM NAMO BHAGAVATE DAKSHAINAMURTAYE MAHYAM MEGHAM PRAYACHCHHA SWAHA. At last we received the great mantra TATVAMASI. Vishnu was so enchanted by this mantra that he started chanting this mantra. We then prayed to Shiva-the creator, the nurturer and the destroyer.  </p>' +
+'<p>"Shiva became very pleased with both of us. He preached us the contents of Veda. Shiva told Vishnu about the methods by which his (Shiva\'s) worship could be done. He revealed to us that Vishnu actually had manifested from the left portion of his Shiva\'s body and myself from the right portion of his body. He also blessed us that he would manifest his incarnation of Rudra from our body and also that the purpose of this incarnation would be to do annihilation. Lord Shiva revealed to us that his consort Uma, was in fact mother Nature and her power in the incarnation of Saraswati would be my consort. Lakshmi, who would also manifest from the nature would be the consort of Vishnu." </p>' +
+'<p>Brahma told Narada- </p>' +
+'<p>"Lord Shiva informed us that my day consists of four thousand eras and similarly my night too consists of four thousand eras. Since a month consists of thirty days and a year consists of twelve months. In this way my age was fixed to be of one hundred years. One day of Vishnu is equivalent to one year of Brahma. Vishnu\'s age too was fixed to be of one hundred years. The day of Rudra is equivalent to one year of Vishnu and his age also was fixed to be of one hundred years. " </p>' ,
+notes: []
+},{
+subTitle: 'THE METHODS OF WORSHIPPING SHIVA ',
+content: '<p>On the request of the sages, Suta retold the preaching which had been narrated by Brahma to Narada. Describing the method of Shiva worship he says- </p>' +
+'<p>"A devotee should get up early in the morning and contemplate on Shiva, who gives benediction. After that, he should finish his daily routing work and perform rituals like \'Sandhya\' and Vandana etc. After that, he should worship Shivalinga according to vedic rites like Panchopachar, Sodashopachar etc. He should also perform \'Abhiseka\' with various offerings. At last, the should beg pardon for his sins."</p>' +
+'<p>Once, Brahma went to \'Kshirsagar\' (the abode of Vishnu) accompanied by the deities and asked lord Vishnu how a man could be liberated from his sorrows. Lord Vishnu told them that this objective could be met by worshipping Shivalinga. </p>' +
+'<p>All the deities, then prayed to lord Shiva, who after becoming pleased instructed Vishwakarma to construct a Shivalinga for them. Vishwakarma then made a Shivalinga for Kubera, a Shivalinga of yellow diamond for Dharmaraj, a Shivalinga of dark coloured diamond for Varuna, a Shivalinga of Indraned diamond for Vishnu and a goldden Shivalinga for Brahma. Similarly Vishwadeva was given a Shivalinga made up of silver, the Ashwini Kumars were given Shivalinga made up of bronze, Lakshmi was given a Shivalinga made up of Crystal (Sphatik), Sun-god was given a Shivalinga made of copper and the moon was given a Shivalinga made of pearl</p>' +
+'<p>Brahma has described the following methods for the worship of Shivalinga- </p>' +
+'<p>"After performing the rituals like \'Achaman\' and Pranayama a devotee should apply a tripunda on his forehead and wear a rudraksha on his body. After the study of Shanti-path and the performance of Devata-Namaskar, he should make a resolution if he has any wish to be fulfilled. Then the worship of Shivalinga should be done, with the help of Mahima-Stavan and offering flowers to the Shivalinga. The purity of the mantras should be maintained while chanting them.  </p>' +
+'<p>It has been mentioned in the ShivaPurana that making offerings in the form of lotus, Shatapatra, Shankhapushpi, the leaves of wood apple tree, helps a man in attaining wealth and prosperity. For becoming free from disease, fifty lotus flowers should be offered to the Shivalinga. Mrityunjay-Japa should be chanted for five lac times, for all types of accomplishment. One lakh dhatura-fruits should be offered for long life, worldly-pleasure, as well as for attaining salvation. "</p>' ,
+notes: []
+},{
+subTitle: 'THE ORIGIN OF KAILASH AND VAIKUNTH ',
+content: '<p>Brahma revealed to Narada how the process of creation commenced- </p>' +
+'<p>"After Lord Shiva vanished from our sight, I transformed myself into the appearance of a swan and Vishnu transformed his appearance into that of a boar with the purpose of commencing the process of creation. First of all, I created the water. I poured a palmful of water into it and an egg manifested which consisted of all the twenty four elements. This egg was very enormous in size which made me confused. I did penance for twelve years. Vishnu appeared before me. I requested him to bring that egg to consciousness. Vishnu entered into that egg. As a result of this, Kailash mountain, and all the seven worlds came into existence. After that the static living things were created, which symbolized the dark quality (Tamas guna). After that I created four footed animals like cows and Ox etc. inspite of these creations, I was not satisfied, so I again went into meditation. "</p>' +
+'<p>"As a result the deities were created which symbolized the virtuous quality (Satvaguna). Once again I meditated and the human species came into existence, which symbolized the medium quality (Rajas guna). With the permission of Lord Shiva, I then created spirits like ghosts etc. After that I created my five Manasputras- Sanak, Sanadan etc. But they were so ascetic and detached from the world that they showed their disinclination in contributing in the process of creation. This made me angry, tears rolled down from my eyes. With the permission of Vishnu, I did a tremendous penance to have a darshan of lord Shiva. "</p>' ,
+notes: []
+},{
+subTitle: 'THE EMERGENCE OF RUDRAVATAR  AND CREATION  ',
+content: '<p>Brahma said to Narada-  </p>' +
+'<p>""When I accomplished my penance, Lord Shiva manifested in his incarnation of Rudra from in between the eyebrows. Half of his body resembled like that of a woman (Ardhanarishwar). I requested him help me in my creational activities. Rudra created his hosts (Rudragana) who resembled like him. I requested him to create the mortals, to which he laughed and said, that he liberated mortals from their sorrow, so how could he fasten them with bondages. Rudra requested me to create the mortals and then he vanished. "</p>' +
+'<p>Preaching Narada on the essence of Shivatattva, Brahma said-   </p>' +
+'<p>"With the permission of Shiva, I created the five basic elements from which the matter is made and also all types of arts. I also created the time. Despite all these creations, I was not satisfied. I created Sage Marichi from my eyes, Sage Bhrigu from my heart, Sage Angira from my head, Sage Pulaha from my Vyan Vayu, Sage Pulatsya from my Udan Vaya, Sage Vashishtha from my Saman Vayu, Sage Kratu from my Apan Vayu, Sage Atri from my ear, Daksha Prajapati from my vital air. You (Narada) manifested from my lap. Sage Kardam and Dharma manifested from my Shadow. Then I divided my body into two parts, and from each of the two parts. Manu and Shatarupa manifested respectively. Both of them got married and in this way commenced the conjugal creation. Priyavrata and Uttanpad were the two sons born to them. Shatarupa also gave birth to three daughters whose names were Akuti Devahuti and Prasuti. Sage Ruchi was married to Akuti, Sage Kardam was married to Devahuti and Daksha Prajapati was married to Prasuti. Sage Yagya and Dakshaina were born to sage Ruchi and Akuti." "</p>' +
+'<p>"Numerous daughters were born to sage Kardam and Devahuti. Similarly twenty-four daughters were born to Daksha and Prasuti. Daksha married thirteen of his dhauthers to Dharma. "</p>' +
+'<p>"The rest of his daughters were married to sages like Pulastya etc. All the three worlds are inhabited by the progenies of these sages. The same Daksha Prajapati had sixty daughters in another Kalpa, who were married to sages like Kashyapa, etc. In this Kalpa,  Sati was one of his daughters who was married to Lord Shiva. Sati being distressed by the disrespect sown by her father-Daksha, to her husband-Shiva, had given up her life, by jumping into the sacrificial fire. In her next birth she was born as Parvati and was again married to Shiva. This way, I created this world with the permission of Shiva"</p>' ,
+notes: []
+},{
+subTitle: 'GUNANIDHI - THE BRAHMIN\'S SON ',
+content: '<p>Narada asked lord Brahma, when did lord Shiva make Kailash as his abode and what was the reason of friendship between Shivaji and Kubera. Brahma narrated the following story- - There used to live a brahmin by the name Yagyadutt in Kampilyanagar, who was proficient in the performance of Somyagya. He had a son named Gunanidhi. Though he was a scholar but at the same time he was irreligious and kept bad company. He used to indulge in evil activities like gambling. </p>' +
+'<p>His father - Yagyadutt was unaware of his evil activities. Whenever he asked his wife about Gunanidhi habits and conduct, his wife used to tell lies and praised the conduct of Gunamidhi. Thus Gunamidhi\'s condition became worse day by day. </p>' +
+'<p>Yagyadutt married Gunanidhi with a girl belonging to a well to do family. But his habits had not changed. His mother tried her best to make him understand, but it was of no avail. </p>' +
+'<p>One day Yagyadutt saw, a gambler wearing his ring. He asked him about that ring. The gambler told him that his son - Gunanidhu had lost it to him, in the gamble. He also informed him that he had also lost numerous ornaments and other properties in the gamble. </p>' +
+'<p>"Yagyadutt became very angry. He married with another woman after abandoning his wife and son. </p>' +
+'<p>When Gunadhi came to know about his father\'s second marriage, he moved to another place, cursing his fate. He kept on walking till he became tired. He sat under a tree and started thinking about his further course of action. He heart was full of remorse and he repented for his past actions. As his mind was engrossed in such kind of thoughts. He saw somw villages going towards temple. They were carrying prasad in their hands.</p>' +
+'<p>"Since Gunanidhi was hungry, he followed them and after reaching the temple he sat at the main gate of the temple. IN the night, after the accomplishment of the Pujan, the devotees went to sleep. Gunanidhi entered the premise went to sleep. Gunanidhi entered the premise of the temple. The flame of the lamp was gradually becoming dim as the result of which he could not see properly. He tore some pieces of cloth, he was wearing and made a thick wick and put it in the lamp. Now the light was sufficient to enable him to see whatever had been offered to the deity." </p>' +
+'<p>"He carried as much fruits and other eatables as possible and tried to sneak out from the temple. Unfortunately, he dashed against a devotee woke up and chased him shouting thief-thief." </p>' +
+'<p>"Hearing his cries all the other devotees woke up and caught Gunanidhi. He was given such a nice thrashing that proved to be fatal and as a result Gunanidhi died."</p>' +
+'<p>"The Yamaduts arrived to take his soul to yamloka. But right then, the Shivaganas arrived and prevented the Yamadutas from carrying his soul. They informed the Yamdutas that Gunanidhi was entitled for Shivaloka as he had devoutly observed the Shivaratri fast, had listened to the tales of Shiva and lighted up the lamp which was about to go off. The Shivaganas also informed the Yamadutas that, in his next birth Gunamidhi would become the king of Kalinga" </p>' +
+'<p>"In this way Gunanidhi attained to Shivaloka. In his next birth he was born as a son of king Arindam- the king of Kalinga. He was named as Dama." "When he was still young, his fatherArindam dies. So Dama succeeded him as the king of Kalinga. He renovated all the Shiva temple, which came under his jurisdiction and passed a decree which made the worship of lord Shiva compulsory for all the subjects. By the blessings of lord Shiva, he became the king of Alkapuri and was known as Kubera." </p>' +
+'<p>"During the Padma kalpa, Sage Vishrawa was born to sage Pulastya- the manasputra of lord Brahma. Vishrawa\'s son - Vishrawan ruled over Alkapuri for a long time. This city was constructed by the deity Vishwakarma. Vishrawan was a great devotee of Lord Shiva." "During the kalpa named Meghawahan, Gunanidhi did a tremendous penance for ten lac years. As a result of this penance his body was reduced to skelton."  </p>' +
+'<p>"Lord Shiva became very pleased with him and appeared before him, accompanied by his consort Parvati. He told Gunanidhi to ask for any boon, which will be fulfilled." "When Gunanidhi heard Shiva\'s voice he opened his eyes, but his eyes were dazzled by the sheer radiance of lord Shiva. He requested Shiva to restore the power of sight in his eyes. Shiva blessed him, as a result of which he was now able to see the divine sight of lord Shiva. But he became jealous of Uma, who was present by the side of Shiva. He was wondering as to who was this lady, dearer to Shiva than him. He glanced cruelly towards her. As a result of this his left eye lost the power of sight." "Parvati asked lord Shiva as to why was this sage (Gunanidhi) looking cruelly towards her. Shiva replied- "He is none other than your son. He is looking at you in astonishment as he his bewildered at the feats achieved your penance." "Lord Shiva then blessed Gunanidhi to become the king of the kings. He also assured him that he will always be present in the vicinity of Alkapuri. After being blessed by Shiva, Gunanidhi also made salutations to Parvati. " </p>' +
+'<p>Parvati said-</p>""Since you have looked at me angrily your hatred and enemity (Bair) towards me was clearly visible. For this reason you will be known as Kuberas." After blessings, Gunanidhi both Shiva and Parvati to a place called Vaishveshwar. Kailash mountain was situated near Alkanagri. </p>' ,
+notes: []
+},
+{
+subTitle: 'FRIENDSHIP OF SHIVA AND KUBERA. SHIVA GOES TO KAILASH ',
+content: '<p>"When Rudra - the Ansha of the Almighty Brahma, heard about the tremendous penance, Kubera was doing he started to play his \'damaru\' (drum), the sound of which reached all the three worlds. Rudra then reached the place where Kubera was doing penance." </p>' +
+'<p>"Hearing the sound of his damaru, all the deities including Brahma, Vishnu and Sadashia appeared before him."  </p>' +
+'<p>"When Kubera saw lord Rudra before himself, he offered his seat to him and worshipped him. He also worshipped the other deities. Rudra was so pleased with Kubera that he decided to stay near him. He called Vishwakarma and ordered him to conduct his abode at Kailash mountain, so that he could live in could live in the vicinity of his great devotee Kubera. Kubera constructed a beautiful city as per his instruction. An auspicious moment was chosen and Shiva went to live at Kailash mountain. He was coronated by the deities."<br/>&nbsp;&nbsp; Brahma in this way told Narada about Shiva\'s departure to Kailash mountain</p>' ,
+notes: []
+}
+        ]
+    }
+];
