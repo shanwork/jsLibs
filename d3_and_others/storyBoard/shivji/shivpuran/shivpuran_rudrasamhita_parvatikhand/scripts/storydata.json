@@ -726,18 +726,14 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<p>Narada, who was listening to the divine tales of Shiva with rapt attention, was very curious to know about the reasons why lord Vishnu attended a yagya where Shiva was not invited and why did he fight a battle against Veerbhadra despite knowing about his invincibility.  </p>' +
-'<p>Lord Brahma told him that all this happened due to the curse of Sage Dadhichi-<br/>' +
-'In the ancient times, there used to live a king named Kshuva, who was a great friend of Sage Dadhichi. Due to some reasons both of their developed animosity towards each other. Dadhichi considered himself superior because of being a brahmin, on the other hand Kshuva considered himself superior on account of his wealth. The dispute took a worst turn and Dadhichi punched him on his head. As a result Kshuva felt down unconscious. When he regained his consciousness he struck sage Dadhichi with his weapon named Vajra, which injured Dadhichi.</p>' +
-'<p>Dadhichi sought the help of Shukracharya. Shukracharya healed his wounds by his mantras. He also taught Dadhichi the mahamrityunjay mantra. Dadhichi then did a tremendous penance to please lord Shiva. Lord Shiva appeared before him and blessed him with three boons, they were 1) his bones, would become as hard as lightning (Vajra), 2) he would not be killed, 3) he would never be humiliated.</p>' +
-'<p>Armed with these three boons, Sage Dadhichi again went to fight Kshuva. He kicked him, in return Kshuva too attacked him with his weapon named Vajra, but it did not have any effect on Dadhichi as his bones had become as hard as lighting.</p>' +
-'<p>King Kshuva did a tremendous penance to please lord Vishnu. Vishnu revealed to him that Dadhichi had become immortal because of the blessings of lord Shiva, but assured him that he would certainly help him in defeating Dadhichi.</p>' +
-'<p>Lord Vishnu then visited the hermitage of Sage Dadhichi, disguised as a brahmin. On being asked by Dadhichi about the purpose of his arrival, he said that he had come with a desire of a boon on his heart.</p>' +
-'<p>Sage Dadhichi, by his yogic power came to know about the real identity of a \'Brahmin\'. He told that he had been caught. Lord Vishnu was ashamed.</p>' +
-'<p>Lord Vishnu then went back to Kshuva and instructed him to go to sage Dadhichi and act as if he had accepted his superiority.</p>' +
-'<p>"Kshuva went to sage Dadhichi and did as he was instructed to do, but Dadhichi did not believe his words. Now lord Vishnu became angry and tried to kill him by his sudarshan chakra, but he was not successful, as the chakra, which was given to him by lord Shiva himself, was not willing to harm a devotee of Shiva. "Lord Vishnu then tried to kill Dadhichi by shooting volley of arrows. The deities too attacked with their weapon. Sage Dadhichi threw a handful of Kusha grass, initiated with mantras towards them, which destroyed all the weapons of the deities."</p>' +
-'<p>"In the meantime lord Brahma arrived on the scene accompanies by Kshuva. He told the deities that it was futile to fight with Dadhichi as he was invincible, due to the boon given by lord Shiva."  </p>' +
-'<p>"Ultimately King Kshuva begged his forgiveness for his offence. Dahichi forgave him but cursed Vishnu including all the deities that they would be burnt to ashes by the wrath of Rudra." "This was the reason why all the deities and lord Vishnu attended the yagya, organised by Daksha and got defeated by Veerbhadra."</p>' ,
+content: '<p>Shiva remained at his in-laws house for many days. One day he sought the permission of Himalaya to go back. Everybody became sad at the prospect of Shiv\'s departure. Especially Maina who was very saddened by this news. At last it was time for Shiva to depart for Kailash, accompanied by Parvati.</p>' +
+'<p>Lord Shiva and Parvati were blissfully enjoying their martial status, unaware of the eagerness with which the deities were awaiting the arrival of their progeny.</p>' +
+'<p>Tarakasur - the demon continued tormenting the deities. When their miseries became unbearable they went to lord Brahma to seek their help. All of them then went to lord Vishnu. They told him that even after passing of such a long duration of time, Parvati and Shiva had not yet become parents. They requested lord Vishnu to remind Shiva about the purpose behind his marriage.</p>' +
+'<p>Initially lord Vishnu showed his disinclination to disturb Shiva\'s martial bliss, but when the deities insisted he went to Shiva accompanied by all of them. All of them eulogised Shiva and Parvati. The deities then requested Shiva to make his contribution in the destruction of Tarakasur.</p>' +
+'<p>Shiva understood everything. Some drops of his semen fell down on the ground. On being insisted by the deities, Agni transformed his appeared in the form of a pigeon and pecked up those drops of semen.  </p>' +
+'<p>Right then Parvati arrived there and became extremely furious on seeing the semen going waste. She cursed the deities that their respective wives would remain issue less as the consequences of their mindless acts. </p>' +
+'<p>Agni was having inflammation in his stomach because of the Shiva\'s semen. Lord Shiva advised him to transfer it into the womb of any noble woman. Agni followed the instruction and injected the semen into the body of six women through the pores of the hair on their body.</p>' +
+'<p>Those women could not bear the extreme luster of the Shiva\'s semen. They went to Himachal and evacuated it. Even Himachal could not bear its extreme effulgence and immersed it into the flowing Ganga. River Ganga carried it with her current and established it amidst bushes of reed (Sarkanda). Instantaneously a beautiful child manifested from it. His birth made all the deities extremely joyous including Shiva and Parvati. It was the sixth day (bright half of the lunar month) of the Hindu month of Margashirsha. He was Kartikeya. </p>' ,
 notes: []
 }
 ]
@@ -767,8 +763,8 @@ notes: []
 '<li>
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '15',
-title: 'PARVATI-KHAND,KARTIKEYA ',
+buttonText: 'KUMARA-KHAND,KARTIKEYA ',
+title: 'KUMARA-KHAND,KARTIKEYA ',
 headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/parvati_khand15.jpg")',
@@ -781,13 +777,22 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<p>The deities after being defeated by Veerdbharda went to Brahmaloka and narrated everything about the destruction of Daksha\'s yagya and also how his head was severed by Veerbharda.</p>' +
-'<p>Brahma became very sad. To bring Daksha back to life and to accomplish the still unfinished yagya, he went to lord Vishnu to take his help. All the deities accompanied him. Lord Vishnu told them that it was wrong on the part of Daksha to have shown disrespect to Shiva. The deities were wrong to support him. Lord Vishnu then went to Kailash mountain, accompanied by Lord Brahma and all the other deities. All of them eulogized and worshipped Shiva. They also requested him to bring Daksha back to life.</p>' +
-'<p>Lord Shiva became very pleased and agreed to make Daksha alive. All of them went to Kanakhal where Daksha had organised the yagya ceremony. Veerbhadra accompanied them. When they reached the site, Lord Shiva could not hold his laughter after seeing the destruction of the site. Anyway, he joined the head of a goat to the torso of Daksha\'s body and made him alive. He also compensated for all the losses which had been caused by the destruction. All the deities became very pleased and they eulogised Shiva.</p>' +
-'<p>Becoming pleased by the invocation and eulogy of the deities, Lord Shiva preached Daksha in the following way-</p>' +
-'<p>"The person who has the right knowledge (jnani) is the supreme among all human beings. An action which is performed in one\'s ignorance and jealousy does not liberate a man from his world bondages.</p>' +
-'<p>O Daksha then accomplished his yagya singing the praise of lord Shiva. He also give lots of donation to the brahmins. They everybody returned to their respective houses being fully satisfied.</p>' +
-'<p>Sati, the daughter of Daksha was reborn as Gauri, the daughter of Himalaya and Maina. By her tremendous penance she again had lord Shiva as her husband. </p>' ,
+content: '<p>Sage Vishwamitra arrived at the spot where the child had manifested. On the repeated insistence of the child, Vishwamitra performed his purification rites and named him \'Guha\'.</p>' +
+'<p>The divine child blessed Vishwamitra and bestowed divine knowledge to him. He also blessed him to become famous as \'Brahmarshi\'. Agnideva arrived there and gave a divine weapon named \'Shakti\' to that child. Guha went to the Kroncha mountain and banged his weapon on it. The mountain could not bear the effect of the blow and started crumbling down. Innumerable demons living on that mountain came to kill him. But the child killed all of them by his weapon.</p>' +
+'<p>When Indra heard about his bravery, he came along with other deities to fight him Indra assaulted Guha with his Vajra on the right side of his body, which resulted into the manifestation of a very powerful entity named \'Shakh\'. Indra again assaulted him on the left side of his body, from which manifested an extremely powerful entity named \'Vishakh\'. Indra assaulted Guha for the third time- this time his chest was the target. From this third blow of Indra manifested \'Naigam\'.</p>' +
+'<p>Guha accompanied by all the three powerful entities- Shakh, Vishakh and Naigam attacked Indra and his army, but they fled away.</p>' +
+'<p>Six goddesses arrived on the scene. All of them tried to feed that small child out of affection. They started quarelling among themselves. Right then they were surprised to see the child appearing with six head. Now their problems were solved. Each of the goddesses fed their breast milk to the child. They took Guha with them and brought him up with great love and care. Guha later on became famous as Kartikeya.</p>' +
+'<p>One day, Parvati curiously asked Shiva about his semen which had fallen on the ground. Lord Shiva summoned the deities and asked them about it. The deities narrated the whole story. Both Shiva and Parvati were very pleased to know about Kartikeya. </p>' +
+'<p>Lord Shiva then ordered his Ganas to bring Kartikeya from the possession of Kritika. The Ganas reached Badrikasharama where Kritika lived. When Kritika saw the Ganas she became very frightened but Kartikeya gave him solace. The Ganas requested Kartikeya to come along with him.</p>' +
+'<p>Kartikeya happily took permission from his mothers and proceeded to meet Shiva and Parvati.</p>' +
+'<p>At the time or Kartikeya\'s departure, the mothers had become very emotional. Kartikeya consoled them. He then boarded the beautiful chariot which had been sent by Parvati and proceeded towards Kailash mountain.</p>' +
+'<p>All the deities including Shiva were eagerly awaiting his arrival. When Kartikeya reached Kailash mountain, he was given a royal reception. The whole atmosphere was filled up with joy. Everybody was celebrating. Each of the deities presented him their respective weapons to him.</p>' +
+'<p>Lord Shiva coronated him as the king with the help of the brahmin. This way he had now become the lord of Kailashpuri.</p>' +
+'<p>Kartikeya narrated a story connected with himself:-</p>' +
+'<p>"One day a brahmin, whose name was Narada came to me and requested me to help him find his he-goat which had got lost. He told me that the goat was supposed to be offered as the sacrifice.' +
+'<br/>"If the goat was not found, my vow would remain unfulfilled." Said Narada.' +
+'<p>I went in search of that goat. I found it in the Vishnuloka where it was creating nuisance. When the goat saw me, it tried to attack me with its sharp horns. I climbed on its back. After travelling through all the three worlds, the goat returned back to his original place. I climbed down from its back.' +
+'<br/>Narada arrived and demanded his goat. I told him that his Yagya had been accomplished by my blessings and there was no need to sacrifice the poor goat. Narada - the brahmin went back satisfied.</p>' ,
 notes: []
 }
 ]
@@ -818,8 +823,8 @@ notes: []
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
 buttonText: '16',
-title: 'PARVATI-KHAND,KILLING OF TARAKASUR  ',
-headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+title: 'KUMARA-KHAND,KILLING OF TARAKASUR  ',
+headerStyle: { 'color': 'yellow','font-weight': '1900','text-shadow': '4px 4px 3px white', 'background-color': 'maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/parvati_khand16.jpg")',
 'background-size': 'contain',
@@ -831,13 +836,13 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<p>The deities after being defeated by Veerdbharda went to Brahmaloka and narrated everything about the destruction of Daksha\'s yagya and also how his head was severed by Veerbharda.</p>' +
-'<p>Brahma became very sad. To bring Daksha back to life and to accomplish the still unfinished yagya, he went to lord Vishnu to take his help. All the deities accompanied him. Lord Vishnu told them that it was wrong on the part of Daksha to have shown disrespect to Shiva. The deities were wrong to support him. Lord Vishnu then went to Kailash mountain, accompanied by Lord Brahma and all the other deities. All of them eulogized and worshipped Shiva. They also requested him to bring Daksha back to life.</p>' +
-'<p>Lord Shiva became very pleased and agreed to make Daksha alive. All of them went to Kanakhal where Daksha had organised the yagya ceremony. Veerbhadra accompanied them. When they reached the site, Lord Shiva could not hold his laughter after seeing the destruction of the site. Anyway, he joined the head of a goat to the torso of Daksha\'s body and made him alive. He also compensated for all the losses which had been caused by the destruction. All the deities became very pleased and they eulogised Shiva.</p>' +
-'<p>Becoming pleased by the invocation and eulogy of the deities, Lord Shiva preached Daksha in the following way-</p>' +
-'<p>"The person who has the right knowledge (jnani) is the supreme among all human beings. An action which is performed in one\'s ignorance and jealousy does not liberate a man from his world bondages.</p>' +
-'<p>O Daksha then accomplished his yagya singing the praise of lord Shiva. He also give lots of donation to the brahmins. They everybody returned to their respective houses being fully satisfied.</p>' +
-'<p>Sati, the daughter of Daksha was reborn as Gauri, the daughter of Himalaya and Maina. By her tremendous penance she again had lord Shiva as her husband. </p>' ,
+content: '<p>The deities were very encouraged by the presence of Kartikeya amidst themselves. They were beaming with confidence and enthusiasm. The deities assembled at the seashore. Tarakasur arrived there with his huge army. The battle began.</p>' +
+'<p>Tarakasur appeared to be invincible. His blow was so severe that Indra fell down unconscious. All the \'Lokpalas\' met the same fate. After that Tarakasur fought with Veerbharda and made him unconscious. Even Lord Vishnu could not sustain for long and was ultimately defeated.</p>' +
+'<p>Lord Brahma requested Kartikeya to fight with Tarakasur as nobody except him would be able to kill him. </p>' +
+'<p>On being instructed by lord Brahma Kartikeya came forward to fight with Tarakasur. Tarakasur ridiculed the deities for taking the shield of a small child. </p>' +
+'<p>"If he gets killed by me, the responsibility should lie on you." Thundered Tarakasur.</p>' +
+'<p>A fierce battle started between both of them in which both of them got injured. At last seeing an opportune moment, Kartikeya hit Tarakasur on his chest with his weapon- Shakti. The blow proved to be fatal and as a result Tarakasur died.</p>' +
+'<p>Kartikeya feat was hailed by all the deities. After killing Tarakasur, Kartikeya went to mother Parvati, who affectionately took him into her lap. He was eulogized by all the deities.</p>' ,
 notes: []
 }
 ]
@@ -868,8 +873,8 @@ notes: []
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
 buttonText: '17',
-title: 'PARVATI-KHAND,KILLINGS OF PRALAMB AND BANASUR ',
-headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+title: 'KUMARA-KHAND,KILLINGS OF PRALAMB AND BANASUR ',
+headerStyle: { 'color': 'black','font-weight': '1900','text-shadow': '4px 4px 3px white', 'background-color': 'red', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/parvati_khand17.jpg")',
 'background-size': 'contain',
@@ -881,13 +886,9 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<p>The deities after being defeated by Veerdbharda went to Brahmaloka and narrated everything about the destruction of Daksha\'s yagya and also how his head was severed by Veerbharda.</p>' +
-'<p>Brahma became very sad. To bring Daksha back to life and to accomplish the still unfinished yagya, he went to lord Vishnu to take his help. All the deities accompanied him. Lord Vishnu told them that it was wrong on the part of Daksha to have shown disrespect to Shiva. The deities were wrong to support him. Lord Vishnu then went to Kailash mountain, accompanied by Lord Brahma and all the other deities. All of them eulogized and worshipped Shiva. They also requested him to bring Daksha back to life.</p>' +
-'<p>Lord Shiva became very pleased and agreed to make Daksha alive. All of them went to Kanakhal where Daksha had organised the yagya ceremony. Veerbhadra accompanied them. When they reached the site, Lord Shiva could not hold his laughter after seeing the destruction of the site. Anyway, he joined the head of a goat to the torso of Daksha\'s body and made him alive. He also compensated for all the losses which had been caused by the destruction. All the deities became very pleased and they eulogised Shiva.</p>' +
-'<p>Becoming pleased by the invocation and eulogy of the deities, Lord Shiva preached Daksha in the following way-</p>' +
-'<p>"The person who has the right knowledge (jnani) is the supreme among all human beings. An action which is performed in one\'s ignorance and jealousy does not liberate a man from his world bondages.</p>' +
-'<p>O Daksha then accomplished his yagya singing the praise of lord Shiva. He also give lots of donation to the brahmins. They everybody returned to their respective houses being fully satisfied.</p>' +
-'<p>Sati, the daughter of Daksha was reborn as Gauri, the daughter of Himalaya and Maina. By her tremendous penance she again had lord Shiva as her husband. </p>' ,
+content: '<p>The mountain - Kraunch, who was tormented by the activities of the demon named Banasur, went to Kartikeya and narrated his woeful tales.</p>' +
+'<p>Kartikeya threw his weapon - Shakti in the direction which Banasur lived. The weapon banged right on target and returned back to him. Bamnasur was burnt to ashes. Kraunch went back being very pleased. The mountain - Kraunch established three Shivalingas to please lord Shiva. The names of these three Shivalingas were - Kumareshwar, Pratigyeshwar and Kapaleshwar.</p>' +
+'<p>Once upon a time, the deities were trying to reach the abode of Lord Shiva- Kailash mountain. Their preceptor Brihaspati was walking ahead of all of them. Meanwhile a demon by the name of Pralamb started creating turbulence. After being tormented by his activities, Kumud - son of Sheshnag took Kartikeya\'s refuge. Kartikeya killed the demon with his divine weapon - Shakti</p>' ,
 notes: []
 }
 ]
@@ -918,8 +919,8 @@ notes: []
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
 buttonText: '18',
-title: 'PARVATI-KHAND,GANESH ',
-headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+title: 'KUMARA-KHAND,GANESH ',
+headerStyle: { 'color': 'crimson','font-weight': '1900', 'background-color': 'yellow', 'text-shadow': '3px 3px 2px maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/parvati_khand18.jpg")',
 'background-size': 'contain',
@@ -931,13 +932,13 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<p>The deities after being defeated by Veerdbharda went to Brahmaloka and narrated everything about the destruction of Daksha\'s yagya and also how his head was severed by Veerbharda.</p>' +
-'<p>Brahma became very sad. To bring Daksha back to life and to accomplish the still unfinished yagya, he went to lord Vishnu to take his help. All the deities accompanied him. Lord Vishnu told them that it was wrong on the part of Daksha to have shown disrespect to Shiva. The deities were wrong to support him. Lord Vishnu then went to Kailash mountain, accompanied by Lord Brahma and all the other deities. All of them eulogized and worshipped Shiva. They also requested him to bring Daksha back to life.</p>' +
-'<p>Lord Shiva became very pleased and agreed to make Daksha alive. All of them went to Kanakhal where Daksha had organised the yagya ceremony. Veerbhadra accompanied them. When they reached the site, Lord Shiva could not hold his laughter after seeing the destruction of the site. Anyway, he joined the head of a goat to the torso of Daksha\'s body and made him alive. He also compensated for all the losses which had been caused by the destruction. All the deities became very pleased and they eulogised Shiva.</p>' +
-'<p>Becoming pleased by the invocation and eulogy of the deities, Lord Shiva preached Daksha in the following way-</p>' +
-'<p>"The person who has the right knowledge (jnani) is the supreme among all human beings. An action which is performed in one\'s ignorance and jealousy does not liberate a man from his world bondages.</p>' +
-'<p>O Daksha then accomplished his yagya singing the praise of lord Shiva. He also give lots of donation to the brahmins. They everybody returned to their respective houses being fully satisfied.</p>' +
-'<p>Sati, the daughter of Daksha was reborn as Gauri, the daughter of Himalaya and Maina. By her tremendous penance she again had lord Shiva as her husband. </p>' ,
+content: '<p>Once Narada had a desire to listen to the tales of Ganesha. Brahma replied-  </p>' +
+'<p>"There were various Ganeshas in different Kalpas. During the period of \'Shweta-Kalpa\', Ganesha was born to Shiva and Parvati, when they went to Kailash mountain shortly after their marriage. </p>' +
+'<p>"Once while going to take her bath, Parvati instructed Nandi, to stand guard at the entrance and not to allow anybody to enter the premise without her permission. Lord Shiva arrived there by chance. Despite of Nandi\'s refusal to allow him, in he went inside. Parvati did not like this.</p>' +
+'<p>One day it happened so that Once again, Parvati wanted to take her bath. She made an idol from the dirt of her body. She made the idol alive and instructed him not to allow anybody without her permission. She also gave him a stick for his protection.</p>' +
+'<p>Incidentally lord Shiva arrived once again. He tried to enter inside but Ganesha refused to let him go inside. But when Shiva tried to go inside forcibly, Ganesha hit him with his stick. Lord Shiva became furious and ordered his ganas to kill him.</p>' +
+'<p>The ganas of Shiva attacked Ganesha but all of them were no match for him. After being defeated by Ganesha, the Shivaganas went to Shiva and narrated everything.</p>' +
+'<p>While the Shivaganas were narrating their stories, Lord Brahma, Lord Vishnu and some other deities arrived there. Lord Brahma then went to Ganesha to convince him, but as soon as Ganesha saw him he tried to attack lord Brahma. Brahma came back without achieving anything. After this lord Shiva himself came to fight Ganesha. </p>' ,
 notes: []
 }
 ]
@@ -968,8 +969,8 @@ notes: []
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
 buttonText: '19',
-title: 'PARVATI-KHAND,SHIVA SEVERS GANESHA\'S HEAD –LATER GIVEN ELEPHANT HEAD  ',
-headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+title: 'KUMARA-KHAND,SHIVA SEVERS GANESHA\'S HEAD –LATER GIVEN ELEPHANT HEAD  ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'orange', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/parvati_khand19.jpg")',
 'background-size': 'contain',
@@ -981,13 +982,11 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<p>The deities after being defeated by Veerdbharda went to Brahmaloka and narrated everything about the destruction of Daksha\'s yagya and also how his head was severed by Veerbharda.</p>' +
-'<p>Brahma became very sad. To bring Daksha back to life and to accomplish the still unfinished yagya, he went to lord Vishnu to take his help. All the deities accompanied him. Lord Vishnu told them that it was wrong on the part of Daksha to have shown disrespect to Shiva. The deities were wrong to support him. Lord Vishnu then went to Kailash mountain, accompanied by Lord Brahma and all the other deities. All of them eulogized and worshipped Shiva. They also requested him to bring Daksha back to life.</p>' +
-'<p>Lord Shiva became very pleased and agreed to make Daksha alive. All of them went to Kanakhal where Daksha had organised the yagya ceremony. Veerbhadra accompanied them. When they reached the site, Lord Shiva could not hold his laughter after seeing the destruction of the site. Anyway, he joined the head of a goat to the torso of Daksha\'s body and made him alive. He also compensated for all the losses which had been caused by the destruction. All the deities became very pleased and they eulogised Shiva.</p>' +
-'<p>Becoming pleased by the invocation and eulogy of the deities, Lord Shiva preached Daksha in the following way-</p>' +
-'<p>"The person who has the right knowledge (jnani) is the supreme among all human beings. An action which is performed in one\'s ignorance and jealousy does not liberate a man from his world bondages.</p>' +
-'<p>O Daksha then accomplished his yagya singing the praise of lord Shiva. He also give lots of donation to the brahmins. They everybody returned to their respective houses being fully satisfied.</p>' +
-'<p>Sati, the daughter of Daksha was reborn as Gauri, the daughter of Himalaya and Maina. By her tremendous penance she again had lord Shiva as her husband. </p>' ,
+content: '<p>A fierce battle was fought between Shiva and Ganesha. When Lord Shiva realized that Ganesha was dominating the fight, he severed his head with his trishul. </p>' +
+'<p>Parvati became extremely furious at the death of Ganesha. Her anger resulted into the manifestation of innumerable goddesses, who started creating havoc on the deities.</p>' +
+'<p>The deities became frightened and they were forced to take the refuge of Parvati. They eulogized her and requested to be pardoned. Parvati told them that they could be saved only when Ganesha becomes alive and becomes worshippable just like three (deities).</p>' +
+'<p>The deities went to lord Shiva and requested him to make Ganesha alive once again. Lord Shiva instructed them to go in the northern direction and bring the head of any creature they might find and join it with the trunk of Ganesha. The deities followed the instruction and went in the northern direction.</p>' +
+'<p>They found an elephant which had only one tusk. They severed the elephant\'s head and joined it with the trunk of Ganesha. By the blessings of Shiva, Ganesha became alive once again. The deities worshipped Ganesha and returned back to their respective abodes</p>' ,
 notes: []
 }
 ]
@@ -1018,8 +1017,8 @@ notes: []
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
 buttonText: '20',
-title: 'PARVATI-KHAND, GANESHA\'S MARRIAGE ',
-headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+title: 'KUMARA-KHAND,GANESHA\'S MARRIAGE ',
+headerStyle: { 'color': '#b22222','font-weight': '900','text-shadow': '3px 3px 2px yellow', 'background-color': '#ff8c00', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/parvati_khand20.jpg")',
 'background-size': 'contain',
@@ -1031,13 +1030,14 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<p>The deities after being defeated by Veerdbharda went to Brahmaloka and narrated everything about the destruction of Daksha\'s yagya and also how his head was severed by Veerbharda.</p>' +
-'<p>Brahma became very sad. To bring Daksha back to life and to accomplish the still unfinished yagya, he went to lord Vishnu to take his help. All the deities accompanied him. Lord Vishnu told them that it was wrong on the part of Daksha to have shown disrespect to Shiva. The deities were wrong to support him. Lord Vishnu then went to Kailash mountain, accompanied by Lord Brahma and all the other deities. All of them eulogized and worshipped Shiva. They also requested him to bring Daksha back to life.</p>' +
-'<p>Lord Shiva became very pleased and agreed to make Daksha alive. All of them went to Kanakhal where Daksha had organised the yagya ceremony. Veerbhadra accompanied them. When they reached the site, Lord Shiva could not hold his laughter after seeing the destruction of the site. Anyway, he joined the head of a goat to the torso of Daksha\'s body and made him alive. He also compensated for all the losses which had been caused by the destruction. All the deities became very pleased and they eulogised Shiva.</p>' +
-'<p>Becoming pleased by the invocation and eulogy of the deities, Lord Shiva preached Daksha in the following way-</p>' +
-'<p>"The person who has the right knowledge (jnani) is the supreme among all human beings. An action which is performed in one\'s ignorance and jealousy does not liberate a man from his world bondages.</p>' +
-'<p>O Daksha then accomplished his yagya singing the praise of lord Shiva. He also give lots of donation to the brahmins. They everybody returned to their respective houses being fully satisfied.</p>' +
-'<p>Sati, the daughter of Daksha was reborn as Gauri, the daughter of Himalaya and Maina. By her tremendous penance she again had lord Shiva as her husband. </p>' ,
+content: '<p>Both Kartikeya and Ganesha grew up to become handsome youths in due course of time. Shiva and Parvati started to think about their marriage. When Ganesha and Kartikeya came to know about the plan of their marriage both of them started quarreling among themselves as to who should get married first.</p>' +
+'<p>Lord Shiva and Parvati devised a plan to sort out this problem. They told them that whoever between them return after circumambulating the earth, will get married first of all.</p>' +
+'<p>Kartikeya and Ganesha agreed. Kartikeya proceeded on his journey to circumambulate the earth. Ganesha was very intelligent. He requested his parents - Lord Shiva and Parvati; to sit at a place together and circumambulated them for seven times and said-  </p>' +
+'<p>"According to Veda, Circumambulating one\'s parents give virtues equivalent to that of circumambulating the whole earth. So now you must get me married first." </p>' +
+'<p>Lord Shiva and Parvati were very impressed by his intelligence. They decided to get him married with Siddhi and Riddhi-the daughter of Vishwaroop Prajapati. In due course of time two sons were born to them Kshem and Labh.</p>' +
+'<p>While Kartikeya was returning after circumambulating the whole earth, he met sage Narada on the way. He told Kartikeya about Ganesha\'s marriage. Kartikeya became very sad and felt like having been cheated by their parents.  </p>' +
+'<p>When Kartikeya reached Kailash mountain he made salutations to lord Shiva and Parvati and without saying anything, went to Kraunch mountain to do his penance.</p>' +
+'<p>Parvati was very sad. She went to Kraunch mountain to meet Kartikeya accompanied by Shiva. When Kartikeya saw them coming he moved to another place. Lord Shiva and Parvati followed him and ultimately met him. Both these places have religious significance. Having a darshan of Kartikeya on the full moon day of Kritika nakashatra is considered to bestows immense auspicious and destroyes all the sins of a man</p>' ,
 notes: []
 }
 ]
