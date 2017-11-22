@@ -426,7 +426,7 @@ notes: [                     ]
 {
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
 buttonText: '10',
-title: 'YUDH-KHAND,BIRTH OF SHANKHACHUDA AND HIS MARRIAGE',
+title: 'YUDH-KHAND,SHANKHACHUDA ',
 headerStyle: { 'color': '#3300ff','font-weight': '1900', 'background-color': '#6677ff', 'text-shadow': '2px 2px 2px white','opacity':'1.0', 'border': '3px solid #4ee00ff'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/yudh_khand10.jpg")',
@@ -438,10 +438,233 @@ contentStyle: { 'border':'3px outset blue',
 'background-color':'skyblue'} ,
 subsections: [
 {
-subTitle: '',
+subTitle: 'BIRTH OF SHANKHACHUDA AND HIS MARRIAGE',
 content: '<p>Suta narrated the tale of the birth of Shankhachuda and how Shiva killed him with his Trishula. He told the sages that Shankhachuda was born to the demon king \'Dambha\'. Shankhachuda was in fact, Sudama, in his previous life. He was born in the family of demons due to the curse of Radha. When Shankhachuda grew up, he went to Pushkar (Ajmer, Rajasthan) and did a tremendous penance to please lord Brahma. Lord Brahma blessed him and said that he would remain invincible. He also instructed Shankhachuda to go to \'Badrikashrama\' where he would find his would be wife Tulsi, the daughter of Dharmadhwaja.</p>' +
 '<p>Shankhachuda went to Badrikasharama and married Tulsi as per the instructions of lord Brahma. He then returned back to his capital accompanied by his wife Tulsi. </p>',
 notes: [                     ]
+},
+{
+subTitle: 'SHANKHACHUDA BECOMES THE RULER OF ALL THE THREE WORLDS ',
+content: '<p>When Shankhachuda reached his capital after marrying Tulsi, he was crowned as the king of the demons by Shukracharya. After his coronation, Shankhachuda attacked Indrapuri supported by his huge army and defeated the deities. In a very short time all the three worlds were under his control.</p>' +
+'<p>After being defeated by Shankhachuda, the deities went to lord Brahma and sought his help in eliminating the menance called Shankhachuda. Lord Brahma then took them to lord Vishnu. All of them were taken to lord Shiva by Vishnu. They expressed their request to liberate them from the troubles created by Shankhachuda.</p>' +
+'<p>Lord Shiva assured the deities that he will certainly kill Shankhachuda and hence they should not worry about him. The deities then happily returned to their respective abodes.</p>' +
+'<p>Lord Shiva sent his messenger named Pushpadant, to Shankhachuda to ask him to return back the kingdom of the deities to them. Shankhachuda refused to oblige this demand, on the contrary he expressed his willingness and readiness to fight lord Shiva. Pushpadant returned back and narrated the whole story to lord Shiva. </p>',
+notes: [                     ]
+},
+{
+subTitle: 'SHIVA KILLS  SHANKHACHUDA ',
+content: '<p>Lord Shiva was now fully convinced about the inevitability of the battle. He first sent all his ganas under the leadership of Kartekiye and Ganesha. Later on Bhadrakali proceeded towards the battlefield with a huge army as per the own wish of lord Shiva himself. At last lord Shiva proceeded towards the battlefield accompanied by the deities. All the troops collected at the bank of river Chandrabhaga and rested under the shade of a Banyan tree. </p>' +
+'<p>Shankhachuda handed over the kingdom to his son and went to his wife to take her permission before going to the battlefield. His wife was reluctant to allow him to go, but he somehow managed to convince her. He then proceeded towards the banks of Chandrabhaga with a huge army.</p>' +
+'<p>A fierce battle started between the deities and the demons. Both of them attacked each other with the most destructive weapons. But when the army of Chandrachuda began to dominate the fight, the deities fled away and took the refuge of lord Shiva. They told Shiva of the number of deities who had been killed while fighting.</p>' +
+'<p>After the defeat of the deities and the ganas Kartikeya and Ganesha went to fight Shankhachuda. A spectacular battle was fought between Shankhachuda and both of them. Later on they were joined by Bhadrakali. Bhadrakali would have devoured Shankhachuda without any problem, but she spared his life because of the boon, given to him by Lord Brahma. Now it was the turn of Lord Shiva to join the battle, but even he could not cause any harm to him because of lord Brahma\'s boon. </p>' +
+'<p>While a tremendous battle was being fought between lord Shiva and Shankhachuda. Lord Vishnu appeared and demanded the armour from Shankhachuda, which he had put on, his body in the guise of a brahmin. Shankhachuda gave his armour to him without any kind of suspicion. Lord Vishnu then went to Shankhachuda\'s wife in the guise of her husband i.e. Shankhachuda. He destroyed the chastity of Tulsi, Shankhachuda\'s wife. Shankhachuda derived his power from the chastity of his wife and it vanished the moment, her chastity was destroyed.</p>' +
+'<p>Bhadrakali was creating havoc in the army of Shankhachuda. Shankhachuda became very furious and attacked Shiva. Shiva repulsed his assault and attacked him with his Trishul. Shankhachuda who had become powerless was killed instantaneously. The deities were very pleased at the death of Shankhachuda. After worshipping lord Shiva they went back to their respective abodes. </p>',
+notes: [                     ]
+}
+]
+},
+{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '11',
+title: 'YUDH-KHAND, TULSI CURSES LORD VISHNU  ',
+headerStyle: { 'color': '#00ffea','font-weight': '1900', 'background-color': '#007963', 'text-shadow': '2px 2px 2px #004401','opacity':'1.0', 'border': '3px outset #00f500'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/yudh_khand11.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>After being instructed by goddess Parvati, Lord Vishnu had gone to Tulsi in the guise of her husband- Shankhachuda, so that the breach of Tulsi chastity could help lord Shiva to kill Shankhachuda, who derived his power from Tulsi\'s chastity and virtuosity.</p>' +
+'<p>Initially Tulsi could not recognize lord Vishnu. She was extremely joyous at his arrival. But very soon she was able to realize the real identity of lord Vishnu, who had disguised himself as her husband.</p>' +
+'<p>She became very angry and cursed lord Vishnu to become a stone. She was crying unconsolably. Lord Vishnu contemplated on Shiva as a result of which he appeared. Lord Shiva blessed Tulsi that she would become the beloved of Lord Vishnu.</p>' +
+'<p>Due to Tulsi\'s curse, Lord Vishnu attained the form of Shaligram which is a stone and because of lord Shiva\'s blessings. Tulsi leaves started being offered to the Shaligram, in the process of its worship. </p>',
+notes: [                     ]
+}
+]
+},
+{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '12',
+title: 'YUDH-KHAND,KILLING OF HIRANYAKSHA  ',
+headerStyle: { 'color': '#ff3300','font-weight': '1900', 'background-color': '#ffee77', 'text-shadow': '2px 2px 2px white','opacity':'1.0', 'border': '3px solid #ff3300'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/yudh_khand12.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>While narrating the tale of Hiranyaksha\'s killing, Sutli said-</p>' +
+'<p>"Once, Shiva and Parvati were living at the Mandarachal mountain. Parvati, playfully covered both the eyes of Shiva with her palms. This made lord Shiva to perspire from his forehead. From this perspiration manifested a ferocious creature. Parvati asked Lord Shiva as to who this creature was. Lord Shiva told her that he was his son Andhak.</p>' +
+'<p>Parvati brought up Andhak with great love and care. Hiranyaksha the demon did a tremendous penance to please lord Shiva, with a desire to acquires a son. Lord Shiva became pleased with his penance and appeared before him. He asked Hiranyaksha to demand any boon, which he promised to fulfill.</p>' +
+'<p>Hiranyaksha expressed his desire to have a very powerful and mighty son. Shiva decided to give Andhak to him, who at that time was being brought up by Parvati. Hiranyaksha brought young Andhak along with him.</p>' +
+'<p>With the help of Andhak, he conquered all the three worlds. He lifted up the earth and proceeded towards the Netherworld. The deities became very terrified. They prayed to Lord Vishnu and when he appeared they requested him to kill Hiranyaksha.</p>' +
+'<p>Lord Vishnu killed Hiranyaksha in his incarnation of boar. After killing Hiranyaksha, Lord Vishnu made Andhak the king of Netherworld and place the earth at its original place. </p>',
+notes: []
+}
+]
+},
+{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '13',
+title: 'YUDH-KHAND,KILLING OF HIRANYAKSHIPU   ',
+headerStyle: { 'color': '#ff3300','font-weight': '1900', 'background-color': '#ffee77', 'text-shadow': '2px 2px 2px white','opacity':'1.0', 'border': '3px solid #ff3300'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/yudh_khand13.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Hiranyakashipu was filled with grief when he heard the news of his brothers\' death. To avenge Hiranyaksha\'s death, he started to torment the deities. Becoming homeless, the deities started wandering here and there. Hiranyakashipu was still unsatisfied. He wanted to acquire more power and authority. He went to the Mandarachal mountain and started doing a tremendous penance to please Lord Brahma. </p>' +
+'<p>Lord Brahma appeared before him and asked him demand anything he wished to be fulfilled. Hiranyakashipu said- </p>' +
+'<p>"O Lord! Bless me so that I do neither die during the day nor during the night; neither on the earth nor in the sky; neither by the deities nor by the demons; neither by a human being nor by an animal. Bless me O Lord! O that I do not get killed by any type of weapon."</p>' +
+'<p>Lord Brahma blessed Hiranyakshipu and said \'so be it\'. Now, Hiranyakashipu became more ruthless and arrogant. He declared himself the almighty God and ordered his subjects to worship him and his idol. His son-Prahlada was a very great devotee of lord Vishnu. He did not pay heed to his father\'s command and continued to worship Lord Vishnu. Hiranyakashipu tried to kill Prahlada many times, but each time he survived by the blessings of lord Vishnu.</p>' +
+'<p>When Hiranyakashipu\'s atrocities crossed all its limits, the deities went to lord Vishnu and requested him to kill Hiranyakashipu. Lord Vishnu appeared in his incarnation of Nrisimha (half lion and half man) and killed Hiranyakashipu with his sharp nails, during the dusk. After giving his kingdom to his son Prahalad, Lord Vishnu went back to his abode. </p>',
+notes: []
+}
+]
+},
+{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '14',
+title: 'YUDH-KHAND,SHIVA TEACHES \'MRITASANJIVANI VIDDYA\' TO SHUKRACHARYA ',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': '#667799', 'text-shadow': '2px 2px 2px black','opacity':'1.0', 'border': '3px inset #00ddff'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/yudh_khand14.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Shukracharya did a severe penance for five thousand years to please Shiva and acquire the secrets of Mritasanjivani Viddya (bringing back dead person alive) from him.</p>' +
+'<p>When Lord Shiva did not appear even after such a tremendous penance, then he indulges himself in severest form of penance, by quitting having food and water. He now started living only on air. This continued for thousands of years.</p>' +
+'<p>Lord Shiva became very pleased with his penance. He manifested from the very Shivalinga, Shukracharya had been worshipping till now. He taught the secrets of \'Mritasanjivani\' viddya to him and told him that by the help of this viddya he would become capable of making alive the dead persons. Lord Shiva also blessed Shukracharya to become a star and attain respectability among all the planets.</p>' +
+'<p>After blessing Shukracharya like this, Lord Shiva disappeared into the same Shivalinga from which he had appeared. </p>',
+notes: []
+}
+]
+},
+{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '15',
+title: 'YUDH-KHAND,BATTLE BETWEEN LORD SHIVA AND ANDHAK ',
+headerStyle: { 'color': 'yellow','font-weight': '1900', 'background-color': '#443300', 'text-shadow': '2px 2px 2px #220000','opacity':'1.0', 'border': '4px outset #220000', 'padding':'4px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/yudh_khand15.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Once, Andhak brothers jokingly told him that, since his real parents were somebody else (Shiva and Parvati) therefore he was not fit to rule them. Though they had told this in good humour, yet Andhak was very much saddened by their remark. He relinquished his throne and went to a deserted place in the forest and started to do a severe penance. Lord Brahma became very pleased by his penance and appeared before him. He asked him to demand anything he wished to be fulfilled. Andhak said- <br/>' +
+'"I only long for the love and affection of my brothers. O Lord! Bless me so that nobody should be able to kill one except lord Shiva." </p>' +
+'<p>Lord Brahma blessed him and said- \'so be it\'. </p>' +
+'<p>Andhak returned to his kingdom and with the co-operation of his brothers like Prahalad etc he brought even the deities under his control. But drunk with power he became very arrogant and started tormenting all the creatures. He did not show any respect to the Vedas, brahmin and the deities.</p>' +
+'<p>Andhak had become so arrogant that once he even dared to dishonor his own mother-Parvati, who at that time was living at the Mandarachal mountain. Shiva became very furious with him.</p>' +
+'<p>Andhak attacked Shiva with his huge army. Lord Shiva sent his numerous ganas to fight him, but all of them were killed by Andhak.</p>' +
+'<p>When lord Shiva got the news of the arrival of Andhak with his army, he sent Lord Vishnu and his remaining ganas to fight him. He himself went to perform his austerity named \'Pashupat\'. The deities fought with Andhak for one thousand years. Meanwhile Lord Shiva returned after completing his \'Pashupat Vrata\' and joined them.</p>' +
+'<p>Seeing Lord Shiva in front of him, Andhak became furious and attacked him ferociously. His companion, whose name was \'Vidhas\', devoured all the deities. The demons who had been killed in the battle, were brought back to life by Shukracharya.</p>' +
+'<p>Lord Shiva became very angry and swallowed Shukracharya. He also extracted the deities from the stomach of Vidhas who had been swallowed by him earlier. After that, lord Shiva attacked Andhak with his trident, which injured him. But from each drop of his blood which fell on the ground, manifested thousands of demons who resembled Andhak.</p>' +
+'<p>Lord Shiva then instructed goddess \'Chandika\' to drink the blood, while he killed all the demons. Goddess Chandika followed the instructions of Shiva and drank each drop of blood, which oozed out from the wounds of the demons and did not let single drop of blood to fall on the ground.</p>' +
+'<p>After killing all the demons, lord Shiva lifted Andhak with his trident and hanged him between the earth and sky. Andhak remained there for a very long period of time, bearing the heat of the sun and the showers of rain. But he remained alive. Ultimately he had to take the refuge of Lord Shiva, to save his life. Lord Shiva became pleased by his eulogy and made him his \'Ganadhees\' (leader of all the Ganas).</p>' +
+'<p>When lord Shiva swallowed up Shukracharya, he became very restless and started to find out a way through which he could come out from Shiva\'s stomach. But all of his efforts went in vain. Finding no other option, he started to chant the name of lord Shiva. His chantings continued for one hundred years. By the blessings of Shiva, he came out from Shiva\'s stomach through the ejaculated semen.</p>' +
+'<p>After coming out, Shukraharya eulogized Lord Shiva. Shiva became pleased with him and showered him with affection just like his own son. After being blessed Shukracharya went and rejoined the army of the demons.  </p>',
+notes: []
+}
+]
+},
+{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '16',
+title: 'YUDH-KHAND,KILLING GAJASUR',
+headerStyle: { 'color': '#555555','font-weight': '1900', 'background-color': '#AAAAAA', 'text-shadow': '2px 2px 2px #222222','opacity':'1.0', 'border': '2px groove #222222', 'padding':'4px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/yudh_khand16.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Goddess Durga had killed the demon Mahishasur, who used to torment the deities. Gajasur was the son of Mahishasur. To avenge his father\'s death, Gajasur did a tremendous penance to please lord Brahma.</p>' +
+'<p>Lord Brahma appeared before him and asked him to demand any boon. Gajasur said- "O Lord! Even a \'Jeetendriya\' (one who has full control over his senses) should not be able to kill me,"</p>' +
+'<p>Lord Brahma blessed him by saying - \'So be it\'. Gradually, Gajasur atrocities crossed all limits. He became the lord of all the three worlds. He forced even the deities to worship him. He used to torment the brahmins and the other religious people.</p>' +
+'<p>One day Gajasur arrived at Kashi and started tormenting the people living over there. The deities came to lord Shiva and requested him to rescue Kashi by killing Gajasur.</p>' +
+'<p>Lord Shiva came to Kashi and fought a battle with Gajasur. He killed Gajasur with this trident. At the time of his death, Gajasur eulogized Lord Shiva and requested him to put his (Gajasur\'s) skin on his (Shiva\'s) body.</p>' +
+'<p>Lord Shiva agreed to fulfill his wish. At the spot where, Gajasur was killed a famous Shivalinga by the name of Krittivaseshwar was constructed as per the own wish of lord Shiva. </p>',
+notes: []
+}
+]
+},
+{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '17',
+title: 'YUDH-KHAND,KILLING NIRHADDAITYA',
+headerStyle: { 'color': '#ff5555','font-weight': '1900', 'background-color': '#AA7777', 'text-shadow': '2px 2px 2px #220000','opacity':'1.0', 'border': '3px inset #990000', 'padding':'1px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/yudh_khand17.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Diti was filled with grief when she came to known about her son\'s (Hiranyaksha) death, who was killed by lord Vishnu.</p>' +
+'<p>Nirhaddaitya, who was the maternal uncle of Prahlada consoled her an promised to avenge the death of Hiranyaksha. He thought to destroy the vedic religion. According to him the deities derived their strength and power from this very vedic religion. He planned to eliminate the priestly class-brahmins, so that the chances of \'Yagyas\' being performed becomes extinct and the deities were starved to such an extent that they became weak and powerless. Thinking that then it would not be very difficult to kill the \'weak\' deities.</p>' +
+'<p>Nirhaddaitya arrived at Kashi to execute his plan, which during those time was the chief center of the brahmins. He attained the form of a tiger and stationed himself in a nearby forest. He used to kill any brahmin who used to come over there to collect \'Kusha\' grass and fuel. With the help of his illusionary powers he used to attain the form of a hermit during the daytime and lived among them. But during the night, he used to enter into the houses of the brahmins in the form of a tiger and used to devour them.</p>' +
+'<p>On one night of Shivaratri, when a brahmin was busy worshipping Lord Shiva, Niraddaitya who was in the form of a tiger entered the temple. But, since the brahmin was engaged in the worship of Lord Shiva, he could not harm the brahmin. Lord Shiva emerged from the very Shivalinga, which the brahmin was worshipping and punched the demon with his clenched fist, so hard that he died. </p>',
+notes: []
+}
+]
+},
+{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '18',
+title: 'YUDH-KHAND,KILLING VIDAL AND UTPAL',
+headerStyle: { 'color': '#5555ff','font-weight': '1900', 'background-color': '#7777AA', 'text-shadow': '2px 2px 2px #000022','opacity':'1.0', 'border': '3px outset #000099', 'padding':'2px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/yudh_khand18.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Long long ago there used to live two demons by the names of Vidul and Utpal. Both of them did a tremendous penance to please lord Brahma. After being blessed by lord Brahma, they became very arrogant and started tormenting the deities and the brahmins.</p>' +
+'<p>The deities went to lord Brahma and sought his help. Lord Brahma told them that both the demons would be killed by goddess Parvati very soon. He also instructed the deities to eulogize Shiva and Parvati to seek their blessings. The deities went back and started eulogizing Shiva and Parvati.</p>' +
+'<p>One fateful day, Vidal and Utpal arrived at the place where goddess Parvati was having amusements with her companions. Vidal and Utpal had disguised themselves as the ganas of Shiva. Lord Shiva recognized the real identity of the demons. He signaled towards Parvati pointing towards the demons. Parvati who was playing with a ball with her companions, understood what lord Shiva meant to say. She hit both of them with the ball, with such force that both the demons died on the spot. The ball then fell down on the ground and transformed into a Shivalinga which became as \'Kandukeshwar\'. The deities became very pleased at the death of Vidal and Utpal. </p>',
+notes: []
 }
 ]
 }
