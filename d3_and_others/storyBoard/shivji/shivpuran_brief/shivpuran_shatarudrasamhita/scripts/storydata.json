@@ -1,146 +1,33 @@
 var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
 var defaultPrevButtonStyle = "float:left;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
 var defaultNextButtonStyle = "float:right;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right:20px;";
-        var leftNavigation = true ;
+var leftNavigation = true ;
 var defaultHeaderStyle=
-    {
-        'font-weight': '900',
-        'color':'firebrick',
-         'background-color': 'transparent', 'opacity':'1.5'
-    };
-var defaultDetailStyle = { 
-      'background-color':'lightgoldenrodyellow',
-        'opacity':'0.7',
-        'margin': '10px',
-      'padding':'5px',
-        'color':'black',
-        'font-weight':'900',
-        'border':'2px solid red'};
+{
+'font-weight': '900',
+'color':'firebrick',
+'background-color': 'transparent', 'opacity':'1.5'
+};
+var defaultDetailStyle = {
+'background-color':'lightgoldenrodyellow',
+'opacity':'0.7',
+'margin': '10px',
+'padding':'5px',
+'color':'black',
+'font-weight':'900',
+'border':'2px solid red'};
 var defaultContentStyle =   { 'border':'3px outset orange',
-             'background-image': 'url("images/lord-krishna-786.jpg")',
-             'background-size': 'contain',
-             'border-radius':'4px', 
-             'padding':'2px',
-             'color':'orange', 
-             'opacity':'0.5',
-              'background-color':'lightgoldenrodyellow'};
-var chapterData = [
-    
-
-    {
-    /*
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/
-    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: 'SHATARUDRA-SAMHITA, FIVE SHIVA INCARNATIONS',
-        title: 'SHATARUDRA-SAMHITA, FIVE SHIVA INCARNATIONS',
-        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
-        contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/shatarudraSamhita/image1.jpg")',
-             'background-size': 'contain',
-             'border-radius':'4px', 
-             'padding':'2px',
-             'color':'orange', 
-             'opacity':'0.5',
-              'background-color':'skyblue'} ,
-        subsections: [
-           { 
-                subTitle: '',
-                content: '<p>The sages requested Suta to describe about the different incarnations of Lord Shiva. Suta told them that, although Lord Shiva took many incarnations but five of his incarnations were very important- Sadhojat Namadeva, Tat Purusha, Aghoresh and Ishan. </p>',
-               notes: []
-            },
-            {
-            subTitle: 'SADHOJAT',
-            content: '<p>-Lord Shiva took his first incarnation from the physique incarnation from the physique of Lord Brahma, who was engrossed in his deep state of meditation, during the nineteenth Kalpa named Shweta Lohit. Lord Brahma gave him the name Sadhojat and eulogized him. Later on, from the physique of Sadhojat four of his disciple manifested, whose names were Sunand, Nandan, Vishwanandan and Upanandan. All the four disciples were of fair complexion. Lord Shiva blessed Brahma and empowered him to do creation. </p>',
-notes: []
-},
-{
-subTitle: ' NAMDEVA',
-content: '<p>-During the twentieth Kalpa named \'Rakta\' the complexion of lord Brahma turned red, while he was engrossed in his meditative state. From his body manifested an entity who also was of red complexion. Lord Brahma named him Namadeva considering him to be the incarnation of lord Shiva and eulogized him. Later on four sons were born to Namadeva, whose names were Viraj, Viwah, Vishok and Vishwabhawan. All of them were of red complexion just like their father Namadeva</p>',
-notes: []
-},
-{
-subTitle: 'TAT PURUSHA',
-content: '<p>-The twenty-first Kalpa on the earth was known as \'Peetavasa\'. It was named so because of the apparel of lord Brahma which were of yellow colours. Lord Brahma\'s prayer resulted into the manifestation of an effulgent entity. Considering this entity as Lord Shiva, Lord Brahma started chanting the mantras of Shiva Gayatri. After the chantings of the mantras, numerous entities manifested who had put on apparels of yellow colour on their body. This way the third incarnation of Shiva popularly known as Tat Purusha manifested.</p>',
-notes: []
-},
-{
-subTitle: 'GHORESH',
-content: '<p>-- After the Peetavasa Kalpa came the Shiva Kalpa. A black complexioned manifested while Lord Brahma was engrossed in his deep meditative state. Lord Brahma considering this entity as Aghor Shiva started eulogizing him. Lord Brahma\'s eulogization resulted into the manifestation of four more entities who had the same black complexion as that of \'Aghor Shiva\'. Their names were Krishna, Krishnashikha, Krishnamukha and Krishnakanthdhari. Ghor Shiva along with those four entities blessed lord Brahma with the power of creation. </p>',
-notes: []
-},
-{
-subTitle: 'ISHAN',
-content: '<p>-During the Kalpa named Vishwaroop, manifestations of Saraswati and Ishan Shiva took place. Lord Brahma eulogized Ishan Shiva after which four divine entities named Jati, Mundi, Shikhandi and Ardhamundi manifested from Ishan Shiva. All of them blessed lord Brahma with the power of creation.</p>',
-notes: []
-}
-        ]
-    } , {
-    /*
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/
-    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: '2',
-title: 'SHATARUDRA-SAMHITA, EIGHT IDOLS OF SHIVA',
-headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'white', 'opacity':'0.9'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image2.jpg")',
+'background-image': 'url("images/lord-krishna-786.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
 'color':'orange',
 'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
+'background-color':'lightgoldenrodyellow'};
+var chapterData = [
+
+
 {
-subTitle: '',
-content: '<p>After describing about the five chief incarnations of lord Shiva, Suta explained about the eight famous idols of lord Shiva-<ul><li> Sharva</li> <li>Bhava</li> <li>Rudra</li> <li>Ugra</li> <li>Bhima</li> <li>Pashupati</li> <li>Ishan</li> <li>Mahadeva</li></ul>. These eight idols of Shiva symbolizes the eight natural elements which help in the process of creation, nurturement and annihilation. These eight natural elements are Land, water, fire, air, sky, supreme soul (Kshetragya), Sun and the moon. Being established in these eight idols, Shiva controls the whole world. </p>' ,
-notes: []
-}
-]
-}  , {
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -166,11 +53,11 @@ notes: []
 '<li>
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '3',
-title: 'SHATARUDRA-SAMHITA, SHIVA AS ARDHANARISHWAR ',
-headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'yellow', 'opacity':'1.0', 'border': '2px solid brown'},
+buttonText: 'SHATARUDRA-SAMHITA, ',
+title: 'SHATARUDRA-SAMHITA',
+headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image3.jpg")',
+'background-image': 'url("images/shatarudraSamhita/image1.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
@@ -179,54 +66,47 @@ contentStyle: { 'border':'3px outset blue',
 'background-color':'skyblue'} ,
 subsections: [
 {
-subTitle: '',
+subTitle: 'FIVE SHIVA INCARNATIONS:',
+content: '<p>The sages requested Suta to describe about the different incarnations of Lord Shiva. Suta told them that, although Lord Shiva took many incarnations but five of his incarnations were very important- Sadhojat Namadeva, Tat Purusha, Aghoresh and Ishan. </p>',
+notes: []
+},
+{
+subTitle: 'FIVE SHIVA INCARNATIONS --> SADHOJAT',
+content: '<p>-Lord Shiva took his first incarnation from the physique incarnation from the physique of Lord Brahma, who was engrossed in his deep state of meditation, during the nineteenth Kalpa named Shweta Lohit. Lord Brahma gave him the name Sadhojat and eulogized him. Later on, from the physique of Sadhojat four of his disciple manifested, whose names were Sunand, Nandan, Vishwanandan and Upanandan. All the four disciples were of fair complexion. Lord Shiva blessed Brahma and empowered him to do creation. </p>',
+notes: []
+},
+{
+subTitle: 'FIVE SHIVA INCARNATIONS --> NAMDEVA',
+content: '<p>-During the twentieth Kalpa named \'Rakta\' the complexion of lord Brahma turned red, while he was engrossed in his meditative state. From his body manifested an entity who also was of red complexion. Lord Brahma named him Namadeva considering him to be the incarnation of lord Shiva and eulogized him. Later on four sons were born to Namadeva, whose names were Viraj, Viwah, Vishok and Vishwabhawan. All of them were of red complexion just like their father Namadeva</p>',
+notes: []
+},
+{
+subTitle: 'FIVE SHIVA INCARNATIONS --> TAT PURUSHA',
+content: '<p>-The twenty-first Kalpa on the earth was known as \'Peetavasa\'. It was named so because of the apparel of lord Brahma which were of yellow colours. Lord Brahma\'s prayer resulted into the manifestation of an effulgent entity. Considering this entity as Lord Shiva, Lord Brahma started chanting the mantras of Shiva Gayatri. After the chantings of the mantras, numerous entities manifested who had put on apparels of yellow colour on their body. This way the third incarnation of Shiva popularly known as Tat Purusha manifested.</p>',
+notes: []
+},
+{
+subTitle: 'FIVE SHIVA INCARNATIONS --> GHORESH',
+content: '<p>-- After the Peetavasa Kalpa came the Shiva Kalpa. A black complexioned manifested while Lord Brahma was engrossed in his deep meditative state. Lord Brahma considering this entity as Aghor Shiva started eulogizing him. Lord Brahma\'s eulogization resulted into the manifestation of four more entities who had the same black complexion as that of \'Aghor Shiva\'. Their names were Krishna, Krishnashikha, Krishnamukha and Krishnakanthdhari. Ghor Shiva along with those four entities blessed lord Brahma with the power of creation. </p>',
+notes: []
+},
+{
+subTitle: 'FIVE SHIVA INCARNATIONS --> ISHAN',
+content: '<p>-During the Kalpa named Vishwaroop, manifestations of Saraswati and Ishan Shiva took place. Lord Brahma eulogized Ishan Shiva after which four divine entities named Jati, Mundi, Shikhandi and Ardhamundi manifested from Ishan Shiva. All of them blessed lord Brahma with the power of creation.</p>',
+notes: []
+},{
+subTitle: ' EIGHT IDOLS OF SHIVA',
+content: '<p>After describing about the five chief incarnations of lord Shiva, Suta explained about the eight famous idols of lord Shiva-<ul><li> Sharva</li> <li>Bhava</li> <li>Rudra</li> <li>Ugra</li> <li>Bhima</li> <li>Pashupati</li> <li>Ishan</li> <li>Mahadeva</li></ul>. These eight idols of Shiva symbolizes the eight natural elements which help in the process of creation, nurturement and annihilation. These eight natural elements are Land, water, fire, air, sky, supreme soul (Kshetragya), Sun and the moon. Being established in these eight idols, Shiva controls the whole world. </p>' ,
+notes: []
+},{
+subTitle: 'SHIVA AS ARDHANARISHWAR',
 content: '<p>Once upon a time Lord Brahma, not seeing an expansion in his creation became very worried. A heavenly voice instructed him to commence creation with the help of copulative activities. But since all the incarnation of Shiva had been males till then, therefore lord Brahma was finding it impossible. </p>' +
 '<p>Lord Brahma contemplated on the form of Shiva and Shakti. Lord Shiva became very pleased with him and appeared in his form of \'Ardhanarishwar\' (half male half female). Left side of his body resembled like a woman while the right side appeared like a man. Lord Brahma worshipped this form of Shiva.  </p>' +
 '<p>Lord Shiva then separated the feminine part of his body and thus manifested mother Shakti. Lord Brahma worshipped her and requested to bestow such power by which he could create a woman. </p>' +
 '<p>Goddess Shakti blessed him by saying - \'So be it\' and vanished. This way Lord Brahma became capable of commencing copulative creation. </p>' ,
 notes: []
-}
-]
-}  , {
-/*
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '4',
-title: 'SHATARUDRA-SAMHITA, VARIOUS INCARNATIONS OF VYASA AND LORD SHIVA ',
-headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'darkblue', 'opacity':'1.0','padding':'2px' ,'border': '3px  silver outset'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image4.jpg")',
-'background-size': 'cover',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'VARIOUS INCARNATIONS OF VYASA AND LORD SHIVA',
 content: '<p>During the \'Varaha\' Kalpa of the Seventh \'Manvantar\' lord Vishnu illuminated all the three world by his divine presence. This seventh Manvantara consisted of four yugas which repeated themselves in a cyclic way for twelve times.</p>' +
 '<p>The first dwapar of this seventh manvantar saw the manifestation of lord Shiva for the welfare of the brahmins. When Kali Yuga arrived Lord Shiva again manifested himself along with goddess Shakti and was known as Mahamuni Shweta. Lord Brahma had the priviledge of becoming his disciple.</p>' +
 '<p>During the second dwapar, sage Vyasa existed as Satya, Prajapati and Lord Shiva became famous as \'Sutar\'. Lord Shiva in his incarnation of Sutra had many disciples among whom \'Dundubhi\' was very famous.</p>' +
@@ -238,48 +118,8 @@ content: '<p>During the \'Varaha\' Kalpa of the Seventh \'Manvantar\' lord Vishn
 '<p>During the eighth dwapar sage Vyasa took incarnation as Vashishtha and Lord Shiva as Dadhivahan. Dadhivahan had four disciples among whom Kapila was very famous.  </p>' +
 '<p>During the nineth dwapar sage Vyasa took incarnation as Saraswat and Lord Shiva as \'Rishabh\'. Lord Shiva in his incarnation as Rishabhdeva had four disciples among whom Parashar was very famous. </p>' ,
 notes: []
-}
-]
-} , {
-/*
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '5',
-title: 'SHATARUDRA-SAMHITA, NANDIKESHWAR ',
-headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': '#333333', 'opacity':'1.0','padding':'2px' ,'border': '3px  silver outset'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image5.jpg")',
-'background-size': 'cover',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'NANDIKESHWAR',
 content: '<p>While describing about the incarnation of Nandikeshwar Suta says- </p>' +
 '<p>Sage Shilad did a tremendous penance to please lord Shiva with an aspiration to have a son. Lord Shiva appeared before him and asked him to demand any boon he wished.</p>' +
 '<p>Sage Shilad expressed his desire of having a son who is not born from a physical body and who is proficient in all the scriptural knowledges. Lord Shiva blessed him by saying - \'So be it\'.</p>' +
@@ -290,129 +130,44 @@ content: '<p>While describing about the incarnation of Nandikeshwar Suta says- <
 '<p>Lord Shiva also gave one of his garlands to him. As soon as Nandi wore that garland he imbibed all the qualities of lord Shiva. After that Lord Shiva took out some water from his locks of hair and sprinkled on him, as a result of which five rivers came into existence. These five rivers were later on came to be known as Panchanad. Lord Shiva then made him the leader of all his ganas.</p>' +
 '<p>Later on goddess Parvati took Nandi under her guidance and considered him just like her own son. Nandi was married to Suyasha- the daughter of Marut. Ultimately all of them accompanied lord Shiva to his abode.  </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '6',
-title: 'SHATARUDRA-SAMHITA, BHAIRAV GETS LIBERATED FROM HIS SIN ',
-headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'skyblue', 'text-shadow': '2px 2px 2px gray','opacity':'1.0', 'border': '3px outset silver'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image6.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'BHAIRAV GETS LIBERATED FROM HIS SIN',
 content: '<p>Bhairav who was created by lord Shiva from his third eye, had severed one of the five heads of Lord Brahma on the instruction of lord Shiva. Now Brahma was left with only four heads. </p>' +
 '<p>Carrying the skull of Brahma in his hand, Bhairava started wandering in all the three worlds. To atone his sin of severing the head of lord Brahma, he was begging alms.</p>' +
 '<p>Bhairav reached Vishnuloka where he was welcomed warm heartedly by lord Vishnu and Lakshmi. Goddess Lakshmi dropped the learning (Vidya) named Manorath (by which all the wishes could be fulfilled) in the begging bowl (Skull) of Bhariav. Bhairav became extremely happy by this gift. Lord Shiva had created a oegrass named \'Brahmahatya\' and had instructed Bhairav to reach Kashi, before her. According to lord Shiva this way the sin committed by Bhairav could successfully atoned.</p>' +
 '<p>After being blessed by goddess Lakshmi, Bhairav took the permission of Lord Vishnu and proceeded towards Kashi. After his departure asked Brahmahatya to stop chasing Bhairav. But she refused saying that she was just following the instruction of Lord Shiva.</p>' +
 '<p>When Bhairav reached Kashi, Brahmahatya too came near the outskirts of the city, but could not enter it because of Lord Shiva\'s power instead she entered in to the netherworld (Patal loka). As soon as Bhairav had entered Kashi. The begging-bowl (skull) fell on the ground and thus Bhairav got liberated from his sins. Bhairav was extremely relieved. The place where the skull of Brahma had fallen, later on became as Kapal mochan- the most sacred place of pilgrimage. </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '7',
-title: 'SHATARUDRA-SAMHITA, SHIVA TAKES INCARNATION AS SHARABH ',
-headerStyle: { 'color': 'orange','font-weight': '1900', 'background-color': 'red', 'text-shadow': '2px 2px 2px brown','opacity':'1.0', 'border': '3px outset brown'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image7.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'SHIVA TAKES INCARNATION AS SHARABH',
 content: '<p>While describing about the incarnation of Sharabh Suta told sages-  </p>' +
 '<p>"When Vishnu took his incarnation of Nrisimha to kill the demon king Hiranyakashipu, his anger could not be subdued even after the killing of Hiranyakashipu. His anger had frightened all the three worlds. Lord Brahma sent Prahlada to Nrisimha so that his anger gets cool down. Prahlada prayed to Nrisimha. Nrisimha took him in his embrace but still his anger was not subdued."</p>' +
 '<p>"All the deities went to lord Shiva and requested to him to cool down Vishnu\'s anger. Lord Shiva then sent Bhairav and Veerbhadra to Nrisimha. When Veerbhadra politely requested Nrisimha to cool down, he (Nrisimha) tried to pounce on him (Veerbhadra). Right then Lord Shiva appeared in his most devastating form. He was looking frightening in his giant form and with thousands of hand. His appearance was resembling a huge cannibal bird. Lord Shiva injured Nrisimha with his giant wings and after carrying Lord Vishnu in his giant wings and after carrying lord Vishnu in his arms he flew in the sky. Lord Vishnu was so frightened that he became unconscious."</p>' +
 '<p>"After regarding his consciousness Lord Nrisimha appeared in his form of Lord Vishnu and eulogized Shiva, which made lord Shiva very pleased. Lord Shiva wore the head of Nrisimha with the garland of skull in his neck. The remaining body was carried by Veerbhadra and abandoned at a mountain." </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '8',
-title: 'SHATARUDRA-SAMHITA,  SHIVA\'S INCARNATION AS GRIHAPATI  ',
-headerStyle: { 'color': 'grey','font-weight': '1900', 'background-color': 'white', 'text-shadow': '1px 2px 2px black','opacity':'1.0', 'border': '3px outset #222222'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image8.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: 'VISHWANAR RECEIVES BOON FROM SHIVA',
+},{
+subTitle: 'SHIVA\'S INCARNATION AS GRIHAPATI -->VISHWANAR RECEIVES BOON FROM SHIVA',
 content: '<p>Once upon a time, there used to live a brahmin named Vishwanar who was a great devotee of lord Shiva. Shuchismati was his wife who was a devout wife. Being pleased by her sense of dutifulness, Vishwanar tried to reward his wife.  </p>' +
 '<p>Shuchismati expressed her desire of having a son just like lord Shiva. Vishwanar went to Kashi to please Lord Shiva by his penance. He worshipped Vishveshwar linga with supreme devotion. Lord Shiva became very pleased by his devotion and he appeared before Vishwanar from the Shivalinga. When Vishwanar expressed his desire, lord Shiva agreed to take birth as his Son. Vishwanar came back to his house happily. </p>' ,
 notes: []
 },
 {
-subTitle: 'GRIHAPATI ',
+subTitle: 'SHIVA\'S INCARNATION AS GRIHAPATI --->GRIHAPATI ',
 content: '<p>In due course of time, Shuchismati became pregnant and gave birth to a beautiful child. The whole family celebrated the birth of the child. The whole family celebrated the birth of the child. The name giving ceremony of that child was attended by all the deities and sages including lord Shiva and Parvati. Lord Brahma named the child as Grihapati. When Grihapati attained the age of five, his sacred thread ceremony was performed. Within a year he became proficient in all the Vedas and other sacred texts. </p>' +
 '<p>When Grihapati attained the age of nine, Narada came and informed Vishwanar that death of Grihapati was imminent because of the evil effects of the planetary combinations. Vishwanar and Shuchismati were saddened and started crying.</p>' +
 '<p>Grihapati then consoled his parents and proceeded towards Kashi to do penance so that the death could be conqured. Grihapati commenced his penance at Kashi. The deity Indra arrived there and requested him to demand anything he wished but Grihapati refused. Indra became furious and tried to attack him with his weapon-Vajra. Grihapati was very terrified.</p>' +
 '<p>Right then Lord Shiva appeared and Indra had to retreat from the scene. Lord Shiva blessed Grihapati by saying - "What to say about this lightning - Vajra, even Kalvajra would not be able to kill you."</p>' +
 '<p>Grihapati became very pleased. The Shivalinga which he worshipped, later on became famous as \'Agnishwar\' linga. Lord Shiva made Grihapati the lord of all the directions.  </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '9',
-title: 'SHATARUDRA-SAMHITA,  SHIVA\'S INCARNATION AS YAKSHESHWAR ',
-headerStyle: { 'color': 'black','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px white','opacity':'1.0', 'border': '3px solid #222222','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image9.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'SHIVA\'S INCARNATION AS YAKSHESHWAR ',
 content: '<p>During the time when ocean was being churned first of all poison appeared from it. The deities were very terrified to see the tremendous heat it generated. They went to lord Shiva and requested to protect them from the heat of that poison. Lord Shiva drank all the poison but did not let it pass down his throat. </p>' +
 '<p>After the poison, Nectar appeared from the ocean, which was drunk by the deities. The demons too wanted to drink the nectar, so a tremendous battle ensued between them and the deities. The deities became victorious in this battle because they had become immortal due to the effect of the Nectar. This victory made the deities very arrogant. </p>' +
 '<p>Lord Shiva was very concerned about their arrogant nature. He went to them in the guise of a Yaksha. He asked as to what was it that had made them so arrogant. The deities replied that their arrogance stemmed from victory over the demons. Lord Shiva who was disguised as Yaksha replied- "Your pride is based on false notion, because you did not achieve victory due to somebody\'s grace and blessing."  </p>' +
 '<p>The deities disagreed with him. Lord Shiva then asked them to cut the grass if they considered themselves so mighty. He then kept a grass leaf in front of them. Each of the deities tried to cut that grass with their respective weapons but remained unsuccessful in their attempts. They were all amazed. Suddenly a heavenly voice was heard which said that the Yaksha was none other than Lord Shiva himself. The deities realized their mistakes. They apologized to lord Shiva. After vanquishing the false pride of the deities lord Shiva disappeared. </p>' ,
 notes: []
-}
-]
 }, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '10',
-title: 'SHATARUDRA-SAMHITA,  TEN INCARNATIONS OF SHIVA AND SHAKTI ',
-headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': '#AFAAAE', 'text-shadow': '1px 2px 2px brown','opacity':'1.0', 'border': '3px solid #222222','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image10.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+subTitle: 'TEN INCARNATIONS OF SHIVA AND SHAKTI',
 content: '<p>Describing about the ten incarnations and their corresponding power (Shakti), Suta said- </p>' +
 '<ol><li>The first incarnation of lord Shiva was as Mahakal and his Shakti was called Mahakali. </li>' +
 '<li>Shiva took his second incarnation as Tar and his Shakti was called \'Tara\'.</li>' +
@@ -424,25 +179,8 @@ content: '<p>Describing about the ten incarnations and their corresponding power
 '<li>The eighth incarnation was as Baglamukh and his Shakti as Baglamukhi.</li><li> The nineth incarnation of lord Shiva became famous as Matang and his Shakti as \'Matangi\'.</li>' +
 '<li>Lord Shiva took his tenth incarnation as \'Kamal\' and his Shakti as Kamala.</li></ol> If these ten incarnations of Shiva are worshipped along with his ten Mahavidyas then a man attains salvation. </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '11',
-title: 'SHATARUDRA-SAMHITA,  THE ORIGIN OF ELEVEN RUDRAS  ',
-headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image11.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'THE ORIGIN OF ELEVEN RUDRAS',
 content: '<p>Once, the deities went to sage Kashyapa after being tormented by the demons. They complained to him about the misdeeds of the demons, who also happened to be their step brothers. Sage Kashyapa became extremely furious, when he heard about the misdeeds of his sons - the demons. To protect the deities from his sons, he commenced a penance to please lord Shiva.</p>' +
 '<p>Lord Shiva became very pleased by his penance and appeared before him. He asked Kashyapa to demand anything he wished. Kashyapa then requested Lord Shiva to take birth as his son and destroy the demons. Lord Shiva blessed him and said - \'So be it\'.  </p>' +
 '<p>Lord Shiva, later on took birth as eleven Rudras from the womb of his wife Surabhi. The name of these eleven rudras were as follows:- </p>' +
@@ -457,25 +195,8 @@ content: '<p>Once, the deities went to sage Kashyapa after being tormented by th
 '<li> Chand </li><li>Bhav</li></ol> </p>' +
 '<p>These eleven Rudras fought battles with the demons and killed them. The deities were relieved after the death of the demons. They worshipped these eleven rudras to express their gratitude and indebtedness. </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '12',
-title: 'SHATARUDRA-SAMHITA,  SHIVA\'S INCARNATION AS DURVASA ',
-headerStyle: { 'color': '#a73300','font-weight': '1900', 'background-color': '#AAAA44', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image12.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'SHIVA\'S INCARNATION AS DURVASA ',
 content: '<p>Describing about the Lord Shiva\'s incarnation as Durvasa, Suta told the deities:- "once Atri - the manasputra of lord Brahma went to do penance at the bank of the river Nivindhya which flew by the foothills of Trayakshakul mountain as per the instructions of Lord Brahma himself. He commenced doing a tremendous penance. The effects of his penance was such that devastating flames of fire manifested from his head. The fire spread in all the three world in no time. The deities were terrified by the death and destruction caused by the fire in all the three worlds. They went to lord Brahma to seek his help. Lord Brahma took them to lord Vishnu and revealed to him about the destruction caused by the fire. All of them went to lord Shiva and told him everything.</p>' +
 '<p>Lord Brahma, Lord Vishnu and Lord Shiva went to Atri and blessed him. Atri recognized them. He eulogized them. Later on Atri\'s wife Anusuya gave birth to three sons, who in fact were the incarnations of Lord Brahma, Lord Vishnu and Lord Shiva. Lord Brahma incarnation as the Moon, Lord Vishnu as Dutt and Shiva took incarnation as Durvasa. </p>' +
 '<p>Durvasa had tested the religiousness and virtuosity of numerous people. He had also tested the religiousness of king Ambareesh, who ruled over \'Saptadweepa\'. Once king Ambareesh had observed a fast on \'Ekadashi\'. Next day, when he was about to break his fast sage Durvasa arrived accompanied by his large number of disciples.</p>' +
@@ -483,72 +204,21 @@ content: '<p>Describing about the Lord Shiva\'s incarnation as Durvasa, Suta tol
 '<p>Sage Durvasa would have burnt king Ambareesh to ashes by his curse, had not Sudarshan-the weapon of Vishnu came to his rescue. Sudarshan then tried to burn sage Durvasa when suddenly a heavenly voice was heard from the sky which said- </p>' +
 '<p>"Durvasa is no one but the incarnation of lord Shiva himself." Hearing this Sudarshan\'s anger was pacified. King Ambareesh then begged his forgiveness from sage Durvasa </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '13',
-title: 'SHATARUDRA-SAMHITA,  INCARNATION OF HANUMAN ',
-headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image13.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'INCARNATION OF HANUMAN ',
 content: '<p>Lord Shiva was so infatuated by the appearance of lord Vishnu in his form of Mohini roopa that his semen was released on the ground. This semen was established by the Saptarishis in the womb of Anjani, with the permission of lord Shiva himself.</p>' +
 '<p>In this way was born the mighty Hanuman. Once, during his childhood Hanuman had swallowed the Sun, which he released only after the deities prayed to him. The sun accepted him as his disciple and made him proficient in all the learning\'s. He started living with Sugriva as per the instructions of his teacher - the Sun.  </p>' +
 '<p>During the time of Sri Rama\'s exile, Sugriva developed friendship with him with the help of Hanuman. Hanuman helped Sri Rama in finding the whereabouts of Sita, who had been abducted by the demon king Ravana. He took a giant leap and jumped across the ocean. He went to Ashok-Vatika where Ravana had kept Sita. He gave Sri Rama\'s ring to her and consoled her by saying that very soon Sri Rama was going to arrive and release her from Ravana\'s captivity. He also burnt the whole Lanka by his burning tail and returned to Sri Rama to give him Sita\'s news while the battle was fought between Sri Rama and Ravana Lakshmana got seriously injured and became unconscious. Hanuman saves his life by bringing the whole of mountain, upon which the herb Sanjivani grew.</p>' +
 '<p>Being present at the service of Sri Rama, Hanuman performed his duties marvelously. Worship of Hanuman helps a man to become free from all kinds of problems, diseases and hurdles etc. </p>'  ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '14',
-title: 'SHATARUDRA-SAMHITA,  SHIVA\'S INCARNATION AS MAHESH ',
-headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': '#000077', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image14.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'SHIVA\'S INCARNATION AS MAHESH ',
 content: '<p>Once, Bhairav who was entrusted with the job of a doorkeeper became so infatuated with Parvati\'s beauty that he tried to prevent her from going outside.</p>' +
 '<p>Parvati became furious and cursed him to be born as a mortal man on the earth. Bhairav became very sad but now the damage had been already done. Bhairav later on appeared in the form of a man named \'Vetal\'.</p>' +
 '<p>Vetal prayed to lord Shiva who took his incarnation as Mahesh and goddess Parvati as Girija</p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '15',
-title: 'SHATARUDRA-SAMHITA,  LORD VISHNU CREATES TURBULENCES ',
-headerStyle: { 'color': 'gray','font-weight': '1900', 'background-color': '#aaffff', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image15.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'LORD VISHNU CREATES TURBULENCES ',
 content: '<p>After the churning of the ocean had been accomplished, numerous things had emerged out from the ocean. Jewels, Moon, Lakshmi, Poison, Uchchaishrava horse, Airavat elephant, Vessel containing Nectar were some of the things which emerged out from the ocean after the churning.</p>' +
 '<p>A tremendous battle was fought between the deities and the demons to have control over the vessel containing Nectar. The demons had snatched that vessel from the deities.</p>' +
 '<p>By the divine inspiration of lord Shiva, Vishnu appeared in the form of Mohini the enchanting beauty. He successfully recovered that vessel from the control of the demons.  </p>' +
@@ -556,73 +226,22 @@ content: '<p>After the churning of the ocean had been accomplished, numerous thi
 '<p>By that time, Vishnu had made the deities drink all the nectar. When the demons came to know about this, they became very furious and attacked the deities. A tremendous battle ensured between both the sides. Ultimately the demons got defeated. To save their lives the demon ran towards their abode. Lord Vishnu chased the demons and entered the Netherland. He killed all the demons.</p>' +
 '<p>Lord Vishnu then saw those enchanting beauties who had been abducted by the demons. Ironically, lord Vishnu got infatuated by their beauty- who were his own creation. Lord Vishnu remained there for a long time. </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '16',
-title: 'SHATARUDRA-SAMHITA,  SHIVA\'S INCARNATION AS VRISHABH ',
-headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image16.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'SHIVA\'S INCARNATION AS VRISHABH ',
 content: '<p>During his stay in the Netherland, many sons were born to Lord Vishnu, who were very wicked and cruel. These sons of lord Vishnu started tormenting the inhabitants of all the three world. All the deities and the sages went to lord Shiva to take his help. They requested him to kill the cruel sons of Vishnu and reestablish him (lord Vishnu) in his own abode, which he had abandoned for the Nether world. </p>' +
 '<p>Lord Shiva went to the Netherworld in the form of an Ox (Vrishabh). He killed all the sons of lord Vishnu with his sharp horns. Seeing the death of his sons, lord Vishnu came forward to fight him. He attacked lord Shiva with his various weapons, but lord Shiva remained harmless. Ultimately lord Vishnu was able to recognise him. He eulogized lord Shiva.</p>' +
 '<p>Lord Shiva then requested him to return back to Vishnuloka, he accepted. Lord Vishnu left his \'Sudarshan chakra\' in the Netherworld and went to his own abode, where lord Shiva presented him a new Sudarshan chakra.  </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '17',
-title: 'SHATARUDRA-SAMHITA,  KILLING OF VRITTRASUR ',
-headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image17.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'KILLING OF VRITTRASUR',
 content: '<p>Once, when the deities were defeated by Vrittrasur, they went to lord Brahma after hiding their weapons in the hermitage of sage Dadhichi. They requested lord Brahma to reveal about the means, how vrittrasur could be killed.</p>' +
 '<p>Lord Brahma advised the deities to male a weapon named Vajra from the bones of sages Dadhichi, as Dadhichi\'s bones were even harder than the Vajra of Indra by the blessings of lord Shiva.</p>' +
 '<p>All the deities then went to the hermitage of Dadhichi in the leadership of Brihaspati. On being enquired about the purpose of their visit, Indra said that he wanted his bones so that a weapon could be made out of it.  </p>' +
 '<p>Dadhichi gave up his life by his yogic power. Indra then instructed Kamdhenu to extract the bones from the dead body of Dadhichi. The bones were on given to \'Twashta\' to construct the weapon-Vajra. Twashta took the weapons to Vishwakarma who at last constructed the Vajra. </p>' +
 '<p>Indra killed Vrittrasur with this weapon. When Suvarcha - the wife of Dadhichi came to know about the cunning deeds of the deities, she cursed them to become animals. </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '18',
-title: 'SHATARUDRA-SAMHITA,  SHIVA\'S INCARNATION AS YATINATH',
-headerStyle: { 'color': 'gray','font-weight': '1900', 'background-color': '#352456', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image18.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'SHIVA\'S INCARNATION AS YATINATH',
 content: '<p>There used to live a bheel named Ahuk of the Arbudachal mountain. His wife was Ahuka. Both of them were supreme devotee of lord Shiva. </p>' +
 '<p>Once, lord Shiva wanting to test their devotion, appeared before them disguised a hermit. Ahuk honored his guest and treated him very well. Lord Shiva then requested him to give shelter for the whole night. Ahuk expressed his inability as he had a very small hut, in which only two people could be accommodate at a time.</p>' +
 '<p>But his wife intervened and requested Ahuk to sleep outside the hut with his arms, as it would be inappropriate on their part to miss this chance of proving their hospitality.</p>' +
@@ -631,25 +250,8 @@ content: '<p>There used to live a bheel named Ahuk of the Arbudachal mountain. H
 '<p>Right then lord Shiva appeared in his real form and blessed her by saying-<br/>"In his next birth your husband would take birth in a royal family. He would become famous as Nala and you would be born as Damayanti to king Bhima of Vidarbha. I would myself appear in the form of a swan and help both of you to unite. After enjoying all the pleasures of this world both of you would attain to may abode.  </p>' +
 '<p>After saying thus, lord Shiva established himself as immovable Shivalinga, which later on became famous as Achaleshwar linga.</p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '19',
-title: 'SHATARUDRA-SAMHITA,  SHIVA\'S INCARNATION AS \'KRISHNA DARSHAN\' ',
-headerStyle: { 'color': '#8a2be2','font-weight': '1900', 'background-color': '#4169e1', 'text-shadow': '1px 1px 1px blue','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image19.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'SHIVA\'S INCARNATION AS \'KRISHNA DARSHAN\' ',
 content: '<p>King Nabhag was born in the nineth geneology of Shradhadeva who himself was a descendant of Ikshavaku. Nabhag was the grandfather of Ambareesh. During his childhood Nabhag left his home for \'Gurukula\' to get education. In his absence his brothers got the wealth of the kingdom distributed among themselves.  </p>' +
 '<p>When Nabhag returned home after the completion of his education, he demanded his share of wealth from his brothers. His brothers told him that they had forgotten to fix his share as he was absent at the time when wealth was being distributed. They advised him to go and meet their father. </p>' +
 '<p>Nabhag went to his father and made the same request. His father advised him to go to sage Angiras who was trying to accomplish a yagya, but was not being able to accomplish it because of his attachment.</p>' +
@@ -659,25 +261,8 @@ content: '<p>King Nabhag was born in the nineth geneology of Shradhadeva who him
 '<p>Nabhag told lord Shiva that, since the wealth was given to him by sage Angiras himself, it naturally belonged to him. Lord Shiva then sent Nabhag to his father Shradhadev to know about his opinion. Nabhag went to Shradha deva who revealed to him that the person who was staking his claims on the wealth was none other then lord Shiva. He also told him that whatever remained after the accomplishment of the yagya belongs to lord Shiva only.</p>' +
 '<p>Nabhag was now satisfied. He went back to lord Shiva and narrated everything what his father had said. He then eulogized and worshipped lord Shiva. Lord Shiva blessed him which helped Nabhag to attain salvation. </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '20',
-title: 'SHATARUDRA-SAMHITA,  LORD SHIVA APPEARS AS A BEGGAR',
-headerStyle: { 'color': 'blue','font-weight': '1900', 'background-color': 'aliceblue', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '4px inset darkblue','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image20.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'LORD SHIVA APPEARS AS A BEGGAR',
 content: '<p>There was a king named Satyarath who ruled over Vidarbha. Once he was attacked by a neighbouring king. Satyarath was killed in that battle. His wife somehow managed to save her life by hiding in a forest. The queen was pregnant at that time.</p>' +
 '<p>At the shore of a pond she gave birth to a child. She was feeling thirsty, so she went into the pond to quench her thirst. Unfortunately she was killed by a crocodile who used to live in that pond.</p>' +
 '<p>The hungry child started crying. A beggar woman arrived there with her one year old child. Though her heart was filled with compassion seeing the hungry child cry but still she was hesitating to take him in her lap.  </p>' +
@@ -687,27 +272,8 @@ content: '<p>There was a king named Satyarath who ruled over Vidarbha. Once he w
 '<p>After saying like this lord Shiva disappeared. The beggar woman took that child to her house and brought him up with great love and care. When he grew up his sacred-thread ceremony was performed and then he was initiated into the worship of lord Shiva.</p>' +
 '<p>By the blessing of lord Shiva, Satyarath\'s son formed a pot full of gold while he was taking both in a pond. Now the beggar family became very rich. Once again when he had gone to a forest he met a \'gandharva\' princess to whom he ultimately got married. This way he became a king. He lived happily with his mother and his brother.</p>' ,
 notes: []
-}
-]
-},
-/* ############################# ALREADY EDITED DO NOT CHANGE ################################# */
-{
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '21',
-title: 'SHATARUDRA-SAMHITA,  LORD SHIVA APPEARS IN THE GUISE OF INDRA (SURESHWAR) ',
-headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image21.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'LORD SHIVA APPEARS IN THE GUISE OF INDRA (SURESHWAR) ',
 content: '<p>Upamanyu, the son of sage Vyaghrapad, was brought up in his maternal uncle\'s home since his childhood. One day Upanyu was very hungry. His mother gave him milk to drink which was not enough to satisfy his hunger. He demanded more and started crying. His mother mined some wheat flour in the water and gave him to drink as there was no milk left in the house. Upamanyu finding the taste different told his mother that it was not milk but something else. He again started crying. </p>' +
 '<p>His mother told him that if he wanted milk then he should worship lord Shiva as he only was capable of making the milk available. Upamanyu proceeded towards the Himalaya and started doing penance to please lord Shiva- continuously chanting the mantra Om Namah Shivay. His penance generated so much of heat that all the three worlds started burning. </p>' +
 '<p>Lord Shiva, later on took birth as eleven Rudras from the womb of his wife Surabhi. The name of these eleven rudras were as follows:- </p>' +
@@ -716,25 +282,9 @@ content: '<p>Upamanyu, the son of sage Vyaghrapad, was brought up in his materna
 '<p>Shiva and Parvati were satisfied by his total dedication and devotion. They revealed their real identity and blessed him. Shiva promised Upamanyu that he would be present in the vicinity of his hermitage along with Parvati forever.</p>' +
 '<p>Upamanyu returned back to his home and narrated the whole story to his mother who was very pleased. Lord Shiva got the name \'Sureshwar\' because he appeared in the guise of Indra. </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '22',
-title: 'SHATARUDRA-SAMHITA,  SAGE VYASA ADVISES THE PANDAVAS TO WORSHIP SHIVA ',
-headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image11.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
+},
 {
-subTitle: '',
+subTitle: 'SAGE VYASA ADVISES THE PANDAVAS TO WORSHIP SHIVA ',
 content: '<p>After loosing their whole kingdom to Duryodhan in the gamble, Pandavas went to the dwait  forest accompanied by Draupadi. They started living in a place which was donated by Velotra Sun.</p>' +
 '<p>Duryodhan instigated sage Durvasa to torment the Pandavas. Sage Durvasa went to the place where Pandavas were staying, accompanied by thousands of his disciples. He demanded food from the Pandavas. How could have the Pandavas satiated from the hunger of thousands of people. Lord Krishna came to their rescue and saved them from being disagraced. As a result Durvasa and his disciples went back satisfied.</p>' +
 '<p>Lord Krishna advised the Pandavas to worship lord Shiva, but they neglected that advice. As a result their sufferings increased in magnitude. One day sage Vyasa arrived there. The Pandavas gave a rousing reception. Considering Arjuna to be the most capable among the Pandavas, Vyasa taught him the method of doing \'Parthiva\' worship. Later on Arjuna went to the Indrakeel mountain to please Indra by his penance. Sage Vyasa preached Yudhisthira to remain firm on his virtuously and religiousness.</p>' +
@@ -742,50 +292,17 @@ content: '<p>After loosing their whole kingdom to Duryodhan in the gamble, Panda
 '<p>Indra went to Arjuna in the guise of a celibate and asked about the purpose for which he was doing penance. Arjuna told him that he wanted to defeat the Kauravas. Indra then told Arjuna that it was not in his capacity to help him achieve victory over the Kauravas, because of Aswatthama who was a partial incarnation of lord Shiva.</p>' +
 '<p>Indra advised Arjuna to please lord Shiva by his penance so that his wishes could be fulfilled. Indra then entrusted some of his men, the job of Arjuna\'s security and went back to his abode. Arjuna commenced his penance to please lord Shiva.  </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '23',
-title: 'SHATARUDRA-SAMHITA,  LORD SHIVA APPEARS IN GUISE OF \'KIRAT\' AND BLESSES ARJUNA ',
-headerStyle: { 'color': 'green','font-weight': '1900', 'background-color': 'lightgreen', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image23.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
+},{
+subTitle: 'LORD SHIVA APPEARS IN GUISE OF \'KIRAT\' AND BLESSES ARJUNA ',
 content: '<p>Arjuna did a tremendous penance by standing only on one leg and concentrating his gaze upon the blazing sun. The deities became very impressed by Arjuna\'s penance. They went to lord Shiva and requested him to bless Arjuna. Lord Shiva accepted their request.</p>' +
 '<p>Duryodhan had sent a demon named Mooka to kill Arjuna. Mooka had disguised himself as a boar. Arjuna was engrossed in his meditation, when suddenly his concentration got disturbed by a loud noise. He opened his eyes and saw Mooka being chased by a band of Kirats. In fact it was none other than Shiva who had appeared in the guise of Kirat.</p>' +
 '<p>Both Arjuna and Lord Shiva struck the boar with their respective arrows at the same time. As a result the boar was killed.</p>' +
 '<p>Lord Shiva sent his ganas to bring back the arrow. Similarly Arjuna too went near the dead boar to bring his arrow. Arjuna found his arrow lying on the ground. He picked it up in his hand. Right then the ganas arrived there and asked Arjuna to return that arrow as it belonged to their master (Shiva). But Arjuna refused to part with his arrow. Instead he asked the ganas, to convey his challenge to their master to have a dual with him. </p>' +
 '<p>The ganas went back to lord Shiva and narrated the whole story to him. Lord Shiva accepted Arjuna\'s challenge and went to fight him. His ganas accompanied him. Arjuna defeated all the ganas of Shiva. In the end Lord Shiva came forward to have a dual fight with him. Shiva was very much impressed by his valour. He revealed his real identity. Arjuna was very ashamed that he fought with Shiva. Lord Shiva consoled him and gave his weapon Pashupat to Arjuna. </p>' ,
 notes: []
-}
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '24',
-title: 'SHATARUDRA-SAMHITA,  THE TWELVE JYOTIRLINGAS ',
-headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': 'orange', 'text-shadow': '2px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image24.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
+},
 {
-subTitle: 'Summary',
+subTitle: '############################ THE TWELVE JYOTIRLINGAS ',
 content: '<p>Describing about the twelve Jyotirlingas, Suta told the sages:- "There are twelve Jyotirlingas which are as Follows</p>' +
 '<ol><li> Somnath in Saurashtra</li>' +
 '<li>MallikArjuna in Sri Shail</li>' +
@@ -850,6 +367,40 @@ subTitle: 'Dhushmesh in Shivalaya',
 content: '<p>Lord Shiva took his twelfth incarnation as Dhumeshwar after being pleased by Dhushma - the wife of Sumedha. Having a darshan of this Jyotirlinga helps a devotee to fulfill all of his desires. All the above mentioned twelve Jyotirlingas are very sacred and give total accomplishment to the devotees.  </p>' ,
 notes: []
 }
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '23',
+title: 'SHATARUDRA-SAMHITA,  ',
+headerStyle: { 'color': 'green','font-weight': '1900', 'background-color': 'lightgreen', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/shatarudraSamhita/image23.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '24',
+title: 'SHATARUDRA-SAMHITA,  ',
+headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': 'orange', 'text-shadow': '2px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/shatarudraSamhita/image24.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+
 ]
 }
 ];
