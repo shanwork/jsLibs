@@ -1,406 +1,265 @@
 var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
 var defaultPrevButtonStyle = "float:left;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
 var defaultNextButtonStyle = "float:right;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right:20px;";
-var leftNavigation = true ;
+        var leftNavigation = true ;
 var defaultHeaderStyle=
-{
-'font-weight': '900',
-'color':'firebrick',
-'background-color': 'transparent', 'opacity':'1.5'
-};
-var defaultDetailStyle = {
-'background-color':'lightgoldenrodyellow',
-'opacity':'0.7',
-'margin': '10px',
-'padding':'5px',
-'color':'black',
-'font-weight':'900',
-'border':'2px solid red'};
+    {
+        'font-weight': '900',
+        'color':'firebrick',
+         'background-color': 'transparent', 'opacity':'1.5'
+    };
+var defaultDetailStyle = { 
+      'background-color':'lightgoldenrodyellow',
+        'opacity':'0.7',
+        'margin': '10px',
+      'padding':'5px',
+        'color':'black',
+        'font-weight':'900',
+        'border':'2px solid red'};
 var defaultContentStyle =   { 'border':'3px outset orange',
-'background-image': 'url("images/lord-krishna-786.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'lightgoldenrodyellow'};
+             'background-image': 'url("images/lord-krishna-786.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'lightgoldenrodyellow'};
 var chapterData = [
+    
 
-
-{
-/*
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: 'SHATARUDRA-SAMHITA, ',
-title: 'SHATARUDRA-SAMHITA',
-headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image1.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: 'FIVE SHIVA INCARNATIONS:',
-content: '<p>The sages requested Suta to describe about the different incarnations of Lord Shiva. Suta told them that, although Lord Shiva took many incarnations but five of his incarnations were very important- Sadhojat Namadeva, Tat Purusha, Aghoresh and Ishan. </p>',
+    {
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: 'KOTI RUDRA-SAMHITA,  ',
+        title: 'KOTI RUDRA-SAMHITA',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': '',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: 'THE GREATNESS OF \'UPALINGAS\'',
+                content: '<p>After describing about the twelve Jyotirlinga, Suta mentioned about the various Upalingas originating from them. The Upalinga named Someshwar is situated at a place where the earth meets the ocean. This Upalinga is also known as \'Antakesh\'. </p>'
+              +' <p>The Upalinga originating from MallikArjuna is famous by the name of \'Rudreshwar\'. Similarly the Upalinga originating from Mahakal Jyotirlinga is known as \'Dughdhesh\'.  </p>'+
+                '<p>The Upalinga manifesting from Omkar jyotirlinga is famous as \'Kardameshwar\'. The Upalinga manifesting from Kedareshwar jyotirlinga is known as Bhuteshwar and is situated at the bank of Yamuna River. </p>' +
+                '<p>The Upalinga manifesting from Bhima Shankar Jyotirlinga is famously known as \'Bheemeshwar\</p>' +
+'<p>All these upalingas are considered to be very sacred. A devotee who has darshan of these Upalingas gets liberated from all of his sins.</p>' +
+'<p>Apart from these twelve Jyotirlingas and Upalingas, there are numerous other lingas, which have great religious importance. They are Kritikavaseshwar, Tilmandeshwar, Bhuteshwar, Batukeshwar, Pureshwar, Siddhanateshwar, Sringeshwar, Gopeshwar, Rangeshwar, Rameshwar, Atrishwar, Mahabal Linga Kameshwar, Ganeshwar, Shukreshwar, Chandrashekar, Rishishwar, Laliteshwar, Pashupatishwar, (Pashupatinath), Kumtinath and Andhakeshwar etc. </p>',
+notes: []
+},{
+subTitle: 'ATRI AND ANUSUYA DO PENANCE',
+content: '<p>Sage Atri and his wife Anusuya were doing penance in the forest called Kamad, situated near the Chitrakut mountain. Once it did not rain for many days. As a result people living in that area faced a severe drought.</p>' +
+'<p>Anusuya requested her husband to help out the people from their hardships. Sage Atri sat down to meditate. One by one, his disciples deserted him. Only Anusuya remained with him. She spent her days worshipping the Parthiva lingas and circumambulating sage Atri who was engrossed in his meditation. She had vowed not to have a single morsel of food till it rained.</p>' +
+'<p>All the deities became very pleased with their penance. They arrived at the place where both of them were doing penance and after giving blessings went back to their respective abodes.</p>' +
+'<p>Lord Shiva and river Ganges stayed there. It did not rain for fifty four years. Both sage Atri and Anusuya continued with their respective penance.</p>' +
+'<p>While doing penance, sage Atri felt thirsty. He requested Anusuya to fetch some water. Anusuya went with a Kamandal, in search of water but did not find it anywhere.</p>' +
+'<p>Ganga appeared before her and said- "I am very pleased with you. You can demand anything from me you like."</p>' +
+'<p>Anusuya demanded only a Kamandal full of water for her husband. Ganga instructed her to dig up a pit and when it was done she entered into that pit. Anusuya filled her Kamandal with the water from that pit and went back to her thirsty husband.</p>' +
+'<p>After quenching his thirst, Atri enquired from Anusuya as to where did she find water. Anusuya narrated the whole story. Both of them then went back to the place where Anusuya had met the condition that Anusuya donates all the virtues attained by her husband by worshipping Lord Shiva for one year. </p>' +
+'<p>Anusuya donated all the virtues, without any hesitation. Lord Shiva became very much pleased by their charitable tendencies. He appeared before them. After eulogizing, Atri requested lord Shiva to remain in his hermitage accompanied by Parvati. Lord Shiva agreed to do so. Ganga also stayed with them. Later on Atri performed a grand Yagya after the completion of which it rained heavily. Thus Atri ended the phase of drought by his tremendous penance.</p>' +
+'<p>River Mandakani flows from that same \'Pit\' which Anusuya had dug up. The Shivalinga, which was worshipped by Anusuya during that time later on, came to be known as Atrishwar Linga. </p>' ,
+notes: []
+},{
+subTitle: 'THE BRAHMIN WOMAN ATTAINS HEAVEN ',
+content: '<p>Once upon a time, there lived a brahmin at a place called \'Karni\' situated at the bank of river \'Reva\'. When the brahmin became old, he went to Kashi after leaving behind his wife to live with his sons. After sometime the brahmin died. </p>' +
+'<p>When the brahmins sons came to know about his death, they went to Kashi and performed his last rites. After some days the brahmin\'s wife died too. The Brahmin\'s son - Suvas again went to Kashi carrying the ashes of their dead mother as per her  wish.</p>' +
+'<p>On his way, Suvad became a guest of another brahmin. Suvad witnessed an amazing even in the night, in which he saw his host trying to milk the cow. At first he allowed the calf to drink the cow\'s milk for sometime. His host then moved away the calf from the cow. The calf was still hungry and was not willing to move away from the cow. The brahmins thrashed the calf very badly. This made the cow very sad and she vowed to teach that wicked brahmin a lesson.</p>' +
+'<p>The calf tried his best to convince his mother against doing this as her action might make her commit the gravest of sins - the brahmahatya. But the cow was not worried, as she knew the method of nullifying that sin.</p>' +
+'<p>Suvad was surprised that the cow knew the method of nullifying the sin of brahmahatya. Next morning, the brahmin entrusted the job of milking the cow, the brahmins\' son gave a severe thrashing to the calf who was unwilling to move away from his mother.</p>' +
+'<p>The angry cow lifted the Brahmin\'s son with her horns and dashed him against the ground. The Brahmin\'s son died on the spot. When the brahmin returned to his home he became very furious on seeing his son dead. He drove both the cow and the calf out of his house, after beating them very badly.</p>' +
+'<p>The colour of the cow had turned blue due to the thrashing she got from her brahmin. The cow went to the temple of Nandikeshwar, situated at the bank of river Narmada. To neutralize the sin of Brahmahatya she took dip in the water of river Narmada for three times. As a result she regained her original colour.</p>' +
+'<p>Suvad had followed the cow all along the way. He was amazed to see the cow regaining her original colour. He proceeded on his further journey towards Kashi. He met a beautiful lady on the way who enquired as to where was he going. Suvad told her that he was going to immense the ashes of her mother in the holy water of the river Ganges.</p>' +
+'<p>The lady advised him to immerse the ashes in the water of Narmada itself, as the holy Ganga herself comes to meet Narmada on the seventh day of Vaishakh every year.</p>' +
+'<p>"Today is the same auspicious day when the holy Ganga will be coming to meet Narmada." Said the beautiful woman. She also told him that immersing the ashes in the waters of Narmada would help his mother to attain to the divine abode.</p>' +
+'<p>This beautiful lady was none other than Ganga herself. After advising Suvad she disappeared. Suvad followed the instruction of that beautiful lady. He immersed the ashes in the waters of Narmada. He saw his mother attaining a divine body. His mother blessed Suvad and then attained to the abode of Lord Shiva. </p>' ,
+notes: []
+},{
+subTitle: 'MAHABAL SHIVALINGA',
+content: '<p>Describing about Mahabal Shivalinga, Suta said to the sages- "Mahabal Shivalinga is situated at Gokarna area. A devotee who has a darshan of Mahabal Shivalinga on the eighth or fourteenth day of \'Ardranakshatra\' falling on Monday, becomes free from all of his sins and attains to the Shivaloka."  </p>' +
+'<p>Having a darshan of this Shivalinga on any other day too helps a man to attain to the abode of Almighty. All the deities, ancestors, holy rivers like Ganga and the Nagas stand guard on all the four entrances of Mahabal temple" </p>' +
+'<p>"Even the most degraded sinner attains salvation if he worships Mahabal Shivalinga on the fourteenth day of Magha (dark lunar phase). On this day people come from all over India to see the grand festival." </p>' ,
+notes: []
+},{
+subTitle: 'THE REASON BEHIND PHALLIC WORSHIP ',
+content: '<p>The sages curiously asked Suta about the purpose with which Parvati had decided to appear in the form of a Vagina. Suta narrated the following tale: <br/>' +
+'"Long long ago, some sages used to do penance in a Shiva temple situated near Daruk forest. One day they went to collect woods needed for the Yagya. Lord Shiva wanted to test their devotion, so he arrived before the sages\' wives in naked position holding his own phallus in his hand. The wives of the sages became frightened by Shiva\'s appearance. </p>' +
+'<p>"When the sages returned after collecting woods, they became very furious to see a naked person luring their wives. They asked Shiva to reveal his identity. When Shiva did not give any reply, they cursed him to become a phallus."  </p>' +
+'<p>"The Phallus fell down from the hand of Lord Shiva and generated so much of heat that all the three worlds started to burn. The sages became very nervous and went to seek the help of lord Brahma. Lord Brahma revealed to then that the person who they cursed was none other than Lord Shiva himself. He also instructed them to please goddess Parvati, as she only could have them from Shiva\'s wrath by appearing in the form of Vagina and holding the Phallus."</p>' +
+'<p>"The sages followed the instruction of Lord Brahma. Goddess Parvati appeared in the form of Vagina and held Shiva\'s phallus in herself. The sages then worshipped the Shivalinga. This jyotirlinga became famous by the name of Hatkeshwar." </p>' ,
+notes: []
+},{
+subTitle: 'THE ORIGIN OF BATUKNATH  ',
+content: '<p>Long long ago there lived a brahmin by the name of Dadhichi. His wife to a low caste, though his son - Sudarshan was very learned. The name of his wife was Tukula. She had her husband under total control and influence. </p>' +
+'<p>Sudarshan had four sons. One day Dadhichi planned to go out due to some work. He entrusted the job of Shiva\'s worship to Sudarshan. Sudarshan worshipped the idol of Shiva daily without any fail. </p>' +
+'<p>On the Shivaratri day, Sudarshan too had observed a fast like rest of his family members. He worshipped Shiva\'s idol in the morning as usual and then went to his home. During the night time, he had a sexual relationship with his wife. After that, he sat down to worship without purifying himself. Lord Shiva became very furious by his action. He immobilized him by his curse.</p>' +
+'<p>Dadhichi was very sad to see the condition of his son. He commenced a tremendous penance to please goddess Parvati. After being pleased by his penance, Parvati requested Lord Shiva to liberate Sudarshan from his curse.</p>' +
+'<p>Lord Shiva became pleased and blessed Sudarshan by saying that he would become famous as Batuknath and also that the worship of Batuknath would amount to the worship of lord Shiva. </p>' ,
+notes: []
+},{
+subTitle: '#################### JYOTIRLINGAS  ###################### THE ORIGIN OF SOMNATH ',
+content: '<img src=\'images/kotirudraSamhita/image7.jpg\'><p>The moon had twenty seven wives, one of whom was Rohini. The moon loved Rohini very much, which made the rest of his wives very jealous and angry. They went to their father - Daksha and complained about Moon\'s behaviour.</p>' +
+'<p>Daksha went to Moon and advised him to give proper attention to all of his wives. But it did not have any effect on him and he continued giving special treatment to Rohini.  </p>' +
+'<p>When Daksha came to know about this, he became very furious. He cursed Moon to become weak and devoid of radiance. The moon then sent the deities to lord Brahma to seek his help. At first, lord Brahma became very angry with Moon, but later on he cooled down and told the deities, that Moon can get liberated from the curse, if he chants \'Mahamrityunjaya mantra\' by going to Prabhus area.</p>' +
+'<p>Moon went to Prabhas area and chanted Mahamrityunjaya mantra for ten crore time after sitting in one posture. Lord Shiva appeared before him and asked him to demand anything he wished.</p>' +
+'<p>Moon requested lord Shiva to liberate him from the curse given by Daksha. Lord Shiva told moon that the words of Daksha can never became untrue. However he blessed moon by saying that he would wane during the dark lunar phase due to the curse, but wax during the dark lunar phase due to his (Shiva\'s) blessings. Lord Shiva also provided moon that he would be present along with Parvati near him (moon). </p>' +
+'<p>Thus Lord Shiva established himself as Somanath. The deities constructed a \'Kunda\' named Chandrakunda. It is believed that the Moon because liberated from the curse by taking a bath in this Kunda. </p>' ,
+notes: []
+},{
+subTitle: 'THE ORIGIN OF MALLIKARJUNA ',
+content: '<img src=\'images/kotirudraSamhita/image8.jpg\'><p>Once, under the influence of Sage Narada, Kartikeya had gone to the Kraunch Mountain to do penance. Shiva and Parvati could not bear the pain of his separation for long. Both of them went to the Kraunch mountain to see him.  </p>' +
+'<p>When Kartikeya saw them coming he moved to some other place. When lord Shiva saw this he established himself in the form of Jyotirlinga, which later on became famous as MallikArjuna jyotirlinga</p>' ,
 notes: []
 },
 {
-subTitle: 'FIVE SHIVA INCARNATIONS --> SADHOJAT',
-content: '<p>-Lord Shiva took his first incarnation from the physique incarnation from the physique of Lord Brahma, who was engrossed in his deep state of meditation, during the nineteenth Kalpa named Shweta Lohit. Lord Brahma gave him the name Sadhojat and eulogized him. Later on, from the physique of Sadhojat four of his disciple manifested, whose names were Sunand, Nandan, Vishwanandan and Upanandan. All the four disciples were of fair complexion. Lord Shiva blessed Brahma and empowered him to do creation. </p>',
+subTitle: 'THE ORIGIN OF MAHAKALESHWAR ',
+content: '<img src=\'images/kotirudraSamhita/image9.jpg\'><p>There used to live a brahmin at Avantikapuri. He was a great devotee of lord Shiva and used to worship daily.</p>' +
+'<p>This brahmin had four sons whose names were Devapriya, Medhapriya, Sukrit and Dharmabahu. By the blessings of lord Shiva the brahmin enjoyed a very happy and contented life. After his death, the brahmin\'s son continued the tradition of Shiva\'s worship.</p>' +
+'<p>There was a mountain named Ratanak on which a demon named Dushan used to live. Being intoxicated by the boons received from Lord Brahma, he used to torment all the people. He had all the surrounding area under his control except the house in which the brahmin family lived.</p>' +
+'<p>Dushan ordered his fellow demons to bring the brahmin after capturing them. All the demons went to Avantikapuri and created havoc. They went to the brahmins and told them about Dushan\'s order. The brahmins were busy doing worship at that time so they did not give ear to their words. The brahmins continued with their worship. The demon became very angry and tried to attack them.</p>' +
+'<p>Suddenly the earth cracked with a tremendous sound and lord Shiva manifested from within the cracks. He killed all the demons. He then went to the Ratnamala mountain and killed Dushan. He again returned to the brahmins and expressed his desire of fulfilling their wishes. The brahmins expressed their desire of getting liberated from the bondage\'s of this world. They also requested him to remain at that place. Lord Shiva accepted their request and established himself in the form of Mahakal. </p>' ,
 notes: []
 },
 {
-subTitle: 'FIVE SHIVA INCARNATIONS --> NAMDEVA',
-content: '<p>-During the twentieth Kalpa named \'Rakta\' the complexion of lord Brahma turned red, while he was engrossed in his meditative state. From his body manifested an entity who also was of red complexion. Lord Brahma named him Namadeva considering him to be the incarnation of lord Shiva and eulogized him. Later on four sons were born to Namadeva, whose names were Viraj, Viwah, Vishok and Vishwabhawan. All of them were of red complexion just like their father Namadeva</p>',
+subTitle: 'THE ORIGIN OF OMKARESHWAR ',
+content: '<img src=\'images/kotirudraSamhita/image10.jpg\'><p>Once, Narada had gone to meet Vindhya mountain. Vindhya was very arrogant in his behaviour. Narada told him that Sumeru mountain was even greater than him and so his false pride had no basis.</p>' +
+'<p>Vindhya became very dejected and disheartened. He went to Amgreshwar and started worshipping Shiva after making a Parthiv linga. Lord Shiva became very pleased by his penance. He appeared before Vindhya and blessed him. After sometime the sages too arrived there and worshipped Shiva. They requested lord Shiva to remain at that place forever. Lord Shiva established himself as Paremeshwar Linga. One Shivalinga already existed at Amareshwar, which became famous as Omkareshwar. </p>' ,
 notes: []
 },
 {
-subTitle: 'FIVE SHIVA INCARNATIONS --> TAT PURUSHA',
-content: '<p>-The twenty-first Kalpa on the earth was known as \'Peetavasa\'. It was named so because of the apparel of lord Brahma which were of yellow colours. Lord Brahma\'s prayer resulted into the manifestation of an effulgent entity. Considering this entity as Lord Shiva, Lord Brahma started chanting the mantras of Shiva Gayatri. After the chantings of the mantras, numerous entities manifested who had put on apparels of yellow colour on their body. This way the third incarnation of Shiva popularly known as Tat Purusha manifested.</p>',
+subTitle: 'THE ORIGIN OF KEDARESHWAR ',
+content: '<img src=\'images/kotirudraSamhita/image11.jpg\'><p>Two incarnations of Lord Vishnu by the names of Nara and Narayana did penance at Badrikasharama. Both of them used to worship the idol of Shiva daily. Lord Shiva used to arrive in his subtle form and accept their offerings without being noticed by them.</p>' +
+'<p>One day Lord Shiva appeared before them. Nara and Narayana eulogized him and requested to remain at that place forever. Lord Shiva accepted their request and established himself as \'Kedareshwar jyotirlinga\'. </p>' ,
 notes: []
 },
 {
-subTitle: 'FIVE SHIVA INCARNATIONS --> GHORESH',
-content: '<p>-- After the Peetavasa Kalpa came the Shiva Kalpa. A black complexioned manifested while Lord Brahma was engrossed in his deep meditative state. Lord Brahma considering this entity as Aghor Shiva started eulogizing him. Lord Brahma\'s eulogization resulted into the manifestation of four more entities who had the same black complexion as that of \'Aghor Shiva\'. Their names were Krishna, Krishnashikha, Krishnamukha and Krishnakanthdhari. Ghor Shiva along with those four entities blessed lord Brahma with the power of creation. </p>',
+subTitle: 'THE ORIGIN OF BHIMA SHANKAR ',
+content: '<img src=\'images/kotirudraSamhita/image12.jpg\'><p>Bhima - the demon, was the son of Kumbhakarna and Karkati. After Kumbhakarna was killed by Sri Rama. Karkati and Bhima went to live at Sahya mountain.  </p>' +
+'<p>When Bhima grew up he asked Karkati about his father. Karkati told him that his father had been killed by Rama. Bhima swore to avenge his father\'s death. He did a tremendous penance to please lord Brahma. Brahma appeared before him and blessed him with insurmountable power and strength.  </p>' +
+'<p>Bhima then drove out the deities from heaven. He went to Kamarupa and defeated the king. He captured the king and put him in prison. The helpless king used to pass his time by chanting the the king.</p>' +
+'<p>All the deities went at the bank of river Mahakeshi and worshipped the Parthiva linga of lord Shiva. Lord Shiva appeared before them and assured them that the end of Bhima was near.</p>' +
+'<p>Lord Shiva went to the king who had been held captive by Bhima. His ganas too accompanied him. All of them waited for the opportune time to kill Bhima.</p>' +
+'<p>Meanwhile somebody informed Bhima that the king was doing worship of Shiva in the prison, with the objective of getting Bhima killed.</p>' +
+'<p>Bhima arrived at the spot in the prison where the king was worshipping the Parthiva linga of Lord Shiva. He made fun of Shiva and struck the Shivalinga with his sword.</p>' +
+'<p>Right then, Lord Shiva appeared. A tremendous battle was fought between both of them. The battle continued for a long period. Sage Narada requested lord Shiva to kill Bhima as soon as it was possible.</p>' +
+'<p>Lord Shiva produced fire by his loud roar. In a very short time the fire spread in the whole forest. All the demons including Bhima were burnt to death. The deities and the sages arrived there. They requested Lord Shiva to remain there. Lord Shiva accepted their request and established himself in the form of Bhima Shankar Jyotirlinga. </p>' ,
 notes: []
 },
 {
-subTitle: 'FIVE SHIVA INCARNATIONS --> ISHAN',
-content: '<p>-During the Kalpa named Vishwaroop, manifestations of Saraswati and Ishan Shiva took place. Lord Brahma eulogized Ishan Shiva after which four divine entities named Jati, Mundi, Shikhandi and Ardhamundi manifested from Ishan Shiva. All of them blessed lord Brahma with the power of creation.</p>',
-notes: []
-},{
-subTitle: ' EIGHT IDOLS OF SHIVA',
-content: '<p>After describing about the five chief incarnations of lord Shiva, Suta explained about the eight famous idols of lord Shiva-<ul><li> Sharva</li> <li>Bhava</li> <li>Rudra</li> <li>Ugra</li> <li>Bhima</li> <li>Pashupati</li> <li>Ishan</li> <li>Mahadeva</li></ul>. These eight idols of Shiva symbolizes the eight natural elements which help in the process of creation, nurturement and annihilation. These eight natural elements are Land, water, fire, air, sky, supreme soul (Kshetragya), Sun and the moon. Being established in these eight idols, Shiva controls the whole world. </p>' ,
-notes: []
-},{
-subTitle: 'SHIVA AS ARDHANARISHWAR',
-content: '<p>Once upon a time Lord Brahma, not seeing an expansion in his creation became very worried. A heavenly voice instructed him to commence creation with the help of copulative activities. But since all the incarnation of Shiva had been males till then, therefore lord Brahma was finding it impossible. </p>' +
-'<p>Lord Brahma contemplated on the form of Shiva and Shakti. Lord Shiva became very pleased with him and appeared in his form of \'Ardhanarishwar\' (half male half female). Left side of his body resembled like a woman while the right side appeared like a man. Lord Brahma worshipped this form of Shiva.  </p>' +
-'<p>Lord Shiva then separated the feminine part of his body and thus manifested mother Shakti. Lord Brahma worshipped her and requested to bestow such power by which he could create a woman. </p>' +
-'<p>Goddess Shakti blessed him by saying - \'So be it\' and vanished. This way Lord Brahma became capable of commencing copulative creation. </p>' ,
-notes: []
-},{
-subTitle: 'VARIOUS INCARNATIONS OF VYASA AND LORD SHIVA',
-content: '<p>During the \'Varaha\' Kalpa of the Seventh \'Manvantar\' lord Vishnu illuminated all the three world by his divine presence. This seventh Manvantara consisted of four yugas which repeated themselves in a cyclic way for twelve times.</p>' +
-'<p>The first dwapar of this seventh manvantar saw the manifestation of lord Shiva for the welfare of the brahmins. When Kali Yuga arrived Lord Shiva again manifested himself along with goddess Shakti and was known as Mahamuni Shweta. Lord Brahma had the priviledge of becoming his disciple.</p>' +
-'<p>During the second dwapar, sage Vyasa existed as Satya, Prajapati and Lord Shiva became famous as \'Sutar\'. Lord Shiva in his incarnation of Sutra had many disciples among whom \'Dundubhi\' was very famous.</p>' +
-'<p>During the third dwapar sage Vyasa took his incarnation as Bhargava and lord Shiva became famous as Daman. Lord Shiva in his incarnation as Daman had four disciples among whom Vishoka was very famous. When Kali Yuga arrived after this third dwapar. Lord Shiva along with his Disciples helped Sage Vyasa.</p>' +
-'<p>During the fourth Dwapar Sage Vyasa took his incarnation as Angira and Lord Shiva as \'Suhotra\'. Even in this incarnation Lord Shiva had four disciples among whom Sumukh was very famous. Lord Shiva along with his disciples helped Angira.</p>' +
-'<p>During the fifth dwapar sage Vyasa took incarnation as Savita and Lord Shiva as \'Kanka\' who was very famous for his tremendous austerities. Kanka had four disciples among whom Sanak was very famous.</p>' +
-'<p>During the sixth dwapar sage Vyasa took incarnation as Mrityu and Lord Shiva as \'Lokakshi\'. Lokakshi had four disciples among whom Sudhama was very prominent.</p>' +
-'<p>During the seventh dwapar sage Vyasa manifested himself as Indra and Lord Shiva as Jaigisatya. Jaigisatya had four disciples among whom Saraswat was very prominent.</p>' +
-'<p>During the eighth dwapar sage Vyasa took incarnation as Vashishtha and Lord Shiva as Dadhivahan. Dadhivahan had four disciples among whom Kapila was very famous.  </p>' +
-'<p>During the nineth dwapar sage Vyasa took incarnation as Saraswat and Lord Shiva as \'Rishabh\'. Lord Shiva in his incarnation as Rishabhdeva had four disciples among whom Parashar was very famous. </p>' ,
-notes: []
-},{
-subTitle: 'NANDIKESHWAR',
-content: '<p>While describing about the incarnation of Nandikeshwar Suta says- </p>' +
-'<p>Sage Shilad did a tremendous penance to please lord Shiva with an aspiration to have a son. Lord Shiva appeared before him and asked him to demand any boon he wished.</p>' +
-'<p>Sage Shilad expressed his desire of having a son who is not born from a physical body and who is proficient in all the scriptural knowledges. Lord Shiva blessed him by saying - \'So be it\'.</p>' +
-'<p>Sage Shilad then returned to his hermitage and performed a \'Yagya\'. From the yagya-kunda appeared a child who possessed four arms and three eyes. Sage Shilad was very pleased to see that child. The birth of the child was celebrated with great fanfare. Lord Shiva and Parvati arrived to bless the child.</p>' +
-'<p>The child was named Nandi as his birth had given immense joy (ananda) to sage Shilad. Later on Nandi lived with his father like any other normal child and was brought up with great love and care. He became proficient in all the scriptures within seven years.</p>' +
-'<p>Being inspired by lord Shiva, two brahmins came to sage Shilad and informed him that after one year Nandi would be no more. Sage Shilad became extremely sad.</p>' +
-'<p>Seeing his father in his sorrowful mood, Nandi consoled him and later on went to do penance. His tremendous penance pleased Lord Shiva and Parvati and both of them appeared before him. Lord Shiva blessed him and said- "You are just like me, so you will never die".</p>' +
-'<p>Lord Shiva also gave one of his garlands to him. As soon as Nandi wore that garland he imbibed all the qualities of lord Shiva. After that Lord Shiva took out some water from his locks of hair and sprinkled on him, as a result of which five rivers came into existence. These five rivers were later on came to be known as Panchanad. Lord Shiva then made him the leader of all his ganas.</p>' +
-'<p>Later on goddess Parvati took Nandi under her guidance and considered him just like her own son. Nandi was married to Suyasha- the daughter of Marut. Ultimately all of them accompanied lord Shiva to his abode.  </p>' ,
-notes: []
-},{
-subTitle: 'BHAIRAV GETS LIBERATED FROM HIS SIN',
-content: '<p>Bhairav who was created by lord Shiva from his third eye, had severed one of the five heads of Lord Brahma on the instruction of lord Shiva. Now Brahma was left with only four heads. </p>' +
-'<p>Carrying the skull of Brahma in his hand, Bhairava started wandering in all the three worlds. To atone his sin of severing the head of lord Brahma, he was begging alms.</p>' +
-'<p>Bhairav reached Vishnuloka where he was welcomed warm heartedly by lord Vishnu and Lakshmi. Goddess Lakshmi dropped the learning (Vidya) named Manorath (by which all the wishes could be fulfilled) in the begging bowl (Skull) of Bhariav. Bhairav became extremely happy by this gift. Lord Shiva had created a oegrass named \'Brahmahatya\' and had instructed Bhairav to reach Kashi, before her. According to lord Shiva this way the sin committed by Bhairav could successfully atoned.</p>' +
-'<p>After being blessed by goddess Lakshmi, Bhairav took the permission of Lord Vishnu and proceeded towards Kashi. After his departure asked Brahmahatya to stop chasing Bhairav. But she refused saying that she was just following the instruction of Lord Shiva.</p>' +
-'<p>When Bhairav reached Kashi, Brahmahatya too came near the outskirts of the city, but could not enter it because of Lord Shiva\'s power instead she entered in to the netherworld (Patal loka). As soon as Bhairav had entered Kashi. The begging-bowl (skull) fell on the ground and thus Bhairav got liberated from his sins. Bhairav was extremely relieved. The place where the skull of Brahma had fallen, later on became as Kapal mochan- the most sacred place of pilgrimage. </p>' ,
-notes: []
-},{
-subTitle: 'SHIVA TAKES INCARNATION AS SHARABH',
-content: '<p>While describing about the incarnation of Sharabh Suta told sages-  </p>' +
-'<p>"When Vishnu took his incarnation of Nrisimha to kill the demon king Hiranyakashipu, his anger could not be subdued even after the killing of Hiranyakashipu. His anger had frightened all the three worlds. Lord Brahma sent Prahlada to Nrisimha so that his anger gets cool down. Prahlada prayed to Nrisimha. Nrisimha took him in his embrace but still his anger was not subdued."</p>' +
-'<p>"All the deities went to lord Shiva and requested to him to cool down Vishnu\'s anger. Lord Shiva then sent Bhairav and Veerbhadra to Nrisimha. When Veerbhadra politely requested Nrisimha to cool down, he (Nrisimha) tried to pounce on him (Veerbhadra). Right then Lord Shiva appeared in his most devastating form. He was looking frightening in his giant form and with thousands of hand. His appearance was resembling a huge cannibal bird. Lord Shiva injured Nrisimha with his giant wings and after carrying Lord Vishnu in his giant wings and after carrying lord Vishnu in his arms he flew in the sky. Lord Vishnu was so frightened that he became unconscious."</p>' +
-'<p>"After regarding his consciousness Lord Nrisimha appeared in his form of Lord Vishnu and eulogized Shiva, which made lord Shiva very pleased. Lord Shiva wore the head of Nrisimha with the garland of skull in his neck. The remaining body was carried by Veerbhadra and abandoned at a mountain." </p>' ,
-notes: []
-},{
-subTitle: 'SHIVA\'S INCARNATION AS GRIHAPATI -->VISHWANAR RECEIVES BOON FROM SHIVA',
-content: '<p>Once upon a time, there used to live a brahmin named Vishwanar who was a great devotee of lord Shiva. Shuchismati was his wife who was a devout wife. Being pleased by her sense of dutifulness, Vishwanar tried to reward his wife.  </p>' +
-'<p>Shuchismati expressed her desire of having a son just like lord Shiva. Vishwanar went to Kashi to please Lord Shiva by his penance. He worshipped Vishveshwar linga with supreme devotion. Lord Shiva became very pleased by his devotion and he appeared before Vishwanar from the Shivalinga. When Vishwanar expressed his desire, lord Shiva agreed to take birth as his Son. Vishwanar came back to his house happily. </p>' ,
+subTitle: 'THE ORIGIN OF VISHVESHWAR  ',
+content: '<img src=\'images/kotirudraSamhita/image13.jpg\'><p>With the desire of giving liberation to the living creatures of this world, lord Shiva had kept some portion of land on his Trishul after separating it from the rest of Brahma\'s creation. The name of this sacred place is Manikarnika. The Shivalinga by the name of Avinukta was established by lord Shiva himself. Later on this sacred place was brought down from the Trishul and established on the land of Shiva. This sacred place of pilgrimage later on became famous as Kashi and the Shivalinga as Avimukta Visheshwar. </p>' ,
 notes: []
 },
 {
-subTitle: 'SHIVA\'S INCARNATION AS GRIHAPATI --->GRIHAPATI ',
-content: '<p>In due course of time, Shuchismati became pregnant and gave birth to a beautiful child. The whole family celebrated the birth of the child. The whole family celebrated the birth of the child. The name giving ceremony of that child was attended by all the deities and sages including lord Shiva and Parvati. Lord Brahma named the child as Grihapati. When Grihapati attained the age of five, his sacred thread ceremony was performed. Within a year he became proficient in all the Vedas and other sacred texts. </p>' +
-'<p>When Grihapati attained the age of nine, Narada came and informed Vishwanar that death of Grihapati was imminent because of the evil effects of the planetary combinations. Vishwanar and Shuchismati were saddened and started crying.</p>' +
-'<p>Grihapati then consoled his parents and proceeded towards Kashi to do penance so that the death could be conqured. Grihapati commenced his penance at Kashi. The deity Indra arrived there and requested him to demand anything he wished but Grihapati refused. Indra became furious and tried to attack him with his weapon-Vajra. Grihapati was very terrified.</p>' +
-'<p>Right then Lord Shiva appeared and Indra had to retreat from the scene. Lord Shiva blessed Grihapati by saying - "What to say about this lightning - Vajra, even Kalvajra would not be able to kill you."</p>' +
-'<p>Grihapati became very pleased. The Shivalinga which he worshipped, later on became famous as \'Agnishwar\' linga. Lord Shiva made Grihapati the lord of all the directions.  </p>' ,
+subTitle: 'THE ORIGIN OF TRAYAMBAKESHWAR ',
+content: '<img src=\'images/kotirudraSamhita/image14.jpg\'><p>During the ancient time there lived a famous sage named Gautami. The name of his wife was Ahilya. Once it did not rain for one hundred years as the result of which the whole area was affected by drought.</p>' +
+'<p>Sage Gautami did a tremendous penance to please Varuna appeared before Gautam, he was requested to cause rain. But Varuna expressed his inability in causing rain. He told Gautam to please lord Shiva so that his wish could be fulfilled. Later on Varuna instructed Gautam to dig a up a pit, which he (Varuna) filled with water. Varuna blessed Gautam by saying that this pond would never dry up. The sages who had abandoned that place returned there. Everybody became happy and satisfied.</p>' +
+'<p>One day, sage Gautam instructed his disciples to fetch some water from that pond. When the  disciples reached there, they found the wives of numerous sages present at the bank of the pond. The sages\' wives did not allow them to take water and instead they rebuked them. The disciples returned back to the hermitage and narrated the whole story to sage Gautam.</p>' +
+'<p>Ahilya pacified the angry disciples and went to the pond to fetch water. From that day onwards this became very daily routine. One day Ahilya met the wives of the sages. They tried to prevent her from fetching water. Not only that they went back to his respective hermitages and filled the ears of their husbands. All the sages became very angry.</p>' +
+'<p>The sages worshipped lord Ganesha to please him. When Ganesha appeared, they requested him to drive Gautam out from that place. At first Ganesha was reluctant to accept their demand but when they kept a persisting he agreed at last.</p>' +
+'<p>Ganesha entered the field of Gautam in which barley was being cultivated. Ganesha had disguised himself as a cow. He started grazing the barley crops.<br/>When Gautam saw the cow grazing crops, he tried to drive her out from the field by hitting a grass on her back. The artificial cow died instantly. Gautam was very sorry for his act. Meanwhile all the sages from the surrounding area arrived there. They forced Gautam to abandon that place at once.</p>' +
+'<p>Gautam left that place and made his hermitage at a little distance from there. One day he came to the sages and asked them as to how could he atone for his sins. The sages told him that his sins could be atoned only when he circumambulates the whole earth thrice, all the while saying, \'I have killed a cow\'. They also told him that after that he would have to perform austerities for one month.</p>' +
+'<p>If this is not possible then you will have to help Ganga manifest herself and take bath in her water. Otherwise you will have to worship three crores Parthiva lingas. Only then, you can get liberated from the sin of killing a cow," said the sages.</p>' +
+'<p>Gautam made the Parthiva lingas and started worshipping them. Lord Shiva became very pleased by his devotion and appeared before him. Sage Gautam requested lord Shiva to liberate him from the sins of killing a cow. He also requested lord Shiva to manifest the stream of river Ganga that place.</p>' +
+'<p>Lord Shiva tried his best to make him understand that he was innocent and the real culprits that he was innocent and the real culprits were those wicked sages. But, Gautam was unconvinced. At last lord Shiva instructed Ganga to appear in the form of a woman. Gautam eulogized Ganga. By the blessings of lord Shiva Gautam was liberated from his sins of killing a cow. After that Ganga expressed her desire to go back but lord Shiva asked her to remain on the earth till the twentyeighth nanvantar. Ganga accepted to do that, on the condition that Lord Shiva along with Parvati too would remain present on the earth. Lord Shiva established himself as Trayambakeshwar Jyotirlinga and Ganga became famous as Gautami Ganga.  </p>' ,
 notes: []
 },{
-subTitle: 'SHIVA\'S INCARNATION AS YAKSHESHWAR ',
-content: '<p>During the time when ocean was being churned first of all poison appeared from it. The deities were very terrified to see the tremendous heat it generated. They went to lord Shiva and requested to protect them from the heat of that poison. Lord Shiva drank all the poison but did not let it pass down his throat. </p>' +
-'<p>After the poison, Nectar appeared from the ocean, which was drunk by the deities. The demons too wanted to drink the nectar, so a tremendous battle ensued between them and the deities. The deities became victorious in this battle because they had become immortal due to the effect of the Nectar. This victory made the deities very arrogant. </p>' +
-'<p>Lord Shiva was very concerned about their arrogant nature. He went to them in the guise of a Yaksha. He asked as to what was it that had made them so arrogant. The deities replied that their arrogance stemmed from victory over the demons. Lord Shiva who was disguised as Yaksha replied- "Your pride is based on false notion, because you did not achieve victory due to somebody\'s grace and blessing."  </p>' +
-'<p>The deities disagreed with him. Lord Shiva then asked them to cut the grass if they considered themselves so mighty. He then kept a grass leaf in front of them. Each of the deities tried to cut that grass with their respective weapons but remained unsuccessful in their attempts. They were all amazed. Suddenly a heavenly voice was heard which said that the Yaksha was none other than Lord Shiva himself. The deities realized their mistakes. They apologized to lord Shiva. After vanquishing the false pride of the deities lord Shiva disappeared. </p>' ,
-notes: []
-}, {
-subTitle: 'TEN INCARNATIONS OF SHIVA AND SHAKTI',
-content: '<p>Describing about the ten incarnations and their corresponding power (Shakti), Suta said- </p>' +
-'<ol><li>The first incarnation of lord Shiva was as Mahakal and his Shakti was called Mahakali. </li>' +
-'<li>Shiva took his second incarnation as Tar and his Shakti was called \'Tara\'.</li>' +
-'<li>The third incarnation of Lord Shiva was as Bhuvaneshwar and his Shakti was called \'Bhuvaneshwari\'.</li>' +
-'<li>Lord Shiva took his fourth incarnation as \'Shodash\' who was also known as \'Srividdyesh\' and his Shakti was called \'Shodashi\' or \'Sri\'. </li>' +
-'<li>Lord Shiva took his fifth incarnation as Bhairav and his Shakti was called \'Bhairavi\'.</li>' +
-'<li>The sixth incarnation of Lord Shiva is famous as \'Chhinamastak\' and his Shakti by the name of \'Chhinamasta\'.</li>' +
-'<li>Lord Shiva took his seventh incarnation as \'Dhoomvan\' and his Shakti was known as \'Dhoomvati\'.</li>' +
-'<li>The eighth incarnation was as Baglamukh and his Shakti as Baglamukhi.</li><li> The nineth incarnation of lord Shiva became famous as Matang and his Shakti as \'Matangi\'.</li>' +
-'<li>Lord Shiva took his tenth incarnation as \'Kamal\' and his Shakti as Kamala.</li></ol> If these ten incarnations of Shiva are worshipped along with his ten Mahavidyas then a man attains salvation. </p>' ,
+subTitle: 'THE ORIGIN OF BAIDYANATH ',
+content: '<img src=\'images/kotirudraSamhita/image15.jpg\'><p>The demon king- Ravana did a tremendous penance to please lord Shiva and to get a boon from him. Even after his severe penance when lord Shiva did still not appear, he started offering his heads one by one to lord Shiva. This way he already severed his nine heads and offered them to Shiva. When he was about to severe his last remaining head, just the lord Shiva appeared before him. He blessed Ravana with unparalleled power and strength. Lord Shiva also made him a ten headed demon once again.</p>' +
+'<p>But Ravana was not satisfied. He requested lord Shiva to come along with him to Lanka. Lord Shiva gave Ravana s Shivalinga and warned him against keeping it on the earth, as then no power on the earth could lift that Shivalinga from there.</p>' +
+'<p>Ravana proceeded with the Shivalinga. On the way he felt the urge to urinate. Ravana gave that Shivalinga to a cowherd boy and went to urinate. The cowherd boy held the Shivalinga for sometime. He felt that the Shivalinga was becoming heavier and heavier. He could not bear the weight of the Shivalinga for too long. He kept it on the ground. When Ravana returned he became very sad after seeing the Shivalinga on the ground. He knew that, now it was impossible to lift it from that place. Ravana established the Shivalinga there, which became famous as \'Baidyanath jyotirlinga\'. </p>' ,
 notes: []
 },{
-subTitle: 'THE ORIGIN OF ELEVEN RUDRAS',
-content: '<p>Once, the deities went to sage Kashyapa after being tormented by the demons. They complained to him about the misdeeds of the demons, who also happened to be their step brothers. Sage Kashyapa became extremely furious, when he heard about the misdeeds of his sons - the demons. To protect the deities from his sons, he commenced a penance to please lord Shiva.</p>' +
-'<p>Lord Shiva became very pleased by his penance and appeared before him. He asked Kashyapa to demand anything he wished. Kashyapa then requested Lord Shiva to take birth as his son and destroy the demons. Lord Shiva blessed him and said - \'So be it\'.  </p>' +
-'<p>Lord Shiva, later on took birth as eleven Rudras from the womb of his wife Surabhi. The name of these eleven rudras were as follows:- </p>' +
-'<ol><li> Kapali</li>' +
-'<li>Pingal</li>' +
-'<li>Bheem, </li>' +
-'<li> Virupaksha,  </li>' +
-'<li> Vilohit</li>' +
-'<li> Shastra</li>' +
-'<li>Ajapad</li>' +
-'<li>Ahirbudhnya, </li>' +
-'<li> Chand </li><li>Bhav</li></ol> </p>' +
-'<p>These eleven Rudras fought battles with the demons and killed them. The deities were relieved after the death of the demons. They worshipped these eleven rudras to express their gratitude and indebtedness. </p>' ,
-notes: []
-},{
-subTitle: 'SHIVA\'S INCARNATION AS DURVASA ',
-content: '<p>Describing about the Lord Shiva\'s incarnation as Durvasa, Suta told the deities:- "once Atri - the manasputra of lord Brahma went to do penance at the bank of the river Nivindhya which flew by the foothills of Trayakshakul mountain as per the instructions of Lord Brahma himself. He commenced doing a tremendous penance. The effects of his penance was such that devastating flames of fire manifested from his head. The fire spread in all the three world in no time. The deities were terrified by the death and destruction caused by the fire in all the three worlds. They went to lord Brahma to seek his help. Lord Brahma took them to lord Vishnu and revealed to him about the destruction caused by the fire. All of them went to lord Shiva and told him everything.</p>' +
-'<p>Lord Brahma, Lord Vishnu and Lord Shiva went to Atri and blessed him. Atri recognized them. He eulogized them. Later on Atri\'s wife Anusuya gave birth to three sons, who in fact were the incarnations of Lord Brahma, Lord Vishnu and Lord Shiva. Lord Brahma incarnation as the Moon, Lord Vishnu as Dutt and Shiva took incarnation as Durvasa. </p>' +
-'<p>Durvasa had tested the religiousness and virtuosity of numerous people. He had also tested the religiousness of king Ambareesh, who ruled over \'Saptadweepa\'. Once king Ambareesh had observed a fast on \'Ekadashi\'. Next day, when he was about to break his fast sage Durvasa arrived accompanied by his large number of disciples.</p>' +
-'<p>Durvasa was very furious with king Ambareesh. He said-<br/>"You had invited me for this particular, but you have also insulted me by breaking the fast by drinking water in my absence."  </p>' +
-'<p>Sage Durvasa would have burnt king Ambareesh to ashes by his curse, had not Sudarshan-the weapon of Vishnu came to his rescue. Sudarshan then tried to burn sage Durvasa when suddenly a heavenly voice was heard from the sky which said- </p>' +
-'<p>"Durvasa is no one but the incarnation of lord Shiva himself." Hearing this Sudarshan\'s anger was pacified. King Ambareesh then begged his forgiveness from sage Durvasa </p>' ,
-notes: []
-},{
-subTitle: 'INCARNATION OF HANUMAN ',
-content: '<p>Lord Shiva was so infatuated by the appearance of lord Vishnu in his form of Mohini roopa that his semen was released on the ground. This semen was established by the Saptarishis in the womb of Anjani, with the permission of lord Shiva himself.</p>' +
-'<p>In this way was born the mighty Hanuman. Once, during his childhood Hanuman had swallowed the Sun, which he released only after the deities prayed to him. The sun accepted him as his disciple and made him proficient in all the learning\'s. He started living with Sugriva as per the instructions of his teacher - the Sun.  </p>' +
-'<p>During the time of Sri Rama\'s exile, Sugriva developed friendship with him with the help of Hanuman. Hanuman helped Sri Rama in finding the whereabouts of Sita, who had been abducted by the demon king Ravana. He took a giant leap and jumped across the ocean. He went to Ashok-Vatika where Ravana had kept Sita. He gave Sri Rama\'s ring to her and consoled her by saying that very soon Sri Rama was going to arrive and release her from Ravana\'s captivity. He also burnt the whole Lanka by his burning tail and returned to Sri Rama to give him Sita\'s news while the battle was fought between Sri Rama and Ravana Lakshmana got seriously injured and became unconscious. Hanuman saves his life by bringing the whole of mountain, upon which the herb Sanjivani grew.</p>' +
-'<p>Being present at the service of Sri Rama, Hanuman performed his duties marvelously. Worship of Hanuman helps a man to become free from all kinds of problems, diseases and hurdles etc. </p>'  ,
-notes: []
-},{
-subTitle: 'SHIVA\'S INCARNATION AS MAHESH ',
-content: '<p>Once, Bhairav who was entrusted with the job of a doorkeeper became so infatuated with Parvati\'s beauty that he tried to prevent her from going outside.</p>' +
-'<p>Parvati became furious and cursed him to be born as a mortal man on the earth. Bhairav became very sad but now the damage had been already done. Bhairav later on appeared in the form of a man named \'Vetal\'.</p>' +
-'<p>Vetal prayed to lord Shiva who took his incarnation as Mahesh and goddess Parvati as Girija</p>' ,
-notes: []
-},{
-subTitle: 'LORD VISHNU CREATES TURBULENCES ',
-content: '<p>After the churning of the ocean had been accomplished, numerous things had emerged out from the ocean. Jewels, Moon, Lakshmi, Poison, Uchchaishrava horse, Airavat elephant, Vessel containing Nectar were some of the things which emerged out from the ocean after the churning.</p>' +
-'<p>A tremendous battle was fought between the deities and the demons to have control over the vessel containing Nectar. The demons had snatched that vessel from the deities.</p>' +
-'<p>By the divine inspiration of lord Shiva, Vishnu appeared in the form of Mohini the enchanting beauty. He successfully recovered that vessel from the control of the demons.  </p>' +
-'<p>To distract the attention of the demons from the nectar, lord Vishnu created numerous enchanting beauties. When the demons saw them, they forcibly carried these enchanting beauties to their abode, the Nether world. After that they again returned to take control of the Nectar.</p>' +
-'<p>By that time, Vishnu had made the deities drink all the nectar. When the demons came to know about this, they became very furious and attacked the deities. A tremendous battle ensured between both the sides. Ultimately the demons got defeated. To save their lives the demon ran towards their abode. Lord Vishnu chased the demons and entered the Netherland. He killed all the demons.</p>' +
-'<p>Lord Vishnu then saw those enchanting beauties who had been abducted by the demons. Ironically, lord Vishnu got infatuated by their beauty- who were his own creation. Lord Vishnu remained there for a long time. </p>' ,
-notes: []
-},{
-subTitle: 'SHIVA\'S INCARNATION AS VRISHABH ',
-content: '<p>During his stay in the Netherland, many sons were born to Lord Vishnu, who were very wicked and cruel. These sons of lord Vishnu started tormenting the inhabitants of all the three world. All the deities and the sages went to lord Shiva to take his help. They requested him to kill the cruel sons of Vishnu and reestablish him (lord Vishnu) in his own abode, which he had abandoned for the Nether world. </p>' +
-'<p>Lord Shiva went to the Netherworld in the form of an Ox (Vrishabh). He killed all the sons of lord Vishnu with his sharp horns. Seeing the death of his sons, lord Vishnu came forward to fight him. He attacked lord Shiva with his various weapons, but lord Shiva remained harmless. Ultimately lord Vishnu was able to recognise him. He eulogized lord Shiva.</p>' +
-'<p>Lord Shiva then requested him to return back to Vishnuloka, he accepted. Lord Vishnu left his \'Sudarshan chakra\' in the Netherworld and went to his own abode, where lord Shiva presented him a new Sudarshan chakra.  </p>' ,
-notes: []
-},{
-subTitle: 'KILLING OF VRITTRASUR',
-content: '<p>Once, when the deities were defeated by Vrittrasur, they went to lord Brahma after hiding their weapons in the hermitage of sage Dadhichi. They requested lord Brahma to reveal about the means, how vrittrasur could be killed.</p>' +
-'<p>Lord Brahma advised the deities to male a weapon named Vajra from the bones of sages Dadhichi, as Dadhichi\'s bones were even harder than the Vajra of Indra by the blessings of lord Shiva.</p>' +
-'<p>All the deities then went to the hermitage of Dadhichi in the leadership of Brihaspati. On being enquired about the purpose of their visit, Indra said that he wanted his bones so that a weapon could be made out of it.  </p>' +
-'<p>Dadhichi gave up his life by his yogic power. Indra then instructed Kamdhenu to extract the bones from the dead body of Dadhichi. The bones were on given to \'Twashta\' to construct the weapon-Vajra. Twashta took the weapons to Vishwakarma who at last constructed the Vajra. </p>' +
-'<p>Indra killed Vrittrasur with this weapon. When Suvarcha - the wife of Dadhichi came to know about the cunning deeds of the deities, she cursed them to become animals. </p>' ,
-notes: []
-},{
-subTitle: 'SHIVA\'S INCARNATION AS YATINATH',
-content: '<p>There used to live a bheel named Ahuk of the Arbudachal mountain. His wife was Ahuka. Both of them were supreme devotee of lord Shiva. </p>' +
-'<p>Once, lord Shiva wanting to test their devotion, appeared before them disguised a hermit. Ahuk honored his guest and treated him very well. Lord Shiva then requested him to give shelter for the whole night. Ahuk expressed his inability as he had a very small hut, in which only two people could be accommodate at a time.</p>' +
-'<p>But his wife intervened and requested Ahuk to sleep outside the hut with his arms, as it would be inappropriate on their part to miss this chance of proving their hospitality.</p>' +
-'<p>The hermit, who in reality was lord Shiva slept with Ahuk\'s wife inside the hut, while Ahuk himself slept outside the hut. Unfortunately Ahuk was killed by a wild animal while he was asleep. </p>' +
-'<p>In the morning when lord Shiva found that Ahuk had died, his heart was filled with grief. But Ahuka consoled him by saying that she was proud of her husband as he had given up his life for a noble cause. Naturally she was very much saddened by her husband\'s death so she decided to give up her life by jumping into the burning pyre.</p>' +
-'<p>Right then lord Shiva appeared in his real form and blessed her by saying-<br/>"In his next birth your husband would take birth in a royal family. He would become famous as Nala and you would be born as Damayanti to king Bhima of Vidarbha. I would myself appear in the form of a swan and help both of you to unite. After enjoying all the pleasures of this world both of you would attain to may abode.  </p>' +
-'<p>After saying thus, lord Shiva established himself as immovable Shivalinga, which later on became famous as Achaleshwar linga.</p>' ,
-notes: []
-},{
-subTitle: 'SHIVA\'S INCARNATION AS \'KRISHNA DARSHAN\' ',
-content: '<p>King Nabhag was born in the nineth geneology of Shradhadeva who himself was a descendant of Ikshavaku. Nabhag was the grandfather of Ambareesh. During his childhood Nabhag left his home for \'Gurukula\' to get education. In his absence his brothers got the wealth of the kingdom distributed among themselves.  </p>' +
-'<p>When Nabhag returned home after the completion of his education, he demanded his share of wealth from his brothers. His brothers told him that they had forgotten to fix his share as he was absent at the time when wealth was being distributed. They advised him to go and meet their father. </p>' +
-'<p>Nabhag went to his father and made the same request. His father advised him to go to sage Angiras who was trying to accomplish a yagya, but was not being able to accomplish it because of his attachment.</p>' +
-'<p>"Go and try to eliminate his attachment by your discourses. This way sage Angiras on being pleased with you would give all the wealth which remains after the completion of the yagya." said his father.</p>' +
-'<p>Nabhag did the same. He went to the place where sage Angiras was performing his yagya. He preached sage Angiras on the virtues of Religiousness. As a result he became free from all sorts of attachments and the yagya was successfully accomplished.</p>' +
-'<p>Sage Angiras was very pleased by Nabhag\'s knowledge of religion. He gave all the remaining wealth of the yagya to Nabhag. Just then lord Shiva arrived there in his incarnation of Krishna darshan and tried to prevent sage Angiras from donating the wealth to Nabhag, instead he staked his own claim. </p>' +
-'<p>Nabhag told lord Shiva that, since the wealth was given to him by sage Angiras himself, it naturally belonged to him. Lord Shiva then sent Nabhag to his father Shradhadev to know about his opinion. Nabhag went to Shradha deva who revealed to him that the person who was staking his claims on the wealth was none other then lord Shiva. He also told him that whatever remained after the accomplishment of the yagya belongs to lord Shiva only.</p>' +
-'<p>Nabhag was now satisfied. He went back to lord Shiva and narrated everything what his father had said. He then eulogized and worshipped lord Shiva. Lord Shiva blessed him which helped Nabhag to attain salvation. </p>' ,
-notes: []
-},{
-subTitle: 'LORD SHIVA APPEARS AS A BEGGAR',
-content: '<p>There was a king named Satyarath who ruled over Vidarbha. Once he was attacked by a neighbouring king. Satyarath was killed in that battle. His wife somehow managed to save her life by hiding in a forest. The queen was pregnant at that time.</p>' +
-'<p>At the shore of a pond she gave birth to a child. She was feeling thirsty, so she went into the pond to quench her thirst. Unfortunately she was killed by a crocodile who used to live in that pond.</p>' +
-'<p>The hungry child started crying. A beggar woman arrived there with her one year old child. Though her heart was filled with compassion seeing the hungry child cry but still she was hesitating to take him in her lap.  </p>' +
-'<p>Right then lord Shiva appeared as a beggar and advised her to bring up the orphan child. The beggar woman asked about the origin of the child. Lord Shiva told her that the father of this child Satyarath in his previous life had left the pradoshavrata incomplete. He had also ordered his men to severe the head of his enemy. After this, he had broken his fast in his impure state, without taking a bath. </p>' +
-'<p>As a result, Satyarath met a premature-death in his next life. The mother of this orphan child too committed a sin by deceitfully getting the co-wife of her husband killed. As a result she was devoured by a crocodile in her next life.</p>' +
-'<p>Describing about the child lord Shiva said-<br/.>"This child was brahmin by birth in his previous life, but still he never engaged himself in any religious or virtuous deeds. So in his next life, though he was born in a royal family, still he remained poor. You must take this child under your control and after his sacred-thread ceremony gets accomplished, you must engage him in my (Shiva\'s) devotion. If you don\'t obey my command then it would not be good for the welfare of your own child."</p>' +
-'<p>After saying like this lord Shiva disappeared. The beggar woman took that child to her house and brought him up with great love and care. When he grew up his sacred-thread ceremony was performed and then he was initiated into the worship of lord Shiva.</p>' +
-'<p>By the blessing of lord Shiva, Satyarath\'s son formed a pot full of gold while he was taking both in a pond. Now the beggar family became very rich. Once again when he had gone to a forest he met a \'gandharva\' princess to whom he ultimately got married. This way he became a king. He lived happily with his mother and his brother.</p>' ,
-notes: []
-},{
-subTitle: 'LORD SHIVA APPEARS IN THE GUISE OF INDRA (SURESHWAR) ',
-content: '<p>Upamanyu, the son of sage Vyaghrapad, was brought up in his maternal uncle\'s home since his childhood. One day Upanyu was very hungry. His mother gave him milk to drink which was not enough to satisfy his hunger. He demanded more and started crying. His mother mined some wheat flour in the water and gave him to drink as there was no milk left in the house. Upamanyu finding the taste different told his mother that it was not milk but something else. He again started crying. </p>' +
-'<p>His mother told him that if he wanted milk then he should worship lord Shiva as he only was capable of making the milk available. Upamanyu proceeded towards the Himalaya and started doing penance to please lord Shiva- continuously chanting the mantra Om Namah Shivay. His penance generated so much of heat that all the three worlds started burning. </p>' +
-'<p>Lord Shiva, later on took birth as eleven Rudras from the womb of his wife Surabhi. The name of these eleven rudras were as follows:- </p>' +
-'<p>To test his devotion, Lord Shiva and goddess Parvati appeared before him disguised as Indra and Indrani respectively. Both of them told Upamanyu to stop doing penance. They said-<br/>"We Indra and Indrani are extremely pleased by your devotion. Stop worshipping Shiva. We will fulfill all your desires." </p>' +
-'<p>Lord Shiva and goddess Parvati did not stop at this. They even cursed Shiva. Upamanyu became very furious and got up to attack the abuser Indra.</p>' +
-'<p>Shiva and Parvati were satisfied by his total dedication and devotion. They revealed their real identity and blessed him. Shiva promised Upamanyu that he would be present in the vicinity of his hermitage along with Parvati forever.</p>' +
-'<p>Upamanyu returned back to his home and narrated the whole story to his mother who was very pleased. Lord Shiva got the name \'Sureshwar\' because he appeared in the guise of Indra. </p>' ,
+subTitle: 'THE ORIGIN OF NAGESHWAR JYOTIRLINGA ',
+content: '<img src=\'images/kotirudraSamhita/image16.jpg\'><p>During ancient times, there lived a demon named Daruk. The name of his wife was Daruka. They used to torment the people living in that area. The residents of that area went to sage \'Aursh\' and narrated about their miseries and requested him to end this menace.</p>' +
+'<p>\'Aursh\' assured them that very soon their hardships would come to an end. He then went to do his penance. The deities appeared before him after being pleased by his tremendous penance. Sage \'Aursh\' requested the deities to kill the demons.</p>' +
+'<p>The deities went to fight with the demons. The demons got scarred and started thinking about the means by which their lives could be saved. Daruka the wife of Daruk had received a boon from goddess Parvati due to which she had gained unparalleled power. She carried the whole forest and placed it in the middle of the sea. This way the demons again lived without being perturbed by the threat of the deities\' attack.</p>' +
+'<p>One day the demons saw many boats sailing in the sea, on which were many people on board. The demons made all the people captive. There was a man named Supriya who was great devotee of Lord Shiva. He used to worship lord Shiva daily, even though he saw held under captivity. Rest of the people too got influenced by his devotion and everybody started worshipping lord Shiva.This way, six months had passed.</p>' +
+'<p>One day a demon saw Supriya worshipping the idol of lord Shiva. He went to Daruk and informed him. Daruk became extremely furious. He asked Supriya as to whom was he worshipping. Supriya still engrossed in his worship did not give any reply. This made Daruk even more angry. He tried to kill Supriya. Lord Shiva appeared and killed all the demons.  </p>' +
+'<p>Daruka\'s heart became full of grief at the news of her husband\'s death. She went to Parvati and told her how lord Shiva had killed Daruka. Parvati met lord Shiva and both of them decided to protect there respective devotees by establishing themselves at that place. Thus, Nageshwar jyotirlinga came into existence. </p>' ,
 notes: []
 },
 {
-subTitle: 'SAGE VYASA ADVISES THE PANDAVAS TO WORSHIP SHIVA ',
-content: '<p>After loosing their whole kingdom to Duryodhan in the gamble, Pandavas went to the dwait  forest accompanied by Draupadi. They started living in a place which was donated by Velotra Sun.</p>' +
-'<p>Duryodhan instigated sage Durvasa to torment the Pandavas. Sage Durvasa went to the place where Pandavas were staying, accompanied by thousands of his disciples. He demanded food from the Pandavas. How could have the Pandavas satiated from the hunger of thousands of people. Lord Krishna came to their rescue and saved them from being disagraced. As a result Durvasa and his disciples went back satisfied.</p>' +
-'<p>Lord Krishna advised the Pandavas to worship lord Shiva, but they neglected that advice. As a result their sufferings increased in magnitude. One day sage Vyasa arrived there. The Pandavas gave a rousing reception. Considering Arjuna to be the most capable among the Pandavas, Vyasa taught him the method of doing \'Parthiva\' worship. Later on Arjuna went to the Indrakeel mountain to please Indra by his penance. Sage Vyasa preached Yudhisthira to remain firm on his virtuously and religiousness.</p>' +
-'<p>Arjuna\'s penance generated so much of heat that all the living creature of the three worlds were unable to bear its scorching heat. All the living creatures of the three worlds went to Indra to seek his help.</p>' +
-'<p>Indra went to Arjuna in the guise of a celibate and asked about the purpose for which he was doing penance. Arjuna told him that he wanted to defeat the Kauravas. Indra then told Arjuna that it was not in his capacity to help him achieve victory over the Kauravas, because of Aswatthama who was a partial incarnation of lord Shiva.</p>' +
-'<p>Indra advised Arjuna to please lord Shiva by his penance so that his wishes could be fulfilled. Indra then entrusted some of his men, the job of Arjuna\'s security and went back to his abode. Arjuna commenced his penance to please lord Shiva.  </p>' ,
-notes: []
-},{
-subTitle: 'LORD SHIVA APPEARS IN GUISE OF \'KIRAT\' AND BLESSES ARJUNA ',
-content: '<p>Arjuna did a tremendous penance by standing only on one leg and concentrating his gaze upon the blazing sun. The deities became very impressed by Arjuna\'s penance. They went to lord Shiva and requested him to bless Arjuna. Lord Shiva accepted their request.</p>' +
-'<p>Duryodhan had sent a demon named Mooka to kill Arjuna. Mooka had disguised himself as a boar. Arjuna was engrossed in his meditation, when suddenly his concentration got disturbed by a loud noise. He opened his eyes and saw Mooka being chased by a band of Kirats. In fact it was none other than Shiva who had appeared in the guise of Kirat.</p>' +
-'<p>Both Arjuna and Lord Shiva struck the boar with their respective arrows at the same time. As a result the boar was killed.</p>' +
-'<p>Lord Shiva sent his ganas to bring back the arrow. Similarly Arjuna too went near the dead boar to bring his arrow. Arjuna found his arrow lying on the ground. He picked it up in his hand. Right then the ganas arrived there and asked Arjuna to return that arrow as it belonged to their master (Shiva). But Arjuna refused to part with his arrow. Instead he asked the ganas, to convey his challenge to their master to have a dual with him. </p>' +
-'<p>The ganas went back to lord Shiva and narrated the whole story to him. Lord Shiva accepted Arjuna\'s challenge and went to fight him. His ganas accompanied him. Arjuna defeated all the ganas of Shiva. In the end Lord Shiva came forward to have a dual fight with him. Shiva was very much impressed by his valour. He revealed his real identity. Arjuna was very ashamed that he fought with Shiva. Lord Shiva consoled him and gave his weapon Pashupat to Arjuna. </p>' ,
+subTitle: 'ESTABLISHMENT OF RAMESHWAR ',
+content: '<img src=\'images/kotirudraSamhita/image17.jpg\'><p>After Hanuman brought the new that Sita had been held captive by Ravana at Lanka, Sri Rama proceeded towards Lanka with a huge army. After receiving the seashore he faced the problems of crossing over the sea. </p>' +
+'<p>Sri Rama made a Parthiva linga of Shiva and worshipped it. Lord Shiva became very please with him and appeared. He blessed Sri Rama to be victorious. Sri Rama on the other hand, requested him to establish himself in that Parthiva linga, to which lord Shiva agreed. This way \'Ramaeshwar jyotirlinga\' came into existence.</p>' ,
 notes: []
 },
 {
-subTitle: '############################ THE TWELVE JYOTIRLINGAS ',
-content: '<p>Describing about the twelve Jyotirlingas, Suta told the sages:- "There are twelve Jyotirlingas which are as Follows</p>' +
-'<ol><li> Somnath in Saurashtra</li>' +
-'<li>MallikArjuna in Sri Shail</li>' +
-'<li>Mahakal in Ujjain</li>' +
-'<li>Amareshwar in Omkar</li>' +
-'<li>Kedar in the Himalaya</li>' +
-'<li>Bhimashankar at the bank of Bhima river. </li>' +
-'<li>Vishwanath in Varanasi. </li>' +
-'<li>Trayambakeshwar ar the bank of Gautami river, </li>' +
-'<li>Baidyanath at Chitabhumi</li>' +
-'<li>Nagesh which is between Darukvan dwarika and Bhet dwarika </li>' +
-'<li>Rameshwar at Betubandh </li>' +
-'<li> Dhushmesh in Shivalaya</li></ol> </p>' +
-'<p>These eleven Rudras fought battles with the demons and killed them. The deities were relieved after the death of the demons. They worshipped these eleven rudras to express their gratitude and indebtedness. </p>' ,
-notes: []
-},
-{
-subTitle: 'Somnath in Saurashtra',
-content: '<p>Out of these twelve Jyotirlingas, Somnath Jyotirlinga is belived to destroy the sorrows of Moon. A devotee who worships this Jyotirlinga gets cured from incurable diseases like leprosy etc. enjoys all kinds of worldly pleasures and attains salvation.</p>' ,
+subTitle: 'THE ORIGIN OF DHUSHMESH JYOTIRLINGA ',
+content: '<img src=\'images/kotirudraSamhita/image18.jpg\'><p>There used to live a brahmin by the name of Sudharma, who belonged to the lineage of sage Bhardwaj. He was a great devotee of lord Shiva. Sudeha was his wife. Sudharma had no son.</p>' +
+'<p>Sudeha desires for a son. She expressed her desire to Sudharma but he did not listen to her pleas. One day Sudeha had gone for an outing accompanied by her companions. Incidentally a quarrel ensured among them and her companions made fun of her issue less status. Sudeha became very sad. After returning to her hermitage, she narrated the whole incident to Sudharma.</p>' +
+'<p>Sudharma meditated on the form of Shiva and threw two flowers, towards his wife. He thought that if Sudeha picks up the flower, which he had thrown with his right hand, then certainly a son would be born. But if she picks up the another flower then there is no chance of her giving birth to a son. Unfortunately Sudeha picked up the flower which Sudharma had thrown with his left hand.</p>' +
+'<p>Sudharma told his wife that she was never going to become a mother. He advised her to dedicate her life in the devotion of lord Shiva. When Sudeha learnt that there was no chance of her becoming a mother, she insisted her husband to marry for a second time, so that he could become a father. But Sudharma refused to marry for the second.</p>' +
+'<p>Sudeha brought her younger sister-Dhushma to the hermitage and married her with reluctant Sudharma. Dhushma proved to be a very faithful wife. She engaged herself in the service of Sudharma and Sudeha. She also used to worship the Parthiva-linga of Shiva daily.  </p>' +
+'<p>After her worship she used to immerse the Parthiva lingas in a pond. This way, when she had accomplished the worship of one lakh Parthiva lingas, lord Shiva blessed her with a son. Sudharma was extremely pleased but Sudeha became jealous of her own sister.  </p>' +
+'<p>When the child grew up, he was married to a beautiful brahmin girl. Dhushma instructed the bride to take a special care of Sudeha. So the bride engaged herself in the service of everybody. She took special care of looking into the needs of Sudeha. But still, Sudeha\'s jealousy did not diminish. </p>' +
+'<p>One day gripped by excessive jealousy and anger, she killed Dhushma\'s son while he was asleep. She cut his body into many pieces and threw those pieces into the same pond, in which Dhushma used to immerse the Parthiva lingas.</p>' +
+'<p>When the daughter in law noticed a piece of flesh on the bed she started crying. She went to Dhushma and narrated the whole story. Hearing the news of her son\'s killing, Dhushma too started crying Sudeha also wept artificially. </p>' +
+'<p>Sudharma arrived there. Though he himself was very sad yet he instructed Dhushma to do the daily worship of Parthiva linga as usual. Dhushma obeyed the command of her husband, She worshipped the Parthiva lingas and went to the pond of immense.</p>' +
+'<p>By the blessings of lord Shiva, her son was standing at the bank of the pond alive. He came towards his mother and said-<br/>"Mother! I have become alive even after my death."</p>' +
+'<p>Dhushma was still engrossed in her thoughts of lord Shiva, so she could not listen to her son. Lord Shiva appeared and blessed Dhushma. He also expressed his desire to punish her wicked sister - Sudeha for her evil deed, but Dhushma requested him to forgive her. She also requested lord Shiva to stay there forever. Lord Shiva accepted her demand and established himself in the form of Dhushmeshwar Jyotirlinga. Sudharma and Sudeha arrived at that place and worshipped Shiva. At last everybody returned home happily. </p>' ,
 notes: []
 },{
-subTitle: 'MallikArjuna in Sri Shail',
-content: '<p>Similarly having a darshan of MallikArjuna helps a devotee to fulfill all of his desires. </p>' ,
+subTitle: 'LORD VISHNU RECEIVES SUDARSHAN CHAKRA ',
+content: '<p>The deities went to lord Vishnu, after being tormented by the demons. They requested him to annihilate the demons. After assuring them, Lord Vishnu went to Kailash mountain to do his penance. But even his tremendous penance was not enough to please Lord Shiva. Lord Vishnu then worshipped lord Shiva by chanting the mantras of Shiva Sahastranamavali. He also offered one thousand lotus flowers to lord Shiva in course of his worship.  </p>' +
+'<p>One day Shiva wanted to test the devotion of lord Vishnu. He stole one lotus flower from among the one thousand flowers. When lord Vishnu began his worship he found that there was one flower less. To make up for this deficiency, he offered his one eye to lord Shiva - his eye which has been compared with a lotus flower. </p>' +
+'<p>Lord Shiva was very mush impressed by his exceptional devotion. He appeared before Vishnu and asked him to demand any boon he wished. Lord Vishnu demanded a divine weapon to annihilate the demons. Lord Shiva gave him a sparkling Sudharshan Chakra. On the request of Lord Vishnu he established himself in the form of Harishwar Shivalinga. At last lord Vishnu killed the demon with his Sudarshan Chakra. </p>' +
+'<p>Suta told the sages that lord Vishnu had worshipped lord Shiva with the help of his one thousand names. Some of the chief names of Shiva are Shiva, Har, Mrid, Rudra, Pushkar, Pushpalochan, Arthigamya, Sadachar, Sharv, Shambhu, Maheshwar, etc.</p>' +
+'<p>A devotee who chants these one thousand names of lord Shiva attains all the accomplishments. Chanting it during distress helps a man to become free from all kings of misfortune. Lord Vishnu could kill the demons only because of the power he derived from the chanting of Sahastranam. </p>' ,
 notes: []
 },{
-subTitle: 'Mahakal in Ujjain',
-content: '<p>Having a darshan of Mahakal at Ujjain helps a devotee to fulfill all kinds of desire and achieve salvation. </p>' ,
+subTitle: 'THE DEVOTEES OF SHIVA ',
+content: '<p>Describing about the numerous devotees of Shiva who were famous for their devotion towards lord Shiva, Suta named a few of them like Durvasa, Vishwamitra, Dadhichi, Gautam, Kanad, Bhargav, Brihaspati, Vaishampayam, Parashar, Vyasa, Upamanyu, Yagyavalkya, Jaimini and Garg etc.</p>' +
+'<p>He also narrated a tale connected with King Sudyumna. Once Sudyumna had gone into that forest which was gifted to Parvati by lord Shiva, with the warning that any man who dares to enter it would become a woman.</p>' +
+'<p>As soon as Sudyumna entered that forest he got transformed into a woman. He became very sad. He worshipped lord Shiva to regain his masculinity. Lord Shiva pleased by his devotion, he blessed him to be as a man for one month and again as a woman for the same period of time alternately. </p>' ,
 notes: []
 },{
-subTitle: 'Amareshwar in Omkar',
-content: '<p>Similarly if a devotee merely touches the idol of Omkar linga then he achieves the desired fruits. </p>' ,
+subTitle: 'ABOUT MAHASHIVRATRI ------> AUSTERITIES AND MAHASHIVARATRI FOR SHIVA\'S WORSHIP ',
+content: '<p>Once Parvati asked lord Shiva as to which were the austerities when on being performed by a devotee, helps him to attain both worldly accomplishments as well as liberation.</p>' +
+'<p>Lord Shiva told her about ten austerities connected with his worship and their methods. He said-<br/>' +
+'"On the eighth day of every month a devotee should worship me by observing a fast for the whole day and breaking it in the night.<br/> But on Kalashtami a devotee must observe the fast for the whole day and night. He must not have food on that day.<br/> On the eleventh day of the dark-lunar month, a devotee must worship me and observe fast during the day. He should break the fast in the night.<br/> But on the eleventh day of the bright lunar month, a devotee should observe a fast for the whole period of day and night. On the thirteenth day of dark-lunar month a devotee must observe fast for the whole period of day and night, whereas on the thirteenth day of a bright lunar phase he should observe a fast during the day and break it in the night. A fast observed on Monday should be broken only in the night." </p>' +
+'<p>Lord Shiva continued with his statements-  <br/>' +
+'"Among all the austerities and fastings Mahashivaratri holds a supreme place. It falls on the fourteenth day of the dark lunar month of Phalgun. On this day the devotee should take a vow to observe a fast after awakening in the morning and finishing his daily choirs. He must observe a fast for the whole day and night. In the night he should worship me either in the temple or in his own home according to his convenience. He should worship me with the help of sixteen modes of worship (Shodasopachar). He should either chant the mantras of Laghurudra or perform \'abhishek\' during the course of worship. While doing worship he should eulogize me and perform \'artis\' in my praise. He can perform \'abhishek\' with either of the followings - Milk, water, sacred water of belonging to a place of pilgrimage, sprinkling water with Kusha, Sugarcane juice, Honey and Ghee etc. The devotee should engage himself in my devotion for the whole day. In the end he should feed the brahmins and make donation to them. A fast observed in this way gives infinite virtues to the devotee." </p>' +
+'<p>After observing fasts for fourteen consecutive years on each of the Shivaratri days, a devotee should perform \'Uddyapan\' (religious rites performed on the accomplishment of an observance). On the day preceding the Uddyapan ceremony, a devotee must have food for one time. The next day a devotee should perform Uddyapan after making a religious vow and according to the appropriate methods. A devotee who performs Uddyapan in the above mentioned way attains to the Shivaloka.</p>',
 notes: []
 },{
-subTitle: 'Kedar in the Himalaya',
-content: '<p>Kedarlinga is situated in the Himalayas and is considered to be very sacred. </p>' ,
+subTitle: 'THE GREATNESS OF SHIVARATRI ',
+content: '<p>There used to live a poor Bheel named Gurudruha. He was very poor. One day finding no food available in his house, he went to the forest to hunt an animal. Unfortunately he did not find any animal which he could hunt. </p>' +
+'<p>Being hungry, he sat down on the bank of a pond and pondered as to what would happen to his family members who were hungry too. He thought that if he waited there, then he might get a chance to kill a thirsty animal, which arrives there to drink water.</p>' +
+'<p>Gurudruha climbed up a basel tree and waited for his prey. A Shivalinga was established just under that tree and co incidentally it was a Shivaratri day. When the first three hours of the night had passed, he saw a female deer arriving with her young ones. He got ready with his bow and arrow and aimed his arrow towards the female deer. By coincidence some leaves from that bael tree fell on the Shivalinga along with some drops of water from the vessel in which he was carrying water. Gurudruha had accomplished the worship of Shiva during the first \'Prahar\' of the night unwittingly.</p>' +
+'<p>After hearing the noise made by falling drops of water, the female deer looked up. She saw Gurudruha sitting with his bow and arrows. She asked him about his desire. Gurudruha told her that he wanted to kill her, so that he could feed his family members.  </p>' +
+'<p>The female deer requested him to allow her to go so that she could leave her young ones in the safe custody of her husband. She promised to come back. At first Gurudruha was reluctant but when the female deer started giving illustrations from the scriptures, he allowed her to go. </p>' +
+'<p>Meanwhile the sister of female deer arrived there with her young ones. When Gurudruha sow her, he got ready to kill her. Suddenly his movements on the tree, made some leaves of bael and few drops of water to fall on the Shivalinga. It was the second Prahara of the night and Gurudruha had again performed the worshiped of Shiva unawaringly.</p>' +
+'<p>When the female deer (Second) heard the noise made by falling drop of water She looked up towards Gurudruha. She asked him about his desire. When Gurudruha told about his desire, she requested him to allow her to go so that she could hand over her young ones in the safe custody of her husband. Initially, Gurudruha was reluctant to allow her to go, but when she promised to return back, he allowed her to go.</p>' +
+'<p>Gurudruha sat on the branches of the bael tree waiting for his prey. The second prahar of the night was coming to an end and the third prahar about to begin.</p>' +
+'<p>The deer arrived there searching his wife and children. Gurudruha again made himself ready to kill that dear. Again some leaves and few drops of water fell on the Shivalinga. The worship of Shiva during the third Prahara had been accomplished by Gurudruha, though unawaringly. On hearing the noise made by the falling drops of water, the dear looked up and asked Gurudruha about his desire. Gurudruha told him about his desire.</p>' +
+'<p>The deer requested Gurudruha to allow him to meet his wife and children for once. The deer promised to return back. After becoming satisfied by his intentions, Gurudruha allowed him to go to meet his family.</p>' +
+'<p>Gurudruha sat on the bael tree waiting for the deers anxiously. The third prahar of the night was approaching its end and the fourth prahar was about to begin.</p>' +
+'<p>Suddenly Gurudruha saw all the three deers coming towards the pond. He became extremely pleased at the prospect of getting flesh of three animals. He got read with his bow and arrows. His movements on the bael tree again made some leaves and few drops of water to fall on the Shivaling. Gurudruha had successfully accomplished the worship of Shiva even during the fourth Prahar. Not only this he had also remained awake for the whole night of Shivaratri.</p>' +
+'<p>The fast observed by Gurudruha on Shivaratri along with the worship of Shiva though unawaringly had made him on enlightened person. The thought of killing the deers remained no longer in his heart. He thanked all the deers for their help in his attainment of enlightenment.</p>' +
+'<p>Lord Shiva became extremely pleased and appeared before him. He blessed Gurudruha that in his next birth he would get an opportunity to serve Sri Rama and would become famous as Nishad. Lord Shiva also told Gurudruha that by the blessings of Sri Rama he would attain salvation by the blessings of Sri Rama he would attain salvation.  </p>'+
+'<p>Suta while describing about the virtues of observing fast on Shivaratri told the sages that if a fast observed unwaringly on Shivaratri gives such virtues then what could be said about a fast which is observed deliberately. According to Suta such a fast would bestow both worldly pleasures and salvation. </p>',
 notes: []
 },{
-subTitle: 'Bhimashankar at the bank of Bhima river.',
-content: '<p>Lord Shiva took his sixth incarnation as Bhima Shankar to kill the demon Bhima. This incarnation of Shiva tool place at a place called Kamarupa in Assam. </p>' ,
-notes: []
-},{
-subTitle: 'Vishwanath in Varanasi. ',
-content: '<p>The seventh incarnation of lord Shiva was as Vishwanath at Kashi. This Jyotirlinga is considered to be very sacred and fulfiller of all the desires of a man.</p>' ,
-notes: []
-},{
-subTitle: 'Trayambakeshwar ar the bank of Gautami river',
-content: '<p>Lord Shiva took his eighth incarnation at the bank of river Gautami at the request of sage Gautam. This Jyotirlinga too is considered to be very sacred and a fulfiller of all the desires of a man. </p>' ,
-notes: []
-},{
-subTitle: 'Baidyanath at Chitabhumi',
-content: '<p>The ninth incarnation of Shiva was as Baidyanath at Deoghar in Bihar. This Jyotirlinga was established by the demon King Ravana. A devotee who worships this Jyotirlinga gets all of his wishes fulfilled. Because of this, it ia also known as Kamanalinga. Devotees carry the holy water of the Ganges from Sultanganj and both the idol of Baidyanath in the months of Shravana and Bhadrapaksha according to the Hindu calendar.</p>' ,
-notes: []
-},{
-subTitle: 'Nagesh which is between Darukvan dwarika and Bhet dwarika',
-content: '<p>Lord Shiva took his tenth incarnation to kill the demon Daruk who used to live in Daruk forest. A devotee who worships Nagesh, never faces any calamity. </p>' ,
-},{
-subTitle: 'Rameshwar at Betubandh ',
-content: '<p>The eleventh incarnation of lord Shiva was as Rameshwar linga, this linga was established by Sri Rama while the construction of a bridge over the sea was going on. Having a darshan of this Jyotirlinga bestowes both worldly pleasures and salvation.</p>' ,
-notes: []
-},{
-subTitle: 'Dhushmesh in Shivalaya',
-content: '<p>Lord Shiva took his twelfth incarnation as Dhumeshwar after being pleased by Dhushma - the wife of Sumedha. Having a darshan of this Jyotirlinga helps a devotee to fulfill all of his desires. All the above mentioned twelve Jyotirlingas are very sacred and give total accomplishment to the devotees.  </p>' ,
+subTitle: 'DIFFERENT STAGES OF LIBERATION ',
+content: '<p>Regarding the different stages of liberation, Suta told the sages that there were five stages of liberation capable of freeing a man from the sorrows of this world. </p>' +
+'<ol><li> Sarupya (Similitude with the Almighty)</li>' +
+'<li>Salokya (promotion from material liberation)  </li>' +
+'<li>Sannidhya (living in the proximity of the almighty) </li>' +
+'<li>Sayujya (getting united with the almight)</li> and' +
+'<li> Kalvalya (Devotion towards God)</li></ol> </p>' +
+'<p>(Wealth) and Kam (desires and wishes) by the worship of other deities, but lord Shiva bestowes all the four of them.  </p>' +
+'<p>Lord Brahma is believed to be the master of the three elementary qualities i.e. Satva, Rajas, and Tamas. Shiva is beyond these qualities and even the nature itself. He is formless. Lord Shiva is a mystery which remains unsolved even though many sages and even lord Brahma have tried to solve this mystery called Shiva.</p>' +
+'<p>The fifth stage of liberation is called Kaivalya which is attained by having complete devotion towards lord Shiva. In the present era of Kali, where the attainment of self knowledge is very difficult, devotion is relatively an easier path.</p>' +
+'<p>Even devotion has been categorised into two types: a) Sagun (with form) b) Nirguna (formless)</p>' +
+'<p>If man worships lord Shiva with total devotion he attains self knowledge. Each and every object of this world is nothing but the manifestation of Shiva\'s power. The creation achieves expansion only when he desires. Shiva is omniscient but himself invisible. Just as the fire, which already exists in the wood but is visible only after it is rubbed, similarly only the \'Gyanis\' can experience lord Shiva even though he is omnipresent. Just as there is no difference between cause and effect, but is appears so due to our ignorance, similarly an ignorant man can never experience the omnipresent Shiva by his sense organs. The living things possess ego but lord Shiva is egoless. A man can successfully subjugates his ego by becoming knowledgeable and attains liberation after uniting with lord Shiva.</p>' +
+'<p>This knowledge was received by lord Vishnu from Shiva. Lord Vishnu later on revealed it to lord Brahma and Brahma in turn revealed it to his manasputra - Sanak, etc. The manasputra revealed this knowledge to Narada and Narada revealed it to Vyasa. </p>' ,
 notes: []
 }
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '23',
-title: 'SHATARUDRA-SAMHITA,  ',
-headerStyle: { 'color': 'green','font-weight': '1900', 'background-color': 'lightgreen', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image23.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-
-]
-}, {
-
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '24',
-title: 'SHATARUDRA-SAMHITA,  ',
-headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': 'orange', 'text-shadow': '2px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/shatarudraSamhita/image24.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-
 ]
 }
 ];

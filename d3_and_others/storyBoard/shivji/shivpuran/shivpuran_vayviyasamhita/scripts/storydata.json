@@ -1,0 +1,388 @@
+var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultPrevButtonStyle = "float:left;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultNextButtonStyle = "float:right;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right:20px;";
+        var leftNavigation = true ;
+var defaultHeaderStyle=
+    {
+        'font-weight': '900',
+        'color':'firebrick',
+         'background-color': 'transparent', 'opacity':'1.5'
+    };
+var defaultDetailStyle = { 
+      'background-color':'lightgoldenrodyellow',
+        'opacity':'0.7',
+        'margin': '10px',
+      'padding':'5px',
+        'color':'black',
+        'font-weight':'900',
+        'border':'2px solid red'};
+var defaultContentStyle =   { 'border':'3px outset orange',
+             'background-image': 'url("images/lord-krishna-786.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'lightgoldenrodyellow'};
+var chapterData = [
+    
+
+    {
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: ' VAYVIYA-SAMHITA , THE ORIGIN OF VIDYA (KNOWLEDGE) ',
+        title: ' VAYVIYA-SAMHITA , THE ORIGIN OF VIDYA (KNOWLEDGE) ',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/vayviyaSamhita/image1.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '<p>There are fourteen types of learning or Vidyas - <ul><li>four Vedas</li><li>Six Vedangs</li><li>Meemansa</li><li>Nyay</li><li>Puranas and</li><li>other religious scriptures</li></ul>. These fourteen learning along with Ayurveda, Dhanurveda, Gandharvaveda and Arthashastra becomes eighteen. All these eighteen learnings originate from lord Shiva.</p>' +
+'<p>Lord Shiva created lord Brahma to felicitate the process of creation and bestowed him with all these eighteen learnings. He also empowered lord Vishnu to protect the creation. </p>' +
+'<p>The four Vedas emerged from the mouth of Lord Brahma, on the basis of which were created the numerous scriptures like Vedangs etc. Since these Vedas were difficult to understand, therefore lord Vishnu took incarnation of Vyasa and created the Puranas, so that they could be understood easily. The Puranas contain four lakh shlokas and they help us to understand the essence of the Vedas.</p>',
+notes: []
+}
+        ]
+    } , {
+    /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '2',
+title: ' VAYVIYA-SAMHITA , THE TALE OF NAIMISHARANYA ',
+headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': '#77FFFF', 'opacity':'0.9'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/vayviyaSamhita/image2.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Once, lord Brahma released his Manomaya chakra and instructed the sages to follow it. He also told them that the place at which the Manomaya chakra broke down would be very auspicious for doing penance.  </p>' +
+'<p>The sages followed the Manomaya chakra, which after travelling for a long time fell down on a large segment of land and its circumference (Nemi) broke down as predicted by lord Brahma. This segment of land became famous as Naimisharanya.</p>' +
+'<p>The sages decided to perform a Yagya at that sacred place. This way the very place, sitting where lord Brahma did creations. All the sages commenced their Yagya, which continued for ten thousand years. On the completion of Yagya, the deity arrived there and blessed them as per the instruction of lord Brahma</p>' ,
+notes: []
+}
+]
+}  , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '3',
+title: ' VAYVIYA-SAMHITA , TIME, CALCULATION, AND YUGAS  ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'yellow', 'opacity':'1.0', 'border': '2px solid brown'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/vayviyaSamhita/image3.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Describing about the time (Kala), Vayudeva told the sages that \'Kala\' or time is the radiance of lord Shiva. Kala or time is also known as \'Kalatma\'. The time flows smoothly without being disturbed.  </p>' +
+'<p>Time is under the control of lord Shiva. Since the time contains the element of Shiva (Shivattatva), hence its momentum can not be checked by any other power, except that of Shiva. One, who understands the meaning of Kala, has a darshan of lord Shiva.</p>' +
+'<p>The smallest unit for measuring the time is called \'Nimesh\'. The time taken to drop one\'s eyelid is called one Nimesh. A kala consists of fifteen Nimeshas and thirty Kalas make a \'Muhurta\'.</p>' +
+'<p>A day and a night consist of thirty \'Muhurtas\'. A month consists of thirty days, divided into two fortnights. One fortnight is known as \'Krishna Paksha\' (dark lunar phase) and the other is known as Shukla Paksha (bright lunar phase).</p>' +
+'<p>In Pitarloka the day consists of one fortnight and night of the same number of days. Shukla Paksha is the day of the Pitraloka and Krishna Paksha the night.</p>' +
+'<p>One \'Ayana\' consists of Six months. A year consists of two \'Ayanas\'. One year of the earth is equivalent to a day and a night of the deities. The six months when Sun is in the southern hemisphere of the earth, is actually the time when the deities experience night. On the contrary, the six months when sun is in the northern hemisphere, is the day time of the deities. One year of the deities is equivalent to three hundred and sixty years of this world.</p>' +
+'<p>The yugas are counted on the basis of the years of the deities.<br/> According to the scholars there are four yugas - <ul><li>Satya Yuga</li><li>Treta  Yuga</li><li>Dwapar Yuga and</li><li>Kali Yuga</li></ul>.</p>' +
+'<ul><li>A Satya Yuga is equivalent to four thousand years of the deities.</li>' +
+'<li>A Treta Yuga is equivalent to three thousand years of the deities.</li>' +
+'<li>Similarly a Dwapar Yuga is equivalent to two thousand years of the deities and</li>' +
+'<li> a Kali  Yuga to that of one thousand years of the deities.</li></ul>' +
+'This way all the four yugas collectively are equivalent to twelve thousand years of the deities.</p>' +
+'<p>A Kalpa consists of one thousand Chaturyugas. A Manvantar consists of seventy one Chaturyugas.</p>' +
+'<p>One Kalpa is inhibited by fourteen Manus one after another in succession.</p>' +
+'<p>A Brahma\'s day is equivalent to one divine Kalpa. A Brahma\'s year is equivalent to one thousand Kalpas. A Brahma\'s yuga consists of eight thousand such years.</p>' +
+'<p>A  Brahma\'s \'Savan\' consists of his one thousand yugas. Brahma\'s life span is complete after three thousand such Sawanas. Five lakh and forty thousand numbers of Indras succeed one after another during the whole life span of Brahma.<br/> A Vishnu day is equivalent to the whole life span of Brahma. The whole life span of Vishnu is equivalent to a day of \'Rudra\'.<br/> The whole life span of Rudra is equivalent to a day of lord Shiva. In the whole life of lord Shiva five lakh and four thousand numbers of Rudras come and go.</p>' +
+'<p>A Shiva\'s day commences with the creation and before the end of the night the whole creation gets annihilated. Sadashiva is eternal. </p>' ,
+notes: []
+}
+]
+}  , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '4',
+title: ' VAYVIYA-SAMHITA , MEDITATION ',
+headerStyle: { 'color': 'yellow','font-weight': '1900', 'background-color': 'crimson', 'opacity':'1.0','padding':'2px' ,'border': '3px  silver outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/vayviyaSamhita/image4.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Describing about meditation Vayudeva told the sages that to concentrate one\'s restless mind during meditative state, a man needs some kind of form (Swarupa) or appearance. Idol worship is very helpful in this regard. If an idol of the deity is worshipped with full devotion, then a time comes when a man can have its sight even in an empty space. Idol worship also helps a devotee to reach towards the almighty God, who is formless. It is easy for a devotee who believes in \'Sakar\' (with form) to change over to the Nirakar (formless) worship of God. But it is very difficult for a devotee who believes in the formless almighty to switch over to Sakar mode of worship. The knowledge of Shiva\'s essence is a must attain salvation in both the modes of devotion</p>' ,
+notes: []
+}
+]
+} , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '5',
+title: ' VAYVIYA-SAMHITA ,  PASHUPAT VRATA RITUALS CONNECTED WITH SHIVA\'S WORSHIP ',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'blue', 'opacity':'1.0','padding':'2px' ,'border': '3px  slateblue outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/vayviyaSamhita/image5.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>One being asked by the sages about the rituals which gives salvation, Vayudeva told them that by having devotion towards lord Shiva, a man can achieve all the pleasures of the world and even attain salvation. Vayudeva also told them about Pashupat Vrata and the benefits derived from it. </p>' +
+'<p>The whole Pashupat Vrata is divided into five parts - Kriya, Taipei, Tapa, Dhyana and Gyan. The Shaiva-dharma is the supreme religion and the rituals pertaining to it are based on the Shruits and the Smritis. Pashupat Vrata has been mentioned in the Vedas as the bestower of Supreme knowledge. It also contains all the eight organs of yoga, which were created by lord Shiva himself. Lord Shiva is easily pleased if worship is done by this method. The devotee attains supreme knowledge and becomes liberated from all the bondages of this world. </p>' +
+'<p>Pashupat Vrata has been mentioned even in the Atharvasheersha Upanishad. It begins on the full moon day, in the month of Chaitra. It can be performed anywhere - a Shiva temple, any sacred place of pilgrimage, forest or garden.</p>' +
+'<p>A devotee should get up early in the morning, on the thirteenth day of bright lunar phase (two days preceding the full moon day) and after finishing his daily duties he should make salutations to his Guru. With the permission of his guru, the devotee should then put on while coloured clothes and a sacred thread of the same colour. He should also wear a white garland around his neck and apply sandal wood paste on his body. He should then sit on the seat made of Kusha grass and take a vow by holding a Kusha grass in his hand. After this he should do Havana by offerings articles into the sacred fire. He should observe a fast for the whole day and break it only in the night by having \'Prasada\'.</p>' +
+'<p>This ritual should be repeated on the following day but the fast should not be broken in the night. On the final day, that is full moon day he should repeat all the rituals and after putting off the fire of the Havana Kunda, he should smear his body with the ashes. He should then take his bath and put on dear\'s skin or bark of the tree. He should also hold a stick and put on a waist band (Mekhala). After that he should again rinse (Achaman) his mouth and smear ashes on his body. He should perform the exercise of Ashtanga yoga. Three times in a day as per the instructions of his guru. This way a man is freed from the beastly qualities present in him.</p>' +
+'<p>Pashupat Vrata can be performed by a devotee as long as he is alive or he can continue it for twelve years of three years or one year or six months or one month, or twelve days or three days or even one day. On the completion of Pashupat Vrata, a devotee should establish a Shiva idol and worship it with all the sixteen modes of worship. At last he should perform Awaran Pujan and then worship his guru. Through out the period of fast, a devotee should have fruits only and he should sleep on the bare land. Pashupat Vrata done in such a way helps a devotee to attain to the abode of lord Shiva.  </p>' ,
+notes: []
+}
+]
+} , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '6',
+title: ' VAYVIYA-SAMHITA , INTRODUCTION OF THE UNIVERSE ',
+headerStyle: { 'color': 'yellow','font-weight': '1900', 'background-color': 'crimson', 'opacity':'1.0','padding':'2px' ,'border': '3px  silver outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/vayviyaSamhita/image6.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Vayudeva told the sages who had assembled at Naimisharanya that goddess Gauri was the manifestation of Shiva\'s power and Shankar the omnipotent almighty. Both Shiva and goddess Shiva contain fathomless splendours of which only a fraction is visible in this world. This world is under the control of Shiva and goddess Shiva. Both of them are inseparable. Just as the light of the sun can not exist without the Sun in the same way goddess Shiva can not exist without lord Shiva. Just as a lifeless body is of no use similarly the world can not exist without goddess Shakti. </p>' +
+'<p>This illusionary world is tied up with the delusionary ropes of Shiva and Shakti. The whole creation is the appearance of Almighty Shiva. The ignorant sages describe it in different ways according to their own perceptions. But, the fact is that Shiva is one and this world is the creation of his illusions. A man can attain liberation from this illusionary world only when he has the blessings of Shiva. </p>' +
+'<p>Lord Shiva is beyond the reach of lust, attachment and pleasures. His existence is separate from the nature, delusion, intelligence and ego. He is free from all the bondages.</p>' ,
+notes: []
+}
+]
+} , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '7',
+title: ' VAYVIYA-SAMHITA , DUTIES OF A BRAHMIN  ',
+headerStyle: { 'color': '#cc2200','font-weight': '1900', 'background-color': '#ff9933', 'opacity':'1.0','padding':'2px' ,'border': '3px  #cc6600 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/vayviyaSamhita/image7.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>An ideal brahmin is supposed to perform the following duties:-<br/>a) Trikal Sandhya (worshipping thrice a day)<br/>b) Havan (offerings made to the sacred fire)<br/>c) Worship of Shivalinga d) Making donations </p>' +
+'<p>A brahmin should also have the following qualities:- <br/>a) To see god in each soul <br/>b)Compassion<br/> c) Virtuous conducts<br/> d) Satisfaction<br/>e) Belief in God<br/>f) Non violence<br/>g)Devotion<br/>h) Regular Vedas study<br/>i) Practicing Yoga<br/>j) Preaching  teachings of Vedas<br/>k)Giving lectures on the religious scriptures.<br/>l) Being a celibate<br/>m) Penance<br/>n)Having a Shikha and a scared thread etc. </p>' +
+'<p>A brahmin should never have food during the night and should contently chant the \'Om Namah Shivay\' mantra. Lord Shiva is not pleased that much by rituals as by faith and devotion. A man who worships lord Shiva while maintaining the rules of \'varna ashrama dharma\', has the blessings of lord Shiva and all of his desires are fulfilled. </p>' ,
+notes: []
+}, {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '8',
+title: ' VAYVIYA-SAMHITA , CHANTING OF MANTRAS AND ESTABLISHING DEITIES WITHIN BODY ',
+headerStyle: { 'color': '#cc2200','font-weight': '1900', 'background-color': '#ff9933', 'opacity':'1.0','padding':'2px' ,'border': '3px  #cc6600 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/vayviyaSamhita/image8.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>An ideal brahmin is supposed to perform the following duties:-<br/>a) Trikal Sandhya (worshipping thrice a day)<br/>b) Havan (offerings made to the sacred fire)<br/>c) Worship of Shivalinga d) Making donations </p>' +
+'<p>A brahmin should also have the following qualities:- <br/>a) To see god in each soul <br/>b)Compassion<br/> c) Virtuous conducts<br/> d) Satisfaction<br/>e) Belief in God<br/>f) Non violence<br/>g)Devotion<br/>h) Regular Vedas study<br/>i) Practicing Yoga<br/>j) Preaching  teachings of Vedas<br/>k)Giving lectures on the religious scriptures.<br/>l) Being a celibate<br/>m) Penance<br/>n)Having a Shikha and a scared thread etc. </p>' +
+'<p>A brahmin should never have food during the night and should contently chant the \'Om Namah Shivay\' mantra. Lord Shiva is not pleased that much by rituals as by faith and devotion. A man who worships lord Shiva while maintaining the rules of \'varna ashrama dharma\', has the blessings of lord Shiva and all of his desires are fulfilled. </p>' ,
+notes: []
+}
+]
+}
+];
