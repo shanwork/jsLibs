@@ -1,0 +1,188 @@
+var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultPrevButtonStyle = "float:left;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultNextButtonStyle = "float:right;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right:20px;";
+var leftNavigation = true ;
+var defaultHeaderStyle=
+{
+'font-weight': '900',
+'color':'firebrick',
+'background-color': 'transparent', 'opacity':'1.5'
+};
+var defaultDetailStyle = {
+'background-color':'lightgoldenrodyellow',
+'opacity':'0.7',
+'margin': '10px',
+'padding':'5px',
+'color':'black',
+'font-weight':'900',
+'border':'2px solid red'};
+var defaultContentStyle =   { 'border':'3px outset orange',
+'background-image': 'url("images/lord-krishna-786.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'lightgoldenrodyellow'};
+var chapterData = [
+
+
+{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: ' VAYVIYA-SAMHITA , THE ORIGIN OF VIDYA (KNOWLEDGE) ',
+title: ' VAYVIYA-SAMHITA , ',
+headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.9'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/vayviyaSamhita/image1.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: 'THE ORIGIN OF VIDYA (KNOWLEDGE) ',
+content: '<p>There are fourteen types of learning or Vidyas - <ul><li>four Vedas</li><li>Six Vedangs</li><li>Meemansa</li><li>Nyay</li><li>Puranas and</li><li>other religious scriptures</li></ul>. These fourteen learning along with Ayurveda, Dhanurveda, Gandharvaveda and Arthashastra becomes eighteen. All these eighteen learnings originate from lord Shiva.</p>' +
+'<p>Lord Shiva created lord Brahma to felicitate the process of creation and bestowed him with all these eighteen learnings. He also empowered lord Vishnu to protect the creation. </p>' +
+'<p>The four Vedas emerged from the mouth of Lord Brahma, on the basis of which were created the numerous scriptures like Vedangs etc. Since these Vedas were difficult to understand, therefore lord Vishnu took incarnation of Vyasa and created the Puranas, so that they could be understood easily. The Puranas contain four lakh shlokas and they help us to understand the essence of the Vedas.</p>',
+notes: []
+}, {
+subTitle: 'THE TALE OF NAIMISHARANYA',
+content: '<p>Once, lord Brahma released his Manomaya chakra and instructed the sages to follow it. He also told them that the place at which the Manomaya chakra broke down would be very auspicious for doing penance.  </p>' +
+'<p>The sages followed the Manomaya chakra, which after travelling for a long time fell down on a large segment of land and its circumference (Nemi) broke down as predicted by lord Brahma. This segment of land became famous as Naimisharanya.</p>' +
+'<p>The sages decided to perform a Yagya at that sacred place. This way the very place, sitting where lord Brahma did creations. All the sages commenced their Yagya, which continued for ten thousand years. On the completion of Yagya, the deity arrived there and blessed them as per the instruction of lord Brahma</p>' ,
+notes: []
+}, {
+subTitle: 'TIME, CALCULATION, AND YUGAS  ',
+content: '<p>Describing about the time (Kala), Vayudeva told the sages that \'Kala\' or time is the radiance of lord Shiva. Kala or time is also known as \'Kalatma\'. The time flows smoothly without being disturbed.  </p>' +
+'<p>Time is under the control of lord Shiva. Since the time contains the element of Shiva (Shivattatva), hence its momentum can not be checked by any other power, except that of Shiva. One, who understands the meaning of Kala, has a darshan of lord Shiva.</p>' +
+'<p>The smallest unit for measuring the time is called \'Nimesh\'. The time taken to drop one\'s eyelid is called one Nimesh. A kala consists of fifteen Nimeshas and thirty Kalas make a \'Muhurta\'.</p>' +
+'<p>A day and a night consist of thirty \'Muhurtas\'. A month consists of thirty days, divided into two fortnights. One fortnight is known as \'Krishna Paksha\' (dark lunar phase) and the other is known as Shukla Paksha (bright lunar phase).</p>' +
+'<p>In Pitarloka the day consists of one fortnight and night of the same number of days. Shukla Paksha is the day of the Pitraloka and Krishna Paksha the night.</p>' +
+'<p>One \'Ayana\' consists of Six months. A year consists of two \'Ayanas\'. One year of the earth is equivalent to a day and a night of the deities. The six months when Sun is in the southern hemisphere of the earth, is actually the time when the deities experience night. On the contrary, the six months when sun is in the northern hemisphere, is the day time of the deities. One year of the deities is equivalent to three hundred and sixty years of this world.</p>' +
+'<p>The yugas are counted on the basis of the years of the deities.<br/> According to the scholars there are four yugas - <ul><li>Satya Yuga</li><li>Treta  Yuga</li><li>Dwapar Yuga and</li><li>Kali Yuga</li></ul>.</p>' +
+'<ul><li>A Satya Yuga is equivalent to four thousand years of the deities.</li>' +
+'<li>A Treta Yuga is equivalent to three thousand years of the deities.</li>' +
+'<li>Similarly a Dwapar Yuga is equivalent to two thousand years of the deities and</li>' +
+'<li> a Kali  Yuga to that of one thousand years of the deities.</li></ul>' +
+'This way all the four yugas collectively are equivalent to twelve thousand years of the deities.</p>' +
+'<p>A Kalpa consists of one thousand Chaturyugas. A Manvantar consists of seventy one Chaturyugas.</p>' +
+'<p>One Kalpa is inhibited by fourteen Manus one after another in succession.</p>' +
+'<p>A Brahma\'s day is equivalent to one divine Kalpa. A Brahma\'s year is equivalent to one thousand Kalpas. A Brahma\'s yuga consists of eight thousand such years.</p>' +
+'<p>A  Brahma\'s \'Savan\' consists of his one thousand yugas. Brahma\'s life span is complete after three thousand such Sawanas. Five lakh and forty thousand numbers of Indras succeed one after another during the whole life span of Brahma.<br/> A Vishnu day is equivalent to the whole life span of Brahma. The whole life span of Vishnu is equivalent to a day of \'Rudra\'.<br/> The whole life span of Rudra is equivalent to a day of lord Shiva. In the whole life of lord Shiva five lakh and four thousand numbers of Rudras come and go.</p>' +
+'<p>A Shiva\'s day commences with the creation and before the end of the night the whole creation gets annihilated. Sadashiva is eternal. </p>' ,
+notes: []
+}, {
+subTitle: ' MEDITATION ',
+content: '<p>Describing about meditation Vayudeva told the sages that to concentrate one\'s restless mind during meditative state, a man needs some kind of form (Swarupa) or appearance. Idol worship is very helpful in this regard. If an idol of the deity is worshipped with full devotion, then a time comes when a man can have its sight even in an empty space. Idol worship also helps a devotee to reach towards the almighty God, who is formless. It is easy for a devotee who believes in \'Sakar\' (with form) to change over to the Nirakar (formless) worship of God. But it is very difficult for a devotee who believes in the formless almighty to switch over to Sakar mode of worship. The knowledge of Shiva\'s essence is a must attain salvation in both the modes of devotion</p>' ,
+notes: []
+}, {
+subTitle: 'PASHUPAT VRATA RITUALS CONNECTED WITH SHIVA\'S WORSHIP ',
+content: '<p>One being asked by the sages about the rituals which gives salvation, Vayudeva told them that by having devotion towards lord Shiva, a man can achieve all the pleasures of the world and even attain salvation. Vayudeva also told them about Pashupat Vrata and the benefits derived from it. </p>' +
+'<p>The whole Pashupat Vrata is divided into five parts - Kriya, Taipei, Tapa, Dhyana and Gyan. The Shaiva-dharma is the supreme religion and the rituals pertaining to it are based on the Shruits and the Smritis. Pashupat Vrata has been mentioned in the Vedas as the bestower of Supreme knowledge. It also contains all the eight organs of yoga, which were created by lord Shiva himself. Lord Shiva is easily pleased if worship is done by this method. The devotee attains supreme knowledge and becomes liberated from all the bondages of this world. </p>' +
+'<p>Pashupat Vrata has been mentioned even in the Atharvasheersha Upanishad. It begins on the full moon day, in the month of Chaitra. It can be performed anywhere - a Shiva temple, any sacred place of pilgrimage, forest or garden.</p>' +
+'<p>A devotee should get up early in the morning, on the thirteenth day of bright lunar phase (two days preceding the full moon day) and after finishing his daily duties he should make salutations to his Guru. With the permission of his guru, the devotee should then put on while coloured clothes and a sacred thread of the same colour. He should also wear a white garland around his neck and apply sandal wood paste on his body. He should then sit on the seat made of Kusha grass and take a vow by holding a Kusha grass in his hand. After this he should do Havana by offerings articles into the sacred fire. He should observe a fast for the whole day and break it only in the night by having \'Prasada\'.</p>' +
+'<p>This ritual should be repeated on the following day but the fast should not be broken in the night. On the final day, that is full moon day he should repeat all the rituals and after putting off the fire of the Havana Kunda, he should smear his body with the ashes. He should then take his bath and put on dear\'s skin or bark of the tree. He should also hold a stick and put on a waist band (Mekhala). After that he should again rinse (Achaman) his mouth and smear ashes on his body. He should perform the exercise of Ashtanga yoga. Three times in a day as per the instructions of his guru. This way a man is freed from the beastly qualities present in him.</p>' +
+'<p>Pashupat Vrata can be performed by a devotee as long as he is alive or he can continue it for twelve years of three years or one year or six months or one month, or twelve days or three days or even one day. On the completion of Pashupat Vrata, a devotee should establish a Shiva idol and worship it with all the sixteen modes of worship. At last he should perform Awaran Pujan and then worship his guru. Through out the period of fast, a devotee should have fruits only and he should sleep on the bare land. Pashupat Vrata done in such a way helps a devotee to attain to the abode of lord Shiva.  </p>' ,
+notes: []
+}, {
+subTitle: 'INTRODUCTION OF THE UNIVERSE ',
+content: '<p>Vayudeva told the sages who had assembled at Naimisharanya that goddess Gauri was the manifestation of Shiva\'s power and Shankar the omnipotent almighty. Both Shiva and goddess Shiva contain fathomless splendours of which only a fraction is visible in this world. This world is under the control of Shiva and goddess Shiva. Both of them are inseparable. Just as the light of the sun can not exist without the Sun in the same way goddess Shiva can not exist without lord Shiva. Just as a lifeless body is of no use similarly the world can not exist without goddess Shakti. </p>' +
+'<p>This illusionary world is tied up with the delusionary ropes of Shiva and Shakti. The whole creation is the appearance of Almighty Shiva. The ignorant sages describe it in different ways according to their own perceptions. But, the fact is that Shiva is one and this world is the creation of his illusions. A man can attain liberation from this illusionary world only when he has the blessings of Shiva. </p>' +
+'<p>Lord Shiva is beyond the reach of lust, attachment and pleasures. His existence is separate from the nature, delusion, intelligence and ego. He is free from all the bondages.</p>' ,
+notes: []
+}, {
+subTitle: 'DUTIES OF A BRAHMIN  ',
+content: '<p>An ideal brahmin is supposed to perform the following duties:-<br/>a) Trikal Sandhya (worshipping thrice a day)<br/>b) Havan (offerings made to the sacred fire)<br/>c) Worship of Shivalinga d) Making donations </p>' +
+'<p>A brahmin should also have the following qualities:- <br/>a) To see god in each soul <br/>b)Compassion<br/> c) Virtuous conducts<br/> d) Satisfaction<br/>e) Belief in God<br/>f) Non violence<br/>g)Devotion<br/>h) Regular Vedas study<br/>i) Practicing Yoga<br/>j) Preaching  teachings of Vedas<br/>k)Giving lectures on the religious scriptures.<br/>l) Being a celibate<br/>m) Penance<br/>n)Having a Shikha and a scared thread etc. </p>' +
+'<p>A brahmin should never have food during the night and should contently chant the \'Om Namah Shivay\' mantra. Lord Shiva is not pleased that much by rituals as by faith and devotion. A man who worships lord Shiva while maintaining the rules of \'varna ashrama dharma\', has the blessings of lord Shiva and all of his desires are fulfilled. </p>' ,
+notes: []
+}, {
+subTitle: 'CHANTING OF MANTRAS AND ESTABLISHING DEITIES WITHIN BODY ',
+content: '<p>After getting initiated with the Shiva mantra, a devotee should chant it for once crore times or fifty lakh times, or twenty lakh times or ten lakh times, while worshipping Shiva. \'Havana\' should be performed for tenth part of the total chanting. \'Tarpan\' should be performed for tenth part of the number of Havana. Similarly \'Marjan\' should be performed for the tenth part of the numbers of Tarpan. The numbers of Brahmins selected for feeding should be equivalent to the tenth part of the numbers of Marjan.</p>' +
+'<p>At last the disciple should give donations to the brahmins and engage himself in the welfare of society as per the instructions of his Guru.</p>' +
+'<p>Asceticism (Nyas) are of three types - <br/>Sthiti (posture)<br/> Utpatti (origin)<br/> and Laya (fusion).</p>' +
+'<p>- Establishing and chanting the cryptic mantras (alphabets) from the thumb to the little finger is called \'Sthiti nyas\'.<br/>' +
+'- Establishing and then chanting the cryptic mantras from the right thumb to the left thumb is called \'Utpatti nyas\'.<br/>' +
+'- Establishing and then chanting the cryptic mantras from the left thumb to the right thumb is called \'Laya Nyas\'.</p>' +
+'<p>\'Sthiti\' nyas should be practiced by the householders \'Utpatti nyas\' should be practiced by the celibates \'Laya nyas\' should be practiced by those people who have relinquished the world (Vanprasth).</p>' +
+'<p>A widow should practice Sthiti Nyas. An unmarried girl should practice Utapatti Nyas.</p>' +
+'<p>These modes of Nyas should be practiced only after being taught by the Guru. </p>' ,
+notes: []
+}, {
+subTitle: 'MENTAL WORSHIP OF SHIVA ',
+content: '<p>While doing a mental worship of Shiva, a devotee should worship lord Ganesha by following the \'Nyas\' mode of worship. After that he should worship various deities related with lord Shiva like Nandi etc. Then he should bring the form of lord Shiva into his imagination and worship him mentally by making mental offerings.</p>' +
+'<p>The devotee should then perform Havana in the navel of lord Shiva by offering ghee. The worship should be accomplished by meditating on the form of Shiva.</p>' +
+'<p>The devotee should take his seat only after purifying it. He should take a vow after completing all the necessary rituals like \'Achaman\'. Pranayama, tying a knot in his Shikha.</p>' +
+'<p>After doing the \'Deepa Pujan\' he should worship various deities like Sun god, Moon god, Varuna, Ganesha and Kartikeya etc. He should then worship both Shiva and Shakti by employing all the sixteen modes of worship (Shodasopachar). The devotee should perform \'arti\' in the end.</p>' +
+'<p>In the specialized form of Shiva\'s worship \'Awaran Pujan\' of Shiva is done along with the normal pujan. Awaran Pujan means worship of all the articles connected with lord Shiva like his trident his drum etc. In this specialized worship the Shiva\'s idol should be bathed first of all. Then the idol should be clothed. A sacred thread should be offered to the Shiva\'s idol along with the other offerings like \'tilak\', Akshat etc. After this the \'awaran pujan\' of Shiva should be done along with the worship of Shiva\'s family.</p>' +
+'<p>If the devotee feels that something was lacking in the worship, he should atone for that mistake by chanting the Panchakshar mantra Om Namah Shivay. </p>' ,
+notes: []
+}, {
+subTitle: 'METHOD OF PERFORMING \'HAWANA\'',
+content: '<p>While performing a Shiva Yagya a devotee should make offerings to the \'havanakunda\' made of iron or mud. Fire should be ignited in the havankunda following the methods as prescribed in the scriptures. He can then commence the actual worship.</p>' +
+'<p>The devotee should make of offerings of ghee with Sruva (a wooden spoon) and other articles with his hands. The offerings should be first made in the names of lord Brahma (Prajapati) then to the nine planets and other deities. After that offerings should be made in the name of the chief deity.</p>' +
+'<p>The devotee should then make nine offerings to each of the deities like Agni, Vayu and Surya etc. At last he should perform the arti and atone for those mistakes, which he might have committed during the whole process of worship. He should also give donations to the brahmins and feed them. </p>' ,
+notes: []
+}, {
+subTitle: 'AUSPICIOUS DAYS FOR DOING SHIVA WORSHIP',
+content: '<p>The eighth day and the fourteenth day of both the fortnights of each Hindu month are considered to be the most auspicious for the worship of lord Shiva.  </p>' +
+'<p>Similarly the solstice day (Sankranti), when the sun is positioned north of equator and eclipse day are considered to be very auspicious. On these days a special worship of lord Shiva should be done by bathing the Shiva idol with Panchagavya and having it is prasadam. It frees a man from the gravest of sins. Similarly the day of \'Pushya\' Nakshatra falling in the month of \'Pausha\' is considered as very auspicious and performing arti of Shiva on this day gives immense virtues.  </p>' +
+'<p>Making donations of Ghee and blankets on \'Magha Nakshatra\' falling in the month of Magh gives immense virtues.</p>' +
+'<p>The following days are considered to be the most auspicious for the worship of lord Shiva.' +
+'<ul><li>Uttara Falguni Nakshatra on the same day as Purnima, in the month of Falgun.</li>' +
+'<li>Chitra Nakshatra falling on the same day as Purnima in the month of Chaitra.</li>' +
+'<li>Vishakha Nakshatra falling on the same day as Purnima, in the month of Vaishakh.</li>' +
+'<li>Moola Nakshatra falling in the month of Jyeshtha.</li>' +
+'<li>Uttarashadha Nakshatra falling in the month of \'Ashadha\'.</li>' +
+'<li>Shravana Nakshatra falling in the month of Shravana.</li>' +
+'<li>Uttara bhadra Nakshatra falling in the month of \'Bhadra\'.</li>' +
+'<li>Purnima in the month of Ashwin.</li>' +
+'<li>Kartika Nakshatra falling on the same day as Purnima in the month of Kartik.</li>' +
+'<li>Ardra Nakshatra falling in the month of Margasheersha</li></ul>',
+notes: []
+},
+{
+subTitle: 'DESIRABLE RITUALS (KAMYA KARMA)',
+content:  'Rituals can be categorized in to two types-<BR/>' +
+'1) Rituals performed with the objective of fulfilling worldly desires.<br/>'+
+'2) Rituals pertaining to Ultra mundan desires.<br/>' +
+'In general, rituals can be classified into five categories - rituals, penance, chanting of mantras, meditation, and all the four collectively.</p>' +
+'<p>For performance of rituals a man needs power and strength and one can not achieve power unless and until Shiva wishes it. It is only with the blessings of Shiva that a man can attain both worldly pleasures as well as liberation.  </p>' +
+'<p>These rituals (Kamya Karma) are performed by making a mandal facing towards east and doing \'awaran pujan\' as well as worship of lord Shiva. Worship of lord Shiva done in this way fulfills all the desires of a man.</p>' +
+'<p>The methods for the worship of five \'awarans\' of Shiva have been mentioned in Shivamahastotra. Each of the \'awarans\' have separate presiding deities, the worship of which should be done according to the methods as described in the Shiva Purana or as per the instruction of Guru. </p>' ,
+notes: []
+},
+{
+subTitle: 'INSTALLATION OF SHIVALINGA ',
+content:  '<p>According to the scriptures, a Shivalinga should be made in an auspicious moment. The land, where the Shivalinga is supposed to be installed should be purified by performing \'BhoomiPujan\'. </p>' +
+'<p>After bhoomi-Pujan, worshipping lord Ganesha should be done. After that, the Shivalinga should be purified by washing it with panchgavya and after worshipping it, it should be immersed in the water. </p>' +
+'<p>The Shivalinga should be then taken out from the water and after worshipping it, it should be laid down on the bed meant for him. It should be then installed at the desired place and should be consecrated by chanting the mantras. All the rituals should be performed as per the instructions of Guru.  </p>' ,
+notes: []
+}, {
+subTitle: 'CLASSIFICATION OF YOGA ',
+content: '<p>Yoga means such actions, which after pacifying all the human tendencies helps a man to unite with Shiva. Following are the five divisions of yoga- <ol><li>Mantra Yoga</li><li>Sparsh Yoga (union of touch)</li><li>Bhava Yoga (union by devotion)</li><li>Abhava yoga (Union without being emotionally attached)</li><li>Mahayoga (The great union)</li></ol>.</p>' +
+'<p> Mantra yoga helps a man to understand the meaning of mantras and uniting with Shiva by the concentration of mind. When Mantra yoga is perfected by the practice of Pranayama it is called \'Sparshyoga\'. Bhavayoga means meditating and chanting without uttering a word. Abhava yoga means such a union when the devotee contemplates on the final annihilation, without being emotionally attached with the world.</li><li>A man whose mind is preoccupied with the thoughts of Shiva is supposed to have attained the state of Mahayoga. A yogi can unite with Shiva after purifying his body with the help of Pranayama etc. </p>' ,
+notes: []
+},{
+subTitle: 'OBSTACLES AND DIVINE POWERS IN THE PATH OF YOGA ',
+content: '<p>There are possibilities of numerous obstacles being faced by a man who practices yoga like laziness, disease, carelessness, lack of concentration, confusion and sorrow etc. While practicing yoga, one must try to keep himself free from such demerits. </p>' +
+'<p>After becoming liberated from these flaws a man can easily attain six types of accomplishment - talent (Pratibha), super power of hearing (Shravana), excellent conversational power and power of speech (Vrata), Divine sight (Darshan), Divine power of taste (Aswad), Divine power of touch (Vedana). The capability of seeing things situated at distant places is called \'Pratibha\'. The ability to listen without making any effort is called \'Shravana\'. The ability to decipher the meaning of animal\'s language is called \'Vrata\'. Being able to see divine things without making any effort is called \'Darshan\'. The power, which enables a man to know about the taste of a thing without actually tasting it, is called \'Aswad\'. \'Vedana\' means the knowledge of all types of touch.</p>' +
+'<p>A devotee can attain all types of accomplishment merely by having devotion towards lord Shiva and by meditating on him. In the beginning, a yogi should try to meditate on the form of Shiva (Saguna), but later on the switch over to Shiva\'s formless (nirguna) quality. Meditating on nirguna form of Shiva is not easy. It can be mastered only by constant and steady practice. When mastered it bestows all kinds of accomplishment. Meditation combined with Pranayama gives four types of accomplishments peace (Shanti), tranquility (Prashanti), luster (Dipti) and boon (Prasad). A devotee can have a darshan of lord Shiva if he does meditation with non attachment</p>' ,
+notes: []
+}, {
+subTitle: 'SANATKUMAR RECEIVES SHIVA-GYAN FROM NANDI',
+content: '<p>The sages thanked Vayudeva for giving the knowledge of Jnana Yoga. The next day, they took bath in river Saraswati and performed their worship and rituals. After that they proceeded towards Kashi. At Kashi after taking their bath in river Ganga they had a darshan of lord Vishwanath. They saw very radiant effulgence appearing in the sky, in which they saw thousand sages who had accomplished Pashupat Vrata getting merged. The radiant effulgence vanished in no time.  </p>' +
+'<p>The sages were very curious to know about that radiant effulgence, so they went to lord Brahma and asked him about it. Lord Brahma told them that the radiant effulgence had actually instructed them to accomplish Pashupat Vrata and attain Salvation. Lord Brahma then instructed them to go to the Sumeru mountain where Nandi was supposed to come and teach the methods of doing Pashupat Vrata to Sanatkumar.</p>' +
+'<p>Once Sanatkumar became very arrogant of his asceticism. One day lord Shiva arrived at his place but Sanatkumar did not get up to greet him. At this Nandi became furious and cursed him to become a camel. Sanatkumar got transformed into a camel. Lord Brahma worshipped Shiva to liberate his son- Sanatkumar from the curse. Lord Shiva became pleased and blessed Sanatkumar, as the result of which he regained his human body.</p>' +
+'<p>After regaining his human body Sanatkumar commenced a tremendous penance. Lord Shiva instructed Nandi to go to Sumeru mountain and preach Sanatkumar.  </p>' +
+'<p>The sages reached Sumeru mountain as per the instruction of lord Brahma. They saw many sages meditating at the bank of a pond. They also saw Sanatkumar engrossed in his meditation at a little distance from the other meditating sages.  </p>' +
+'<p>The sages went near Sanatkumar and told him about their penances done for ten thousand years. They also revealed to him about the purpose of their arrival. Right then, Nandi arrived there, accompanied by his ganas Sanatkumar and all the sages welcomed him. Sanatkumar introduced all the sages to Nandi and told him about their tremendous penance done for ten thousand years. Nandi became very pleased and blessed them. He then preached Sanatkumar and all the sages on the Shiva tattva.</p>' +
+'<p>Sanatkumar passed on that knowledge to Sage Vyasa, who again passed it on to Suta. Suta then revealed this knowledge to those sages who had assembled at Prayag. After receiving that knowledge from Suta all the sages went to Prayaga tirtha and took their bath. As they saw the signs of approaching Kali Yuga, they went to Kashi and performed the Pashupat Vrata. All of them attained liberation with the blessings of Lord Vishnu.</p>' +
+'<p>Listening to Shiva Purana for one time liberates a man from all of his sins. Listening to it for two times helps him to develop devotion in lord Shiva. Listening to Shiva Purana for three times, helps a man to attain to the abode of Shiva</p>' ,
+notes: []
+}
+]
+}
+];
