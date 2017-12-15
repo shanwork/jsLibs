@@ -25,9 +25,92 @@ var defaultContentStyle =   { 'border':'3px outset orange',
              'opacity':'0.5',
               'background-color':'lightgoldenrodyellow'};
 var chapterData = [
-    
+{   /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
 
-    {
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger"> Indra said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: 'RUDRASAMHITA, ORIGIN,1 THE INQUIRY OF THE SAGES',
+title: 'Chapter One: THE INQUIRY OF THE SAGES',
+headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand0.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p><ol>' +
+'<li>I bow to Siva the consort of Gauri, the sole cause of the origin, sustenance, dissolution of the universe, who has understood the reality, who is of endless renown, who is the support of Maya but is free from its influence, whose form is incomprehensible, who is unsullied and who is perfect knowledge itself. </li>' +
+'<li>I salute Siva who is prior to Prakrti, who is calm and tranquil, the only excellent Purusa, who has created this visible universe and who stays both within and without like ether. </li>' +
+'<li>I salute Siva, of unmanifest form, who having extended himself by way of creation stands in the middle of it while the worlds move around him like iron filings round the magnet. </li>' +
+'<em><em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span></span>'+
+'<li> I describe this after bowing to Sambhu, the father of the universe, Siva the mother of the universe and Gal).adhis a their son. </li>' +
+'<li>Once Saunaka and other sages living in Naimisa forest asked Suta with full devotion. </li>' +
+'<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<li> The good and auspicious story of Vidyesvarasamhita has been heard by us. This first delightful compendium, "On the achievable and the means of achievement" is lovingly disposed to the devotees. </li>' +
+'<li>Suta, 0 blessed Suta, live long. Be happy. You will please· narrate· to us, 0 dear, the great anecdotes of Siva. </li>' +
+'<li>0 ·sinless one, drinking the nectar of knowledge poured out from your lotus·mouth we are never satiated. Hence we would like to inquire of you something more. </li>' +
+'<li>0 omniscient one, by the favour of Vyasa you have realised contentment. There is nothing not known to you whether of the past, present or future. </li>' +
+'<li>In return for your excellent devotion you have gained the great favour of your preceptor Vyasa. You have understood everything. You have made your life highly noble and purposeful.</li>' +
+'<li>Now, 0 wise one, please explain the excellent form of Siva. Please narrate the divine anecdote of Siva and Parvati without omitting anything. </li>' +
+'<li>Mahesvara is Aguna (free from attributes). How does He take up the Saguna from in the world ? We do not know the true nature of Siva, despite our great deliberation. </li>' +
+'<li>Before the origin of creation how does lord Siva maintain His form ? In the midst of creation how does He maintain His sport ? </li>' +
+'<li>How does lord Mahesvara stand at the moment of dissolution ? How is Sankara who blesses the world with happiness propitiated ? </li>' +
+'<li>What benefit does the great Lord confer when He is pleased with His own devotees and others ? Please tell us.</li>' +
+'<li>We have heard that the lord becomes pleased instantaneously. The merciful lord is unable to bear the stress and strain that His devotee undergoes. </li>' +
+'<li>The three deities Brahma, Vishnu and Mahesha are born of Siva. Among them Mahesa when he has all the substrata of elements is Siva himself as distinct from Mahesa<noteref1_note1footer>(1) - (175)</note>. </li>' +
+'<li>Please explain His manifestation and tell us about His various activities. Please tell us about the birth of U rna and her marriage too, 0 lord. </li>' +
+'<li>Their domestic life and their divine sports shall also be narrated to us. 0 sinless one, please tell us all about it and anything else that shall be told. </li>' +
+'<em><em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span></span>'+
+'<li>Being thus requested Suta was delighted. Remembering the lotus-like feet of Siva he replied to the sages. </li>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li>0 Iordly sages, what you have asked for is very nice. You are all blessed inasmuch as your minds are drawn towards Sadasiva\'s anecdotes.</li>' +
+'<li>Like the holy waters of the Ganga the inquiry into the anecdotes of Sadasiva sanctifies the three persons : the narrator, the inquirer and the hearer. </li>' +
+'<li>0 brahmins, except for the slayer of animals, who can be averse to hear the narrative of the attributes of Siva, that highly delights three types of people always? </li>' +
+'<li>When it is being recited by persons who have no attachment or desire, it is verily an antidote for all ailments of worldly existence, for it is highly delightful to the ear and the heart while at the same time it bestows all objects. </li>' +
+'<li>0 brahmins, I shall explain Siva\'s sports in the light of your enquiry as far as my intelligence enables me to do so. Please listen respectfully. </li>' +
+'<li>Induced by lord Visnu, a manifestation of Siva, Narada had also put the same question to his father Brahma as you are asking me now. </li>' +
+'<li>On hearing the words of his son, Brahma, a devotee of Siva, was delighted in his mind. Out of love he sang the glory of Siva heightening the pleasure of the excellent sage { Narada ). </li>' +
+'<em><em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span></span>'+
+'<li> The learned brahmins, on hearing the words of Siita became eager to know more of that conversation and so asked him. </li>' +
+'<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<li> 0 Suta, 0 blessed Suta, of great intellect and devotees of Siva, on hearing your our minds have become very eager</li>' +
+'<li>Dear one, please tell us lovingly when this highly pleasant conversation between Brahma and Narada took place, wherein Siva\'s glory was sung and the divine sport of Lord Siva, destructive of worldly existence, had been discussed. What were the questions and how were they answered, please explain. </li>' +
+'<li>On hearing these words of the sages of noble mind Suta was pleased much and narrated everything pertaining to the conversation referred to. </li><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['175 According to this statement Brahma, Visnu, Mahesa are the three forms of Siva. In the Kurma Purana,  there occurs a slightly modified version : Agni (Tamas), Brahrna (Rajas) and Visnu (Sattva) are the three forms of Rudra while another form, full and attributeless is Siva himself. '
+]
+}
+]
+}
+,
+{
     /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -53,8 +136,8 @@ var chapterData = [
 '<li>
 */
     buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: 'RUDRA-SAMHITA, SRISHTI-KHAND,VICTORY OF NARADA OVER \'KAMA\'',
-        title: 'SRISHTI-KHAND,VICTORY OF NARADA OVER \'KAMA\' ',
+    buttonText: '2 ',
+        title: 'Chapter Two ,Indra sends Kamadeva to disturb the penance of Narada',
         headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
         contentStyle: { 'border':'3px outset blue',
              'background-image': 'url("images/rudraSamhita/shrishti_khand1.jpg")',
@@ -67,19 +150,43 @@ var chapterData = [
         subsections: [
            { 
                 subTitle: '',
-                content: '<p>Once upon a time a Narada was performing a penance in the cave of Himalaya mountain. Indra becoming fearful sent Kamadev to obstruct his penance. But Kamadeva was unsuccessful in his attempt as the place where Narada was doing penance was the same place where Lord Shiva did penance. After the completion of his penance, Narada became arrogant that he had defeated Kamadeva. He went to Kailash mountain and narrated about his feat to Lord Shiva. Narada was naïve not to realize the fact hat is happened only because of the divine power of Shiva. </p>' +
-                          '<p>Lord Shiva listened to his arrogant statement. He advised Narada not to reveal this secret to anybody. But Narada went to Brahmaloka and boasted about his feet to Lord Brahma.</p>' +
-           '<p>Lord Brahma listened to his boisterous statements and advised him not to reveal this to anybody.</p>' +
-'<p>But Narada was not satisfied. He wanted to give the news of his achievement to Lord Vishnu. So, he went to Lord Vishnu\'s abode and boasted about his feat of defeating Kamdeva.</p>' +
-'<p>Lord Vishnu with a desire to subdue his inflated ego, manifested his illusionary power with the blessings of Lord Shiva.</p>' +
-'<p>While Narada was returning from Vaikuntha Loka, he saw a beautiful city. This city was ruled by a king named Sheelnidhi. The king had a daughter and her Swayamvar was being organised. Numerous kings had arrived to take part in that Swayamvar. Narada, curiously entered the place were Swayamvar was being held. The king requested Narada to study the lines of the palm of the princess. Narada was infatuated by the princess‘ beauty. He returned back to Lord Vishnu and expressed his desire of marrying that princess. He also requested Vishnu to make him as handsome as himself (Vishnu).</p>' +
-'<p>Lord Vishnu made Narada\'s whole body very beautiful except his face. Which he made like a monkey. Narada being unaware of this happily went back to Swayamvar site. Narada sat among the kings - his face resembling like a monkey Lord Vishnu too was present there. The princess saw Narada, whose face was looking like a monkey. She was amused. Ultimately she put the garland around the neck of Lord Vishnu and went to Vaikuntha Loka alongwith him.  </p>' +
-'<p>Some of the Shiva\'s gana too were present there in the guise of a brahmin. Their names were Marud ganas. When they saw Narada to see the reflection of his face in the water.  </p>' +
-'<p>When Narada saw his face in the water, he saw that he was looking like a monkey. He became very furious and cursed the Marudganas to be the born as demons, even though being brahmins by birth.</p>' +
-'<p>Furious Narada then went to Lord Vishnu and cursed him- "You too would suffer due to separation from your wife, during your incarnation of Rama and the monkey would come to your help.</p>' +
-'<p>Lord Vishnu accepted Narada\'s curse without any hesitation. He then removed the illusionary powers by which Naradas\' mind was influenced. Now Narada regretted his actions. Lord Vishnu told Narada that everything happened because of Shiva\'s divine illusions.</p>' +
-'<p>"You did not pay heed to his advice and hence Shiva by his illusions, has taught you a lesson. Shiva is beyond the reach of the three basic qualities -Satva, Rajas and Tamas. Therefore you must worship and contemplate on the name of Shiva. All of your sins will be destroyed. </p>' +
-'<p>After preaching Narada, Lord Vishnu vanished from his sight. Narada then descended down to earth and while having darshan of numerous Shivalingas, he saw two of the Marudganas, whom he had cursed. He told both of them that they would take birth from a giantess\'s womb, but their father would be sages. He also told them that they would become very famous due to their devotion, Narada went to lord Brahma and requested him to tell about the divinity of Shiva.</p><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+                content: '<p><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+            '<ol><li>0 brahmins, once Narada the excellent sage, son of Brahma was inclined to perform penance controlling himself very much. </li>' +
+           '<li>There is a very beautiful cave in the Himalaya mountain near which the celestial river flows rapidly. </li>' +
+            '<li>There was a great hermitage of divine splendour which was resplendent in many ways. Narada endowed with divine vision went there to perform the penance. </li>' +
+'<li>On seeing the hermitage (very convenient for penance) the leading sage performed the penance for a long time, seated :firmly and steadily, keeping silent, controlling the breath and retaining the purity of the intellect. </li>' +
+'<li>0 brahmins, the sage performed meditation and con. templation wherein the realisation "! am Brahman" is generated leading to the direct perception of Brahman. </li>' +
+'<li>When the great sage Narada was thus performing penance, the mind of Indra became excessively agitated and he trembled. 7. Thinking "This sage is yearning for my kingdom" Indra wanted to spoil it. </li>' +
+'<li>Indra, the leader of Devas, remembered Kamadeva (Cupid) who arrived there immediately, accompanied. by his. Queen (Rati) and spring (his friend). </li>' +
+'<li>The king of Devas, endowed with crooked intelligence to achieve his interests, saw that Kama had arrived and addressed him thus. </li></li>' +
+'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger"> Indra said:  </span> ' +
+'<li>0 friend, of great prowess, always doing what is beneficent to me, please hear lovingly what I am going to say. Render me your help. </li>' +
+'<li>Strongly supported by you I have destroyed the pride of many ascetics 0 friend, the stability of my kingdom is always due to your blessing. </li>' +
+'<li>Narada, the sage, is performing a penance in the Himalaya mountain directing his mind towards the Lord of the universe with great mental control and firm resolve. </li>' +
+'<li>I now fear lest he should beg of Brahma my kingdom. You must go there now itself and hinder his penance. </li>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li>Being thus commanded by Indra, Kamadeva, accompanied by his wife (Rati) and Madhu, his friend, went haughtily to that place. He then prepared his own means of attack. </li>' +
+'<li>He employed all his arts there immediately. Spring too haughtily spread his prowess of diverse nature. </li>' +
+'<li>0 great sages, the mind of the sage (Narada) did not waver. Only the arrogance of these fellows suffered a setback and that too by the favour of Mahesa. </li>' +
+'<li>Please listen to the reason thereof, 0 Sa unaka and other sages. ! By the controlling power of the lord, Kama could not exercise any influence. </li>' +
+'<li>It was in this very place that Siva, the indefatigable enemy of Kama, had formerly performed a great penance. It was here that Kama was reduced to ashes~Kama who used to spoil the penances of sages, </li>' +
+'<li>Rati wanted the resuscitation of Kama and requeested the Devas. They appealed to lord Siva, the benefactor.· of the whole world who said thus : ' +
+'<li>) Gods, after some time Kama will come to life again. But none of his tricks will succeed here. </li>' +
+'<li>Whatever space all round this spot is visible to persons here, will be out of the influence of Kama for ever, 0 Devas. </li>' +
+'<li>It was due to this statement of Siva that Kama\'s viles did not prevail upon Narada. From Siva\'s abode he went to Indra. </li>' +
+'<li>Kama then narrated everything about the sage and commended his power. At Indra\'s bidding Kama returned to his own place. </li>' +
+'<li>Deluded by Siva\'s Maya (power of illusion) Indra was unaware of the true facts and was greatly surprised and he admired Narada. </li>' +
+'<li>Siva\'s Maya is incomprehensible to all. The whole universe is deluded by it. Only the true devotees of dedicated souls escape. </li>' +
+'<li>Backed by Siva\'s blessings Narada stayed in the hermitage for a long time. Then realising that his penance was complete, the sage concluded the same. </li>' +
+'<li>Thinking that he had conquered Kama he was puffed with pride. He was devoid of true knowledge and deluded by Siva\'s Maya. </li>' +
+'<li>0 great sages, blessed and very blessed is Siva\'s Maya. Even Visnu, Brahma and others do not know the the turn it takes. </li>' +
+'<li>In that state of delusion and puffed up arrogance, the great sage Narada went to Kailasa to expatiate on his own achievement. </li>' +
+'<li>Bowing down to Rudra, the Sage arrogantly spoke of his exploits with the conviction that he was equal to the noble-souled lord, the conqueror of Kama, i.e., Siva. </li>' +
+'<li>On hearing it, Siva who is favourably disposed to His devotees, advised Narada who was ignorant of the real cause, whose mind had strayed and who had been deluded by His (Siva\'s) Maya. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Rudra said:  </span>' +
+'<li>"Dear Narada~ ·o wise sage, you are blessed. But please listen to me. Never speak like this anywhere else, especially in the presence of Visnu.  </li>' +
+'<li>Even when you are asked you should not mention your achievements as you have done just now. These should be guarded as close secrets and should never be expressed.  </li>' +
+'<li>I bid you specifically like this because you are a great favourite of mine. Since you are a devotee of Vi~I).U you are my follower as all his devotees are." </li><a href=\'#top\'><strong>Back To Top</strong></a></p>',
                notes: []
             }
         ]
