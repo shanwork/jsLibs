@@ -186,7 +186,30 @@ notes: ['175 According to this statement Brahma, Visnu, Mahesa are the three for
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Rudra said:  </span>' +
 '<li>"Dear Narada~ ·o wise sage, you are blessed. But please listen to me. Never speak like this anywhere else, especially in the presence of Visnu.  </li>' +
 '<li>Even when you are asked you should not mention your achievements as you have done just now. These should be guarded as close secrets and should never be expressed.  </li>' +
-'<li>I bid you specifically like this because you are a great favourite of mine. Since you are a devotee of Vi~I).U you are my follower as all his devotees are." </li><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+'<li>I bid you specifically like this because you are a great favourite of mine. Since you are a devotee of Visnu you are my follower as all his devotees are." </li>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span><br/> ' +
+'<li>Lord Rudra, the cause of creation, advised him in many ways like this. But Narada who was still under the influence of Siva\'s Maya did not take up this wholesome advice. </li>' +
+'<li>The future course of actions shall be considered inevitable by sensible persons. The will of Siva cannot be warded off by any one. </li>' +
+'<li>Then the great sage went to Brahma\'s world. After saluting Brahma he told him about his conquest of Kama as a result of his penance. </li>' +
+'<li>On hearing that, Brahma remembered the lotuslike feet of Siva and knew thereby the true cause. He then forbade his son. </li>' +
+'<li>Although foremost among the wise, Narada did not take up the advice of Brahma as he had been deluded by Siva\'s Maya. The sprout of arrogance had been so fixed in his mind. </li>' +
+'<li>Everything will take place in the world in the manner Siva wills. It is true that the entire universe is dependent on His will. </li>' +
+'<li>Narada hastened to Vi~IJ.uloka in the same state of senseless arrogance, to boast of his exploits in the presence of Visnu. 42. When Visnu saw Narada approaching, he could guess the purpose of his visit. He stood up and received him cordially. He walked forward and embraced him lovingly. </li>' +
+'<li>He· made Narada· sit ·comfortably. After remembering the lotus-like feet of Siva, He frankly uttered these words intended to quell the arrogance of Narada. </li>' +
+'<li><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span> "0 dear Narada, foremost among sages, you are blessed. I am sanctified by your visit. May I know where you come from and why you have come?" </li>'+
+'<li>On hearing these words of Visnu, the sage Narada felt elated. He narrated his story in the same haughty manner. </li>' +
+'<li>On hearing the arrogant words of the sage, Visnu remembered the lotus-like feet of Siva again and understood the true cause. </li>' +
+'<li>Visnu, a leading devotee of Siva, with his soul dedicated to Siva, bowed his head and eulogised Paramesvara, the lord of the holy mountain, with his palms joined in reverence. </li>'+
+'<li><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span> "0 Lord, 0 Lord Mahadeva, Paramesvara, ·be 0 Siva thou art blessed. Thy Maya enchants everyone." </li>'+
+'<li>Having thus chanted the prayer to Siva, the supreme Atman, he closed his eyes and meditated on His lotus-like feet and stopped. </li>' +
+'<li>On coming to know what Siva was about to do, through Siva\'s bidding, he addressed the great sage pleasantly. </li>'+
+'<li><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<li>0 foremost among sages, you are blessed. You are the storehouse of austerities and large-hearted. 0 sage, lust and delusion rise only in the heart of that man who is devoid of the three types· of devotion.</li>'+
+'<li>Base passions that bring in their wake all sorts of miseries crop up in him instantly. But you are vowed to perpetual celibacy. You are ever endowed with knowledge and devoted to non-attachment. </li>'+
+'<li>Unaffected by passion and highly intelligent by nature how can you be swayed by lust?"<br/>&nbsp;&nbsp; On hearing words like these, the great sage laughed within himself but spoke to Visnu humbly. </li>'+
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<li>"0 lord, what can Kama do to me if you remain favourable to me ?" <br/>&nbsp;&nbsp;&nbsp;Saying so, the sage who had paid a casual visit bowed to Visnu and left. </li>'+
+'<a href=\'#top\'><strong>Back To Top</strong></a></p>',
                notes: []
             }
         ]
@@ -210,14 +233,15 @@ notes: ['175 According to this statement Brahma, Visnu, Mahesa are the three for
 '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
 <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
 '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
 
 ''<noteref2_note1footer>(2) - (17)</note>-->'  +
 </li>' +
 '<li>
 */
     buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: '2-3',
-title: 'SRISHTI-KHAND,BRAHMA PREACHES NARADA ON ORIGIN OF VISHNU & BRAHMA,SIVA ENDS BRAHMA – VISHNU  DISPUTE AND SHABDA BRAHMA  ',
+    buttonText: '3',
+title: 'SRISHTI-KHAND,NARADA ATTENDS THE SWAYAMVARA OF A VIRGIN AND IS DISCOMFITTED',
 headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/shrishti_khand2.jpg")',
@@ -229,30 +253,76 @@ contentStyle: { 'border':'3px outset blue',
 'background-color':'skyblue'} ,
 subsections: [
 {
-subTitle: 'BRAHMA PREACHES NARADA ON ORIGIN OF VISHNU',
-content: '<p>On Narada\'s request Brahma said-</p>' +
-'<p>During the period of MahaPralaya (Final annihilation) nothing exist, except Shiva. The power which Shiva manifested from his own self came to be known as Ambika. This Ambika is understood to be the cause of the whole world as well as the Nature. Lord Shiva then created a Shivaloka, which is known as Kashi. It is the abode of Shiva and Parvati. A man who makes a pilgrimages of Kashi attains salvation.  </p>' +
-'<p>Lord Shiva, felt the need of somebody, who could look after the creation in his absence, as he wanted to retire along with Ambika at Kashi. The unified energy of Shiva and Ambika, resulted into a radiant physical form of a child. The child asked Shiva about his name and purpose of his being. </p>' +
-'<p>Lord Shiva named the child as Vishnu and advised him to do a penance which would help him to attain all kinds of accomplishment. He then offered him the knowledge of Vedas, through his breath. For this reason it has been said-</p>' +
-        '<p>"YASYA NISHVASITAM VEDAH " Meaning: Whose exhaled air is Veda. </p>' +
-'<p>Vishnu followed the instruction of Shiva and did a tremendous penance for twelve years, but still he was not successful in having a darshan of lord Shiva for the second time. He became worried. He heard a heavenly voice, instructing him to do further penance</p>' +
-'<p>Vishnu then recommenced his penance. It continued for many days. By the blessings of Shiva, numerous fountain of streams errupted from his body, which spread in all directions in the form of Brahma. Vishnu was very pleased to see that stream. He went to sleep in that streams due to which he also came to be known as \'Narayan\'. One who has his abode in the water. After that, all the five elements manifested from his self. The three qualities- Salva, Rajos and Tamas as well as the ego manifested from his body. Similarly, five Tanmantras (Subtle form of matter), Panchabhuta (Sky water, air, fire and earth) and ultimately five sense organs and five organs of action also manifested from. Altogether twenty-four types of element manifested from the body of Sri Vishnu. </p>' +
-'<p>Brahma told Narada- </p>' +
-'<p>"While Vishnu was sleeping in the water, a lotus flower manifested from the navel of Vishnu according to the wish of Shiva. On that lotus was seated with four heads. I did not see anything except that lotus flower. I had a desire to know about my identity. So I entered into the hollow tubular stalk of that lotus flower, but I was not able to find the source. I returned back to the same place. Suddenly I heard a voice which instructed me to do penance. I did a tremendous penance for twelve years with a desire to know about my creator. Being pleased with me, lord Vishnu manifested before me with in his Chaturbhuj form, but I could not identify him, being influenced by the illusionary power of Shiva. I quarreled with him." </p>' ,
-notes: []
-},
-{
-subTitle: 'SIVA ENDS BRAHMA – VISHNU  DISPUTE AND SHABDA BRAHMA ',
-content: '<p>"I asked him as to who he was. Vishnu replied that he was the fulfiller of all of his desires. But I replied to him that I only was the creator, nurturer and the supreme soul of this world. Vishnu became angry and said that undoubtedly I (Brahma) was the creator of this world, but he (Vishnu) was the one, who had created me (Brahma) and the whole world. Vishnu also ordered me to take his refuge and promised to protect me. But being an ignorant I did not believe him. A fierce battle was fought between both of us. A Shivalinga manifested between us to end the battle. We requested that Shivalinga to show its real identity. That Shivalinga had destroyed our pride."</p>' +
-'<p>We heard a sound OM. We became curious to know the origin of that sound. Vishnu saw a letter \'A\' towards the south of that Shivalinga. He also saw the letters \'U\' and \'M\' center towards the north of the Shivalinga and in its center respectively. He also saw the mantra \'OM\', which was dazzling like a Sun. There was no beginning and end to this mantra OM. As we were making efforts to know about its origin, suddenly Shiva appeared in the form of a sage. He gave us the knowledge regarding OM. He also revealed to us that I originated from the letter \'A\', Vishnu originated from letter \'U\' and Shiva himself originated from letter \'M\'. The letter A signifies creation, U Signifies nurturement and M signifies salvation. </p>' +
-'<p>Lord Shiva, felt the need of somebody, who could look after the creation in his absence, as he wanted to retire along with Ambika at Kashi. The unified energy of Shiva and Ambika, resulted into a radiant physical form of a child. The child asked Shiva about his name and purpose of his being. </p>' +
-'<p>The three letters A, V and M also symbolizes the basic causes of creation. A or brahma also symbolizes the semen, U or Vishnu symbolizes the Vagina and the sound of OM is Maheshwar- the combined sound of A, U and M. All the three united from which manifested a golden egg. This golden egg remained submerged in the water for one thousand years. The almighty then cut that egg into two halves, from which appeared heaven and Earth. We also saw the divine beauty of Maheshwar." </p>' +
-'<p>Then we saw all the vowels and consonants emanating from the physique of Mahadeva. Vishnu saw the forty eight letters within OMKAR, which in fact were the two following mantras- "TAT PURUSHAY VIDDYAMAHE MAHADEVAY DHIMAHI, TANNO RUDRAH PRACHODAYAT." And "TAT SAVITUR VARENYAM BHARGO DEVASYA DHIMAHI DHIYO YONAH PRACHODAYAT.</p>' +
-'<p>"After that we also received the Mahamrityunjay mantras like "OM JOOM SAH", "HRAUM HRIM JOOM SAH" and "TRAYAMBAKAM YAJAMAHE". After that we received the five lettered mantra "OM NAMAH SHIVAY", the chintamani mantra \'KSHAMYAUM\', the Dakshainamurti mantra -  "OM NAMO BHAGAVATE DAKSHAINAMURTAYE MAHYAM MEGHAM PRAYACHCHHA SWAHA. At last we received the great mantra TATVAMASI. Vishnu was so enchanted by this mantra that he started chanting this mantra. We then prayed to Shiva-the creator, the nurturer and the destroyer.  </p>' +
-'<p>"Shiva became very pleased with both of us. He preached us the contents of Veda. Shiva told Vishnu about the methods by which his (Shiva\'s) worship could be done. He revealed to us that Vishnu actually had manifested from the left portion of his Shiva\'s body and myself from the right portion of his body. He also blessed us that he would manifest his incarnation of Rudra from our body and also that the purpose of this incarnation would be to do annihilation. Lord Shiva revealed to us that his consort Uma, was in fact mother Nature and her power in the incarnation of Saraswati would be my consort. Lakshmi, who would also manifest from the nature would be the consort of Vishnu." </p>' +
-'<p>Brahma told Narada- </p>' +
-'<p>"Lord Shiva informed us that my day consists of four thousand eras and similarly my night too consists of four thousand eras. Since a month consists of thirty days and a year consists of twelve months. In this way my age was fixed to be of one hundred years. One day of Vishnu is equivalent to one year of Brahma. Vishnu\'s age too was fixed to be of one hundred years. The day of Rudra is equivalent to one year of Vishnu and his age also was fixed to be of one hundred years. " </p>' ,
-notes: []
+subTitle: '',
+content: '<p><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<ol><li>Suta, 0 blessed Suta, the disciple of Vyasa, our obeisance to thee. It is due to thy grace that this wonderful story has been narrated to us, 0 dear one. Now tell us in detail what Visnu did after Narada had left the place? And where did Narada go ?</li>' +
+'<br/><em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>' +
+'<li>On hearing these words of the sages, Suta the wise and excellent scholar of Puranas remembered Siva, the cause of different kinds of creation and replied. </li>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li> When Narada went away casually Visnu, skilful in ·wielding his Maya, spread his Maya, as Siva had willed. </li>' +
+'<li>On the path taken by the sage He created a big wonderful city. It was a hundred Yojanas in extent and surprisingly beautiful. </li>' +
+'<li>It was far more beautiful than heaven. Many articles were displayed there. Men and women of all the four castes stayed there </li>' +
+'<li>The wealthy and prosperous king of that city named Silanidhi was preparing for the gorgeous celebration of the voluntary wooing {Svayamvara)<noteref1_note1footer>(1) - (178)</note> of his daughter. </li>' +
+'<li>Brilliant princes coming from all the four quarters eager to court the princess had thronged there dressed in diverse ways. </li>' +
+'<li>On seeing such a splendid city Narada<noteref2_note1footer>(2) - (179)</note> was enchanted. With his love kindled, he eagerly went to the palace threshold. </li>' +
+'<li>When the sage reached the palace the king Silanidhi adored him, having offered him a seat on the splendid throne studded with precious gems. </li>' +
+'<li>He called his daughter Srimati and asked her to kneel down at the feet of Narada. </li>' +
+'<li>Being struck with wonder on seeing the girl, Narada said - "O king, who , is this lovely girl comparable to celestial damsels ?" </li>' +
+'<li>On hearing the words of the sage, the king replied with his palms joined in reverence-"O sage, this IS my daughter Srimati. </li>' +
+'<li>She has attained the marriageable age. She is in search of a qualified bridegroom. She has all charms and accomplishments and her Svayarilvara is imminent. </li>' +
+'<li>0 sage, kindly foretell her destiny, everything that is in her horoscope. Please tell me what sort of a husband she will get." </li>' +
+'<li>By the time these words were spoken Narada had become an agitated victim of love and desired her. Addressing the king, he said thus :</li>' +
+'<li>"0 great king, this daughter of yours is endowed with all characteristics : She 1s highly fortunate and blessed like Laksmi. She is an abode of all qualities. </li>' +
+'<li>Her ·future husband will certainly be a splendid God, lord of all, unvanquished, heroic, on a par with Siva, and Vying with Kamadeva". </li>' +
+'<li>Having said this, the casual visitor Narada took leave of the king. Deluded by Siva\'s Maya he was extremely oppressed by love. </li>' +
+'<li>The sage began to muse-"How shall I get her ? How shall she woo me amongst the princes in the Svayarilvara hall. </li>' +
+'<li>A comely appearance appeals to all women in every respect. Only by seeing a charming personality will she become enamoured. </li>' +
+'<li>Thinking thus, Narada who was agitated by love, went to Visnuloka somehow to acquire Visnu\'s form  to captivate her.</li>' +
+'<li>He saluted Vig1u and said-"I shall tell you secretly my affairs entirely." </li>' +
+'<li>When Visnu who did everything according to Siva\'s wish agreed and asked him to narrate, the sage said:</li>' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+
+'<li>The king Silanidhi is one of your devotees. He is a righteous king. His daughter Srimati is a maiden of very fair complexion and wide eyes. </li>' +
+'<li>She has the lustre of Jaganmohini (enchantress of the universe-a manifestation of Visnu) and is the most beautiful woman in all the three worlds. 0 Visnu, I wish to marry her without delay. </li>' +
+'<li>The king at the request of the princess has arranged for a Svayamvara. Thousands of Princes have come from all the four quarters. </li>' +
+'<li>If you can favour me with a splendid form I shall be able to gain her certainly. She will not put the wedding garland round my neck without your splendid form. </li>' +
+'<li>0 Lord ! give me your form. I am your servant and favourite. Give me your beautiful form so that the princess Srimati may choose me. </li>' +
+'<li>When the great sage Narada was thus performing penance, the mind of Indra became excessively agitated and he trembled. 7. Thinking "This sage is yearning for my kingdom" Indra wanted to spoil it. </li>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li>On hearing these words of the sage Visnu, the slayer of Madhu demon laughed and sympathetically replied, bearing in mind the overwhelming power of Siva. </li>' +
+'<li><br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'"0 sage, you can go to the place where you wish. I shall do what is beneficent to you in the manner of a physician doing what is good to the patient, since you are a great favourite of mine."  </li>' +
+'<li>After saying . thus, Visnu blessed the sage with a form like his own and the face of Hari (i.e. the monkey since the word Hari means a monkey also) . The lord then vanished. </li>' +
+'<li>The sage thus consoled became highly delighted on receiving Hari\'s form. He was contented but did not know the scheme behind the scene. </li>' +
+'<li>The great sage Narada hastened to the place where Svayamvara was to be held and where the princes had assembled. </li>' +
+'<li>0 great brahmins, the Svayamvara hall splendidly dacorated and graced by so many princes shone like another council-chamber of lndra. </li>' +
+'<li>Narada too went in and sat down in the hall of his king. With his mind surging with love he began to think like this. </li>' +
+'<li>"She wil1 choose only me since I am in Visnu\'s form". The poor sage did not know the ugly character of his face. </li>' +
+'<li>The men assembled there saw the sage only in his old form. 0 brahmins, the princes and others did not know the difference created therein. </li>' +
+'<li>Two of the attendants of Rudra knew this difference. They had come there in the guise of brahmins in order to protect him. </li>' +
+'<li>Considering the sage a fool, the two attendants sat near the sage and began to mock at him seemingly conversing between themselves .. </li>' +
+'<li>"See Narada\'s features as splendid as Visnu\'s, but the face as that of a monkey deformed and awful. </li>' +
+'<li> Being deluded by Kama he wishes to marry the Princess". With these and other veiled remarks they mocked at him. </li>' +
+'<li>The sage overwhelmed by love did not heed their whisper. He went on gazing at the princess Srimati and was  eager to get her. </li>' +
+'<li>In the meantime, the princess had come out of the harem surrounded by ladies in waiting. The comely maiden came to the hall. </li>' +
+'<li>With the beautiful golden garland in her hands,· the princess of auspicious features, shone in the middle of the Svayarhvara hall like Goddess Laksmi. </li>' +
+'<li>The princess in search of a suitable bridegroom went round the hall with the garland in her hands. </li>' +
+'<li>On seeing the sage with the face of a monkey and the body of Visnu she was infuriated. Averting her eyes she went elsewhere being distressed in her mind. </li>' +
+'<li>Failing to find a bridegroom of her choice she was afraid. She remained in the middle of the hall and did not put the garland round the neck of any one. </li>' +
+'<li>Meanwhile Visnu came there in the guise of a king. He was not seen by anyone. Only the princess saw him.</li>' +
+'<li>Then on seeing Visnu, her lotus-like face beamed. · The comely lady put the garland round his neck.</li>' +
+'<li>Lord Visnu in the guise of a king took her with him and vanished from there immediately back to his own abode. </li>' +
+'<li>The assembled princes lost their hope of getting Srimati. The sage oppressed by love became excessively agitated.</li>' +
+'<li>Immediately the two attendants of Rudra, of perfect wisdom, disguised as brahmins spoke to Narada. <br/>' +
+'"0 sage Narada, being deluded by love, you are desirous of getting her. Your effort is in vain. See, your face is as despicable as that of a monkey." </li>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li>On hearing their words Narada was surprised •. Deluded by Siva\'s maya he looked into a mirror. </li>' +
+'<li>On seeing his face like that of a monkey he became infuriated. The deluded sage cursed the two attendants~ </li>' +
+'<li>Since you had mocked at me, you will become demons born of brahminical semen and of that form. </li>' +
+'<li>On hearing the curse, the two attendants of perfect wisdom remained silent because they knew that the sage was deluded. 0 brahmins, they returned to their abode and sitting there quietly went on eulogising Siva. They considered everything as Siva\'s will.</li>'+
+'<a href=\'#top\'><strong>Back To Top</strong></a></p>' ,
+notes: ['178. This was an ancient custom amongst the kings of Ksatriya caste to hold a public assembly of suitors for the selection of a husband for their daughters. ',
+'179· Narada is one of the ten mind-born sons of Brahma .having sprung from his thigh. He is celebrated as a divine sage and is associated with another sage Parvata. He is represented as the messenger from the Gods to men and vice versa and as being very fond of promovng discords among Gods and men; hence he is called Kalipriya. ']
 }
 ]
 }  , {
@@ -275,6 +345,7 @@ notes: []
 '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
 <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
 '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
 
 ''<noteref2_note1footer>(2) - (17)</note>-->'  +
 </li>' +
@@ -282,10 +353,10 @@ notes: []
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
 buttonText: '4',
-title: 'SRISHTI-KHAND,THE METHODS OF WORSHIPPING SHIVA ',
-headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'darkslateblue', 'opacity':'0.5'},
+title: 'SRISHTI-KHAND,NARADA GOES TO VAIKUNTH AND CURSES VISNU THERE',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'orange', 'opacity':'0.5'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/shrishti_khand4.jpg")',
+'background-image': 'url("images/rudraSamhita/shrishti_khand3.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
@@ -295,14 +366,86 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<p>On the request of the sages, Suta retold the preaching which had been narrated by Brahma to Narada. Describing the method of Shiva worship he says- </p>' +
-'<p>"A devotee should get up early in the morning and contemplate on Shiva, who gives benediction. After that, he should finish his daily routing work and perform rituals like \'Sandhya\' and Vandana etc. After that, he should worship Shivalinga according to vedic rites like Panchopachar, Sodashopachar etc. He should also perform \'Abhiseka\' with various offerings. At last, the should beg pardon for his sins."</p>' +
-'<p>Once, Brahma went to \'Kshirsagar\' (the abode of Vishnu) accompanied by the deities and asked lord Vishnu how a man could be liberated from his sorrows. Lord Vishnu told them that this objective could be met by worshipping Shivalinga. </p>' +
-'<p>All the deities, then prayed to lord Shiva, who after becoming pleased instructed Vishwakarma to construct a Shivalinga for them. Vishwakarma then made a Shivalinga for Kubera, a Shivalinga of yellow diamond for Dharmaraj, a Shivalinga of dark coloured diamond for Varuna, a Shivalinga of Indraned diamond for Vishnu and a goldden Shivalinga for Brahma. Similarly Vishwadeva was given a Shivalinga made up of silver, the Ashwini Kumars were given Shivalinga made up of bronze, Lakshmi was given a Shivalinga made up of Crystal (Sphatik), Sun-god was given a Shivalinga made of copper and the moon was given a Shivalinga made of pearl</p>' +
-'<p>Brahma has described the following methods for the worship of Shivalinga- </p>' +
-'<p>"After performing the rituals like \'Achaman\' and Pranayama a devotee should apply a tripunda on his forehead and wear a rudraksha on his body. After the study of Shanti-path and the performance of Devata-Namaskar, he should make a resolution if he has any wish to be fulfilled. Then the worship of Shivalinga should be done, with the help of Mahima-Stavan and offering flowers to the Shivalinga. The purity of the mantras should be maintained while chanting them.  </p>' +
-'<p>It has been mentioned in the ShivaPurana that making offerings in the form of lotus, Shatapatra, Shankhapushpi, the leaves of wood apple tree, helps a man in attaining wealth and prosperity. For becoming free from disease, fifty lotus flowers should be offered to the Shivalinga. Mrityunjay-Japa should be chanted for five lac times, for all types of accomplishment. One lakh dhatura-fruits should be offered for long life, worldly-pleasure, as well as for attaining salvation. "</p>' ,
-notes: []
+content: '<p><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<ol><li>Siita, 0 Siita of great intellect, a wonderful tale has been narrated by you. Blessed indeed is the Maya of Siva. All mobile and immobile things depend upon it. When the two attendants of lord Rudra had left at their own will what did the infuriated Narada, the sage disquieted by Kamadeva, do ? </li>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li> After cursing the two attendants of Siva suita bly, the sage still under the earlier delusion looked into the water and saw that his face was quite normal. It was also due to Siva\'s will. He did not wake from the delusion still again due to Siva\'s will. Thereupon recollecting -that it might have been a deception of Hari, he became unbearably infuriated and went to Visnuloka. There he angrily poured abusive words blazing like kindled fire since his wisdom had vanished due to Siva\'s will. </li>' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<li>0 Visny, you are extremely wicked, deceptive enchanter of the world. You are unable to brook others\' enthusiastic success. You dabble in, illusory tactics and your intentions are always dirty. </li>' +
+'<li>Formerly you assumed the form of an enchantress<noteref1_note1footer>(1) - (180)</note> and showed your deceptive power. You made the demons drink liquor and not the nectar. </li>' +
+'<li>If out of pity Siva had not drunk poison<noteref2_note2footer>(2) - (181)</note>, 0 Visnu, all your illusory tactics would have been quelled since you take pleasure only in deception. </li>' +
+'<li>0 Visnu, a deceptive path is extremely attractive to you. You had never been of saintly nature, but the lord made you free from control. </li>' +
+'<li>What is done by Siva the supreme Atman does not seem proper. Thinking of your influence and strength when you act independently and seeing the way you go He has now repented. He has announced that a brahmin is superior to all, thereby making the Vedas pronounced by Him authoritative. </li>' +
+'<li>0 Visnu, knowing that, I shall now teach you through that power so that hereafter you will never do such things. </li>' +
+'<li>You are fearless because till now you have not come into clash with an equally powerful person. Now you will derive, 0 Visnu, the fruit of your own "deeds". </li>' +
+'<li>After saying this, the sage still under the influence of Maya furiouly cursed Visnu, thereby exhibiting the superiority of his brahminical power. </li>' +
+'<li>0 Visnu, the enchanter that you are, you made me distressed for the sake of woman. 0 Hari, you shall experience misery in that human form which you imitated while proceeding with your deceptive tactics. Your allies will be those whose face you assigned to me. </li>' +
+'<li>0 inflictor of miseries upon others, you shall get the misery of separation from a woman. You shall have the travails of a human being deluded by ignorance." </li>' +
+'<li>Thus Narada, deluded himself by ignorance, cursed Hari. Visnu quietly accepted the cause praising the Maya of Sambhu: </li>' +
+'<li>Thereafter Siva, of great divine sport withdrew his enchanting Maya whereby Narada became wise (as before) and free from delusion. </li>' +
+'<li>When the Maya vanished he became as intelligent as before regaining perfect knowledge and becoming free . from distress. He was surprised ( at his own action in the meantime). He cursed himself after repenting again and again. He praised the Maya of Siva which could enchant even wise people. </li>' +
+'<li>On realising his mistakes due to illusion, Narada, the most excellent of the devotees of Visnu, fell at his feet. </li>' +
+'<li>Consoled by Hari and freed from wicked ideas he said-"Being deluded and evil-minded I have spoken many wicked words to you. </li>' +
+'<li>0 lord, I heaped curses on you. 0 master, please make them ineffective. I have committed a great sin. Certainly I will be falling into a hell. </li>' +
+'<li>0 Hari, I am your slave. Please direct me what to do whereby I may destroy my sins and prevent my downfall into hell." </li>' +
+'<li>Saying thus, the excellent sage once again fell at Visnu\'s feet and with the mind purified repented sincerely. </li>' +
+'<li>Thereupon Visnu lifted him up and spoke affably and courteously. </li>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+        '"Do not be sorry too much. Undoubtedly you are my true devotee."<br/> ' +
+'<li>Dear sage, now listen. I shall tell you what is certainly beneficial to you. You will not fall into hell. Siva will make you happy. </li>' +
+'<li>Deluded by your haughtiness you disobeyed the instructions of Siva. The true bestower of fruits according to the actions, He has given you this result. </li>' +
+'<li>Be sure in your mind that everything has happened in accordance with Siva\'s wish. That lord Siva, the supreme lord, removes haughtiness. </li>' +
+'<li>He is the supreme Brahman; the supreme Atman, Existence, Knowledge and Bliss. He is free from the three Gunas, changes and deviations. He is beyond Rajas, Sattva and Tamas. </li>' +
+'<li>He is both Saguna and Nirguna (with and without attributes). He Himself availing of his own Maya manifests into three forms-Brahma, Visnu, and Mahesa. </li>' +
+'<li>In his attributeless pure form He is glorified as Siva, the supreme Atman, Mahesvara, the supreme Brahman, the undecaying, the endless, and Mahadeva. </li>' +
+'<li>Serving him, Brahma becomes the creator and I the sustainer of the worlds. He himself in the manifestation as Rudra is the annihilator always. </li>' +
+'<li>Different from Maya, the pure Being in the form of Siva is the Saksin (cosmic witness) and moving about according to His Will and indulging in divine sport He blesses his devotees. </li>' +
+'<li>0 sage Narada, please listen to a good remedy that bestows happiness, removes all sins and yields worldly pleasures and salvation. </li>' +
+'<li>Cast off all your doubts. Sing the songs of noble glory of Siva. With your mind not turning to anything else, always repeat the hundred names of Siva and his hymns. </li>' +
+'<li>By his Japa all of your sins will perish instantaneously. After saying this to Narada, Visnu continued mercifully. </li>' +
+'<li>"0 sage, do not be grief-striken. Nothing has been perpetrated by you. It was Siva who did everything. There is no doubt in this. - </li>' +
+'<li>It was lord Mahesvara who deluded your splendid intellect and made you suffer on account of love. It was he who made you His mouthpiece and cursed me. </li>' +
+'<li>In this manner the great Conqueror of Death, Kala of Kala, always devoted to the uplift of his devotees, made His own conduct of life manifest in the world. </li>' +
+'<li>There is_ no other lord and master so loving and pleasure-inspiring unto me as Siva. The same Paramesvara bestows all power on me. </li>' +
+'<li>0 sage, perform His adoration. Worship him always. Hear and sing his glory. Perpetually pay Him homage. </li>' +
+'<li>He who approaches Siva by means of his, body, mind and speech is a great scholar. He ·is called a· living liberated soul. </li>' +
+'<li>The name Siva blazing like the forest conflagration reduces mountainous heaps of great sins to . ashes without any difficulty. True, it is undoubtedly true. </li>' +
+'<li>The different kinds of miseries arising from simi ihall be destroyed only through the worship of Siva, and not through other means. </li>' +
+'<li>He who always seeks refuge in Siva, 0-sage, is the real follower of the Vedas, a meritorious soul and a blessed scholar. He must resort to Him by means of his body, speech and mind for ever. </li>' +
+'<li>The different sacred rites of those who have full faith in the worship of Siva, the destroyer of Tripura<noteref3_note3footer>(3) - (182)</note> become fruitful instantaneously. </li>' +
+'<li>0 great sage, there are not so many sins in the world as the worship of Siva is capable of destroying.</li>' +
+'<li>Innumerable heaps of sins like that of the slaughter of a brahmin perish by remembering Siva. Truth, I am telling you the truth. </li>' +
+'<li>The sins (that usually cause worldly existence) relating to persons who cross the ocean of worldly existence in the raft of Siva\'s names, perish undoubtedly. </li>' +
+'<li>The sins which are at the root of worldly existence are destroyed certainly by the axe of Siva\'s name. </li>' +
+'<li>Persons scorched and distressed by the confla~gration of sins must drink the nectar of Siva\'s names. Without that there is no peace and tranquillity to those who are scorched and distressed by the sins\' wild fire. </li>' +
+'<li>Those who are drenched by the downpour of the nectarine names of Siva are not distressed in the midst of the conflagration of worldly existence. There is no doubt in this.  </li>' +
+'<li>Immediate salvation can be a·chieved only by the people who have performed penance in various lives. They alone will have devotion for Siva the cherished consort of Parvati. Men who frequently indulge in passions of love and hatred will never have devotion for Siva. </li>' +
+'<li>The devotion for Siva that extends to other deities is futile. It is necessary to be exclusively devoted to Siva. </li>' +
+'<li>It is· my conviction that salvation is easy of access only to the person who has exclusive and unflinching devotion for Siva and not for any other. </li>' +
+'<li>Even if he commits endless sins, he will be freed from them all, if he has true devotion for Siva. There is no doubt about it. </li>' +
+'<li>Just as trees in the forest are reduced to ashes in the wild fire so also the sins of the devotees of Siva are burnt away in the fire of Siva\'s name. </li>' +
+'<li>He who is ever devoted to the worship of Siva with his body purified by the ash, definitely crosses the terrible and endless expanse of the ocean of worldly existence. </li>' +
+'<li>A man serving the three-eyed<noteref4_note4footer>(4) - (183)</note> Siva is never sullied by sins even if he misappropriates a brahmin\'s wealth or kills many brahmins. </li>' +
+'<li>After going through all the Vedas this has been definitely concluded by ancestors that the sole means of destroying worldly existence is the worship of Siva. </li>' +
+'<li>From now onwards you shall always worship lord Siva who is Samba and SadaSiva, with care, effort and due observance of the rules of procedure. </li>' +
+'<li>Dusting profusely and carefully your body from head to foot with the particles of ashes, you shall perform the Japa of the six-syllabled mantra<noteref5_note5footer>(5) - (184)</note> of Siva, well-known in all the Vedas. </li>' +
+'<li>You shall wear on the different parts of your body Rudrak~a beads pleasing to Siva, repeating the respective mantras with devotion and observing the rules of procedure. </li>' +
+'<li>Listen to Siva\'s anecdotes for ever. Narrate the stories of Siva always. Strenuously worship the devotees of Siva again and again. </li>' +
+'<li>Without blundering ever seek refuge in Siva, because a perpetual worship of Siva bestows bliss.</li>' +
+'<li>Bearing the lotus-like feet of Siva within your pure heart, carry on at first the pilgrimage to various holy centres of Siva, 0 excellent sage.</li>' +
+'<li>Observing the unrivalled greatness of Siva, the supreme Atman, 0 sage, you must next go to Anandavana which is a great favourite of Siva. </li>' +
+'<li>Seeing Siva, the lord of the universe there, worship Him with devotion. After bowing to him and eulogising Him you will become free from all doubts. </li>' +
+'<li>Thereafter you must go to Brahmaloka, 0 sage, to achieve your wishes. That is my command to you out of love. </li>' +
+'<li>0 sage, after bowing to and specifically eulogising your father Brahma, you shall ask him many points regarding Siva\'s greatness with an endearing mind. </li>' +
+'<li>Brahma, the foremost among the devotees of Siva, will narrate to you the greatness of Siva as well as the hymn of hundred names, out of love. </li>' +
+'<li>0 sage, from now onwards become a devotee of Siva, solely devoted to Siva. You will be liberated. Siva will grant you his special blessings".</li>' +
+'<li>After advising the sage thus, Visn was pleased. Remembering, saluting and eulogising Siva he vanished from that place.</li>'+
+'<a href=\'#top\'><strong>Back To Top</strong></a></p>' ,
+notes: ['180.  It refers to the form assumed by Visnu at the time of cheating the demons of nectar. ',
+'181·  It refers to Siva\'s swallowing the poison produced at the churnmg of the ocean. ',
+'182.  Siva is called Tripurari . (the enemy of Tripura) because he killed the demon; Tripura who presided over the three cities built for the danavas by Maya etc. after having burnt down the cities along with the demons inhabiting them',
+'183 Siva is called Virupaksa \'odd-eyed\', because he is represented as having three eyes : two on either side of the nose and one on the forehead. ',
+'183 The six-syllabled mantra : Aum Namah Shivay']
 }
 ]
 } , {
