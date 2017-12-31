@@ -468,6 +468,8 @@ notes: ['180.  It refers to the form assumed by Visnu at the time of cheating th
 '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
 <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
 '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
 
 ''<noteref2_note1footer>(2) - (17)</note>-->'  +
 </li>' +
@@ -475,10 +477,10 @@ notes: ['180.  It refers to the form assumed by Visnu at the time of cheating th
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
 buttonText: '5',
-title: 'SRISHTI-KHAND,THE ORIGIN OF KAILASH AND VAIKUNTH ',
-headerStyle: { 'color': 'crimson','font-weight': '1900', 'background-color': 'orange', 'text-shadow': '2px 2px 2px maroon','opacity':'1.0', 'border': '3px outset red'},
+title: 'SRISHTI-KHAND,NARADA GOES TO KASI',
+headerStyle: { 'color': 'red','text-shadow': '3px 3px 2px pink','font-weight': '1900', 'background-color': 'orange', 'opacity':'0.8','border': '5px outset red', 'border-radious':'2px'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/shrishti_khand5.jpg")',
+'background-image': 'url("images/rudraSamhita/shrishti_khand4.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
@@ -488,13 +490,48 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<p>Brahma revealed to Narada how the process of creation commenced- </p>' +
-'<p>"After Lord Shiva vanished from our sight, I transformed myself into the appearance of a swan and Vishnu transformed his appearance into that of a boar with the purpose of commencing the process of creation. First of all, I created the water. I poured a palmful of water into it and an egg manifested which consisted of all the twenty four elements. This egg was very enormous in size which made me confused. I did penance for twelve years. Vishnu appeared before me. I requested him to bring that egg to consciousness. Vishnu entered into that egg. As a result of this, Kailash mountain, and all the seven worlds came into existence. After that the static living things were created, which symbolized the dark quality (Tamas guna). After that I created four footed animals like cows and Ox etc. inspite of these creations, I was not satisfied, so I again went into meditation. "</p>' +
-'<p>"As a result the deities were created which symbolized the virtuous quality (Satvaguna). Once again I meditated and the human species came into existence, which symbolized the medium quality (Rajas guna). With the permission of Lord Shiva, I then created spirits like ghosts etc. After that I created my five Manasputras- Sanak, Sanadan etc. But they were so ascetic and detached from the world that they showed their disinclination in contributing in the process of creation. This made me angry, tears rolled down from my eyes. With the permission of Vishnu, I did a tremendous penance to have a darshan of lord Shiva. "</p>' ,
+content: '<p><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span>' +
+'<ol><li>0 brahmins, when Visnu vanished, the excellent sage Narada roamed over the Earth seeing Siva Lingas (in the various holy centres) with piety. </li>' +
+'<li>In the course of his wanderings over the Earth, 0 brahmins, with his mind full of devotional pleasure he saw many forms of Siva that confer worldly pleasures and salvation on the devotees.   </li>' +
+'<li>On knowing that Narada of divine vision was wandering over the Earth, the two attendants of Siva approched him who by that time had become pure in mind. ·  </li>' +
+'<li>They bowed to him and touched his feet. With a desire to secure release from the curse they spoke to him respectfully. </li>' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+'<li>0 celestial sage, son of Brahma, please hear our words. We who formerly offended you are really not brahmms. </li>' +
+'<li>0 brahminical sage, we, your former offenders, are the attendants of Siva. Induced by Siva you had cursed us when your mind was deluded by the illusory infatuation for the princess at the Svayarhvara. Realising that the occasion was inopportune we kept quiet then. </li>' +
+'<li>We reaped the fruit of our own action. No one is to be blamed for it. 0 lord, be pleased. Bless us now.</li>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span>' +
+'<li> On hearing the words of the attendants uttered with devotion and respect;- the sage replied lovingly, repenting (for his previous fury). </li>' +
+'<li> <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<li>0 attendants of Lord Siva, most worthy of the respect of good people, please listen to my words now free from delusion. They are true and shall make you happy. </li>' +
+'<li>Formerly my mind had been depraved. Certainly it was Siva\'s will. In that state of delusion and crookedness of the mind I had unfortunately cursed both of you. </li>' +
+'<li>What I have said is bound to happen. Still, 0 Ganas (attendants) listen. I shall tell you the way of redemption from the curse. Please forgive my sin now. </li>' +
+'<li>You will be born as demons from the semen virile of a great sage and due to his power you will secure the commanding position of the king of demons endowed with prosperity, strength and valorous exploits. You will rule over whole of the universe as devotees of Siva with your sense conquered. You will gain your former position after courting death at the hands of a manifestation of Siva. </li>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span>' +
+'<li> On hearing these words of the noble-souled Narada, the two attendants of Siva became delighted and went back to their abode joyfully. </li>' +
+'<li>Narada too was delighted. Meditating exclusively on Siva he continued his wanderings over the Earth seeing the various holy centres of Siva personally. </li>' +
+'<li>Reaching Kasi that excelled all other cities in holiness, which is a favourite resort of Siva, which easily bestows the favour of Siva and which is identical with Siva, the sage became contented. He saw Siva, the lord of Kasi and worshipped Him with very great pleasure and love. </li>' +
+'<li>While staying at Kasi, the excellent sage became contented; he bowed to the lord, described his glory piously, and remembered him with the flutter of love. </li>' +
+'<li>Narada then went to the region of Brahma, his mind being highly purified by remembering Siva. He was eager to know further the principles of Siva. </li>' +
+'<li>There he bowed to Brahma with devotion and eulogised him with various prayers. With his mind riveted to Siva he asked him the good principles of Siva. </li>' +
+'<li> <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<li>0 Brahma, knower of the form of Brahman, 0 Pitamaha, the lord of the universe, by your grace I have heard the greatness of Visnu entirely and also the path of devotion, of knowledge, of austere penance, of charitable gifts and of holy centres. </li>' +
+'<li>But I have not understood the principle of Siva. Hence, 0 lord, please explain the rules of His worship and also the .various activities of the lord. </li>' +
+'<li>0 dear sage, how can Siva who is free form attributes become full of attributes? Since I am deluded by Siva\'s Maya, I do not know the principle of Siva. </li>' +
+'<li>How did Siva remain in His pure form before Creation? In the middle of creation how does He ·sport about ? </li>' +
+'<li>At the time of dissolution how does He remain ? How is He, the benefactor of the world, propitiated ? </li>' +
+'<li>0 Brahma, when propitiated what benefit does He bestow on His devotees and on others ? Please satisfy me on all these enquiries </li>' +
+'<li>I have heard that the lord becomes delighted immediately. The merciful Great God cannot bear the stress and strain of His devotees.</li>' +
+'<li>The three deities Brahma, Visnu and Mahesa are born as parts of Siva. Mahesa, having all the parts of Siva, is Siva Himself. </li>' +
+'<li>Please tell me all about His manifestation and especially His exploits. 0 lord, please narrate the manifestation of Uma and her marriage. </li>' +
+'<li>Their domestic life, especially their great divine sports and other things which are worthy of mention should be narrated to me, 0 sinless one. </li>' +
+'<li>Parvati\'s birth and her marriage as well as Guha\'s birth shall be narrated in detail, 0 lord of people. </li>' +
+'<li>0 lord of universe, this I have heard from many, before, but I am not satisfied. Hence I have sought refuge in you. Please have mercy on me. </li>' +
+'<li>On hearing these words of Narada his own son, Brahma, the grandfather of the world, said this. </li></ol>'+
+'<a href=\'#top\'><strong>Back To Top</strong></a></p>' ,
 notes: []
 }
 ]
-}, {
+} , {
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -514,6 +551,8 @@ notes: []
 '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
 <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
 '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
 
 ''<noteref2_note1footer>(2) - (17)</note>-->'  +
 </li>' +
@@ -521,10 +560,10 @@ notes: []
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
 buttonText: '6',
-title: 'SRISHTI-KHAND,THE EMERGENCE OF RUDRAVATAR  AND CREATION  ',
-headerStyle: { 'color': 'yellow','font-weight': '1900', 'background-color': 'maroon', 'text-shadow': '2px 2px 2px orange','opacity':'1.0', 'border': '3px inset yellow'},
+title: 'SRISHTI-KHAND,DESCRIPTION OF THE NATURE OF MAHAPRALAYA; THE ORIGIN OF VISNU',
+headerStyle: { 'color': 'blue','text-shadow': '3px 3px 2px lemongreen','font-weight': '1900', 'background-color': 'yellow', 'opacity':'0.9','border': '3px solid slateblue', 'border-radious':'8px'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/shrishti_khand6.jpg")',
+'background-image': 'url("images/rudraSamhita/shrishti_khand5.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
@@ -534,12 +573,9 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<p>Brahma said to Narada-  </p>' +
-'<p>""When I accomplished my penance, Lord Shiva manifested in his incarnation of Rudra from in between the eyebrows. Half of his body resembled like that of a woman (Ardhanarishwar). I requested him help me in my creational activities. Rudra created his hosts (Rudragana) who resembled like him. I requested him to create the mortals, to which he laughed and said, that he liberated mortals from their sorrow, so how could he fasten them with bondages. Rudra requested me to create the mortals and then he vanished. "</p>' +
-'<p>Preaching Narada on the essence of Shivatattva, Brahma said-   </p>' +
-'<p>"With the permission of Shiva, I created the five basic elements from which the matter is made and also all types of arts. I also created the time. Despite all these creations, I was not satisfied. I created Sage Marichi from my eyes, Sage Bhrigu from my heart, Sage Angira from my head, Sage Pulaha from my Vyan Vayu, Sage Pulatsya from my Udan Vaya, Sage Vashishtha from my Saman Vayu, Sage Kratu from my Apan Vayu, Sage Atri from my ear, Daksha Prajapati from my vital air. You (Narada) manifested from my lap. Sage Kardam and Dharma manifested from my Shadow. Then I divided my body into two parts, and from each of the two parts. Manu and Shatarupa manifested respectively. Both of them got married and in this way commenced the conjugal creation. Priyavrata and Uttanpad were the two sons born to them. Shatarupa also gave birth to three daughters whose names were Akuti Devahuti and Prasuti. Sage Ruchi was married to Akuti, Sage Kardam was married to Devahuti and Daksha Prajapati was married to Prasuti. Sage Yagya and Dakshaina were born to sage Ruchi and Akuti." "</p>' +
-'<p>"Numerous daughters were born to sage Kardam and Devahuti. Similarly twenty-four daughters were born to Daksha and Prasuti. Daksha married thirteen of his dhauthers to Dharma. "</p>' +
-'<p>"The rest of his daughters were married to sages like Pulastya etc. All the three worlds are inhabited by the progenies of these sages. The same Daksha Prajapati had sixty daughters in another Kalpa, who were married to sages like Kashyapa, etc. In this Kalpa,  Sati was one of his daughters who was married to Lord Shiva. Sati being distressed by the disrespect sown by her father-Daksha, to her husband-Shiva, had given up her life, by jumping into the sacrificial fire. In her next birth she was born as Parvati and was again married to Shiva. This way, I created this world with the permission of Shiva"</p>' ,
+content: '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<ol><li></li></ol>'+
+'<a href=\'#top\'><strong>Back To Top</strong></a></p>' ,
 notes: []
 }
 ]
