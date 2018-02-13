@@ -628,6 +628,118 @@ content: '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px
 notes: ['186 The Ego (Aharp.kara) is threefold according to the qualities of Sattva, Rajas and Tamas. In the present enumeration it is counted as one. ','187 A group of 24 tattvas includes inteJiect ( Buddhi), ego (Ahamkara) manas (mind), five elements (bhutas), five subtle elements (tanmatras), five senses of action ( Karmendriyas) and five senses of knowledge (jnanendriyas) and unmanifest Prakrti (i.e. Pradhana). Purusa stands apart from the Tattvas. The enumeration follows the Sarpkhya system. ']
 }
 ]
+}  , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '7',
+title: 'SRISHTI-KHAND,THE DISPUTE BETWEEN BRAHMA AND VISHNU',
+headerStyle: { 'color': 'yellow','text-shadow': '1px 3px 4px white','font-weight': '1900', 'background-color': 'blue', 'opacity':'0.9','border': '3px inset yellow', 'border-radius':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand5.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<ol><li> When lord Narayana continued to sleep, an excellent lotus of huge size came out of his navel as desired by Siva. </li>' +
+'<li>It was many Yojanas wide and high. It had an endless stalk. The pericarp was of a brilliant hue. </li>' +
+'<li>It was very beautiful with the brilliance of ten million suns. It was wonderful, excellent and worthy of vision containing Tattvas. </li>' +
+'<li>Exerting himself as before, Siva, the great lord, with Parvati as his better half created me from His right limb. </li>' +
+'<li>0 sage, having deluded me with His illusion immediately, Siva in the course of His sport, produced me through the umbilical lotus of Visnu.</li>' +
+'<li>Thus it was that I came to be known as Lotus-born and conceived in a golden womb. I had four faces, red complexion and Tripundra-marked forehead. </li>' +
+'<li>Deluded by His illusion and weakened in knowledge, 0 dear one, I did not know who the progenitor of my body was, other than the lotus. </li>' +
+'<li>"Who am I ? Whence did I come ? What is my duty ? To whom was I born a son ? By whom have I been created ?" </li>' +
+'<li>My intellect became confused with these doubts. Then I thought "Why shall I be under delusion ? It is easy to gain that knowledge. The place of growth of this lotus is below. My progenitor will undoubtedly be there." Thinking thus I descended from the lotus. 0 sage, for a hundred years the downward trend continued. </li>' +
+'<li>The source of the lotus was not attained by me. In the doubt-tormented state I became eager to go up on to the top of the lotus. </li>' +
+'<li>0 sage, I climbed up to the lotus by the stalk. But the upper part of the lotus I could not reach. I was disappointed. </li>' +
+'<li>Another hundred years elapsed in my wandering up the lotus. I stopped a while in that confounded state. </li>' +
+'<li>Then, 0 sage, by the will of Siva, an auspicious voice "Perform Penance" was heard from the sky which dispelled my delusion. </li>' +
+'<li>On hearing the voice of the sky I exerted myself for twelve years in performing a terrible penance in order to see my progenitor. .</li>' +
+'<li>At the same time, the four-armed lord Visnu of beautiful eyes suddenly appeared before me in order to bless me. </li>' +
+'<li>The great lord was holding the conch, the discus, the mace and the lotus in his hands. He was wearing the yellow silken· cloth and had cloud-blue complexion all over his body. </li>' +
+'<li>He had a crown. He was bedecked in great ornments. His lotus-like face beamed with pleasure. Such was the lord resembling ten million Cupids that I saw still not out of delusion. </li>' +
+'<li>At the sight of that beautiful form I was struck with wonder. On seeing the four-armed Narayana, shining like Kala, of golden hue, the immanent soul of all in that form, of large arms depicting the Sat and Asat in Himself I became delighted. </li>' +
+'<li>Deluded by the illusion of Siva, the sportive lord, I could not recognise my progenitor in him. ·I addressed him with delight. </li>' +
+'<li>"Who are you? Please tell me", saying this I tried to wake the Eternal Being. [When he did not wake up ] I tried to wake him up with :fiercer and firmer beatings of the hand. </li>' +
+'<li>Then the lord who had self-control woke up from his bed and sat. He looked up with his pure eyes resembling a wet lotus, due to sleep. </li>' +
+'<li>As I stood there quietly, the lord Visnu spread his brilliance over me. Standing up he smiled once and spoke these sweet words. </li>' +
+'<li><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>"Welcome, welcome to you, dear child, 0 Pitamaha of great brilliance. Do not be afraid. Undoubtedly I shall confer on you all that you desire. </li>' +
+'<li>0 foremost among gods, on hearing these words uttered with a smile I told Vigm with my inimical attitude roused by the Rajoguna.  </li>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<li>"0 faultless one, how is it that you speak of me trivially as "Dear child", me who am the cause of annihilation of everything, as a preceptor addresses his disciple? </li>' +
+'<li>"I am the creator of worlds, the direct activiser of Prakrti, unborn, the eternal, all-pervasive Brahma. I am born of Visnu. I am the soul of universe, the originator, creator, and the lotw;-eyed. You must explain to me quickly why you speak like this. </li>' +
+'<li>The Vedas speak of me invariably as self-born, unborn, all-pervasive, grandfather, self-governed and the excellent supreme Being. </li>' +
+'<li>On hearing these words of Hari, the lord of Laksmi became angry and told me thus:</li>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+        '<p>"I know you as the creator of the world. For the sake of creation and support you are descended from my undecaying limbs. You have forgotten me, who am a lord of universe, abiding in waters the salubrious, the supreme soul, invoked by many, praised by many, All-pervasive, imperishable, ruler, the source and origin of universe, the longarmed and the ommipresent lord. There is no doubt in this that you are born of the lotus from my umbilicus. </p>' +
+'<li> "Of course, it is not your fault. I have exercised my power of illusion over you. 0 four-faced one, listen to the truth. I am the lord of all Gods.</li>' +
+'<li>I am the creator, sustainer and destroyer. There is no powerful person equal to me. 0 Pitamaha, I am the supreme Brahman, the greatest Truth. </li>' +
+'<li>I am the greatest light. I am the great Atman. I am the omnipresent. 0 four-faced one, whatever in seen or heard today in the whole universe, whether mobile or immobile is enveloped by me. It was I who created the twenty-four manifest Tattvas.</li>' +
+'<li>I have created the atoms. I have created the qualities of anger, fear etc. Powerful and sportive I have created their parts and limbs. </li>' +
+'<li>I have created the Intellect and the threefold Ego therein. I have evolved the five subtle elements, the mind, the body and the sense-organs. </li>' +
+'<li>I have created the elements Ether etc. and all created beings out of sheer sport. Realising this, 0 Brahma, the lord of subjects, seek refuge in me. </li>' +
+'<li>I shall certainly protect you from all miseries." </li>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<p>On hearing these words, I, proud of being Brahma, became angry. Being deluded by illusion in a threatening attitude I asked him "who are you? </p>' +
+'<li>Why do you talk so much ? Your words will bring up disaster. You are neither the lord, nor the supreme Brahman. There must be a creator of yours.</li>' +
+'<li>Deluded by the illusion created by Siva the great lord, I fought a terrific battle with Visnu. </li>' +
+'<li>Inimical to each other due to Rajogupa, we fought a fierce battle in the middle of that vast expanse of the sea of Dissolution. </li>' +
+'<li>Meanwhile a phallic image appeared before us in order to enlighten us and to settle out dispute. </li>' +
+'<li>It had no beginning, middle or end. It had neither decrease nor increase. It was as furious as hundreds of the fire of death with thousands of leaping rows of flames. </li>' +
+'<li>It was unequalled, inexpressible unmanifest universal Being. The lord Visnu became unconscious by its thousand flames. </li>' +
+'<li>When I too became senseless, Visnu said to me. Oh, why do you contend with me now ? A third person has now come. Let our quarrel cease. </li>' +
+'<li>Whence has this arisen ? Let us examine this fireBeing. I shall go down to find the root of this matchless column of fire. </li>' +
+'<li>0 lord of subjects, with the speed of the wind you will please go up to examine its top?"</li>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma continues the story:  </span>' +
+'<li>Having said so, Visnu assumed the form of a Boar. 0 sage, I became a swan immediately. </li>' +
+'<li>From that time onwards, people call me HamsaHamsa, a supreme Being<noteref1_note1footer>(1) - (189)</note>, Virat, an illustrious Being. He who repeats \'HamsaHamsa\', shall become a swan (a symbol of purity and discrimination. </li>' +
+'<li>Very white of complexion and endowed with wings on either side I flew up and up with the speed of the mind and wind. </li>' +
+'<li>Narayana, the soul of the universe too, became white then. His body was ten yojanas wide and a hundred yojanas long, as huge as the mountain Meru. He had white sharp teeth. His brilliance resembled the sun at the time of dissolution. His snort was long and his. roar tremendous. His feet were short. His limbs were of diverse colours. His form as the boar was of matchless firmness which assured his eagerness to be victorious, and he went down quickly. </li>' +
+'<li>For a thousand years his downward course continued. From that time onwards Visnu came to be called \'Svetavadiha\' (white Boar) in all the worlds. </li>' +
+'<li>A Kalpa had elapsed according to human calculation when Visnu thus went down and wandered in his eagerness to come out victorious. </li>' +
+'<li>The Boar did not find even the smallest trace ·of the root of the Linga. 0, destroyer of enemies, I too spent the same time in going up. </li>' +
+'<li>From a desire to know its top as quickly as possible I exerted myself and was exhausted. Unable to see the top I came down after some time. </li>' +
+'<li>Similarly, lord Visnu, the lotus-eyed, too became weary. Appearing like the lord of everything in his huge body he too rose up. </li>' +
+'<li>As soon as he came up, we bowed to Siva again and again. He stood aside with a gloomy mind as he too was deluded by the illusion of Siva. </li>' +
+'<li>We bowed down to Linga at His back, sides and in front. He mused within himself "What can this be?" </li>' +
+'<li>"That form can\'t be directly expressed. It is without action and name. Without any sex-distinction it has become a linga. It is beyond the path of meditation. </li>' +
+'<li>Both of us, Hari and I, with the peace of our minds, became eager to perform obeisance. </li>' +
+'<li>"We do not know Thy true form, what Thou art Thou art, 0 great lord. Obeisance be to Thee, 0 Mahesana. Please hurry up to reveal Thy form to us."</li>' +
+'<li>Thus performing obeisance and prayer to quell our earlier pride, 0 foremost of sages, we spent a hundred autumns therein. </li></ol>' +
+'<a href=\'#top\'><strong>Back To Top</strong></a></p>' ,
+notes: ['189 It is a kind of mystical text efficacious for yogic achievements. ']
+}
+]
 }, /*'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
 '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
 '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
@@ -640,11 +752,12 @@ notes: ['186 The Ego (Aharp.kara) is threefold according to the qualities of Sat
 </li>' +
 '<li>
 */{
-    buttonText: '8 - 9 (8 - 20)',
-    title: 'SRISHTI-KHAND,THE STORY OF GUNANIDHI, RENAMED AS KUBERA.FRIENDSHIP WITH SHIVA, WHO GOES TO KAILASH',
-        headerStyle: { 'color': 'purple','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '8',
+    title: 'SRISHTI-KHAND,THE  DESCRIPTION OF THE BODY OF SABDABRAHMAN',
+        headerStyle: { 'color': 'brown','font-weight': '1900','text-shadow': '1px 3px 4px white' , 'background-color': 'beige', 'opacity':'0.9', 'border':'3px brown ouset'},
         contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/rudraSamhita/shrishti_khand7.jpg")',
+             'background-image': 'url("images/rudraSamhita/shrishti_khand8.jpg")',
              'background-size': 'contain',
              'border-radius':'4px', 
              'padding':'2px',
@@ -653,29 +766,45 @@ notes: ['186 The Ego (Aharp.kara) is threefold according to the qualities of Sat
               'background-color':'skyblue'} ,
 subsections: [
 {
-subTitle: 'GUNANIDHI - THE BRAHMIN\'S SON ',
-content: '<p>Narada asked lord Brahma, when did lord Shiva make Kailash as his abode and what was the reason of friendship between Shivaji and Kubera. Brahma narrated the following story- - There used to live a brahmin by the name Yagyadutt in Kampilyanagar, who was proficient in the performance of Somyagya. He had a son named Gunanidhi. Though he was a scholar but at the same time he was irreligious and kept bad company. He used to indulge in evil activities like gambling. </p>' +
-'<p>His father - Yagyadutt was unaware of his evil activities. Whenever he asked his wife about Gunanidhi habits and conduct, his wife used to tell lies and praised the conduct of Gunamidhi. Thus Gunamidhi\'s condition became worse day by day. </p>' +
-'<p>Yagyadutt married Gunanidhi with a girl belonging to a well to do family. But his habits had not changed. His mother tried her best to make him understand, but it was of no avail. </p>' +
-'<p>One day Yagyadutt saw, a gambler wearing his ring. He asked him about that ring. The gambler told him that his son - Gunanidhu had lost it to him, in the gamble. He also informed him that he had also lost numerous ornaments and other properties in the gamble. </p>' +
-'<p>"Yagyadutt became very angry. He married with another woman after abandoning his wife and son. </p>' +
-'<p>When Gunadhi came to know about his father\'s second marriage, he moved to another place, cursing his fate. He kept on walking till he became tired. He sat under a tree and started thinking about his further course of action. He heart was full of remorse and he repented for his past actions. As his mind was engrossed in such kind of thoughts. He saw somw villages going towards temple. They were carrying prasad in their hands.</p>' +
-'<p>"Since Gunanidhi was hungry, he followed them and after reaching the temple he sat at the main gate of the temple. IN the night, after the accomplishment of the Pujan, the devotees went to sleep. Gunanidhi entered the premise went to sleep. Gunanidhi entered the premise of the temple. The flame of the lamp was gradually becoming dim as the result of which he could not see properly. He tore some pieces of cloth, he was wearing and made a thick wick and put it in the lamp. Now the light was sufficient to enable him to see whatever had been offered to the deity." </p>' +
-'<p>"He carried as much fruits and other eatables as possible and tried to sneak out from the temple. Unfortunately, he dashed against a devotee woke up and chased him shouting thief-thief." </p>' +
-'<p>"Hearing his cries all the other devotees woke up and caught Gunanidhi. He was given such a nice thrashing that proved to be fatal and as a result Gunanidhi died."</p>' +
-'<p>"The Yamaduts arrived to take his soul to yamloka. But right then, the Shivaganas arrived and prevented the Yamadutas from carrying his soul. They informed the Yamdutas that Gunanidhi was entitled for Shivaloka as he had devoutly observed the Shivaratri fast, had listened to the tales of Shiva and lighted up the lamp which was about to go off. The Shivaganas also informed the Yamadutas that, in his next birth Gunamidhi would become the king of Kalinga" </p>' +
-'<p>"In this way Gunanidhi attained to Shivaloka. In his next birth he was born as a son of king Arindam- the king of Kalinga. He was named as Dama." "When he was still young, his fatherArindam dies. So Dama succeeded him as the king of Kalinga. He renovated all the Shiva temple, which came under his jurisdiction and passed a decree which made the worship of lord Shiva compulsory for all the subjects. By the blessings of lord Shiva, he became the king of Alkapuri and was known as Kubera." </p>' +
-'<p>"During the Padma kalpa, Sage Vishrawa was born to sage Pulastya- the manasputra of lord Brahma. Vishrawa\'s son - Vishrawan ruled over Alkapuri for a long time. This city was constructed by the deity Vishwakarma. Vishrawan was a great devotee of Lord Shiva." "During the kalpa named Meghawahan, Gunanidhi did a tremendous penance for ten lac years. As a result of this penance his body was reduced to skelton."  </p>' +
-'<p>"Lord Shiva became very pleased with him and appeared before him, accompanied by his consort Parvati. He told Gunanidhi to ask for any boon, which will be fulfilled." "When Gunanidhi heard Shiva\'s voice he opened his eyes, but his eyes were dazzled by the sheer radiance of lord Shiva. He requested Shiva to restore the power of sight in his eyes. Shiva blessed him, as a result of which he was now able to see the divine sight of lord Shiva. But he became jealous of Uma, who was present by the side of Shiva. He was wondering as to who was this lady, dearer to Shiva than him. He glanced cruelly towards her. As a result of this his left eye lost the power of sight." "Parvati asked lord Shiva as to why was this sage (Gunanidhi) looking cruelly towards her. Shiva replied- "He is none other than your son. He is looking at you in astonishment as he his bewildered at the feats achieved your penance." "Lord Shiva then blessed Gunanidhi to become the king of the kings. He also assured him that he will always be present in the vicinity of Alkapuri. After being blessed by Shiva, Gunanidhi also made salutations to Parvati. " </p>' +
-'<p>Parvati said-</p>""Since you have looked at me angrily your hatred and enemity (Bair) towards me was clearly visible. For this reason you will be known as Kuberas." After blessings, Gunanidhi both Shiva and Parvati to a place called Vaishveshwar. Kailash mountain was situated near Alkanagri. </p>' ,
-notes: []
-},
-{
-subTitle: 'FRIENDSHIP OF SHIVA AND KUBERA. SHIVA GOES TO KAILASH ',
-content: '<p>"When Rudra - the Ansha of the Almighty Brahma, heard about the tremendous penance, Kubera was doing he started to play his \'damaru\' (drum), the sound of which reached all the three worlds. Rudra then reached the place where Kubera was doing penance." </p>' +
-'<p>"Hearing the sound of his damaru, all the deities including Brahma, Vishnu and Sadashia appeared before him."  </p>' +
-'<p>"When Kubera saw lord Rudra before himself, he offered his seat to him and worshipped him. He also worshipped the other deities. Rudra was so pleased with Kubera that he decided to stay near him. He called Vishwakarma and ordered him to conduct his abode at Kailash mountain, so that he could live in could live in the vicinity of his great devotee Kubera. Kubera constructed a beautiful city as per his instruction. An auspicious moment was chosen and Shiva went to live at Kailash mountain. He was coronated by the deities."<br/>&nbsp;&nbsp; Brahma in this way told Narada about Shiva\'s departure to Kailash mountain</p>' ,
-notes: []
+subTitle: '',
+content: '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<ol><li>0 most excellent sage, we were eager to have a vision of the lord. Our haughtiness had been curbed. 0 sage, we waited there patiently. Siva, the protector of the distressed, remover of the haughtiness of the haughty and the undecaying lord of everything took mercy on us. </li>' +
+'<li>There arose the sound "0m Om" in the prolated accent.<noteref1_note1footer>(1) - (190)</note> It was very clear. The divine sound in the form of a word came out from the most excellent of Gods. </li>' +
+'<li>"What shall be this great sound ?" thinking like this I stood perplexed. Visnuwho is worthy of respect from all the Gods, who is free from all inimical thoughts, saw with the delightful heart, the eternal being\'s manifestation on the right side of the linga. First, he saw the syllable "A" and he saw the syllable "U" thereafter. </li>' +
+'<li>He saw the syllable "M" in the middle and Nada (the mystical sound) in the form "Om" .in the end. He saw the first syllable on the right like the blazing sphere of the sun. 0 foremost of sages, thereafter he saw the syllable "U" dazzling like fire. In the middle he saw the syllable "M" glittering like the lunar sphere. Above that what he saw was the supreme Brahman, the greatest refuge. It had the lustre of the pure crystal. It was the pure Being ,beyond the Fourth ( Turiya ), the unsullied & free from extraneous harassment. It was free from mutually clashing opposites. It was single (isolated), void, free from exterior and interior though stationed in the exterior and the interior, devoid of beginning, middle and end, the primordial cause of Bliss, the truth, The Bliss and the Nectar. </li>' +
+'<li>Visnu thus meditated on the universal soul enveloped by the two Vedic sounds and wished to examine the source whence the Fire-column arose and to go deep down the unequalled fiery column. Then there came a sage who told him the essence of the truth. </li>' +
+'<li>Visnu realised that the sage himself was the great lord and the supreme Brahman embodied in the Sabda Brahman. (i.e. the mystic syllable Om). </li>' +
+'<li>The Brahman is Rudra free from worries. The words and the mind are incapable of comprehending it; without reaching it they return. It can be expressed by the single-syllabled mantra "Om". </li>' +
+'<li>The supreme Brahman, the Truth, the Bliss, the Amrta, the greatest of the great and the ultimate cause can be expressed by the single-syllabled mantra. </li>' +
+'<li>The single syllable "A" is the source of the lord Brahma. The single syllable "U" is the source of Visnu, the ultimate cause. </li>' +
+'<li>The single syllable "M" is the source of Rudra. The creator is expressed by the letter "A". The enchanter is expressed by the letter "U" </li>' +
+'<li>The being expressed by the letter "M" blesses always. It is all pervasive and progenitor; the letter "A" is the seed. </li>' +
+'<li>The being expressed by the letter "U" is Visnu. It is the source, the receptacle, the lord of primordial nature and primordial being, the progenitor, the seed, source and sound. All these constitute Lord Siva. </li>' +
+'<li>The progenitor is stationed after dividing itself. From the linga of the progenitor, the lord, arose the seed-- the syllable "A" </li>' +
+'<li>The Bija being deposited in the Yoni, the letter "U" began to increase all round. It became a golden egg. It was something known which could not be delineated. </li>' +
+'<li>The divine egg floated in the waters for many years. Then at the end of a thousand years, it split into two giving birth to. Brahma. </li>' +
+'<li>The egg floating in the waters on being hit by Isvara split into two. The auspicious golden upper lid became the upper region and the lower one became the Earth of five characteristics. From (the inner part of) the egg was born the four-faced lord ( Brahma) expressed by the letter "KA" </li>' +
+'<li>He is the creator of all the worlds. He alone is the lord manifesting in three forms. Persons well-versed in the Yajurveda call it Orh O.rh. </li>' +
+'<li>On hearing the words of the Yajurveda, both the Rigveda and the Samaveda respectfully called us then Visnu and Brahma.</li>' +
+'<li>Then realising the lord of the Gods we eulogised, as far as we could, Lord Siva, the cause of great achievement. </li>' +
+'<li>Visnu, the protector of the universe, in the meantime, saw another wonderfully beautiful form, along with me. </li>' +
+'<li>On seeing that wonderful form, Visnu and I became satisfied. The form had five faces, ten arms, and a complexion white as camphor, 0 sage. It had diverse brilliant features. It was decorated in different ornaments. It was highly liberal and endowed with great prowess. It had all the characteristics of a great man. </li>' +
+'<li>Thereafter, the lord Siva was pleased. Revealing his form embedded in letters He laughingly stood before us. . </li>' +
+'<li>The short letter "A" is His head. The long letter "A" is His forehead. The letter "I" is His right eye and the letter \'I\' His left eye. </li>' +
+'<li>The letter "U" is His right ear and the letter "0" His left ear. The letter "R" is the right cheek of that great lord. </li>' +
+'<li>"R" is His left cheek. The two letters "l" "!", are His nostrils. The letter "E" is His upper lip and the letter "Al" is His lower lip. </li>' +
+'<li>The letter "O" and the letter "AU" are respectively the two rows of his teeth. The letters "AM" and "AH" [Anusvara and Visarga] are his palates. </li>' +
+'<li>The five letters beginning with KA [ie KA, KHA, GA, GHA and N A] are His five hands on the right side. The five letters beginning with CA [i.e. CA, CH, JA, JHA and NA] are His hands on the left side. · </li>' +
+'<li>Similarly the five letters beginning with TA and the five letters beginning with TA constitute His legs. The letter PA is His belly and the letter PHA is !{is right side. </li>' +
+'<li>The letter BA is His left side. The  letter BHA is His shoulder. The Jetter MA is the heart of the great yogin Mahadeva. ·</li>' +
+'<li>The letters YA, RA, LA, VA, SA, ~A and SA are the seven Dhatus (vital secretions) of the lord. The letter HA is His umbilicus and the letter K~A is His nose. </li>' +
+'<li>Visnu and I became contented on seeing this letter-embedded form of the Sagul).a manifestation of Nirguna lord in the company of U rna. </li>' +
+'<li>On seeing Lord Siva in the form of the letterembedded Brahman, Visnu bowed down along with me and looked up again. </li>' +
+'<li>The mantra beginning with Omkara with its Kalas five in number, consisting of the auspicious thirty-eight syllables, being pure as crystal, increases intelligence and is an effective medium of accomplishing sacred rites. The mantras in the Gayatri metre of twenty-four syllables and having four Kalas are conducive to enjoyment. The fivesyllabled mantra of eight Kalas consisting of thirty syllables is employed for black magic. Mantras of Yajurveda consisting of twenty-five syllables and eight Kalas are used for conciliatory purpose. The mantra of thirteen Kalas consisting of sixty-one syllables is conducive to outcome, increase and destruction. </li>' +
+'<li>The lord Visnu secured these five mantras:Mrtyunjaya mantra, five-syllabled mantra, Cintamani mantra, Daksinamurti mantra and the "tattvamasi" mantra which is Hara\'s Mahavakya. Lord Visnu performed Japa by means of these mantras.</li>' +
+'<li>The lord Visnu and I being glad at heart eulogised the boon-bestowing lord Siva with appropriate words,-Siva who was seen in the form of Kalas, Varnas (syllables), Rk, Yajus, Saman, Is ana, Isa, Puratana Purusa (the ancient Being), the merciful, pleasing to the heart, hidden from all, ever ausp1cwus, a great deity, of beautiful feet, bedecked with huge serpents, with legs, eyes and hands extending on all sides, the lord of Brahma, and the cause of creation, sustenance and destruction of the world.· </li></ol>' +
+'<a href=\'#top\'><strong>Back To Top</strong></a></p>' ,
+notes: ['190. The pluta is a prolated vowel, as in Om, often marked with the figure three , as it contains three syllabic instant in pronoun-· cing it. ']
 }
 ]
     }
