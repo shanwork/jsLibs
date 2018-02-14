@@ -807,5 +807,91 @@ content: '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px
 notes: ['190. The pluta is a prolated vowel, as in Om, often marked with the figure three , as it contains three syllabic instant in pronoun-· cing it. ']
 }
 ]
-    }
+    }, /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/{
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '9',
+title: 'SRISHTI-KHAND,THE  DESCRIPTION OF SHIVATATVA',
+headerStyle: { 'color': 'blue','font-weight': '1900','text-shadow': '1px 3px 4px aliceblue' , 'background-color': 'skyblue', 'opacity':'0.9', 'border':'3px darkslateblue outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand9.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<ol><li>On hearing his own eulogy from the mouth of Vigm, the delighted Siva, the store-house of kindness, revealed Himself to us along with his consort. </li>' +
+'<li>He had five faces and three eyes, and the crescent moon on his forehead. He wore matted hair. He was white-complexioned and had wide eyes. His body had been dusted with the ashes. He had ten arms. His neck was blue in colour. He was bedecked with all ornaments. He was very handsome with respect to every limb. Three ash-lines marked His forehead. </li>' +
+'<li>On seeing lord Siva accompanied by His beautiful consort, Visnu along with me eulogised Him again with appropriate words. </li>' +
+'<li>Siva, the merciful, who was delighted breathed the Vedas into Visnu and conferred Perfect Knowledge on him, the secret of the supreme Atman. 0 sage, thereafter, out of sympathy, the supreme Atman conferred these on me too. </li>' +
+'<li>After receiving the VedasJ Visnu was satisfied and bowing to Hi1n with palms joined in reverence along with me, he asked the lord Siva. </li>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<li>"0 Lord, How are you propitiated? How shall I worship you, 0 lord? How shall I meditate on you? How are you impressed by any one ? </li>' +
+'<li> 0 Great God, tell us what at Thy bidding shall we ever- do ? Please command us, 0 Siva, do this to favour us. </li>' +
+'<li>0 Great lord, be merciful to tell us all these things. 0 Siva, we are your followers. Taking this into mind, you will enlighten us on these and other similar points too~ </li>' +
+'<li>He saw the syllable "M" in the middle and Nada (the mystical sound) in the form "Om" .in the end. He saw the first syllable on the right like the blazing sphere of the sun. 0 foremost of sages, thereafter he saw the syllable "U" dazzling like fire. In the middle he saw the syllable "M" glittering like the lunar sphere. Above that what he saw was the supreme Brahman, the greatest refuge. It had the lustre of the pure crystal. It was the pure Being ,beyond the Fourth ( Turiya ), the unsullied & free from extraneous harassment. It was free from mutually clashing opposites. It was single (isolated), void, free from exterior and interior though stationed in the exterior and the interior, devoid of beginning, middle and end, the primordial cause of Bliss, the truth, The Bliss and the Nectar. </li>' +
+'<li>Visnu thus meditated on the universal soul enveloped by the two Vedic sounds and wished to examine the source whence the Fire-column arose and to go deep down the unequalled fiery column. Then there came a sage who told him the essence of the truth. </li>' +
+'<li>Visnu realised that the sage himself was the great lord and the supreme Brahman embodied in the Sabda Brahman. (i.e. the mystic syllable Om). </li>' +
+'<li>The Brahman is Rudra free from worries. The words and the mind are incapable of comprehending it; without reaching it they return. It can be expressed by the single-syllabled mantra "Om". </li>' +
+'<li>The supreme Brahman, the Truth, the Bliss, the Amrta, the greatest of the great and the ultimate cause can be expressed by the single-syllabled mantra. </li>' +
+'<li>The single syllable "A" is the source of the lord Brahma. The single syllable "U" is the source of Visnu, the ultimate cause. </li>' +
+'<li>The single syllable "M" is the source of Rudra. The creator is expressed by the letter "A". The enchanter is expressed by the letter "U" </li>' +
+'<li>The being expressed by the letter "M" blesses always. It is all pervasive and progenitor; the letter "A" is the seed. </li>' +
+'<li>The being expressed by the letter "U" is Visnu. It is the source, the receptacle, the lord of primordial nature and primordial being, the progenitor, the seed, source and sound. All these constitute Lord Siva. </li>' +
+'<li>The progenitor is stationed after dividing itself. From the linga of the progenitor, the lord, arose the seed-- the syllable "A" </li>' +
+'<li>The Bija being deposited in the Yoni, the letter "U" began to increase all round. It became a golden egg. It was something known which could not be delineated. </li>' +
+'<li>The divine egg floated in the waters for many years. Then at the end of a thousand years, it split into two giving birth to. Brahma. </li>' +
+'<li>The egg floating in the waters on being hit by Isvara split into two. The auspicious golden upper lid became the upper region and the lower one became the Earth of five characteristics. From (the inner part of) the egg was born the four-faced lord ( Brahma) expressed by the letter "KA" </li>' +
+'<li>He is the creator of all the worlds. He alone is the lord manifesting in three forms. Persons well-versed in the Yajurveda call it Orh O.rh. </li>' +
+'<li>On hearing the words of the Yajurveda, both the Rigveda and the Samaveda respectfully called us then Visnu and Brahma.</li>' +
+'<li>Then realising the lord of the Gods we eulogised, as far as we could, Lord Siva, the cause of great achievement. </li>' +
+'<li>Visnu, the protector of the universe, in the meantime, saw another wonderfully beautiful form, along with me. </li>' +
+'<li>On seeing that wonderful form, Visnu and I became satisfied. The form had five faces, ten arms, and a complexion white as camphor, 0 sage. It had diverse brilliant features. It was decorated in different ornaments. It was highly liberal and endowed with great prowess. It had all the characteristics of a great man. </li>' +
+'<li>Thereafter, the lord Siva was pleased. Revealing his form embedded in letters He laughingly stood before us. . </li>' +
+'<li>The short letter "A" is His head. The long letter "A" is His forehead. The letter "I" is His right eye and the letter \'I\' His left eye. </li>' +
+'<li>The letter "U" is His right ear and the letter "0" His left ear. The letter "R" is the right cheek of that great lord. </li>' +
+'<li>"R" is His left cheek. The two letters "l" "!", are His nostrils. The letter "E" is His upper lip and the letter "Al" is His lower lip. </li>' +
+'<li>The letter "O" and the letter "AU" are respectively the two rows of his teeth. The letters "AM" and "AH" [Anusvara and Visarga] are his palates. </li>' +
+'<li>The five letters beginning with KA [ie KA, KHA, GA, GHA and N A] are His five hands on the right side. The five letters beginning with CA [i.e. CA, CH, JA, JHA and NA] are His hands on the left side. · </li>' +
+'<li>Similarly the five letters beginning with TA and the five letters beginning with TA constitute His legs. The letter PA is His belly and the letter PHA is !{is right side. </li>' +
+'<li>The letter BA is His left side. The  letter BHA is His shoulder. The Jetter MA is the heart of the great yogin Mahadeva. ·</li>' +
+'<li>The letters YA, RA, LA, VA, SA, ~A and SA are the seven Dhatus (vital secretions) of the lord. The letter HA is His umbilicus and the letter K~A is His nose. </li>' +
+'<li>Visnu and I became contented on seeing this letter-embedded form of the Sagul).a manifestation of Nirguna lord in the company of U rna. </li>' +
+'<li>On seeing Lord Siva in the form of the letterembedded Brahman, Visnu bowed down along with me and looked up again. </li>' +
+'<li>The mantra beginning with Omkara with its Kalas five in number, consisting of the auspicious thirty-eight syllables, being pure as crystal, increases intelligence and is an effective medium of accomplishing sacred rites. The mantras in the Gayatri metre of twenty-four syllables and having four Kalas are conducive to enjoyment. The fivesyllabled mantra of eight Kalas consisting of thirty syllables is employed for black magic. Mantras of Yajurveda consisting of twenty-five syllables and eight Kalas are used for conciliatory purpose. The mantra of thirteen Kalas consisting of sixty-one syllables is conducive to outcome, increase and destruction. </li>' +
+'<li>The lord Visnu secured these five mantras:Mrtyunjaya mantra, five-syllabled mantra, Cintamani mantra, Daksinamurti mantra and the "tattvamasi" mantra which is Hara\'s Mahavakya. Lord Visnu performed Japa by means of these mantras.</li>' +
+'<li>The lord Visnu and I being glad at heart eulogised the boon-bestowing lord Siva with appropriate words,-Siva who was seen in the form of Kalas, Varnas (syllables), Rk, Yajus, Saman, Is ana, Isa, Puratana Purusa (the ancient Being), the merciful, pleasing to the heart, hidden from all, ever ausp1cwus, a great deity, of beautiful feet, bedecked with huge serpents, with legs, eyes and hands extending on all sides, the lord of Brahma, and the cause of creation, sustenance and destruction of the world.· </li></ol>' +
+'<a href=\'#top\'><strong>Back To Top</strong></a></p>' ,
+notes: ['190. The pluta is a prolated vowel, as in Om, often marked with the figure three , as it contains three syllabic instant in pronoun-· cing it. ']
+}
+]
+}
 ];
