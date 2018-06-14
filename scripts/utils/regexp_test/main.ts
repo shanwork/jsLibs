@@ -1,10 +1,6 @@
 
-import { LikeComponent } from './like.component';
-import {XRegExp} from './XRegExp'
-let component = new LikeComponent(10, true);
-let xregexp = new XRegExp();
-component.onClick();
-console.log(`likesCount: ${component.likesCount}, isSelected: ${component.isSelected}`);
+import {StringSplitAndMore} from './stringSplitAndMore'
+let xregexp = new StringSplitAndMore();
 console.log('single parenths', xregexp.matchRecursive('()', '(A AND (B or E) and D)  OR (A AND C)'));
 let multiLayerObject = xregexp.matchRecursive('()', 'A AND (B OR C) AND (D OR E)', true);
 console.log('multiple', multiLayerObject.flatText, ':', multiLayerObject.parenthesized)
