@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var like_component_1 = require("./like.component");
+var XRegExp_1 = require("./XRegExp");
+var component = new like_component_1.LikeComponent(10, true);
+var xregexp = new XRegExp_1.XRegExp();
+component.onClick();
+console.log("likesCount: " + component.likesCount + ", isSelected: " + component.isSelected);
+console.log('single parenths', xregexp.matchRecursive('()', '(A AND (B or E) and D)  OR (A AND C)'));
+var multiLayerObject = xregexp.matchRecursive('()', 'A AND (B OR C) AND (D OR E)', true);
+console.log('multiple', multiLayerObject.flatText, ':', multiLayerObject.parenthesized);
+var noParenthObject = xregexp.matchRecursive('()', 'A AND E', true);
+console.log('no parenths:', noParenthObject.flatText);
