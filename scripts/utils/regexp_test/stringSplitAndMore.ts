@@ -9,7 +9,7 @@
 // 'unwrapped': optional, default false, if true, returns 'OR' in addition to the array
 // return  
 export class  StringSplitAndMore {
-    matchRecursive(pattern:string, inputStr: string, unwrapped=false ){
+    stringToJSON(pattern:string, inputStr: string, unwrapped=false ){
         let patParams = pattern.split('');
         let pattList = inputStr.split('');
         let pattInd = 0, parenthCount=0;
@@ -58,4 +58,6 @@ export class  StringSplitAndMore {
          
 
     }
+    
+    
 }
