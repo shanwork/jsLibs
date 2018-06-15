@@ -7,5 +7,7 @@ The code I've written is an attempt to be clean, not using JavaScript specific f
 ### stringToJSON:
  Ihe API used is to split a string by boundary pair e.g '()' splits '(A and B) or (B and C)' into an array with ['A and B', 'B and C']; optionally a string like 'TOP AND (A and B) or (B and C)' will return an object with a string 'TOP AND' and the array  ['A and B', 'B and C']
 
+ Also note the 'parenthCount' variable which increments and decrements - eliminating the need to use a stack in this context
+ (forgive the naming of the label, I used parentheses in this POC but you could use any opposig character pair like '< >' or '[ ]')
  main.ts applies this to a complex nested expression.. 
  Go look at it!!
