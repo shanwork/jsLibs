@@ -15,6 +15,8 @@ export class  StringSplitAndMore {
         let pattInd = 0, parenthCount=0;
         let splitString = [];
         let unwrappedText = '';
+        let unwrappedElement = '';
+        let unwrappedList = [];
         let stringElement = '';
         while (pattInd < pattList.length){
            switch (pattList[pattInd]){
@@ -22,6 +24,11 @@ export class  StringSplitAndMore {
                if (parenthCount++ > 0){
                    stringElement += pattList[pattInd];
                 }
+                if (parenthCount <= 1){
+                    unwrappedList.push(unwrappedElement);
+                    unwrappedElement='';
+                }
+
                 break;
                 
                 case patParams[1]:
@@ -46,13 +53,18 @@ export class  StringSplitAndMore {
                 }
                 else if (parenthCount == 0){
                     unwrappedText += pattList[pattInd];
+                    unwrappedElement += pattList[pattInd];
                 }
                   break
            }
            pattInd++;
         } 
+        if (unwrappedElement !== ''){
+            unwrappedList.push(unwrappedElement);
+        }
             return {
                 flatText: unwrappedText,
+                flatList:unwrappedList,
                 parenthesized: splitString
             }
          

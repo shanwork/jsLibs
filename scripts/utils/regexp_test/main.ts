@@ -13,17 +13,30 @@ let treeObject = {
     childBranch:[]
 
 }
-console.log(JSON.stringify(nestedExpression('A and (B OR C OR (D AND E)) and (Z AND Y AND (T 2))')) ;
+let testExpressions = [
+    'A and (B OR C OR (D AND E)) and (Z AND Y AND (T 2))',
+    'A AND B AND C',
+    '((W AND X) OR (Y AND Z) OR (A OR (B AND C)))'
+]
+
+for (let k = 0; k < testExpressions.length;k++){
+    console.log('Raw expression');
+    console.log(testExpressions[k]);
+    console.log('JSON');
+    console.log(JSON.stringify(nestedExpression(testExpressions[k]) );
+}
+
 function nestedExpression(flatInput:any){
     let returnTree = {
         flatText: '',
+        flatList:[],
         childBranch:[]
     
     };
-    console.log('#', flatInput)
     let iterativeObject = xregexp.stringToJSON('()',flatInput, true);
     returnTree.flatText = iterativeObject.flatText;
-    console.log('#', iterativeObject.flatText)
+    returnTree.flatList = iterativeObject.flatList;
+   // console.log('#', iterativeObject.flatList)
     if (iterativeObject.parenthesized.length > 0){
         for (let i = 0; i < iterativeObject.parenthesized.length;i++){
             returnTree.childBranch.push( nestedExpression(iterativeObject.parenthesized[i]));
