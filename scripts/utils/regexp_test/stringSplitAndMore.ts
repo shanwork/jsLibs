@@ -70,6 +70,31 @@ export class  StringSplitAndMore {
          
 
     }
+    JSONToString(pattern:any, inputObject:any){
+        let outputString = '';
+        let patternList = pattern.split('');
+        console.log(JSON.stringify(inputObject));
+        if (inputObject.parenthesized.length > inputObject.flatList.length){
+            for (let parInd = 0, flatInd=0 ; parInd < inputObject.parenthesized.length;parInd++, flatInd++){
+                if (flatInd < inputObject.flatList.length){
+                        outputString += inputObject.flatList[flatInd];
+
+                }
+                outputString += '(' + inputObject.parenthesized[parInd] + ')' ;
+            }
+        }
+        else {
+            for (let parInd = 0, flatInd=0 ; flatInd < inputObject.flatList.length;parInd++, flatInd++){
+                
+                outputString += inputObject.flatList[flatInd];
+
+                if (parInd < inputObject.parenthesized.length){
+                    outputString += '(' + inputObject.parenthesized[parInd] + ')' ;
+                }
+            }
+        }
+        return outputString;
+    }
     
     
 }

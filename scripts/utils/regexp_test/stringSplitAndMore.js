@@ -69,6 +69,28 @@ var StringSplitAndMore = /** @class */ (function () {
             parenthesized: splitString
         };
     };
+    StringSplitAndMore.prototype.JSONToString = function (pattern, inputObject) {
+        var outputString = '';
+        var patternList = pattern.split('');
+        console.log(JSON.stringify(inputObject));
+        if (inputObject.parenthesized.length > inputObject.flatList.length) {
+            for (var parInd = 0, flatInd = 0; parInd < inputObject.parenthesized.length; parInd++, flatInd++) {
+                if (flatInd < inputObject.flatList.length) {
+                    outputString += inputObject.flatList[flatInd];
+                }
+                outputString += '(' + inputObject.parenthesized[parInd] + ')';
+            }
+        }
+        else {
+            for (var parInd = 0, flatInd = 0; flatInd < inputObject.flatList.length; parInd++, flatInd++) {
+                outputString += inputObject.flatList[flatInd];
+                if (parInd < inputObject.parenthesized.length) {
+                    outputString += '(' + inputObject.parenthesized[parInd] + ')';
+                }
+            }
+        }
+        return outputString;
+    };
     return StringSplitAndMore;
 }());
 exports.StringSplitAndMore = StringSplitAndMore;

@@ -25,6 +25,9 @@ for (let k = 0; k < testExpressions.length;k++){
     console.log('JSON');
     console.log(JSON.stringify(nestedExpression(testExpressions[k]) );
 }
+let outputJSON = xregexp.stringToJSON('()','A AND (B OR C) AND D', true);
+console.log('Full Test, string to JSON',JSON.stringify(outputJSON));
+console.log('Full Test, JSON to string',xregexp.JSONToString('()', outputJSON));
 
 function nestedExpression(flatInput:any){
     let returnTree = {
@@ -43,5 +46,4 @@ function nestedExpression(flatInput:any){
         }
     }
     return returnTree;
-
-}
+ }
