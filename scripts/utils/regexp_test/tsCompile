@@ -1,3 +1,4 @@
 rm *.js
 tsc main.ts --target ES5
+clear
 node main.js

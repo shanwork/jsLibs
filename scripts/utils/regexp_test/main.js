@@ -4,6 +4,7 @@ var stringSplitAndMore_1 = require("./stringSplitAndMore");
 var xregexp = new stringSplitAndMore_1.StringSplitAndMore();
 console.log('single parenths', xregexp.stringToJSON('()', '(A AND (B or E) and D)  OR (A AND C)'));
 var multiLayerObject = xregexp.stringToJSON('()', 'A AND (B OR C) AND (D OR E)', true);
+console.log(JSON.stringify(multiLayerObject));
 console.log('multiple', multiLayerObject.flatText, ':', multiLayerObject.parenthesized);
 var noParenthObject = xregexp.stringToJSON('()', 'A AND E', true);
 console.log('no parenths:', noParenthObject.flatText);
