@@ -1237,5 +1237,72 @@ notes: ['200. According to the Paura:o.ic concept, the turbulent and foamy sea k
 ' 201;. Taraputras - the children of Daitya Taraka who was. conquered by Indra with the help of Skanda-the son of Siva. The episode is the central theme of Kalidasa\'s:.Kumarasambhava. ']
 }
 ]
+}, /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '13',
+title: 'SRISHTI-KHAND,WORSHIPPING SHIVA: THE MODE OF WORSHIPPING SHIVA',
+headerStyle: { 'color': 'brown','font-weight': '1900','text-shadow': '1px 3px 4px brown' , 'background-color': 'white', 'opacity':'0.9', 'border':'2px gray inset', 'border-radius':'4px;'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand11.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span><br/>' + 
+'<ol><li>0 sages, 0 devas, listen. Now I shall explain a mode of worship than which there is no better one and which is conducive to the achievement of all happiness and cherished desires.</li>' +
+'<li> Getting up in the Brahma Muhiirta within an hour before dawn one shall remember Siva accompanied by his consort. With palms joined in great devotion and head bent down he shall offer prayers.</li>' +
+'<li> 0 lord   devas, get up, get up. 0 lord stationed in the heart, get up. 0 lord of Uma, get up. Confer your auspi- cius blessings on the entire universe.</li>' +
+'<li>I know what is virtuous, but I am not inclined to work it up. I know what is unrighteous but I am unable to desist from it. 0 J.viahadeva, I do everything as promp- ted by you, stationed in my heart.</li>' +
+'<li>After repeating these words of prayer and remem- bering the sandals of the preceptor he shall go out to the southern direction for answering the calls of nature.</li>' +
+'<li>Cleaning the body thereafter with earth and water and washing his hands and feet he shall clean the teeth.</li>' +
+'<li> Cleaning of the teeth shall be completed before sunrise. He shall gargle sixteen times with so many mouthfuls of water.</li>' +
+'<li>0 celestial sages, the Tithis of navami as well as new moon days and sundays are forbidden for cleaning the teeth with tooth brush twigs.</li>' +
+'<li>Bath shall be taken at a convenient time in rivers or in the house itself. No man shall take bath against the conventions of locality or the convenience of the season. </li>' +
+'<li>Hot water bath shall be avoided on sundays, Sraddha days, Sarikranti days, at the times of eclipse, on days of Great Charity and fast, in holy centres and during the days of impurity due to death or birth in the family. In the holy ponds and rivers one shall take bath facing the east with great devotion.</li>' +
+'<li>Oil bath shall be taken on particular days of the week according to convention in the society. If one is accus- tomed to take oil bath everyday or if one is using scented oil breaking the  convention, it is not faulty.</li>' +
+'<li>Otherwise one should avoid Sraddha days, days of eclipse, fast days and the first day of the luner fortnight for oil baths. Except on the days of eclipse mustard oil can be used on other days.</li>' +
+'<li>Bath shall be taken after due consideration of the place and season duly. He shall face either the north or the east when taking bath.</li>' +
+'<li>He shall never take bath wearing another man\'s clothes. He shall take bath in pure clothes and shall think on his favourite deities.</li>' +
+'<li>If he wears during the night another man\'s clothes, the same are not impure, hence there is no harm in taking bath with those clothes on but after taking bath they must be washed and returned.</li>' +
+'<li>After bath he shall perform water libation propitia- ting gods, sages and the manes. Thereafter washed and dried clothes shall be worn and Acamana performed again. </li>' +
+'<li> In a clean place washed and smeared with cow-·dung, the devotee shall take his seat, 0 Brahmins.</li>' +
+'<li> The seat shall be made of wood or a cloth-cover. A seat of diverse colours is conducive to the achievement of all desires.</li>' +
+'<li>Or he can have the hide of a deer for a seat. He shall sit on it and apply Tripundara with the ashes.</li>' +
+'<li>Prayers, penance and charity shall be performed with due markings of TripundAra on the forehead for sureesults. If ashes are not available marking may be done with· holy water. </li>' +
+'<li>... </li></ol>' +
+'<a href=\'#top\'><strong>Back To Top</strong></a></p>' ,
+notes: []
+}
+]
 }
 ];
