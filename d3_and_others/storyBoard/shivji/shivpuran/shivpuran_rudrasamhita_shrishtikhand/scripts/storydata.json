@@ -1340,5 +1340,81 @@ notes: ['202 Siddhi and Buddhi are personified as the wives of Ganesa, the wn of
         '203 8 siddhis are:<br/> Aṇimā: Ability to reduce one\'s size<br/>Mahima: Ability to increase one\'s size<br/>Garima: Ability to increase one\'s weight infinitely<br/>Laghima: Ability to become lighter than the lightest<br/>Prāpti: Ability to Obtain anything<br/>Prākāmya: Ability to acquire anything desired<br/>Iṣiṭva: Lordship over creation<br/>Vaśitva: Having control over things<br/>']
 }
 ]
+}, /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '14',
+title: 'SRISHTI-KHAND,WORSHIPPING SHIVA: DIRECTIONS FOR THE WORSHIP OF SHIVA',
+headerStyle: { 'color': 'yellow','font-weight': '1900','text-shadow': '1px 2px 2px white' , 'background-color': '#332288', 'opacity':'0.9', 'border':'2px yellow outset', 'border-radius':'3px;', 'padding': '10px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand11.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' + 
+'<ol><li>0 disciple of Vyasa, 0 fortunate one, please explain to us authoritatively the fruits granted by Siva for the diffe- rent worships with different flowers..</li>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' + 
+'<li> 0 sages, Saunaka and others, please listen attentively. I shall lovingly explain to you the mode of offering flowers which is the same as Brahma explained to Narada at his request.</li>' + 
+'<br/><em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>' + 
+'<li>A person desirous of wealth shall worship lord Siva with lotuses, Bilva leaves, petals of lotuses or with Sarikha flowers.</li>' +
+'<li>0 Brahmin, ·if a devotee worships Siva with a hundred flowers, his sins shall be wiped off and the devotee shah ·become rich.</li>' + 
+'<li>Twenty full lotuses constitute one prastha measure. A Thousand Bilva leaves constitute half a Prastha.</li>' + 
+'<li>Petals of lotuses, a thousand in number constitute half a prastha. Ten Tanka weight constitutes one pala and sixteen palas make one prastha.</li>' + 
+'<li>Flowers for worship shall be weighed in the balance according to this calculation. The worship thus duly per- formed shall accord all cherished desires. If the devotee worships with no specific desires he will become Siva himself.</li>' + 
+'<li>0 lordly sages, a person desirous of obtaining a kingdom shall propitiate Lord Siva with the worship of a hundred million earthen lingas. Lord Siva confers a king-dom on the devotee certainly. He shall use Sivalitiga for worship. Flowers shall be used. Unsplit rice grains mixed with sandal paste ·shall be used. The ceremonial ablution shall be performed. The manrta used shall be pleasing. ' + 
+'Bilva leaves are very excellent. Or he can use loose petals or full lotuses or Sankha flowers according to ancient authorities. The worship is divine and accords pleasures and achievement of desires both here and hereafter, He shall not omit other items such as incense, lamps, food-offerings, Arghya, Arartika (waving of lights), Namaskara,' +
+'(craving forgiveness and Visarjana) the ritualistic dismissal). At the end he shall feed other devotees.</li>' + 
+'<li>A person who yearns for important positions shall worship half the former number. A person desiring release from prison shall worship a hundred thousand litigas of Siva.</li>' + 
+'<li>A person afflicted by ailments shall worship half that number. A person desiring a daughter shall worship half that number.</li>' + 
+'<li>A person desirous of learning shall worship half that number. A person desirous of eloquence shall worship Siva with ghee.</li>' + 
+'<li>In order to drive out enemies, the number of worship is the same as before. For exterminating enemies, worship is for a hundred thousand times and for enchantment worship is half that number.</li>' +
+'<li>For the conquest of vassal kings, worship for ten million times is recommended, or keeping vassal kings under influence the same for ten thousand times is recommended.</li>' + 
+'<li>For achieving glory with plenty of vehicles, worship for a thousand times shall be performed. A person desiring salvation shall worship Siva five crores of times with deep devotion.</li>' + 
+'<li>A person seeking knowledge shall worship Siva, the benefactor of the world, ten million times. A person desiring Siva\'s vision shall worship Him five million times.</li>' + 
+'<li>The Mrtyunjaya mantra shall be repeated half a million times when Siva shall be visible to the devotee and fulfil his desires.</li>' + 
+'<li>If a person repeats the mantra a hundred thou- sand times and begins a second instalment he will be lifted to a higher caste. When he completes the third hundred thousand times all his worldly desires will be fulfilled. In the fourth he will be able to see the lord.</li>' + 
+'<li>When the fifty is completed, the lord will confer on him all benefits. When the same mantra is repeated a million times, the merit is tremendous.</li>' + 
+'<li>A person desirous of liberation shall worship him wjth Darbhas. 0 best of sages, the number everywhere Is a hundred thousand times.</li>' + 
+'<li>A person desirous of long life shall worship him with Durva grass. A person desirous of sons shall worship him with Dhattura flowers.</li>' + 
+'<li>A Dhattura plant with red stem is specially auspicious for worship. A worshipper using Agastya flowers will earn great fame.</li>' + 
+'<li>Worldly pleasures and salvation will be secured by a person who worships with Tulasi. Great valour can be secured by worshipping with Arka or Kubjakalhara flowers.</li>' + 
+'<li> The worship with Japa flowers (China rose) brings about the death of enemies. Karavira flowers drive away all ailments.</li>' + 
+'<li>By worshipping with Bandhiika flowers the devotee will get ornaments; with Jati flowers he will acquire good vehicles; with Atasi flowers he will attain favour of Visnu.</li>' + 
+'<li>With Sami leaves he will secure salvation. With Mallika flowers he will secure an auspicious woman.</li>' + 
+'<li>With the splendid Yii.thika flowers he will not be deprived of a house. With Karr:tikara flowers he will secure plenty of garments.</li></ol>' +
+'<a href=\'#top\'><strong>Back To Top</strong></a></p>' ,
+notes: []
+}
+]
 }
 ];
