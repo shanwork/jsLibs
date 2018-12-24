@@ -1506,7 +1506,10 @@ content: '<em><span style="font-weight:900;color:#FF000A;font-size:larger"> Nara
 '<em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> <br/>' +
 '<li>0 Vidhi, 0 Brahma, 0 wise one, I have a great doubt. Please remove the same.</li>' + 
 '<li>How is it that both of you assumed the forms of Swan and Boar instead of other forms ? Please tell me the reason for the same.</li>' + 
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li>On hearing these words of the noble-souled Narada,. Brahma spoke after remembering the lotus-like feet of Siva.</li>' + 
 '<li></li>' +
+
 '</ol>' +
 '<a href=\'#top\'><strong>Back To Top</strong></a></p>' ,
 notes: []
