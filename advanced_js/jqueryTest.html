@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+   <title>Delayed Queue</title>
+
+    <style>
+ 
+    .class1 {
+        background: #127869 ;
+        color: #FFC125;
+        border: 1px inset #005500 ;
+        margin: 2px ;
+        padding-left: 20px; 
+
+    }
+    .class2 {
+        background:pink  ;
+        color: #FF1A00  ;
+        border: 1px inset #AA3333  ;
+        margin: 2px ;
+        padding-left: 20px; 
+
+    }
+    .class1 {
+        background: #127869 ;
+        color: #FFC125;
+        border: 1px inset #005500 ;
+        margin: 2px ;
+        padding-left: 20px; 
+
+    }
+    .class2 {
+        background:pink  ;
+        color: #FF1A00  ;
+        border: 1px inset #AA3333  ;
+        margin: 2px ;
+        padding-left: 20px; 
+
+    }
+    </style>
+  </head>
+
+  <body>
+    <div>
+    <ul id='despatchList'></ul>
+    </div>
+    <span  id='hello'>HELLO WORLD </span>
+    <span  id='hello2'>HELLO WORLD </span>
+    <script src='jQuerySim.js' ></script>
+<script>
+var elementID 
+  var _$ = function(elementId){
+        elementID = elementId ;
+        return new _$.init(elementId);
+    }
+   _$.API = 
+   {
+       addClass: function(className) {
+           let elementId = document.querySelector('#hello');
+           if (elementId !== null) {
+                elementId.classList.add(className) ;
+           }
+           else alert('not found') ; 
+           return this;
+       } 
+    
+       
+    }  
+    
+    // like the constructor
+    _$.init = function(elementId)
+    {
+        return document.querySelector(elementId) ;
+    }
+    _$.init.prototype = _$.API;
+  //  global._$ = _$;
+//}(window)) ;
+
+ _$('hello').addClass('inProgress')   ;
+</script>
+   
