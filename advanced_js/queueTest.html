@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+   <title>Delayed Queue</title>
+
+    <style>
+    body {
+      font-family: helvetica, sans-serif;
+      width: 450px;
+    }
+    label {
+      font-weight: bold;  
+    }
+    div {
+      padding: 20px;
+      border: 3px groove black ;
+      background: aliceblue ;
+
+    }
+    input[type="text"] {
+      padding: 5px;
+      width: 150px;
+    }
+    p {
+      background: #FFC125;
+      color: #5E2612;
+      padding: 10px;
+      visibility: hidden;
+    }
+    .inProgress {
+        background: #127869 ;
+        color: #FFC125;
+        border-radius: 2px ;
+        border: 1px solid #EEB011; ;
+        margin: 2px ;
+        padding-left: 20px; 
+
+    }
+    .ended {
+        background:pink  ;
+        color: #FF1A00  ;
+        border: 2px solid #AA3333  ;
+        margin: 2px ;
+        padding-left: 20px; 
+         
+
+    }
+    ul {
+        padding:0px;
+        margin:0px;
+        margin-bottom: 15px;
+    }
+    li {
+       padding: 5px ;
+       list-style-type: none; 
+       border-radius: 3px;
+       font-family:"Times New Roman", Times, sans-serif;
+       width:auto ;
+    }
+    button {
+        padding: 3px ;
+        background: silver ;
+        color: #223333 ;
+        border: 1px outset black ;
+        border-radius: 5px;
+
+    }
+    </style>
+  </head>
+
+  <body>
+    <div>
+        <h4>Sample Counter API Test </h4>
+    <ul id='despatchList'></ul>
+    
+      <button  id='startDespatch'>Start Job</button>
+      <button  id='endDespatch'>End Job Tracker</button>
+      <button  id='abortDespatch'>Abort(interupt)</button>
+      <button  id='restart'>Restart</button>
+  </div>
+ <script src='queueLib.js' ></script>
+<script src='queueTest.js' ></script>
+   
