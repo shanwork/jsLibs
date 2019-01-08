@@ -10,46 +10,63 @@ dynamicQueue.init = function(){
 
 // API... 
 dynamicQueue.API = {
+  jobs: [],
   runningJobHandles:[],
   jobMonitorHandles:[],
   
+  initialize: function(jobs) {
+    this.jobs = jobs ;
+  },
   // remove after the object is tested 
   showObject: function() {
     console.log(this) ;
   },
   // wrapper around the timer start and end closure functions
-  pollQueue: function(timer, agenter) {
+  pollQueue: function(timer, job) {
     var self = this;
     let startCount = 0 ;
     
     // closure fn to  start new job
-    function initTimer(count, agenter){
+    function initTimer(count, job){
       let agentTimer = window.setInterval( function() {
-        if (agenter.currentCount < agenter.maxCount){
-          agenter.currentCount++ ;
+        if (job.currentCount < job.maxCount){
+          job.currentCount++ ;
         }
         if (self.displayRunStatus) { 
-          self.displayRunStatus(agenter) ; 
+          self.displayRunStatus(job) ; 
         }
         console.log(count++,`\b`) ;
-      }, agenter.pollInterval) ;
+      }, job.pollInterval) ;
       self.runningJobHandles.push(agentTimer) ;
       return agentTimer ;
     }
     
     let itemCount = 0 ;
-    let counter = initTimer(itemCount, agenter) ;
+    let counter = initTimer(itemCount, job) ;
     
     let timerTracker = window.setInterval( function() {
-      if (agenter.currentCount >= agenter.maxCount) {
+      if (job.currentCount >= job.maxCount) {
         window.clearInterval(counter) ;
         if (self.displayEndStatus) { // coding sense but awfull english
-          self.displayEndStatus(agenter) ;
+          self.displayEndStatus(job) ;
         }      
-        console.log('Completed: ', agenter.name ) ;
+        console.log('Completed: ', job.name ) ;
       }}, timer) ;
     this.jobMonitorHandles.push(timerTracker) ;
   }, 
+  startJobs: function(newUI=true, restart=false ) {  
+    for (job of this.jobs ){
+      if (restart === true) {
+        this.reset(job) ;
+      }
+      if (newUI === true && this.displayInitialize !== null) {
+          this.displayInitialize(job) ;
+
+      }
+    this.pollQueue(2000, job) ;
+  }
+    
+  },
   stopTracker: function() {
      if (this.jobMonitorHandles.length > 0 ){
       for ( var i = 0; i < this.jobMonitorHandles.length; ++i ){
@@ -85,10 +102,19 @@ dynamicQueue.API = {
     
     
   },
-  reset: function(agenter) {
-    agenter.currentCount = 0 ;
+  reset: function(job) {
+    job.currentCount = 0 ;
     
   },
+  addJob: function(job) {
+    this.jobs.push(job) ;
+    if (this.jobMonitorHandles.length > 0 ){
+      this.displayInitialize(job) ;
+      this.abort() ;
+      this.startJobs(false) ;
+    }
+  },
+  displayInitialize:null,
   displayRunStatus:null, 
   displayEndStatus:null, 
   
