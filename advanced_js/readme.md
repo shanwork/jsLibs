@@ -17,4 +17,7 @@ The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/
 
 ##### API  
   ###### Usage  
-  *(view the accompanying queueTest.js and .html files )*
+  ~~~~ Javascript 
+  var myDespatch = dynamicQueue() ;
+  ~~~~
+  *(view the accompanying **queueTest.js** and **.html** files )*
