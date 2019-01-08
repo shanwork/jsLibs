@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+   <title>Deli Delivery Center</title>
+   <style>
+   body {
+       margin: 40px ;
+       padding:20px;
+       border: 5px outset #971900 ;
+       border-radius: 10px ;
+       background:   #FFAA10 ;
+       
+   }
+   div 
+   {
+       margin: 20px;
+       padding: 10px;
+       border: 2px groove gray;
+       border-radius: 5px ;
+       background: silver ;
+   }
+   .active {
+       float:left;
+    border: 2px groove #015502;
+    color: #015502;
+       border-radius: 5px ;
+       background: rgb(39, 236, 233) ;
+       width:42%;
+ 
+   }
+   .standby {
+       float:right;
+    border: 2px groove #455026;
+    color: #455026;
+       border-radius: 5px ;
+       background: rgb(236, 203,39) ;
+       width:42%;
+ 
+   }
+   .inProgress {
+        background: #127869 ;
+        color: #FFC125;
+        border-radius: 2px ;
+        border: 1px solid #EEB011; ;
+        margin: 2px ;
+        padding-left: 20px; 
+
+    }
+    .ended {
+        background:pink  ;
+        color: #FF1A00  ;
+        border: 2px solid #AA3333  ;
+        margin: 2px ;
+        padding-left: 20px; 
+         
+
+    }
+   </style>
+       <script src='queueLib.js' async></script>
+       <script src='carryOutDeli.js' defer></script>
+   
+ </head>
+ <body>
+    <div style='min-height:450px; padding-bottom: 20px;'>
+    <div class='active'>
+        Agents en route
+        <ul id='despatchList'></ul>
+    
+    
+    </div>
+    <div class='standby'>
+        Agents awaiting
+        <ul id='waitingList'></ul>
+    </div>
+    <button  id='startDespatch'>Start Job</button>
+    <button  id='endDespatch'>End Job Tracker</button>
+    <button  id='abortDespatch'>Abort(interupt)</button>
+    <button  id='restart'>Restart</button>
+    <button  id='addJob'>Add Job</button>
+</div>
+ </body>

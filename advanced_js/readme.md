@@ -8,7 +8,8 @@ As of today there the contents of this folder include the  files
 **queueTest.js**, and **queueTest.html**: apply the above API.
 
 The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/queueTest.html)
-
+_(More advanced usage where two queues exist, one started and in progress, and one completed. When clicking the restart button, the completed items transfer back to the in progress ones
+click [here](http://www.use-my-software.com/myapp/newJS/carryOutDeli.html) )_
 #### Current queueLib API and usage
 * At this point, the API is in a transit phase. 
 * The intended functionality is divided between **queueLib.js** (API) and **queueTest.js**, where code will be moved over from the latter file to the former and made into API format. 
