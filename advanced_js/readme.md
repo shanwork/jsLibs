@@ -38,10 +38,14 @@ myDespatch.initialize(agents) ;
   ~~~~
 
 ##### API  
-**initialize(list)** Initializes the queue with a _**list**_ of job objects *( see above example for object structure )*
+**initialize(list)** 
+Initializes the queue with a _**list**_ of job objects *( see above example for object structure )*
 
-**pollQueue(timer, job)** Starts the polling for a job.. wrapper around a two closure functions which:  start the job and monitor the end condition,  and terminate when it is reach, respectively
-***startJobs()*** runs the polling for the list of job objects *(internally calls **pollQueue**)*
+**pollQueue(timer, job)** 
+Starts the polling for a job.. wrapper around a two closure functions which:  start the job and monitor the end condition,  and terminate when it is reach, respectively
+
+***startJobs()*** 
+runs the polling for the list of job objects *(internally calls **pollQueue**)*
 
 
   *(view the accompanying **queueTest.js** and **.html** files )*
