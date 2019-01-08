@@ -11,9 +11,9 @@ The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/
 
 
 _(More advanced usage where two queues exist, one started and in progress, and one completed. When clicking the restart button, the completed items transfer back to the in progress ones
-click [here](http://www.use-my-software.com/myapp/newJS/carryOutDeli.html) 
+click [here](http://www.use-my-software.com/myapp/newJS/carryOutDeli.html) __
 
-**Note** This is WIP, and styling, texts are not the greatest!!!
+__**Note** This is WIP, and styling, texts are not the greatest!!!
 )_
 #### Current queueLib API and usage
 * At this point, the API is in a transit phase. 
