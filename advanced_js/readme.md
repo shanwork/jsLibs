@@ -16,8 +16,23 @@ The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/
 * **queueTest.js** gives this list and instantiates the queue, also provides the callbacks for how to display each job status when running or completed.
 
 ##### API  
-  ###### Usage  
+  ###### Usage 
+  The object is called ***dynamicQueue*** 
   ~~~~ Javascript 
   var myDespatch = dynamicQueue() ;
+  var agents = [
+  {
+ displayName: 'Team a rapid project',
+ name: 'Team_a_Project',
+ maxCount: 20,
+ pollInterval: 500,  
+ currentCount: 0 
+},{
+  displayName: 'Team b long project',
+ name: 'Team_b_Project',
+ maxCount: 20,
+ pollInterval: 2000,
+ currentCount: 0 
+}];
   ~~~~
   *(view the accompanying **queueTest.js** and **.html** files )*
