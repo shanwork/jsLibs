@@ -42,8 +42,12 @@ myDespatch.initialize(agents) ;
 Initializes the queue with a _**list**_ of job objects *( see above example for object structure )*
 
 **pollQueue(timer, job)** 
-Starts the polling for a job.. wrapper around a two closure functions which:  start the job and monitor the end condition,  and terminate when it is reach, respectively
-
+Starts the polling for a job.. wrapper around a two closure functions which:  start the job and monitor the end condition,  and terminate when it is reach, respectively.
+The two functions mentioned return _**window.setInterval**_ objects which are stored in two arrays: 
+ ~~~~ Javascript 
+runningJobHandles:[],
+  jobMonitorHandles:[],
+ ~~~~
 ***startJobs()*** 
 runs the polling for the list of job objects *(internally calls **pollQueue**)*
 
