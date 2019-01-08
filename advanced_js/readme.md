@@ -15,11 +15,9 @@ The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/
 * **queueLib.js** needs a list of *job* objects to run.  
 * **queueTest.js** gives this list and instantiates the queue, also provides the callbacks for how to display each job status when running or completed.
 
-
-  ##### Usage 
+###### Usage 
   The object is called ***dynamicQueue*** 
   ~~~~ Javascript 
-  // Sample initialization
   var myDespatch = dynamicQueue() ;
   var agents = [
   {
@@ -38,5 +36,12 @@ The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/
 
 myDespatch.initialize(agents) ;
   ~~~~
+
 ##### API  
+**initialize(list)** Initializes the queue with a _**list**_ of job objects *( see above example for object structure )*
+
+**pollQueue(timer, job)** Starts the polling for a job.. wrapper around a two closure functions which:  start the job and monitor the end condition,  and terminate when it is reach, respectively
+***startJobs()*** runs the polling for the list of job objects *(internally calls **pollQueue**)*
+
+
   *(view the accompanying **queueTest.js** and **.html** files )*
