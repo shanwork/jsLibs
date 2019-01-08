@@ -53,7 +53,23 @@ dynamicQueue.API =  {
 }
  ~~~~
 ***startJobs()*** 
-runs the polling for the list of job objects *(internally calls **pollQueue**)*
+Runs the polling for the list of job objects *(internally calls **pollQueue**)*
 
+***stopTracker()*** 
+Uses window.clearInterval to stop the monitoring jobs and clears the **jobMonitorHandles** array
+
+***stopAgents()*** 
+Uses window.clearInterval to stop the running jobs and clears the **runningJobHandles** array.
+
+**abort()** 
+Suspends the run. *(internally calls the **stopTracker** and **stopAgents**)*
+
+**addJob(job)** 
+Adds a job. pauses the run to pick up the new element into the queue, and then resume
+
+**FUNCTION HANDLES**  to be provided by the user. _format **function(job)**_
+**displayInitialize:** 
+**displayRunStatus****
+**displayEndStatus****
 
   *(view the accompanying **queueTest.js** and **.html** files )*
