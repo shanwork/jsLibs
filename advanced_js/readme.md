@@ -68,8 +68,11 @@ Suspends the run. *(internally calls the **stopTracker** and **stopAgents**)*
 Adds a job. pauses the run to pick up the new element into the queue, and then resume
 
 **FUNCTION HANDLES**  to be provided by the user. _format **function(job)**_
+
 **displayInitialize:** 
-**displayRunStatus****
-**displayEndStatus****
+
+**displayRunStatus**
+
+**displayEndStatus**
 
   *(view the accompanying **queueTest.js** and **.html** files )*
