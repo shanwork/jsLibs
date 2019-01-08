@@ -70,9 +70,37 @@ Adds a job. pauses the run to pick up the new element into the queue, and then r
 **FUNCTION HANDLES**  to be provided by the user. _format **function(job)**_
 
 **displayInitialize:** 
-
+~~~~ Javascript
+//sample
+myDespatch.displayInitialize = function(agenter) {
+  let li = document.createElement('li');
+    li.className =  'inProgress' ;
+    li.id = agenter.name + '_listItem' ;
+    document.getElementById('despatchList').appendChild(li) ;
+    
+}
+~~~~
 **displayRunStatus**
-
+~~~~ Javascript
+//sample
+myDespatch.displayRunStatus = function(agenter) {
+  let li = document.getElementById(agenter.name + '_listItem') ;
+  console.log('Display', li) ;
+  if (li){
+    li.className =  'inProgress' ;
+    li.textContent = agenter.displayName + ', count:  ' + agenter.currentCount + '/' + agenter.maxCount + ', polling: ' + agenter.pollInterval;
+  }
+}
+~~~~
 **displayEndStatus**
-
+~~~~ Javascript
+//sample
+myDespatch.displayEndStatus = function(agenter) {
+let li = document.getElementById(agenter.name + '_listItem') ;
+        if (li){
+          li.textContent = 'Completed: ' + agenter.currentCount ;
+          li.className =  'ended' ;
+        }
+}
+~~~~
   *(view the accompanying **queueTest.js** and **.html** files )*
