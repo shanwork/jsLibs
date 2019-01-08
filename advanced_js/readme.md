@@ -15,5 +15,6 @@ The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/
 * **queueLib.js** needs a list of *job* objects to run.  
 * **queueTest.js** gives this list and instantiates the queue, also provides the callbacks for how to display each job status when running or completed.
 
-##### API   
-*details coming soon!!! *
+##### API  
+  ###### Usage  
+  *(view the accompanying queueTest.js and .html files )*

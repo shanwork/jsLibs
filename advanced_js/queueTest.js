@@ -46,7 +46,7 @@ myDespatch.displayRunStatus = function(agenter) {
   console.log('Display', li) ;
   if (li){
     li.className =  'inProgress' ;
-    li.textContent = agenter.displayName + ', count:  ' + agenter.currentCount ;
+    li.textContent = agenter.displayName + ', count:  ' + agenter.currentCount + '/' + agenter.maxCount + ', polling: ' + agenter.pollInterval;
   }
 }
 myDespatch.displayEndStatus = function(agenter) {
@@ -129,13 +129,15 @@ else alert('restart not found') ;
 
 if(addJob){
   addJob.addEventListener('click', function(){
-    newId = Math.round(Math.random()*100) ;
+    let newId = Math.round(Math.random()*100) ;
+    let maxCount = Math.round(Math.random()*100) ;
+    let pollInterval = maxCount > 60? 800: maxCount > 40? 900: 1200 ;
     var newJob =  
     {
      displayName: 'Team ' + newId + ' quick project',
     name: 'Team_' + newId + '_Project',
-    maxCount: 25,
-    pollInterval: 1500,
+    maxCount: maxCount,
+    pollInterval: pollInterval,
     currentCount: 0 
    }
      myDespatch.addJob(newJob) ;
