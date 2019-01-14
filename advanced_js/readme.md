@@ -95,11 +95,17 @@ This is something that can be used to delete the element in the _**displayIniiti
 **displayInitialize:** 
 ~~~~ Javascript
 //sample
-myDespatch.displayInitialize = function(agenter) {
+myDespatch.displayInitialize = function(agenter, index=-1) {
   let li = document.createElement('li');
     li.className =  'inProgress' ;
     li.id = agenter.name + '_listItem' ;
-    document.getElementById('despatchList').appendChild(li) ;
+    let despatchList = document.getElementById('despatchList') ;
+     if (index > -1){
+      despatchList.insertBefore(li, despatchList.childNodes[index]); 
+    }
+    else {
+      despatchList.appendChild(li) ;
+    }
     
 }
 ~~~~
