@@ -25,17 +25,20 @@ click [here](http://www.use-my-software.com/myapp/newJS/carryOutDeli.html)
   The object is called ***dynamicQueue*** 
   ~~~~ Javascript 
   var myDespatch = dynamicQueue() ;
+  // structure of job object(s) is an example list
   var agents = [
   {
  displayName: 'Team a rapid project',
  name: 'Team_a_Project',
  maxCount: 20,
+ deliveryIndex: 0,
  pollInterval: 500,  
  currentCount: 0 
 },{
   displayName: 'Team b long project',
  name: 'Team_b_Project',
  maxCount: 20,
+ deliveryIndex: 1,
  pollInterval: 2000,
  currentCount: 0 
 }];
@@ -72,7 +75,20 @@ Suspends the run. *(internally calls the **stopTracker** and **stopAgents**)*
 
 **addJob(job, index=-1)** 
 Adds a job. pauses the run to pick up the new element into the queue, and then resume
+_*parameters*_
+* job = job to be added
+* index = if -1, appended to the end of the queue, if >-0, inserted at that position in the queue
 
+**deleteJob(job, index=-1)** 
+ Remove a job. pauses the run to remove the element from the queue, and then resume
+_*parameters*_
+* job = job to be deleted
+* index = if -1, deleted from the end of the queue, if >-0, deleted from that position in the queue
+
+_**Both addJob and deleteJob work in conjunction with displayInitialize (if it is present) to dynamically update the UI. 
+for deletion, the _**deliveryIndex**_ field of the object being deleted is set to -1. 
+This is something that can be used to delete the element in the _**displayIniitialize**_ callback
+**_
 **FUNCTION HANDLES**  to be provided by the user. _format **function(job)**_
 
 **displayInitialize:** 
