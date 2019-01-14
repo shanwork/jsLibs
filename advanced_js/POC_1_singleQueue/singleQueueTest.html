@@ -7,17 +7,13 @@
    <title>Deli Delivery Center</title>
    <style>
    body {
-       margin: 40px ;
-       padding:20px;
-       border: 5px outset #971900 ;
-       border-radius: 10px ;
        background:   #FFAA10 ;
-       
+
    }
    div 
    {
-       margin: 20px;
-       padding: 10px;
+       margin: 5px;
+       padding: 2px;
        border: 2px groove gray;
        border-radius: 5px ;
        background: silver ;
@@ -26,11 +22,9 @@
        list-style-type: none ;
    }
    .button-row {
-       border:none ;
-       margin:auto ;
+       border:1px solid black  ;
        width:95%;
-       float:left;
-       margin-bottom:5px ;
+       float:left; 
 
    }
    .active {
@@ -39,7 +33,7 @@
     color: #015502;
        border-radius: 5px ;
        background: rgb(39, 236, 233) ;
-       width:40%;
+       width:48%;
        margin-right:2px;
        margin-left:5px;
  
@@ -50,7 +44,7 @@
     color: #455026;
        border-radius: 5px ;
        background: rgb(236, 203,39) ;
-       width:40%;
+       width:48%;
        margin-right:5px;
        margin-left:2px;
  
@@ -71,7 +65,7 @@
         border-radius: 2px ;
         border: 1px solid #EEB011; ;
         margin: 2px ;
-        padding-left: 20px; 
+        padding-left: 5px; 
 
     }
     .ended {
@@ -79,54 +73,40 @@
         color: #FF1A00  ;
         border: 2px solid #AA3333  ;
         margin: 2px ;
-        padding-left: 20px; 
+        padding-left: 5px; 
          
 
     }
    </style>
-       <script src='queueLib.js' defer></script>
+       <script src='../queueLib.js' defer></script>
        <script src='deliveryQueue.js' defer></script>
    
  </head>
  <body>
-    <div style='min-height:450px; padding-bottom: 20px;width:43%;float:left;'>
+    <div style='min-height:450px; padding-bottom: 20px;width:98%;float:left;'>
     <div class='active'>
         Orders, Delivering ...
         <ul id='despatchList'></ul>
     
-    
+        <div class='button-row'> 
+            <button  id='startDespatch'>Start Job</button>
+            <button  id='endDespatch'>End Job Tracker</button>
+            <button  id='abortDespatch'>Abort(interupt)</button>
+            <button  id='restart'>Restart</button>
+            <br/>
+            <button  id='addJob'>Add Job at end</button>
+            <button  id='insertJob0'>Insert Job (Top priroty)</button>
+            <button  id='insertJob3'>Insert Job Between</button>
+            <button  id='popJob'>Delete Last Job</button>
+            <button  id='shiftJob'>Delete first Job</button>
+            <button  id='spliceJob'>Delete mid Job</button>
+           </div>
     </div>
     <div class='standby'>
         Orders Delivered, available...
         <ul id='waitingList'></ul>
     </div>
-    <div class='button-row'> 
-    <button  id='startDespatch'>Start Job</button>
-    <button  id='endDespatch'>End Job Tracker</button>
-    <button  id='abortDespatch'>Abort(interupt)</button>
-    <button  id='restart'>Restart</button>
-    <br/>
-    <button  id='addJob'>Add Job</button>
-    <button  id='insertJob0'>Insert Job (Top priroty)</button>
-    <button  id='insertJob3'>Insert Job Between</button>
-    <button  id='popJob'>Add Job</button>
+   
     </div>
-    </div>
-    <div style='min-height:450px; padding-bottom: 20px;width:43%;float:right;'>
-        <div class='active'>
-            Orders, Pending
-            <ul id='despatchList'></ul>
-        
-        
-        </div>
-        <div class='standby'>
-            Orders, completed
-            <ul id='waitingList'></ul>
-        </div>
-        <button  id='startDespatch'>Start Job</button>
-        <button  id='endDespatch'>End Job Tracker</button>
-        <button  id='abortDespatch'>Abort(interupt)</button>
-        <button  id='restart'>Restart</button>
-        <button  id='addJob'>Add Job</button>
-  
+    
  </body>

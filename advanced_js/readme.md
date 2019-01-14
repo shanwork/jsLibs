@@ -70,7 +70,7 @@ Uses window.clearInterval to stop the running jobs and clears the **runningJobHa
 **abort()** 
 Suspends the run. *(internally calls the **stopTracker** and **stopAgents**)*
 
-**addJob(job)** 
+**addJob(job, index=-1)** 
 Adds a job. pauses the run to pick up the new element into the queue, and then resume
 
 **FUNCTION HANDLES**  to be provided by the user. _format **function(job)**_

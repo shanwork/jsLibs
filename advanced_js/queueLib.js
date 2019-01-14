@@ -106,14 +106,47 @@ dynamicQueue.API = {
     job.currentCount = 0 ;
     
   },
-  addJob: function(job) {
-    this.jobs.push(job) ;
+  // Job addition and deletion
+  // ... queue
+  addJob: function(job, index=-1) {
+    switch (index){
+      case -1:
+      this.jobs.push(job) ; // as name suggests, push
+        break ;
+      case 0:
+        this.jobs.unshift(job) ;
+        break ;
+      default: this.jobs.splice(index, 0, job) ;
+        break ;
+    }
     if (this.jobMonitorHandles.length > 0 ){
-      this.displayInitialize(job) ;
+      this.displayInitialize(job,index) ;
       this.abort() ;
       this.startJobs(false) ;
     }
   },
+  deleteJob: function(index=-1 ) {
+    let deletedJob = null ;
+    switch (index){
+      case -1:
+      deletedJob = this.jobs.pop() ; // as name suggests, push
+        break ;
+      case 0:
+      deletedJob = this.jobs.shift() ;
+        break ;
+      default: deletedJob = this.jobs.splice(index, 1, job) ;
+        break ;
+    }
+    if (deletedJob !== null) {
+      deletedJob.deliveryIndex = -1 ;
+    }
+    if (this.jobMonitorHandles.length > 0 ){
+      this.displayInitialize(deletedJob) ;
+      this.abort() ;
+      this.startJobs(true) ;
+    }
+  },
+  
   displayInitialize:null,
   displayRunStatus:null, 
   displayEndStatus:null, 
