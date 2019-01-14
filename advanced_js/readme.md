@@ -85,7 +85,7 @@ _*parameters*_
 * job = job to be deleted
 * index = if -1, deleted from the end of the queue, if >-0, deleted from that position in the queue
 
-_**Both addJob and deleteJob work in conjunction with displayInitialize (if it is present) to dynamically update the UI. 
+_Both **addJob** and **deleteJob** work in conjunction with displayInitialize (if it is present) to dynamically update the UI. 
 for deletion, the _**deliveryIndex**_ field of the object being deleted is set to -1. 
 This is something that can be used to delete the element in the _**displayIniitialize**_ callback**_
 **FUNCTION HANDLES**  to be provided by the user. _format **function(job)**_
