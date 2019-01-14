@@ -87,8 +87,7 @@ _*parameters*_
 
 _**Both addJob and deleteJob work in conjunction with displayInitialize (if it is present) to dynamically update the UI. 
 for deletion, the _**deliveryIndex**_ field of the object being deleted is set to -1. 
-This is something that can be used to delete the element in the _**displayIniitialize**_ callback
-**_
+This is something that can be used to delete the element in the _**displayIniitialize**_ callback**_
 **FUNCTION HANDLES**  to be provided by the user. _format **function(job)**_
 
 **displayInitialize:** 
