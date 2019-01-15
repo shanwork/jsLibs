@@ -1,5 +1,7 @@
 {
-  "employees": [
-          {"id":231,"Name":"test231 123","Salary":123,"Age":23,"profile_image":""}
-  ]
+  "employees-flattened": [
+          {"id":1,"Designation": "CEO", "Direct-Report-Ids": [2,4,5,6], "Name":"Super Boss 123","Salary":123,"Age":23,"profile_image":""}
+           {"id":2,"Designation": "CTO", "Direct-Report-Ids": [11,23,22,12], "Name":"Top Boss 1","Salary":123,"Age":23,"profile_image":""}
+           {"id":2,"Designation": "CFO", "Direct-Report-Ids": [12,25,23,32], "Name":"Top Boss 2","Salary":123,"Age":23,"profile_image":""}
+ ]
 }
