@@ -1,0 +1,14 @@
+var  changeDefault  = document.querySelector('#changeDefault') ;
+var startDespatch = document.querySelector('#startDespatch') ;
+var endDespatch = document.querySelector('#endDespatch') ;
+var abortDespatch = document.querySelector('#abortDespatch') ;
+var restart = document.querySelector('#restart') ;
+var restart1 = document.querySelector('#restart1') ;
+var addJob = document.querySelector('#addJob') ;
+var insertJob0 = document.querySelector('#insertJob0') ;
+var insertJob3 = document.querySelector('#insertJob3') ;
+var popJob = document.querySelector('#popJob') ;
+var shiftJob = document.querySelector('#shiftJob') ;
+var spliceJob = document.querySelector('#spliceJob') ;
+var despatchList = document.querySelector('#despatchList') ;
+var agentWaitingList = document.querySelector('#agentWaitingList') ;

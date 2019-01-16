@@ -133,4 +133,10 @@ function randomize(single=false, job=null) {
 
   return ;
 }
- 
+function setActiveStatus( controlList, disable=true){
+  controlList.forEach(element => {
+    if (element) {
+      element.disabled = disable ;
+    }
+  });
+}
