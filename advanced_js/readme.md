@@ -100,12 +100,18 @@ myDespatch.displayInitialize = function(agenter, index=-1) {
     li.className =  'inProgress' ;
     li.id = agenter.name + '_listItem' ;
     let despatchList = document.getElementById('despatchList') ;
-     if (index > -1){
-      despatchList.insertBefore(li, despatchList.childNodes[index]); 
-    }
-    else {
-      despatchList.appendChild(li) ;
-    }
+    // delete 
+    if(agenter.deliveryIndex === -1){
+        despatchList.removeChild(despatchList.childNodes[i])
+     }// insert or append
+     else {
+        if (index > -1){
+          despatchList.insertBefore(li, despatchList.childNodes[index]); 
+        }
+        else {
+          despatchList.appendChild(li) ;
+        }
+     }
     
 }
 ~~~~

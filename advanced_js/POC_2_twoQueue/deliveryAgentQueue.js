@@ -11,10 +11,10 @@ myDespatch.initialize(agents) ;
 myDespatch.displayInitialize = function(agenter, index=-1) {
   
   let exists = false ;
-  if(waitingList && waitingList.childNodes.length > 0){
-    for (i = waitingList.childNodes.length-1 ; i >=0;i--){
-        if(waitingList.childNodes[i].id=== agenter.name + '_listItem'){
-            despatchList.appendChild(waitingList.childNodes[i]) ;
+  if(agentWaitingList && agentWaitingList.childNodes.length > 0){
+    for (i = agentWaitingList.childNodes.length-1 ; i >=0;i--){
+        if(agentWaitingList.childNodes[i].id=== agenter.name + '_listItem'){
+            despatchList.appendChild(agentWaitingList.childNodes[i]) ;
             exists = true ;
            break ;
         }
@@ -54,7 +54,8 @@ myDespatch.displayRunStatus = function(agenter) {
     let destination =  deliveryAddresses[agenter.deliveryIndex].name + ': ' + deliveryAddresses[agenter.deliveryIndex].address 
     li.className =  'inProgress' ;
 
-    li.innerHTML = agenter.displayName + '<br/>Delivery:  ' + destination + '<br/>' + agenter.currentCount / 10 + ' of' + agenter.maxCount/10  + ' miles' ;
+    li.innerHTML = agenter.displayName + '<br/>Progress: '   + agenter.currentCount / 10 + ' of' + agenter.maxCount/10  + ' miles' ;
+    li.setAttribute('title', destination) ;
   }
 }
 myDespatch.displayEndStatus = function(agenter) {
@@ -63,8 +64,8 @@ let li = document.getElementById(agenter.name + '_listItem') ;
           let destination =  deliveryAddresses[agenter.deliveryIndex].name + ',<br/> ' + deliveryAddresses[agenter.deliveryIndex].address 
           li.innerHTML = agenter.displayName + '<br/>, Delivered to : ' + destination  ;
           li.className =  'ended' ;
-          if(waitingList){
-            waitingList.appendChild(li) ;
+          if(agentWaitingList){
+            agentWaitingList.appendChild(li) ;
           }
         }
 }

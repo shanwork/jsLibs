@@ -85,10 +85,10 @@
        list-style-type: none ;
    }
    </style>
-       <script src='../queueLib.js' defer></script>
-       <script src='deliveryQueueData.js' defer></script>
-       <script src='deliveryQueue.js' defer></script>
-       <script src='deliveryQueueEvents.js' defer></script>
+       <script src='queueLib.js' defer></script>
+       <script src='orderQueueData.js' defer></script>
+       <script src='orderQueue.js' defer></script>
+       <script src='deliveryAgentQueueEvents.js' defer></script>
   
  </head>
  <body>
@@ -109,7 +109,7 @@
     </div>
     <div class='active'>
         Orders, Delivering ...
-        <ul id='despatchList'></ul>
+        <ul id='orderDespatchList'></ul>
     
         <div class='button-row'> 
             <button  id='startDespatch'>Start Job</button>
@@ -127,10 +127,12 @@
            </div>
     </div>
     <div class='standby'>
-        Orders Delivered, available...
-        <ul id='waitingList'></ul>
+        Orders fulfilled
+        <ul id='orderWaitingList'></ul>
     </div>
    
     </div>
-    
+    <div>
+        
+    </div>
  </body>
