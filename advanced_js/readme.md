@@ -7,7 +7,7 @@ As of today there the contents of this folder include the  files
 
 **queueTest.js**, and **queueTest.html**: apply the above API.
 
-The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/queueTest.html)
+The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/singleQueueTest.html)
 
 
 _(More advanced usage where two queues exist, one started and in progress, and one completed. When clicking the restart button, the completed items transfer back to the in progress ones
