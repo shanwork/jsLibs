@@ -1,17 +1,16 @@
 ## Queuing API
-Using the asynchronous aspects of javascript, this is an 'iteratively building' API to create a multiple queue system, where it would, typically, be applied to a despatch system like a pizza delivery service or even an ambulance service
+Using the asynchronous aspects of javascript, this is an 'iteratively building' API to create a queue system, where it would, typically, be applied to a despatch system like a pizza delivery service or even an ambulance service
 
-As of today there the contents of this folder include the  files
-
-**queueLib.js** : starts, runs and updates a single set of jobs
-
-**queueTest.js**, and **queueTest.html**: apply the above API.
-
-The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/singleQueueTest.html)
+The library sits in the file:
+**queueLib.js** : which has the API to starts, run and update (including addig and deleting) a single set of jobs
 
 
-_(More advanced usage where two queues exist, one started and in progress, and one completed. When clicking the restart button, the completed items transfer back to the in progress ones
-click [here](http://www.use-my-software.com/myapp/newJS/carryOutDeli.html)
+#### Application/ Proof of Concept pages 
+Currently, the following iterations are availabe:
+
+1. Simple single thread, single list The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/queueTest.html)
+
+2. Single Thread but having two lists. click [here](http://www.use-my-software.com/myapp/newJS/singleQueueTest.html)
 
 **Note** This is WIP, and styling, texts are not the greatest!!!
 )_
