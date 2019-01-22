@@ -8,7 +8,7 @@ var deliveryAddresses = [
   {
     name: 'Ms Resident2',
     address: '15 first lane, sector 1, cosmo city, ST 12321',
-    distanceMetric: 105
+    distanceMetric: 125
   },
   {
     name: 'Ms Resident4',
