@@ -49,12 +49,12 @@ if (changeDefault){
   });
   }
   if (startDespatch) {
-    startTime = new Date() ;
     
     startDespatch.addEventListener('click', function(){
         let durat = document.querySelector('#durat');
       duration = Number(durat.value) ;
       alert('Starting with a duration of ' + duration  + 'minute(s)') ;
+      startTime = new Date() ;
       endTime = new Date(startTime.getTime() + duration * 60000).getTime() ;
       durationOver.style.display= "none" ;
       setActiveStatus(btnToggleList, false) ;

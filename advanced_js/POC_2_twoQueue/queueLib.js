@@ -133,12 +133,50 @@ dynamicQueue.API = {
     if (deletedJob !== null) {
       deletedJob.deliveryIndex = -1 ;
     }
-    if (this.jobMonitorHandles.length > 0 ){
+  //  if (this.jobMonitorHandles.length > 0 ){
+    if ( this.displayInitialize){
       this.displayInitialize(deletedJob) ;
+    }
       this.abort() ;
       this.startJobs(true) ;
-    }
+  // }
   },
+   /* Sample
+  var i = 0;
+  function testRandom(){
+    console.log(i++) ;
+  }
+  var rules = {
+    //fixedList: [1000, 2000, 500, 3000, 300] ,
+    randomRange: [1000, 3000] ,
+    maxIterations: 10
+    
+  
+  }
+  setRandomInterval(testRandom, rules) ;
+  */
+  setRandomInterval: function(callBack, rules) {
+    if (rules.fixedList != null) {
+      rules.fixedList.forEach((interval)=> {
+        console.log('executing:', interval);
+        window.setTimeout(callBack, interval) ;
+      });
+    }
+    else if (rules.randomRange != null && rules.maxIterations != null){
+      for (let i = 0 ; i < rules.maxIterations;i++){
+        let interval = Math.floor(Math.random()* rules.randomRange[1]) ;
+        if (interval < rules.randomRange[0]){
+          interval = rules.randomRange[0];
+        }
+        if (interval > rules.randomRange[1]){
+          interval = rules.randomRange[1];
+        }
+        console.log('executing:', interval);
+        window.setTimeout(callBack, interval) ;
+      } ;
+      }
+    },
+ 
   
   displayInitialize:null,
   displayRunStatus:null, 

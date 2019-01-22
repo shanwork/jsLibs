@@ -5,113 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
    <title>Job Queueing System</title>
-   <style>
-   body {
-       background:   #FFAA10 ;
-
-   }
-   div 
-   {
-       margin: 5px;
-       padding: 2px;
-       border: 2px groove gray;
-       border-radius: 5px ;
-       background: silver ;
-   }
-   div > #setUp {
-       background: beige ;
-   }
-   
-   .button-row {
-       border:1px solid black  ;
-       width:95%;
-       float:left; 
-
-   }
-   .active {
-       float:left;
-    border: 2px groove #015502;
-    color: #015502;
-       border-radius: 5px ;
-       background: rgb(39, 236, 233) ;
-       width:48%;
-       margin-right:2px;
-       margin-left:5px;
- 
-   }
-   .standby {
-       float:right;
-    border: 2px groove #455026;
-    color: #455026;
-       border-radius: 5px ;
-       background: rgb(236, 203,39) ;
-       width:48%;
-       margin-right:5px;
-       margin-left:2px;
- 
-   }
-   .start {
-        background:  #FFC125;
-        color: #127869;
-        border-radius: 2px ;
-        border: 1px solid #EEB011; ;
-        margin: 2px ;
-        padding-left: 20px; 
-
-    }
-   
-   .inProgress {
-        background: #127869 ;
-        color: #FFC125;
-        border-radius: 2px ;
-        border: 1px solid #EEB011; ;
-        margin: 2px ;
-        padding-left: 5px; 
-
-    }
-    .ended {
-        background:pink  ;
-        color: #FF1A00  ;
-        border: 2px solid #AA3333  ;
-        margin: 2px ;
-        padding-left: 5px; 
-         
-
-    }
-    .active    li {
-       list-style-type: none ;
-   }
-    .standby   li {
-       list-style-type: none ;
-   }
-   li > button {
-       border: 3px solid #127869;
-       margin-right:3px;
-       border-radius: 5px;
-       font-size: medium;
-       font-weight: 400;
-    }
-    li > button:disabled {
-       border: 3px solid #127869;
-       margin-right:3px;
-       border-radius: 5px;
-       font-size: medium;
-       font-weight: 400;
-       opacity: 0.3;
-    }
-  #startDespatch {
-       background: greenyellow;
-       border: 3px outset olive ;
-       margin-top:5px;
-    }
-    #summary > li:last-child {
-        margin-top: 10px;
-        border-top: 2px solid gray ;
-        list-style-type: none ;
-        width:95%;
-       
-    }
-   </style>
+   <link rel="stylesheet" type="text/css" href="advancedQueue.css">
        <script src='queueLib.js' defer></script>
        <script src='deliveryQueueData.js' defer></script>
        <script src='deliveryQueue.js' defer></script>
@@ -145,7 +39,7 @@
     
     </div>
     <div id='durationOver' style='display: none;color:brown; background: blanchedalmond;height:auto;'> </div>
-    <div class='active'>
+    <div class='jobDivs activeDelivery'>
         Jobs in progress
         <ul id='despatchList'></ul>
     
@@ -156,7 +50,7 @@
            
            </div>
     </div>
-    <div class='standby'>
+    <div class='jobDivs standbyDelivery'>
         Available jobs
         <ul id='waitingList'></ul>
     </div>

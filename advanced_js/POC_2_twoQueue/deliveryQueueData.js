@@ -6,22 +6,22 @@ var deliveryAddresses = [
     distanceMetric: 100
   },
   {
-    name: 'Ms Resident2',
+    name: 'Ms Resident2 and ms Resident3',
     address: '15 first lane, sector 1, cosmo city, ST 12321',
     distanceMetric: 105
   },
   {
-    name: 'Ms Resident4',
+    name: 'Ms Resident4, Ms Resident5, Mr Resident6',
     address: '34 fourth lane, sector 1, cosmo city, ST 12321',
     distanceMetric: 195
   },
   {
-    name: 'Mr Resident7',
+    name: 'Mr Resident7, Spunky the dog',
     address: '123 main street, sector 1, cosmo city, ST 12321',
     distanceMetric: 25
   },
   {
-    name: 'Ms. Resident8',
+    name: 'Ms. Resident8, Mr. Resident9, Tabby the Siamese',
     address: '231 main street, sector 1, cosmo city, ST 12321',
     distanceMetric: 55
   },
@@ -31,12 +31,12 @@ var deliveryAddresses = [
     distanceMetric: 120
   },
   {
-    name: 'Mr. Resident 11',
+    name: 'Mr. Resident 11 and \'family\' ',
     address: '1 third lane, sector 1, cosmo city, ST 12321',
     distanceMetric: 152
   },
   {
-    name: 'Mr Resident 12',
+    name: 'Mr Resident 12, Mr Resident 13, BirdieTalk the parrot',
     address: '15 fourth lane, sector 1, cosmo city, ST 12321',
     distanceMetric: 187
   },

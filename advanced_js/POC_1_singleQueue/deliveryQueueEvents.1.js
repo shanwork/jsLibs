@@ -1,4 +1,6 @@
 'use strict'
+
+
 /* Iteration 1 single agent single thread */ 
 var allTimers = [] ;
 var agent = {
@@ -26,8 +28,20 @@ var popJob = document.querySelector('#popJob') ;
 var shiftJob = document.querySelector('#shiftJob') ;
 var spliceJob = document.querySelector('#spliceJob') ;
 var despatchList = document.querySelector('#despatchList') ;
-var agentWaitingList = document.querySelector('#agentWaitingList') ;
-
+var waitingList = document.querySelector('#waitingList') ;
+var durationOver = document.querySelector('#durationOver') ;
+var btnToggleList = [
+  endDespatch,
+  abortDespatch ,
+  restart ,
+  restart1 ,
+  addJob ,
+  insertJob0,
+  insertJob3,
+  popJob,
+  shiftJob,
+  spliceJob 
+] ;
 if (changeDefault){
     changeDefault.addEventListener('click', function(){
       let durat = document.querySelector('#durat');
@@ -35,19 +49,24 @@ if (changeDefault){
   });
   }
   if (startDespatch) {
-    startTime = new Date() ;
     
     startDespatch.addEventListener('click', function(){
         let durat = document.querySelector('#durat');
       duration = Number(durat.value) ;
-      alert(duration) ;
+      alert('Starting with a duration of ' + duration  + 'minute(s)') ;
+      startTime = new Date() ;
       endTime = new Date(startTime.getTime() + duration * 60000).getTime() ;
+      durationOver.style.display= "none" ;
+      setActiveStatus(btnToggleList, false) ;
+       
     myDespatch.startJobs() ;
     let newTime = new Date().getTime() ;
     let poll = window.setInterval(() =>
     {
       if (newTime  >= endTime){
-        alert('Job looping over; completed job agents will not restart and the process waits for the remaining jobs to comp[ete') ;
+        durationOver.innerHTML = '<h5>DURATION OVER</H5> The stipulated duration of ' + duration + 'minute(s)  is reached; jobs in progress will run their course and complete, while available jobs remain unstarted.' ;
+        durationOver.style.display= "block" ;
+        setActiveStatus(btnToggleList) ;
         window.clearInterval(poll);
       }
       newTime = new Date().getTime() ;
@@ -72,13 +91,13 @@ if (changeDefault){
   }
   if(abortDespatch){
     abortDespatch.addEventListener('click', function(){
-      if(abortDespatch.innerHTML === 'Abort(interupt)') {
+      if(abortDespatch.innerHTML === 'Interupt') {
         myDespatch.abort() ;
         abortDespatch.innerHTML = 'Resume';
       }
       else if (abortDespatch.innerHTML === 'Resume') {
         myDespatch.startJobs(false) ;
-        abortDespatch.innerHTML = 'Abort(interupt)';
+        abortDespatch.innerHTML = 'Interupt';
       }
     }) ;
   }
@@ -134,9 +153,9 @@ if (changeDefault){
   }
   else alert('delete 1st job btn not found') ;
   
-  if (spliceJob ){
+  /*if (spliceJob ){
     spliceJob.addEventListener('click', function(){
       myDespatch.deleteJob(2) ;
     }) ;
   }
-  else alert('delete mid job btn not found') ;
+  else alert('delete mid job btn not found') ;*/
