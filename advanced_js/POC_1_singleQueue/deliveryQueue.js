@@ -53,8 +53,8 @@ myDespatch.displayRunStatus = function(agenter) {
   if (li){
     let destination =  deliveryAddresses[agenter.deliveryIndex].name + ': ' + deliveryAddresses[agenter.deliveryIndex].address 
     li.className = 'cells inProgress'; 
-    li.innerHTML = '<br/><span> Delivery by: <strong>' + agenter.displayName + '</strong>: distance covered: ' + agenter.currentCount / 10 + ' of ' + agenter.maxCount/10  + ' miles</span>' 
-    + '<br/><br/><span> <em style="font-weight:200;">To:</em>' + destination + '</span>'    ;
+    li.innerHTML = '<span> Delivery by: <strong>' + agenter.displayName + '</strong>: distance covered: ' + agenter.currentCount / 10 + ' of ' + agenter.maxCount/10  + ' miles</span>' 
+    + '<br/><span> <em style="font-weight:200;">To:</em>' + destination + '</span>'    ;
   }
 }
 myDespatch.displayEndStatus = function(agenter) {
@@ -62,8 +62,8 @@ let li = document.getElementById(agenter.name + '_listItem') ;
         if (li){
           let destination =  deliveryAddresses[agenter.deliveryIndex].name + ':' + deliveryAddresses[agenter.deliveryIndex].address 
           li.className = 'cells ended' ; 
-          li.innerHTML = '<br/><span> Delivered by: <strong>' + agenter.displayName + '</strong>: distance covered: ' +  agenter.maxCount/10  + ' miles</span>' 
-          + '<br/><br/><span> <em style="font-weight:200;">To:</em>' + destination + '</span>'    ;
+          li.innerHTML = '<span> Delivered by: <strong>' + agenter.displayName + '</strong>: distance covered: ' +  agenter.maxCount/10  + ' miles</span>' 
+          + '<br/><span> <em style="font-weight:200;">To:</em>' + destination + '</span>'    ;
        if(waitingList){
             waitingList.appendChild(li) ;
           }

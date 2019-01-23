@@ -13,6 +13,12 @@
   
  </head>
  <body>
+    <div id='toggleHelpDiv' style='position: fixed; top: 28px; right:30px;display:inline'>
+    <button id='toggleHelpBtn' >Toggle Help visibility</button>
+    Looping Duration: 
+    <input type='text' id='durat' value='1' style='width:30px; border:2px inset gray; margin-left:12px ;'></input> Minutes. <button  id='startDespatch'>Start Queue</button>
+            
+</div>
     <div style='min-height:450px; padding-bottom: 20px;width:98%;float:left;'>
     <div id='setUp'> 
     <ul id='summary'>
@@ -24,7 +30,6 @@
            <li>To give a different duration enter a new value before clicking 'Start Queue' 
            </li>
            <li>
-            <button  id='startDespatch'>Start Queue</button>
             <button  id='abortDespatch'>Interupt</button>
             <button  id='restart'>Restart All </button>
             <button  id='restart1'>Restart 1st </button>
@@ -41,7 +46,8 @@
     <div id='durationOver' style='display: none;color:brown; background: blanchedalmond;height:auto;'> </div>
     <div class='jobDivs activeDelivery'>
         Jobs in progress
-        <ul id='despatchList'></ul>
+        <ul id='despatchList'>
+        </ul>
     
         <div class='button-row' style='display:none';> 
             <button  id='startDespatch'>Start Job</button>

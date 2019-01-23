@@ -14,7 +14,7 @@ var globalComplete;
 var startTime ;
 var endTime ;
 var duration = 1.0 ;
-
+var  toggleHelpBtn   = document.querySelector('#toggleHelpBtn') ;
 var  changeDefault  = document.querySelector('#changeDefault') ;
 var startDespatch = document.querySelector('#startDespatch') ;
 var endDespatch = document.querySelector('#endDespatch') ;
@@ -30,7 +30,10 @@ var spliceJob = document.querySelector('#spliceJob') ;
 var despatchList = document.querySelector('#despatchList') ;
 var waitingList = document.querySelector('#waitingList') ;
 var durationOver = document.querySelector('#durationOver') ;
-var btnToggleList = [
+let setUp = document.querySelector('#setUp') ;
+    var jobDivActive = document.querySelector('.jobDivs.activeDelivery') ;
+    var jobDivStandby = document.querySelector('.jobDivs.standbyDelivery') ;
+    var btnToggleList = [
   endDespatch,
   abortDespatch ,
   restart ,
@@ -42,6 +45,26 @@ var btnToggleList = [
   shiftJob,
   spliceJob 
 ] ;
+if (toggleHelpBtn)
+{
+  toggleHelpBtn.addEventListener('click', () => {
+    if (setUp){
+      if (!setUp.style.display || setUp.style.display=='block')
+          {
+      setUp.style.display='none';
+      if (jobDivActive && durationOver.style.display !== 'block'){
+        jobDivActive.style.marginTop='65px'
+        jobDivStandby.style.marginTop='65px'
+      }
+      }
+      else {
+        setUp.style.display='block';
+        jobDivActive.style.marginTop='5px'
+        jobDivStandby.style.marginTop='5px'
+      }
+   }
+  })
+}
 if (changeDefault){
     changeDefault.addEventListener('click', function(){
       let durat = document.querySelector('#durat');
@@ -67,7 +90,11 @@ if (changeDefault){
         durationOver.innerHTML = '<h5>DURATION OVER</H5> The stipulated duration of ' + duration + 'minute(s)  is reached; jobs in progress will run their course and complete, while available jobs remain unstarted.' ;
         durationOver.style.display= "block" ;
         setActiveStatus(btnToggleList) ;
-        window.clearInterval(poll);
+        if (jobDivActive){
+          jobDivActive.style.marginTop='5px'
+          jobDivStandby.style.marginTop='5px'
+        }
+   window.clearInterval(poll);
       }
       newTime = new Date().getTime() ;
       myDespatch.jobs.forEach((job)=> {
