@@ -12,6 +12,8 @@ div
 }
 div > #setUp {
     background: beige ;
+    display: none;
+              
 }
 
 .jobDivs {
@@ -30,6 +32,7 @@ div > #setUp {
     background: rgb(39, 236, 233) ;
     margin-right:2px;
     margin-left:5px;
+    margin-top: 65px;
 }
 .standbyDelivery {
     float:right;
@@ -38,6 +41,7 @@ div > #setUp {
     background: rgb(255, 180,39) ;
     margin-left:2px;
     margin-right:5px;
+    margin-top: 65px ;
 }
 .deliveredOrders {
     float:left;

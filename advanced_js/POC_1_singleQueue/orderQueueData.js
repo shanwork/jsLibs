@@ -45,17 +45,17 @@ var orders  = [
    unitCost: 6.99,
    totalCost: 0 ,
    maxCount: 500,
-   deliveryIndex: 0,
+   deliveryIndex: -1,
    pollInterval: 500,  
    currentCount: 0 
   },{
     displayName: 'white bread buns',
     orderId: 2,
-    quantity: 15,
+    quantity: 7,
     unitCost: 6.99,
     totalCost: 0 ,
     maxCount: 500,
-    deliveryIndex: 0,
+    deliveryIndex: -1,
     pollInterval: 500,  
     currentCount: 0 
    },
@@ -67,7 +67,7 @@ var orders  = [
     totalCost: 0 ,
     name: 'PeterS',
     maxCount: 500,
-    deliveryIndex: 0,
+    deliveryIndex: -1,
     pollInterval: 500,  
     currentCount: 0 
    },
@@ -79,7 +79,9 @@ var orders  = [
     totalCost: 0 ,
     name: 'PeterS',
     maxCount: 500,
-    deliveryIndex: 0,
+    deliveryIndex: -1,
     pollInterval: 500,  
     currentCount: 0 
    }] ;
+
+   var deliveryList = [] ;

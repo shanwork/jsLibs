@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width">
    <title>Job Queueing System</title>
    <link rel="stylesheet" type="text/css" href="deliveryQueue.css">
-       <script src='queueLib.js' defer></script>
+       <script src='../queueLib.js' defer></script>
        <script src='deliveryQueueData.js' defer></script>
        <script src='deliveryQueue.js' defer></script>
        <script src='deliveryQueueEvents.js' defer></script>
@@ -14,13 +14,12 @@
  </head>
  <body>
     <div id='toggleHelpDiv' style='position: fixed; top: 28px; right:30px;display:inline'>
-    <button id='toggleHelpBtn' >Toggle Help visibility</button>
-    Looping Duration: 
-    <input type='text' id='durat' value='1' style='width:30px; border:2px inset gray; margin-left:12px ;'></input> Minutes. <button  id='startDespatch'>Start Queue</button>
-            
-</div>
+        <button id='toggleHelpBtn' >Show Description and other buttons</button>
+        Looping Duration: 
+        <input type='text' id='durat' value='1' style='width:30px; border:2px inset gray; margin-left:12px ;'></input> Minutes. <button  id='startDespatch'>Start Queue</button> 
+    </div>
     <div style='min-height:450px; padding-bottom: 20px;width:98%;float:left;'>
-    <div id='setUp'> 
+    <div id='setUp' style='display: none'> 
     <ul id='summary'>
         <h4> Despatch Queue P.O.C.</h4>
         <li>On the left side is a set of executing jobs, each shown in green background.</li>

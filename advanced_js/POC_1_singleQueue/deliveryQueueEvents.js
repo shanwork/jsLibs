@@ -49,19 +49,21 @@ if (toggleHelpBtn)
 {
   toggleHelpBtn.addEventListener('click', () => {
     if (setUp){
-      if (!setUp.style.display || setUp.style.display=='block')
+      if (setUp.style.display==='block')
           {
-      setUp.style.display='none';
-      if (jobDivActive && durationOver.style.display !== 'block'){
-        jobDivActive.style.marginTop='65px'
-        jobDivStandby.style.marginTop='65px'
-      }
-      }
-      else {
-        setUp.style.display='block';
-        jobDivActive.style.marginTop='5px'
-        jobDivStandby.style.marginTop='5px'
-      }
+            toggleHelpBtn.innerHTML = 'Show Description and other buttons';
+            setUp.style.display='none';
+            if (jobDivActive && durationOver.style.display !== 'block'){
+              jobDivActive.style.marginTop='65px';
+              jobDivStandby.style.marginTop='65px';
+            }
+          }
+          else {
+            toggleHelpBtn.innerHTML = 'Hide Description and other buttons';
+            setUp.style.display='block';
+            jobDivActive.style.marginTop='5px' ;
+            jobDivStandby.style.marginTop='5px' ;
+          }
    }
   })
 }

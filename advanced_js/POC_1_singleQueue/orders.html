@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
    <title>Order Queueing System</title>
-   <link rel="stylesheet" type="text/css" href="advancedQueue.css">
-       <script src='queueLib.js' defer></script>
+   <link rel="stylesheet" type="text/css" href="orderQueue.css">
+       <script src='../queueLib.js' defer></script>
        <script src='deliveryQueueData.js' defer></script>
        <script src='orderQueueData.js' defer></script>
        <script src='orderQueue.js' defer></script>
@@ -15,6 +15,12 @@
  </head>
  <body>
     <div style='min-height:450px; padding-bottom: 20px;width:98%;float:left;'>
+        <div id='toggleHelpDiv' style='position: fixed; top: 28px; right:30px;display:inline'>
+            <button id='toggleHelpBtn' >Show Description and other buttons</button>
+            Looping Duration: 
+            <input type='text' id='durat' value='1' style='width:30px; border:2px inset gray; margin-left:12px ;'></input> Minutes. <button  id='startOrderDespatch'>Start Orders</button> 
+        </div>
+        
     <div id='setUp'> 
     <ul id='summary'>
         <h4> Order Queue P.O.C.</h4>
@@ -32,19 +38,22 @@
     
     </div>
     <div id='durationOver' style='display: none;color:brown; background: blanchedalmond;height:auto;'> </div>
-    <div class='jobDivs deliveredOrders'>
+    <div class='orderLists deliveredOrders'>
         Orders: Processed and Delivered
-        <ul id='orderDeliveredList'></ul>
+        <ul id='orderDeliveredList'>
+        </ul>
     
       
     </div>
-    <div class='jobDivs deliveringOrders'>
+    <div class='orderLists deliveringOrders'>
             Orders: Processed and Delivering
-            <ul id='orderDeliveryWaitingList'></ul>
+            <ul id='orderDeliveryWaitingList'>
+             </ul>
     </div>
-    <div class='jobDivs processingOrders'>
+    <div class='orderLists processingOrders'>
             Orders: New and process status
-            <ul id='orderProcessWaitingList'></ul>
+            <ul id='orderProcessWaitingList'>
+             </ul>
         </div>
        
     </div>
