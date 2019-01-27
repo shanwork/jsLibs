@@ -42,7 +42,7 @@ dynamicQueue.API = {
           window.clearInterval(agentTimer) ;
          }   
       
-        console.log(count++,`\b`) ;
+   //     console.log(count++,`\b`) ;
       }, job.pollInterval) ;
       self.runningJobHandles.push(agentTimer) ;
       return agentTimer ;
@@ -171,7 +171,6 @@ dynamicQueue.API = {
         if (interval > rules.randomRange[1]){
           interval = rules.randomRange[1];
         }
-        console.log('executing:', interval);
         window.setTimeout(callBack, interval) ;
       } ;
       }
