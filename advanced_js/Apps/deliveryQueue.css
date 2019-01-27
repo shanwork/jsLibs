@@ -1,0 +1,179 @@
+body {
+    background:   #FFAA10 ;
+
+}
+div 
+{
+    margin: 5px;
+    padding: 2px;
+    border: 3px groove gray;
+    border-radius: 7px ;
+    background: silver ;
+}
+div > #setUp {
+    background: beige ;
+    display: none;
+              
+}
+
+.jobDivs {
+    width:48%;
+   border: 3px inset;
+    border-radius: 4px ;
+}
+#despatchList, #waitingList
+{
+    padding: 0px 5px;
+}
+.activeDelivery {
+    float:left;
+    border-color:  yellowgreen;
+    color: #015502;
+    background: rgb(39, 236, 233) ;
+    margin-right:2px;
+    margin-left:5px;
+    margin-top: 65px;
+}
+.standbyDelivery {
+    float:right;
+    border-color:  lightsalmon;
+    color: #455026;
+    background: rgb(255, 180,39) ;
+    margin-left:2px;
+    margin-right:5px;
+    margin-top: 65px ;
+}
+.deliveredOrders {
+    float:left;
+    width:30%;
+    border-color:  yellowgreen;
+    color: #015502;
+    background: rgb(39, 236, 233) ;
+    margin-right:2px;
+    margin-left:5px;
+}
+.deliveringOrders {
+    float:left;
+    width:30%;
+    border-color:  yellowgreen;
+    color: #015502;
+    background: rgb(39, 236, 233) ;
+    margin-right:2px;
+    margin-left:5px;
+}
+.processingOrders {
+    float:left;
+    width:30%;
+    border-color:  lightsalmon;
+    color: #455026;
+    background: rgb(255, 180,39) ;
+    margin-left:2px;
+    margin-right:5px;
+}
+
+.start {
+     background:  #FFC125;
+     color: #127869;
+     border-radius: 2px ;
+     border: 1px solid #EEB011; ;
+     margin: 2px ;
+     padding-left: 20px; 
+
+ }
+.cells {
+    padding: 2px 4px;
+    border: 3px outset ;
+    border-radius: 4px;
+    margin-bottom:1px;
+    height:auto;
+}
+.inProgress {
+    background: #1ca596 ;
+     color: #FFC125;
+     border-color: #EEB011; 
+     padding:2px;
+    }
+.inProgress span:nth-child(1) {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    background: #77aa99 ;
+    color: #225566; 
+    border:2px inset #78bbd1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    margin-left:10px;
+}
+.inProgress span:last-child {
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    background: #7799aa ;
+    color: #225566; 
+    border:1px solid #78bbd1;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight:600;
+
+} .ended {
+     background:pink  ;
+     color: #FF1A00  ;
+     border-color: #AA3333  ;
+     padding:2px;
+   }
+    .ended span:nth-child(1) {
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        background: #aa9999 ;
+        color: #550016; 
+        border:2px inset #b97191;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:500;
+        margin-left:10px;
+    }
+    .ended span:last-child {
+        display: inline-block;
+        margin-top: 3px;
+        margin-bottom: 5px;
+        background: #aa7799 ;
+        color: #7a4142; 
+        border:1px solid #7a4142;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-weight:600;
+    
+    } 
+ .activeDelivery   li {
+    list-style-type: none ;
+}
+.standbyDelivery li {
+    list-style-type: none ;
+}
+
+ button {
+    border: 2px solid #127869;
+    margin-right:3px;
+    border-radius: 4px;
+    padding: 3px  ;
+    font-size: medium;
+    font-weight: 400;
+ }
+ li > button:disabled {
+    border: 3px solid #127869;
+    margin-right:3px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 400;
+    opacity: 0.3;
+ }
+#startDespatch {
+    background: greenyellow;
+    border: 3px outset olive ;
+    margin-top:5px;
+ }
+ #summary > li:last-child {
+     margin-top: 10px;
+     border-top: 2px solid gray ;
+     list-style-type: none ;
+     width:95%;
+    
+ }
