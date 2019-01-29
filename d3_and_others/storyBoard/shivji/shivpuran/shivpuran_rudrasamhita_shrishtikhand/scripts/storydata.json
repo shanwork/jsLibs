@@ -1620,8 +1620,8 @@ buttonText: '16',
 title: 'SRISHTI-KHAND, DESCRIPTION OF THE CREATION',
 headerStyle: { 'color': '#332288','font-weight': '1900','text-shadow': '1px 2px 2px white' , 'background-color': 'turquoise', 'opacity':'0.9', 'border':'2px yellow outset', 'border-radius':'3px;', 'padding': '10px'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/shrishti_khand15.jpg")',
-'background-size': 'contain',
+'background-image': 'url("images/rudraSamhita/shrishti_khand16.jpg")',
+'background-size': 'cover',
 'border-radius':'4px',
 'padding':'2px',
 'color':'orange',
@@ -1630,12 +1630,58 @@ contentStyle: { 'border':'3px outset blue',
 subsections: [
 {
 subTitle: '',
-content: '<em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' + 
-`<ol><li></li> 
-<li></li> 
+content: `<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+<ol><li>0 Narada, after performing the Pentuplication of the Bhutas, elements and their attributes sound etc., I evolved the gross Ether, wind, fire, water and the Earth 1out of them and created mountains, seas, trees etc. and the periods of time ending with Kali and other ages.</li>
+<li>I created many other things as well, but 0 sage, I was not satisfied. Then 0 sage, I meditated on Siva and his consort Amba and created aspirants.</li>
+<li>I created Marici from my eyes, Bhrgu from my heart; Angiras from the head and the great sage Pulaha from the vital breath Vyana. I created Pulastya from Udana; from Samana; Kratu from Apana; Atri from the ears and from the Pral).a. I then created you from my lap and the sage Kardama from my shadow. Finally, I created, out ofmy conception, Dharma which is the means for the achieve- ment of everything. 0 foremost among sages, creating thus, thanks to the favour of Mahadeva, these excellent Sadhakas I became contented.</li>
+<li>Then, 0 dear one, Dharma, born out of my concep- tion assumed the form of Manu at my bidding and was engaged in activity by the aspirants.</li>
+<li>Then I created from the different parts of my body innumerable sons, Suras ( devas) and Asuras (demons) and many others after assigning them different bodies, 0 sage.</li>
+<li>I was then prompted by Siva present within me and hence, 0 sage, I split myself into two having assumed two forms.</li>
+<li>One half had the form of a woman and the other half that of a man<noteref1_note1footer>(1) - (216)</note>• He then created in her a couple, the means of excellent nature.</li>
+<li>The man was Svayambhuva Manu, the greatest of the means (of creation) . The woman was Satariipa, a yogini, an ascetic woman.</li>
+<li>The auspicious lady was accepted by Manu with due matrimonial rites, 0 dear one, he created beings through her by the process of sexual intercourse.</li>
+<li>He begot of her two sons Priyavrata and Uttanapada and three daughters Akiiti, Devahiiti and Prasiiti, all of them very famous. He gave Akiiti in marriage to Ruci and the middle one to Kardama. He gave Prasiiti the younger sister of Uttanapada in marriage to Their sons and progeny are spread over the world both mobile and immobile.</li> 
+<li>Ruci begot of Akuti the couple Yajfia and TweJve sons were born of Yajfia and Daksina</li>
+<li>0 sage, Kardama begot of Devahuti many daughters. begot twentyfour daughters.</li>
+<li>Thirteen daughters Sraddha etc. were given to Dharma in marriage by 0 lordly sage, listen to the names of Dharma's wives.</li>
+<li>Their names are Sraddha (faith), (fortune), Dhrti (fortitude), (satiety), (nourishment), Medha {intelligence), Kriya (rite, activity), Buddhi {intellect, wisdom), Lajja (Bashfulness), Vasu (wealth), Santi (peace, calmness), Siddhi (achievement, accomplishment) and the thirteenth is Kirti (fame).</li>
+<li>The eleven younger daughters were Khyati, ·Sati, Sambhuti, Smrti) Priti, Sannati, Anurupa, Drja, Svaha and Svadha who were respective!y married by Bhrgu, Bhava (Siva), Marici, the sage A:rigiras, Pulastya, Pulaha, the excellent sage Kratu, Atri, the fire-god and the
+Pitrs (manes).</li>
+<li>The great aspirants Bhrgu and others took the
+hands of these famous daughters. Thereupon the entire uni- verse consisting of three worlds, mobile and immobile was filled (with progeny).</li>
+<li>Thus according to their own actions and at the bidding of Siva innumerable famous brahmins were born out of the various living beings.</li>
+<li>In another Kalpa, had sixty daughters. Of them ten were given to Dharma, to the Moon, thirteen to Kasyapa. 0 Narada, he gave four to Garuc;Ia of excellent form. Two to each of these-Bhrgu, Angiras and Krsasva. Born of them are many children in the world of mobile and immobile.</li>
+<li>0 foremost among the sages, the children of the thirteen daughters given to the noble-souled Kasyapa by spread over the three worlds. Mobile or immobile
+nothing was void.</li>
+<li>Devas, sages, demons, trees, birds and mountain- creepers born of the daughters of filled the entire space
+between Patala and Satyaloka.<noteref2_note2footer>(2) - (217)</note></li>
+<li>The whole cosmic egg was filled. Never was it a
+void. Thus, at the bidding of Siva, the creation was perfectly accomplished by Brahma.</li>
+<li>Daksa's daughter Sati was perfectly guarded by Rudra at the tip of His Trident, for the sake of penance. Siva had created her himself and later for the activities of the world she was born of In order to uplift the devotees, the lord indulged himself in many divine sports.</li>
+<li>Siva manifested himself in three ways in the form of Vaikuntha (Vishnu) born of the left limb, in my form {of Brahma) born of the right limb and in the form of Rudra
+born of the heart.</li>
+<li>Vishnu, Rudra and I represent the three Gunas. Siva is free from Gu:Q.as. He is the supreme Brahman, the undecaying.</li>
+<li>Vishnu is of Sattva attribute, I {Brahma) am of Rajas attribute and Rudra is of Tamas attribute. This is only in view of the activities in the world. But In fact and in name it is otherwise.</li>
+<li>Vishnu is of Tamasika nature within but externally Sattvika; Rudra is of Sattvika nature within but of Tamasic nature outside, I am of Rajasic nature throughout.</li>
+<li>The goddess of speech is of Rajasic nature; Sati is of the Sattvika nature and is of Tamasic nature; the great goddess Siva is of the three natures.</li>
+<li>Siva became Sati and Siva married her. At the sacrifice of her father she cast off her body which she did not
+take again and went back to her own region.</li>
+<li>Siva incarnated as Parvati at the request of the devas. It was after performing a severe penance that she could attain Siva again.</li>
+<li>0 lordly sage, she came to be called by various names such as Kali, Chandika, Chamunda, Vijaya, Jaya, Jayanti, Bhadrakali, Durga, Bhagavati, Kamakhya, Kamada, Amba, Mrdani and Sarvamangala. These various names confer worldly pleasures and salvation according to qualities and action. The name Parvati is very common.</li>
+<li>The goddesses of various attributes and the three deities of various attributes performed the diverse excellent
+activities of creation in mutual collaboration.</li>
+<li>0 excellent among sages, I have thus explained the mode of creation to you. The entire cosmic egg was created by me at the bidding of Siva.</li>
+<li>Siva is the Supreme Brahman. The three deities, Vigm, I and Rudra are His manifestations according to the difference in the attributes.<noteref3_note3footer>(3) - (218)</note></li>
+<li>The independent Supreme Atman, who is both Nirguna and Saguna sports with Siva in the beautiful Siva- loka.</li>
+<li>His perfect and complete incarnation is Rudra. He is Siva himself. The five-faced lord has made His beautiful mansion in Kailasa. Even if the whole Brahmaloka were
+destroyed, it knows no destruction.
+
+</li>
 </ol> 
 <a href=\'#top\'><strong>Back To Top</strong></a></p>` ,
-notes: []
+notes: ['216. speaks of Brahma splitting his body into two parts, the male and female, identified as Manu and Satarupa.',
+'217. The fourteen worlds from PaHila to Satyaloka constitute the entire cosmos.',
+'218. From the Cosmic Egg agitated by the three Gu:r;tas-Sattva, Rajas and Tamas, the three deities came into existence. 1he- Pudi:r;tas call them Brahma, and Siva and assign the functions of creation, existence and dissolution to each respectively.' ]
 }
 ]
 }
