@@ -2,11 +2,21 @@ var duration = 5 ;
 var startTime = 0;
 var endTime = 0 ;
 var newTime = 0 ;
-var totalOrders = 0;
 var timePerUnit = 50 ; // mS
 var delivering = 0 ;
 var orderQueue = dynamicQueue() ;
 var deliveryQueue = dynamicQueue() ;
+// stats collection
+var totalOrders = 0;
+var totalRevenue = 0 ;
+var totalQuantity = 0 ;
+var itemCounter = 0;
+var itemRawData = [
+  {
+
+  }
+]
+
 orderQueue.initialize(orders) ;
 deliveryQueue.initialize(deliveryList) ;
 //while (delivering < orders.length){
@@ -27,12 +37,69 @@ preprocessOrder = function( order) {
   order.maxCount = Number(order.quantity) * Number(timePerUnit) ;
   order.totalCost = Number(order.quantity) * Number(order.unitCost) ;
   order.orderId = ++totalOrders ;
+  totalRevenue += order.totalCost ;
+  totalQuantity += order.quantity ;
+  let orderStats = document.querySelector('#orderStats');
+  if (orderStats){
+    orderStats.innerHTML = 'Total Orders placed : ' + totalOrders + ' Total Revenue: ' + Math.round(totalRevenue * 100)/100.00  + ' Total Items: ' + totalQuantity ;
+  }
+  let foundIndex = itemRawData.findIndex((item)=> { return item.name === order.displayName; } );
+  let itemWiseStats = document.querySelector('#itemWiseStats') ;
+  if (itemRawData.length === 0 || foundIndex < 0){
+   let itemData = {
+      name: order.displayName,
+      itemCode: order.itemCode,
+      quantity: order.quantity,
+      totalCost:order.totalCost,
+      orders: 1,
+      itemCounter: itemCounter++ 
+   }
+   itemRawData.push(itemData) ;
+   if (itemWiseStats){
+     var tr = document.createElement('TR') ;
+     tr.id = 'row' + itemData.itemCode ;
+     var td1 = document.createElement('TD') ;
+     td1.id = 'name' + itemData.itemCode ;
+     td1.innerHTML = itemData.name ;
+     tr.appendChild(td1) ;
+     var td2 = document.createElement('TD') ;
+     td2.id = 'quantity' + itemData.itemCode ;
+     td2.innerHTML = itemData.quantity ;
+     tr.appendChild(td2) ;
+     var td3 = document.createElement('TD') ;
+     td3.id = 'totalCost' + itemData.itemCode ;
+     td3.innerHTML = Math.round(itemData.totalCost * 100)/100.00 ;
+     tr.appendChild(td3) ;
+     var td4 = document.createElement('TD') ;
+     td4.id = 'totalOrders' + itemData.itemCode ;
+     td4.innerHTML = itemData.orders ;
+     tr.appendChild(td4) ;
+     itemWiseStats.appendChild(tr);
+   }
+ }
+ else {
+   itemRawData[foundIndex].quantity += order.quantity ;
+   itemRawData[foundIndex].totalCost += order.totalCost ;
+   itemRawData[foundIndex].orders++ ;
+   let tableQuantity = document.querySelector('#quantity' + itemRawData[foundIndex].itemCode) ;
+   if (tableQuantity)
+    tableQuantity.innerHTML = itemRawData[foundIndex].quantity ;
+    let tableCost = document.querySelector('#totalCost' + itemRawData[foundIndex].itemCode) ;
+    if (tableCost)
+    tableCost.innerHTML = Math.round(itemRawData[foundIndex].totalCost * 100)/100.00 ;
+     let tabletotalOrders = document.querySelector('#totalOrders' + itemRawData[foundIndex].itemCode) ;
+     if (tabletotalOrders)
+     tabletotalOrders.innerHTML = itemRawData[foundIndex].orders ;
+        }
 }
 createOrder = function(order, randomize=true, itemIndex=-1, itemQuantity=-1 ) {
     let orderItemIndex = 0 ;
     if (randomize === true ) {
         orderItemIndex = Math.round(Math.random() * items.length) ;
         order.quantity = Math.round(Math.random() * 15) ;
+        if (order.quantity < 1) {
+          order.quantity = 1 ;
+        }
     }
     else 
     {
@@ -46,6 +113,7 @@ createOrder = function(order, randomize=true, itemIndex=-1, itemQuantity=-1 ) {
         orderItemIndex = items.length-1;
     }
       order.displayName = items[orderItemIndex].name ;
+      order.itemCode = items[orderItemIndex].id ;
       order.unitCost= items[orderItemIndex].price ;
 //      preprocessOrder(order) ;
 }
@@ -95,7 +163,6 @@ let li = document.getElementById(order.orderId + '_listItem') ;
           '<span>Qty:' + order.quantity + ', Cost: '+ Math.round(order.totalCost * 100.00)/100.00  + '</span>';
           if(orderDeliveryWaitingList){
             orderDeliveryWaitingList.insertBefore(li, orderDeliveryWaitingList.childNodes[0]); 
-           // orderDeliveryWaitingList.appendChild(li) ;
             window.setTimeout(pollOrdersForDelivery, 3000) ;
           }
         }

@@ -1,4 +1,15 @@
 
+#orderStats {
+    background: aliceblue ;
+    border: 3px inset rgb(123, 107, 230) ;
+    border-radius: 4px;
+    margin: 0px 10px 5px 10px ;
+    color: darkslateblue;
+    font-weight: 600;
+    font-size: large;
+    padding-right: 3px;
+    padding-left: 3px;
+}
 .deliveredOrders {
     border-color:  crimson;
     color: #015502;
@@ -84,10 +95,4 @@
     border: 3px outset olive ;
     margin-top:5px;
  }
- #summary > li:last-child {
-     margin-top: 10px;
-     border-top: 2px solid gray ;
-     list-style-type: none ;
-     width:95%;
-    
- }
+ 

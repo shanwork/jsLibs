@@ -12,8 +12,7 @@ dynamicQueue.init = function(){
 dynamicQueue.API = {
   jobs: [],
   runningJobHandles:[],
-  jobMonitorHandles:[],
-  
+   
   initialize: function(jobs) {
     this.jobs = jobs ;
   },
@@ -50,6 +49,7 @@ dynamicQueue.API = {
     
     let itemCount = 0 ;
     let counter = initTimer(itemCount, job) ;
+    return this ;
   }, 
   startJobs: function(newUI=true, restart=false, job = null ) {  
     
@@ -112,11 +112,12 @@ dynamicQueue.API = {
       default: this.jobs.splice(index, 0, job) ;
         break ;
     }
-  //  if (this.jobMonitorHandles.length > 0 ){
+    if ( this.displayInitialize){
       this.displayInitialize(job,index) ;
-      this.abort() ;
-      this.startJobs(false) ;
-  //  }
+    }
+    this.abort() ;
+    this.startJobs(false) ;
+    return this ;
   },
   deleteJob: function(index=-1 ) {
     let deletedJob = null ;
@@ -133,28 +134,13 @@ dynamicQueue.API = {
     if (deletedJob !== null) {
       deletedJob.deliveryIndex = -1 ;
     }
-  //  if (this.jobMonitorHandles.length > 0 ){
     if ( this.displayInitialize){
       this.displayInitialize(deletedJob) ;
     }
       this.abort() ;
       this.startJobs(true) ;
-  // }
+      return this ;
   },
-   /* Sample
-  var i = 0;
-  function testRandom(){
-    console.log(i++) ;
-  }
-  var rules = {
-    //fixedList: [1000, 2000, 500, 3000, 300] ,
-    randomRange: [1000, 3000] ,
-    maxIterations: 10
-    
-  
-  }
-  setRandomInterval(testRandom, rules) ;
-  */
   setRandomInterval: function(callBack, rules) {
     if (rules.fixedList != null) {
       rules.fixedList.forEach((interval)=> {

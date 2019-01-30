@@ -42,7 +42,7 @@ dynamicQueue.API = {
   window.clearInterval(agentTimer) ;
          }   
       
-        console.log(count++,`\b`) ;
+    //    console.log(count++,`\b`) ;
       }, job.pollInterval) ;
       self.runningJobHandles.push(agentTimer) ;
       return agentTimer ;

@@ -15,23 +15,44 @@
   
  </head>
  <body>
-    <div style='min-height:500px; max-height:600px; padding-bottom: 20px;width:98%;float:left;'>
-        <div id='toggleHelpDiv' style='position: fixed; top: 28px; right:30px;display:inline'>
-            <button id='toggleHelpBtn' >Show Description</button>
+    <div style='min-height:500px; padding-bottom: 20px;width:98%;float:left;'>
+        <div id='toggleHelpDiv' style='position: fixed; top: 28px; right:25px;display:inline'>
+              <span id='orderStats' >
+                Total Orders placed : 0 Total Revenue: 0 Total Items: 0 ;
+            </span>
+            <button id='toggleHelpBtn' >Show Description and Detail stats</button>
             Looping Duration: 
             <input type='text' id='orderDurat' value='1' style='width:30px; border:2px inset gray; margin-left:12px ;'></input> Minutes. <button  id='startOrderDespatch'>Start Orders</button> 
         </div>
         
-    <div id='setUp'> 
-    <ul id='summary'>
-        <h4> Order Queue P.O.C.</h4>
-        <li>On the left side is a set of executing jobs, each shown in green background.</li>
-        <li>Once each job gets over it gets transferred to the right, availabe queue, and displays in a pink background</li>
-        <li>Available jobs are restarted and get pushed to the executing queue</li>
-        <li>Polling is over a duration as specified above, in minutes. Once the duration is reached, jobs currently in progress run their course, while availble jobs remain unstarted. </li>
-           <li>To give a different duration enter a new value before clicking 'Start Queue' 
-           </li>
-    </ul>
+    <div id='setUp' > 
+        <h4> Orders </h4>
+        <div style='width:30%; display:inline-block; vertical-align: top;background: transparent; border:none;'>
+            <table id='itemWiseStats' style='outline: 1px solid gray; background: wheat;'>
+                <tr>
+                    <th colspan=4 style='text-align: center'> Itemwise statistics</th>
+                     
+                    </tr>
+                <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Revenue</th>
+                <th>Orders Placed</th>
+                </tr>
+            </table>
+        </div>
+        <div style='width:65%; display:inline-block;background: transparent; border:none;' >
+            <ul id='summary'  >
+                <li>On clicking the <span style='background:greenyellow'>Start Orders</span> button, Orders are given by the customer and ready to be processed</li>
+                <li>Processing takes place in the right (cyan background) colunn and progress of processing shows as % age completion</li>
+                <li>After processing, the order's pushed to the central (light blue) column, going to 'delivering' status (% age completion)</li>
+                <li>Once delivered, the order is moved to the delivered and complete list (left, pink column)</li>
+                <li>Orders get added (at the top of the stack) to the right column, until the 'looping duration' time span is reached</li>
+                <li>After the 'looping duration' is reached, existing orders run their course of processing and delivery. No new orders</li>
+                <li><strong>See Also</strong><a href='deliveryQueue.html'> P.O.C.:Delivery Queue</a> Back to <a href='index.html'> Home</a></li>
+            </ul>
+        </div>
+        
     
     </div>
     <div id='durationOver' style='display: none;color:brown; background: blanchedalmond;height:auto;'> </div>

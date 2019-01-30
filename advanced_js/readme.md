@@ -50,39 +50,52 @@ myDespatch.initialize(agents) ;
 Initializes the queue with a _**list**_ of job objects *( see above example for object structure )*
 
 **pollQueue(timer, job)** 
-Starts the polling for a job.. wrapper around a two closure functions which:  start the job and monitor the end condition,  and terminate when it is reach, respectively.
-The two functions mentioned return _**window.setInterval**_ objects which are stored in two arrays: 
+Starts the polling for a job.. wrapper around a closure function which  starts the job and monitors the end condition.
+The function mentioned returns _**window.setInterval**_ objects which is stored in an array: 
 ~~~~ Javascript 
 dynamicQueue.API =  { 
   //..
  runningJobHandles:[] ,
- jobMonitorHandles:[],
  // ..
 }
  ~~~~
 ***startJobs()*** 
 Runs the polling for the list of job objects *(internally calls **pollQueue**)*
 
-***stopTracker()*** 
-Uses window.clearInterval to stop the monitoring jobs and clears the **jobMonitorHandles** array
-
+**setRandomInterval(callback, rules)** 
+Executes the _**callback**_ function specified at intervals specified as per the _**rules**_ object. API is thus named because the rules can set at random polling.
+_**(W.I.P. but this is applied in my P.O.C. where orders are randomly added [here](http://www.use-my-software.com/myapp/newJS/Apps/orders.html))**_
+**Example**
+~~~~ Javascript
+//sample
+  var rules = {
+    //fixedList: [1000, 2000, 500, 3000, 300] ,
+    randomRange: [10000, 30000] ,
+    maxIterations: 1
+    
+  
+  }
+  //....
+  function pollEnd() {
+     if (newTime  < endTime){
+       orderQueue.setRandomInterval(addOrder, rules) ;
+     }
+}
+~~~~
 ***stopAgents()*** 
 Uses window.clearInterval to stop the running jobs and clears the **runningJobHandles** array.
 
 **abort()** 
-Suspends the run. *(internally calls the **stopTracker** and **stopAgents**)*
+Suspends the run. *(internally calls  **stopAgents**)*
 
 **addJob(job, index=-1)** 
 Adds a job. pauses the run to pick up the new element into the queue, and then resume
 _*parameters*_
 * job = job to be added
-* index = if -1, appended to the end of the queue, if >-0, inserted at that position in the queue
+* index = if -1, appended to the end of the queue, if >= 0, inserted at that position in the queue
 
 **deleteJob(job, index=-1)** 
- Remove a job. pauses the run to remove the element from the queue, and then resume
-_*parameters*_
-* job = job to be deleted
-* index = if -1, deleted from the end of the queue, if >-0, deleted from that position in the queue
+ Remove a job. pauses the run to remove the element from the queue, and then resume. parameters and index usage same as above
 
 _Both **addJob** and **deleteJob** work in conjunction with displayInitialize (if it is present) to dynamically update the UI. 
 for deletion, the _**deliveryIndex**_ field of the object being deleted is set to -1. 
@@ -92,6 +105,7 @@ This is something that can be used to delete the element in the _**displayIniiti
 **FUNCTION HANDLES**  to be provided by the user. _format **function(job)**_
 
 **displayInitialize:** 
+Called when adding a job
 ~~~~ Javascript
 //sample
 myDespatch.displayInitialize = function(agenter, index=-1) {
@@ -115,6 +129,7 @@ myDespatch.displayInitialize = function(agenter, index=-1) {
 }
 ~~~~
 **displayRunStatus**
+Called when the job is running
 ~~~~ Javascript
 //sample
 myDespatch.displayRunStatus = function(agenter) {
@@ -127,6 +142,7 @@ myDespatch.displayRunStatus = function(agenter) {
 }
 ~~~~
 **displayEndStatus**
+Called when the job is ended
 ~~~~ Javascript
 //sample
 myDespatch.displayEndStatus = function(agenter) {

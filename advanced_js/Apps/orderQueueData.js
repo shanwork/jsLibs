@@ -40,6 +40,7 @@ var items =
 var orders  = [
     {
    displayName: 'white bread loaf',
+   itemCode: 'bakWhiteLoaf1',
    orderId: 1,
    quantity: 2,
    unitCost: 6.99,
@@ -50,7 +51,8 @@ var orders  = [
    currentCount: 0 
   },{
     displayName: 'white bread buns',
-    orderId: 2,
+    itemCode: 'bakWhitetBuns1',
+   orderId: 2,
     quantity: 7,
     unitCost: 6.99,
     totalCost: 0 ,
@@ -61,7 +63,8 @@ var orders  = [
    },
    {
     displayName: 'wheat bread loaf',
-    orderId: 3,
+    itemCode: 'bakWheatLoaf1',
+   orderId: 3,
     quantity: 3,
     unitCost: 7.99,
     totalCost: 0 ,
@@ -73,7 +76,8 @@ var orders  = [
    },
    {
     displayName: 'wheat bread loaf',
-    orderId: 4,
+    itemCode: 'bakWheatLoaf1',
+   orderId: 4,
     quantity: 5,
     unitCost: 7.99,
     totalCost: 0 ,

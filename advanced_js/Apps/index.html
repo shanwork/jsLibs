@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+   <title> Queueing Library</title>
+   <link rel="stylesheet" type="text/css" href="common.css">
+   <style>
+   #leftMenu 
+   {
+        position:fixed;
+        left: 2px;
+        top:5px;
+        background: rgb(209, 158, 98) ;
+        color:  rgb(99, 18, 18) ;
+        box-shadow: 4px 2px rgb(99, 18, 18) ;
+   }
+   
+  
+   #leftMenu li, a
+   {
+        margin-left:-10px;
+        margin-right:10px;
+        text-decoration:none ;
+       list-style-type: dot ;
+       background: rgb(189, 138, 78) ;
+       margin-bottom:1px;
+       padding:2px;
+       
+   }
+   ul h3, h4, h5 {
+       border:none;
+       margin-top:5px;
+       margin-right:5px;
+       padding:-10px; 
+       text-shadow: 1px 1px black ;
+   }
+     div h1, h2, h3  {
+       box-shadow: 0px 1px grey;
+       margin:15px 20px 12px 40px;
+       text-shadow: 1px 2px aliceblue;
+       width: auto;
+       padding:2px;
+   }
+   div p {
+       text-indent: 20px;
+       margin: 3px 4px;
+       padding:4px 2px 3px 2px;
+       background: lightblue;
+       box-shadow: 1px 3px grey;
+       display: inline-block;
+       
+   }
+   #para {
+       border:none ;
+       text-indent: 20px;
+       margin: 3px 4px;
+       padding:5px 2px 3px 2px;
+       background: lightblue;
+       box-shadow: 1px 3px grey;
+       display: inline-block;
+       
+   }
+   p:ul {
+     background-color: inherit ;
+     background: lightblue;
+       
+   }
+   </style>
+ </head>
+ <body>
+     <div id=leftMenu>
+            <ul>
+            <h4>Index</h4>
+            <h5>Sources (Git)</h5>
+            <li><a href='https://github.com/shanwork/jsLibs/tree/master/advanced_js' target="_blank">Code folder with readme</a></li>
+            <li><a href='https://github.com/shanwork/jsLibs/blob/master/advanced_js/queueLib.js' target="_blank">Library Source Code</a></li>
+            <h5>Proofs of Concept</h5> 
+            <li><a href='deliveryQueue.html' > Single Queue loop </a></li>
+            <li><a href='orders.html' > Double Queue loop </a></li>
+            <li><a href='https://github.com/shanwork/jsLibs/tree/master/advanced_js/Apps' target="_blank">P.O.C. Source Code</a></li>
+            
+        </ul>
+     </div>
+     <div style='margin-left: 240px;opacity:0.8'>
+        
+        <h2>Queuing API: Proof of Concept Samples</h2>
+        <h3>About the API</h3>
+        <div id='para'>
+         
+        Using the asynchronous features and API of javascript, this is an 'iteratively building' API to create a queue system, where it would, typically, be applied to a despatch system like a pizza delivery service or even an ambulance service
+        
+        <br/>The library sits in the file: <strong><em>queueLib.js</em></strong>  : which has the API to starts, run and update (including addig and deleting) a single set of jobs
+        <ul>
+          <li style='list-style-type: none;'><strong>API quick view:</strong></li>
+          <li><strong>initialize(list)</strong>: Initializes the queue with a  list of job objects </li>
+          <li><strong>pollQueue(timer, job)</strong>  Starts the polling for a job.. wrapper around a closure function which  starts the job and monitors the end condition</li>
+          <li><strong>setRandomInterval(callback, rules)</strong>  Executes the <em><strong>callback</em></strong> function specified at intervals specified as per the <em><strong>rules</em></strong object. API is thus named because the rules can set at random polling.</li>
+          <li><strong>startJobs()</strong> Runs the polling for the list of job objects <em>(internally calls <strong>pollQueue</strong>)</em> </li>
+          <li ><strong>stopAgents()</strong> Uses window.clearInterval to stop the running jobs .</li>
+          <li><strong>abort()</strong> Suspends the run. </li>
+          <li><strong>addJob(job, index=-1)</strong> Adds a job. pauses the run to pick up the new element into the queue, and then resume. index can be zero (job added at the start), 
+            positive value (job added at that position in the queue) or default -1 (job appended)
+             </li>
+          <li><strong>deleteJob(job, index=-1)</strong>  Remove a job. pauses the run to remove the element from the queue, and then resume. index usage same as above</li>
+          <li><strong>Function Handles <em>(to be provided by the user)</em></strong>
+            <ul>
+              <li> <strong>displayInitialize(job):</strong> Called when adding a job</li>
+              <li> <strong>displayRunStatus(job):</strong> Called when the job is running</li>
+              <li> <strong>displayEndStatus(job):</strong> Called when the job is ended</strong></li>
+            </ul>
+          </li>
+              
+              
+              
+             
+              
+              
+              
+             
+      
+          <li> <strong><em>Click the <u>'Code Folder', 'Library Source code'</u>... links on the left navigation bar to get more details</em></strong></li>
+        </ul>
+      </div>
+        <h3>Usage: API and Sample code</h3>
+        <p>
+            The object is called <strong<em>dynamicQueue</em></strong>
+            <br/><strong><em>API</em></strong><br/>
+            <ul>
+                <li> <strong>nitialize(list)**</li>
+            </ul>
+        </p>
+        <h3>Application/ Proof of Concept pages </h3>>
+        Currently, the following iterations are availabe:
+        
+        1. Simple single thread, single list The output can be tried out   [here](http://www.use-my-software.com/myapp/newJS/queueTest.html)
+        
+        2. Single Thread but having two lists. click [here](http://www.use-my-software.com/myapp/newJS/singleQueueTest.html)
+        
+        <strong>ot</strong> This is WIP, and styling, texts are not the greatest!!!
+        )_
+        #### Current queueLib API and usage
+        * At this point, the API is in a transit phase. 
+        * The intended functionality is divided between <strong>ueueLib.j</strong> (API) and <strong>ueueTest.j</strong>, where code will be moved over from the latter file to the former and made into API format. 
+        * <strong>ueueLib.j</strong> needs a list of *job* objects to run.  
+        * <strong>ueueTest.j</strong> gives this list and instantiates the queue, also provides the callbacks for how to display each job status when running or completed.
+        
+        ###### Usage 
+         
+          ~~~~ Javascript 
+          var myDespatch = dynamicQueue() ;
+          // structure of job object(s) is an example list
+          var agents = [
+          {
+         displayName: 'Team a rapid project',
+         name: 'Team_a_Project',
+         maxCount: 20,
+         deliveryIndex: 0,
+         pollInterval: 500,  
+         currentCount: 0 
+        },{
+          displayName: 'Team b long project',
+         name: 'Team_b_Project',
+         maxCount: 20,
+         deliveryIndex: 1,
+         pollInterval: 2000,
+         currentCount: 0 
+        }];
+        
+        myDespatch.initialize(agents) ;
+          ~~~~
+        
+        ##### API  
+        
+        
+        : 
+        ~~~~ Javascript 
+        dynamicQueue.API =  { 
+          //..
+         runningJobHandles:[] ,
+         jobMonitorHandles:[],
+         // ..
+        }
+         ~~~~
+         
+               
+        _*parameters*_
+        * job = job to be deleted
+        * index = if -1, deleted from the end of the queue, if >-0, deleted from that position in the queue
+        
+        _Both <strong>ddJo</strong> and <strong>eleteJo</strong> work in conjunction with displayInitialize (if it is present) to dynamically update the UI. 
+        for deletion, the <em>deliveryIndex</em> field of the object being deleted is set to -1. 
+        This is something that can be used to delete the element in the <em>displayIniitialize</em> callback</em>
+        
+        
+        <strong>UNCTION HANDLE</strong>  to be provided by the user. _format <strong>unction(job)</em>
+        
+       ** 
+        ~~~~ Javascript
+        //sample
+        myDespatch.displayInitialize = function(agenter, index=-1) {
+          let li = document.createElement('li');
+            li.className =  'inProgress' ;
+            li.id = agenter.name + '_listItem' ;
+            let despatchList = document.getElementById('despatchList') ;
+            // delete 
+            if(agenter.deliveryIndex === -1){
+                despatchList.removeChild(despatchList.childNodes[i])
+             }// insert or append
+             else {
+                if (index > -1){
+                  despatchList.insertBefore(li, despatchList.childNodes[index]); 
+                }
+                else {
+                  despatchList.appendChild(li) ;
+                }
+             }
+            
+        }
+        ~~~~
+       
+        ~~~~ Javascript
+        //sample
+        myDespatch.displayRunStatus = function(agenter) {
+          let li = document.getElementById(agenter.name + '_listItem') ;
+          console.log('Display', li) ;
+          if (li){
+            li.className =  'inProgress' ;
+            li.textContent = agenter.displayName + ', count:  ' + agenter.currentCount + '/' + agenter.maxCount + ', polling: ' + agenter.pollInterval;
+          }
+        }
+        ~~~~
+        
+        ~~~~ Javascript
+        //sample
+        myDespatch.displayEndStatus = function(agenter) {
+        let li = document.getElementById(agenter.name + '_listItem') ;
+                if (li){
+                  li.textContent = 'Completed: ' + agenter.currentCount ;
+                  li.className =  'ended' ;
+                }
+        }
+        ~~~~
+          *(view the accompanying <strong>ueueTest.j</strong> and **.h
+        </div>
+ </body>

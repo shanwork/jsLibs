@@ -24,7 +24,7 @@ if (toggleHelpBtn)
     if (setUp){
       if (setUp.style.display==='block')
           {
-            toggleHelpBtn.innerHTML = 'Show Description';
+            toggleHelpBtn.innerHTML = 'Show Description and Detail stats';
             setUp.style.display='none';
             if (deliveringOrders && durationOver.style.display !== 'block'){
               deliveredOrders.style.marginTop='65px';
@@ -35,7 +35,7 @@ if (toggleHelpBtn)
             }
           }
           else {
-            toggleHelpBtn.innerHTML = 'Hide Description';
+            toggleHelpBtn.innerHTML = 'Hide Description and Detail stats';
             setUp.style.display='block';
             deliveredOrders.style.marginTop='5px';
             deliveringOrders.style.marginTop='5px' ;
@@ -61,7 +61,7 @@ if (toggleHelpBtn)
     let poll = window.setInterval(() =>
     {
       if (newTime  >= endTime){
-        durationOver.innerHTML = '<h5>DURATION OVER</H5> The stipulated duration of ' + duration + 'minute(s)  is reached; jobs in progress will run their course and complete, while available jobs remain unstarted.' ;
+        durationOver.innerHTML = '<h5>DONE</H5> The stipulated duration of ' + duration + 'minute(s)  is reached; No new orders processed, existing orders will be fulfilled' ;
         durationOver.style.display= "block" ;
         window.clearInterval(poll);
       }

@@ -61,3 +61,12 @@ div > #setUp {
     opacity: 0.8;
 
 } 
+td,th {
+    border-bottom: 1px solid black ;
+    margin: 0 ;
+    text-align: right;
+}
+tr:last-child > td {
+    border-bottom: none ;
+    margin: 0 ;
+}
