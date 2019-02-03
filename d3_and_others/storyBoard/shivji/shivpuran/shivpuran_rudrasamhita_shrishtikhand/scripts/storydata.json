@@ -1684,5 +1684,56 @@ notes: ['216. speaks of Brahma splitting his body into two parts, the male and f
 '218. From the Cosmic Egg agitated by the three Gu:r;tas-Sattva, Rajas and Tamas, the three deities came into existence. 1he- Pudi:r;tas call them Brahma, and Siva and assign the functions of creation, existence and dissolution to each respectively.' ]
 }
 ]
+}, /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '17',
+title: 'SRISHTI-KHAND, THE STORY OF GUNANIDHI',
+headerStyle: { 'color': '#22AA88','font-weight': '1900','text-shadow': '1px 3px 2px #115544' , 'background-color': '#DDFEFFF', 'opacity':'0.9', 'border':'2px yellow outset', 'border-radius':'3px;', 'padding': '10px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand17.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: `<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span>
+<ol><li>0 great sages, after hearing these words of Brahma,Narada once again bowed to him and asked humbly.</li>
+<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span>-
+<li>When did Siva favourably disposed to His devo- tees go to Kailasa? Where did he have the intimate acquaintance with Kubera<noteref1_note1footer>(1) - (219)</note> of great and noble soul? What
+did Siva of auspicious form do there? Please narrate all these things to me. I am deeply interested in it.</li>
+</ol> 
+<a href=\'#top\'><strong>Back To Top</strong></a></p>` ,
+notes: ['219. Kubera is   the chief of the and a friend of Rudra. He is mythologised as having three legs and eight teeth' ]
+}
+]
 }
 ];
