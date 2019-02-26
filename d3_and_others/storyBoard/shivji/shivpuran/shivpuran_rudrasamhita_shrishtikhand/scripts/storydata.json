@@ -1922,5 +1922,88 @@ notes: [ '223 Sivaratri : Siva\'s Night. It is a popular fast and festival held 
 '226 Alaka-It is the capital of Kubera, the chief of the Yaksas and Guhyakas. It is also called Prabha, Vasudharii and Vasusthali and is fabled to be situated on a peak of the Himalayas, inhabited also by Siva.']
 }
 ]
+}, /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '19',
+title: 'SRISHTI-KHAND, THE FRIENDSHIP OF SHIVA AND KUBERA',
+headerStyle: { 'color': '#22AA88','font-weight': '1900','text-shadow': '1px 3px 2px #115544' , 'background-color': '#DDFEFFF', 'opacity':'0.9', 'border':'2px yellow outset', 'border-radius':'3px;', 'padding': '10px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand17.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: `<em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span><br/>
+<ol><li>In the Kalpa called Padma, I· created my mental son Pulastya whose son Visravas begot the son Vaisravana.</li>
+<li>He propitiated the three-eyed God Siva, with a very severe penance and enjoyed the city of Alaka built by Visvakrt.</li>
+<li>When that Kalpa was over and the Meghavahana Kalpa had started, the son of Yajnadatta, Srida, performed a severe penance.</li>
+<li>Realising the efficacy of devotion to Siva accruing from the mere illumination (of his temple with lamps, he reached Kasi<noteref1_note1footer>(1) - (227)</note> for the illumination of his thought. Under the lustre of the gems of the mind, he repeated the mantras of eleven Rudras with loyal devotion and unswerving concentration of the mind. He could realise his identity with Siva. Then he performed very severe penance for two hundred thousand years-a penance which was enhanced by
+·the fire of austerity, was free from incroachment of the firefly in the form of interference from lust and anger, was windless inasmuch as the breath was curbed and was pure in form with pure vision. He set up the liriga of Siva and worshipped it with flowers of good ideas and feelings. The penance was so severe that his body was reduced to skin
+and bones.</li>
+<li>Then in the company of the Goddess Parvati,
+the lord Visvesvara Himself addressed the devotee, the lord of Alaka, with a pleasant mind-the devotee who stood as a stump with mind concentrated on the linga : - " I am ready to grant you a boon. Choose it, 0 lord of Alaka".</li>
+<li>The devotee opened his eyes and gazed at  lord Siva, the moon-crested consort of Uma who was shining with a brilliance that exce1Ied thousands of nstng suns. Dazzled by the brilliance, he closed his eyes and addressed the lord of lords who is beyond the reach of mental conception. "0 lord, please give my eyes the power to see your feet."</li>
+<li>This itself is a great boon, 0 lord, that I see you present. 0 lord, 0 moon-crested God, obeisance be to you. Of what avail are other boons ?</li>
+<li>On hearing his words, the lord of devas, Uma's consort touched him with his palm and gave him the requisite of Vision.</li>
+<li>Then on securing the power, Yajfiadatta's son G.pened his eyes and saw Uma alone at first.</li>
+<li>"Who is this lady beautiful in person, near Siva the Lord ? What penance did she perform more difficult than mine?</li>
+<li> "What a form ! What a love ! What a good luck What a fine glory !" He repeated these words several times.</li>
+<li>While he was doing this and glancing cruelly at Uma, his left eye as a result of seeing the lady, burst.</li>
+<li>Then the Goddess told Siva-why does this wicked ascetic look at me often and say "You make my penance shine !" and seeing me with his right eye jealously why does he marvel at my beauty, love and good luck.</li>
+<li>On hearing the words of the Goddess, lord Siva laughed and said ''0 Uma, he is your son. He does not look at you angrily or jealously. He is describing your glory of penance." After saying this to the Goddess Isa
+told him again.</li>
+<li>"Dear son, I am delighted at your penance. I shall give you the boon you desire. You will be the lord of treasures and the lord of Guhyakas<noteref2_note1footer>(2) - (228)</note> .</li>
+<li>You will be the king of Yaksas <noteref3_note1footer>(3) - (229)</note>Kinnaras<noteref4_note1footer>(4) - (230)</note>and rulers. You will be the leader of Pul).yajanas and the
+bestower of wealth to all.</li>
+<li>My friendship with you shall remain for ever. I shall stay near you, very near Alaka, dear friend, in order to increase your love.</li>
+<li>0 son of Yajnadatta, great devotee, come on. This is your mother. Fall at her feet with delighted heart.</li>
+<em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span><br/>
+<li>After granting him boons, Lord Siva told Uma, "0 Goddess, be pleased with him. This ascetic is your own son."</li>
+<li>On hearing these words of Siva, Parvati, the mother of the univellSe said to the son of Yajiiadatta with a delighted mind.</li>
+<em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span><br/>
+<li>Dear son, may your pure devotion to Siva remain for ever. With your left eye burst you will be Ekapil)ga, (having a yellow mark in place of an eye).</li>
+<li>May all the boons granted to you by the lord fructify. You shall be called Kubera (literally possessed of ill- shaped body), 0 son, since you jealously looked at me.</li>
+<li>After granting these boons to Kubera, lord Mahesvara, in the company of the Goddess Parvati, entered his Visve5vara abode.</li>
+<li>Thus Kubera attained the friendship of Siva. Very near his city Alaka was Kailasa, the abode of Siva.
+</li>
+</ol> 
+<a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+notes: [`227. Kasika or Kasi, known as Varanasi. Situated on the left bank of the Ganges, it was the capital of the country of the same name. It is, perhaps, the Kassida or Kassidia of Ptolemy, designated after Kasiraja, one of the early progenitors of the lunar race who was succeeded by twenty descendants, including the famous Divodasa who ruled and cele- brated many horse-sacrifices here. The city is sacred to Siva since Vishweshvara, one of the twelve Jyotirlhigas, is established here.` ,
+`228. Guhyakas, literally 'Hidden beings". They are demi-Gods who, like the are the attendants of Kubera and guardians of his hidden treasure.`,
+`229. Yaksas are a class of beings who are attached to the service of Kubera.`,
+`230. Kinnaras, like are the attendants of Kubera. They are represented as mythical beings with a human figure and the head of a horse or with a horse's body and the head of a man. They are described as celestial choristers and musicians who dwell in the paradise of Kuvera on Kailasa. They are called Asvamukhas, Turanga-vaktras, ''horse-faced, and Mayus.`]
+}
+]
 }
 ];
