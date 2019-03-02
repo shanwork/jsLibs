@@ -2005,5 +2005,81 @@ notes: [`227. Kasika or Kasi, known as Varanasi. Situated on the left bank of th
 `230. Kinnaras, like are the attendants of Kubera. They are represented as mythical beings with a human figure and the head of a horse or with a horse's body and the head of a man. They are described as celestial choristers and musicians who dwell in the paradise of Kuvera on Kailasa. They are called Asvamukhas, Turanga-vaktras, ''horse-faced, and Mayus.`]
 }
 ]
+}, /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '20',
+title: 'SRISHTI-KHAND, SHIVA GOES TO KAILASA',
+headerStyle: { 'color': '#EEEEFF','font-weight': '1900','text-shadow': '1px 3px 2px darkslateblue' , 'background-color': '#DDFEFFF', 'opacity':'0.9', 'border':'2px white outset', 'border-radius':'3px;', 'padding': '10px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand20.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'1.0',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: `<em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span><br/>
+<ol><li>0 Narada, hear the story of Siva's arrival at KaiHisa, the best of mountains, thanks to the power of penance of Kubera<noteref2_note1footer>(2) - (231)</note>.</li>
+<li> "The lord of the Universe, after bestowing the boon of lordship of treasures upon Kubera, returned to His excellent abode and thought within Himself thus.</li>
+<li>My complete manifestation, born of Brahma can look after the activity of Dissolution. Now, assuming that form I shall go to Kailasa, the residence of Guhyakas.</li>
+<li>Rudra, born of my heart, my perfect manifestation is the Single Supreme Brahman. He is worthy of being served by Vigm, Brahma and others. He is not different from me. He is unsullied.</li>
+<li>In that form I shall become that friend of Kubera, shall remain near him and perform great penance." </li>
+<li> Thinking thus, Rudra, desirous of carrying out the wish of Siva (the supreme Brahman) sounded his drum
+that gave out the divine Nada.</li>
+<li>Its resonant, reverberating sound pervaded tile three worlds heightening enthusiasm and called upon everyone in diverse ways.</li>
+<li>On hearing that, Vishnu Brahma and other deities, sages, the persons well-versed In Agamas, Nigamas and Siddhas.</li>
+<li>Devas and Asuras came there with great delight. The Pramathas<noteref2_note1footer>(2) - (*)</note> too reached that place from different quarters.</li>
+<li>The leaders of Gai).as revered by the whole world and of high fortune arrived there. I shall mention to you their number. Listen attentively.</li>
+
+<li>"Dear son, I am delighted at your penance. I shall give you the boon you desire. You will be the lord of treasures and the lord of Guhyakas<noteref2_note1footer>(2) - (228)</note> .</li>
+<li>You will be the king of Yaksas <noteref3_note1footer>(3) - (229)</note>Kinnaras<noteref4_note1footer>(4) - (230)</note>and rulers. You will be the leader of Pul).yajanas and the
+bestower of wealth to all.</li>
+<li>My friendship with you shall remain for ever. I shall stay near you, very near Alaka, dear friend, in order to increase your love.</li>
+<li>0 son of Yajnadatta, great devotee, come on. This is your mother. Fall at her feet with delighted heart.</li>
+<em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span><br/>
+<li>After granting him boons, Lord Siva told Uma, "0 Goddess, be pleased with him. This ascetic is your own son."</li>
+<li>On hearing these words of Siva, Parvati, the mother of the univellSe said to the son of Yajiiadatta with a delighted mind.</li>
+<em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span><br/>
+<li>Dear son, may your pure devotion to Siva remain for ever. With your left eye burst you will be Ekapil)ga, (having a yellow mark in place of an eye).</li>
+<li>May all the boons granted to you by the lord fructify. You shall be called Kubera (literally possessed of ill- shaped body), 0 son, since you jealously looked at me.</li>
+<li>After granting these boons to Kubera, lord Mahesvara, in the company of the Goddess Parvati, entered his Visve5vara abode.</li>
+<li>Thus Kubera attained the friendship of Siva. Very near his city Alaka was Kailasa, the abode of Siva.
+</li>
+</ol> 
+<a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+notes: [`231. Kubera or Kuvera. He is the God of wealth and the chief of the and Guhyakas. His name Ku-bera or Ku-vera signifies his deformed body having three legs and eight teeth. He is married to Yaksi
+the daughter of the Danava Mura. As an especial friend of Siva he is called Siva-sakha. His capital Alaka on the Himalaya mountain is mentioned also in the R V.`,
+`* A class of Ganas attending on Siva.`]
+}
+]
 }
 ];
