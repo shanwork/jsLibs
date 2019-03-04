@@ -25,7 +25,66 @@ var defaultContentStyle =   { 'border':'3px outset orange',
              'opacity':'0.5',
               'background-color':'lightgoldenrodyellow'};
 var chapterData = [
-    
+    /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: `SATI-KHAND, Summary of Sati's life`,
+title: `SATI-KHAND, Summary of Sati's life`,
+headerStyle: { 'color': '#EEEEFF','font-weight': '1900','text-shadow': '1px 3px 2px darkslateblue' , 'background-color': '#DDFEFFF', 'opacity':'0.9', 'border':'2px white outset', 'border-radius':'3px;', 'padding': '10px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand1.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'1.0',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: `<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+<ol><li>0 Brahma, thanks to Siva's favour, you know everything. You have narrated to me the wonderful stories of Siva and Parvati.</li>
+<li>0 lord, I am never fully satiated by hearing the great story of Siva from your lotus-like face. I wish to hear further the same.</li>
+<li>As explained by you, Rudra is the complete manifestation of Siva. He is the great Lord whose abode is Kailasa. He is a yogin of perfect control. 
+He is worthy of being propitiated by all devas, and ·others. He is the final goal of all good men. 
+He is free from Dvandvas (mutually clashing opposites). The great lord never undergoes any change yet indulges in His divine sports.. 
+He became a· householder again after marrying the noble lady Mangala at the request of when she performed penance. 
+At first she was born of and later of Himalaya. How could she be the daughter of both with the same body? How did Sati<noteref1_note1footer>(1) - (233)</note> become Parvati and attain Siva again? 
+0 Brahma, please explain all these and other points relating to His episode.</li>
+<li><em>.. to be continued</em></li>
+</ol> 
+<a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+notes: [
+`233. Sati, the daughter of the son of Brahma, was married to Siva. She abandoned her body in consequence of the quarrel between her husband and father. It is said in the Purar;tas that Daksa instituted a sacrifice but apportioned no share to Siva. Thereupon Sati 'felt insulted
+and entered the sacrificial fire whereupon Siva sent hundreds and thousands of powerful Gar;tas who destroyed the sacrifice and beheaded The :gresent section narrates the story of the birth of Sati, her marriage with Siva, their lovely sports and her tragic end at the sacrifice of her father, Daksa.`]
+}
+]
+},
 
     {
     /*
