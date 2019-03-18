@@ -163,11 +163,11 @@ described as very fierce and terrifying.`]
 '<li>
 */
     buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: 'SATI-KHAND, PRELUDE',
-        title: 'SATI-KHAND, PRELUDE',
-        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+    buttonText: '2',
+        title: 'SATI-KHAND, The appearance of Cupid',
+        headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'text-shadow':'2px 1px purple','opacity':'0.9'},
         contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/rudraSamhita/sati_khand1.jpg")',
+             'background-image': 'url("images/rudraSamhita/sati_khand2.jpg")',
              'background-size': 'contain',
              'border-radius':'4px', 
              'padding':'2px',
@@ -177,16 +177,67 @@ described as very fierce and terrifying.`]
         subsections: [
            { 
                 subTitle: '',
-                content: '<p>Lord Brahma narrated the following tale-  </p>' +
-                          '<p>"A girl by the name of Sandhya manifested from my being. I was amazed by her heavenly beauty. Right then a divine entity appeared before me, whose beauty could not have been matched even by the deities. He was Kamadeva- the god of love. He influenced me to such an extent that I forgot that Sandhya was my daughter and got infatuated by her."</p>' +
-           '<p>"When Rudra came to know about my lust for Sandhya, he admonished me and ridiculed about my character. I felt ashamed. But I also became jealous of Rudra. I decided to influence him with the power of infatuation, but I was unsuccessful in my attempts. I remembered lord Vishnu and he tried to make me understand about the futility of my attempts, as according to him (Vishnu), Rudra was beyond the reach of any human emotions." </p>' +
-'<p>"But I instructed my son - Daksha to help in the procreation of a girl child from the womb of Ashwinivirini. Thus Sati was born. Sati later on became famous of Uma and got Rudra as her husband on account of her tremendous penance." </p>' +
-'<p>"But I instructed my son - Daksha to help in the procreation of a girl child from the womb of Ashwinivirini. Thus Sati was born. Sati later on became famous of Uma and got Rudra as her husband on account of her tremendous penance."  </p>' +
-'<p>"Though Rudra was free from all kinds of attachment, but still he became so influenced by the desire for procreation that he married with Sati. He enjoyed a blissful married life for a very long time." </p>' +
-'<p>"Rudra father in law, Daksha in his arrogance started condemning his son in law -Rudra. Once, Daksha organised a grand yagya ceremony. He gave invitation to everybody except Rudra and Uma. Despite of Rudra\'s disinclination to allow Sati to go to her father\'s yagya, She insisted and ultimately she was successful in convincing Rudra, to allow her to go."  </p>' +
-'<p>"When Sati reached there, she was not given respect by her father Daksha. Not only this, Daksha made fun of Rudra. Feeling dishonored, Sati gave up her life by jumping into the sacrificial fire." </p>' +
-'<p>"When Rudra got the news of Sati\'s death he became extremely furious. To take revenge, he created Veerbhadra from his locks of hair. Veerbhadra went to Daksha place and destroyed his oblation site. He severed Daksha\'s head. All the deities became afraid and prayed to Rudra, to have mercy. Rudra then brought back Daksha to life and helped him the accomplished of the still incomplete Yagya. The site where Sati had died later on became famous as Jwalamukhi devi." </p>' +
-'<p>"The same Sati in her next birth was born as Parvati to Himalaya. By her tremendous penance she again got lord Shiva as her husband."</p><p>After that lord Brahma told Narada about the manifestation of Kama, the god of love.</p><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+                content: `<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
+                <ol><li>0 residents of Naimisa forest, after hearing his
+                words, the excellent sage further requested him for more such stories that quell sins. </li>
+                <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+                 <li>0 Brahma, 0 great lord, though continuously
+                 hearing the auspicious story of Siva from your lotus-face I am never satiated.</li>
+                 <li>Please further narrate the auspicious story of Siva entirely. I wish to hear that story in which Sati is glorified, 0 Brahman.</li>
+                 <li>How was the auspicious Sati born of wife ? How did Siva become inclined to marry her ?</li>
+                 <li>How did she cast off her body formerly, due to her rage with How was she born as the daughter of Himalaya and how did she reach heaven again ?</li>
+                 <li>How was her rigorous penance performed ? How was her marriage celebrated ? How did she happen to share half the body of Siva.</li>
+                 <li>Please explain all these points in detail, 0 intelligent one. There is none else to remove my doubts and none shall ever be like you.</li>
+                <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' 
+                <li>0 sage, listen to the auspicious glory of Sati and Siva entirely. It is extremely sanctifying, divine and the greatest secret of all secrets.</li>
+                <li>0 sage, Siva himself narrated this formerly to Visnu, the greatest of devotees for helping others, when
+                requested by him.</li>
+                <li>the intelligent and the greatest of Siva's
+                devotees was asked by me and 0 great sage, he told me everything lovingly.</li>
+                <li>Therefore I shall narrate this ancient story that confers the fulfilment of all desires since it glorifies·Sati and Siva.</li>
+                <li>Originally when Siva was separated from Sakti and was pure consciousness alone, He was attributeless, free from alternatives, devoid of forms and beyond the
+                existent and non-existent.</li>
+                <li>He, the greatest of the great and of changeless
+                form when united with Sakti, was filled with attributes and had specific forms and divine features. 0 brahmin, He was accompanied by Uma.</li>
+                <li>Visnu was born of His left and I, Brahma, of his right side, 0 great sage, Rudra was born of his heart.</li>
+                <li>I became the creator (Brahma); Visnu the cause of sustenance; Rudra the author of dissolution. Thus Sadasiva, manifested himself in three forms.</li>
+                <li>It was after worshipping Him that I, Brahma, the grand-father of all the worlds, began the creation of all subjects including Devas, Asuras, human beings etc.</li>
+                <li>After creating the guardians of the subjects, Prajapatis, and other Devas, I considered myself loftier
+                than others and was delighted.</li>
+                <li>0 sage, when I created Marici, Atri, Pulaha,
+                Pulastya, Angiras, Kratu, Narada, and Bhrgu, my mental sons of lordly stature, a beautiful woman of handsome features was born of my mind.</li>
+                <li>She was variously called Sandhya, Divaksanta, 
+                Sayamh Sandhya and Jayantika. She was very beautiful with finely-shaped eyebrows capable of captivating the minds of ·even sages.</li>
+                <li>Neither in human world nor in that of the Devas was there such a woman of complete perfection in all qualities. Nor was there such a woman in nether worlds in all the three times (past; present and future).</li>
+                <li>On seeing her I involuntarily got up. Various thoughts rose up in my heart. and others-the Prajapatis, Marici and -others-all my sons, felt similarly.</li>
+                <li>0 best of sages, when I Brahma, thought like this, a wonderfully Beautiful Being appeared as my mental creation.</li>
+                <li>He had a golden complexion. His chest was stout and firm. His nose was fine. His thigh, hips and calves were round and plump. He had blue wavelets of hair. His eyebrows were thickset and tremulous. His face
+                shone like the full moon. His hairy chest was broad like a door. He was as huge as the celestial elephant Airavata. He was wearing a blue cloth. His hands, eyes, face, legs and fingers were red in colour. He had a slender waist. His teeth were fine. He smelt like an elephant in its rut. His eyes were like the petals of a full-bown lotus. He was fragrant like the filaments. His neck was like the conch. He bad the emblem of a fish. He was tall. He had the Makara fish for his vehicle. He was armed with a bow and five flowers for his arrows. His loving glance was very attractive as he rolled his eyes here and there. 0 dear one, his very breath was a fragrant wind. He was accompanied by the sentiment of love.</li>
+                <li>On seeing that Being, my sons, and others, were struck with wonder and became eager and inquisitive.</li>
+                <li>Their mind became deformed and confused imme- diately. Smitten with love they lost their mental courage.</li>
+                <li>On seeing me the creator and the lord of the worlds, the person bowed down with his shoulders stooping by humility and said.</li>
+                <li>.....</li>
+                <li>Seeing no share of Rudra set apart and being slighted by her father, she all those who were present there and cast off her body.</li>
+                <li>On hearing that, lord Siva became unbearably furious and pulling at his matted hair he created Virabhadra.<noteref3_note3footer>(3) - (235)</note></li>
+                <li>When he was created along with attendants he began asking "What shall I do?". The entire annihilation of sacrifice and the disgrace of every one present
+                there was the order issued by Siva.</li>
+                <li>The lord of the Gal).as (Virabhadra) accompanied by his soldiers reached the place immediately after receiving the orders.</li>
+                <li>They worked a great havoc there. Virabhadra chastised everyone and spared none.</li>
+                <li>After defeating and the Devas with strenuc:>us effort, the chief of Ganas cut off the head of and consigned it to the sacrificial fire.</li>
+                <li>Working great havoc he destroyed the sacrifice. Then he came back to the mountain and bowed to Lord Siva.</li>
+                <li>Even as the whole of the world of Devas was witnessing, the process of destruction of the sacrifice was carried out by Virabhadra and others, the followers of Rudra.</li>
+                <li>The policy in agreement with what is laid down in the Vedas and Smrtis is this, 0 Sage, which you must note. When lord Rudra is angry, how can there be happiness in the world ?</li>
+                <li>On hearing his song of praise Rudra relented. Favourably disposed to the miserable that he was, he granted their request.</li>
+                <li>Siva, the great lord, indulging in different sorts of divine sports, became sympathetic and merciful as before.</li>
+                <li>Daksa was resuscitated. The whole sacrifice was renewed under the instruction of the merciful Lord Siva. All those present were honoured in due manner.</li>
+                <li>0 sage, in that sacrifice Rudra was honoured by all the Gods with due devotion. They were highly delighted.</li>
+                <li>The flame of fire arising from the body of Sati and delighting the whole world fell on that mountain and it was duly worshipped.</li>
+                <li>The deity became famous as Jvaliimukhi yielding fruits of cherished desires. Even her very vision quells all sins.</li>
+                <li>Even now she is worshipped with due festivities for the acquisition of all desires, observing all stipulated modes of procedure.</li>
+                <li>The Goddess Sati became the daughter of Himalaya. As such she became famous as Parvati.</li>
+                <li>She propitiated lord Siva with a rigorous penance and attained him as her husband.</li>
+                <li>0 great sage, I have narrated to you all that you asked me. Whoever hears this narrative will no doubt be freed from all sins.</li>
+                </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
                notes: []
             }
         ]
