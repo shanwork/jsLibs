@@ -234,61 +234,69 @@ described as very fierce and terrifying.`]
                 <ul><li>arabinda (a white lotus)</li><li>asoka (Jonesia Asoka)</li><li>amra (mango- oat)</li><li> navamallika (Jasmine) and</li><li>nilotpala (a blue lotus).</ul>`]
             }
         ]
-    } , {
-    /*
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+    } , 
 
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+    {
+    /*
+<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span> 
+<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span> 
+<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+
+ <em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span> 
+ <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span> 
+<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span> 
+<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
 <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span> 
 <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
 <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
 <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span>  
+<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> 
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span> 
 
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
+
+ <noteref2_note1footer>(2) - (17)</note> 
+</li> 
+ <li>
 */
     buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: '2(summarized..->)',
-title: 'SATI-KHAND,MANIFESTATION OF \'KAMA\'  WHO IS CURSED BY BRAHMA ',
-headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/sati_khand2.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
-content: '<p>"When I became infatuated by the divine beauty of Sandhya, my infatuation resulted into the manifestation of my another Manas-putra named Kamadeva. His beauty and qualities were incomparable. His manifestation not only inflicted me with lust, but also my other Manasputras became filled up with lust. Kamadeva made salutations to me and asked as to what was his name and purpose of being. I gave him the name \'Pushpavan\' and instructed him to help in the process of procreation. I also blessed him that nobody would remain unaffected by his influence including myself and Vishnu." </p>' +
-'<p>After being named by lord Brahma as \'Pushpavan\', Kamadeva was also given various names as Manmath, Kama, Madan etc by sages like Mareech, etc. They also said to him that he would be married to \'Rati\' the daughter of Daksha.  </p>' +
-'<p>Kamadeva himself was infatuated with the beauty of Sandhya. To test the authenticity of Brahma\'s boon, Kamadeva took out his five arrows and wanted to examine their power. The names of their arrows were Harshan, Rochan, Mohan, Shoshan and Maran. </p>' +
-'<p>These arrows had effect on all the people present there including lord Brahma and Sandhya. Getting affected by those arrows, fourty nine types of thoughts emerged in Brahma\'s mind. Similarly, flaws were clearly visible in Sandhya\'s behaviour. </p>' +
-        '<p>Kamdeva became convinced of his powers and capabilities. But Dharma - the manasputra of Brahma was saddened by this event. He prayed to lord Shiva. </p>' +
-'<p>When Lord Shiva saw the condition of Brahma, he became amused and made fun of him and his Manasputras. Everybody was ashamed. </p>' +
-'<p>Due to his shame, Brahma perspired profusely. From his perspiration were created the Pitraganas. Similarly from the perspiration of Daksha Prajapati was created the most beautiful woman Rati. </p>' +
-'<p>Brahma was very angry with Kamadeva because of whom he was ridiculed by Shiva. He cursed him and said- "You would be charred to death by the arrow of Shiva."</p>' +
-'<p>Kamadeva became very scared and said that he was only testing the authenticity of his boon and he had no other evil intention. He also requested Brahma, not to curse him.</p>' +
-'<p>Feeling Pity on him, Brahma consoled him that, although he would definitely get killed by the arrow of Shiva\'s sight, yet he would regain his physical body as soon as Shiva gets married. Lord Brahma then went to Brahmaloka.</p>' +
-'<p>Daksha requested Kamadeva to get married with his daughter Rati. Kamadeva was very pleased at this proposal. Both Kamadeva and Rati got married. </p>' ,
-notes: []
-}
-]
-}  ,{
+    buttonText: '3',
+        title: 'SATI-KHAND, Kama is cursed but blessed later',
+        headerStyle: { 'color': '#f50000','font-weight': '1900', 'background-color': '#ff9f00', 'text-shadow':'2px 1px brown','opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/rudraSamhita/sati_khand2.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: `<em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' 
+                <li>Then those sages, my sons-Marici and others-who understood my view, gave him suitable names.</li>
+                <li>and others who understood other facts on seeing my face gave him a suitable place and a wife.</li>
+                <li>The brahmins Marici and others, my sons, decided on suitable names for the Being and said thus.</li>
+                <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span> 
+                <li>Since at your nativity itself you have begun to torment and bedevil our minds and that of Brahma too, you will be famous in the world as Manmatha.</li>
+                <li>You will be able to assume any form you wish. Hence, 0 mind-born God, you will be known as Kama too. There is no one equal to you.</li>
+                <li>Causing elation in others you will be known as Madana. Since you were haughty even as you were born you will be Darpaka and your name Kandarpa will also become popular in the world.</li>
+                <li>The collective power of all the Devas will not be equal to yours. Therefore you will have any station as yours and you will be omnipresent too.</li>
+                <li> Daksha here, the first Prajapati, will give you a suitable wife, 0 best of men, as you please.</li>
+                <li>This girl of handsome features, born of Brahma's mind, shall become famous in the world as Sandhya.</li>
+                <li> Since she was born when Brahma was deeply contemplating, the woman of lovely features will be famous as Sandhya. She will be as lustrous as the jasmine flower.</li>
+                <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                <li></li>
+                <li></li>
+                <li></li>
+                </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+               notes: [`236. Five flowers that are the missiles of love-God Kama are stated to be 
+                <ul><li>arabinda (a white lotus)</li><li>asoka (Jonesia Asoka)</li><li>amra (mango- oat)</li><li> navamallika (Jasmine) and</li><li>nilotpala (a blue lotus).</ul>`]
+            }
+        ]
+    } ,{
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -314,7 +322,7 @@ notes: []
 '<li>
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '3',
+buttonText: '3 (summarized --->)',
 title: 'SATI-KHAND,SANDHYA DOES PENANCE  AND GETS BOON FROM SHIVA ',
 headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.5', 'border': '2px brown outset'},
 contentStyle: { 'border':'3px outset blue',
