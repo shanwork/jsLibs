@@ -444,8 +444,56 @@ described as very fierce and terrifying.`]
                 sweet-voiced Kama rejoiced with her like the cloud at sunset mingled with sparkling lightning. Thus Kama took Rati  to his chest in his happy delusion like the Yogin his :\ knowledge. Having secured a fine husband, Rati with face
                 shining like the full moon shone like Laxmi having secured Hari.</li>
                 </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
-               notes: [`236. Five flowers that are the missiles of love-God Kama are stated to be 
-                <ul><li>arabinda (a white lotus)</li><li>asoka (Jonesia Asoka)</li><li>amra (mango- oat)</li><li> navamallika (Jasmine) and</li><li>nilotpala (a blue lotus).</ul>`]
+               notes: []
+            }
+        ]
+    } , 
+
+    {
+    /*
+<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span> 
+<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span> 
+<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+
+ <em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span> 
+ <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span> 
+<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span> 
+<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span> 
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span>  
+<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> 
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span> 
+<br/><em><span style="font-weight:900;color:#F30400;font-size:larger">Dharma said:  </span> 
+                                
+<em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+ <noteref2_note1footer>(2) - (17)</note> 
+</li> 
+ <li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '5',
+        title: `SATI-KHAND, The Story of Sandhya`,
+        headerStyle: { 'color': '#f50000','font-weight': '1900', 'background-color': '#ff9933', 'text-shadow':'2px 1px brown','opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/rudraSamhita/sati_khand_5.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: `<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
+                <ol><li>On hearing these words of Brahma, the excellent sage remembered Siva with a delighted heart and spoke joy- fully.</li>
+                <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span>  
+                <li></li></ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+               notes: []
             }
         ]
     } ,{
