@@ -603,8 +603,8 @@ described as very fierce and terrifying.`]
 '<li>
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '4 (summarized --->)',
-title: 'SATI-KHAND,SANDHYA DOES PENANCE  AND GETS BOON FROM SHIVA ',
+buttonText: '6',
+title: 'SATI-KHAND,THE HYMN SUNG BY SANDHYA. SANDHYA AQUIRES THE BOON FROM SHIVA. ',
 headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.5', 'border': '2px brown outset'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/sati_khand3.jpg")',
@@ -615,16 +615,42 @@ contentStyle: { 'border':'3px outset blue',
 'opacity':'0.5',
 'background-color':'skyblue'} ,
 subsections: [
-{
-subTitle: '',
-content: '<p>Sandhya was very ashamed of herself. For the atonement of her sin she decided to do penance. She went to Chandrabhaga mountain and commenced her tremendous penance.</p><p> Lord Brahma then instructed Vashishtha to go to her in disguise and help in getting her initiated. He went to Chandrabhaga mountain in the guise of a brahmin and gave the mantra - OM NAMAH SHANKARAYA OM to her and also told her the methods of doing worship, then he returned back. </p>' +
-'<p>After sage Vashishtha who was disguised as brahmin went away. Sandhaya did penance as per his instructions. After the passing of one Chaturyuga, she had a darshan of lord Shiva. </p>' +
-'<p>Shiva being pleased by her devotion asked her to demand anything. Sandhya said- <br/>' +
-'"Nobody should have lust towards the member of his own clan. There should be no virtuous and chaste woman greater then me in this whole world. Anybody other than my husband who looks at me with evil intentions become an impotent man."  </p>' +
-'<p>Lord Shiva blessed her by saying- \'Evamastu!\'<p></p>Lord Shiva then categorised the life-span of a man into four parts - childhood, adolescence, youth and old age. He than told her that it was written in her destiny to die by burning. He also advised her to go and surrender her body in the sacrificial fire of the yagya, performed by Medhatithi. "Before jumping into the sacrificial fire, just remember anybody, whom you want as your husband, and your wish would be fulfilled in your next birth, when you would take birth as a daughter of Daksha Prajapati. Your father Daksha Prajapati would marry his 27 twenty daughter to Moon, but the moon would have affection only towards Rohini and rest of his wives would be neglected by him. For this reason he would be cursed by Daksha. All the deities would take your refuge."</p><p>After blessing Sandhya in the way lord Shiva went back to Kailash mountain.  </p>' ,
-notes: []
-}
-]
+    { 
+         subTitle: '',
+         content: `<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+         <ol><li>0 best of my sons, 0 intellig,ent one, listen to th·e description of'the great penance of Sandhya on hearing which sins are quelled instantly.</li>
+         <li>When Vashista went back to his abode after instruct· ing her in the rites of penance, Sandhya was greatly pleased on learning the procedure of penance.</li>
+         <li>On the bank of the lake Brhallohita she began to perform penance after she had put on the dress of a of blissful mind.</li>
+         <li>She worshipped Siva with the mantra taught by as the adjunct of penance in the manner explained by him.</li>
+         <li>A period offour Yugas elapsed during which she continued her great penance with mind fixed and duly concen- trated on Siva.</li>
+         <li>Propitiated by her penance Siva was greatly delight· ed. He revealed Himself to her within and without as well as in the heaven.</li>
+         <li>Siva became visible to her in the form in which she was meditating upon him.</li>
+         <li>She rejoiced much on seeing in front of her, the lord Siva with face beaming with delight, in the same form as she was meditating on. '</li>
+         <li>"What shall I say ? How shall I eulogise?" In this agitation she closed her eyes with fear. </li>
+         <li>As she remained with eyes shut, Siva entered her heart and blessed her with divine wisdom, divine speech and divine eyes.</li>
+         <li>She thus acquired divine wisdom, divine eyes and divine speech. Directly perec1v1ng the lord of Durga she eulogised the lord of the worlds.</li>
+         <span style="font-weight:900;color:turquoise;font-size:larger;background:blue;"> Sandhya said:  </span>
+         <li> That which has no specific form, that which can be known through perfect knowledge; that which is neither gross, nor subtle, nor high; that which is to be meditated upon by Yogins within themselves-obeisance be to Thee who
+         art of this sort and the creator of the worlds.</li>
+         <li>I bow to Thee, lord Siva, whose form is like a road to heaven, beyond the path of darkness, and who art calm, pure, changeless incomprehensible through worldly knowledge, self-illuminated and unaltered.
+         Obeisance to Thee whose form is solitary, pure, luminous, free from illusion, knowledge-cum-bliss, naturally
+         undecaying, eternal bliss, delighted at the outcome of truth and prosperity and productive of glory.</li>
+         <li>Obeisance to Thee whose form can be imagined in the nature of Vidya (Perfect Knowledge), which is different from insentient things, Sattvika in will, that which should be meditated on as the form of Atman, which is the utmost essence and which is the holiest of all sanctifying objects.</li>
+         <li>Obeisance to Thee, the Yogin whose Sagul_la form is pure, lovely, bedecked in jewels, as white and clean as camphor and which holds in its hand the desired boon, fearlessness, the trident and the scalp.</li>
+         <li>Obeisance to Thee whose forms are the sky, the earth, the quarters, the waters, the fire and the Eternal time.</li>
+         <li>Obeisance, obeisance to Siva of unmanifest form from whom unmanifest primordial nature and issued forth as its effect.</li>
+         <li>Obeisance, obeisance to Thee who createst this universe tn the form of Brahma, who sustainest it in the form of Vigm and who destroyest it in the form of Rudra.</li>
+         <li>Obeisance, obeisance to the sause of causes, to the bestower of divine nectar, wisdom and prosperity; to the best- ower of the prosperity of all other worlds, and the luminous greatest of the great.</li>
+         <li>Obeisance to Thee, Siva, beyond whose region no other world exists; from whose umbilical region arose the earth, the quarters, the sun, the moon, the cupid, the devas and the ether.</li>
+         <li>Thou art, the greatest. supreme soul. Thou art Siva, the various lores, the pure Brahman, the supreme Brahman and the utmost object of deliberation.</li>
+         <li>How can I adequately eulogise lord Siva who is inexpressible by words, is incomprehensible to the mind, is the cause of the world and has no beginning, no middle, no· end.</li>
+         <li>How can he be described by me, whose forms even Brahma and other Gods or sages of great austerity cannot
+describe.</li>
+<li>0 lord, Thou art attributeless. How can Thy attributes be known to me, a mere woman? Even the Gods including Indra and Asuras do not know it.</li>
+<li>Obeisance to Thee, 0 Lord Siva, obeisance to Thee, 0 personification of penance; 0 Siva, lord of the Gods, be pleased, obeisance be to Thee again and again.</li></ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+        notes: []
+     }
+ ]
 } ,{
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
@@ -651,7 +677,7 @@ notes: []
 '<li>
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '4',
+buttonText: '6 (Summary version -->)',
 title: 'SATI-KHAND,SANDHYA BORN AS ARUNDHATI AND MARRIES SAGE VASHISHTHA ',
 headerStyle: { 'color': '#b22222','font-weight': '1900', 'text-shadow': '1px 1px 1px #ff0000','background-color': '#ffa500', 'opacity':'0.8', 'border': '2px brown outset'},
 contentStyle: { 'border':'3px outset blue',
