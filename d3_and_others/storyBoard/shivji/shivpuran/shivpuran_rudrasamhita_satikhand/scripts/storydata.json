@@ -695,7 +695,80 @@ Thus after instructing her for her welfare the lord vanished from the scene.
         notes: []
      }
  ]
-} ,{
+} , {
+    /*
+    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    <em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+    
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+    '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+    '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+    <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+    ' +
+    '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+    <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+    '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+    '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+    <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+    
+    ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+    </li>' +
+    '<li>
+    */
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '7',
+    title: 'SATI-KHAND, SANDHYA GETS THE NAME ARUNDHATI AND MARRIES SAGE VASISHTA. ',
+    headerStyle: { 'color': '#332200','font-weight': '1900', 'background-color': 'lightgoldenrodyellow', 'opacity':'0.9', 'border': '2px brown outset'},
+    contentStyle: { 'border':'3px outset blue',
+    'background-image': 'url("images/rudraSamhita/sati_khand4.jpg")',
+    'background-size': 'contain',
+    'border-radius':'4px',
+    'padding':'2px',
+    'color':'orange',
+    'opacity':'0.5',
+    'background-color':'skyblue'} ,
+    subsections: [
+        { 
+             subTitle: '',
+             content: `<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+             <ol><li>0 sage, when Siva vanished after granting her the boons , Sandhya too went to the place where Medhatithi was performing sacrifice.</li>
+             <li>She entered the sacrificial hall without being observ- ed by anyone, thanks to Siva's· favour; She recalled to her memory the brahmin boy who had instructed' her in the procedure of penance.</li>
+             <li>0 great sage, at the bidding of Brahma, had assumed the guise of a brahmin boy and instructed her in the rites of penance.</li>
+             <li>Meditating on that Brahmacarin, her tutor in the mode of austerities, Sandhya thought of him as her future husband, and entered the blazing sacrificial fire unobserved by the sages. She was delighted that it was by Siva's favour
+             that she could enter the sacrificial fire.</li>
+             <li>Her body itself had become sacrificial offering in that sacrifice. When it was burnt it could not be distinguish- ed from the ordinary PuroQ.asa since it too had the same fragrance.</li>
+             <li>At the bidding of Siva, the god of fire forth her body to the pure zone of the sun.</li>
+             <li>The sun severed her body into two halves and placed the same on his own chariot for the propitiation of the Pitrs and the Devas.</li>
+             <li>0 great sage, the upper half of her body became the PratahSandhya (dawn) which is at the beginning or in the middle of a day and night. The lower half of her body became the Sayamsandhya (dusk) which is in the middle of a day and night. The period is always pleasing to the manes.</li>
+             <li>Before the sunrise, when the day breaks, the period is called Pratahsandhya. It delights the Gods.</li>
+             <li>When the sun has set and assumed the hue of a red lotus, the period of Sayarpsandhya sets in. It is delight- ful to the manes.</li>
+             <li>Siva the merciful, created embodied beings with her vital airs, mind and the divine body.</li>
+             <li>At the end of the sacrifice, the sage found his daughter in the sacrificial pit shining lustrously like heated gold.</li>
+             <li>With very great delight the sage took up the daughter, 0 sage, as though she were a sacrificial article. He bathed her and kept her on his lap.</li>
+             <li>The great sage gave her the name Arundhati<noteref1_note1footer>(1) - (239)</note> Surrounded by his disciples he celebrated the event joyously.</li>
+             <li>The word Arundhati means "one who does not hinder sacred rites in any manner whatsoever". She acqui- red this name which later on became well-known in the three worlds.</li>
+             <li>0 celestial sage, that sage concluded the sacrifice with great contentment and was delighted at the acquisition of a daughter. He spent his days in the same hermitage along with his disciples, tending the daughter, mercifully.</li>
+             <li>The divine lady grew up in the hermitage, Tapa- saral}.ya, on the banks of the river-Candrabhaga.</li>
+             <li>When she reached her fifth year, the chaste lady sanctified the environs of the Tapasaran.ya and the river Candrabhaga, by virtue of' her good qualities.</li>
+             <li> Brahma, Siva got her marriage celebra- ted with Vasishta, the son of Brahma.</li>
+             <li>0 sage, great festivities in the marriage ceremony increased happiness. The sages and the Gods were very happy on that account.</li>
+             <li> From the water oozing from the hands of Brahma, and Siva, the seven holy rivers Sipra<noteref2_note1footer>(2) - (240)</note> and others rose and flowed.</li>
+            <li>0 sage, Arundhati, the daughter of Medhatithi, the greatest of all chaste ladies shone all the more on attaining</li>
+            <li>0 excellent sage, she secured and bore the auspicious sons Sakti<noteref3_note3footer>(3) - (241)</note> etc.</li>
+            <li>0 excellent sage, I have narrated to you the story of Sandhya. It is holy, sanctifying, divine and bestower of all benefits. He or she who hears this story accom- pained by auspicious rites attains all cherished desires. There is no doubt about it.</li>
+            </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+            notes: [`239. According to another version, Arundhati was the daughter of Kasyapa, the son of Marici who also begot on her Narada and Parvata-two sons. We also know from this source that Narada gave his sister Arundhati as wife to In the present context she is said to be the daughter of the sage Medhatithi.`,
+            `240. Sipra or on which Ujjain, the Capital of the Malava country is situated rises from the Paripatra or Pariyatra hills. Fed by its tributaries it flows in the Miilava Deb.`,
+        `241. The sage Vasishta begot I oo sons-Sakti and others, on his wife Arundbati, here identified with Sandhya.`]
+         }
+     ]
+    }, {
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -721,53 +794,7 @@ Thus after instructing her for her welfare the lord vanished from the scene.
 '<li>
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '6 (Summary version -->)',
-title: 'SATI-KHAND,SANDHYA BORN AS ARUNDHATI AND MARRIES SAGE VASHISHTHA ',
-headerStyle: { 'color': '#b22222','font-weight': '1900', 'text-shadow': '1px 1px 1px #ff0000','background-color': '#ffa500', 'opacity':'0.8', 'border': '2px brown outset'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/sati_khand4.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
-content: '<p>When lord Shiva went away. Sandhya got up and went to the place where Medhatithi was performing his yagya. She made a mental resolution to have that brahmin as her husband, who in reality was Vashishtha and then entered into the sacrificial fire. The fire of the yagya burnt her body and carried it ti the solar-system, where it was divided by the sun-god into three parts and established in his chariot. The names of these three parts were Pratah-Sandhya, MadhyanhaSandhya and Sayam-Sandhya. Sandhya‘s vital force was absorbed by lord Shiva. </p>' +
-'<p>When the yagya ended, the sages were surprised to see the presence of a girl, who was radiating like gold in the sacrificial fire. They took out that girl child from that yagya-kunda. The sages then brought up that girl with love and affection. She was named Arundhati.</p><p>When she attained the age of five, Brahma Vishnu and Mahesg arrived and married her with Vashishtha. Arundhati enjoyed a happy life and became famous for her chastity.</p>' +
-'<p>Brahma told Narada that since the day he was humiliated by Shiva, he had grudges against him and wanted to take revenge. "I wanted to subdue the arrogance of Shiva by proving it to him that even he could be binded by attachment. I asked Daksha and sages like Mareech as to how this feat could be achieved. As a result \'Rati\' and \'Kama\' manifested. I instructed Kama to influence Shiva by his powers. Kama agreed but requested me to create a suitably divine women for Shiva. Myself and Daksha became worried and during that time we exhaled fragrant air through our nostrils, which resulted into the creation of spring season. The spring season was looking divinely beautiful in her physical form. I handed over her to Kama and thus all the three of them (spring season, Kama and Rati) went to influence lord Shiva who was in his deep state of meditation. </p>' ,
-notes: []
-}
-]
-}, {
-/*
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/
-buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '5',
+buttonText: '5 (Summary version -->)',
 title: 'SATI-KHAND,CREATION OF MARGANAS AND KAMA\'S FUTILE ATTEMPTS ',
 headerStyle: { 'color': 'white','font-weight': '1900', 'text-shadow': '3px 3px 2px black','background-color': 'gray', 'opacity':'0.9', 'border': '2px #444444 outset'},
 contentStyle: { 'border':'3px outset blue',
