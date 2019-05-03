@@ -905,6 +905,64 @@ Thus after instructing her for her welfare the lord vanished from the scene.
              }
          ]
         }, {
+            /*
+            '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+            <em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>
+            '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+            '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+            
+            '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+            '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+            '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+            '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+            <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+            ' +
+            '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+            <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+            <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+            <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+            '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+            '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+            <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+            '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+            
+            ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+            </li>' +
+            '<li>
+            */
+            buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+            buttonText: '9',
+            title: 'SATI-KHAND, THE POWER OF KAMA AND THE BIRTH OF HIS ATTENDANTS ',
+            headerStyle: { 'color': '#f50000','font-weight': '1900', 'background-color': '#ff9933', 'text-shadow':'2px 1px brown','opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/rudraSamhita/sati_khand2.jpg")','background-size': 'contain',
+            'border-radius':'4px',
+            'padding':'2px',
+            'color':'orange',
+            'opacity':'0.5',
+            'background-color':'skyblue'} ,
+            subsections: [
+                { 
+                     subTitle: '',
+                     content: `<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                     <ol><li>0 great sage, when Kama went to Siva's abode along with his attendants an adversely surprising incident occurred to which listen please.</li>
+                     <li>After going there, the heroic Kama competent to enchant others spread all .his wiles and charmed all living beings.</li>
+                     <li>0 sage, spring too showed his prowess in order to delude Siva. All the trees simultaneously bloomed.</li>
+                     <li>Kama and Rati played many a trick. All living beings fell victims of their wiles but not Siva, the lord of
+                     Gal).as.</li>
+                     <li>0 sage, the efforts of Kama who was accompanied
+                     by spring were futile. He returned to his residence being cured of his arrogance.</li>
+                     <li>0 sage, Kama saluted me, and bereft of arrogance and completely despondent he told me in faltering voice.
+                     </li>
+                     <br/><em><span style="font-weight:900;color:#ff0A01;font-size:larger"> Kama said:  </span>
+                     <li>0 Brahma, Siva, an expert in Yogic practices cannot be charmed. Neither I nor anyone else has the power to enchant Siva.</li>
+                     <li>0 Brahma, different tricks were tried by me and my friends as well as by Rati. All those became futile in regard to Siva.</li>
+                     <li>..</li>
+                    </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+                    notes: []
+                 }
+             ]
+            }, {
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
