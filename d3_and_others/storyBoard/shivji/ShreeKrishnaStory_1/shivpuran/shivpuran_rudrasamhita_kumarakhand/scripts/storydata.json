@@ -1,0 +1,1093 @@
+var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultPrevButtonStyle = "float:left;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultNextButtonStyle = "float:right;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right:20px;";
+        var leftNavigation = true ;
+var defaultHeaderStyle=
+    {
+        'font-weight': '900',
+        'color':'firebrick',
+         'background-color': 'transparent', 'opacity':'1.5'
+    };
+var defaultDetailStyle = { 
+      'background-color':'lightgoldenrodyellow',
+        'opacity':'0.7',
+        'margin': '10px',
+      'padding':'5px',
+        'color':'black',
+        'font-weight':'900',
+        'border':'2px solid red'};
+var defaultContentStyle =   { 'border':'3px outset orange',
+             'background-image': 'url("images/lord-krishna-786.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'lightgoldenrodyellow'};
+var chapterData = [
+    
+
+    {
+    /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: 'RUDRA-SAMHITA, SRISHTI-KHAND,VICTORY OF NARADA OVER \'KAMA\'',
+        title: 'SRISHTI-KHAND,VICTORY OF NARADA OVER \'KAMA\' ',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/rudraSamhita/shrishti_khand1.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '<p>Once upon a time a Narada was performing a penance in the cave of Himalaya mountain. Indra becoming fearful sent Kamadev to obstruct his penance. But Kamadeva was unsuccessful in his attempt as the place where Narada was doing penance was the same place where Lord Shiva did penance. After the completion of his penance, Narada became arrogant that he had defeated Kamadeva. He went to Kailash mountain and narrated about his feat to Lord Shiva. Narada was naïve not to realize the fact hat is happened only because of the divine power of Shiva. </p>' +
+                          '<p>Lord Shiva listened to his arrogant statement. He advised Narada not to reveal this secret to anybody. But Narada went to Brahmaloka and boasted about his feet to Lord Brahma.</p>' +
+           '<p>Lord Brahma listened to his boisterous statements and advised him not to reveal this to anybody.</p>' +
+'<p>But Narada was not satisfied. He wanted to give the news of his achievement to Lord Vishnu. So, he went to Lord Vishnu\'s abode and boasted about his feat of defeating Kamdeva.</p>' +
+'<p>Lord Vishnu with a desire to subdue his inflated ego, manifested his illusionary power with the blessings of Lord Shiva.</p>' +
+'<p>While Narada was returning from Vaikuntha Loka, he saw a beautiful city. This city was ruled by a king named Sheelnidhi. The king had a daughter and her Swayamvar was being organised. Numerous kings had arrived to take part in that Swayamvar. Narada, curiously entered the place were Swayamvar was being held. The king requested Narada to study the lines of the palm of the princess. Narada was infatuated by the princess‘ beauty. He returned back to Lord Vishnu and expressed his desire of marrying that princess. He also requested Vishnu to make him as handsome as himself (Vishnu).</p>' +
+'<p>Lord Vishnu made Narada\'s whole body very beautiful except his face. Which he made like a monkey. Narada being unaware of this happily went back to Swayamvar site. Narada sat among the kings - his face resembling like a monkey Lord Vishnu too was present there. The princess saw Narada, whose face was looking like a monkey. She was amused. Ultimately she put the garland around the neck of Lord Vishnu and went to Vaikuntha Loka alongwith him.  </p>' +
+'<p>Some of the Shiva\'s gana too were present there in the guise of a brahmin. Their names were Marud ganas. When they saw Narada to see the reflection of his face in the water.  </p>' +
+'<p>When Narada saw his face in the water, he saw that he was looking like a monkey. He became very furious and cursed the Marudganas to be the born as demons, even though being brahmins by birth.</p>' +
+'<p>Furious Narada then went to Lord Vishnu and cursed him- "You too would suffer due to separation from your wife, during your incarnation of Rama and the monkey would come to your help.</p>' +
+'<p>Lord Vishnu accepted Narada\'s curse without any hesitation. He then removed the illusionary powers by which Naradas\' mind was influenced. Now Narada regretted his actions. Lord Vishnu told Narada that everything happened because of Shiva\'s divine illusions.</p>' +
+'<p>"You did not pay heed to his advice and hence Shiva by his illusions, has taught you a lesson. Shiva is beyond the reach of the three basic qualities -Satva, Rajas and Tamas. Therefore you must worship and contemplate on the name of Shiva. All of your sins will be destroyed. </p>' +
+'<p>After preaching Narada, Lord Vishnu vanished from his sight. Narada then descended down to earth and while having darshan of numerous Shivalingas, he saw two of the Marudganas, whom he had cursed. He told both of them that they would take birth from a giantess\'s womb, but their father would be sages. He also told them that they would become very famous due to their devotion, Narada went to lord Brahma and requested him to tell about the divinity of Shiva.</p><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: []
+            }
+        ]
+    } , {
+    /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '2-3',
+title: 'SRISHTI-KHAND,BRAHMA PREACHES NARADA ON ORIGIN OF VISHNU & BRAHMA,SIVA ENDS BRAHMA – VISHNU  DISPUTE AND SHABDA BRAHMA  ',
+headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand2.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: 'BRAHMA PREACHES NARADA ON ORIGIN OF VISHNU',
+content: '<p>On Narada\'s request Brahma said-</p>' +
+'<p>During the period of MahaPralaya (Final annihilation) nothing exist, except Shiva. The power which Shiva manifested from his own self came to be known as Ambika. This Ambika is understood to be the cause of the whole world as well as the Nature. Lord Shiva then created a Shivaloka, which is known as Kashi. It is the abode of Shiva and Parvati. A man who makes a pilgrimages of Kashi attains salvation.  </p>' +
+'<p>Lord Shiva, felt the need of somebody, who could look after the creation in his absence, as he wanted to retire along with Ambika at Kashi. The unified energy of Shiva and Ambika, resulted into a radiant physical form of a child. The child asked Shiva about his name and purpose of his being. </p>' +
+'<p>Lord Shiva named the child as Vishnu and advised him to do a penance which would help him to attain all kinds of accomplishment. He then offered him the knowledge of Vedas, through his breath. For this reason it has been said-</p>' +
+        '<p>"YASYA NISHVASITAM VEDAH " Meaning: Whose exhaled air is Veda. </p>' +
+'<p>Vishnu followed the instruction of Shiva and did a tremendous penance for twelve years, but still he was not successful in having a darshan of lord Shiva for the second time. He became worried. He heard a heavenly voice, instructing him to do further penance</p>' +
+'<p>Vishnu then recommenced his penance. It continued for many days. By the blessings of Shiva, numerous fountain of streams errupted from his body, which spread in all directions in the form of Brahma. Vishnu was very pleased to see that stream. He went to sleep in that streams due to which he also came to be known as \'Narayan\'. One who has his abode in the water. After that, all the five elements manifested from his self. The three qualities- Salva, Rajos and Tamas as well as the ego manifested from his body. Similarly, five Tanmantras (Subtle form of matter), Panchabhuta (Sky water, air, fire and earth) and ultimately five sense organs and five organs of action also manifested from. Altogether twenty-four types of element manifested from the body of Sri Vishnu. </p>' +
+'<p>Brahma told Narada- </p>' +
+'<p>"While Vishnu was sleeping in the water, a lotus flower manifested from the navel of Vishnu according to the wish of Shiva. On that lotus was seated with four heads. I did not see anything except that lotus flower. I had a desire to know about my identity. So I entered into the hollow tubular stalk of that lotus flower, but I was not able to find the source. I returned back to the same place. Suddenly I heard a voice which instructed me to do penance. I did a tremendous penance for twelve years with a desire to know about my creator. Being pleased with me, lord Vishnu manifested before me with in his Chaturbhuj form, but I could not identify him, being influenced by the illusionary power of Shiva. I quarreled with him." </p>' ,
+notes: []
+},
+{
+subTitle: 'SIVA ENDS BRAHMA – VISHNU  DISPUTE AND SHABDA BRAHMA ',
+content: '<p>"I asked him as to who he was. Vishnu replied that he was the fulfiller of all of his desires. But I replied to him that I only was the creator, nurturer and the supreme soul of this world. Vishnu became angry and said that undoubtedly I (Brahma) was the creator of this world, but he (Vishnu) was the one, who had created me (Brahma) and the whole world. Vishnu also ordered me to take his refuge and promised to protect me. But being an ignorant I did not believe him. A fierce battle was fought between both of us. A Shivalinga manifested between us to end the battle. We requested that Shivalinga to show its real identity. That Shivalinga had destroyed our pride."</p>' +
+'<p>We heard a sound OM. We became curious to know the origin of that sound. Vishnu saw a letter \'A\' towards the south of that Shivalinga. He also saw the letters \'U\' and \'M\' center towards the north of the Shivalinga and in its center respectively. He also saw the mantra \'OM\', which was dazzling like a Sun. There was no beginning and end to this mantra OM. As we were making efforts to know about its origin, suddenly Shiva appeared in the form of a sage. He gave us the knowledge regarding OM. He also revealed to us that I originated from the letter \'A\', Vishnu originated from letter \'U\' and Shiva himself originated from letter \'M\'. The letter A signifies creation, U Signifies nurturement and M signifies salvation. </p>' +
+'<p>Lord Shiva, felt the need of somebody, who could look after the creation in his absence, as he wanted to retire along with Ambika at Kashi. The unified energy of Shiva and Ambika, resulted into a radiant physical form of a child. The child asked Shiva about his name and purpose of his being. </p>' +
+'<p>The three letters A, V and M also symbolizes the basic causes of creation. A or brahma also symbolizes the semen, U or Vishnu symbolizes the Vagina and the sound of OM is Maheshwar- the combined sound of A, U and M. All the three united from which manifested a golden egg. This golden egg remained submerged in the water for one thousand years. The almighty then cut that egg into two halves, from which appeared heaven and Earth. We also saw the divine beauty of Maheshwar." </p>' +
+'<p>Then we saw all the vowels and consonants emanating from the physique of Mahadeva. Vishnu saw the forty eight letters within OMKAR, which in fact were the two following mantras- "TAT PURUSHAY VIDDYAMAHE MAHADEVAY DHIMAHI, TANNO RUDRAH PRACHODAYAT." And "TAT SAVITUR VARENYAM BHARGO DEVASYA DHIMAHI DHIYO YONAH PRACHODAYAT.</p>' +
+'<p>"After that we also received the Mahamrityunjay mantras like "OM JOOM SAH", "HRAUM HRIM JOOM SAH" and "TRAYAMBAKAM YAJAMAHE". After that we received the five lettered mantra "OM NAMAH SHIVAY", the chintamani mantra \'KSHAMYAUM\', the Dakshainamurti mantra -  "OM NAMO BHAGAVATE DAKSHAINAMURTAYE MAHYAM MEGHAM PRAYACHCHHA SWAHA. At last we received the great mantra TATVAMASI. Vishnu was so enchanted by this mantra that he started chanting this mantra. We then prayed to Shiva-the creator, the nurturer and the destroyer.  </p>' +
+'<p>"Shiva became very pleased with both of us. He preached us the contents of Veda. Shiva told Vishnu about the methods by which his (Shiva\'s) worship could be done. He revealed to us that Vishnu actually had manifested from the left portion of his Shiva\'s body and myself from the right portion of his body. He also blessed us that he would manifest his incarnation of Rudra from our body and also that the purpose of this incarnation would be to do annihilation. Lord Shiva revealed to us that his consort Uma, was in fact mother Nature and her power in the incarnation of Saraswati would be my consort. Lakshmi, who would also manifest from the nature would be the consort of Vishnu." </p>' +
+'<p>Brahma told Narada- </p>' +
+'<p>"Lord Shiva informed us that my day consists of four thousand eras and similarly my night too consists of four thousand eras. Since a month consists of thirty days and a year consists of twelve months. In this way my age was fixed to be of one hundred years. One day of Vishnu is equivalent to one year of Brahma. Vishnu\'s age too was fixed to be of one hundred years. The day of Rudra is equivalent to one year of Vishnu and his age also was fixed to be of one hundred years. " </p>' ,
+notes: []
+}
+]
+}  , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '4',
+title: 'SRISHTI-KHAND,THE METHODS OF WORSHIPPING SHIVA ',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'darkslateblue', 'opacity':'0.5'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand4.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>On the request of the sages, Suta retold the preaching which had been narrated by Brahma to Narada. Describing the method of Shiva worship he says- </p>' +
+'<p>"A devotee should get up early in the morning and contemplate on Shiva, who gives benediction. After that, he should finish his daily routing work and perform rituals like \'Sandhya\' and Vandana etc. After that, he should worship Shivalinga according to vedic rites like Panchopachar, Sodashopachar etc. He should also perform \'Abhiseka\' with various offerings. At last, the should beg pardon for his sins."</p>' +
+'<p>Once, Brahma went to \'Kshirsagar\' (the abode of Vishnu) accompanied by the deities and asked lord Vishnu how a man could be liberated from his sorrows. Lord Vishnu told them that this objective could be met by worshipping Shivalinga. </p>' +
+'<p>All the deities, then prayed to lord Shiva, who after becoming pleased instructed Vishwakarma to construct a Shivalinga for them. Vishwakarma then made a Shivalinga for Kubera, a Shivalinga of yellow diamond for Dharmaraj, a Shivalinga of dark coloured diamond for Varuna, a Shivalinga of Indraned diamond for Vishnu and a goldden Shivalinga for Brahma. Similarly Vishwadeva was given a Shivalinga made up of silver, the Ashwini Kumars were given Shivalinga made up of bronze, Lakshmi was given a Shivalinga made up of Crystal (Sphatik), Sun-god was given a Shivalinga made of copper and the moon was given a Shivalinga made of pearl</p>' +
+'<p>Brahma has described the following methods for the worship of Shivalinga- </p>' +
+'<p>"After performing the rituals like \'Achaman\' and Pranayama a devotee should apply a tripunda on his forehead and wear a rudraksha on his body. After the study of Shanti-path and the performance of Devata-Namaskar, he should make a resolution if he has any wish to be fulfilled. Then the worship of Shivalinga should be done, with the help of Mahima-Stavan and offering flowers to the Shivalinga. The purity of the mantras should be maintained while chanting them.  </p>' +
+'<p>It has been mentioned in the ShivaPurana that making offerings in the form of lotus, Shatapatra, Shankhapushpi, the leaves of wood apple tree, helps a man in attaining wealth and prosperity. For becoming free from disease, fifty lotus flowers should be offered to the Shivalinga. Mrityunjay-Japa should be chanted for five lac times, for all types of accomplishment. One lakh dhatura-fruits should be offered for long life, worldly-pleasure, as well as for attaining salvation. "</p>' ,
+notes: []
+}
+]
+} , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '5',
+title: 'SRISHTI-KHAND,THE ORIGIN OF KAILASH AND VAIKUNTH ',
+headerStyle: { 'color': 'crimson','font-weight': '1900', 'background-color': 'orange', 'text-shadow': '2px 2px 2px maroon','opacity':'1.0', 'border': '3px outset red'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand5.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Brahma revealed to Narada how the process of creation commenced- </p>' +
+'<p>"After Lord Shiva vanished from our sight, I transformed myself into the appearance of a swan and Vishnu transformed his appearance into that of a boar with the purpose of commencing the process of creation. First of all, I created the water. I poured a palmful of water into it and an egg manifested which consisted of all the twenty four elements. This egg was very enormous in size which made me confused. I did penance for twelve years. Vishnu appeared before me. I requested him to bring that egg to consciousness. Vishnu entered into that egg. As a result of this, Kailash mountain, and all the seven worlds came into existence. After that the static living things were created, which symbolized the dark quality (Tamas guna). After that I created four footed animals like cows and Ox etc. inspite of these creations, I was not satisfied, so I again went into meditation. "</p>' +
+'<p>"As a result the deities were created which symbolized the virtuous quality (Satvaguna). Once again I meditated and the human species came into existence, which symbolized the medium quality (Rajas guna). With the permission of Lord Shiva, I then created spirits like ghosts etc. After that I created my five Manasputras- Sanak, Sanadan etc. But they were so ascetic and detached from the world that they showed their disinclination in contributing in the process of creation. This made me angry, tears rolled down from my eyes. With the permission of Vishnu, I did a tremendous penance to have a darshan of lord Shiva. "</p>' ,
+notes: []
+}
+]
+}, {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '6',
+title: 'SRISHTI-KHAND,THE EMERGENCE OF RUDRAVATAR  AND CREATION  ',
+headerStyle: { 'color': 'yellow','font-weight': '1900', 'background-color': 'maroon', 'text-shadow': '2px 2px 2px orange','opacity':'1.0', 'border': '3px inset yellow'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/shrishti_khand6.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Brahma said to Narada-  </p>' +
+'<p>""When I accomplished my penance, Lord Shiva manifested in his incarnation of Rudra from in between the eyebrows. Half of his body resembled like that of a woman (Ardhanarishwar). I requested him help me in my creational activities. Rudra created his hosts (Rudragana) who resembled like him. I requested him to create the mortals, to which he laughed and said, that he liberated mortals from their sorrow, so how could he fasten them with bondages. Rudra requested me to create the mortals and then he vanished. "</p>' +
+'<p>Preaching Narada on the essence of Shivatattva, Brahma said-   </p>' +
+'<p>"With the permission of Shiva, I created the five basic elements from which the matter is made and also all types of arts. I also created the time. Despite all these creations, I was not satisfied. I created Sage Marichi from my eyes, Sage Bhrigu from my heart, Sage Angira from my head, Sage Pulaha from my Vyan Vayu, Sage Pulatsya from my Udan Vaya, Sage Vashishtha from my Saman Vayu, Sage Kratu from my Apan Vayu, Sage Atri from my ear, Daksha Prajapati from my vital air. You (Narada) manifested from my lap. Sage Kardam and Dharma manifested from my Shadow. Then I divided my body into two parts, and from each of the two parts. Manu and Shatarupa manifested respectively. Both of them got married and in this way commenced the conjugal creation. Priyavrata and Uttanpad were the two sons born to them. Shatarupa also gave birth to three daughters whose names were Akuti Devahuti and Prasuti. Sage Ruchi was married to Akuti, Sage Kardam was married to Devahuti and Daksha Prajapati was married to Prasuti. Sage Yagya and Dakshaina were born to sage Ruchi and Akuti." "</p>' +
+'<p>"Numerous daughters were born to sage Kardam and Devahuti. Similarly twenty-four daughters were born to Daksha and Prasuti. Daksha married thirteen of his dhauthers to Dharma. "</p>' +
+'<p>"The rest of his daughters were married to sages like Pulastya etc. All the three worlds are inhabited by the progenies of these sages. The same Daksha Prajapati had sixty daughters in another Kalpa, who were married to sages like Kashyapa, etc. In this Kalpa,  Sati was one of his daughters who was married to Lord Shiva. Sati being distressed by the disrespect sown by her father-Daksha, to her husband-Shiva, had given up her life, by jumping into the sacrificial fire. In her next birth she was born as Parvati and was again married to Shiva. This way, I created this world with the permission of Shiva"</p>' ,
+notes: []
+}
+]
+}, /*'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+
+'<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/{
+    buttonText: '7',
+    title: 'Chapter SEVEN: Do\'s and Dont\'s ...',
+        headerStyle: { 'color': 'purple','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/shiv1_7.jfif")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.8',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '',
+               notes: [                     ]
+            }
+        ]
+    },
+    {
+    newButtonRow:true,
+    buttonText: '3 - 4',
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+title: 'VIDYESVARASAMHITA: Chapters 3 and 4, The deliberation on the achievable and the means of achievement AND  The Excellence of Listening and Deliberation',
+headerStyle: { 'color': 'darkslateBlue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.9'},
+contentStyle: { 'border':'4px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt3_4.jpg")',
+'background-size': 'contain',
+'border-radius':'6px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.7',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '3. The deliberation on the achievable and the means of achievement',
+content: '<ol><em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>'+
+'<li>On hearing the wo~ds of Suta, the great sages said~ "Please narrate the wonderful Pural).a that fully treats of the essence of Vedanta".</li>' +
+'<li>Very delighted at the request of the sages Suta meditated on Siva and spoke to them. </li>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+
+'<li>Contemplating on Siva free from ailments may ye all hear this Sivapurana, the foremost among Puranas, that amplifies the essence of the Vedas.</li>' +
+'<li>Where the trio, Bhakti (Piety) Jnana (Wisdom) and Vairagya (non-attachment) has been proclaimed and the object which is knowable only through Vedanta, has been particularly described.</li>' +
+'<li>May ye all hear the Purana that embibes the essence of the Vedas. Formerly, when many Kalpas (Aeons) elapsed and this Kalpa started with the process of creation, a· great dispute arose among the sages of six clans who held divergent views as to which is great and which is not. They approached Brahma the Creator, to ask him about the imperishable. </li>' +
+'<li>All of them with palms joined in reverence addressed him with words couched in humility-"Thou art the creator of the entire universe, the cause of all causes. Who is that Being older than all Principles, the greatest of the great?</li>' +
+'<p><em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span><br/>' +
+        '"That from whom words recede, not approaching , him even with the mind ; that from whom this entire universe beginning with Brahma, Vishnu, Rudra and Indra, along with all elements and all sense-organs, is evolved at first ; he is the lord Mahadeva the omniscient, the lord of the universe. He can be realised by supreme devotion and not by other means. "</p>' +
+'<li>Rudra, Hari, Hara and other lords of Devas are ever desirous of seeing Him, moved by great devotion. </li>' +
+'<li>Of what avail is a verbose statement ? One is liberated by devotion unto Siva. Devotion to the deity is due to His Grace; and His grace is due to devotion just as the seed gives rise to the sprout and the sprout produces the seed. </li>' +
+'<li>Hence, 0 Brahmins, all of you descend to the earth, to propitiate the Lord. You have to perform a sacrifice of long duration for a thousand years. </li>' +
+'<li>It is by the grace of Siva alone who will be the presiding deity of this sacrifice that the means of achievement of the Achievable can be realised and that is the essence of the Vidya (mystic learning) mentioned in the Vedas.</li>' +
+'<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<li>What is that great Achievable ? What is that great means of achievement ? Of what sort is the performer of the rite ? Please mention these precisely. </li>' +
+'<br/><em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>' +
+'<li>The attainment of Siva\'s region is the Achievable. Means of achievement is the service rendered unto Him. Sadhaka (the performer of the rite) is the person who is free from desire even for permanence which attitude is the result of His grace. </li>' +
+'<li>Rites mentioned in the Vedas should be performed with the fruits thereof dedicated to Him. Thence, through Salokya<noteref1_note1footer>(1) - (33)</note> he attains the feet of the great Lord. </li>' +
+'<li>All attain the great fruit according to the standard in devotion achieved. The ways of achieving these standards are manifold as expounded by lsa Himself. </li>' +
+'<li>I shall condense the same and tell you the essential means. Listening to the glory of Siva, glorifying him by me~ns of words, and deliberation in the mind, these constitute the greatest of the means. Mahesvara is to be heard, glorified and meditated upon. </li>' +
+'<li>Thus Sruti<noteref2_note2footer>(2) - (34)</note> is our authority. Resorting solely to this great means, all of you attain the Achievable. </li>' +
+'<li>Regarding visible things people see with their eyes and begin their act1v1ty. Concerning. the invisible everywhere, they know through the ears and activise themselves. </li>' +
+'<li>Hence Sravana (listening) is the :first rite. The intelligent scholar must listen to the oral explanation of the preceptor and then practise the other rites.-Kirtana (glorifying) and Manana {deliberation).</li>' +
+'<li>When all the means upto Manana are well exercised, Sivayoga (unification with Siva) results gradually through Salokya etc. All the ailments of the body are nullified and supreme bliss is realised. Painful indeed is the process but later on everything becomes auspicious from beginning to end.</li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['33· The devotee attains exemption from further transmigration and his it;lentification with the deity, gradually through four st~;tges ; viz. Salokya (being in the same world with the deity), (Samipya (nearness to the deity), Sayujya (intimate union with the deity) and Sarupya. (assimilation to the deity). SP. adds Sar~ti (g.26) (equality in rank, condition or power) as one of the grades of Mukti. ',
+'34· The word Sruti in the Purai)as does not mean \'sacred tradition;· but simply \'tradition\' .-Pargiter AIHT. Ch. II. ']
+},
+{
+subTitle: '4 The Excellence of Listening and Deliberation',
+content: '<ol><br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<li>0 holy one, what is Srava:t;a ? what is Manana ? How is the Kirtana performed ? Please expound these precisely. </li>' +
+'<br/><em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>' +
+'<li>The mind is fond of reasoning deliberation. The ability of the mind to ponder and evaluate the corresponding efficacy of the worship, Japa, the attributes of Isa, His form, His divine sports and multifarious names, is the result of the benignant glance of Isvara. Hence this steady continuance in the act of deliberation is the most important of all the means. </li>' +
+'<li>By Kirtana (glorification) is meant the clear expression of Siva\'s exploits, attributes, forms, sports, names etc. in good taste by reciting traditional lore, singing songs of praise even in mother tongue. It is the middle one of the three means. </li>' +
+'<li>0 wise men, the means of Sravana famous in the world is the listening to words concerning Siva, in whatever manner, howsoever and wherever they are produced with the same steady attention as in the sporting dalliance of women. </li>' +
+'<li>Sravana (listening) -is effected when one associates with good men. Then the Kirtana of Pasupati becomes steady. In the end is the Manana which is the most excellent. All these take place as a result of benevolent surveillance of Lord Siva.  </li>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li>0 saints, in the context of the elucidation of the greatness of the means, I shall narrate an anecdote of former days for your sake. Please listen to them attentively. </li>' +
+'<li>Long ago, my preceptor Vyasa, the son of Sage Parasara, performed penance on the bank of the river Sarasvati<noteref1_note1footer>(1) - (35)</note> with some mental agitation. </li>' +
+'<li>The divine sage Sanatkumara who happened to go that way in an aerial chariot resplendent like the sun, espied my preceptor. </li>' +
+'<li>Waking up from his meditation my preceptor saw the son of Brahma. The sage thereupon paid obeisance in a flutter and eagerness. </li>' +
+'<li>He offered Arghya and a seat befitting the divinity of the sage. Being delighted, the divine sage spoke to my humble preceptor in words of great profundity. </li>' +
+'<br/><em><span style="font-weight:900;color:#faa701;font-size:larger"> Sanatkumar said:  </span> ' +
+'<li>0 sage, you must meditate upon the True object. The great lord Siva can be realised and seen. But wherefore do you perform the penance here unattended? </li>' +
+'<li>When Sanatkumara addressed him thus, the sage Vyasa clarified his purpose.<br/>&nbsp;&nbsp;"By the favour of divine elders like you I have almost established the four ways of virtue, wealth, love and salvation with due adherence to the Vedic path, in the world. I have become a preceptor unto all. Still it is surprising that the knowledge of the means of liberation has not dawned on me. I am performing penance for the sake of salvation. But I do not know how it can be achieved."</li>' +
+'<li>0 excellent brahmins, when thus requested by the sage Vyasa, the competent divine sage Sanatkumara told him of the sure way of realising salvation. </li>' +
+'<li>It has already been mentioned that there are three means in conformity with Vedic ideal viz. Sravana, Kirtna and the highly efficacious Manana of Siva. </li>' +
+'<li>Formerly, I too, confounded by other means performed a great penance on the mountain. Mandara.<noteref2_note2footer>(2) - (36)</note></li>' +
+'<li>Thus, in brief, I have told you the ancient anecdote. </li>' +
+'<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<li>0 Siita, you have narrated Sraval).a etc.-the three means of salvation. If a person is unable to practise these three, what shall he do to achieve liberation ? What is that rite whereby salvation will be possible without stress or strain? </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['<p>35 Sarasvati. The Sarasvati river was a boundary of Brahmavart.a, the home of the early Aryans, and was to them, in all likelihood, a sacred river as the Ganges has long been to their descendants. As a river, it is lauded for the fertilizing and purifying powers of her waters, and as the bestower of fertility, fatness and wealth.-Dowson: Hindu Mythology P. 284; also D. C. Sarkar, G.A.M.J. P. 40.</p><p>This sacred river rising in the Sirmur hills of the Sivalik range in the Himalayas, emerged into the plains in the Ambala district, Punjab. Ultimately it fell into t:be Ghagger which bore the name Sarasvati in ancient times. Sanskrit literature speaks of its disappearance at Vinasana (near modern Sirsa) in Kuruk~etra in the East Punjab.</p>'
+,'36. Mandara : a mountain in Hindu Mythology for being used as a churning staff by the gods and demons on the occasion of SamudraManthana appears to be an important hill comprising beautiful caves. There is still .a hill of this name in Banka Sub-_division of Bhagalpur district (Bxhar). It IS noted for .the abundance of vanous metals as well as variety of flora and fauna. It IS stated to be a sacred mountain associated with Siva.-Sk. V. II. 4· 23, 26. There is another mountain of the same name in the Malaya range which being an abode of Gods and R~is has an Asrama of Agastya. ']
+}
+]
+},{
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '5',
+title: 'VIDYESVARASAMHITA: Chapter 5: The greatness of the phallic emblem of Siva',
+headerStyle: { 'color': 'purple','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt5.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<ol><em><br/>  <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span>' +
+'<li>A person incompetent to perform the three rites of Sravana etc. shall fix the phallic emblem or the image of Siva and worship them every day. He can thus cross the ocean of worldly existence. </li>' +
+'<li>As far as he can afford, the devotee shall make gifts of wealth too without deceiving others. He shall offer them to the phallic emblem or the image of Siva. He must worship them constantly. </li>' +
+'<li>The worship must be performed elaborately. Construction of platforms, ornamental portals, monasteries, temples, holy centres, etc., offerings of cloth, scents, garlands, incense, lamps, with due piety; oblations of various cooked rice, pancakes, pies etc. with side dishes ; umbrellas, fans, chowries with all paraphernalia-everything shall be maintained in the worship of Siva. In fact, all royal homage shall be paid. Circumambulation and obeisance with Japas according to capacity shall be performed. All the different usual rites in worships like invocation shall be maintained with due devotion. A person who worships the phallic emblem or the image in this manner will attain salvation even without Sravana etc. Many noble men of yore have been liberated solely by this simple worship. </li>' +
+'<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<li>Everywhere the deities are worshipped only in their image. How is it that Siva is worshipped both in the. image and the phallus? </li>' +
+'<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<li>0 sages, this question is holy and wondrous. Here the speaker is Siva Himself and not any ordinary person. </li>' +
+'<li>I shall tell you what Siva Himself had said and what I heard from my own preceptor. Siva alone is glorified as Niskala (nameless and formless) since He is identical with supreme Brahman. </li>' +
+'<li>He is also Sakala as He has an embodied form. He is both Sakala and Niskala. It is in his Niskala aspect that the Linga<noteref1_note1footer>(1) - (37)</note> is appropriate.</li>' +
+'<li>In the Sakala aspect the worship of his embodied form is appropriate. Since He has the Sakala and Niskala aspects He is worshipped both in the phallic and in the embodied form by the people and is called the highest Brahman. Other deities, not being Brahman, have no Niskala aspect anywhere. </li>' +
+'<li>Hence the deities are not worshipped in the formless phallic symbol. The other deities are both nonBrahman and individual souls. </li>' +
+'<li>In view of their being embodied alone they are worshipped solely in the bodily form. Sankara has Brahmatva and the others Jivatva. </li>' +
+'<li>This has been explained · in the meaning of the Pranava (Om), the essence of Vedanta, by Nandikesvara<noteref2_note2footer>(2) - (38)</note> when asked by Sanatkumara, the intelligent son of Brahma, at the mountain Mandara.</li>'  +
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<li>The embodied form alone is often observed in the worship of the deities other than Siva. But both the phallic and the embodied forms are seen only in the worship of Siva. Hence 0 benevolent one, please tell me precisely making me understand the truth.</li>' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+'<li>It is impossible to answer this question without revealing the secret of Brahman. </li>' +
+'<li>0 sinless one, since you are pious I shall tell you what Siva Himself has said . Since Siva has the bodiless aspect in virtue of His being the supreme Brahman, the Niskala linga, in conformity with the Vedic implication, is used only in His worship. Since He has an embodied form as well, His embodied form is also worshipped and accepted by all people. According to the decision in the Vedas, the embodied form alone is to be used in the worship of other deities who are only individual souls embodied. Devas have only the embodied aspect in their manifestation. In sacred literature both the phallic and the embodied forms are mentioned for Siva. </li>' +
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<li>0 Fortunate one, you have explained the worship of phallus and image distinctly for Siva and the other deities. Hence, 0 lord of Yogins, I wish to hear the feature of the manifestation of the phallic aspect of Siva.</li>' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+'<li>0 dear one, out of love for you I shall tell you the truth. Long long ago, in the famous first Kalpa<noteref3_note3footer>(3) - (39)</note> the noble souls Brahma and Visnu fought each other. </li>' +
+'<li>In order to eradicate their arrogance lord Paramesvara showed his unembodied Niskala form in the form of a column in their. midst. </li>' +
+'<li>He showed his phallus emblem separate, evolved out -of the column, with a desire to bless the worlds. </li>'+
+'<li>From that time onwards the divine phallus and the embodied image, both, were assigned to Siva alone. </li>' +
+'<li>The embodied form alone was assigned to deities other than Siva. The different types of the embodied forms of the different Devas yield only enjoyments. In regard to Siva the phallic emblem and the embodied form together bestow auspicious enjoyment and salvation.</li> </ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['37· Siva-linJa : the phamc emblem of Siva which is universally worshipped. ',
+'38. Nandikesvara : .Qn,e qf the attendants of Siva. ',
+'39.  The term Kalpa in a precise sense means a vast cosmic period but this seems to have been a later application of it, when the scheme of cosmological time was developed. It is often used in a simpler and unspecialized way to mean \'a period of time\', \'an age.\' This seems to have been its earlier signification, as where it is said \'PuraKalpa -mahakale\' in old time, long, long ago. In such texts Purakalpa js often used loosely ~nd has the generall sense of \'Old time\'. ']
+}
+]
+},{
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '6',
+title: 'VIDYESVARASAMHITA: Chapter 6: Fear of Devas on the Shree Vishnu-Brahma Battle and journey to Kailash',
+headerStyle: { 'color': 'purple','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt6.jpg")',
+'background-size': 'cover',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p style="margin-left:60px;margin-right:60px;"><em>The journey to Kailiisa of the Devas terrified by the use of the Pasuupata weapon in the fight between Brahmii and Vi.r!lu who vied with each other maintaining that each of them is the Lord himself</em></p>' +
+'<ol><br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span>' +
+'<li>Once, long ago, 0 foremost among Yogins, Vishnu was having his nap on his serpent-couch. He was surrounded by the goddess of fortune and his attendants. </li>'+
+'<li>Brahma, the foremost among the Vedic scholars chanced to come there. He asked the lotus-eyed handsome Vishnu who was lying there. </li>'+
+'<li>Who are you lying here like a haughty person even after seeing me ? Get up, 0 dear, and see me who am your lord. I have come here. </li>'+
+'<li>Expiatory rites are ordained for that spiteful wretch who behaves like a haughty fool at the visit of an honourable elderly person. </li>'+
+'<li>On hearing these words Vishnu was angry. But assuming a calm exterior he said-"0 dear, Hail thee. W elcome. Please sit on this couch. How is it that thy face is agitated and thy eyes look curious ? </li>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<li> Dear Vishnu, know me to have come with the speed of the Time. I am to be honoured greatly. 0 dear one, I am the protector of the world, Grandfather, your protector as well.</li>'+
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<li>0 dear one, the whole universe is situated within me but your way of thinking is like that of a thief. You are born of the lotus sprung from my navel-region. You are my son. Your words are futile therefore. </li>' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span>' +
+'<li>Arguing with each other like this, saying that each is better than the other and claiming to be the lord, they got ready to fight, like two foolish goats, desirous of killing each other. </li>'+
+'<li>The two heroic deities, seated on their respective vehicles-tne Swan and the Garuda, fought together. The attendants of Brahma and Vishn also came into clash. </li>'+
+'<li>In the meantime the different groups of Devas moving about in aerial chariots came there to witness the wonderful fight. </li>'+
+'<li>Witnessing from the heaven they scattered flowers everywhere. The Garuda-vehicled deity Vishnu became infuriated and discharged unbearable arrows and many kinds of weapons on the chest of Brahma. The infuriated Brahma also hurled many arrows of fiery fury and different kinds of weapons on Vishnu. The Devas commented on this wondrous fight and were agitated much, Vishnu in his great fury and mental agitation breathed hard and discharged the. Mahesvara weapon over Brahma. Annoyed at this, Brahma aimed the terrible Pasupata weapon at the chest of Vishnu. The weapon rising high in the sky blazing like ten thousand suns, with thousands of terrible pointed spikes roared awfully like a gust of wind. These two weapons of Brahma and Vishnu thus faced each other in a terrible clash. </li>'+
+'<li>Such was the mutual fight between Brahma and Vishnu. Then, 0 dear, the devas in their helpless agitation and vexation talked among themselves as people do at the time of war  between their monarchs. </li>'+
+'<li>The three-pointed-trident-bearing deity, the supreme Brahman, (i. e. Siva) is the cause of creation, maintenance, annihilation, concealment and blessing. Without His corroboration even a blade of grass cannot be split by any individual anywhere. Thinking thus in their fright they desired to go to Siva\'s abode and accordingly came to the summit of Kailasa<noteref1_note1footer>(1) - (40)</note> where the moon-,crested God resided. </li>'+
+'<li>On seeing that region of Paramesvara in the shape of Omkara they bent their heads down in reverence and entered the palace. </li>'+
+'<li>There they saw the supreme leader of the Devas brilliantly shining on the gem-set seat in the company of Uma on an altar in the middle of the council-chamber. </li>'+
+'<li>His right leg was kept over the knee of the left ; his lotus-like hands were placed over the legs ; his attendants were all round him. He had all good characteristic features.</li>'+
+'<li>He was being fanned by the specialists in that artladies of pointed attention. The Vedas were extolling Him. The lord was blessing every one.</li>'+
+'<li>On seeing the lord thus, the Devas shed tears of joy.<noteref2_note2footer>(2) - (41)</note>0 dear one, the hosts of Devas knelt down even from a great distance. </li>'+
+'<li>The lord, on seeing the Devas, beckoned them to him through his attendants. Then causing the delight of the Devas, the crest-jewel of Devas (i. e. Siva), addressed them gravely with sweet auspicious words. </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['40. Kailasa I_t is sai~ to be the centre of the Himalaya region, Mat. ph. 121 ; 1t 1s 1denttfied With a peak of the Hemakuta mountain : S. M. Ali : The Geography of the Purtitzas P. 57-58. It is called Siva-parvata and Ga~~-parvata and is situated to the north ofManasarovara.-Sk. I. ii. 8. 15; I. Ul u. 4·14 ; II. 1.5· 76. . ',
+'41. Danda-pranama: It is the same as the ashytangapranama which ts performed by prostration of the etght parts of the body ; the eight parts being the hands, breast, forehead, eyes, throat and the middle of the back']
+}
+]
+},{
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '7',
+title: 'VIDYESVARASAMHITA: Chapter 7: Siva manifesting himself as a column of fire in the battlefield',
+headerStyle: { 'color': 'purple','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt7.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p style="margin-left:60px;margin-right:60px;"><em>The journey to Kailiisa of the Devas terrified by the use of the Pasuupata weapon in the fight between Brahmii and Vi.r!lu who vied with each other maintaining that each of them is the Lord himself</em></p>' +
+'<ol><br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<li>"Dear children, hail to ye. I hope the universe and the race of the deities, under my suzerainty, flourish in their respective duties. <br/>&nbsp;&nbsp;0 gods, the fight between Brahma and Visnu is already known to me. This agitation on your part is like a redundant speech." </li>'+
+'<li>Thus the consort of Amba consoled the concourse of devas with honeylike speech sweetened with a smile in the manner of appeasing children. </li>'+
+'<li>In that very assembly the Lord announced his desire to go to the battlefield of Hari and Brahma and accordingly issued His directive to a hundred of the commanders of his attendants .. </li>'+
+'<li>Different kinds of musical instruments were played to announce the start of the journey of the Lord. The commanders of the attendants were in readiness fully bedecked in their ornaments, seated in their respective vehicles. The lord, consort of Ambika, mounted the holy chariot shaped like Omkara from front to the back and embellished 1n five circular rings. He was accompanjed by his sons and Ganas. All the Devas, Indra and others, followed. </li>'+
+'<li>Honoured suitably by the display of banners of various colours, fans, chowries, scattered flowers, music, dance and the instrument players, and accompanied by the great goddess (Parvati ), Pasupati (Siva) went to the battle-field with the whole army. </li>'+
+'<li>On espying the battle, the lord vanished in the firmament. The play of the music stopped and the tumult of the Ganas subsided. </li>'+
+'<li>There in the battlefield Brahma and Acyuta desirous of killing each other were awaiting the result of the Mahesvara and the Pasupata weapons hurled by them. </li>'+
+'<li>The flames emitted by the two weapons of Brahma and Visnu burned the three worlds. On seeing this imminent untimely dissolution, the bodiless form of Siva assumed the terrific form of a huge column of fire in their midst. </li>'+
+'<li>The two weapons of fiery flame potential enough to destroy the entire world fell into the huge column of fire that manifested itself there instantaneously. </li>'+
+'<li>Seeing that auspicious wonderful phenomenon assuaging the weapons they asked each other "What is this wonderful form ?" </li>'+
+'<li>"What is this column of fire that .has risen up ? It is beyond the range of senses. We have to find out its top and bottom." </li>'+
+'<li>Jointly deciding like this, the two heroes proud of their prowess immediately set about assiduously in their quest. </li>'+
+'<li>"Nothing will turn up if we are together". Saying this, Vigm assumed the form of a Boar and went in search of the root. Brahma in the form of a swan went up in search of the top. Piercing through the netherworlds and going very far below, Visnu could not see the root of the fiery column. Utterly exhausted, Vigm in the form of a Boar returned to the former battle-ground. </li>'+
+'<li>Dear one, your father, Brahma who went high up in the sky saw a certain bunch of Ketaki flower of mysterious nature falling from above. </li>'+
+'<li>On seeing the mutual fight of Brahma and Visnu, lord Siva laughed. When his head shook, the Ketaki flower dropped down. Although it had been in its downward course for many years, neither its fragrance nor its lustre had been diminished even a bit. The flower had been intended to bless them. </li>'+
+'<li><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span><br/>"0 lord of flowers, by whom had you been worn ? Why do you fall ? I have come here to seek out the top, in the form of a swan."<br/> <em><span style="font-weight:900;font-size:larger">The flower replied</span><br/> "I am falling down from the middle of this primordial column that is inscrutable. It has taken me a long time. Hence I do not see how you can see the top." </li>'+
+'<li> "Dear friend, hereafter you must do as I desire. In the presence of Visnu you must say like this. 0 Acyuta, the top of the column has been seen by Brahma. I am the witness for the same." Saying this he bowed to the Ketaki flower again and again. Even falsehood is recommended in times of danger. So say the authoritative texts. 26. (Returning to the original place) on seeing Visnu there, utterly exhausted and lacking pleasure, Brahm.a danced with joy. Visnu, in the manner of a eunuch admitting his inability ( to a woman), told him the truth (that he could not see the bottom). But Brahma told Vig:m like this. </li>'+
+'<li>"0 Hari, the top of this column has been seen by me. This Ketaki flower is my witness." The Ketaka flower repeated the falsehood endorsing the words of Brahma in his presence. Hari, taking it to be true, made obeisance to Brahma. He worshipped Brahma with all the sixteen means of service and homage.<noteref1_note1footer>(1) - (42)</note>--> </li>'+
+'<li>The Lord taking up a visible form in order to chastise Brahma who practised trickery, came out of the column of fire. 0 n seeing the lord, Visnu stood up and with his hands shaking with fear caught hold of the lord\'s feet. </li>'+
+'<li>It is out of ignorance and delusion about you whose body is without a beginning or an end that we indulged in this quest prompted by our own desire. Hence 0, Sympathetic Being, forgive us for our fault. In fact, it is but another form of your divine sport. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<li>"0 dear Hari, I am pleased with you, because you strictly adhered to truth in spite of your desire to be a lord. Hence among the general public you will have a footing equal to mine. You will be honoured too likewise. </li>'+
+'<li>Hereafter you will be separate from me having separate temple,. installation of idols, festivals and worship." </li>'+
+'<li>Thus, formerly, the lord was delighted by the truthfulness of Hari and offered him a footing equal to his own even as the assembly of the devas was witnessing the same. </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['42 Sodasopadira: The sixteen acts of homage to a deity are mentioned in SP I I. 25-29. They are differently enumerated elsewhere  Tantrasara enumerates 64 Upadiras. ']
+}
+]
+},{/*
+    <br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '8',
+title: 'VIDYESVARASAMHITA: Chapter 8: Siva\'s forgiveness of Brahma',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'slateblue', 'opacity':'0.5'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt8.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<ol><br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+'<li> Mahadeva then created a wonderful person, Bhairava, from the middle of his brows to quell the pride of Brahma.  </li>'+
+'<li>This Bhairava knelt before the lord in the battle-field and said-"0 lord, what shall I do ? Please give me your directives quickly." </li>'+
+'<li>"Dear, here is Brahma, the first deity of the universe. Worship him with your sharp-pointed quick-moving sword." </li>'+
+'<li>With one of his hands he caught hold of the tuft of Brahma\'s fifth head that was guilty of haughtily uttering a falsehood, and with the hands he furiously shook his sword in order to cut it off. </li>'+
+'<li>Your father trembled like a plantain tree in a whirlwind, with his ornaments scattered here and there, his cloth ruffled and loosened, the garland displaced, the upper cloth hanging loose and the glossy tuft dishevelled, and fell at the feet of Bhairava. </li>'+
+'<li>Meanwhile the sympathetic Acyuta desirous of saving Brahma, shed tears over the lotus-like feet of our lord and said with palms joined in reverence just like a child lisping words of entreaty to its father. </li>'+
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<li>0 Lord, it was you who gave him five heads<noteref1_note1footer>(1) - (43)</note> as a special symbol, long ago. Hence please forgive him his first guilt. Please favour him. </li>'+
+'<li>The lord thus requested by Acyuta relented and in the presence of all devas asked Bhairava to desist from punishing Brahma. </li>'+
+'<li>Then the lord turned to the deceitful Brahma who bent down his neck and said "0 Brahma, in order to extort honour from the people you assumed the role of the lord in a roguish manner. </li>'+
+'<li>Hence you shall not be honoured, nor shall you have your own temple or festival. </li>'+
+'<li>On seeing the mutual fight of Brahma and Visnu, lord Siva laughed. When his head shook, the Ketaki flower dropped down. Although it had been in its downward course for many years, neither its fragrance nor its lustre had been diminished even a bit. The flower had been intended to bless them. </li>'+
+'<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span><br/>' +
+'<li>0 Lord, be pleased. 0 flourishing one, _I consider this sparing of my head itself a great blessing and a boon. Obeisance to Thee, the lord, the kinsman, the originator of the universe, the forbearing, the forgiver of defects, the benevolent one, wielding the mountain as his bow. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<li>0 child, the whole universe will be ruined if it loses the fear of a king Hence you mete out punishment to the guilty and bear the burden of administering this universe. </li>'+
+'<li>I shall grant you another boon which is very difficult to get. In all domestic and public sacrifices you will be the presiding deity. Even though a sacrifice is complete with all the ancillary rites and offerings of monetary gifts, it will be fruitless without you. Then the lord turned to the deceitful Ketaka flower guilty of perjury and said :</li>'+
+'<li>"0 you Ketaka flower, you are roguish and deceitful. Go away from here. Hereafter I have no desire to include you in my worship." </li>'+
+'<li>When the lord said thus, all the devas shunned the very presence of the flower. </li>' +
+'<br/><em><span style="font-weight:900;color:brown;font-size:larger"> Ketaka said:  </span> ' +
+'<li>Obeisance to Thee, 0 Lord, Your bidding will mean that my very birth is fruitless. May the lord be pleased to make it fruitful by forgiving my sin. </li>'+
+'<li>Thy remembrance is reputed to quell all sins perpetrated consciously or unconsciously. Now that I have seen Thee, how can the sin of uttering falsehood sully me? </li>'+
+'<li>Thus entreated in the middle of the council the lord said-\'It is not proper for me to wear you. I am the lord and my words must stay true. My attendants and followers shall wear thee. Hence thy birth shall be fruitful. Of course in the canopies over my idol you can be used for decoration."<br/> The lord thus blessed the three-the flower Ketaka, Brahma and Visnu. He shone in the assembly duly eulogised by the Devas. </li>' +
+'</ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['4~· Brahma\'s five heads : When the four faces of Brahma became thwarted in their function because of Brahma\'s erotic impulse, then out of his Tapas was produced a fifth head on the top and that head was covered with matted locks. In image No 382 of Brahma in the Kush~na period at Mathura, the fifth head on the top is shown with moustaches, beard and long locks, a feature which is only found in the Kusana period from the first to the third century A. D. But later on, the fifth head was eliminated and a new theory (contradicted by SP. I. 8.8) was devised thai Brahma\'s head was clipped by Rudra. The fact was that the fifth hea.-1 l\'c-·--r~-:,--ri-rr to Akasa was taken to be invisible, being a symbol of his · .. : :: :.: =: ·· ··,··~~· (Avyakta murti) and that only the four others became manifest.-V.S. Agrawal : M.P. A Study. ']
+}
+]
+},{/*
+    <br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '9',
+title: 'VIDYESVARASAMHITA: Chapter 9: The Proclamation of Siva as Mahesvara',
+headerStyle: { 'color': 'crimson','font-weight': '1900', 'background-color': 'white', 'text-shadow': '3px 3px 2px white','opacity':'0.9', 'border': '2px outset gray'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt9.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<ol><br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+'<li>In the mean time Brahma and Visnu had been standing silently on either side of the lord with the palms joined in reverence. </li>'+
+'<li>Then they installed the lord with all the members of His family on a splendid seat and worshipped Him with all holy personal things. </li>'+
+'<li>The personal things constitute those natural things of long and short duration such as necklaces, anklets, bracelets coronets, ear-rings, sacrificial threads, upper cloth of lace border, garlands, silk cloth chokers, rings, flowers, betel leaves, camphor, sandal paste, Aguru unguents, incense, lamps, white umbrella, fans, banners, chowries and other divine offerings whose greatness cannot be expressed or even thought of. Both of them adored the lord with all these things worthy of the lord and inaccessible to Pasu (the animal i.e. the individual soul). All excellent things are worthy of the lord, 0 brahmin. </li>'+
+'<li>In order to set up a precedence the delighted lord handed over all those articles to the attendants assembled according to the order of priority. </li>'+
+'<li>The bustle of those who came to receive them was too much. It was there that Brahma and Visnu adored Sankara at first. When they stood there humbly, the gratified lord spoke smilingly heightening their devotion. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<p>"Dear children, I am delighted at your worship on this holy day. Henceforth this day will be famous as "SivaratriH the holiest of holy days pleasing to me.</p>"' +
+'<li>He who performs the worship of my phallic emblem and the embodied image on this day will be competent to perform the task of creation and the maintenance etc. of th~ universe. </li>'+
+'<li>The devotee shall observe fast on Sivaratri, both during the day and the night. He shall perfectly restrain his sense-organs. He shall adore (with flowers) to the extent of his strength. He shall not deceive any one. </li>'+
+'<li>By the worship on Sivaratri day the devotee attains that fruit which usually accrues tp one who continuously worships me for a year. </li>'+
+'<li>This is the time when the virtue of devotion to me increases like the tide in the ocean at the rise of the moon. Festivities like the installation of my idols etc. on that day are very auspicious. </li>'+
+'<li>The day on which I manifested myself in the form of a column of fire is the Ardra star in the month of Margasira (November-December), 0 children. </li>'+
+'<li>He who sees me on the day of Ardra star in the month of Margasiqa in the company of Uma and worships my phallic emblem or embodied image is dearer to me than even Guha (Kartikeya) .</li>'+
+'<li>On that auspicious day the vision alone accords ample results. If he worships too, the result cannot be adequately described. </li>'+
+'<li>Since I manifested myself in the form of phallic emblem in the field of battle, this place will be known as Lingasthana. </li>'+
+'<li>0 sons, this column without root or top will henceforth be diminutive in size for the sake of the vision and worship of the world. </li>'+
+'<li>The phallic emblem confers enjoyment. It is the only means of worldly enjoyment and salvation. Viewed, touched or meditated upon, it wards off all future births of the living beings. </li>'+
+'<li>Since the phallic emblem rose high resembling a mountain of fire, this shaH be famous as Ruddy (Aruna) mountain<noteref1_note1footer>(1) - (44)</note>.« </li>'+
+'<li>Many holy centres will spring up here. A residence or death in this holy place ensures liberation. </li>'+
+'<li>The celebration of chariot festivals, the congrega-tion of devotees, the presentation of ordinary as well as sacrificial gifts and offering of prayers at this place shall be millionfold efficacious. </li>'+
+'<li>Of all my sectors this sector shall be the greatest. A mere remembrance of me at this place shall accord salvation to all souls. </li>'+
+'<li>Hence this sector shall be greater than all other sectors, very auspicious, full of all sorts of welfare and according salvation to everyone. </li>'+
+'<li>Worshipping me in my supreme phallic form at this place an4 performing the other sacred rites shall accord the five types of salvation-Salokya, Samipya, Sarii.pya, SarHi and Sayujya. May all of you achieve all your cherished desires . </li>' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+'<li>Thus blessing Brahma and Vigm who had been made humble, the lord resuscitated by His nectar-like power all the soldiers of the two deities that had been killed in the battle before and spoke to them in order to remove their foolishness and mutual enmity. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<li>I have two forms : the manifest and the unmanifest. No one else has these two forms. Hence all else are nonlsvaras. </li>'+
+'<li>Dear sons, first in the form of the column and afterwards in this embodied form I have expounded to you ·my formless Brahma-hood, and embodied !Sa-hood. These two are present only in me and not in anyone else. Hence no one else, not even you too can claim ISatva (Isa-hood). </li>'+
+'<li>It is out of your ignorance of this fact that you were swept. away by your false prestige and pride of being Isa, surprising as it is. I rose up in the middle of the battle-field for quelling the same. . </li>'+
+'<li>Cast off your false pride. Fix your thought in me as your lord. It is out of my favour that all the objects in the world are illuminated. </li>'+
+'<li>The statement of the preceptor is the reminder and the authority on all occasions. This secret truth of Brahman I am revealing to you out of love. </li>'+
+'<li>I am the supreme Brahman. My form is both manifest and unmanifest in view of my Brahma-hood and Isvaratva. My duty is blessing etc. </li>'+
+'<li>0 Brahma and Visnu, I am Brahman because of Brhatva (huge size) and Bpithanatva (causing to grow). 0 children, similarly I am Atman due to Samatva (equality) and Vyapakatva (Pervasiveness). </li>'+
+'<li>All others are Anatmans, individual souls undoubtedly. There are five activities <noteref2_note2footer>(2) - (45)</note> in respect of the universe beginning with Anugraha <noteref3_note1footer>(3) - (46)</note> (liberation) and ending with Sarga (creation). Therefore these activities devolve on me because I am Isa and not on anyone else. It is to make my Brahmatva understood that my phallic emblem rose up. </li>'+
+'<li>In order to clarify my Is a tva, unknown hitherto, I have manifested myself immediately in the embodied form of ISa. </li>'+
+'<li>The Isatva in me is to be known as the embodied form and this symbolic column is indicative of my Brahmatva. </li>'+
+'<li>Since it has all the characteristic features of my phallic emblem, it shall be my symbol. 0 sons, you shall worship it every day . </li>'+
+'<li>The phallic symbol and the symbolised Siva are non-different. Hence this phallic emblem is identical with me. It brings devotees quite near to me. It is worthy of worship therefore. </li>'+
+'<li>0 dear sons, if phallic emblem of this sort in installed I can be considered installed, though my idol is not installed. </li>'+
+'<li>The result of installing the phallic emblem is the attainment of similarity with me. If a second phallic emblem is installed, the result is union with me. </li>'+
+'<li> The installation of the phallic emblem is primary and that of embodied idol is secondary. A temple with the embodied idol of Siva is unfructuous if it has no phallic image. </li>'+
+'</ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['44· Arunacala : The Aruna mountain lies to the west of Kailasa and is the abode of Siva (Va. 47· 17-rB; Br. II. 18. 18; Sk. III. 59-61; IV g. q. 2r. 37; also Kern : M. I. P. 3; See Awasthi : Studies in Skanda Purarza P. 54· ',
+'45 In respect of creation, SP speaks of different five activities in the Vayaviya Samhita g. 4--5. ',
+'46 The text reads \'anugrahadyam Sargantam\ i. e. beginning with liberation and ending with creation. But correctly it should be anugrahintam Sargadyam\' i. e. begining with creation and ending with liberation. The correct process of activities is mentioned in the following Chapter, Verses 3-5. ']
+}
+]
+},{/*
+    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '10',
+title: 'VIDYESVARASAMHITA: Chapter 10: The Evanescence of Siva ',
+headerStyle: { 'color': 'crimson','font-weight': '1900', 'background-color': 'white', 'text-shadow': '3px 3px 2px white','opacity':'0.9', 'border': '2px outset gray'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt10.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p style="text-align:center">(The Evanescence of Siva after expounding the Five-fold duties and the Omkara mantra to Brahma and Vishnu)</p> ' +
+'<br/><em><span style="font-weight:900;color:#ff3300;text-shadow: 3px 3px 2px pink;background-color:skyblue;font-size:x-large">Shree Brahma and Shree Vishnu said:  </span>' +
+'<ol><li>0 Lord, please tell us the characteristic feature of the five-fold duties beginning with creation. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>' +
+'<li>I shall tell you the great secret of the five-fold duties, out of compassion for you. </li>'+
+'<li>0 Brahma and Visnu, the permanent cycle of the five-fold duties consists of creation, maintenance, annihilation, concealment, and blessing. </li>'+
+'<li>Sarga is the creation of the world ; Sthiti is its maintenance; Samhara is the annihilation; Tirobhava is the removal and concealment </li>'+
+'<li>Liberation (from the cycle of birth and death) IS blessing. These five are my activities but are carried on by others silently as in the case of the statue at the Portal. </li>'+
+'<li>The first four activities concern the evolution of the world and the fifth one is the cause of salvation. All these constitute my prerogatives. </li>'+
+'<li>These activities are observed in the five elements by devotees-Sarga (creation) in the Earth, Sthiti (maintenance) in the waters, Samhara (annihilation) in the fire, Tirobhava (concealment) in the wind and Anugraha (liberation, the blessed state) in the firmament. Everything is created by the Earth; everything flourishes by virtue of the waters; everything is urged by the fire, everything is removed by the wind and everything is blessed by the firmament. Thus intelligent men must know the same. </li>'+
+'<li>In order to look after these five-fold activities I have five faces, four in the four quarters and the fifth in the middle. </li>'+
+'<li>0 sons, in view of your austerities you two have received the first two activities :-creation and maintenance. Yon have gratified me and are blessed therefore. </li>'+
+'<li>Similarly, the other two activities (annihilation and concealment} have been assigned to Rudra and Mahesa. The fifth one of Anugraha (liberation) cannot be taken up by any other. </li>'+
+'<li>All this previous arrangement has been forgotten by both of you due to lapse of time, not so by Rudra and Mahesa. </li>'+
+'<li>I have assigned them my equality in form, dress, activity, vehicle, seat, weapons etc. </li>'+
+'<li>0 dear sons, your delusion was the result of your not meditating upon me. If you had retained my knowledge you would not have embibed this false pride of being Mahesa yourselves. </li>'+
+'<li>Hence, hereafter, both of you shall start reciting the mantra Omkara to acquire knowledge of me. It shall quell your false pride as well. </li>'+
+'<li>I. have taught this great auspicious mantra. Orhkara came out of my mouth. Originally it indicated me. </li>'+
+'<li>It is the indicator and I am the indicated. This mantra is identical with me. The repetition of this mantra is verily my repeated remembrance. </li>'+
+'<li>The syllable "A" came first from northern face; the syllable c \'U" from the western ; the syllable "M" from the southern and the Bindu (dot) from the eastern face. The Nada (mystical sound) came from the middle face. Thus the complete set cropped up in five-fold form. Then all of them united in the syllable of "Om". </li>'+
+'<li>The two sets of created beings-Nama (name) and Rupa (form) are pervaded by this mantra. It indicates Siva and Sakti. </li>'+
+'<li>From this also is born the five-syllabled mantra (Namassivaya ). It indicates all knowledge. The syllables "NA" etc. follow the order of the syllables "A" etc. </li>'+
+'<li>From the five-syllabled mantra the five mothers were born. The Siromantra is born of that. The three-footed Gayatri also came out of the four faces. </li>'+
+'<li>The entire set of Vedas and crores of mantras were born of that. Different things are achieved through different mantras but everything is achieved through Ori:Jkara alone. </li>'+
+'<li>By this root-mantra, the very enjoyment as well as salvation is achieved. All the royal mantras are auspicious and directly accord enjoyment. </li>'+
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+'<li>The phallic emblem confers enjoyment. It is the only means of worldly enjoyment and salvation. Viewed, touched or meditated upon, it wards off all future births of the living beings. </li>'+
+'<li>The lord in the company of his. consort Ambika, assumed the role of the preceptor for both of them. He screened them and placed his lotus-like hand on their heads as they faced the north and slowly taught them the great mantra. </li>'+
+'<li>The two disciples received the mantra by repeating it thrice, along with the requisite Yantra and Tantra<noteref1_note1footer>(1) - (47)</note> duly expounded. By way of fees, the disciples dedicated themselves. Thereafter standing near him with hands clasped in reverence they addressed the lord, the preceptor of the universe. </li>'+
+'<br/><em><span style="font-weight:900;color:#ff3300;text-shadow: 3px 3px 2px pink;background-color:skyblue;font-size:x-large">Shree Brahma and Shree Vishnu said:  </span>' +
+'<li>(The prayer) :-<br/>Obeisance to Thee of the bodiless form. Obeisance to Thee of the formless lustre. Obeisance to Thee the lord of everything. Obeisance to Thee the soul of everything or of the embodied form. Obeisance to Thee stated by the Pranava. Obeisance to Thee having Pra"Q.ava as Thy symbol. Obeisance to Thee the author of creation etc. Obeisance to Thee of five faces. Obeisance to Thee identical with Paficabrahma form. Obeisance to Thee of five-fold· functions. Obeisance to Thee the Atman, the Brahman, of endless attributes and power. Obeisance to Siva the preceptor, possessed of both embodied and bodiless forms." <br/>&nbsp;&nbsp;After eulogising the preceptor in verses Brahma and Visnu bowed to him. </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>' +
+'<li>0 dear sons, the truthful extract of every-thing has been narrated to you with demonstration. You shall recite as directed by the Goddess this Om mantra which is identical with me. </li>'+
+'<li>Your knowledge shall be stabilised. Permanent fortune shall stand by you. On the Chaturdasi day and on the day with Ardra star, the recital of this mantra will give you everlasting efficacy. </li>'+
+'<li>The recital of this mantra at the time when the transit of the sun is in the Ardra star is million-fold efficacious. In the context of worship, Homa and Tarpana, the last quarter of the star Mrgasiras and the first quarter of Punarvasu must always be considered on a par with Ardra. The Vision is to be had at early dawn and within three muhilrtas (two hours twentyfour minutes) thereafter. </li>'+
+'<li>Chaturdasi is to be taken when it continues up to midnight. If it is only upto the early part of the night and joined with another thereafter, it is also recommended. </li>'+
+'<li>Although I consider the phallic and the embodied form to be equal, the phallic form is excellent for those who worship. Hence for those who seek salvation the latter is preferable to the former. </li>'+
+'<li>The others too shall install the phallic form with Omkara mantra and the embodied form with the fivesyllabled mantra, with excellent articles of worship and adore with due homage. It will be easy for them to attain my region. ' +
+'<br/>&nbsp;&nbsp;&nbsp;&nbsp;Having thus instructed His disciples Siva vanished there itself. </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['47· The rites of worship are performed in accompaniment with Tantra, Yantra and Mantra appliances. Yantra is a mystical diagram po~sessed of occult powers. Tantra is a ritual, th,_e chief peculiarity of which is. the· ~orship of the female energy of Siva, personified in the person of ~1s Saktl. This special energy, the Sakti of Siva is concerned with sexual mtercourse and magic power. M~ntra is a magical formula. ']
+}
+]
+},{/*
+    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '11',
+title: 'VIDYESVARASAMHITA: Chapter 11: The mode of worshipping the phallic form and making gifts',
+headerStyle: { 'color': 'slateBlue','font-weight': '1900', 'background-color': 'skyBlue', 'text-shadow': '3px 3px 2px white','opacity':'0.9', 'border': '2px outset gray'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt11.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<ol><li>How is the phallic form of Siva to be installed ? What are the characteristic features of the form ? How is it to be worshipped ? What is the appropriate time and place for worship. What sort of performer he must be ? </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>' +
+'<li> I shall tell you everything for your sake; please listen attentively. The time must be convenient and auspicious. The place must be a holy centre. It can be on the bank of a river or anywhere facilitating a daily worship. It can be of Parthiva (Earth), Apya (Watery) or Taijasa (fiery) type. </li>'+
+'<li>If it has all the characteristics mentioned in the sacred texts, the devotee derives the fruit of worship. If it has all characteristics, it accords the fruit of worship instantaneously. </li>'+
+'<li>A subtle one is recommended if it be mobile and a gross one if it is stationary. The phallic emblem of good characteristics shall be set up in the seat of the same sort. </li>'+
+'<li>The seat can be circular, square or triangular in shape. The one shaped like a cot in the middle is of middle efficacy. </li>'+
+'<li>At first, the emblem was made of earth or rock; then it used to be made with the metals. If it is stationary, the emblem and the Pitha should be of the one and the same material. </li>'+
+'<li>Save the one which the asura Bana worshipped, both the emblem and the seat shall be unitary, if emblem be mobile. The length of the emblem shall be of the measure of twelve fingers of the devotee. </li>'+
+'<li>If it is shorter it is less efficacious; if it is longer there is no harm. A shortage by the breadth of the finger of the devotee in regard to the mobile one is similarly harmless. </li>'+
+'<li>A Vimana (chariot-like structure) of artistic beauty shall be made at first wherein the divine attendants shall be represented. In its firm and beautiful sanctum sanctorum shining like a mirror studded with the nine precious gems-sapphire, lapis lazuli, Emerald, pearl, coral, Gomedaka, diamonds and rubies, the emblem shall be installed on the altar. </li>'+
+'<li>The emblems hall be worshipped with the mantras beginning with "Sadyo" (a Shiv Mantra) in five different places in order. Sacrificial offerings shall be made in the fire. Siva and the gods of His family shall be adored. The preceptor is given monetary gifts. Kinsmen are propitiated with whatever they desire. Money is distributed among the mendicants. All objects sentient or otherwise, and all living beings movable or immovable are duly gratified. The cavity is filled with gems. Mantras "Sadyo" etc, are recited.' +
+'The auspicious supreme lord is meditated upon. The great mantra Orpkara resonant with its mystical sound is repeated. The linga is then united with the Pitha (pedestal). The two are then welded together. 18. Similarly the embodied image shall also be fixed there auspiciously. For the sake of festivals the embodied image shall be installed outside with the five-syllabled mantra. </li>'+
+'<li>The embodied image shall be taken from the preceptors or it must be one that has been worshipped by saintly men. Such an adoration of the embodied image and the phallic emblem accords the region of Siva. </li>'+
+'<li>The phallic emblem is of two varieties : the stationary and the mobile. Trees, hedges etc. represent the stationary. </li>'+
+'<li>Worms, insects etc. represent the mobile. For the stationary one, tending and similar service is recommended. For the mobile one Tarpana (propitiation) is recommended. </li>'+
+'<li>With a love for the happiness of different beings Siva Puja shall be performed-so say the wise men. The pedestal represents Siva\'s consort-Parvati and his phallic emblem represents the sentient being. </li>'+
+'<li>Just Rs lord Siva remains ever in close embrace of the Goddess Parvati, so also the phallic emblem holds on to the pedestal, for ever. </li>'+
+'<li>Such is the installation of Siva\'s great phallic emblem which shall be worshipped with due homage. The daily worship shall be made in accorance with one\'s capacity; so also the fixation of banner etc. </li>'+
+'<li>The devotee shall install the phallic emblem and it will accord directly the region of Siva. Or the devotee shall worship the mobile emblem with the sixteen types of homage and services as prescribed. It accords the region of Siva gradually. The sixteen types of service are<noteref1_note1footer>(1) - (49)</note> :-invocation (A.vahana); offering the seat(Asana); water offering(Arghya); washing of the feet (Padya); water for rinsing the mouth as a mystical rite (Acamana); oil bath (Abhyanga snana); offering of cloth (Vastra); Scents (Gandha); flowers (Pu~pa); incense (Dhiipa); lamps (Dipa); food offering (Nivedana); waving of lights (Nirajana); betel leaves (Tambiila); obeisance (Namaskara); and mystical discharge and conclusion (Visarjana). <br/>&nbsp;&nbsp;Or the devotee need perform the rites from water-offering to food offering alone duly. Or the devotee shall daily perform, as he can, ablution (Abhi~eka); food offering (Naivedya ); and obeisance (Namaskara) and propitiation (Tarpal).a ), -all these in order. It will accord him the region of Siva. </li>'+
+'<li>Or he shall perform all the sixteen rites in the phallic emblem of human, saintly or godly origin, or in one naturally risen up (Svayambhu) or in one of very extraordinary nature installed duly. </li>'+
+'<li>If the devotee makes gifts of articles of worship he will get some benefit or other. By circumambulation and obeisance he will attain Siva\'s region gradually. </li>'+
+'<li>Regular vision of the phallic emblem accords benefit. Or the devotee can make a phallic emblem out of clay, cowdung, flowers, Karavira fruit, jaggery, butter, ashes or cooked rice as he likes and worship it according to the prescribed rules.</li>'+
+'<li>Some authorities have recommended the worship of the phallic emblem on the thumb etc. In these rites of phallic worship, there is no sort of prohibition whatsoever. </li>'+
+'<li>Everywhere Siva accords benefit as befitting the endeavour put in. Or he shall make gifts of the phallic emblem or the value of its construction. </li>'+
+'<li>Whatever is given to a devotee of Siva with sincere faith accords Siva\'s region. Or the devotee can repeat the Pranaava mantra ten thousand times every day. </li>'+
+'<li>Repetition of Om (Pral).ava mantra) a thousand times at dawn and at dusk is known to be according Siva\'s region. At the time of the repeated utterance (Japa) of the mantra, (Om) ending with "M" purifies the mind. </li>'+
+'<li>At the time of Samadhi (meditation) the repetition of Omkara must be mental. Muttering of it in low voice can be practised at all times. The same with Bindu (dot) and Nada (sound) is also of the same efficacy. </li>'+
+'<li>Or the devotee can with due reverence repeat the five-syllabled mantra ten thousand times every day or a thousand times at dawn and at dusk. It accords the region of Siva. </li>' +
+'<li>Repetition of the five-syllabled mantra (Namassivaya) by a brahmin is specially efficacious with the Om (Pral).ava) prefixed. A mantra must be received from a preceptor with proper initiation for the acquisition of the desired fruit. </li>'+
+'<li>The ceremonial ablution when the sun is in transit to the Zodiac Kumbha, initiation for mantras, the Nyasa of Matrkas;<noteref2_note1footer>(2) - (50)</note> a brahmin, a person with soul purified by truth; a preceptor of perfect knowledge-all these are splendid. </li>'+
+'<li>Brahmins shall begin with Namah. and the others shall end with Namah.. With regard to some women the mantra shall end with Namah duly. </li>'+
+'<li>Some say that Brahmin women begin with Namah.. Repetition of this for five crores of times will render a person equal to Sadasiva. </li>'+
+'<li>By repeating it one, two, three or four crores of times, the devotee shall attain the region ofBrahma and others. One can repeat any of the syllables a hundred thousand times or all of the syllables separately a hundred thousand times. </li>'+
+'<li>Or a hundred thousand times all the syllables together, if repeated, accord Siva\'s region. Or if the devotee repeats it a thousand times every day and completes a million times in a thousand days, he can achieve whatever he desires. He shall feed brahmins every day. A brahmin shall repeat the Gayatri a thousand and eight times every day In the morning. He shall attain Siva\'s region gradually. He shall repeat Vedic verses and hymns with the observance of restraints. </li>'+
+'<li>The Dasarna mantra shall be repeated either 99 times or nine hundred times or nine thousand nine hundred times. </li>' +
+'<li>The regular study of the Vedas accords Siva\'s region. <br/>All the other sorts of mantras shall be repeated a hundred thousand times. </li>' +
+'<li>If the mantra consists of only. one syllable it shall first be repeated a crore times and thereafter a thousand times with great devotion. </li>' +
+'<li>Doing thus according to one\'s capacity one shall gradually attain Siva\'s region. It is the duty of every one to repeat a mantra pleasing to him every day till his death. </li>' +
+'<li>If a man repeats "Om" a thousand times he shall get all his desires fulfilled at the bidding of Siva. If he plants a flower-garden for the sake of Siva or even renders service by sweeping and cleaning Siva\'s temple and precincts he shall attain Siva\'s region. The devotee shall reside for ever in Siva\'s temple with great devotion. </li>' +
+'<li>It yields worldly enjoyment and salvation to every orie sentient or insentient. Hence an intelligent man shall reside in a temple of Siva till death. </li>' +
+'<li>In a temple built by ordinary man, the space upto a hundred hastas (I hasta· 30 ems) from the phallic image is holy. In a temple dedicated to sages, the space upto a thousand Aratnis ( 1 Aratni 45 ems) from the phallic image is holy. In a temple dedicated. to sages, the space upto a thousand Aratnis ( 1 Aratni =45 ems) from the emblem is holy. </li>' +
+'<li>If the phallic emblem had been installed by gods the space upto a thousand Aratnis is holy. In a temple where phallic emblem is self-risen, the space upto a thousand Dhanul). Prama:r;tas (a dhanul). prama:r;ta= 4 hastas) is holy. </li>' +
+'<li>The tank, well, pond etc. in a holy centre shall be considered Siva-Ganga in accordance with Siva\'s statement.</li>' +
+'<li>By taking bath or making gifts or muttering mantras in that centre one will attain Siva. One shall seek shelter in a temple of Siva and stay there till death. </li>' +
+'<li>I. The rites of obsequies of the second day or the tenth day, the offerings of monthly Pindas, the rite of Sapindakarana or the annual Sraddha shall be performed in a holy centre. He will instantly attain Siva\'s region. By staying there for seven, five or three nights or a single night he will attain Siva\'s region gradually. He will obtain results according to his conduct and befitting his caste. </li>' +
+'<li>By the uplift in the caste and devotion the fruit ·gains more efficacy. Anything done with a desire In view yields results immediately. </li>' +
+'<li>Anything done with no specific desire In view yields the region of Siva directly. Of the three periods of time, ordained rites shall be performed in the morning, rites for the fulfilment of desires in the midday and rites for the suppression of the evil in the evening. The same thing holds good for nights too. </li>' +
+'<li>The two middle Yamas ( 1 Yama is equal to 3 hours) at night are called Nisitha. The worship of Siva at that time accords desired results. </li>' +
+'<li>If a man performs rites after realising this, he shall achieve the due results. Especially in the Kali age the achievement of fruit is only due to the precise performance of actions. </li>' +
+'<li>If the man is well behaved, afraid of sins and the observer of good actions at other man\'s suggestion or at his own he shall attain due results. '+
+'<li><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span><br/>0 Suta, foremost among excellent yogins, please tell us briefly about the various holy centres by resorting to which women and men shall attain the region (of Siva). Please tell us about the traditions of Siva temples also.<br/> <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> <br/>All of you listen faithfully to the account of all holy centres and their traditions. </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['49. The sixteen acts of homage to a deity are slightly different in other texts ; Compare Tantrasara mentions 61 Upacaras. ',
+'50 Nyasas are particular diagrams which are closely associated with the divine mothers and are written in characters to which a magical power is ascribed. These are the personified energies of the principal deities connected with the worship of Siva. They are reckoned sometimes 7, sometimes 8, 9 or 16 in number. ']
+}
+]
+},{/*
+    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '12',
+title: 'VIDYESVARASAMHITA: Chapter 12: Narration of Siva Temples',
+headerStyle: { 'color': '#ff9933','font-weight': '1900', 'background-color': '#fff8dc', 'text-shadow': '2px 2px 2px crimson','opacity':'0.9', 'padding':'3px', 'border': '4px inset #ff9933'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt12.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+'<ol><li> 0 wise sages, please listen to the narrative of holy centres with Siva\'s temples all of which accord salvation. Thereafter I shall tell you their traditions for the welfare of the people. </li>'+
+'<li>The Earth, fifty crores of yojanas in extent, abounding in mountains and forests, supports the people at the bidding of Siva. </li>'+
+'<li> The lord has Himself raised up these temples and holy centres in different places for the liberation of the resident\'s of these localities. </li>'+
+'<li>These temples whether self-risen or not, in view of their being accepted (as their frequent resort) by the sages and Devas are intended for the redemption of the people. </li>'+
+'<li>In these holy centres and temples, ablutions, charitable gifts, Japas etc must be regularly performed. Otherwise men are sure to be affected by ailments, penury, dumbness etc. </li>'+
+'<li>If a man dies anywhere in the Bharatavaqa<noteref1_note1footer>(1) - (51)</note> he shall be reborn again as a man if he has resided in a holy centre where there is a self-risen phallic emblem of Siva. </li>'+
+'<li>0 brahmins, committing sins in a holy centre is of ineffable character. When a man stays in a holy centre he must not commit even the smallest sin. </li>'+
+'<li>Somehow men must strive to find a residence in a holy centre. On the shores of the ocean in the confluence of hundreds of rivers there are many such holy centres and temples. </li>'+
+'<li>The holy river Sarasvati is said to have sixty mouths or holy centres on its banks. Hence an intelligent man must stay on its banks. He shall attain Brahma\'s region gradually.</li>'+
+'<li>The river Ganga flowing from the Himalaya mountains is very holy with its hundred mouths. There are many holy centres on its banks such as Kasi etc. Its banks are highly sacred in the month of Margasira or when Brhaspati (Jupiter) is in the zodiac \'Capricornus. The river Sonabhadra<noteref2_note1footer>(2) - (52)</note> of ten mouths is holy and yields all cherished desires</li>'+
+'<li>By ablutions therein and observing fast the devotee shall attain the region of the god Ganesa. The holy Narmada<noteref3_note3footer>(3) - (53)</note> is a great river of twenty-four mouths. By a dip therein and residing on its banks the devotee shall attain the region of Visnu. The river Tamasa<noteref4_note5footer>(4) - (54)</note> is of twelve mouths and Reva<noteref5_note5footer>(5) - (55)</note> has ten mouths.</li>'+
+'<li>Godavari<noteref6_note6footer>(6) - (56)</note> is very holy and it quells the sins of murdering a brahmin or slaughtering a cow. It is said to have twentyone mouths and accords Rudraloka. </li>'+
+'<li>Knrnaveni<noteref7_note7footer>(7) - (57)</note> is a sacred river destroying all sins. It is said to have eighteen mouths and it accords Visnuloka.</li>'+
+'<li>Tungabhadra<noteref8_note8footer>(8) - (58)</note> has ten mouths arid it accords Brahmaloka. The holy Suvarnamukhari<noteref9_note8footer>(9) - (59)</note> is said to have nine mouths.</li>'+
+'<li>Those who fall from Brahmaloka are born there. By residing on the banks of the auspicious rivers Sarasvati<noteref10_note10footer>(10) - (60)</note>, Pampa, Kanya  and Svetanadi<noteref11_note11footer>(11) - (61-63)</note>one shall attain Indraloka. The great river Kaveri<noteref12_note11footer>(12) - (64)</note>flowing from the mountain Sahya is very holy and is said to have twenty-seven mouths. It accords all cherished desires. Its banks are the bestowers of heaven and the regions of Brahma and Visnu. </li>' +
+        '<li>The devotees of Siva are the bestowers of Sivaloka and accord cherished desires. When theJupiter and the sun are in the zodiac of Mesa, the devotee shall take the holy bath in Naimisa<noteref13_note13footer>* </note> and Badara. <noteref14_note14footer>** </note>.' +
+'Worship etc. thereafter accords Brahmaloka. When the sun is in Karkataka or Simha one shall take bath in the Sindhu (Indus)  <noteref15_note15footer>(15) - (65) </note>. On that occasion the drinking of the sacred water of Kedara <noteref16_note16footer>(16) - (66) </note> and ablution therein accords perfect knowledge.<br/>' +
+'Siva Himself has mentioned before that the bath in the Godavari in the month of Sir:hha when Jupiter is also in the zodiac of Simha accords Siva region. When Jupiter and the sun are in the zodiac of Kanya, ablution shall be performed in the rivers Yomuna<noteref17_note17footer>(17) - (67) </note>  and Sona, the fruit of which is great enjoyment in the worlds of Dharma and Dantin ( Ganesa). <br/>'+
+'When the sun and the Jupiter are in Tula, the devotee shall take bath in the Kaveri the fruit whereof is the attainment of all cherished desires as stated by Visnu Himself. The devotee who takes bath in the river Narmada in the month of Vrscika, when the Jupiter is in the zodiac of Vrkika, attains Visnuloka. <br/>' +
+'Brahma has stated that the bath in the Suvarnamukhari when the sun and the Jupiter are in the zodiac of Dhanus accords Sivaloka.<br/>' +
+'The devotee shall take bath in the Jahnavi (Ganges) in the month of Margasirsa when Jupiter is in the zodiac of Oapricornus. After enjoying pleasures in the regions of Brahma and Visnu he will gain perfect knowledge in the end. </li>'+
+'<li> In the month of Magha when the sun is in the zodiac of Kumbha, Sraddha, offerings of Pinda and water libations with gingelly seeds raise the crores of manes on both the sides (Paternal and maternal) of the family. When the sun and the Jupiter are in the zodiac of Mina, ablution shall be performed in Krsnaveni. </li>'+
+'<li> The ceren1onial ablutions taken in the different sacred waters in the respective months accord the region of Indra. An intelligent man shall resort to Ganga or the Kaveri river. Certainly his sin will be quelled thereby. There are many holy centres yielding Rudraloka. </li>'+
+'<li> The rivers Tamraparni<noteref18_note18footer>(18) - (68) </note> and Vegavati<noteref19_note19footer>(19) - (69) </note> accord Brahmaloka. There are holy centres on their banks bestowing heaven on the worshipper. </li>'+
+'<li>In between these rivers there are meritorious holy centres. Intelligent men residing there will reap the respective fruits thereof. </li>'+
+'<li>Only by good conduct, good predilections and good concepts as well as by being sympathetic can the devotee derive the; benefit, not otherwise. </li>' +
+'<li>Meritorious · actions performed in a holy centre flourish in many ways. Sinful acts committed in a holy centre, though slight, become manifold. </li>'+
+'<li>If the sin committed in a holy centre is only for livelihood, the merit will destroy that sin. Merit accords prosperity and quells physical, verbal and mental sins. 0 brahmins, the mental sin is adamantine in sticking to the sinner and it continues for many Kalpas. </li>'+
+'<li>The mental sin can be wiped off only by meditation and not otherwise. The verbal sin is wiped off by Japas and the physical sin by forcefully causing the emaciation of the body. Sins committed by means of wealth can be wiped off by making charitable gifts and not otherwise, though crores of Kalpas (Aeons) may elapse. In some places the increasing sin destroys the merit. </li>'+
+'<li>Both Merit and Demerit have three aspects:the seed stage, flourishing stage and the enjoyment stage. If they are in the seed stage they can be quelled by perfect knowledge. If they are in the flourishing stage they can be quelled in the manner described before. If they are in the enjoyment stage they get destroyed only by enjoying and experiencing their fruits and not otherwise though one might have performed crores of meritorious deeds. <br/>'
++ 'If the seed or the flourishing seedlings are destroyed what remains must be experienced and wiped off. If one regularly performs worship of gods, makes gifts to brahmins and performs sufficient penance, the enjoyment becomes bearable. Hence those who wish for happiness must refrain from committing sins. </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['51. Bha.rata Varsa is one of the nine divisions of the earth as separated off by certain mountain ranges, the other eight divisions being Kuru, Hiranmaya, Ramyaka, Ilavrta, Hari, Ketumala, Bhadrasva and Kinnara. It is surrounded by oceans in the south west and east and by the Himalaya in the North. Sk vii. I.II.13.<br/>Bharata who gave his name to this country was the descendant of Svayambhuva Manu. He was a king of Agnidhra\'s family.',
+'52. The river Sona (also called Sone, Sona) rises in Gondwana, :in Madhya Prade8a, on the table-land of AmarakaQtaka, four or five miles east of the source of Narmada river and running first northerly and then easterly for 500 miles falls into the Ganges above Pataliputra or Patna. It is called Magadhi nadi, since it forms the Western boundary of Magadha. Sk I. iii u 2.7 (ii). ',
+'53· It rises in the Vindhya mountain and falls into the gulf of Cambay. It flows in a wide flood-plain and is fairly deep. It forms a suitable boundary between the political units north and sbuth of it.',
+'54· It is identified with Tons which issues from the ~k~apada mountain, appears in the Bundelkhand region and flows into the Ganges below Allahabad',
+'55· Reva and Narmada are the two small branches of one and the same river in the upper course which are later united into one. ',
+'56. This river known as Goda or Godavari forms an important unit in the historical geography of South India. It drains a large area mainly composed of Deccan lavas and flows through a wide fertile valley towards the east. Its catchment area is bounded in the north by the · Sahya mountain, the Nirmala and Satmala ranges and the hills of Bastar and Orissa known to the Purai).as as Mahendra Parvata. ',
+'57· It rises from the Sahya mountain. It is the united stream of kr~I).ii and Vei).i. It flows into the bay of Bengal Cf Sk. II. r. 29·44· 58. It rises from the Sahya mountain and joins the kr~I).a river. ',
+        '58. It rises from the Sahya mountain and joins the kr~I).a river. ',
+        '59· It is one of the most sacred rivers of Southern India. After issuing from the Mahendra mountain, it falls into the southern sea, passing through beautiful hills and dales nlong with its tributary streams. ',
+        '60...',
+        '61-63. It is a tributary of Tungabhadra river. 62. Not identified. The country situated on the bank of this river is sacred to Siva, Cf. Sk. I. iii u 2. 7-rg. 63. Not identified. ',
+        '64. It is one of the most sacred rivers which takes its rise from the ya mountain. It is said to have many tirthas, particularly SivaK~etras, on its bank. Sk. I. iii P 6. g8; I. iii u.2.1 I. ',
+        '* Naimisa, modem Nimsar, is a sacred region of Uttarapradda in the district of Sitapur, on the bank of Gomati. Naimi~a was sacred in the Krta age, as Pu~kara in the Treta, Kuruk~etra in the Dvapara, the Ganges in the Kali age. ',
+        '** Name of the hermitage of Nara and Niiriiyal).a in the neighbourhood of Gangodbheda, the source of the Ganges. ',
+        '65. This sacred river of Ancient India, takes its rise from the Himalayas, flows in the Western Pakistan and falls into the Western Sea.  ',
+        '66. It refers to Kediira Ganga or Mandakini in Garhwal. ',
+        '67. The river rises in the Himalaya mountains among the Jumnotri peaks, flows for 86o miles on the plains before it joins the Ganges at Allahabad.',
+        '68. It- issues from the Malaya mountain called the Travancore hills. in the southern parts of the Western Ghats.', '69 It is the modern Baiga or Bijari in the district of Madura. q.n. P. 38.'
+]
+}
+]
+},{/*
+    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;background-color:aliceBlue  ; border: 2px outset skyBlue;margin:2px; border-radius:3px;color:slateBlue;font-weight:bold",
+buttonText: '13',
+title: 'VIDYESVARASAMHITA: Chapter 13: Shiva-Himavat Dialogue',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'gray', 'text-shadow': '2px 2px 2px black','opacity':'0.9', 'border': '3px inset slateblue'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/VIDYESVARASAMHITA/chapt13.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.8',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<br/><em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>' +
+'<ol><li>How is the phallic form of Siva to be installed ? What are the characteristic features of the form ? How is it to be worshipped ? What is the appropriate time and place for worship. What sort of performer he must be ? </li>'+
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>' +
+'<li> I shall tell you everything for your sake; please listen attentively. The time must be convenient and auspicious. The place must be a holy centre. It can be on the bank of a river or anywhere facilitating a daily worship. It can be of Parthiva (Earth), Apya (Watery) or Taijasa (fiery) type. </li>'+
+'<li>If it has all the characteristics mentioned in the sacred texts, the devotee derives the fruit of worship. If it has all characteristics, it accords the fruit of worship instantaneously. </li>'+
+'<li>A subtle one is recommended if it be mobile and a gross one if it is stationary. The phallic emblem of good characteristics shall be set up in the seat of the same sort. </li>'+
+'<li>The seat can be circular, square or triangular in shape. The one shaped like a cot in the middle is of middle efficacy. </li>'+
+'<li>At first, the emblem was made of earth or rock; then it used to be made with the metals. If it is stationary, the emblem and the Pitha should be of the one and the same material. </li>'+
+'<li>Save the one which the asura Bana worshipped, both the emblem and the seat shall be unitary, if emblem be mobile. The length of the emblem shall be of the measure of twelve fingers of the devotee. </li>'+
+'<li>If it is shorter it is less efficacious; if it is longer there is no harm. A shortage by the breadth of the finger of the devotee in regard to the mobile one is similarly harmless. </li>'+
+'<li>A Vimana (chariot-like structure) of artistic beauty shall be made at first wherein the divine attendants shall be represented. In its firm and beautiful sanctum sanctorum shining like a mirror studded with the nine precious gems-sapphire, lapis lazuli, Emerald, pearl, coral, Gomedaka, diamonds and rubies, the emblem shall be installed on the altar. </li>'+
+'<li>The emblems hall be worshipped with the mantras beginning with "Sadyo" (a Shiv Mantra) in five different places in order. Sacrificial offerings shall be made in the fire. Siva and the gods of His family shall be adored. The preceptor is given monetary gifts. Kinsmen are propitiated with whatever they desire. Money is distributed among the mendicants. All objects sentient or otherwise, and all living beings movable or immovable are duly gratified. The cavity is filled with gems. Mantras "Sadyo" etc, are recited.' +
+'The auspicious supreme lord is meditated upon. The great mantra Orpkara resonant with its mystical sound is repeated. The linga is then united with the Pitha (pedestal). The two are then welded together. 18. Similarly the embodied image shall also be fixed there auspiciously. For the sake of festivals the embodied image shall be installed outside with the five-syllabled mantra. </li>'+
+'<li>The embodied image shall be taken from the preceptors or it must be one that has been worshipped by saintly men. Such an adoration of the embodied image and the phallic emblem accords the region of Siva. </li>'+
+'<li>The phallic emblem is of two varieties : the stationary and the mobile. Trees, hedges etc. represent the stationary. </li>'+
+'<li>Worms, insects etc. represent the mobile. For the stationary one, tending and similar service is recommended. For the mobile one Tarpana (propitiation) is recommended. </li>'+
+'<li>With a love for the happiness of different beings Siva Puja shall be performed-so say the wise men. The pedestal represents Siva\'s consort-Parvati and his phallic emblem represents the sentient being. </li>'+
+'<li>Just Rs lord Siva remains ever in close embrace of the Goddess Parvati, so also the phallic emblem holds on to the pedestal, for ever. </li>'+
+'<li>Such is the installation of Siva\'s great phallic emblem which shall be worshipped with due homage. The daily worship shall be made in accorance with one\'s capacity; so also the fixation of banner etc. </li>'+
+'<li>The devotee shall install the phallic emblem and it will accord directly the region of Siva. Or the devotee shall worship the mobile emblem with the sixteen types of homage and services as prescribed. It accords the region of Siva gradually. The sixteen types of service are<noteref1_note1footer>(1) - (49)</note> :-invocation (A.vahana); offering the seat(Asana); water offering(Arghya); washing of the feet (Padya); water for rinsing the mouth as a mystical rite (Acamana); oil bath (Abhyanga snana); offering of cloth (Vastra); Scents (Gandha); flowers (Pu~pa); incense (Dhiipa); lamps (Dipa); food offering (Nivedana); waving of lights (Nirajana); betel leaves (Tambiila); obeisance (Namaskara); and mystical discharge and conclusion (Visarjana). <br/>&nbsp;&nbsp;Or the devotee need perform the rites from water-offering to food offering alone duly. Or the devotee shall daily perform, as he can, ablution (Abhi~eka); food offering (Naivedya ); and obeisance (Namaskara) and propitiation (Tarpal).a ), -all these in order. It will accord him the region of Siva. </li>'+
+'<li>Or he shall perform all the sixteen rites in the phallic emblem of human, saintly or godly origin, or in one naturally risen up (Svayambhu) or in one of very extraordinary nature installed duly. </li>'+
+'<li>If the devotee makes gifts of articles of worship he will get some benefit or other. By circumambulation and obeisance he will attain Siva\'s region gradually. </li>'+
+'<li>Regular vision of the phallic emblem accords benefit. Or the devotee can make a phallic emblem out of clay, cowdung, flowers, Karavira fruit, jaggery, butter, ashes or cooked rice as he likes and worship it according to the prescribed rules.</li>'+
+'<li>Some authorities have recommended the worship of the phallic emblem on the thumb etc. In these rites of phallic worship, there is no sort of prohibition whatsoever. </li>'+
+'<li>Everywhere Siva accords benefit as befitting the endeavour put in. Or he shall make gifts of the phallic emblem or the value of its construction. </li>'+
+'<li>Whatever is given to a devotee of Siva with sincere faith accords Siva\'s region. Or the devotee can repeat the Pranaava mantra ten thousand times every day. </li>'+
+'<li>Repetition of Om (Pral).ava mantra) a thousand times at dawn and at dusk is known to be according Siva\'s region. At the time of the repeated utterance (Japa) of the mantra, (Om) ending with "M" purifies the mind. </li>'+
+'<li>At the time of Samadhi (meditation) the repetition of Omkara must be mental. Muttering of it in low voice can be practised at all times. The same with Bindu (dot) and Nada (sound) is also of the same efficacy. </li>'+
+'<li>Or the devotee can with due reverence repeat the five-syllabled mantra ten thousand times every day or a thousand times at dawn and at dusk. It accords the region of Siva. </li>' +
+'<li>Repetition of the five-syllabled mantra (Namassivaya) by a brahmin is specially efficacious with the Om (Pral).ava) prefixed. A mantra must be received from a preceptor with proper initiation for the acquisition of the desired fruit. </li>'+
+'<li>The ceremonial ablution when the sun is in transit to the Zodiac Kumbha, initiation for mantras, the Nyasa of Matrkas;<noteref2_note1footer>(2) - (50)</note> a brahmin, a person with soul purified by truth; a preceptor of perfect knowledge-all these are splendid. </li>'+
+'<li>Brahmins shall begin with Namah. and the others shall end with Namah.. With regard to some women the mantra shall end with Namah duly. </li>'+
+'<li>Some say that Brahmin women begin with Namah.. Repetition of this for five crores of times will render a person equal to Sadasiva. </li>'+
+'<li>By repeating it one, two, three or four crores of times, the devotee shall attain the region ofBrahma and others. One can repeat any of the syllables a hundred thousand times or all of the syllables separately a hundred thousand times. </li>'+
+'<li>Or a hundred thousand times all the syllables together, if repeated, accord Siva\'s region. Or if the devotee repeats it a thousand times every day and completes a million times in a thousand days, he can achieve whatever he desires. He shall feed brahmins every day. A brahmin shall repeat the Gayatri a thousand and eight times every day In the morning. He shall attain Siva\'s region gradually. He shall repeat Vedic verses and hymns with the observance of restraints. </li>'+
+'<li>The Dasarna mantra shall be repeated either 99 times or nine hundred times or nine thousand nine hundred times. </li>' +
+'<li>The regular study of the Vedas accords Siva\'s region. <br/>All the other sorts of mantras shall be repeated a hundred thousand times. </li>' +
+'<li>If the mantra consists of only. one syllable it shall first be repeated a crore times and thereafter a thousand times with great devotion. </li>' +
+'<li>Doing thus according to one\'s capacity one shall gradually attain Siva\'s region. It is the duty of every one to repeat a mantra pleasing to him every day till his death. </li>' +
+'<li>If a man repeats "Om" a thousand times he shall get all his desires fulfilled at the bidding of Siva. If he plants a flower-garden for the sake of Siva or even renders service by sweeping and cleaning Siva\'s temple and precincts he shall attain Siva\'s region. The devotee shall reside for ever in Siva\'s temple with great devotion. </li>' +
+'<li>It yields worldly enjoyment and salvation to every orie sentient or insentient. Hence an intelligent man shall reside in a temple of Siva till death. </li>' +
+'<li>In a temple built by ordinary man, the space upto a hundred hastas (I hasta· 30 ems) from the phallic image is holy. In a temple dedicated to sages, the space upto a thousand Aratnis ( 1 Aratni 45 ems) from the phallic image is holy. In a temple dedicated. to sages, the space upto a thousand Aratnis ( 1 Aratni =45 ems) from the emblem is holy. </li>' +
+'<li>If the phallic emblem had been installed by gods the space upto a thousand Aratnis is holy. In a temple where phallic emblem is self-risen, the space upto a thousand Dhanul). Prama:r;tas (a dhanul). prama:r;ta= 4 hastas) is holy. </li>' +
+'<li>The tank, well, pond etc. in a holy centre shall be considered Siva-Ganga in accordance with Siva\'s statement.</li>' +
+'<li>By taking bath or making gifts or muttering mantras in that centre one will attain Siva. One shall seek shelter in a temple of Siva and stay there till death. </li>' +
+'<li>I. The rites of obsequies of the second day or the tenth day, the offerings of monthly Pindas, the rite of Sapindakarana or the annual Sraddha shall be performed in a holy centre. He will instantly attain Siva\'s region. By staying there for seven, five or three nights or a single night he will attain Siva\'s region gradually. He will obtain results according to his conduct and befitting his caste. </li>' +
+'<li>By the uplift in the caste and devotion the fruit ·gains more efficacy. Anything done with a desire In view yields results immediately. </li>' +
+'<li>Anything done with no specific desire In view yields the region of Siva directly. Of the three periods of time, ordained rites shall be performed in the morning, rites for the fulfilment of desires in the midday and rites for the suppression of the evil in the evening. The same thing holds good for nights too. </li>' +
+'<li>The two middle Yamas ( 1 Yama is equal to 3 hours) at night are called Nisitha. The worship of Siva at that time accords desired results. </li>' +
+'<li>If a man performs rites after realising this, he shall achieve the due results. Especially in the Kali age the achievement of fruit is only due to the precise performance of actions. </li>' +
+'<li>If the man is well behaved, afraid of sins and the observer of good actions at other man\'s suggestion or at his own he shall attain due results. '+
+'<li><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span><br/>0 Suta, foremost among excellent yogins, please tell us briefly about the various holy centres by resorting to which women and men shall attain the region (of Siva). Please tell us about the traditions of Siva temples also.<br/> <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> <br/>All of you listen faithfully to the account of all holy centres and their traditions. </li></ol>' + '<br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+notes: ['49. The sixteen acts of homage to a deity are slightly different in other texts ; Compare Tantrasara mentions 61 Upacaras. ',
+'50 Nyasas are particular diagrams which are closely associated with the divine mothers and are written in characters to which a magical power is ascribed. These are the personified energies of the principal deities connected with the worship of Siva. They are reckoned sometimes 7, sometimes 8, 9 or 16 in number. ']
+}
+]
+},
+    {
+        title: 'PART 7 The Birth of Shree Krishna',
+        buttonStyle :  "padding:4px;background-color:orange  ; border: 2px outset crimson;margin:2px; border-radius:3px;color:crimson;font-weight:bold",
+        
+        headerStyle: { 'color': 'antiquewhite','font-weight': '1900', 'background-color': 'transparent', 'opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/shree_krishna_birth.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.9',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: 'The Divine pregnancy',
+                content: '<p>At this point, Sage Suka<noteref1_note1footer>(1)</note> moistened his lips with his tongue and continued: Devaki and Vasudeva being in prison, looked like mad persons. They sat with unkempt hair, lean and lanky due to lack of appetite and no means to feed their bodies. They could not sleep and they were consumed by grief over the children they had lost. After another year, Devaki conceived for the eighth time. O, it was wondrous! What a transformation it had brought about!</p>',
+               notes: ['Sage Suka is Sage Vyasa\'s son']
+            },{ 
+                subTitle: 'The wonderful transformation',
+                content: '<p>The faces of Devaki and Vasudeva<noteref2_note1footer>(2)</note>, which had drooped and dried up, suddenly blossomed like lotuses in full bloom. They shone with a strange splendor. Their bodies which were reduced to mere skin and bone, took on flesh, became round and smooth and shone with a charming golden hue. The prison cell of Devaki and Vasudeva became fragrant with pleasing odors; it cast a wondrous light and was filled with inexplicable music and jingling of dancing feet. Devaki and Vasudeva became aware of these happenings, but they were afraid to inform Kamsa, lest in his vindictive frenzy, he might hack the womb to pieces. They were anxious about the strange future of the son to be born and were restless with weird forebodings.</p>',
+                notes: ['Bhagawan\'s earth biological parents']
+            },{ 
+                subTitle: 'Kamsa’s meanness and Pariskshith’s question',
+                content: '<p>Kamsa knew his time was fast approaching; he was torn by greed to continue as an unquestioned Emperor; he was overcome by conspiracy; he overran the territories of Yadu, Vrishni, Bhoja and Andaka and added them to his domain; he threw his father Ugrasena into prison; thereafter, his will was sovereign. Hearing these words of Suka, Parikshith said, “What foolishness is this? Knowing fully well that his end was drawing near, should he not give up his greed and turn his mind towards God?” Suka burst into laughter and said, “Maharaja! You think that all those whose end is near will utilize the time at their disposal to seek the vision of the Lord! Such yearning can arise in the mind only due to good deeds performed in the previous lives. Those who have acquired good merits from their past actions, have compassion towards all beings, do not swerve from the right path and adhere to truth, non-violence and love. They have only thoughts of God and urge to do sanctifying deeds till their last days. Instead, those who are immersed in selfishness, egotism, greed, vice, violence and unrighteousness will suffer from increased evil urges in their last days and destroy themselves. Hence the saying <em>Vinaasa Kaale, Vipareetha Buddhi.</em></p>'
+            },{ 
+                subTitle: '',
+                content: '<p>(Suka continues)<br/>"The fetus of the seventh pregnancy was taken from Devaki and transferred to Rohini who was in Gokula under the protection of Nanda. This was done so that the child may grow into a companion and helpmate for Krishna. Rohini gave birth to a son who was named as Balarama because of his extraordinarily strong body and his charming innocence and intelligence. Since he was transferred from the womb of Devaki to Rohini, he was also called Samkarshana (who was attracted or drawn). Meanwhile, the eighth pregnancy completed nine months; Devaki and Vasudeva sat helpless in great anguish without food or sleep fearing what would Kamsa do next. Kamsa took extra precautions to see that the child does not escape him. He ordered that Vasudeva and Devaki be shackled with chains on hand and feet. But, who can hinder the inscrutable operation of the will of God?"</p>'
+            } ,{ 
+                subTitle: '',
+                content: '<h2>The Advent of the Lord</h2><p id="special" style="font-size:larger;font-weight:900;color:firebrick;border:2px solid maroon;border-radius:5px;padding:10px;"><em>One night, Devaki developed labor pains; with her mind firmly fixed on God, she was looking at the oil lamp in the cell, asking herself, “What is going to happen to me?” Suddenly, the flame went out and darkness filled the cell. Just then, there was an effulgent Form with a strange splendor standing before her. Gradually, the Form became clear! It was armed with the Conch, the Discus and the Mace; the fourth hand was held in Abhaya pose. It said softly and sweetly, “Do not fear! I am Narayana. I am to be born in a few minutes as your son in an answer to the promise I made as a result of your earnest prayers. I will be known as Krishna and also as Vasudeva. As soon as I am born, the shackles will fall off from your hands and feet. The doors of the prison will open by themselves. Take Me from here without anyone’s knowledge, to the home of Nanda in Gokula. Place Me by the side of his wife, Yasoda who is having labor pains now. Bring the baby girl that Yasoda has delivered back into this prison and keep her with you. Then, send word to Kamsa. Until he gets the news, no one either in Mathura or Gokula will notice you. I shall arrange it so.” Blessing Devaki and Vasudeva, the effulgent Form entered the womb of Devaki as an Orb of Light. Within minutes the Divine Child was born! It was 3:30AM. The shackles that bound the hands and feet of Vasudeva fell off in a trice. The doors and the gates flew open. Though it was still dark, a cuckoo was cooing with a sudden spurt of joy. The Rain-God was showering flower drops of rain on the earth. Around the prison, flocks of bird clustered in happy song, twittering sweet melody. Vasudeva turned his eyes towards the new born child and was astounded. Encircling the Babe was a brilliant halo of Light!</em></p>'
+            },{ 
+                subTitle: 'The Lord moves to Gokul',
+                content: '<p>Vasudeva did not delay. He spread an old dhoti on a bamboo basket and placed the Babe on it. He tore an old sari of Devaki and covered the Babe and placed the basket on his head. He moved out of the open doors and gates, past the sleeping guards. He noticed the little drops of rain that was falling on the Babe and was afraid that the Babe would be soaked. But, when he turned back, he found a snake following his footsteps, holding the ribbed umbrella of its broad hoods over the child preventing the rain from wetting the Babe. He soon realized that it was Adisesha protecting the Lord. Though the sun had not risen yet, the lotus bloomed in all the tanks and leaned on its stalk towards the Babe. Though it was a dark night, with a deep yearning to look at the Babe, the full moon peeped through the clouds, with its cool rays illuminating the entire route to Gokul. Vasudeva began to cross Yamuna river to reach Gokul. The water was rising very rapidly above Vasudeva’s head and he was afraid that he would drown. It dawned on him that Yamuna was paying its respects to the Lord by wetting the feet of the Babe! The Babe was placed next to Yashoda and the baby girl that had just been born there was brought and placed into the hands of Devaki. No sooner this was done, Vasudeva burst into tears! While these words were coming from Suka’s lips, Parikshith exclaimed aloud, “Krishna, Krishna!” Everyone looked at the King. They saw a snake crawling away fast, after biting the right toe of the King. Suka shed tears of Bliss; He announced, “The King has merged with the Lord”. The word Suka means parrot. Yes, he was the parrot that plucked the ripe nectar filled fruit called Bhagavatha from the tree of the Vedas and enabled the world to taste it. May the world relish the fruit and derive the Atmic Bliss!</p>'
+            }
+        ]
+    }
+];

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/global-style.css">
+    <link rel="stylesheet" href="../styles/global-style.css">
+    <style>
+        H1, H2, H3, H4, H5, H6
+        {
+            font-weight: 900;
+            color:firebrick;
+        }
+        #special {
+            font-size: larger;
+        }
+        #curtain
+        {
+            background-image: url('images/shivPuran1_Cover.jpg');
+            background-size: cover;
+            background-repeat:repeat;
+            min-width:1024px;
+            min-height:768px;
+            margin:10px;
+            border:6px outset gray;
+            border-radius:10px;
+            color:darkblue;
+            background-color:  aliceBlue;
+            position: absolute;
+            top:25px;left:5px;
+        }
+        #curtain > H2
+        {
+            background-color:aqua; color:darkblue;font-style:italic;margin: 5x ;
+        }
+        #curtain > H2 > span
+        {
+            float:right;
+            font-size:smaller;
+            font-weight:900;
+            width:auto;
+            color:darkslateblue;
+            border:3px outset darkslateblue;
+            background-color:skyblue;
+            margin-right:  100px ;
+            margin-bottom: 15px;
+        }
+        #curtain > p
+        {
+            border: 4px sienna inset;
+            margin: 10px;
+            border-radius: 7px;
+            padding:5px;
+            background-color: bisque;
+            opacity: 0.7;
+            font-weight: 800;
+        }
+        #mainStory
+        {
+            display:none;
+            opacity:0.0;
+            position: absolute;
+            top:35px;left:5px;
+        }
+        #heading
+        {
+            background-color: aliceblue;
+            background-size:contain ;
+            min-height:100px;
+            border:3px outset lightblue;
+            border-radius:6px
+        }
+        #heading > img
+        {
+            float:left;
+            max-height:80px;
+            margin:10px;
+            border:1px solid slateblue;
+        }
+        #heading > h1,h2,h3
+        {
+            font-style:italic; color:darkslateblue;margin-top:10px;margin-left:15px;
+        }
+        #chapterRow {
+            width:auto;overflow:hidden; height:auto; float:left; text-align:justify;  margin-top: 0px;
+        }
+        #prev_btn {
+            width:auto; float:left; background-color: #0b93d5; margin:16px 12px 12px 1215px;
+        }
+        #next_btn {
+            width:auto; float:left; margin:16px 12px 12px 1215px;
+        }
+        #show_chapt_details  {
+            width:auto; float:left; margin:0px 12px 12px 15px;
+        }
+        #chapt_details  {
+            width:800px; text-align: center; float:left; margin:0px 12px 12px 15px;
+            padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;
+        }
+        #leftNavMenu {
+            float:left;
+            position: fixed;
+            top: 180px;
+            width:190px;
+            border:2px outset brown;
+            border-radius:6px;
+
+        }
+        .top-links {
+            float:left;
+            border: 1px solid brown;
+            background-color: beige;
+            margin-left:3px;
+            padding:3px;
+            border-radius:3px;
+
+        }
+        .top-links > a
+        {
+            padding: 2px;
+            font-weight:900;
+        }
+    </style>
+</head>
+<body onload='loadContentText(1, false)'>
+       <div class="fixed">
+               
+                <div id='menu' class="col-sm-12 col-md-2  ">
+               <div id="sideBar">
+                         
+                        <hr />
+                        <ul  >
+                            <li class="sectionHeader menuHeader">Items</li>
+                             <li style="border:1px inset;background-color:violet;margin:1px;color:darkblue;font-weight: 900;">
+                                <a href="shivpuran_intro_vidyeswara/home.html" >MAHATMYAM <br/> VIDYESVARA SAMHITA </a>
+                            </li>
+                            <li style="border:1px inset;background-color:indigo;margin:1px;color:deepskyblue;font-weight: 900;">
+                                RUDRA SAMHITA
+                                <ul>
+                                    <li><a href="shivpuran_rudrasamhita_shrishtikhand/home.html" >Shristi khand</a></li>
+                                    <li><a href="shivpuran_rudrasamhita_satikhand/home.html" >Sati khand</a></li>
+                                    <li><a href="shivpuran_rudrasamhita_parvatikhand/home.html" >Parvati &&<br/> Kumara khand</a></li>
+                                    <li style="display:none"><a readonly="true" href="shivpuran_rudrasamhita_kumarakhand/home.html" >Kumara khand</a></li>
+                                    <li><a href="shivpuran_rudrasamhita_yuddhakhand/home.html" >Yuddha khand</a></li>
+                                </ul>
+
+                            </li>
+                            <li style="border:1px inset;background-color:blue;margin:1px;color:skyblue;font-weight: 900;">
+                                <a href="shivpuran_shatarudrasamhita/home.html" >SHATARUDRA<br/> SAMHITA</a>
+                            </li>
+                            <li style="border:1px inset;background-color:darkgreen;margin:1px;color:lightgreen;font-weight: 900;">
+                                <a href="shivpuran_kotirudrasamhita/home.html" >KOTIRUDRA<br/> SAMHITA</a>
+                            </li>
+                            <li style="border:1px inset;background-color:#FFFE0D;margin:1px;color:#FF3700;font-weight: 900;padding-bottom: 4px;">
+                                <a href="shivpuran_umasamhita/home.html" >UMA SAMHITA</a>
+                            </li>
+
+                            <li style="border:1px inset;background-color:Orange;margin:1px;color:maroon;font-weight: 900;padding-bottom: 4px;">
+                                <a href="shivpuran_kailashsamhita/home.html" >KAILASH SAMHITA</a>
+                            </li>
+                            <li style="border:1px inset;background-color:#AA0001;margin:1px;color:yellow;font-weight: 900;padding-bottom: 4px;">
+                                <a href="shivpuran_vayviyasamhita/home.html" >VAYVIYA SAMHITA</a>
+                            </li>
+                        </ul>
+                    </div>
+           </div>
+           <div class="col-sm-12 col-md-10  ">
+               <div class="top-links"><a href="../home.html">Return to Main Index page....</a></div>
+               <div class="top-links"><a href="../shivpuran_brief/home.html">Shiv Puran Summarized Version</a></div>
+    <div  title="Aum Shree Ganeshaya Namaha" id="curtain"   > 
+         
+        
+        <H4 >ॐ श्री गणेशाय नमः (OM Sri Ganeshaya Namah)<br/>ॐ श्री सरस्वत्यै नम(Om Shri Saraswati-ya Namaha) </H4>
+        <H1 title='We concentrate on our third eye which lies behind the two eyes and this gives us the power to feel you and by this we feel happy, satisfied and peace in life. We know immortality is not possible but some extension can be given to our death by your powers Lord Shiva.'>ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्
+            उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात्</H1>
+           <article id='introductory'>
+               <h5>Shiv Puran detail script</h5>
+               <p>
+                   &nbsp;&nbsp;Started around September 2017, the inspiration and divine wish to put this Purana of Puranas online was converted into action
+               </p>
+               <p><h6>High level information of Shivpuran.</h6>
+                   The Shiva Purana is one of eighteen Purana genre of Sanskrit texts in Hinduism, and part of the Shaivism literature corpus. It primarily centers around the Hindu god Shiva and goddess Parvati, but references and reveres all gods.
+                   The Purana has different versions, sizes and, in fact, 'divisions'<em>(Samhitas)</em> gvary somewhat .
+                   At this point (November 2017), with the information I have available, this is the listing of the Samhitas I may be following
+                <ul>
+                    <li>Mahatmyaham and Vidyeswara Samhita</li>
+                    <li>Rudra Saṁhitā</li>
+                    <li>Shatarudra Saṁhitā</li>
+                    <li>Kotirudra Saṁhitā</li>
+                    <li>Uma Saṁhitā</li>
+                    <li>Kailash Saṁhitā</li>
+                    <li>Vaiviya Saṁhitā</li>
+                </ul>
+               </p>
+               <p><h6>Current Website contents, and other logistics</h6>&nbsp;&nbsp;Having a vast infinite sea of articles, documents, images and other content which one can tap using a search engine
+               like <strong>Google</strong>, I chanced upon a couple of <strong>PDF</strong> articles on <strong><em>Shiv Puran</em></strong> authored by Shree J.L. Shastri. <br/>
+               These two articles cover the Vidyeswara and Rudra Samhitas </p>
+               <p>&nbsp;&nbsp;Due to oversight or impatience (or both) in getting started, I reaalized that the (above) two docs do not cover ALL the projected samhitas. <br/>
+               I have managed to find a shorter version of the remaining Samhitas. This is my intended path:<br/>
+               
+              <ul>
+               <li><strong>Shiv Purana in either format is completed as on November 28 2017</strong>. Managed by His grace to finish before a set target of Shree Datta Guru Jayanti, Dec 3 2017 </li>
+               <li>This is the full version of the Puran, using both sources  -  Vidyeswara Samhita in full and the others  in precis form( as of the above date) </li>
+               <li>From a software development mindset, the summary version( link  is on the top of the page) is <em><strong>Implementation complete</strong></em>. I do not anticipate major change apart from rectifying mistakes found.</li>
+               <li>Subsequently, I have found all volumes of Shree Shastri's work. I have begun updating the combined full/summary version with the available Rudra Samhita from Shastri ji's format </li>
+            </ul>  </p>
+               <H3>Aum Namah Shivay</H3>
+            </article>
+      </div>
+   
+            </div>
+       </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src='scripts/parentText.json'></script>
+    <script src='scripts/MathStatsAndMisc.js'></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1281 @@
+var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultPrevButtonStyle = "float:left;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultNextButtonStyle = "float:right;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right:20px;";
+        var leftNavigation = true ;
+var defaultHeaderStyle=
+    {
+        'font-weight': '900',
+        'color':'firebrick',
+         'background-color': 'transparent', 'opacity':'1.5'
+    };
+var defaultDetailStyle = { 
+      'background-color':'lightgoldenrodyellow',
+        'opacity':'0.7',
+        'margin': '10px',
+      'padding':'5px',
+        'color':'black',
+        'font-weight':'900',
+        'border':'2px solid red'};
+var defaultContentStyle =   { 'border':'3px outset orange',
+             'background-image': 'url("images/lord-krishna-786.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'lightgoldenrodyellow'};
+var chapterData = [
+    /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/{
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: `SATI-KHAND, Summary of Sati's life`,
+title: `SATI-KHAND, Summary of Sati's life`,
+headerStyle: { 'color': '#EEEEFF','font-weight': '1900','text-shadow': '1px 3px 2px darkslateblue' , 'background-color': '#DDFEFFF', 'opacity':'0.9', 'border':'2px white outset', 'border-radius':'3px;', 'padding': '10px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand1.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'1.0',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: `<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+<ol><li>0 Brahma, thanks to Siva's favour, you know everything. You have narrated to me the wonderful stories of Siva and Parvati.</li>
+<li>0 lord, I am never fully satiated by hearing the great story of Siva from your lotus-like face. I wish to hear further the same.</li>
+<li>As explained by you, Rudra is the complete manifestation of Siva. He is the great Lord whose abode is Kailasa. He is a yogin of perfect control. 
+He is worthy of being propitiated by all devas, and ·others. He is the final goal of all good men. 
+He is free from Dvandvas (mutually clashing opposites). The great lord never undergoes any change yet indulges in His divine sports.. 
+He became a· householder again after marrying the noble lady Mangala at the request of when she performed penance. 
+At first she was born of and later of Himalaya. How could she be the daughter of both with the same body? How did Sati<noteref1_note1footer>(1) - (233)</note> become Parvati and attain Siva again? 
+0 Brahma, please explain all these and other points relating to His episode.</li>
+<br/><em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
+<li>On hearing these words of the celestial sage devoted
+to Siva, Brahma became delighted and said again.
+</li>
+<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' 
+<li>0 best of sages, dear one, listen. I shall narrate the auspicious story on· hearing which undoubtedly the life will become fruitful.</li>
+<li>Formerly, on seeing my daughter Sandhya<noteref2_note2footer>(2) - (234)</note> in the company of my sons I was afflicted by the arrows of the cupid and much upset.</li>
+<li>When remembered by Dharma, Rudra, the highest lord and the greatest yogin came there. He reproached me as well as my sons and went back to His abode.</li>
+<li>A serious offence was committed by me against Siva the great lord, by whose Maya I was subjected to great delusion despite my being the reciter of the Vedas.</li>
+<li>Under great delusion and goaded by the envious feelings towards the lord I conspired with my sons to find out ways and means to delude the lord Himself. Here again I was deluded by Siva's Maya.</li>
+<li>0 great sage, in Siva the great lord, all those ways and means pursued by me and my sons became in- effective.</li>
+<li>When my strategy failed I remembered the lord of ( in the company of my sons. The intelligent
+lord of Laxmi (Visnu) devoted to Siva came there and advised me.</li>
+<li>Instructed by Visnu who demonstrated Siva's
+principles, I cast off my envy no doubt, but since I still was· under delusion I did not eschew my stubbornness.</li>
+<li>I humbly served Sakti and when she was pleased I created her as the daughter of and Asikni ( 's wife) . you remember, .was my son. This was my endeavour to make Hara enamoured of her.
+</li>
+<li>The goddess Uma became daughter, performed a severe penance and thanks to her great devotion became Rudra's wife. The goddess indeed is a benefactress of her devotees.</li>
+<li>In the company of Uma, Rudra became a householder and the great lord performed divine sports. He of undecaying intellect deluded me even at the time of his marriage.</li>
+<li>The independent lord assuming his own body married her and returned to his mountain. In her company he sported much, deluding many.</li>
+<li>0 sage, much time was happily spent by Siva free from all depraved feelings and indulging in noble dalliance with her.</li>
+<li>Then a feeling of rivalry arose between Daksa and Rudra; was excessively deluded by Siva's illusion and so becoming extremly haughty he censured the quiet Siva who was free from all depraved feelings.</li>
+<li>Then the haughty, performed a sacrifice without Siva, although he had invited me and all other devas.</li>
+<li>Since he was in delusion he was very furious. So he did not invite Rudra and his own daughter Sati. He was greatly deluded by his own fate.</li>
+<li>When she was not invited by her father whose· mind was deluded by illusion, Siva ( Sati) of perfect knowledge and purest chastity played a divine sport.</li>
+<li>Though not invited by her haughty father she did go to her father's house securing the reluctant permission of Siva.</li>
+<li>Seeing no share of Rudra set apart and being slighted by her father, she all those who were present there and cast off her body.</li>
+<li>On hearing that, lord Siva became unbearably furious and pulling at his matted hair he created Virabhadra.<noteref3_note3footer>(3) - (235)</note></li>
+<li>When he was created along with attendants he began asking "What shall I do?". The entire annihilation of sacrifice and the disgrace of every one present
+there was the order issued by Siva.</li>
+<li>The lord of the Gal).as (Virabhadra) accompanied by his soldiers reached the place immediately after receiving the orders.</li>
+<li>They worked a great havoc there. Virabhadra chastised everyone and spared none.</li>
+<li>After defeating and the Devas with strenuc:>us effort, the chief of Ganas cut off the head of and consigned it to the sacrificial fire.</li>
+<li>Working great havoc he destroyed the sacrifice. Then he came back to the mountain and bowed to Lord Siva.</li>
+<li>Even as the whole of the world of Devas was witnessing, the process of destruction of the sacrifice was carried out by Virabhadra and others, the followers of Rudra.</li>
+<li>The policy in agreement with what is laid down in the Vedas and Smrtis is this, 0 Sage, which you must note. When lord Rudra is angry, how can there be happiness in the world ?</li>
+<li>On hearing his song of praise Rudra relented. Favourably disposed to the miserable that he was, he granted their request.</li>
+<li>Siva, the great lord, indulging in different sorts of divine sports, became sympathetic and merciful as before.</li>
+<li>Daksa was resuscitated. The whole sacrifice was renewed under the instruction of the merciful Lord Siva. All those present were honoured in due manner.</li>
+<li>0 sage, in that sacrifice Rudra was honoured by all the Gods with due devotion. They were highly delighted.</li>
+<li>The flame of fire arising from the body of Sati and delighting the whole world fell on that mountain and it was duly worshipped.</li>
+<li>The deity became famous as Jvaliimukhi yielding fruits of cherished desires. Even her very vision quells all sins.</li>
+<li>Even now she is worshipped with due festivities for the acquisition of all desires, observing all stipulated modes of procedure.</li>
+<li>The Goddess Sati became the daughter of Himalaya. As such she became famous as Parvati.</li>
+<li>She propitiated lord Siva with a rigorous penance and attained him as her husband.</li>
+<li>0 great sage, I have narrated to you all that you asked me. Whoever hears this narrative will no doubt be freed from all sins.</li>
+</ol> 
+<a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+notes: [
+`233. Sati, the daughter of the son of Brahma, was married to Siva. She abandoned her body in consequence of the quarrel between her husband and father. It is said in the Purar;tas that Daksa instituted a sacrifice but apportioned no share to Siva. Thereupon Sati 'felt insulted
+and entered the sacrificial fire whereupon Siva sent hundreds and thousands of powerful Gar;tas who destroyed the sacrifice and beheaded The :gresent section narrates the story of the birth of Sati, her marriage with Siva, their lovely sports and her tragic end at the sacrifice of her father, Daksa.`,
+`234.Sandhya 'lit. twilight' is personified as the .daughter .. of Brahma. It is said tliat Brahma attempted to do violence to her but was reproached by Siva. According to another version Sandhya changed herself to a deer for escape from the evil intention of Brahma whereupon Brahma assumed the form of a stag and pursued her through the sky. Siva saw this and shot an arrow which cut off the head of the·stag. Brahma ·then reassumed his own form and paid homage to Siva,`,
+`235.Virabhadra is described as son, produced from Siva's
+matted locks or mouth or a drop of Siva's sweat in order to spoil .the i sacrifice of He is represented as havin'g a thousand heads, a
+thousand eyes, a thousand feet and a thousand clubs..Clothed in a tiger's skin dripping with blood, bearing ·a blazing bow and a battle-axe.he. is
+I
+described as very fierce and terrifying.`]
+}
+]
+},
+
+    {
+    /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '2',
+        title: 'SATI-KHAND, The appearance of Cupid',
+        headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'text-shadow':'2px 1px purple','opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/rudraSamhita/sati_khand2.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: `<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
+                <ol><li>0 residents of Naimisa forest, after hearing his
+                words, the excellent sage further requested him for more such stories that quell sins. </li>
+                <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+                 <li>0 Brahma, 0 great lord, though continuously
+                 hearing the auspicious story of Siva from your lotus-face I am never satiated.</li>
+                 <li>Please further narrate the auspicious story of Siva entirely. I wish to hear that story in which Sati is glorified, 0 Brahman.</li>
+                 <li>How was the auspicious Sati born of wife ? How did Siva become inclined to marry her ?</li>
+                 <li>How did she cast off her body formerly, due to her rage with How was she born as the daughter of Himalaya and how did she reach heaven again ?</li>
+                 <li>How was her rigorous penance performed ? How was her marriage celebrated ? How did she happen to share half the body of Siva.</li>
+                 <li>Please explain all these points in detail, 0 intelligent one. There is none else to remove my doubts and none shall ever be like you.</li>
+                <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' 
+                <li>0 sage, listen to the auspicious glory of Sati and Siva entirely. It is extremely sanctifying, divine and the greatest secret of all secrets.</li>
+                <li>0 sage, Siva himself narrated this formerly to Visnu, the greatest of devotees for helping others, when
+                requested by him.</li>
+                <li>the intelligent and the greatest of Siva's
+                devotees was asked by me and 0 great sage, he told me everything lovingly.</li>
+                <li>Therefore I shall narrate this ancient story that confers the fulfilment of all desires since it glorifies·Sati and Siva.</li>
+                <li>Originally when Siva was separated from Sakti and was pure consciousness alone, He was attributeless, free from alternatives, devoid of forms and beyond the
+                existent and non-existent.</li>
+                <li>He, the greatest of the great and of changeless
+                form when united with Sakti, was filled with attributes and had specific forms and divine features. 0 brahmin, He was accompanied by Uma.</li>
+                <li>Visnu was born of His left and I, Brahma, of his right side, 0 great sage, Rudra was born of his heart.</li>
+                <li>I became the creator (Brahma); Visnu the cause of sustenance; Rudra the author of dissolution. Thus Sadasiva, manifested himself in three forms.</li>
+                <li>It was after worshipping Him that I, Brahma, the grand-father of all the worlds, began the creation of all subjects including Devas, Asuras, human beings etc.</li>
+                <li>After creating the guardians of the subjects, Prajapatis, and other Devas, I considered myself loftier
+                than others and was delighted.</li>
+                <li>0 sage, when I created Marici, Atri, Pulaha,
+                Pulastya, Angiras, Kratu, Narada, and Bhrgu, my mental sons of lordly stature, a beautiful woman of handsome features was born of my mind.</li>
+                <li>She was variously called Sandhya, Divaksanta, 
+                Sayamh Sandhya and Jayantika. She was very beautiful with finely-shaped eyebrows capable of captivating the minds of ·even sages.</li>
+                <li>Neither in human world nor in that of the Devas was there such a woman of complete perfection in all qualities. Nor was there such a woman in nether worlds in all the three times (past; present and future).</li>
+                <li>On seeing her I involuntarily got up. Various thoughts rose up in my heart. and others-the Prajapatis, Marici and -others-all my sons, felt similarly.</li>
+                <li>0 best of sages, when I Brahma, thought like this, a wonderfully Beautiful Being appeared as my mental creation.</li>
+                <li>He had a golden complexion. His chest was stout and firm. His nose was fine. His thigh, hips and calves were round and plump. He had blue wavelets of hair. His eyebrows were thickset and tremulous. His face
+                shone like the full moon. His hairy chest was broad like a door. He was as huge as the celestial elephant Airavata. He was wearing a blue cloth. His hands, eyes, face, legs and fingers were red in colour. He had a slender waist. His teeth were fine. He smelt like an elephant in its rut. His eyes were like the petals of a full-bown lotus. He was fragrant like the filaments. His neck was like the conch. He bad the emblem of a fish. He was tall. He had the Makara fish for his vehicle. He was armed with a bow and five flowers for his arrows. His loving glance was very attractive as he rolled his eyes here and there. 0 dear one, his very breath was a fragrant wind. He was accompanied by the sentiment of love.</li>
+                <li>On seeing that Being, my sons, and others, were struck with wonder and became eager and inquisitive.</li>
+                <li>Their mind became deformed and confused imme- diately. Smitten with love they lost their mental courage.</li>
+                <li>On seeing me the creator and the lord of the worlds, the person bowed down with his shoulders stooping by humility and said.</li>
+                <br/><em><span style="font-weight:900;color:black;font-size:larger"> The person said :  </span> 
+                <li>"0 Brahma, what is the work I am to do ?
+                Please assign me an honourable task, 0 Brahma, suitable to and becoming me, 0 lord of the three worlds, you are the creator and hence the lord of all the worlds. Please tell me. What is my honourable and suitable place ? Who is going to be my wife ?''</li>
+                <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span>
+                <li>On hearing the words of the noble-souled person Kama, the creator did not say anything for a short while in his surprised predicament. Then steadying his mind and abandoning his surprised look, Brahma, already a victim of Kama, spoke to the person thus : -</li>
+                <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                <li>In this form and with your five flower-arrows<noteref1_note1footer>(1) - (236)</note> you can enamour and captivate men and women and carry on the eternal task of creation.</li>
+                <li>In this universe consisting of three worlds, mobile and immobile beings, none of the living beings including the Devas will be competent to defy you.</li>
+                <li>0 best of beings, not to speak of ordinary living beings even I Brahma, Vasudeva and Siva will be in your control.</li>
+                <li>Invisibly you enter the hearts of living beings, excite thrilling feelings of pleasure and carry on the acti- vities of creation that is to last for ever.</li>
+                <li>The minds of all living beings will become an easy target of your five-flower arrows. You will be the cause of their elation.</li>
+                <li>Thus I have assigned you the task of facilitating creation. These sons of mine will confer names and titles- on you.</li>
+                <li>0 best of the celestials, after saying this and casting a meaningful glance at my sons I resumed my lotus- seat immediately.</li>
+                </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+               notes: [`236. Five flowers that are the missiles of love-God Kama are stated to be 
+                <ul><li>arabinda (a white lotus)</li><li>asoka (Jonesia Asoka)</li><li>amra (mango- oat)</li><li> navamallika (Jasmine) and</li><li>nilotpala (a blue lotus).</ul>`]
+            }
+        ]
+    } , 
+
+    {
+    /*
+<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span> 
+<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span> 
+<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+
+ <em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span> 
+ <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span> 
+<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span> 
+<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span> 
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span>  
+<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> 
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span> 
+<br/><em><span style="font-weight:900;color:#F30400;font-size:larger">Dharma said:  </span> 
+                                
+
+ <noteref2_note1footer>(2) - (17)</note> 
+</li> 
+ <li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '3',
+        title: 'SATI-KHAND, Kama is cursed but blessed later',
+        headerStyle: { 'color': '#f50000','font-weight': '1900', 'background-color': '#ff9f00', 'text-shadow':'2px 1px brown','opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/rudraSamhita/sati_khand2.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: `<em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' 
+                <ol><li>Then those sages, my sons-Marici and others-who understood my view, gave him suitable names.</li>
+                <li>and others who understood other facts on seeing my face gave him a suitable place and a wife.</li>
+                <li>The brahmins Marici and others, my sons, decided on suitable names for the Being and said thus.</li>
+                <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span> 
+                <li>Since at your nativity itself you have begun to torment and bedevil our minds and that of Brahma too, you will be famous in the world as Manmatha.</li>
+                <li>You will be able to assume any form you wish. Hence, 0 mind-born God, you will be known as Kama too. There is no one equal to you.</li>
+                <li>Causing elation in others you will be known as Madana. Since you were haughty even as you were born you will be Darpaka and your name Kandarpa will also become popular in the world.</li>
+                <li>The collective power of all the Devas will not be equal to yours. Therefore you will have any station as yours and you will be omnipresent too.</li>
+                <li> Daksha here, the first Prajapati, will give you a suitable wife, 0 best of men, as you please.</li>
+                <li>This girl of handsome features, born of Brahma's mind, shall become famous in the world as Sandhya.</li>
+                <li> Since she was born when Brahma was deeply contemplating, the woman of lovely features will be famous as Sandhya. She will be as lustrous as the jasmine flower.</li>
+                <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                <li>Taking his five flower-arrows, Kama decided on his future course remaining invisible in form.</li>
+                <li>His five arrows are respectively <ul><li>Harsana (delighting)</li><li>Rocana (appealing)</li><li> Mohana (deluding)</li><li>Sosana (withering) and</li><li>Maran.a (killing)</li></ul>. Even sages could be deluded and tormented by them.</li>
+                <li>(Kama thought like this.:-) I shall make a beginning of my career as assigned by Brahma himself as my eternal task, here itself in the presence of the sages and Braluna. All the sages and Brahma are present here. They shall witness my resolution and performance. Sandhya
+                who was referred to by Brahma is also present here. She shall be my mouth-piece. I shall test my power here and
+                then only carry on my work elsewhere.</li>
+                <li>After thinking like this and deciding on his further activity, Kama fitted his flower-arrows.</li>
+                <li>Kama, the foremost of archers, stood steady in the posture of Alidha (the posture for shooting, the right knee advanced and the left leg retracted), bent his bow almost into a circle and was ready to shoot.</li>
+                <li>0 excellent sage, when the bow was kept ready by him, fragrant winds delighting everyone blew there.</li>
+                <li>The enchanter then charmed Brahma and others, the mental sons with several sharp flower-arrows.</li>
+                <li>0 sage, the sages and I were thus enamoured and we felt very great change in our mental feelings.</li>
+                <li>We began to stare at Sandhya frequently, passion depraving our minds. Our lust was heightened. Truly a woman is one who increases passionate feelings.</li>
+                <li>Making all of us thoroughly enchanted thus, he did not stop till all of us lost control over our sense-organs.</li>
+                <li>When on seeing her, my vital elements became displaced, fortynine animal instincts Bhavas came, out of my body.</li>
+                <li>She too began to manifest the instinctive gestures of side-glances, pretences of concealing feelings etc. as a result of being hit by Kama's arrows when she was being stared at by them.</li>
+                <li>Profusely exhibiting these emotions, the naturally beautiful Sandhya shone brilliantly like the celestial river producing gentle ripples.</li>
+                <li>0 sage, on seeing her emotionally excited I loved her all the more despite the fact that I was the creator and my body was filled with Dharmic features.</li>
+                <li>All the sages, Marici, Atri, and others, b foremost among brahmins, attained the state of sensuous excitement.</li>
+                <li>Seeing me as well as Marici and others in such a situation and seeing Sandhya engaged in her affairs, Madana continued to concentrate his attention on his activity.</li>
+                <li>"The work entrusted to me by :Brahma can easily be performed by me" so thought Kama justifiably.</li>
+                <li>On seeing the sinful proclivities of his brothers and father, Dharma remembered Lord Siva, the lord protector of virtue.</li>
+                <li>Mentally meditating on Siva, the protector of virtue, Dharma, the son of Brahma eulogised Siva with different prayers in his state of sorrow.
+                </li>
+                <br/><em><span style="font-weight:900;color:#F30400;font-size:larger">Dharma said:  </span> 
+                <li>0 Mahadeva, lord of Devas, protector of virtues, obeisance be to Thee. 0 Siva, Thou alone art the author of creation, sustenance and dissolution.</li>
+                <li>By virtue of three Gunas, Rajas, Sattva and Tamas, Thou assumest the form of Brahma at the time of creation, that of at the time of sustenance and that of Rudra at the time of dissolution. Yet, 0 lord, Thou art devoid of attributes.</li>
+                <li>Thou art Siva free from the influence of the three GUIJ.as, the fourth Being. Thou art beyond Prakrti. Thou art expert in various divine sports, yet without attributes and free from deformities and decays.</li>
+                <li>Great Lord ! save me from this impassable ocean of sin. My father and my brothers are now sinfully inclined towards me.</li>
+                <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                <li>Thus eulogised by Dharma, the great lord, self-born Siva came there immediately in order to protect Dharma.</li>
+                <li>Stationed in the ether, Siva saw me, Brahman, Daksa and others in such a mental state and so laughed mockingly.</li>
+                <li>0 best of sages, in the midst of his intermittent laughter making all blush with shame, the full-emblemed deity spoke these consoling words.</li>
+                <br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large">Lord Shiva said:  </span>
+                <li>Alas ! 0 Brahma, how is it that you were overwhelmed with lustful feelings on seeing your own daughter? This is highly improper for those who walk on the line of the Vedas.</li>
+                <li>Sister, brother's wife and daughter are like one's mother. A sensible man shall never look at them with a reprehensible vision.</li>
+                <li>The conclusion of the path of the Vedas is present in your mouth. 0 Brahma, how is it that you forgot that under the influence of momentary passion?</li>
+                <li>0, four-faced deity Brahma, your mind shall always remain alert in fortitude. How did you undo it for the sake of dalliance in love ?</li>
+                <li>How is it that your mental sons, Marici and others who practise yoga in isolation and see the inner light for ever have become enamoured of woman?</li>
+                <li>This Kama is a fool, deficient in sense and ignorant of proper occasion. How is it that he has begun to torment them with excessive power? .</li>
+                <li>Fie upon the learning of that person whose wife draws his mind inordinately from steadiness and courage and immerses it in fickle revelries.</li>
+                <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                <li>On hearing these words of Siva, I, the lord of the world, perspired profusely in an instant, on account of shame..</li>
+                <li>Although the desire to seize Sandhya of wishful features still lingered, 0 sage, I curbed the upset senses, fearing him (Siva)..</li>
+                <li>0 excellent brahmin, from the drops of sweat that fell from my body rose the manes who did not perform the sacrifices while they were living on earth, who shone like split collyrium, had eyes resembling the full-bown lotus, were meritorious ascetics and were av:erse to worldly activities. .</li>
+                <li>These were sixty-four thousand in number, 0 sage,and the manes called Bahrisads lit. seated on grass, were eighty-six thousand.</li>
+                <li>From the drops of sweat that fell from body, a splendid woman endowed with good qualities was born.</li>
+                <li>She was of slender body with symmetrical hips. Her waist was well-shaped; small curly hairs embellished it. She was soft in body with fine teeth. She had a shining golden complexion. In her body, she was perfect. Her face shone like the full moon and full-blown lotus. Her name was Rati. She was capable of captivating even the sages.</li>
+                <li>Excepting Kratu, Pulastya and Angiras, the six viz. Marici and others successfully curbed their senses and their activities.</li>
+                <li>0 excellent sage, the semen virile of the four-Kratu and others-fell on the ground from which other types of manes were born.</li>
+                <li>They were Somapas, .Ajyapas, Kalins and Havismantas They are all termed Kavyavahas also. They are their sons.</li>
+                <li>The Somapas are the sons of Kratu, Kalins of Ajyapas of Pulastya and of Arigiras. </li>
+                <li>0 excellent brahmin, when the manes and others were born, they were assigned the task of Kavya- vahas (taking the oblations and offering) among the manes.</li>
+                <li>Sandhya who thus became the mother of the Pitrs served the same purpose as theirs. Since she has been glanced at kindly by Siva she became free from defects and devoted herself to virtuous rites.</li>
+                <li>In the meantime after blessing all the brahmins and protecting virtue duly Siva vanished suddenly.</li>
+                <li>I, the grandfather of the world, snubbed and put to shame by Siva's words, turned my anger against Kama with a frowning face and knit eyebrows.</li>
+                <li>0 sage, seeing my face ·and realising my hint, Kama withdrew his arrows. He was so terribly afraid of Siva.</li>
+                <li>0 sage, then I, the lotus-born, became very futious like the strong blazing fire· seeking to consume··every·· thing.</li>
+                <li>I, Brahma, then said :- "After playing this same trick on Siva, Kama will be consumed -in the fire of Siva's eye and freed of his arrogance." 0 excellent brahmin, it was in the presence of the manes and the sages of perfect control that I spoke to Kama in this way.</li>
+                <li>On hearing this curse of terrible nature, Rati's husband was frightened. He abandoned his arrows and became visible.</li>
+                <li>0 sage, he spoke to me (i.e. Brahma) and my sons and others even as the Pitrs and Sandhya stood there listening. By this time his arrogance had disappeared.</li>
+                <li>Kama said : - " 0 Brahma, why have I been so terribly cursed by you? 0 lord of worlds, I have not committed any sin against you who are reputed to follow justi- ciable path.</li>
+                <li>0 Brahma, you have assigned me my task. I have only carried it out. Hence this curse is not proper. I have not done anything else.</li>
+                <li>You had said :-"All of us, I, and Siva are targets of your arrows." I only tested your statement.</li>
+                <li>I am not guilty in this respect. 0 Brahma I being innocent, this conditional curse, 0 lord of universe, is very terrible. /</li>
+                <li>On hearing his words, I, Brahma, the lord of the universe, replied to Madana who had controlled himself, trying to suppress him further.</li>
+                <li>I cursed you because you have aimed at us-this Sandhya who is my daughter and me her father.</li>
+                <li>But now I am free from anger. In this state I tell you 0 KamaJ do not be under any suspicion. Listen. Cast off your fear. Be happy.</li>
+                <li>0 Kama,. he will reduce you to ashes in the fire of his eye. But he will give you another ·similar body. after-· wards.</li>
+                <li>When Siva takes to a wife He Himself will get you another body.</li>
+                <li>After speaking thus to Kama, I the grandfather of the world, vanished from there even as the sages, my mental sons, were watching.</li>
+                <li>On hearing these words of mine, Kama and the mental sons of mine became happy and returned quickly to their abodes.</li>
+                </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+               notes: [`236. Five flowers that are the missiles of love-God Kama are stated to be 
+                <ul><li>arabinda (a white lotus)</li><li>asoka (Jonesia Asoka)</li><li>amra (mango- oat)</li><li> navamallika (Jasmine) and</li><li>nilotpala (a blue lotus).</ul>`]
+            }
+        ]
+    } , 
+
+    {
+    /*
+<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span> 
+<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span> 
+<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+
+ <em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span> 
+ <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span> 
+<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span> 
+<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span> 
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span>  
+<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> 
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span> 
+<br/><em><span style="font-weight:900;color:#F30400;font-size:larger">Dharma said:  </span> 
+                                
+<em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+ <noteref2_note1footer>(2) - (17)</note> 
+</li> 
+ <li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '4',
+        title: `SATI-KHAND, Kama's Marriage`,
+        headerStyle: { 'color': '#f50000','font-weight': '1900', 'background-color': '#ff9933', 'text-shadow':'2px 1px brown','opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/rudraSamhita/sati_khand2.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: `<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span>  
+                <ol><li>0 lord Brahma, 0 disciple of great intellect, 0 creator of the world, you have narrated a wonderful story consisting of the 'nectar of Siva's divine sports.</li>
+                <li>0 dear one, what happened thereafter, please tell me now. I am all attention to a narrative based on Siva's life.</li>
+                <li><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                When Siva had gone back to His place and I, Brahma had vanished from the scene, remembered my words and spoke to Kama. </li>
+                <em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+                <li>.''0 Kama, this girl is born of my body. She is endowed with beauty and good qualities. She fits you admi- rably. Take her as your wife.</li>
+                <li> This powerful girl shall ever be under your righteous control and shall be your constant companion as long as you wish."</li>
+                <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                <li> Saying so, he presented to him the girl born of his sweat after naming her Rati.</li>
+                <li>0 Narada, after marrying the beautiful daughter of Dalqa who could enchant even sages, Kama rejoiced
+                much.</li>
+                <li>On seeing his auspicious wife, Rati, Kama was pierced by · his own arrows a:nd was by the pleasure of dalliance.</li>
+                <li>His wife of fair complexion, tremulous side-glances' and fawn-eyes, admirably suited to his love of pleasure offered him ample sports.</li>
+                <li>On seeing her eyebrows the doubt arose in the mind of Kama. -"These two have been fitted to her to excel my bow, by Brahma who wants to undo it)''</li>
+                <li>0 best of Brahmins, On seeing her rapid-rovi11g glances he did not retain his faith in his arrows in the matter of swift action.</li>
+                <li>Inhaling the naturally sweet fragrance of her steady breath Kama his faith in the Malaya breeze.</li>
+                <li>Seeing her face resembling the full moon with all characteristic marks, Kama was unable to find any difference between her face and the moon.</li>
+                <li>Her pair of breasts resembled the buds of golden lotus with nipples shining like bees hovering round them.</li>
+                <li>Certainly Kama had set aside and forgotten. the string of his flowery bow with tumultuous buzzing hums of bees 
+                because his eyes were riveted to the auspicious ;necklace with eyelets of peacock's tail suspended over her firm .protrud- ing plump breasts down to her umbilical part.</li>
+                <li>His covering the skin with their glances around her deep navel shone like red plums.</li>
+                <li>That lovely woman of slender waist with a natural golden complexion appeared like a golden platform to Kama</li>
+                <li>Kama looked at her thighs lovely like the stump of a plantain as though they were his javelin.</li>
+                <li>The heels, the tips and the sides of her feet W¢fe reddish in tinge. With them she looked as the comrade of the Cupid.</li>
+                <li>Her red hands with nails like Ki:rhsuka flowers and with well-rounded tapering fingers were very beautiful.</li>
+                <li>Her arms were fine like the lotus-stalk. They were glossy and soft. They resembled corals putting forth beams of splendour.</li>
+                <li>Her glossy hair resembled the ·blue cloud and the fluffy tail of the Camari dear. Thus shone the wife of Kama.</li>
+                <li>Just as Lord Siva accepted Ganga oozing from the snowy mountain, Kama married her. She carried a discus and a lotus in her hand. She had arms fine as the lotusMstalk. She had wavelets of her eyebows. Her side- glances rose up and down like gentle tides. She had eyes resembling a blue lotus. The curly locks of hair on her body were like the mossy growth in the river. She shone with her mind expanded like the tree. Her deep navel resembled the deep eddy. Thus shone Rati with her beautiful body. In
+                fact she appeared to be the abode of beauty itself like Ramaa ( Goddess Laxmi).</li>
+                <li>She had twelve varieties of ornaments. She was an expert in the sixteen types of amorous gestures. She was capable of charming the whole world. She illuminated all the ten quarters.</li>
+                <li>Seeing Rati like this, Kama eagerly accepted her just as Visnu accepted Laxmi who approached him with love.</li>
+                <li>In his height of joy, the deluded Kama forgot the terrible curse of Brahma and so he had no occasion to mention about it to Daksa</li>
+                <li>Great festivities heightening the pleasure of every- one ensued, 0 dear one. My son was more delighted than everyone else. He rejoiced.</li>
+                <li>Having reached the acme of happiness Kama thought all miseries were at an end. Dak$a's daughter Rati was highly delighted on getting Kama as 'her husband. The
+                sweet-voiced Kama rejoiced with her like the cloud at sunset mingled with sparkling lightning. Thus Kama took Rati  to his chest in his happy delusion like the Yogin his :\ knowledge. Having secured a fine husband, Rati with face
+                shining like the full moon shone like Laxmi having secured Hari.</li>
+                </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+               notes: []
+            }
+        ]
+    } , 
+
+    {
+    /*
+<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span> 
+<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span> 
+<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+
+ <em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span> 
+ <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span> 
+<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span> 
+<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span> 
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span>  
+<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> 
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span> 
+<br/><em><span style="font-weight:900;color:#F30400;font-size:larger">Dharma said:  </span> 
+                                
+<em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+ <noteref2_note1footer>(2) - (17)</note> 
+</li> 
+ <li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '5',
+        title: `SATI-KHAND, The Story of Sandhya`,
+        headerStyle: { 'color': '#f50000','font-weight': '1900', 'background-color': '#ff9933', 'text-shadow':'2px 1px brown','opacity':'0.9'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/rudraSamhita/sati_khand_5.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: `<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
+                <ol><li>On hearing these words of Brahma, the excellent sage remembered Siva with a delighted heart and spoke joy- fully.</li>
+                <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span>  
+                <li>0 Brahma, the fortunate disciple of Vig1u, 0 intelligent one, you have narrated the wonderful divine sports of the moon-crested lord.</li>
+                <li>After Kama had married and gone to his residence when all of you, i.e. you the creator, and the mental sons, had all gone to your respective abodes, where did Sandhya, the daughter of Brahma and the mother of the Pitrs go ?</li>
+                <li>What did she do ? Who married her? Please tell me all about it and particularly the account related to Sandhya.</li>
+                <em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> 
+                <li>On hearing these words of his intelligent son, Brahma,
+                who knew the real situation, remembered Siva and said:-</li>
+                <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                <li>0 sage, listen to the ausp1c1ous story of Sandhya, · on hearing which ladies do always become chaste.</li>
+                <li>That Sandhya was my daughter mentally created .by me formerly. She performed a penance, cast off her body and was reborn as Arundhati.</li>
+                <li>0. She was born as the intelligent daughter of the excellent sage Medhatithi, performed sacred rites at the bid- ding of Brahma, and Siva and chose as ·her husband the noble-souled of praiseworthy rites. She of auspi- cious countenance became the foremost of chaste ladies and deserved honour and respect from everyone.</li>
+                <em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+                <li>How did she perform penance? Why and where ? How did she cast off her body and become the daughter of Medhatithi ?</li>
+                <li>What did the deities Brahma, and Siva command her to do ? and how did ·she choose the noble- souled of praiseworthy rites as her husband ?</li>
+                <li>I am eager to hear all these things. 0 Grand FatherJ tell me in detail the story of Sandhya precisely.</li>
+                <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                <li>Formerly on seeing Sandhya, my daughter, I cherished a love for her, which, being afraid of Siva, I forsook.</li>
+                <li>Sandhya's mind too was shaken on being stirred by. Kama's arrows. The same had happened with the mind of the noble-souled sages who had so far curbed their minds.
+                </li>
+                <li>She had heard the words of Siva to me couched in mocking terms. She had realised that her mental aberration in regard to the sages was beyond decency. She had seen the attitude of Kama culminating in the delusion of the sages, frequently. Hence Sandhya was excessively distressed with respect to her marriage.
+                </li>
+                <li>0 sage, then I cursed Kama. Siva left the place and I too disappeared. Thus her support was lost. So, 0 excellent sage, Sandhya became furious. Then, my daughter considered all these things and meditated.
+                </li>
+                <li> Meditating on the recent events, she of great fortitude mused what befitted the situation.
+                </li>
+                <span style="font-weight:900;color:turquoise;font-size:larger;background:blue;"> Sandhya said:  </span>
+                <li>Seeing me as a lady in the prime of my youth even at my nativity, my father, prompted by Kama, cherished a lustful desire for me.</li>
+                <li>The minds of the sages, the mental sons, reputed to be pure in mind, on seeing me became lustful breaking the conventions.</li>
+                <li>My mind too was excessively stirred up by the wicked Kama, as a result of which; on seeing those sages it too became excessively shaken.
+                </li>
+                <li> Of. course Kama reaped the fruits of his sinful misdeeds, for Brahma became angry and cursed him in the presence of Siva.</li>
+                <li>I too shall have to reap the fruits of my $in. I have commi,tted a great sin. I wish to have a means for making amends.</li>
+                <li> Directly perceiving that I too had lustful feelings, the brothers and my father had a similar desire. Hence I am the worst sinner.</li>
+                <li>I too had the unconventional lustful feelings on seeing them, towards my own father and brothers as towards a husband.</li>
+                <li>I shall perform expiatory rites myself for my sin. Foilowing the Vedic injunctions I shall consign myself to the fire.</li>
+                <li>But I shall set up the new limits in the world. No person shall be so lustful at the time of birth.</li>
+                <li>For this purpose I ·shall perform a severe penance. Then I shall establish the new limits and afterwards I shall abandon this life.</li>
+                <li> No purpose will be served with this body for which love was cherished by my father and brothers.</li>
+                <li>This body cannot be the means for achieving merit, for, it was through this body that lustful feelings were generated in my father and brothers.</li>
+                <li>Thinking thus in her mind, Sand.hya went to the mountain Candrabhaga from which the river Candrabhaga<noteref1_note1footer>(1) - (237)</note> flows.</li>
+                <li>On coming to know that she had gone to the mountain, I, Brahma, told my_son the omniscient, of purified mind due to penance, who had acquired spiritual knowledge who was seated near me and who had mastered the Vedas and the Vedangas.
+                </li>
+                <li>" 0 son approach Sandhya, my daughter of great fortitude. She is desirous of performing a penance. Initiate her duly in the procedure of that.</li>
+                <li>0 great sage, formerly seeing you all and me as her lovers and realising her own lustful feelings she had blushed.</li>
+                <li>Though not expressed and though not personified, your action then is considered by her as her first death. Now she wishes to put an end to her life.</li>
+                <li>Among those who observe limits and conventions she wants to lay down a limitation. The chaste lady has gone to the mountain Candrabhaga for performing the penance.</li>
+                <li>She does not know the procedure of performing a penance. 0 dear, see that she realises her desire by means of your instructions.</li>
+                <li>0 sage, abandon this form of yours. Disguise yourself and approach her to demonstrate the mode of penance.</li>
+                <li>You shall assume another form lest she should be embarrassed as before on seeing your natural form and features".</li>
+                <li>0 Narada, was thus ordered by me out of pity. The sage too told me "so be it, and approached Sandhya.</li>
+                <li>Vasishta saw the celestial lake full of GaiJas and resembling the Manasa lake. He·saw Sandhya too on its bank.</li>
+                <li>With her seated on its bank, the lake, full of splendid lotuses, appeared like the sky in the dusk with the moon rising and the stars twinkling.</li>
+                <li>On seeing her there full of noble feelings, the sage eagerly looked at the lake called Brhallohita<noteref2_note1footer>(2) - (238)</note>.</li>
+                <li>From the ridges of that big mountain which appeared like a big fort wall, the river Candrabhaga rose and flowed towards the Southern sea. The sage saw that too.</li>
+                <li>That river breaks the western wing of the mountain Candrabhaga even as Ganga of the mountain Himalaya and flows towards the sea.</li>
+                <li>Seeing Sandhya on the bank of the lake Brhallohita on that mountain Candrabhaga, asked her respectfully.
+                </li>
+                <em><span style="font-weight:900;color:#334443;font-size:larger">Vashista Said:  </span> 
+                <li>"0 good lady, why have you come to this mountain devoid of men ? Whose daughter are you ? What is it that you intend to do?</li>
+                <li>I wish to know this if it is not a secret. How is it that your face resembling the full moon is expressionless and inactive?"</li>
+                <li>On hearing words of the noble-souled Vashista and seeing him blazing like fire, shining like Brahmacarya (Celibacy) personified, Sandhya bowed to the sage wearing matted hair and spoke to him
+                respectfully.</li>
+                <span style="font-weight:900;color:turquoise;font-size:larger;background:blue;"> Sandhya said:  </span>
+                
+                <li>"0 fearless (sage), know that the purpose for which I came to this mountain has already been achieved or rather will be achieved by your very sight.</li>
+                <li>0 sage, I came to this mountain devoid of men to perform penance. I am the daughter of Brahma and am known as Sandhya.</li>
+                <li>If it be proper and not inconvenient for you please instruct me. This is what I expect of you. There is nothing to be kept secret in this.</li>
+                <li>Without knowing the procedure of penance I have come to this penance grove. Due to this worry I am
+                perplexed and my heart trembles''.</li>
+                <li>On hearing her words, the most excellent
+                among the knowers of Brahman, well-versed in every rite did not ask anything further.</li>
+                <li>After remembering Siva favourably disposed to the devotees he addressed the lady who had controlled herself and was preparing for the penance</li>
+                <em><span style="font-weight:900;color:#334443;font-size:larger">Vashista Said:  </span> 
+                <li>He who is the supreme brilliance, He who is the greatest austerity, He who is the worthiest of worship-let that Siva be meditated upon. .</li>
+                <li>Worship Him who is the most excellent of all Beings, the sole first cause of all the worlds and the principal cause of virtue, wealth, love and salvation.</li>
+                <li>0 lady, worship lord Siva, the lord of all Devas with the following mantra. By that, certainly you will achieve everything.</li>
+                <li> "Om Nama}:! Samkadiya Om" "0rh obeisance to Siva Om.'' With this mantra the penance is pervaded. The whole penance begins with silence. I shall explain it. Listen.</li>
+                <li>The ceremonial bath shall be taken silently. The worship of Siva shall be performed silently. The food taken in shall solely consist of water in the first and second  Sastakalas (a period of the day=4 hrs.)</li>
+                <li>On the third you shall observe complete fast [without even takjng water]. This shall continue till the. conclusion of the penance. The rites shall be performed at the end of each   Sastakalas</li>
+                <li>This is called the penance of silence. It yields all the benefits of celibate life. 0 lady, it confers all cherish- ed desires. True,· it is certainly true.</li>
+                <li>Thinking thus in your mind, 0 lady, you meditate on Siva. If He is pleased He will confer on you all you wish, ere long.</li>
+                <li>then sat and explained to Sandhya the rites of the penance. The sage then vanished from the scene.</li></ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+               notes: [`237. Candrabhaga, modern Cenab. It is called Asikni cblack in the Akesines by Arrian and Sax:dabaga Ptolemy. It rises from the foot of the Himalayas and flows _m tw_o :_ Candra from a large snow-bed to the South-East of Bara Lacha; Bhaga from the north- west slope of the pass and both join at Tandi and the joint stream is known as Candrabhaga.`
+            ,`238. The lake Lohita lies at the foot of the mountain Lohita- Hemasp1ga or situated on the north of the Hemakiita (Kailasa) range. It is the source-lake of the Lauhitya identified with the modern river Brahmaputra.`]
+            }
+        ]
+    } ,{
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+<em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '6',
+title: 'SATI-KHAND,THE HYMN SUNG BY SANDHYA. SANDHYA AQUIRES THE BOON FROM SHIVA. ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.5', 'border': '2px brown outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand3.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+    { 
+         subTitle: '',
+         content: `<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+         <ol><li>0 best of my sons, 0 intellig,ent one, listen to th·e description of'the great penance of Sandhya on hearing which sins are quelled instantly.</li>
+         <li>When Vashista went back to his abode after instruct· ing her in the rites of penance, Sandhya was greatly pleased on learning the procedure of penance.</li>
+         <li>On the bank of the lake Brhallohita she began to perform penance after she had put on the dress of a of blissful mind.</li>
+         <li>She worshipped Siva with the mantra taught by as the adjunct of penance in the manner explained by him.</li>
+         <li>A period offour Yugas elapsed during which she continued her great penance with mind fixed and duly concen- trated on Siva.</li>
+         <li>Propitiated by her penance Siva was greatly delight· ed. He revealed Himself to her within and without as well as in the heaven.</li>
+         <li>Siva became visible to her in the form in which she was meditating upon him.</li>
+         <li>She rejoiced much on seeing in front of her, the lord Siva with face beaming with delight, in the same form as she was meditating on. '</li>
+         <li>"What shall I say ? How shall I eulogise?" In this agitation she closed her eyes with fear. </li>
+         <li>As she remained with eyes shut, Siva entered her heart and blessed her with divine wisdom, divine speech and divine eyes.</li>
+         <li>She thus acquired divine wisdom, divine eyes and divine speech. Directly perec1v1ng the lord of Durga she eulogised the lord of the worlds.</li>
+         <span style="font-weight:900;color:turquoise;font-size:larger;background:blue;"> Sandhya said:  </span>
+         <li> That which has no specific form, that which can be known through perfect knowledge; that which is neither gross, nor subtle, nor high; that which is to be meditated upon by Yogins within themselves-obeisance be to Thee who
+         art of this sort and the creator of the worlds.</li>
+         <li>I bow to Thee, lord Siva, whose form is like a road to heaven, beyond the path of darkness, and who art calm, pure, changeless incomprehensible through worldly knowledge, self-illuminated and unaltered.
+         Obeisance to Thee whose form is solitary, pure, luminous, free from illusion, knowledge-cum-bliss, naturally
+         undecaying, eternal bliss, delighted at the outcome of truth and prosperity and productive of glory.</li>
+         <li>Obeisance to Thee whose form can be imagined in the nature of Vidya (Perfect Knowledge), which is different from insentient things, Sattvika in will, that which should be meditated on as the form of Atman, which is the utmost essence and which is the holiest of all sanctifying objects.</li>
+         <li>Obeisance to Thee, the Yogin whose Sagul_la form is pure, lovely, bedecked in jewels, as white and clean as camphor and which holds in its hand the desired boon, fearlessness, the trident and the scalp.</li>
+         <li>Obeisance to Thee whose forms are the sky, the earth, the quarters, the waters, the fire and the Eternal time.</li>
+         <li>Obeisance, obeisance to Siva of unmanifest form from whom unmanifest primordial nature and issued forth as its effect.</li>
+         <li>Obeisance, obeisance to Thee who createst this universe tn the form of Brahma, who sustainest it in the form of Vigm and who destroyest it in the form of Rudra.</li>
+         <li>Obeisance, obeisance to the sause of causes, to the bestower of divine nectar, wisdom and prosperity; to the best- ower of the prosperity of all other worlds, and the luminous greatest of the great.</li>
+         <li>Obeisance to Thee, Siva, beyond whose region no other world exists; from whose umbilical region arose the earth, the quarters, the sun, the moon, the cupid, the devas and the ether.</li>
+         <li>Thou art, the greatest. supreme soul. Thou art Siva, the various lores, the pure Brahman, the supreme Brahman and the utmost object of deliberation.</li>
+         <li>How can I adequately eulogise lord Siva who is inexpressible by words, is incomprehensible to the mind, is the cause of the world and has no beginning, no middle, no· end.</li>
+         <li>How can he be described by me, whose forms even Brahma and other Gods or sages of great austerity cannot
+        describe.</li>
+        <li>0 lord, Thou art attributeless. How can Thy attributes be known to me, a mere woman? Even the Gods including Indra and Asuras do not know it.</li>
+        <li>Obeisance to Thee, 0 Lord Siva, obeisance to Thee, 0 personification of penance; 0 Siva, lord of the Gods, be pleased, obeisance be to Thee again and again.</li>
+        <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+        <li>Being thus eulogised and having heard her words Siva favourably disposed to the devotees became highly pleased.</li>
+        <li>Her body originally clad in barks of trees and
+        deer-hide had by this time been completely covered by clusters of rnatted hair hanging down from the head and, her face appeared like a lotus threatened by frost. On seeing her Siva melted with pity and said to her.
+        </li>
+        <em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>
+        <li>0 gentle lady, I am delighted by your penance and this eulogy. 0 auspiciously intelligent woman, you can choose your boon.</li>
+        <li>Whatever boon seems to be useful to you and is desired by you I shall grant it to you. I am delighted by your rites.''</li>
+        <li><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+        On hearing these words of Siva who was delighted, Sandhya was highly pleased and she said after repeated obeisance.</li>
+        <span style="font-weight:900;color:turquoise;font-size:larger;background:blue;"> Sandhya said:  </span>
+         <li>0 Lord Siva, if I am to be favoured with the boon, if I am considered worthy of receiving a boon, if I am purified of that sin, if the lord is delighted with my penance,
+         let the first boon chosen by me be granted.</li>
+         <li>Let no living being, 0 lord of the Gods, born in this atmosphere be full of lust at the time of its nativity.</li>
+         <li>This is another boon chosen by me that no other woman shall become so famous in the three worlds as I have become or shall become.No creation of mine shall become lustful or fall anywhere degraded. He who becomes my husband shall be my intimate friend of pure mind.</li>
+         <li>Any person who looks at me with lustful eyes shall lose his manliness and become a eunuch.</li>
+         <li>On hearing the words of that woman who had be.. come freed of sin Siva who is favourably disposed to His devotees and who was delighted at what she had said, spoke as follows. .</li>
+        <li><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>
+        0 lady Sandhya, listen. Your sin has been reduced to ashes. I have abandoned my anger towards you. By this penance you have become pure.</li>
+        <li>0 gentle lady Sandhya, whatever you have asked l grant you entirely. I am delighted by this excellent penance of yours.</li>
+        <li>(In all living beings) the first stage shall be in- fancy, the second childhood, the third youth and the fourth stage shall be old age.</li>
+        <li>When the third stage in life is reached, the living beings shall become lustful. In some cases it shall be at the end of the second stage.</li>
+        <li>This new limitation is imposed by me as a result of your penance. No living being shall be lustful at the time of its-nativity.</li>
+        <li>You will attain such a pure chastity as will not be attained by any other woman in the three worlds.</li>
+        <li>Excepting your husband whoever looks at you with lustful eyes shall immediately become impotent and weak.</li>
+        <li>Your husband shall be one endowed with great fortune, penance and comely features. He shall live for a period ofseven Kalpas along with you.</li>
+        <li>Thus I have granted you all the boons requested by you. I shall tell you another incident that transpired in the previous birth.</li>
+        <li>That you would cast off your body in the fire has been foretold. I shall tell you the means thereo£ You will certainly carry it out.</li>
+        <li>Let that be performed by you at the twelve-year- sacrifice of the sage Medhatithi in the blazing sacrificial fire ere long.
+        In the ridge ·of this mountain, on the banks of this river Candrabhaga, ·M.edhatithi is performing a great penance in his hermitage.</li>
+        <li>You go there unobserved by the sages. Thanks to my favour, you will become his fire-born daughter.</li>
+        <li>If you have chosen in your mind a desirable bride- groom as your husband, you shall think of him while you consign your body into the fire.</li>
+        <li>0 Sandhya, while you were performing severe penance-which had lasted for four yugas-in the earlier part of Treta Yuga, after the Krta Yuga had elapsed,
+had begotten many chaste daughters who were also duly married.</li>
+<li>He gave twenty seven of his daughters to the moon it;t marriage. But the moon had a special liking for only Rohini and he neglected others.</li>
+<li>Hence, the moon was cursed by Dakf?a, the redemption being, when he sees the Ether he would find her there. At that time the Gods had come near you but since you were having your mind fixed in me, the Gods in the company of Brahma were not seen by you. The river Candrabhaga arose being created by Brahma for the re- demption of the moon from the curse. It was then that Medhatithi arrived here.</li>
+<li>There is none equal to him in penance. There has never been such a person, nor will there ever be one. He has now started the sacrifice of of many great rites.
+In that blazing sacrificial fire you shall cast off your body. You are pure now. May your other desires be also fulfilled. '</li>
+<li>0 Hermitess, these things have been ordairied by me for my ·own end. 0 fortunate woman, do as I instruct you. Go to the sacrifice of that sage.
+<p>
+Thus after instructing her for her welfare the lord vanished from the scene.
+</p></li>
+        </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+        notes: []
+     }
+ ]
+} ,{
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '6 (Summary version -->)',
+title: 'SATI-KHAND,SANDHYA BORN AS ARUNDHATI AND MARRIES SAGE VASHISHTHA ',
+headerStyle: { 'color': '#b22222','font-weight': '1900', 'text-shadow': '1px 1px 1px #ff0000','background-color': '#ffa500', 'opacity':'0.8', 'border': '2px brown outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand4.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>When lord Shiva went away. Sandhya got up and went to the place where Medhatithi was performing his yagya. She made a mental resolution to have that brahmin as her husband, who in reality was Vashishtha and then entered into the sacrificial fire. The fire of the yagya burnt her body and carried it ti the solar-system, where it was divided by the sun-god into three parts and established in his chariot. The names of these three parts were Pratah-Sandhya, MadhyanhaSandhya and Sayam-Sandhya. Sandhya‘s vital force was absorbed by lord Shiva. </p>' +
+'<p>When the yagya ended, the sages were surprised to see the presence of a girl, who was radiating like gold in the sacrificial fire. They took out that girl child from that yagya-kunda. The sages then brought up that girl with love and affection. She was named Arundhati.</p><p>When she attained the age of five, Brahma Vishnu and Mahesg arrived and married her with Vashishtha. Arundhati enjoyed a happy life and became famous for her chastity.</p>' +
+'<p>Brahma told Narada that since the day he was humiliated by Shiva, he had grudges against him and wanted to take revenge. "I wanted to subdue the arrogance of Shiva by proving it to him that even he could be binded by attachment. I asked Daksha and sages like Mareech as to how this feat could be achieved. As a result \'Rati\' and \'Kama\' manifested. I instructed Kama to influence Shiva by his powers. Kama agreed but requested me to create a suitably divine women for Shiva. Myself and Daksha became worried and during that time we exhaled fragrant air through our nostrils, which resulted into the creation of spring season. The spring season was looking divinely beautiful in her physical form. I handed over her to Kama and thus all the three of them (spring season, Kama and Rati) went to influence lord Shiva who was in his deep state of meditation. </p>' ,
+notes: []
+}
+]
+}, {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '5',
+title: 'SATI-KHAND,CREATION OF MARGANAS AND KAMA\'S FUTILE ATTEMPTS ',
+headerStyle: { 'color': 'white','font-weight': '1900', 'text-shadow': '3px 3px 2px black','background-color': 'gray', 'opacity':'0.9', 'border': '2px #444444 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand5.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Kama tried his best to bring lord Shiva under his influence. All the living creatures were spell bound by his powers except lord Shiva and Ganesha.</p>' +
+'<p>Kama returned back to Brahma ad told him about his unsuccessful attempts. Brahma sighed heavily. From his sighes were created the ferocious ganas. These ganas were shouting "araymaray"(kill-kill). They even tried to attack lord Brahma, Kama then pacified the anger of these ganas. These ganas were named as Mar.</p>' +
+'<p>Lord Brahma then sent these ganas to Shiva along with Kama and Rati to give it a second try. Once again their attempts went futile. All of them returned to lord Brahma and expressed their inability in influencing Shiva.</p>' +
+'<p>Lord Brahma then remembered Vishnu, who appeared instantaneously. Brahma revealed about his intentions to him. LordVishnu told him that it was foolishness on his part to have enemity towards Shiva. But when lord Brahma kept on insisting, he revealed to him that this could be only achieved by the blessings of Goddess Parvati. Lord Vishnu said-</p>' +
+'<p>"If she becomes pleased with you, then she could help you in achieving your goal by taking birth in a human form and having Shiva as her husband. Instruct Daksha to do penance so that Parvati takes birth in his house." </p>' ,
+notes: []
+}
+]
+} , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '6',
+title: 'SATI-KHAND,DURGA BORN AS DAKSHA\'S DAUGHTER SATI ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'yellow', 'opacity':'0.9', 'border': '2px #ff4444 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand6.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>After Lord Vishnu went away, Lord Brahma started meditating on the form of goddess Durga. She appeared before him. Lord Brahma said-</p>' +
+'<p>"I need your help in binding Shiva with your maya."</p>' +
+'<p>Goddess Durga told Brahma that Lord Shiva in his incarnation of Rudra was beyond the reached of any kind of Maya. But when Brahma kept in insisting then goddess Durga agreed to help him in his effort. She said-</p>' +
+'<p>"I will take birth as the daughter of Daksha Prajapati and try to please him by my penance."</p>' +
+'<p>After assuring Lord Brahma she vanished. Lord Brahma too went to his abode.</p>' +
+'<p>With the permission of lord Brahma, Daksha did penance for three thousand years. As a result goddess Jagdamba appeared before him. She blessed him by saying that she would take birth as his daughter and by her tremendous penance would attain Rudra as her husband. But she warned Daksha that if he showed any kind of disrespect to her, she would end her life. </p>' +
+'<p>With the permission of lord Brahma, Daksha Prajapati created many thing just by his mental resolution. But finding the absence of any kind of evolution and development in them, he went to Brahma to take his advice.</p>' +
+'<p>Brahma instructed him to create by the help of copulation. Daksha Prajapati then married Asikti - the daughter of Panchajan. Ten thousand sons, including Haryasya were born to them, but all of them were directed by Narada to follow the path of salvation.</p>' +
+'<p>After that, Daksha married Panchajani from whom were born thousand of son, but all of them followed the path of salvation and were not interested in creation. Narada was instructed in changing their mind.</p>' +
+'<p>Daksha Prajapati became very furious with Narada and cursed him to become an eternal wandered. He said-"You will never remain at a place for long."</p>' +
+'<p>When lord Brahma came to know about Daksha Prajapati\'s anger towards Narada he went to him and cooled him down. Subsequently sixty daughters were born to Daksha. He married his ten daughters with Dharma, thirteen daughters with Kasyap. Twenty seven daughters with Moon, two daughters with Bhutangiras, two daughters with Krishashva and the remaining six daughters with Garuda. Daksha mediated on the form of Bhagawati, and was instructed by her to do penance. Daksha did a tremendous penance and thus was born Uma to Daksha and Virani. Uma was brought up with great love and affection. Uma used to worship lord Shiva by singing devotional songs in his praise.  </p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '7',
+title: 'SATI-KHAND,SATI DOES PENANCE—SHIVA MARRIES SATI ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.9', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand7.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>When Sati attained marriageable age, Daksha started worrying. Sati understood the reason behind her father\'s worries. She went to her Mother Virani and expressed her desire of marrying lord Shiva.</p>' +
+'<p>Her mother made all the arrangements so that Sati could worship Shiva without any problem. Sati commenced her austerity named Nandavrata which continued for a year. Being impressed by her austerities, all the deities descended down from heaven to see her.</p>' +
+'<p>All the deities and the sages requested lord Shiva to get married, but Shiva did not want to curtail his freedom by getting married. When the deities insisted he told them to find a suitable match for him.</p>' +
+'<p>Brahma and Vishnu told Shiva about the tremendous penance Uma was doing to him (Shiva) as her husband. They also requested him have to go to her (Uma) and fulfill her desire. Lord Shiva agreed</p>' +
+'<p>After Uma had accomplished her penance named Nandavrat, lord Shiva appeared before her and asked her to demand anything. Uma because of her shyness could not say anything. Lord Shiva knew about her desire so he said- "You will have me as your husband."</p>' +
+'<p>Uma\'s face beamed with joy, but she shyly requested lord Shiva to keep this proposal before Daksha. Shiva agreed and said- \'Tathastu\'. He then went back to his abode- Kailash.</p>' +
+'<p>Sati narrated the whole story to her parents. Both of them became very happy with this news. Lord Shiva then instructed Brahma to put a formal proposal to Daksha regarding his marriage with Sati. Lord Brahma went and informed Daksha about lord Shiva\'s proposal. Daksha was very happy at the proposal. Brahma then came back to lord Shiva. </p>' +
+'<p>Lord Shiva was anxiously waiting for his arrival. When Lord Brahma arrived he curiously asked about Daksha\'s response. When lord Brahma told him about Daksha\'s approval of the marriage. Shiva was very pleased at this.Lord Shiva proceeded towards Daksha\'s abode on the auspicious moment of Phalgun, Krishnapaksha and on the thirteenth day of Phalguni Nakshatra. Sitting on the back of Nandi and accompanied by all the deities including lord Brahma, Vishnu he reached Daksha\'s residence. The marriage-procession was received by Daksha with great respect. Shiva narrated Sati in an auspicious lagna. Being pleased, all the deities eulogised Shiva and danced in joy. </p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '8',
+title: 'SATI-KHAND,LORD BRAHMA FACES THE WRATH OF SHIVA LORD BRAHMA FACES THE WRATH OF SHIVA ',
+headerStyle: { 'color': 'orange','font-weight': '1900', 'background-color': 'white', 'opacity':'0.9', 'border': '2px #ffeea0 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand7.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Daksha presented invaluable things to his daughter- Sati as dowry. Similarly the brahmins were presented with large quantities of wealth.</p>' +
+'<p>Lord Brahma was enchanted by the divine beauty of Sati. With a desire to see her face, he put logs of wood which were wet, into the yagni kunda and poured ghee on them. As a result the atmosphere was filled up with smoke. Now Brahma removed the piece of cloth which covered her face. He became infatuated by her beauty. When lord Shiva discovered about his evil intentions he ran towards him menacingly. Lord Shiva wanted to kill him, but the deities prayed to spare his life. Lord Vishnu eulogised and worshipped him and only then his anger was subdued. Thus lord Brahma was forgiven by Shiva.</p>' +
+'<p>Though lord Shiva had forgiven Brahma, yet he instructed him to apologize by bowing down his head. Brahma did as he was instructed Lord Shiva then established on his head. Brahma became ashamed and asked as to how could he atone for his sins. Lord Shiva instructed Brahma that by worshipping him he could appropriately atone for his sins. He than instructed Brahma to go to the earth where he would be worshipped as \'Rudra Shir\'. Shiv said-</p>' +
+'<p>"Your worship would help the brahmin in accomplishing every kinds of work. Taking lessons from you people would not dare to have extramarital affairs. </p>' +
+'<p>After reaching Kailash mountain, lord Shiva instructed all his ganas (attendants), not to disturb them (Shiva and Shakti). When all the ganas went away Shiva and Shakti enjoyed a blissful union for twenty five Deva-years.</p>' +
+'<p>When the rainy season arrived, Shakti requested Shiva to make a residence in such a place to that they could not be disturbed by rain etc. Lord Shiva smiled and said-</p>' +
+'<p>"Dear Sati! The clouds and rain will not dare to disturb if you are present by my side, no matter whereever we live - even if we live on the peaks of Himalayas.</p>' +
+'<p>Sati requested him to make Himalaya as his abode. Lord Shiva agreed and both if them shifted to their new abode at Himalaya, where they lived for ten thousand \'Deva-years\'. </p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '9',
+title: 'SATI-KHAND,IMPORTANCE OF DEVOTION IN KALI  YUGA ',
+headerStyle: { 'color': 'black','font-weight': '1900', 'background-color': 'silver', 'opacity':'0.9', 'border': '3px #004466 inset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand7.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Sati requested lord Shiva to enlighten her mind by giving discourses. Shiva revealed to her the importance of devotion in the Kali  Yuga. He said that the value of knowledge (jnana) and asceticism (vairagya) would diminish to the extent of extinction in the era of Kali and only devotion would help a man in attaining liberation. Lord Shiva said-</p>' +
+'<p>"I had burnt the time (Kala) for the benefit of the devotees, with my third eye. For the sake of my devotees, I even abandoned Ravana without any partiality. For the welfare of my devotees, I even instructed Nandi to punish sages Vyasa, who was exiled out of Kashi."</p>' +
+'<p>Shiva preached on many topics like types of devotion, yantra, mantra, scriptures etc. </p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '10',
+title: 'SATI-KHAND,SATI\'S DOUBT ABOUT SRI RAMA ',
+headerStyle: { 'color': '#ffee00','font-weight': '1900', 'background-color': '#778800', 'opacity':'1.0', 'border': '2px #ffff00 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand7.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Devarshi Narada who was listening to the divine tales of Shiva, narrated by lord Brahma with rapt attention, requested him to describe about other characteristics of Shiva. Brahma said- </p>' +
+'<p>"Once, lord Shiva accompanies by Sati, arrived at Dandak aranya, where Sri Rama was wandering in search of Sita, who had been abducted by Ravana. After walking for some time Lord Shiva saw Sri Rama and Lakshman. Lord Shiva made salutations to Sri Rama. Sati was surprised at Shiva\'s behaviours. She asked lord Shiva about the reason he made salutations to Sri Rama. Shiva told Sati that he (Sri Rama) was his deity and an incarnation of lord Vishnu. But Sati was not satisfied by this reply. She wanted to test, whether Sri Rama was really an incarnation of lord Vishnu or not. She disguised herself as Sita and went to Sri Rama. But Sri Rama recognised her real identity and addressed her as Mother. Sati was ashamed but asked Sri Rama as to why did Shiva made salutations to her."</p>' +
+'<p>Sri Rama narrated the following story-<br/>' +
+'Once, lord Shiva requested Vishwakarma to construct a grand palace and a magnificent throne for him. When everything was ready, Shiva invited all the deities for the crowning ceremony of lord Vishnu.</p>' +
+'<p>Lord Vishnu was requested to be seated on the throne and was worshipped by all the deities including Shiva himself. He assured lord Vishnu that all of his (Vishnu\'s) incarnations would be shown respected by his (Shiva\'s) devotees. Rama was the incarnation of Vishnu."  </p>' +
+'<p>Sati was now completely satisfied. She was also ashamed of herself that she had doubted Shiva\'s words. She went to lord Shiva.</p>' +
+'<p>Lord Shiva stopped looking at Sati, as her consort, because she had personified herself as mother Sita. This fact was even corroborated by a heavenly voice. Now Sati\'s heart was filled up with sorrows.</p>' +
+'<p>She followed disenchanted Shiva to the Kailash mountain, where he commenced his meditation and went into Samadhi. She sat down without saying a word. When lord Shiva came out from his Samadhi, he saw her stire sitting their. He felt pity on her and drove away her guilt and sorrows, by giving discourses. </p>' ,
+notes: []
+}
+]
+},  {
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '11',
+title: 'SATI-KHAND,DAKSHA\'S ANIMOSITY TOWARDS SHIVA— PERFORMS YAGYA ',
+headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#ffaaee', 'opacity':'0.9', 'border': '2px brown inset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand7.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Once, the sages organised a yagya at Prayaga, which was attended by all the deities. Lord Shiva too had come, accompanies by Sati. He was eulogized and worshipped by all the deities and the sages.</p>' +
+'<p>Daksha arrived there and after making salutations to lord Brahma sat down without showing any kind of respect to Shiva. After that, all the deities and the sages came and made salutations to Daksha, but Shiva sat where he was sitting.</p>' +
+'<p>The ignorant Daksha cursed Shiva that from now onwards his (Shiva\'s) share would not be kept in the yagya.  At this Nandi- the vehicle of Shiva became very angry and cursed Daksha that from today onwards the brahmins would fail to understand the essence of Vedas.</p>' +
+'<p>Lord Shiva then pacified Nandi\'s anger and both of them went back to their abode. Daksha too went back to his place and started having hatred towards Shiva. </p>' +
+'<p>Daksha organised a yagya at \'Kanakhal\' in which everybody except Shiva and Sati were invited. Sage Dadhichi arrived and not finding the seat for Shiva went back, saying that it was impossible to accomplish a yagya without Shiva.Then Daksha commenced the yagya with the assistance of other sages who were present there.  </p>' +
+'<p>When Sati saw all the deities going happily, she became curious to know where they were going. She requested her companion to ask the moon as to where he was going in such a cheerful mood.</p>' +
+'<p>The moon told her companion that they were going to attend the yagya ceremony, being organised by Daksha. Sati was very surprised at this information. She went to lord Shiva and sought his permission to go there. Lord Shiva then told Sati that her father did not invite them because of the animosity he was having towards him (Shiva).</p>' +
+'<p>Sati became very furious and decided to go there to know about the reason why Daksha was performing the yagya without inviting her husband-Shiva. Shiva sent Nandi and other rudraganas as her escorts</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '12',
+title: 'SATI-KHAND, SATI\'S DISHONOR—GIVES UP LIFE ',
+headerStyle: { 'color': 'yellow','font-weight': '1900', 'background-color': 'red', 'opacity':'0.9', 'border': '2px orange outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand12.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>When Sati reached, where Daksha was performing his yagya, she met her mother and sisters. They met her with all the respect and honor. But Daksha did not even caste a glance at her. Imitating him many other people did the same. </p>' +
+'<p>But Sati not bothering about the disrespect shown to her made salutations to both her parents. When she reached near the yagya-mandap she saw that shares of all the deities was there except that of Shiva. She became furious and asked her father as to why was Shiva not invited to the yagya.</p>' +
+'<p>Daksha then made fun of Shiva and cursed him. This made her more angry and she declared that she would give up her life in everybody\'s presence. After the declaration her mind was engrossed by the thoughts of Shiva. </p>' +
+'<p>Sati then sat in padmasan and closed her yes. By her yogic powers she united with Shiva and her lifeless body fell into the yagya-kunda. This incident shocked everybody and the rudraganas furiously picked up their weapons. Right then a heavenly voice was heard.</p>' +
+'<p>"O mean Daksha! Share on you! You are a sinner and a fool. Now you are certain to face the wrath of Shiva. Because of your act, the deities too will have to suffer."</p>' +
+'<p>Daksha became scared. He immediately eulogising lord Vishnu</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '13',
+title: 'SATI-KHAND,VEERBHARDA CUTS OFF DAKSHA\'S HEAD ',
+headerStyle: { 'color': 'blue','font-weight': '1900', 'background-color': 'aliceblue', 'opacity':'0.9', 'border': '2px slateblue outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand13.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>When Nandi informed Shiva about Sati\'s death, he became very furious. He angrily pulled out a lock of hair and dashed it against the mountain, which got divided into two parts. From one part manifested the valiant Veerbharda and from the other part Mahakali.  </p>' +
+'<p>Veerbhadra and Mahakali were instructed by Shiva to destroy the yagya of Daksha and to kill all the people who were present during the time of Sati\'s death, including the deities and the sages.</p>' +
+'<p>After getting the instructions from lord Shiva, Veerbhardra marched with a huge army which included the mighty Shivaganas like Dakini, Bhairav and Kapalish etc. Goddess Kali to joined him with her army which consisted of all her nine incarnations like Katyayani etc. As the army marched on numerous auspicious signs were visible.</p>' +
+'<p>On the other hand Daksha experienced many inauspicious signs. His left eye, left army and left thigh started throbbing. He saw the vultures flying over his head. He heard the sounds of jackals howling.</p>' +
+'<p>Daksha then prayed to lord Vishnu to rescue him from the imminent wrath of lord Shiva. Lord Vishnu preached Daksha and said-"Daksha! Since you have committed the greatest sin by dishonoring Shiva and Sati. Even I can not prevent the calamities which you are certain to face."</p>' +
+'<p>As lord Vishnu was preaching Daksha suddenly there was a loud commotion. The army of Veerbhadra had arrived. Daksha was frightened and again prayed to Vishnu to save his life.</p>' +
+'<p>Lord Vishnu again expressed his helplessness and told him that because of him all the deities too would have to suffer.</p>' +
+'<p>A terrible battle was fought between the armies of Veerbhadra and the deities. The deities got defeated and fled away. They went to lord Vishnu and sought his help. Lord Vishnu decided to fight on the side of the deities.</p>' +
+'<p>The battle recommenced for the second time. Lord Vishnu having a dual fight with Veerbhadra and the deities were fighting against his army.</p>' +
+'<p>Suddenly everybody heard a heavenly voice which said that Veerbhadra was invincible. Hearing this, Lord Vishnu and Brahma went to their respective abodes.</p>' +
+'<p>Daksha ran for his life and hid himself behind the attar where the yagya was being performed. But Veerbhadra pulled him out from there and severed his head. He then threw his head in the agni-kunda. After this he returned back to Kailash accompanies by his army</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '14',
+title: 'SATI-KHAND,KSHUVA–DADHICHI FIGHT AND VISHNU–DADHICHI FIGHT ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.9', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand7.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Narada, who was listening to the divine tales of Shiva with rapt attention, was very curious to know about the reasons why lord Vishnu attended a yagya where Shiva was not invited and why did he fight a battle against Veerbhadra despite knowing about his invincibility.  </p>' +
+'<p>Lord Brahma told him that all this happened due to the curse of Sage Dadhichi-<br/>' +
+'In the ancient times, there used to live a king named Kshuva, who was a great friend of Sage Dadhichi. Due to some reasons both of their developed animosity towards each other. Dadhichi considered himself superior because of being a brahmin, on the other hand Kshuva considered himself superior on account of his wealth. The dispute took a worst turn and Dadhichi punched him on his head. As a result Kshuva felt down unconscious. When he regained his consciousness he struck sage Dadhichi with his weapon named Vajra, which injured Dadhichi.</p>' +
+'<p>Dadhichi sought the help of Shukracharya. Shukracharya healed his wounds by his mantras. He also taught Dadhichi the mahamrityunjay mantra. Dadhichi then did a tremendous penance to please lord Shiva. Lord Shiva appeared before him and blessed him with three boons, they were 1) his bones, would become as hard as lightning (Vajra), 2) he would not be killed, 3) he would never be humiliated.</p>' +
+'<p>Armed with these three boons, Sage Dadhichi again went to fight Kshuva. He kicked him, in return Kshuva too attacked him with his weapon named Vajra, but it did not have any effect on Dadhichi as his bones had become as hard as lighting.</p>' +
+'<p>King Kshuva did a tremendous penance to please lord Vishnu. Vishnu revealed to him that Dadhichi had become immortal because of the blessings of lord Shiva, but assured him that he would certainly help him in defeating Dadhichi.</p>' +
+'<p>Lord Vishnu then visited the hermitage of Sage Dadhichi, disguised as a brahmin. On being asked by Dadhichi about the purpose of his arrival, he said that he had come with a desire of a boon on his heart.</p>' +
+'<p>Sage Dadhichi, by his yogic power came to know about the real identity of a \'Brahmin\'. He told that he had been caught. Lord Vishnu was ashamed.</p>' +
+'<p>Lord Vishnu then went back to Kshuva and instructed him to go to sage Dadhichi and act as if he had accepted his superiority.</p>' +
+'<p>"Kshuva went to sage Dadhichi and did as he was instructed to do, but Dadhichi did not believe his words. Now lord Vishnu became angry and tried to kill him by his sudarshan chakra, but he was not successful, as the chakra, which was given to him by lord Shiva himself, was not willing to harm a devotee of Shiva. "Lord Vishnu then tried to kill Dadhichi by shooting volley of arrows. The deities too attacked with their weapon. Sage Dadhichi threw a handful of Kusha grass, initiated with mantras towards them, which destroyed all the weapons of the deities."</p>' +
+'<p>"In the meantime lord Brahma arrived on the scene accompanies by Kshuva. He told the deities that it was futile to fight with Dadhichi as he was invincible, due to the boon given by lord Shiva."  </p>' +
+'<p>"Ultimately King Kshuva begged his forgiveness for his offence. Dahichi forgave him but cursed Vishnu including all the deities that they would be burnt to ashes by the wrath of Rudra." "This was the reason why all the deities and lord Vishnu attended the yagya, organised by Daksha and got defeated by Veerbhadra."</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '15',
+title: 'SATI-KHAND,DAKSHA REVIVED AND YAGYA COMPLETED ',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/sati_khand15.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>The deities after being defeated by Veerdbharda went to Brahmaloka and narrated everything about the destruction of Daksha\'s yagya and also how his head was severed by Veerbharda.</p>' +
+'<p>Brahma became very sad. To bring Daksha back to life and to accomplish the still unfinished yagya, he went to lord Vishnu to take his help. All the deities accompanied him. Lord Vishnu told them that it was wrong on the part of Daksha to have shown disrespect to Shiva. The deities were wrong to support him. Lord Vishnu then went to Kailash mountain, accompanied by Lord Brahma and all the other deities. All of them eulogized and worshipped Shiva. They also requested him to bring Daksha back to life.</p>' +
+'<p>Lord Shiva became very pleased and agreed to make Daksha alive. All of them went to Kanakhal where Daksha had organised the yagya ceremony. Veerbhadra accompanied them. When they reached the site, Lord Shiva could not hold his laughter after seeing the destruction of the site. Anyway, he joined the head of a goat to the torso of Daksha\'s body and made him alive. He also compensated for all the losses which had been caused by the destruction. All the deities became very pleased and they eulogised Shiva.</p>' +
+'<p>Becoming pleased by the invocation and eulogy of the deities, Lord Shiva preached Daksha in the following way-</p>' +
+'<p>"The person who has the right knowledge (jnani) is the supreme among all human beings. An action which is performed in one\'s ignorance and jealousy does not liberate a man from his world bondages.</p>' +
+'<p>O Daksha then accomplished his yagya singing the praise of lord Shiva. He also give lots of donation to the brahmins. They everybody returned to their respective houses being fully satisfied.</p>' +
+'<p>Sati, the daughter of Daksha was reborn as Gauri, the daughter of Himalaya and Maina. By her tremendous penance she again had lord Shiva as her husband. </p>' ,
+notes: []
+}
+]
+}
+];

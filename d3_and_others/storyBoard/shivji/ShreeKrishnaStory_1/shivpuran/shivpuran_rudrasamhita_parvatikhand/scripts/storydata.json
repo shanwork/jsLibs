@@ -1,0 +1,1045 @@
+var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultPrevButtonStyle = "float:left;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultNextButtonStyle = "float:right;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right:20px;";
+        var leftNavigation = true ;
+var defaultHeaderStyle=
+    {
+        'font-weight': '900',
+        'color':'firebrick',
+         'background-color': 'transparent', 'opacity':'1.5'
+    };
+var defaultDetailStyle = { 
+      'background-color':'lightgoldenrodyellow',
+        'opacity':'0.7',
+        'margin': '10px',
+      'padding':'5px',
+        'color':'black',
+        'font-weight':'900',
+        'border':'2px solid red'};
+var defaultContentStyle =   { 'border':'3px outset orange',
+             'background-image': 'url("images/lord-krishna-786.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'lightgoldenrodyellow'};
+var chapterData = [
+    
+
+    {
+    /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: 'PARVATI KHAND , HIMALAYA MARRIED MAINA ',
+        title: 'PARVATI KHAND , HIMALAYA MARRIED MAINA',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/rudraSamhita/parvati_khand1.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '<p>Narada requests lord Brahma to shed light on the birth of Maina and also too she was married with Himalaya. </p><p>Lord Brahma narrated the following tale-  </p>' +
+                          '<p>"After relinquishing her body, Sati, the daughter of Daksha attained to the abode of Shiva. In her next birth she was born to Maina, the wife of Himalaya and was known as Parvati. Maina had done great service to Sati in her previous life considering as her own daughter. For this reason she was blessed and got Parvati as her daughter. Parvati did tremendous penance and got lord Shiva as her husband." </p>' +
+'<p>Continuing with his story Brahma said-</p>' +
+'<p>"Once Himalaya, the king of the mountains, decided to marry with the desire of expanding his lineage. The deities came to know about his desires and so they went to the Pitras and requested them to give their daughter - Maina, so that Himalaya could marry her. The Pitras agreed at this proposal. Thus Maina got married wih Himalaya. After the marriage ceremony the deities returned back to their respective abodes.  </p>' +
+           '<p>Daksha had sixty daughters, \'Swadha\' was one of them and was married to the Pitras. In due course of time three daughters were born to them - Maina, Dhanya and Kalawati. Once all the three of them went to Swetadweepa to have a darshan of lord Vishnu. Right then, sages like Sanak, Sanadan etc arrived there. Everybody present there stood up in reverence, but Maina, Dhanya and Kalawati could not identify who they were and hence they remained sitting. Not only that, they did not even make any salutations to them. </p>' +
+'<p>The sages became angry and cursed them to be born as humans in their next birth. Maina, Dhanya and Kalawati became very afraid and requested to be pardoned.</p>' +
+'<p>Sages Sanak feeling pity on them told that Maina would become the wife of Himalaya, in her next birth and give birth to Parvati, Similarly Dhanya would be married to king Janaka and Sita would be born to them, similarly Kalawati would be married to Vrishbhan and Radha would be born to them. Sage Sanak also told them, that in this way all three of them would attain to the heaven.</p>' +
+'<p>Brahma told Narada that after getting married with Maina, Himalaya enjoyed a happy married life for a long time.</p>' +
+'<p>Once, lord Vishnu paid a visit to his place, accompanied by all the deities. Himalaya was very pleased by his arrival. After making salutations, he asked for the purpose of their visit. </p>' +
+'<p>The deities revealed to them that very soon the incarnation of Sati - Parvati is going to take birth. </p>' +
+'<p>"Therefore, O Himalaya! Be prepared for that glorious occasion." Said the deities.</p>' +
+'<p>Himalaya was very pleased at this news. The deities started invocating Uma.</p>' +
+'<p>Being pleased by the invocation made by the deities Goddess Uma assured the deities about her arrival in this world. She told that her incarnation would take place in the house of Himalaya and by the virtues of her tremendous penance she would get lord Shiva as her husband. She also told the deities that she was satisfied by the service of Maina, done to her in the previous life. After being assured the deities went back satisfied</p><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
+               notes: []
+            }
+        ]
+    } , {
+    /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '2',
+title: 'PARVATI-KHAND,BIRTH OF PARVATI ',
+headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand2.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Himalaya and Maina commenced their penance with the objective of getting Uma as their daughter. Maina did a tremendous penance which lasted for twenty-seven years. </p>' +
+'<p>Goddess Uma became very pleased by her penance. She appeared before her and asked her to demand anything she wished for. Maina expressed her desire of having one hundred valiant sons and a daughter, who would be worshipped by the people in all the three worlds.</p>' +
+'<p>Goddess Uma blessed her by saying Tathastu. Maina narrated this incident to her husband Himalaya. He became very pleased. In due course of time one hundred sons were born t o Maina. One of the sons was Mainak who possessed supreme qualities. Due to some reasons, Indra had severed the wings of Mainak\'s ninety-nine brothers, but by taking the refuge of ocean Mainak was able to survive the assault of Indra\'s Vajra.</p>' +
+'<p>Himalaya and Maina engaged themselves in the worship of Shiva and Shakti, day and night. After some days Parvati manifested herself by taking birth. After her birth the whole mountaneous region of Himalaya became illuminated by her radiance.</p>' +
+'<p>After taking her birth, Parvati gradually started growing up. Varioua names given to her like Girja, Uma, and Jagdamba. Himalaya and Maina felt proud of their fate, which had made them the parents of an incarnation. Seeing the childhood plays of Uma, their hearts knew no bounds.</p>' +
+'<p>One day sage Narada arrived there Himalaya requested him to study the palm of Parvati, as he was curious to know about her future. After studying the lines of the palm, Narada predicted that Parvati was destined to be the wife of an entity, who would be beyond the reach of all the three qualities. He also revealed to them, that her husband would be devoid of any flaws and would be self born-Rudra.</p>' +
+'<p>Narada told Himalaya that to have Rudra as her husband, Parvati will have to accomplish great austerities and penance. Narada then went away.</p>' +
+'<p>When Uma had attained the marriagable age, Maina requested her husband a suitable bridegroom for her. Himalya told her that the words of Narada would never go in vain hence Uma should be asked to do penance, so that she could have Rudra as her husband.</p>' +
+'<p>But Maina was disinclined in forcing her tender daughter - Parvati in to such hardhsips like penance. Parvati then told Maina about her dream, in which she had seen a brahmin instructing her to do penance in order to have Rudra as her husband.</p>' +
+'<p>Maina told Himalaya about Parvati\'s dream. Himalaya then revealed to Maina about his own dream, in which he had seen lord Shiva doing penance at Kailash mountain. He had tried to give Parvati to him (Shiva) was unwillingly to have her service. But Shiva ultimately changed his mind after being satisfied by Parvati\'s replies.</p>' +
+'<p>Himalaya said- "I saw in my dream that Parvati had pleased Shiva by her tremendous penance and ultimately both of them got married. Maina was satisfied and waited eagerly for that auspicious moment</p>' ,
+notes: []
+}
+]
+}  ,{
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '3',
+title: 'PARVATI-KHAND,THE BIRTH OF \'BHAUM\'- MARS ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.5', 'border': '2px brown outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand3.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Once, when the ganas of Shiva praised the glory of mother Sati, lord Shiva became overjoyed just like an ordinary human being. In his joy, he travelled all around the three world without any clothes on his body. He returned back to Kailash and went into meditation.</p>' +
+'<p>While he was engrossed in his Samadhi, three drops of perspiration originated from his forehead fell down on the earth. From those drops manifested a very beautiful infant, who was of reddish complexion and who had four arms.</p>' +
+'<p>Seeing the child lord Shiva became concerned about his upbringing. Right then, mother earth manifested and lord Shiva entrusted the job of child\'s upbringing. The child was brought up by mother earth with great love and care. The child was named \'Bhaum\' as he was nurtured and brought up by \'Bhumi\' (earth).</p>' +
+'<p>When the child grew up, he went to Kashi and did a tremendous penance to please lord Shiva Lord Shiva became pleased with him and blessed him by granting him \'Mangalloka\', which was superior even to the \'Shukraloka\'. The same \'Bhauma\' is established in the solar system by the name of \'Mars.\'</p>  ' ,
+notes: []
+}
+]
+} ,{
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '4',
+title: 'PARVATI-KHAND,SHIVA ARRIVES AT HIMALAYA AND CONVERSATION WITH PARVATI ',
+headerStyle: { 'color': '#b22222','font-weight': '1900', 'text-shadow': '1px 1px 1px #ff0000','background-color': '#ffa500', 'opacity':'0.8', 'border': '2px brown outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand4.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>One day lord Shiva accompanied by his ganas like Bhringi, Nandi, etc, arrived at Himalaya, with the purpose of doing penance. When Parvati father Himalaya came to know about his arrival, he went to receive him. After he had made his salutations to Shiva, he was instructed by Shiva to see that he is not disturbed while doing his penance.</p>' +
+'<p>Himalaya made all the necessary arrangements so that Lord Shiva could perform his penance without being disturbed. One day Himalaya arrived at the place where lord Shiva was doing his penance. Parvati too came along with him. Himalaya requested him to keep Parvati, so that she could be at his service. Lord Shiva declined to keep her with him, fearing her presence might cause hindrance in the path of his penance. Now, Himalaya became very concerned about his daughter\'s future and wandered whether Parvati would remain unmarried.</p>' +
+'<p>When Parvati saw her father becoming worried by Shiva\'s response she decided to intervene. She said to lord Shiva-  </p>' +
+'<p>"I am \'Prakriti\' (Nature) and you are the \'Purusha\' (almighty). You exist in the \'Sagun\' form (with form) because of me. In my absence, you will find it impossible even to exist."</p>' +
+'<p>Lord Shiva was impressed by her knowledge. He allowed her to be present near her. Himalaya and Parvati became very pleased.</p>' +
+'<p>Parvati used to come daily at the place where lord Shiva was doing his penance. Her companions too used to come along. She used to engaged herself in the worship of lord Shiva with great devotion.</p>' +
+'<p>Though lord Shiva was very much impressed by her devotion, but he decided that he won\'t marry her until she has proved her mettle by her tremendous penance.</p>' +
+'<p>The deities were tormented by a demon named. Tarakasur. They went to lord Brahma to seek his help. Lord Brahma sends \'Kamadeva\' to disturb the Samadhi of Shiva, so that being influenced by him Shiva married Parvati and ultimately kills Tarakasur.</p>' +
+'<p>This attempt of Brahma was unsuccessful. Shiva \'burnt\' Kamadeva with the help of his third eye. Parvati, then redoubled her effort to attract the attention of Shiva by engaging herself in a tremendous penance. </p>' ,
+notes: []
+}
+]
+}, {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '5',
+title: 'PARVATI-KHAND, ,THE BIRTH OF VAJRANG ',
+headerStyle: { 'color': 'white','font-weight': '1900', 'text-shadow': '3px 3px 2px black','background-color': 'gray', 'opacity':'0.9', 'border': '2px #444444 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand5.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Narada was curious to know about Tarakasur. He asked Brahma to narrate his tale. </p>' +
+'<p>Brahma said-</p>' +
+'<p>"Kashyapa-the son of Marichi, had thirteen wives Diti was the eldest among them. She was the mother of Hiranyakashipu and Hiranyaksha. Both her sons were killed by lord Vishnu in his incarnations of Nrisimha and Varaha respectively. Diti became very sad by the death of her sons.</p>' +
+'<p>After somtime she again became pregnant but the foetus was destroyed by Indra\'s weapon- Vajra in the womb itself. However Indra was not able to destroy the foetus completely, but was only successful in dividing the foetus into forty-nine parts. These forty-nine parts, later on became famous as \'Maraudganas\'.</p>' +
+'<p>Again Diti gave birth of Vajrang, who was very valiant and brave. When he grew up, Diti ordered him to defeat the deities. With his mother\'s permission and blessings, Vajrang defeated the deities and held them captive. He fastened all the deities. With strings and himself became the king of heaven.  </p>' +
+'<p>Seeing the pitable state of the deities I (Brahma) went to Vajrang accompanied by Kashyapa and requested him to free the deities. Vajrang agreed to free them but said he did not have any aspiration of becoming the king of heaven, he only wanted to teach a lesson to Indra.  </p>' +
+'<p>Vajrang returned the heaven to the deities. Later on the married Varanji who had been created by me (Brahma). While Vajrang was of virtuous nature, Varangi was met." </p>' ,
+notes: []
+}
+]
+} , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '6',
+title: 'PARVATI-KHAND, ,BIRTH OF TARAKASUR AND HIS PENANCE ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'yellow', 'opacity':'0.9', 'border': '2px #ff4444 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand6.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Varangi gave birth to Tarakasur, the valiant and brave demon. During the time of his birth, the world was affected by inauspicious events like earthquakes, cyclones etc. His name Tarakasur was given by Kashyapa.</p>' +
+'<p>After he grew up, Tarakasur went to Madhuvan to do penance. His tremendous penance scared the deities. Becoming pleased by his penance, lord Brahma appeared before him and asked him to demand anything.</p>' +
+'<p>Tarakasur demanded two boons - there should be no man as powerful as him and except Shiva\'s son nobody should be able to kill him. Lord Brahma blessed him by saying \'Tathastu\'. </p>' +
+'<p>After receiving the boons, Tarakasur returned back to Ronitpur and was crowned as the king by Shukracharya. He then defeated the deities and drove them out from the heaven. Now it came under the rule of the demons.</p>' +
+'<p>After being driven away from the heaven, the deities went to lord Brahma to seek his help. They asked him as to how they could get rid of this menace called Tarakasur.</p>' +
+'<p>Brahma revealed to the deities that Tarakasur could be killed only by such a person, whose parents are Shiva and Parvati. He also advised them to make efforts, so that Shiva agrees to marry Parvati.</p>' +
+'<p>Lord Brahma them went to \'Tarakasur\' who had now become the king of heaven, and tried to convince him to return it back to the deities. Tarakasur agreed to relinquish the heaven and give it back to the deities. The deities went back to the heaven. </p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '7',
+title: 'PARVATI-KHAND, KAMADEVA REDUCED TO ASHES BY SHIVA ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.9', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand7.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Lord Brahma told Narada that the deities decided to send Kamadeva to influence lord Shiva so that the marriage between him and Parvati is felicitated.</p>' +
+'<p>Indra called Kamadeva and told him that the demon king Tarakasur could be killed only by such a person who was the son of Shiva and Parvati. Indra instructed Kamadeva to arouse passion in lord Shiva, so that he agrees to marry Parvati.</p>' +
+'<p>Kamadeva, accompanied by his wife Rati went to lord Shiva to accomplish his mission.</p>' +
+'<p>After reaching the place where lord Shiva was engrossed in his meditation, Kamadeva made repeated attempts to arouse passion in the heart of lord Shiva, but his actions were no avail. </p>' +
+'<p>Right then, Kamadeva saw Parvati arriving accompanied by her companions. She was looking divine in her beauty. Just at that moment lord Shiva too had come out of his meditational trance. Kamadeva thought that it was the most appropriate moment to have a go. </p>' +
+'<p>Kamadeva struck lord Shiva with his \'Kamabana\' which did have a deep impact on him. Lord Shiva was struck by the awesome beauty of Parvati and his heart became full of passion for her. But at the same time he was surprised at the sudden change in his behaviour. He realized that it was an act of Kamadeva.</p>' +
+'<p>Lord Shiva looked all around him. He saw Kamadeva standing towards his left side, with a bow and arrows in his hands. Now he was fully convinceed that it was indeed an act of Kamadeva.</p>' +
+'<p>Kamadeva became terrified, he started remembering god, but before the deities could come at his rescue the third eye of lord Shiva got opened and Kamadeva was reduced to ashes.</p>' +
+'<p>Parvati got scared after seeing Lord Shiva in such a destructive anger. She went to her house along with her companions. Rati- the wife of Kamadeva wept unconsolably.</p>' +
+'<p>The deities arrived and consoled her by saying that by the grace of lord Shiva, her husband would be alive once again. After that the deities went near lord Shiva and did his worship. They told him that it was not the fault of Kamadeva, as he had acted in accordance with the aspirations of the deities. They also told him the mystery of Tarakasur\'s death. The deities then requested him to make Kamadeva alive once again.</p>' +
+'<p>Lord Shiva told the deities that Kamadeva would take birth as the son of Krishna and Rukmini in the era of dwapar. A demon by the name of Shambar would throw him off in the sea. He would kill that demon and marry Rati, who too would be living in a city near the sea.</p>' +
+'<p>But the deities were not satisfied. They requested lord Shiva to help Rati to unite with her husband. Lord Shiva then told them that Kamadeva would become his gana, but he also warned them against revealing this fact to anybody. Rati then went to the city where the demon Shambar was expected to appear in the era of dwapar. The deities too went back to the heaven.</p>' +
+'<p>Lord Shiva\'s anger did not subside after the death of Kamadeva and the whole world started to feel the wrath of lord Shiva\'s fury. All the living creatures became terrified. They went to lord Brahma and prayed to him, to save them from Shiva\'s wrath.</p>' +
+'<p>Lord Brahma went to lord Shiva and conveyed their request to him. Lord Shiva agreed to relinquish his anger. Lord Brahma then carried Shiva\'s \'fury\' to the sea and went to the sea. He requested the sea to posses it until the final annihilation. The sea agreed to do this. This way Lord Shiva\'s fury entered into the sea and all the living creatures felt a sign of relief.</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '8',
+title: 'PARVATI-KHAND,NARADA PREACHES PARVATI DOES PENANCE ' ,
+headerStyle: { 'color': 'orange','font-weight': '1900', 'background-color': 'white', 'opacity':'0.9', 'border': '2px #ffeea0 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand8.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>When Parvati reached her home, she became very sad as she was unable to bear the sorrow of Shiva\'s separation. Sage Narada arrived there. Her father Himalaya narrated the whole story to him</p>' +
+'<p>Sage Narada then gave the five lettered mantra - "OM NAMAH SHIVAY" to her and he also instructed her to do penance. Parvati heart was filled up with new enthusiasm.</p>' +
+'<p>After taking the permission of her parents and relinquishing all of her ornaments and royal apparels, Parvati went to the same place where Lord Shiva himself had done penance. This sacred place was situated at the Himalayas, from where the holy Ganges originated. Parvati companions too had accompanied her.</p>' +
+'<p>Parvati commenced her penance which gradually became severer day by day. She did penance for three thousand years by chanting the five lettered mantra- OM NAMAH SHIVAY and performing other kinds of austerities. Becoming impressed by her tremendous penance even the deities flocked to see her. Parvati did her penance, surrounded by fire on all her sides during summer. In rainy season she did her penance without any shelter and during winter she used to do penance by immersing herself in neck deep water.</p>' +
+'<p>Parvati\'s power created such heat in the atmosphere that the whole world started to burn. All the deities and sages went to lord Brahma and told him about the effects, Parvati\'s penance was having on all the three worlds.</p>' +
+'<p>Lord Brahma accompanied by all of them went to Vishnu. They visited the place where Parvati was doing her penance. They realized that lord Shiva was the only remedy and hence all of them went to lord Shiva and made salutations to him.</p>' +
+'<p>Lord Shiva enquired about the purpose of their arrival. Lord Vishnu then revealed to him that how distressed and tormented were the deities by the activities of the demon - Tarakasur.</p>' +
+'<p>He also told Shiva that he could be killed by such a person, who is born out of the parentage of Shiva and Parvati. Lord Vishnu then told Shiva about Parvati\'s penance.  </p>' +
+'<p>Initially lord Shiva refused to comply with their request but when the deities continued with their insistence, he ultimately gave his conscent. The deities became very pleased</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '9',
+title: 'PARVATI-KHAND,PARVATI\'S LOVE FOR SHIVA TESTED BY SAPTARISHIS AND SHIVA',
+headerStyle: { 'color': 'black','font-weight': '1900', 'background-color': 'silver', 'opacity':'0.9', 'border': '3px #004466 inset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand9.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>After the deities went back, lord Shiva summoned the Saptarishis (Vashishtha etc) and instructed them to test Parvati\'s love for him. The Saptarishis went to Parvati and tested her resolve to marry lord Shiva. They tried to deter her by all means, but Parvati was firm in her resolve. They went back to lord Shiva and narrated the whole story.  </p>' +
+'<p>Lord Shiva then himself went to Parvati in the guise of a brahmin. Parvati on seeing a brahmin welcomed her with full honor.</p>' +
+'<p>Shiva asked Parvati as to why was she doing penance. Parvati told him that she wanted to have Shiva as her husband. Lord Shiva, who was in the guise of a brahmin started cursing Shiva to see how Parvati reacted to it.  </p>' +
+'<p>Parvati replied that inspite of her penance Shiva did not appear, so she has decided to give up her life in burning pyre. After saying like this Parvati requested the Brahmin to go back and she herself entered into the burning pyre but remained unharmed Lord Shiva was very pleased to see her firm resolve and devotion. He again asked her as to what was the purpose behind doing such a tremendous penance.</p>' +
+'<p>Parvati told the brahmin; who in reality was Shiva himself that, she wanted to have Shiva as her husband at any cost. She said-</p>' +
+'<p>"You say that lord Shiva does not possess anything - not even wealth. He does not put on clothes on his body. You also say that he is not fit to be a bridegroom of me. But all of your utterances prove your mean intelligence."</p>' +
+'<p>Parvati continuing with her statements said that Shiva was the most capable deity in all the three worlds. "There is no sin greater than condemning Shiva." said Parvati.</p>' +
+'<p>As Shiva, who was in the guise of Brahmin was about to say something Parvati said to one of her companions- "This condemner should be killed, if this is not possible then we must leave this place at once."</p>' +
+'<p>As she was about to leave that place, lord Shiva revealed his true identity and by holding her hand said- "You have been my wife since time immemorial where are you going?"</p>' +
+'<p>Parvati became very pleased and her heart was filled up with extreme joy. She requested him to take to her father regarding their marriage. Lord Shiva agreed. He went back to Kailash mountain and narrated the whole story to his Ganas - Nandi, Bhairav etc. Everyone became very happy and awaited eagerly for the day Shiva would marry Parvati.  </p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '10',
+title: 'PARVATI-KHAND,SHIVA DEMAND PARVATI AS HIS CONSORT ',
+headerStyle: { 'color': '#ffee00','font-weight': '1900', 'background-color': '#778800', 'opacity':'1.0', 'border': '2px #ffff00 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand10.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Parvati, after successfully accomplishing her penance came back to her home. Everybody was happy at her arrival. </p>' +
+'<p>After sometime Himalaya went out to take his bath in the river Ganges. Meanwhile lord Shiva arrived in his appearance of Nataraj and started dancing in front of Parvati\'s mother Maina. She was so pleased by his dance that she wanted to present jewels to him in appreciation, but Shiva refused to take them. He expressed his desire to marry Parvati, which made Maina furious</p>' +
+'<p>In the meantime, Himalaya arrived and she informed him what Shiva had said. He became angry too and ordered his attendants to drive away Nataraj (Shiva) from that place. Shiva then showed his divine appearance due to which Himalaya had the vision of Lord Vishnu and Parvati sitting by the side of lord Shiva in him. Himalaya was very surprised.</p>' +
+'<p>Lord Shiva again demanded Parvati to be made as his consort, but Himalaya in his ignorance again refused it. Nataraj then returned back to his abode.</p>' +
+'<p>After Shiva went back, Himalaya had a feeling that perhaps it was lord Shiva himself, who had arrived in the appearance of Nararaj. He realized what a grave blunder had been committed. Because of their guilt consciousness, both Maina and Himalaya felt the germination of devotion in their heart.</p>' +
+'<p>Indra and the other deities became afraid when they saw both Himalaya and Maina having deep devotion towards lord Shiva. They apprehended that if Himalaya happily agrees to marry Parvati with Shiva, then he would no longer live on the earth- He would attain salvation. His departure would make the earth devoid of jewels and other kinds of wealth.</p>' +
+'<p>To prevent this from happening, they went to Brihaspati and requested him to influence Himalayas mind by condemning Shiva. But Brihaspati refused to comply.</p>' +
+'<p>The deities then went to lord Brahma and made the same request. Brahma refused to meet their demand.</p>' +
+'<p>Now the deities went to lord Shiva and requested him not to marry Parvati as it would make the earth devoid of all kinds of wealth. Lord Shiva feeling pity agreed to help them.</p>' +
+'<p>Lord Shiva went to Himalaya in the guise of a hermit and started cursing himself (Shiva). Maina was deeply influenced by the hermits word and decided not to marry Parvati with Shiva. She also threatened to give up her life along with Parvati. If Parvati was married with Shiva against her wish.</p>' +
+'<p>Lord Shiva summoned the Saptarishis and instructed them to convince Maina and Himalaya to marry Parvati with him, so that Tarakasur could be killed. He feared that his actions would have created many misconceptions in their minds.</p>' +
+'<p>The Saptarishis went to Himalaya and tried to make him, so that Tarakasur could be killed. He feared that his actions would have created many misconceptions in their minds.</p>' +
+'<p>The Saptarishis went to Himalaya and tried to make him understand that there was not any other way out than marrying Parvati with Shiva. They also warned both Himalaya and Maina if they did not give their conscent to marry Parvati with Shiva, then she would be forcibly abducted by him (Shiva), causing death and destruction to their whole clan. The Saptarishis then narrated the following story- </p>' ,
+notes: []
+}
+]
+},  {
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '11',
+title: 'PARVATI-KHAND,ANARANYA - THE KING ',
+headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#ffaaee', 'opacity':'0.9', 'border': '2px brown inset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand11.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>There was a king named Anaranya, who belonged to the lineage of fourteenth ManuIndrasavarni. He was a great devotee of lord Shiva. He had five queens from whom one hundred sons and a very beautiful daughter named Padma were born.</p>' +
+'<p>When Padma grew up, the king started looking for a suitable match. One day while Padma was taking her bath in the Bhadra river, sage Pippalada arrived there. He became enchanted by Padma\'s beauty.</p>' +
+'<p>After gathering informations about her from the people, he went to king Anaranya and expressed his wish to marry Padma. He threatened him of dire consequences if she was not married to her.</p>' +
+'<p>Anaranya became frightened and gave his daughter to him. Sage Pippalada happily went away accompanied by Padma. But both the king and the queen went to the forest because of the sorrow of giving their young daughter to an old sage. The queen died because of her grief. The king, because of his deep devotion towards Shiva attained to the abode of Shiva</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '12',
+title: 'PARVATI-KHAND, PADMA AND PIPPALAD ',
+headerStyle: { 'color': 'yellow','font-weight': '1900', 'background-color': 'red', 'opacity':'0.9', 'border': '2px orange outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand12.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>On the request of Himalayas, Sage Vashishtha who was one of the Saptarishis narrated the story of Padma the princess and sage Pippalad- </p>' +
+'<p>"At the time of his marriage sage Pippalad was old and weak, but still Padma devotely performed the duties of a faithful wife. </p>' +
+'<p>To test her faithfulness towards her husband, Dharmaraj arrived at the bank of that river where Padma was taking her bath. He was in the guise of a young and handsome prince. He coaxed Padma to leave behind her \'old husband\' and come along with him. Padma became furious and cursed him. Dharmaraj became very pleased and revealed his true identity. He also asked as to how the effects of her curse could be nullified.</p>' +
+'<p>Padma told her that his sins would result in having four legs during the era of Satya, but they reduced to three during the era of treta, which would again reduced to two legs during the era of Dwapar and ultimately he would have only one leg during the era of Kali. Padma also told her that even his single leg would disappear during the ending phase of Kali. "This would apropriately act as an atonement for your sins." - said Padma.</p>' +
+'<p>Dharmaraj blessed her by saying that she would have ten sons and also that her husband would possess youth and long life for eternity.</p>' +
+'<p>After listening to this story. Himalaya agreed to marry Parvati with Shiva. The Saptarishis then went back to lord Shiva and gave the good news to him.</p>' +
+'<p>Himalaya then requested sage Garga to prepare a beautiful Lagna-Patrikas which were then sent to his near and dear ones. He then requested Vishwakarma to construct a beautiful \'mandap\' for the marriage, which was constructed by him in a very short time.  </p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '13',
+title: 'PARVATI-KHAND, LORD SHIVA\'S MARRIAGE PROCESSION—DIVINE PLAYS ',
+headerStyle: { 'color': 'blue','font-weight': '1900', 'background-color': 'aliceblue', 'opacity':'0.9', 'border': '2px slateblue outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand13.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Lord Shiva invited all of his Ganas to the marriage ceremony. He also instructed sage Narada to intimate all the deities, sages and the celestial entities.</p>' +
+'<p>After getting the invitation from Shiva everybody started making preparations to be a part of Shiva\'s marriage-procession. The seven mothers- Brahmi, Maheshwari, Kaumari, Vaishnavi, Varahai, Aindri and Chamunda dressed him up beautifully Shiva then performed all the necessary Karmas to pacify the planet. At last this wonderful marriage-procession of Shiva proceeded towards the in-laws house.</p>' +
+'<p>Shiva proceeded with his marriage procession which considered of crores of his \'Ganas\' and deities like Vishnu who were boarded on their vehicles. Even Narada and Lord Brahma were present in his (Shiva\'s) marriage procession.</p>' +
+'<p>First of all, Shiva sent Narada to Himalaya\'s house to inform him about their (marriage procession) arrival. Himalaya sent his son  Mainak to receive them.</p>' +
+'<p>When Maina saw that the marriage procession was coming she curiously told Narada about her desire to see her son in law.</p>' +
+'<p>Shiva understood the arrogance which her desire contained. He wanted to teach her a lesson. He sent all the deities one by one. Maina mistook each one of them to be Shiva, but was later informed by Narada that in fact they were not Shiva but the attendants of Shiva.</p>' +
+'<p>Maina was very delighted and wondered how handsome the master (Shiva) must be, if the attendants were so handsome. Right then Shiva arrived with his Ganas - His body coated with ashes on it. His Ganas too were looking ferocious. Maina could not bear this horrible sight and lost her consciousness.</p>' +
+'<p>The maid servants arrived instantaneously and helped Maina to regain her consciousness. She started crying and cursing everybody. She thought was responsible for her daughter\'s marriage with Shiva. Nobody was spared- Narada, the Saptarishis and even her own sons. She even admonished Parvati by saying-- </p>' +
+'<p>"Did you do severe penance to get such a horrible husband like this (Shiva)?"</p>' +
+'<p>Lord Brahma and Narada tried to console and convince her, but it was of no avail. When Himalaya tried to intervene, he was soundly rebuked. Maina threatened him that if this marriage took place then it would be the last day of her life.</p>' +
+'<p>At last lord Vishnu arrived and tried to pacify her anger by saying that her anger was baseless as she had not seen the real appearance of Shiva, which bestows benediction. Lord Vishnu and Narada then eulogised Shiva who on being pleased showed his most enchanting beauty. </p>' +
+'<p>Maina now became fully satisfied. Himalaya too felt proud of her daughter\'s good fortune. At last Shiva entered the Mandap (canopy) where marriage ceremony was going to be organised. He saw Parvati sitting there. Both of them were very delighted to see each other.</p>' +
+'<p>After the marriage ceremony was over, Sage Garg helped Himalaya in performing the rite of Kanyadan, amidst the chantings of vedic mantras. The women  were singing auspicious songs. Himalaya presented large quantities of dowry to Shiva. Parvati\'s companions were engaged with Shiva in jocular and humorous conversation.</p>' +
+'<p>Rati- the wife of Kamadeva, seeing the moment opportune, arrived and requested Shiva to bring back her dead husband back to life. Her wailings made the other goddesses very sympathetic towards her. They too requested Shiva to make her dead husband back to life.</p>' +
+'<p>Feeling pity on her condition. Shiva brought back Kamadeva back to life from the ashes which Rati had given to him. On seeing her husband alive, Rati\'s heart was filled up with extreme joy. Both of them eulogised lord Shiva and expressed their gratitude.</p>' +
+'<p>After the marriage ceremony was over the marriage-processionist sought the permission of Himalaya to make a move, but he requested them to remain there for some more days. </p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '14',
+title: 'PARVATI-KHAND,SHIVA\'S DEPARTURE WITH PARVATI TO KAILASH ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.9', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand14.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Shiva remained at his in-laws house for many days. One day he sought the permission of Himalaya to go back. Everybody became sad at the prospect of Shiv\'s departure. Especially Maina who was very saddened by this news. At last it was time for Shiva to depart for Kailash, accompanied by Parvati.</p>' +
+'<p>Lord Shiva and Parvati were blissfully enjoying their martial status, unaware of the eagerness with which the deities were awaiting the arrival of their progeny.</p>' +
+'<p>Tarakasur - the demon continued tormenting the deities. When their miseries became unbearable they went to lord Brahma to seek their help. All of them then went to lord Vishnu. They told him that even after passing of such a long duration of time, Parvati and Shiva had not yet become parents. They requested lord Vishnu to remind Shiva about the purpose behind his marriage.</p>' +
+'<p>Initially lord Vishnu showed his disinclination to disturb Shiva\'s martial bliss, but when the deities insisted he went to Shiva accompanied by all of them. All of them eulogised Shiva and Parvati. The deities then requested Shiva to make his contribution in the destruction of Tarakasur.</p>' +
+'<p>Shiva understood everything. Some drops of his semen fell down on the ground. On being insisted by the deities, Agni transformed his appeared in the form of a pigeon and pecked up those drops of semen.  </p>' +
+'<p>Right then Parvati arrived there and became extremely furious on seeing the semen going waste. She cursed the deities that their respective wives would remain issue less as the consequences of their mindless acts. </p>' +
+'<p>Agni was having inflammation in his stomach because of the Shiva\'s semen. Lord Shiva advised him to transfer it into the womb of any noble woman. Agni followed the instruction and injected the semen into the body of six women through the pores of the hair on their body.</p>' +
+'<p>Those women could not bear the extreme luster of the Shiva\'s semen. They went to Himachal and evacuated it. Even Himachal could not bear its extreme effulgence and immersed it into the flowing Ganga. River Ganga carried it with her current and established it amidst bushes of reed (Sarkanda). Instantaneously a beautiful child manifested from it. His birth made all the deities extremely joyous including Shiva and Parvati. It was the sixth day (bright half of the lunar month) of the Hindu month of Margashirsha. He was Kartikeya. </p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: 'KUMARA-KHAND,KARTIKEYA ',
+title: 'KUMARA-KHAND,KARTIKEYA ',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand15.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Sage Vishwamitra arrived at the spot where the child had manifested. On the repeated insistence of the child, Vishwamitra performed his purification rites and named him \'Guha\'.</p>' +
+'<p>The divine child blessed Vishwamitra and bestowed divine knowledge to him. He also blessed him to become famous as \'Brahmarshi\'. Agnideva arrived there and gave a divine weapon named \'Shakti\' to that child. Guha went to the Kroncha mountain and banged his weapon on it. The mountain could not bear the effect of the blow and started crumbling down. Innumerable demons living on that mountain came to kill him. But the child killed all of them by his weapon.</p>' +
+'<p>When Indra heard about his bravery, he came along with other deities to fight him Indra assaulted Guha with his Vajra on the right side of his body, which resulted into the manifestation of a very powerful entity named \'Shakh\'. Indra again assaulted him on the left side of his body, from which manifested an extremely powerful entity named \'Vishakh\'. Indra assaulted Guha for the third time- this time his chest was the target. From this third blow of Indra manifested \'Naigam\'.</p>' +
+'<p>Guha accompanied by all the three powerful entities- Shakh, Vishakh and Naigam attacked Indra and his army, but they fled away.</p>' +
+'<p>Six goddesses arrived on the scene. All of them tried to feed that small child out of affection. They started quarelling among themselves. Right then they were surprised to see the child appearing with six head. Now their problems were solved. Each of the goddesses fed their breast milk to the child. They took Guha with them and brought him up with great love and care. Guha later on became famous as Kartikeya.</p>' +
+'<p>One day, Parvati curiously asked Shiva about his semen which had fallen on the ground. Lord Shiva summoned the deities and asked them about it. The deities narrated the whole story. Both Shiva and Parvati were very pleased to know about Kartikeya. </p>' +
+'<p>Lord Shiva then ordered his Ganas to bring Kartikeya from the possession of Kritika. The Ganas reached Badrikasharama where Kritika lived. When Kritika saw the Ganas she became very frightened but Kartikeya gave him solace. The Ganas requested Kartikeya to come along with him.</p>' +
+'<p>Kartikeya happily took permission from his mothers and proceeded to meet Shiva and Parvati.</p>' +
+'<p>At the time or Kartikeya\'s departure, the mothers had become very emotional. Kartikeya consoled them. He then boarded the beautiful chariot which had been sent by Parvati and proceeded towards Kailash mountain.</p>' +
+'<p>All the deities including Shiva were eagerly awaiting his arrival. When Kartikeya reached Kailash mountain, he was given a royal reception. The whole atmosphere was filled up with joy. Everybody was celebrating. Each of the deities presented him their respective weapons to him.</p>' +
+'<p>Lord Shiva coronated him as the king with the help of the brahmin. This way he had now become the lord of Kailashpuri.</p>' +
+'<p>Kartikeya narrated a story connected with himself:-</p>' +
+'<p>"One day a brahmin, whose name was Narada came to me and requested me to help him find his he-goat which had got lost. He told me that the goat was supposed to be offered as the sacrifice.' +
+'<br/>"If the goat was not found, my vow would remain unfulfilled." Said Narada.' +
+'<p>I went in search of that goat. I found it in the Vishnuloka where it was creating nuisance. When the goat saw me, it tried to attack me with its sharp horns. I climbed on its back. After travelling through all the three worlds, the goat returned back to his original place. I climbed down from its back.' +
+'<br/>Narada arrived and demanded his goat. I told him that his Yagya had been accomplished by my blessings and there was no need to sacrifice the poor goat. Narada - the brahmin went back satisfied.</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '16',
+title: 'KUMARA-KHAND,KILLING OF TARAKASUR  ',
+headerStyle: { 'color': 'yellow','font-weight': '1900','text-shadow': '4px 4px 3px white', 'background-color': 'maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand16.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>The deities were very encouraged by the presence of Kartikeya amidst themselves. They were beaming with confidence and enthusiasm. The deities assembled at the seashore. Tarakasur arrived there with his huge army. The battle began.</p>' +
+'<p>Tarakasur appeared to be invincible. His blow was so severe that Indra fell down unconscious. All the \'Lokpalas\' met the same fate. After that Tarakasur fought with Veerbharda and made him unconscious. Even Lord Vishnu could not sustain for long and was ultimately defeated.</p>' +
+'<p>Lord Brahma requested Kartikeya to fight with Tarakasur as nobody except him would be able to kill him. </p>' +
+'<p>On being instructed by lord Brahma Kartikeya came forward to fight with Tarakasur. Tarakasur ridiculed the deities for taking the shield of a small child. </p>' +
+'<p>"If he gets killed by me, the responsibility should lie on you." Thundered Tarakasur.</p>' +
+'<p>A fierce battle started between both of them in which both of them got injured. At last seeing an opportune moment, Kartikeya hit Tarakasur on his chest with his weapon- Shakti. The blow proved to be fatal and as a result Tarakasur died.</p>' +
+'<p>Kartikeya feat was hailed by all the deities. After killing Tarakasur, Kartikeya went to mother Parvati, who affectionately took him into her lap. He was eulogized by all the deities.</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '17',
+title: 'KUMARA-KHAND,KILLINGS OF PRALAMB AND BANASUR ',
+headerStyle: { 'color': 'black','font-weight': '1900','text-shadow': '4px 4px 3px white', 'background-color': 'red', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand17.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>The mountain - Kraunch, who was tormented by the activities of the demon named Banasur, went to Kartikeya and narrated his woeful tales.</p>' +
+'<p>Kartikeya threw his weapon - Shakti in the direction which Banasur lived. The weapon banged right on target and returned back to him. Bamnasur was burnt to ashes. Kraunch went back being very pleased. The mountain - Kraunch established three Shivalingas to please lord Shiva. The names of these three Shivalingas were - Kumareshwar, Pratigyeshwar and Kapaleshwar.</p>' +
+'<p>Once upon a time, the deities were trying to reach the abode of Lord Shiva- Kailash mountain. Their preceptor Brihaspati was walking ahead of all of them. Meanwhile a demon by the name of Pralamb started creating turbulence. After being tormented by his activities, Kumud - son of Sheshnag took Kartikeya\'s refuge. Kartikeya killed the demon with his divine weapon - Shakti</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '18',
+title: 'KUMARA-KHAND,GANESH ',
+headerStyle: { 'color': 'crimson','font-weight': '1900', 'background-color': 'yellow', 'text-shadow': '3px 3px 2px maroon', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand18.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Once Narada had a desire to listen to the tales of Ganesha. Brahma replied-  </p>' +
+'<p>"There were various Ganeshas in different Kalpas. During the period of \'Shweta-Kalpa\', Ganesha was born to Shiva and Parvati, when they went to Kailash mountain shortly after their marriage. </p>' +
+'<p>"Once while going to take her bath, Parvati instructed Nandi, to stand guard at the entrance and not to allow anybody to enter the premise without her permission. Lord Shiva arrived there by chance. Despite of Nandi\'s refusal to allow him, in he went inside. Parvati did not like this.</p>' +
+'<p>One day it happened so that Once again, Parvati wanted to take her bath. She made an idol from the dirt of her body. She made the idol alive and instructed him not to allow anybody without her permission. She also gave him a stick for his protection.</p>' +
+'<p>Incidentally lord Shiva arrived once again. He tried to enter inside but Ganesha refused to let him go inside. But when Shiva tried to go inside forcibly, Ganesha hit him with his stick. Lord Shiva became furious and ordered his ganas to kill him.</p>' +
+'<p>The ganas of Shiva attacked Ganesha but all of them were no match for him. After being defeated by Ganesha, the Shivaganas went to Shiva and narrated everything.</p>' +
+'<p>While the Shivaganas were narrating their stories, Lord Brahma, Lord Vishnu and some other deities arrived there. Lord Brahma then went to Ganesha to convince him, but as soon as Ganesha saw him he tried to attack lord Brahma. Brahma came back without achieving anything. After this lord Shiva himself came to fight Ganesha. </p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '19',
+title: 'KUMARA-KHAND,SHIVA SEVERS GANESHA\'S HEAD –LATER GIVEN ELEPHANT HEAD  ',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'orange', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand19.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>A fierce battle was fought between Shiva and Ganesha. When Lord Shiva realized that Ganesha was dominating the fight, he severed his head with his trishul. </p>' +
+'<p>Parvati became extremely furious at the death of Ganesha. Her anger resulted into the manifestation of innumerable goddesses, who started creating havoc on the deities.</p>' +
+'<p>The deities became frightened and they were forced to take the refuge of Parvati. They eulogized her and requested to be pardoned. Parvati told them that they could be saved only when Ganesha becomes alive and becomes worshippable just like three (deities).</p>' +
+'<p>The deities went to lord Shiva and requested him to make Ganesha alive once again. Lord Shiva instructed them to go in the northern direction and bring the head of any creature they might find and join it with the trunk of Ganesha. The deities followed the instruction and went in the northern direction.</p>' +
+'<p>They found an elephant which had only one tusk. They severed the elephant\'s head and joined it with the trunk of Ganesha. By the blessings of Shiva, Ganesha became alive once again. The deities worshipped Ganesha and returned back to their respective abodes</p>' ,
+notes: []
+}
+]
+},  {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '20',
+title: 'KUMARA-KHAND,GANESHA\'S MARRIAGE ',
+headerStyle: { 'color': '#b22222','font-weight': '900','text-shadow': '3px 3px 2px yellow', 'background-color': '#ff8c00', 'opacity':'1.0', 'border': '2px #ff4400 outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/rudraSamhita/parvati_khand20.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Both Kartikeya and Ganesha grew up to become handsome youths in due course of time. Shiva and Parvati started to think about their marriage. When Ganesha and Kartikeya came to know about the plan of their marriage both of them started quarreling among themselves as to who should get married first.</p>' +
+'<p>Lord Shiva and Parvati devised a plan to sort out this problem. They told them that whoever between them return after circumambulating the earth, will get married first of all.</p>' +
+'<p>Kartikeya and Ganesha agreed. Kartikeya proceeded on his journey to circumambulate the earth. Ganesha was very intelligent. He requested his parents - Lord Shiva and Parvati; to sit at a place together and circumambulated them for seven times and said-  </p>' +
+'<p>"According to Veda, Circumambulating one\'s parents give virtues equivalent to that of circumambulating the whole earth. So now you must get me married first." </p>' +
+'<p>Lord Shiva and Parvati were very impressed by his intelligence. They decided to get him married with Siddhi and Riddhi-the daughter of Vishwaroop Prajapati. In due course of time two sons were born to them Kshem and Labh.</p>' +
+'<p>While Kartikeya was returning after circumambulating the whole earth, he met sage Narada on the way. He told Kartikeya about Ganesha\'s marriage. Kartikeya became very sad and felt like having been cheated by their parents.  </p>' +
+'<p>When Kartikeya reached Kailash mountain he made salutations to lord Shiva and Parvati and without saying anything, went to Kraunch mountain to do his penance.</p>' +
+'<p>Parvati was very sad. She went to Kraunch mountain to meet Kartikeya accompanied by Shiva. When Kartikeya saw them coming he moved to another place. Lord Shiva and Parvati followed him and ultimately met him. Both these places have religious significance. Having a darshan of Kartikeya on the full moon day of Kritika nakashatra is considered to bestows immense auspicious and destroyes all the sins of a man</p>' ,
+notes: []
+}
+]
+}
+];

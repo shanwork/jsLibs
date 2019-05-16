@@ -1,0 +1,549 @@
+var defaultButtonStyle = "padding:3px;font-weight:bold;color:green;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultPrevButtonStyle = "float:left;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;";
+var defaultNextButtonStyle = "float:right;padding:3px;font-weight:bold;color:darkslateblue;background-color:lightyellow; border: 1px solid green;margin:2px; border-radius:3px;margin-right:20px;";
+        var leftNavigation = true ;
+var defaultHeaderStyle=
+    {
+        'font-weight': '900',
+        'color':'firebrick',
+         'background-color': 'transparent', 'opacity':'1.5'
+    };
+var defaultDetailStyle = { 
+      'background-color':'lightgoldenrodyellow',
+        'opacity':'0.7',
+        'margin': '10px',
+      'padding':'5px',
+        'color':'black',
+        'font-weight':'900',
+        'border':'2px solid red'};
+var defaultContentStyle =   { 'border':'3px outset orange',
+             'background-image': 'url("images/lord-krishna-786.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'lightgoldenrodyellow'};
+var chapterData = [
+    
+
+    {
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: 'UMA-SAMHITA, CONVERSATION BETWEEN KRISHNA and UPAMANYU  ',
+        title: 'UMA-SAMHITA, CONVERSATION BETWEEN KRISHNA and UPAMANYU  ',
+        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
+        contentStyle: { 'border':'3px outset blue',
+             'background-image': 'url("images/umaSamhita/image1.jpg")',
+             'background-size': 'contain',
+             'border-radius':'4px', 
+             'padding':'2px',
+             'color':'orange', 
+             'opacity':'0.5',
+              'background-color':'skyblue'} ,
+        subsections: [
+           { 
+                subTitle: '',
+                content: '<p>Once, Lord Krishna went to Kailash mountain to do penance with the desire of having a son. He found Maharishi Upamanyu engrossed in his meditation. He told Upamanyu about his desire and requested him to describe about the greatness of lord Shiva.</p>' +
+           '<p>Upamanu described about his own experience when he had divine glimpses of lord Shiva who was meditating</p>' +
+'<p>"Once I saw Shiva who was surrounded by all the deities. Lord Shiva was engrossed in his deep meditation. Shiva had in his possession all the divine weapons like - Trident, Axe, Noose, Sudarshan etc. Lord Vishnu and Brahma were also present there. I eulogized lord Shiva who became pleased with me. Lord Shiva wanted to bless me with a boon. I requested lord Shiva to bless me with three things- 1) I should always remain his devotee<br/> 2) to be able to know about the past, present and future events,<br/> 3) My family should never feel the scarcity of rice and milk."</p>' +
+'<p>"Lord Shiva not only blessed me with all these three things, but also to be able to see the Vaivasvat kalpa."</p>' +
+'<p>After completing his story, sage Upamanyu told Krishna he must worship lord Shiva if he was desirous of a son, because Lord Shiva can be pleased quite easily. </p>',
+notes: []
+}
+        ]
+    } , {
+    /*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+    buttonText: '2',
+title: 'UMA-SAMHITA, SRI KRISHNA DOES PENANCE ',
+headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': '#77FFFF', 'opacity':'0.9'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image2.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Sri Krishna then proceeded to do his penance after getting initiated by Upamanyu with the mantra - OM NAMAH SHIVAY. He did a tremendous penance for fifteen months by standing on his toe. In the sixteenth month lord Shiva and Parvati appeared before him after being pleased by his penance. Lord Shiva expressed his desire to bless Krishna. Krishna demanded eight boons.<br/> 1) May his intelligence always remain inclined towards religiousness. <br/>2) May he attain immortal fame,<br/> 3) May he has his abode in Shiva\'s proximity,<br/> 4) May his faith and devotion in Shiva be unswerving,<br/> 5) May he have ten valiant sons,<br/> 6) May he be victorious against his enemies,<br/> 7) May all his enemies be destroyed and<br/> 8) May be dear to all the yogis.<br/> After receiving eight boons from Lord Shiva, Krishna demanded one boon from goddess Parvati. May he always be in the service of his parents and the brahmins. Sri Krishna then went back to Upamanyu and narrated the whole story. At last he returned to Dwarka.</p>' ,
+notes: []
+}
+]
+}  , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '3',
+title: 'UMA-SAMHITA, CLASSIFICATION OF GRAVE SINS',
+headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'yellow', 'opacity':'1.0', 'border': '2px solid brown'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image3.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Describing about the sins, Suta told the sages that altogether there were twelve types of sins committed by a man by his actions, thought speech. Out of them having a desire for another person\'s wife, being desirous of another\'s wealth, having evil designs against other people and drifting towards sinful path are considered to be sins committed by one\'s thoughts.</p>' +
+'<p>The following sins are supposed to be committed by speech - conversating with a woman who is having periods, telling lies, unpleasing talks and back biting. </p>' +
+'<p>The following sins are committed by one\'s actions eating things, which are not worth eating , indulging in violence and uncivilized activities and taking other\'s wealth by improper means.</p>' +
+'<p>Even among all these sins some are considered to be graver, like criticizing teacher, hermit and parents etc, stealing the property of temple or a brahmin. A person commits Mahapap (grave sin) if he indulges in any of the following: not having devotion towards one\'s preceptor abandoning one\'s preceptor, sleeping on the preceptor\'s bed, drinking intoxicating drinks, having illicit relationship with one\'s teacher\'s wife, taking back the wealth which has already been donated, earning wealth by employing improper means.</p>' +
+'<p>A man who commits the following sins are considered to be the grave sinners - burning a cowshed, a forest or a city, not marrying a girl with a suitable man, having illicit relationship with daughter in law, and sister in law. </p>' ,
+notes: []
+}
+]
+}  , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '4',
+title: 'UMA-SAMHITA, THE DESCRIPTION OF HELL  ',
+headerStyle: { 'color': 'yellow','font-weight': '1900', 'background-color': 'crimson', 'opacity':'1.0','padding':'2px' ,'border': '3px  silver outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image4.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Each living being has to taste the fruits of his \'Karmas\', when his soul reaches the abode of Yama after his death. The soul of a virtuous man enters the hell from the Northern side, where as that of sinful man enters from the southern side. </p>' +
+'<p>Yamanagri - The abode of Yama is situated at a distance of eighty six thousand yojans (One Yojans - Eight miles) from the surface of the earth.</p>' +
+'<p>The virtuous soul reaches there without any problem because of his virtuous deeds. On the contrary, the soul of a sinner reaches Yamanagri tasting the fruits of his sins all along the way. Moreover, when the soul of a sinner reaches Yamanagri, it gets punished by the \'Yamadutas\'. The lord of death then gives the final judgement on the basis of each individual\'s sins. </p>' +
+'<p>From the hell the virtuous soul leaves for the heaven. There are many categories of hells all filled up with filth. </p>' ,
+notes: []
+}
+]
+} , {
+/*
+'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+' +
+'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+
+''<noteref2_note1footer>(2) - (17)</note>-->'  +
+</li>' +
+'<li>
+*/
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '5',
+title: 'UMA-SAMHITA, CHARITY AND ITS IMPORTANCE  ',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': '#333333', 'opacity':'1.0','padding':'2px' ,'border': '3px  silver outset'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image5.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Suta while warning the sages told-</p>' +
+'<p>"People who engages themselves in virtuous deeds through out their lives and who have been kind of others, cross the terrifying path of the hell quite easily. A person, who donates shoes or wooden sandals to brahmins, reaches the hell riding on the horse.</p>' +
+'<p>Similarly, a person who donates an umbrella to brahmins reaches the hell under the shade of an umbrella. Making donations of bed or chairs to brahmins, help a man to reach the hell after taking adequate rest on the way. Making donations of Gold or silver to brahmin helps a man to attain to heaven."</p>' +
+'<p>A man who donated food grains enjoys all the pleasures of life, because food grains sustain life. Even, making donation of water is considered to be of supreme value because life can not exist without it. A man, who digs up wells and ponds for the benefit of people, acquires great virtues. Planting trees, especially which gives fruits or flowers are considered to give immeasurable virtues.</p>' +
+'<p>Making donations of cow, land, knowledge and such objects that can be weighed are considered. Making donations of gold, sesame, elephant, girl, maid, servant, house, chariot, diamond, cow whose colour is pure white and food grains are considered to be Mahadan (great donation). The donations should be made only to worthy brahmins.  </p>' ,
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '6',
+title: 'UMA-SAMHITA, DESCRIPTION OF NETHERWORLD AND LIBERATION FROM HELL ',
+headerStyle: { 'color': 'yellow','font-weight': '1900', 'background-color': 'red', 'text-shadow': '2px 2px 2px maroon','opacity':'1.0', 'border': '3px outset silver'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image6.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>The earth is balanced on the hood of Sheshnag. Lord Vishnu is the nurturer of this world. There are seven more worlds beneath the earth, which are <ul><li>Atala</li><li>Vitala</li><li>Sutala</li><li>Rasatala</li><li>Tala</li><li>Talatala and</li><li>Patal</li></ul>. Each of these worlds is ten thousand yojans in length and twenty thousand yojans deep. All these worlds are full of invaluable and priceless diamonds. The residents of each of these worlds enjoy all the luxuries and pleasures of life. The demons and the Nagas reside in these worlds. Even farther than these seven worlds is situated the hell, Where the soul of the sinner goes to after the death. Some of the main names of hell are - Raurav, Shukar, Rodh, Tal, Vivasan and Mahajwala etc. The soul of a sinner goes to each of these hells according to the magnitude of his sins. A man should worship lord Shiva and sing hymns in his praise to get liberated from his sins. </p>' ,
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '7',
+title: 'UMA-SAMHITA, THE DESCRIPTION OF SEVEN - ISLANDS ',
+headerStyle: { 'color': 'orange','font-weight': '1900', 'background-color': 'red', 'text-shadow': '2px 2px 2px brown','opacity':'1.0', 'border': '3px outset brown'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image7.jpg")',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: 'The whole earth is divided into seven islands or dweepas. The name of these islands is <ul><li>Jambu</li><li> Plaksha</li><li> Shalmali</li><li> Kraunch</li><li>Shaka and</li><li>Pushkar</li></ul>. All these islands are surrounded by such oceans on all sides. The content of each of these oceans is salt. Sugarcane juice, ghee, milk, curds and honey respectively.</p>' +
+'<p>Jambudweepa is  India. It stretches from south of Himalaya to the north of ocean. The total area is about nine thousand yojans. It is further subdivided into nine land segments, seven mountains, and seven sacred rivers near the seven places of pilgrimage and many other rivers.</p>' +
+'<p>Similarly the \'Plaksha\' island is surrounded by ocean of salt on all sides and spread up in the area of one thousand yojans.</p>' +
+'<p>The area of Shalmali island is twice as that of Plaksha island. It is surrounded by the ocean of honey.  </p>' +
+'<p>The are of Kusha island is twice as that of Shalmali island and is surrounded by the ocean of ghee. Similarly the Krauncha is surrounded by the ocean of curd and its area is thrice as that of Kusha island.  </p>' +
+'<p>The area of Shaka island is twice as that of Kraucha island and is surrounded by the ocean of milk.</p>' +
+'<p>The ocean of sweet water surrounds the Pushkar island. Its total length is five thousand yojans and five lakh yojans respectively. The mountain Manas is situated in this island. The residents of these islands never attain old age. Lord Brahma resides in Mahaveet section of this island. The people living in this island get food without making any effort.</p>',
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '8',
+title: 'UMA-SAMHITA,  THE DESCRIPTION OF PLANETS ',
+headerStyle: { 'color': 'beige','font-weight': '1900', 'background-color': '#223344', 'text-shadow': '1px 2px 2px white','opacity':'1.0', 'border': '3px outset lightBlue'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image8.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>As far as the light of Sun and Moon reaches the earth, it is called \'Bhoo loka\'. Surya loka is situated one lakh yojan above the Bhooloka. The Chandra loka is situated one lakh yojan above Surya loka. All the constellations as well as the planets are spread in the area of the ten thousand yojans above the Moon. Mercury is situated above the moon Venus above the Mercury and Mars is situated above the Venus. Jupiter is situated above Mars and Saturn above Jupiter.  </p>' +
+'<p>The Saptarshi mandals are situated at a distance of one lakh yojan above Saturn. The \'Dhruva\' is situated at a distance of one lakh yojan above the Saptarshi Mandals. All the planets are situated between the earth and Dhruva star in the form of three lokas – Bhoo loka, Bhuvar loka and Swarga loka (heaven). </p>' +
+'<p>Mahar looka is situated even beyond the Dhruvaloka. This is the world where the manasputras (Sanak sanandan etc) of lord Brahma reside. </p>' +
+'<p>Jana loka is situated above Mahaloka where as the Tapaloka is situated at a distance of twenty six lakh yojans above Mahaloka. Satyaloka is situated six times the distance between Mahaloka and Tapaloka. Satyaloka is also known as Brahmaloka. Beyond Brahmaloka is situated the Vaikuntha loka. Similarly the world of Kartikeya Kumar loka is situated beyond Vaikunth loka. After Kumar loka comes the Uma loka and then comes the Shiva loka, which is the farthest loka. Goloka is situated near Shivaloka where lord Krishna lives with the cow names Sushila, with the permission of lord Shiva.  </p>' ,
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '9',
+title: 'UMA-SAMHITA,  CATEGORIES OF AUSTERITY OR TAPA ',
+headerStyle: { 'color': 'black','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px white','opacity':'1.0', 'border': '3px solid #222222','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image9.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Truth or Satya is the best among all the types of austerity. A truthful man is the supreme devotee and a great accomplisher. Austerity helps a man to attain all the worldly pleasures of life and ultimately salvation. Austerities have been classified into three types on the basis of three basic qualities or gunas i.e. Satvik tapa, Rajassi tapa and Tamassi tapa</p>' +
+'<p>Austerities observed by the deities\' hermits and celibates come under the category of Satvik Tapa.  </p>' +
+'<p>Austerities maintained by the \'daityas\' and man come under the category of Rajasi-Tapa.  </p><p>Austerities maintained by the demons and those people who indulge in evil and cruel deeds come under the category of Tamasi Tapa. </p>' ,
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '10-11',
+title: 'UMA-SAMHITA,  THE ORIGIN OF BODY && CONTROL OVER DEATH ',
+headerStyle: { 'color': '#ffdab9','font-weight': '1900', 'background-color': '#553120', 'text-shadow': '1px 2px 2px brown','opacity':'1.0', 'border': '3px solid #222222','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image10.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: 'THE ORIGIN OF BODY',
+content: '<p>The food taken by a man gets transformed into semen in the body. The semen is transformed to the woman\'s womb during the time of intercourse where it gets mixed with the blood. It then develops into an egg. Gradually all the organs start to manifest. The body then attains the vital force and ultimately comes out from the mother\'s womb after suffering great pains. But after taking birth he forgets all about those pains. He then lives his life by reaping the fruits of his past Karmas. Before taking birth, the body lives in a filthy environment in its mother\'s womb. It becomes so dirty that even Panchagavya can not make it pure. Remembrance of Shiva is the only means to make it pure. </p>',
+notes: []
+},{
+subTitle: 'CONTROL OVER DEATH (ICHCHHA MRITYU) ',
+content: '<p>Suta told the sages that a person who wants to control death should first be seated on a pure seat. He should then perform Pranayama by holding his breath. While doing this exercise care should be taken that lamp is not burning. </p>' +
+'<p>Both the ears should be shut by the index fingers for the period of one hour. After doing this he would be able to hear the sounds emerging from within. He should try to concentrate his mind on that sound. If this exercise is practiced daily for two hours, then he will have full control over his death. This particular exercise helps a man to attain great accomplishments, self-knowledge and salvation.</p>',
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '12',
+title: 'UMA-SAMHITA,  THE DESCENT OF GANGA',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': '#00bfff', 'text-shadow': '1px 2px 2px black','opacity':'0.7', 'border': '2px outset #191970','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image12.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Once, emperor Sagar performed an Ashwamedha Yagya. Indra abducted the horse used in this Yagya and kept it in the hermitage of Sage Kapila. All the sixty thousand sons of Sagar went to search the horse and found it in Kapila\'s hermitage.</p>' +
+'<p>Hearing the commotion and noise, sage Kapila who was engrossed in meditation opened his eyes and came out to see what was happening. He was very angry. He looked angrily towards the sons of Sagar. All of them were burnt to death except four.</p>' +
+'<p>In due course of time, Sage Bhagirath became successful in bringing river Ganga to earth with the blessings of lord Shiva. Bhagirath was the descendants of Sagar. Bhagirath made all of his ancestors alive who had met an untimely death by sprinkling the water of Ganga on their bones. River Ganga is also known as Bhagirathi because of Bhagirath. </p>' ,
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '13',
+title: 'UMA-SAMHITA,  THE AUSTERITIES OF VED VYASA ',
+headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image13.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Narrating about the life of Sage Veda Vyasa, Suta said to the sages-<br/>' +
+'"Once while sage Parashar was on his pilgrimage, he arrived at the bank of Yamuna. Satyavati, who emitted the smell of fish, helped him cross the river. Sage Parashar was very pleased with her. He transformed the bad smell emitting from her body into fragrance. He also told her that she would be fortunate to give birth to a son as mighty as lord Vishnu.  </p>' +
+'<p>In due course of time Satyavati gave birth to a child. The child was given the name Krishnadwaipayan by Satyavati\'s father. Soon after his birth the child told his mother that he was going to do penance and he would come back to see her the moment she desired. </p>' +
+'<p>The child did tremendous penance and became famous as Veda Vyasa.<br/> With this deep knowledge and insight he categorized the different sections of Vedas. After the accomplishment of his penance. Veda Vyasa went on a pilgrimage.<br/> He came to Kashi with a desire to write the Puranas. To get the blessings of Lord Shiva he worshipped the Madhyeshwar linga. Lord Shiva became pleased by his devotion and blessed him. Ved Vyasa created numerous Puranas like - ' +
+'<ul><li>Brahma Purana</li>' +
+'<li>Padma Purana</li>' +
+'<li>Vishnu Purana</li>' +
+'<li>Shiva Purana</li>' +
+'<li>Bhagavat Purana</li>' +
+'<li>Bhavishya Purana</li>' +
+'<li>Narada Purana</li>' +
+'<li>Markandeya Purana</li>' +
+'<li>Agni Purana</li>' +
+'<li>Brahma Vaivarta Purana</li>' +
+'<li>Linga Purana</li>' +
+'<li>Varaha Purana</li>' +
+'<li>Kurma Purana</li>' +
+'<li>Matsya Purana</li>' +
+'<li>Garuda Purana</li>' +
+'<li>Vamana Purana</li>' +
+'<li>Skanda Purana and</li>' +
+'<li>Brahmanda Purana.</li></ul> </p>' ,
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '14',
+title: 'UMA-SAMHITA,  INCARNATION OF MAHAKALI ',
+headerStyle: { 'color': 'cyan','font-weight': '1900', 'background-color': 'black', 'text-shadow': '1px 2px 2px white','opacity':'1.0', 'border': '3px outset red','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image14.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Once upon a time king Surath after loosing his kingdom to his enemy fled to the forest. After wandering for some time he reached the hermitage of sage Medha. He started living there, as he had no place to go. The dejected king used to pass his time wondering about his future.  </p>' +
+'<p>One day, Surath met a man named Samadhi, who was driven out from his house by his own sons. His sons had captured all the wealth. Both of them went to sage Medha and narrated about their woeful tales. Sage Medha advised both of them to contemplate on the form of Mahamaya Bhagawati Surath and Samadhi were curious to know about Bhagawati Sage Medha said-<br/>'+
+'"The demons, Madhu and Kailash were produced from the filth which came out from the ears of lord Vishnu, while he was resting on the back of Sheshnag during the time of total annihilation."</p>' +
+'<p>"On seeing lord Brahma sitting on the lotus flower, which emerged from the navel of lord Vishnu, both the demons tried to kill him. Lord Brahma eulogized yoga nidra. So that lord Vishnu could be awakened from the sleep. Goddess Bhagavati became pleased and told Brahma that in a short while from now she would be manifesting herself to kill the demons."</p>' +
+'<p>"Bhagavati manifested herself in the form of Kali from the mouth and eyes of lord Vishnu. Meanwhile lord Vishnu awakened from his sleep. He fought with the demons for one thousand years but could not defeat them. At last the demons told lord Vishnu that they wanted to bless him with a boon. Lord Vishnu demanded their death. Seeing water on all sides the demons told him that he could kill them where no water was found. Lord Vishnu then severed their heads after laying them on his thighs."  </p>' ,
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '15',
+title: 'UMA-SAMHITA,  INCARNATION OF MAHALAKSHMI  (MAHISHASURMARDINI)',
+headerStyle: { 'color': '#FFFF00','font-weight': '1900', 'background-color': '#ff4500', 'text-shadow': '1px 2px 2px #b22222','opacity':'0.8', 'border': '3px solid #b22222','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image15.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Mahishasur - the son of Rambhasur had captured the heaven after defeating the deities. The sorrowful deities came to seek the help of lord Vishnu and Lord Shiva. </p>' +
+'<p>Lord Shiva and Lord Vishnu became extremely furious after hearing about the misdeeds of Mahishasur. Radiant lights appeared from the bodies of Vishnu, Shiva and other deities and collectively manifested into a single form of Mahalakshmi. All the deities presented their respective weapons to her.</p>' +
+'<p>Mahalakshmi went to fight Mahishasur, who fought valiantly by changing his appearance, but ultimately got killed by her. The deities became very pleased by the death of Mahishasur. They eulogized and worshipped her. </p>' ,
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '16',
+title: 'UMA-SAMHITA,  INCARNATION OF MAHASARASWATI (SHUMBHA-NISHUMBHA VADINI)',
+headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image16.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>After being tormented by the demons Shumbha and Nishumbha, the deities went to goddess Parvati and requested her to protect them. Kaushiki manifested from the body of goddess Parvati. Goddess Kaushiki assured the deities and disappeared.  </p>' +
+'<p>By coincidence the attendants of the demons - Shumbha and Nishumbha, happened to see Kaushiki and became enchanted by her divine beauty. They went to Shumbha and Nishumbha and praised about her beauty.</p>' +
+'<p>Both the demons sent a messenger to Summon her. Kaushiki asked the messenger to convey the message to the demons that only such a person can become her lord, who defeats her in a battle. The messenger returned and gave the message to Shumbha and Nishumbha.</p>' +
+'<p>Both the demons were enraged. They sent a huge army to bring Kaushiki forcible, under the commandership of Dhumralochan. When Dhumralochan reached there, he told her about his master\'s command. Kaushiki gave the some reply that only such a person can become her master, who defeats her in a battle. Dhumralochan then tried to abduct her forcibly. Kaushiki gave a loud roar in her anger as a result of which Dhumralochan was burnt to death. The whole army was annihilated by her vehicle-lion. </p>' +
+'<p>When Shumbha and Nishumbha learnt about the death of Dhumralochan and the destruction of his army, they sent many mighty demons like Chanda, Munda, Raktabeeja etc to fight her. But each of them got killed by goddess Kaushiki.</p>' +
+'<p>Ultimately Shumbha and Nishumba themselves came forward to fight. Both of them attacked Kaushiki with volley of arrows. Kaushiki destroyed their whole army. The whole battlefield became flooded with blood. After that Kaushiki killed Nishumbha with special types of arrows, which did not allow single drop of blood to fall on the ground. </p>' +
+'<p>Angered by his brother\'s death, Shumbha attacked Kaushiks with his various weapons, but she neutralized all of them. At last, she killed Shumbha with her trident.  </p>' ,
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '17',
+title: 'UMA-SAMHITA,  UMA WARNS THE DEITIES ',
+headerStyle: { 'color': 'brown','font-weight': '1900', 'background-color': '#AAAAAE', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '2px outset brown','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image17.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>Once, after having defeated the demons the deities had become very arrogant and proud. They started indulging in self praise. Suddenly they were started by the emergence of radiant light before them. All the deities became scarred and went to Indra. Indra sent Vayu to test the power of that radiant light. As soon as Vayu reached there, he found that he had become powerless. One by one all the deities came but returned after being defeated. At last Indra himself went there. </p>' +
+'<p>As soon as Indra reached there, he found that he had become bereft of all his powers.</p>' +
+'<p>Suddenly goddess Uma manifested herself and warned Indra against becoming arrogant. Indra realized his mistake. </p>' ,
+notes: []
+}
+]
+}, {
+
+buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+buttonText: '18',
+title: 'UMA-SAMHITA,  THE INCARNATION OF SHAKAMBARI ',
+headerStyle: { 'color': 'white','font-weight': '1900', 'background-color': 'slateblue', 'text-shadow': '1px 2px 2px yellow','opacity':'1.0', 'border': '3px inset #000644','padding':'3px'},
+contentStyle: { 'border':'3px outset blue',
+'background-image': 'url("images/umaSamhita/image18.jpg")',
+'background-size': 'contain',
+'border-radius':'4px',
+'padding':'2px',
+'color':'orange',
+'opacity':'0.5',
+'background-color':'skyblue'} ,
+subsections: [
+{
+subTitle: '',
+content: '<p>The most valiant demon Durgam had acquired all the four Vedas from lord Brahma after pleasing him. Lord Brahma had also given a boon of invincibility to him. </p>' +
+'<p>Durgam became very arrogant and started tormenting the whole world. As the consequence it did not rain for one hundred years and the whole world was hit by drought. </p>' +
+'<p>The deities went to goddess Maheshwari (Parvati) and narrated about their woeful tales. Goddess Maheshwari was so moved by their plights that tears rolled down from her eyes for nine continuous days and nights. The tear took the form of a river as the result of which the phase of drought came to an end. </p>' +
+'<p>The deities then requested her to recover the Vedas, which were in possession of Durgam. They then went back to their abode. When Durgam saw that people were living happily, he attacked with a large army. At that very moment goddess manifested herself and fought a tremendous battle with Durgam. From her body manifested the ten Mahavidyas and many other goddesses. At last goddess Maheshwari killed Durgam with her trident and recovered the Vedas from his possession. She then handed over the Vedas to the deities. Maheshwari is also known as Shakambhari as she had created river by her tears and saved the lives of people. </p>' ,
+notes: []
+}
+]
+}
+];
