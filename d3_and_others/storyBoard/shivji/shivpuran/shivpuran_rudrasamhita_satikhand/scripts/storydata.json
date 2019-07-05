@@ -1163,42 +1163,42 @@ Thus after instructing her for her welfare the lord vanished from the scene.
              ]
             },
             {
-                /*
-                '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-                <em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>
-                '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-                '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-                <em><span style="font-weight:900;color:#ff4811;ffont-size:x-large"font-size:larger"> The Goddess Said  </span>
-                '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-                '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-                '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-                '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-                <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-                ' +
-                '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-                <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-                <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-                <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-                '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-                '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-                <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-                '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-                
-                ''<noteref2_note1footer>(2) - (17)</note>-->'  +
-                </li>' +
-                '<li>
-                */
+                    /*
+                    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+                    <em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>
+                    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+                    '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+                    <em><span style="font-weight:900;color:#ff4811;ffont-size:x-large"font-size:larger"> The Goddess Said  </span>
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+                    '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+                    '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+                    <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+                    ' +
+                    '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+                    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                    <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+                    '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+                    '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+                    <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+                    '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+                    
+                    ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+                    </li>' +
+                    '<li>
+                    */
                 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
                 buttonText: '11',
                 title: 'SATI-KHAND, HYMN OF MAA DURGA; SHREE BRAHMA GRANTED A BOON',
                 headerStyle: { 'color': '#f5f000','font-weight': '1900', 'background-color': '#ff9933', 'text-shadow':'2px 1px brown','opacity':'0.9'},
-            contentStyle: { 'border':'3px outset blue',
-                 'background-image': 'url("images/rudraSamhita/sati_khand11.jpg")','background-size': 'contain',
-                'border-radius':'4px',
-                'padding':'2px',
-                'color':'orange',
-                'opacity':'0.5',
-                'background-color':'skyblue'} ,
+                contentStyle: { 'border':'3px outset blue', 'background-image': 'url("images/rudraSamhita/sati_khand11.jpg")','background-size': 'contain',
+                                'border-radius':'4px',
+                                'padding':'2px',
+                                'color':'orange',
+                                'opacity':'0.5',
+                                'background-color':'skyblue'
+                              } ,
                 subsections: [
                     { 
                          subTitle: '',
@@ -1279,8 +1279,263 @@ Thus after instructing her for her welfare the lord vanished from the scene.
                              appears to be existent and vice versa`]
                      }
                  ]
-                }
-            , {
+                },
+                {
+                    /*
+                    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+                    <em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>
+                    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+                    '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+                    <em><span style="font-weight:900;color:#ff4811;ffont-size:x-large"font-size:larger"> The Goddess Said  </span>
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+                    '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+                    '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+                    <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+                    ' +<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+                    '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+                    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                    <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+                    '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+                    '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+                    <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+                    '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+                    <em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+
+                    ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+                    </li>' +
+                    '<li>
+                    */
+                buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+                buttonText: '12',
+                title: 'SATI-KHAND, DAKSHA * GRANTED A BOON',
+                headerStyle: { 'color': '#00f5f0','font-weight': '1900', 'background-color': '#000358', 'text-shadow':'2px 1px darkslateblue','opacity':'0.9'},
+                contentStyle: { 'border':'3px outset blue', 'background-image': 'url("images/rudraSamhita/sati_khand12.jpg")','background-size': 'contain',
+                                'border-radius':'4px',
+                                'padding':'2px',
+                                'color':'orange',
+                                'opacity':'0.5',
+                                'background-color':'skyblue'
+                              } ,
+                subsections: [
+                    { 
+                         subTitle: '',
+                         content: `<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span>
+                         <ol><li> 0 Brahma, the sinless and the intelligent one, you have splendidly narrated the story of Siva and Siva. My life has been sanctified. This is conducive to my benefit.</li>
+                         <li>Now please tell me, what the boon was that Daksha with steady sacred rites and austere penance, secured from the Goddess, and how she became Daksha's daughter</li>
+                            <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+
+                         <li>0 Narada, listen. You are blessed. You are revered by all sages with devotion. Hear how with good sacred rites, performed penance and secured boons.</li>
+                         <li>At my bidding, the intelligent Daksha, the great chief controlled his mind and went to worship the Goddess, the mother of the universe, with that cherished desire.</li>
+                         <li>He went to the northern shore of the ocean of milk  and began to perform the penance, keeping the mother of the universe in his heart. He wished to see the
+                         Goddess in person. </li>
+                         <li>For three thousand divine years he performed the penance with good sacred rites, controlling his mind and keeping himself pure.</li>
+                         <li>For some years, he sustained himself on taking in only air, abstaining from food, for some years taking only water and for some years taking only leaves as food. Thus he
+                         spent the time meditating upon the Goddess in cosmic form.</li>
+                         <li>He was intensively devoted to the meditation of the Goddess. He was engaged in the penance for a long time. With sacred rites and various restraints he worshipped the .
+                         Goddess.</li>
+                         <li>0 excellent sage, then Siva appeared in person to who maintained all restraints, Yama<noteref1_note1footer>(1) - (253)</note> etc. and worshipped the mother of the universe.</li>
+                         <li>On seeing the mother of the universe cosmic in form, the lord of the subjects considered himself well rewarded.</li>
+                         <li>With various sorts of prayer he eulogised and bowed to the Goddess mother of the universe, Kalika seated on a lion, dark-complexioned, with four arms and
+                         beautiful face, the bestower of the boon, the abode of safety, holding a blue lotus and the sword in her hands, comely
+                         with reddish eyes and with beautiful dishevelled hair. </li>
+                         <em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+                         <li>Obeisance to Thee, 0 great Goddess, mother of the universe, wielding the great illusion, the ruler of the universe. It is with great favour that Thou showed Thy own body to
+                         me.</li>
+                         <li>Be pleased, 0 primordial Goddess, be pleased, 0 
+                         Goddess in the form of Siva; be pleased, 0 bestower of boons to the devotees; obeisance be to Thee, 0 wielder of illusion
+                         over the universe.  </li>
+                         <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                        <li>0 sage, thus eulogised by Daskha of purified soul, the Goddess spoke to him although she knew what his desire was </li>
+                        <em><span style="font-weight:900;color:#ff4811;ffont-size:x-large"font-size:larger"> The Goddess Said  </span>
+                        <li>0 Daksha I am very much delighted by your great devotion. Choose a boon according to your desire. There is nothing which shall not be granted to you. </li>
+                        <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                        <li>On hearing the words of the mother of the universe, Daksa Prajapati was very happy and he said to Siva
+                        after bowing to her frequently. </li>    
+                        <em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+                        <li>0 wielder of great illusion, 0 mother of the universe, if you wish to grant me any boon please listen to my words with pleasure. Be pleased to fulfil my desire.</li>
+                        <li>My lord and master Siva has manifested Himself as Brahma's son in the name of Rudra. He is the perfect and full:fledged incarnation of the supreme soul.</li>
+                        <li>You have not so far incarnated. Who will be His wife ? Hence 0 Siva, take an incarnation on the Earth and fascinate the great lord.</li>
+                        <li>Excepting you, no other lady will ever be competent to enthral Hence be born as my daughter and become Siva's consort.</li>
+                        <li>Exhibiting your divine sports as this, 0 Goddess, you be the enchantress of Siva, this is the only boon I crave of you. I speak out the truth to you.</li>
+                        <li>This fulfils my own interests. Indeed it fulfils the interests of all the worlds as well as those of Brahma, and Siva. Hence I have been induced by Brahma in this 
+                        direction</li>
+                        <li> <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>On hearing t,hese words of the mother of
+                        the universe replied smilingly after thinking on Siva. </li>
+                        <em><span style="font-weight:900;color:#ff4811;ffont-size:x-large"font-size:larger"> The Goddess Said  </span>
+                        <li>Dear one, 0 Daksha Prajapati, listen to my weighty words. I tell you the truth. I am much delighted by your devotion. I shall bestow everything.</li>
+                        <li>Subservient to your devotion, 0 Daska I, the great Goddess, shall be born of your wife as your daughter. There is no doubt in this.</li>
+                        <li>0 sinless one, I shall perform a penance strenuously and shall become Siva's wife, after I have secured a boon from Him to that effect.</li>
+                        <li>Otherwise there is no chance of the fulfilment of the object. The lord is free from all aberrations. He is the full incarnation of Sadasiva, worthy of being served
+                        by Brahma and Vishnu </li>
+                        <li>I am His slave for ever, His beloved in every birth (incarnation). Siva who manifests Himself in many forms is indeed my master.</li>
+                        <li>It was by His favour that He manifested through the eyebrows of Braluna. I too shall incarnate by His favour and at His bidding.</li>
+                        <li>0 dear one, go back to your residence. I have known my mission. Born as your daughter, ere long I shall be Siva's wife.</li>
+                        <li>Having spoken these splendid words, She sought and obtained Siva's permission through mental communion.  While thinking on Siva's lotus-like feet, the Goddess spoke as
+                        follows :-</li>
+                        <li>But 0 Prajapati, you have to take a vow. It is a precondition. I shall tell you. It is true, never false, please understand.</li>
+                        <li>If in future you were to be less respectful to me I will cast off my body. I shall withdraw myself to my soul or take to another form. It is true.</li>
+                        <li>0 this boon has been granted to you. At · every creation I shall be born as your daughter and
+                        become the beloved of Siva. </li>
+                        <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                        <li> After speaking thus to Daksa the chief Prajapati, the great Goddess immediately vanished even as Daksa was watching </li>
+                        <li>When she· had vanished, he returned to his hermitage. He rejoiced because he knew that the great Goddess would become his daughter</li>
+                           </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+                        notes: [
+                            `* = Daksa, please bear with spelling inconsistencies for some names, e.g. also 'Vishnu' <-> 'Visnu' `,
+                            `253. Yama = self restraint -  1st of eight means of attaining mental concentration`]
+                     }
+                 ]
+                },{
+                    /*
+                    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+                    <em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>
+                    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+                    '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+                    <em><span style="font-weight:900;color:#ff4811;ffont-size:x-large"font-size:larger"> The Goddess Said  </span>
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+                    '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+                    '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+                    <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+                    ' +<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+                    '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+                    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                    <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+                    '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+                    '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+                    <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+                    '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+                    <em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+
+                    ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+                    </li>' +
+                    '<li>
+                    */
+                buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+                buttonText: '13',
+                title: 'SATI-KHAND, NARAD IS CURSED BY DAKSHA',
+                headerStyle: { 'color': '#FFFF00','font-weight': '1900', 'background-color': '#991100', 'text-shadow':'2px 1px darkslateblue','opacity':'0.9'},
+                contentStyle: { 'border':'3px outset blue', 'background-image': 'url("images/rudraSamhita/sati_khand13.jpg")','background-size': 'contain',
+                                'border-radius':'4px',
+                                'padding':'2px',
+                                'color':'orange',
+                                'opacity':'0.5',
+                                'background-color':'skyblue'
+                              } ,
+                subsections: [
+                    { 
+                         subTitle: '',
+                         content: `<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span>
+                         <ol><li>0 Brahma of great intelligence, 0 eloquent one,
+                         please tell us what happened after Daksa went home with
+                         great delight ?' </li>
+                         <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                         <li>Daksa  Prajapati returned with pleasure to his hermitage and began mental creations at my bidding.</li>
+                         <li>On seeing the creation, not increasing in size, Daksa  Prajapati ·informed me his father, Brahma. </li>
+                         <em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+                         <li> m0 Brahma, lord of subjects, these subjects are not flourishing. They are conceived by me but they remain stationary.</li>
+                         <li>0 lord of subjects what shall I do? How can they flourish themselves ? Please instruct me in the means thereof. I shall certainly create subjects.
+                         <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                        <li>0 Prajapati, listen to my weighty words and carry out the direction. Siva will bless you with welfare.</li>
+                        <li>0 lord of subjects, let Asikni, the beautiful daughter of Pancajana, the lord of five tribes, be by you as your consort.</li>
+                        <li>Indulging in sexual intercourse you can create subjects many in number in a beautiful woman like her. </li>
+                        <li> Then, in order to procreate subjects by way of coitu he married the daughter of Vira1,1a at my bidding.</li>
+                        <li>Then in his wife Virini, Daksh Prajapati begot
+                        sons named Haryasva<noteref1_note1footer>(1) - (254)</note></li>
+                        <li>0 sage, all those sons were devoted to their father and followed the Vedic path. They did not have
+                        separate virtues and practices.</li>
+                        <li>Advised by their father, 0 dear one, the sons of
+                        went in the western direction for penance in order to
+                        create subjects (progeny).</li>
+                        <li>There they came to the holy lake Narayana where the celestial Sindhu has its confluence the ocean.</li>
+                        <li>On touching the holy water, their intellect was sharpened. The Dharma of holy ascetics eradicated all their
+                        impurities.</li>
+                        <li>For making progenies flourish, the excellent sons of Daksa fettered by the command of their father began to
+                        perform Tapas with steady resolve.</li>
+                        <li>0 Narada, you came to know that they were performing penance for the sake of creation. You realised the
+                        intention of and went there.</li>
+                        <li>"0 Haryasvas sons of Daksha how is it that you
+                        have begun your attempts at creation without seeing the end
+                        of the earth?" So you asked them with respect. </li>
+                        <li>They heard what you said eagerly. With their
+                        minds fixed on creation they deliberated on the proposal.</li>
+                        <li>How can a person begin the work of creation putting faith in the Gunas alone if he does not know the command of the father of Sacred Texts (which implies) turning
+                        back?</li>
+                        <li>Having made up their minds unanimously, the
+                        intelligent sons bowed to you and circumambulated. They
+                        then proceeded ahead on a path never to turn back.</li>
+                        <li>0 sage Narada, with your mind fixed on Siva, :and
+                        desirous of carrying out His orders you went to various
+                        worlds without any mental aberration. </li>
+                        <li>When much time elapsed, my son Prajapati heard
+                        that the extinction of his sons was due to Narada and became distressed.</li>
+                        <li>He frequently mused like this-" A multitude of sons brings only disaster". Daksa who was deluded by Siva's
+                        illusion bewaiied thus in many ways.</li>
+                        <li>I went over to him and consoled my son out of love and reminded him that fate is all powerful. I
+                        pointed out the way to calmness.</li>
+                        <li>On being consoled by me, Daksa begot a thousand sons named Sabalasvas in the daughter of Pancajana.</li>
+                        <li>At the bidding of their father, they too reached
+                        the place . where their elder brothers, the Siddhas, had gone
+                        ';Vith the same steady resolve in the creation of subjects.</li>
+                        <li>At the very touch of waters of the Nadiyal).a lake they too had their sins quelled and became purified. They
+                        performed penance, strenuously repeating many mantras and
+                        performing sacred rites.</li>
+                        <li>0 Narada, you came to know that they too were attempting the creation of subjects and you told them as
+                        before, mindful of the way of Siva.</li>
+                        <li>0 sage, of beneficient sight, you showed, them the
+                        path followed by their brothers. You went upto heaven and
+                        the sons of Daksa went the way of their brothers.</li>
+                        <li>At the very same time, my son Daskha Prajapati
+                        saw many an ill omen. He was disagreeably surprised and
+                        felt distressed.</li>
+                        <li>As before, heard that the disappearance of
+                        his sons was brought about by you. He bewailed a lot. He
+                        was stunned, grief-stricken at the loss of his sons.</li>
+                        <li>Daksha was furious. He called you a wicked fellow.
+                        Fate caused you to go there at the psychological moment in
+                        the guise of one who wanted to bless him.</li>
+                        <li>The grief-stricken Daksha approached you with his
+                        lips throbbing with fury, taunted you and reproached you
+                        saying "Fie, Fie" and spoke to you. </li>
+                        <em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+                        <li>0 foremost among the base, disguised in the garb of a saint, what Is it that you have done to those good
+                        people-my sons? To those engaged in good actions the
+                        accursed path of a mendicant has been pointed out by
+                        you.</li>
+                        <li>Ruthless rogue that you are, even when they were
+                        not free from the three debts<noteref2_note2footer>(2) - (255)</note></li>you put obstacles in the
+                        path of their progress both here as well as hereafter.</li>
+                        <li> He who renounces the world desiring salvation,
+                        without repaying the three debts and departs from the house
+                        forsaking his parents surely courts downfall.</li>
+                        <li>You are unkind, shameless, distorter of the tender
+                        intellect of children, and a destroyer of fame. Why do you,
+                        a foolish fellow, move about among the attendants of Visnu
+                        in vain ?</li>
+                        <li>Frequently you have committed offences against
+                        me, 0 basest of the base. Hence roaming ever in the worlds
+                        your feet will never be steady anywhere.</li>
+                        <li> Grief-stricken Daksa cursed you thus, you who
+                        are honoured by saints. It was Siva's power of delusion that
+                        prevented him from understanding the will of Isvara. Without your mind being affected the least, you accepted the
+                        curse. All saintly Brahminical saints forbear thus. </li>
+                           </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+                        notes: [`254. Haryasvas were the sons of the patriarch Daksa five thousand
+                            in number, begotten by him for the purpose of peopling the earuh. The
+                            sage Narada dissuaded them from producing offspring and they dispersed
+                            themselves through the regions and never Tetul'ned.`,
+                        `255. Reference is made to the three debts which every person
+                        belonging to first three varJ;tas owes to the ancient seers, the ancestors,
+                        and the Gods. He owes Brahmacarya or study of the Vecilas to the Rishis
+                        sacrifice and worship to the Gods, procreation of a son to the Manes. See
+                        Manu VI. 35. In later times two more debts-benevolence to mankind and
+                        hospitality .to guests are added. ` ]
+                     }
+                 ]
+                }, {
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -1638,7 +1893,7 @@ buttonText: '12',
 title: 'SATI-KHAND, SATI\'S DISHONOR—GIVES UP LIFE ',
 headerStyle: { 'color': 'yellow','font-weight': '1900', 'background-color': 'red', 'opacity':'0.9', 'border': '2px orange outset'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/sati_khand12.jpg")',
+'background-image': 'url("images/rudraSamhita/sati_khand30.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
@@ -1687,7 +1942,7 @@ buttonText: '13',
 title: 'SATI-KHAND,VEERBHARDA CUTS OFF DAKSHA\'S HEAD ',
 headerStyle: { 'color': 'blue','font-weight': '1900', 'background-color': 'aliceblue', 'opacity':'0.9', 'border': '2px slateblue outset'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/sati_khand13.jpg")',
+'background-image': 'url("images/rudraSamhita/sati_khand37.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
