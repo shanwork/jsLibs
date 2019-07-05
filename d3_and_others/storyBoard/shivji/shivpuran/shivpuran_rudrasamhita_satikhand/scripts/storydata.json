@@ -1494,7 +1494,7 @@ Thus after instructing her for her welfare the lord vanished from the scene.
                         <li>As before, heard that the disappearance of
                         his sons was brought about by you. He bewailed a lot. He
                         was stunned, grief-stricken at the loss of his sons.</li>
-                        <li>Daksha was furious. He called you a wicked fellow.
+                        <li>Daksa was furious. He called you a wicked fellow.
                         Fate caused you to go there at the psychological moment in
                         the guise of one who wanted to bless him.</li>
                         <li>The grief-stricken Daksha approached you with his
@@ -1528,14 +1528,79 @@ Thus after instructing her for her welfare the lord vanished from the scene.
                             sage Narada dissuaded them from producing offspring and they dispersed
                             themselves through the regions and never Tetul'ned.`,
                         `255. Reference is made to the three debts which every person
-                        belonging to first three varJ;tas owes to the ancient seers, the ancestors,
+                        belonging to first three varnas owes to the ancient seers, the ancestors,
                         and the Gods. He owes Brahmacarya or study of the Vecilas to the Rishis
                         sacrifice and worship to the Gods, procreation of a son to the Manes. See
                         Manu VI. 35. In later times two more debts-benevolence to mankind and
                         hospitality .to guests are added. ` ]
                      }
                  ]
-                }, {
+                },{
+                    /*
+                    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+                    <em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Lord Shiva said:  </span>
+                    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+                    '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+                    <em><span style="font-weight:900;color:#ff4811;ffont-size:x-large"font-size:larger"> The Goddess Said  </span>
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+                    '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+                    '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+                    <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+                    ' +<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+                    '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+                    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                    <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+                    '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+                    '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+                    <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+                    '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+                    <em><span style="font-weight:900;color:maroon;font-size:larger"> Daksa said:  </span>
+                
+                    ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+                    </li>' +
+                    '<li>
+                    */
+                buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+                buttonText: '14',
+                title: 'SATI-KHAND, THE BIRTH OF SATI AND HER CHILDISH SPORTS',
+                headerStyle: { 'color': '#FFC0CB','font-weight': '1900', 'background-color': '#FF1100', 'text-shadow':'4px 1px maroon','opacity':'0.9'},
+                contentStyle: { 'border':'3px outset blue', 'background-image': 'url("images/rudraSamhita/sati_khand14.jpg")','background-size': 'contain',
+                                'border-radius':'4px',
+                                'padding':'2px',
+                                'color':'orange',
+                                'opacity':'0.5',
+                                'background-color':'skyblue'
+                              } ,
+                subsections: [
+                    { 
+                         subTitle: '',
+                         content: `<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                        <ol><li>In the mean time, 0 celestial sage I, the grandfather of the worlds, came there, on hearing the incident.</li>
+                        <li>I consoled Daksa as before. Clever that I was I made him friendly with you. </li>
+                        <li>0 best of sages, I consoled you-my own son, beloved of the Devas, and taking you with love effected conciliation.</li>
+                        <li>Then Daksa consoled by me, begot of his wife sixty comely daughters.</li>
+                        <li>Without any lassitude he performed their marriages with Dharma and others. 0 excellent sage, listen to that with pleasure.</li>
+                        <li>Daksa gave ten of his daughters duly in marriage to Dharma, thirteen to Kasyapa the sage, and twenty seven to the moon.</li>
+                        <li>He gave two daughters each to Bhrgu, Angiras and Krsasva. The other daughters were given to Tarksya  The sons and grandsons and descendants of these filled the
+                        three worlds. A detailed narration is not attempted here.</li>
+                        <li>Some say that Siva was the eldest of his daughters, some say that she was the middle and some say that she was the youngest. All the three opinions are correct in different Kalpas.</li>
+                        <li>After the birth of his daughter, Prajapati and his wife meditated on the mother of the universe with pleasure.</li>
+                        <li>Then he lovingly eulogised her with words choked at the throat and repeatedly paid respects to her humbly joining the palms in reverence. </li>
+                        <li>The Goddess, who was highly delighted, thought within himself. "l shall incarnate in Virini in order to keep my word".</li>
+                        <li>0 excellent sage, then the mother of the universe spoke to Daksa in mind. Then Daksa shone forth splendidly.</li>
+                        <li>In an auspicious hour he deposited his semen in his wife. Thus full of compassion, Siva began to reside in
+                        the womb of consort.</li>
+                        <li>All the characteristic signs of pregnancy appeared in her.</li>
+                        <li>Dear one, thanks to the power of the presence of Siva, Virini had an auspicious appearance and shone all the
+                        more with mental pleasure. </li>
+                        <li> .. continued</li>
+                           </ol> <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+                        notes: [ ]
+                     }
+                 ]
+                } , {
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -1583,7 +1648,7 @@ content: '<p>Kama tried his best to bring lord Shiva under his influence. All th
 notes: []
 }
 ]
-} , {
+}, {
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
