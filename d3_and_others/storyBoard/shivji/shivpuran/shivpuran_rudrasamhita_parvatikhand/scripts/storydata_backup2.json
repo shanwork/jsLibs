@@ -26,96 +26,7 @@ var defaultContentStyle =   { 'border':'3px outset orange',
               'background-color':'lightgoldenrodyellow'};
 var chapterData = [
     
-  /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
 
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
-<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-<em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
-    
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
-
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/{
-    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: `PARVATI KHAND , THE MARRIAGE OF HIMACALA`,
-    title: `PARVATI KHAND , THE MARRIAGE OF HIMACALA`,
-    headerStyle: { 'color': '#EEEEFF','font-weight': '1900','text-shadow': '1px 3px 2px darkslateblue' , 'background-color': '#DDFEFF', 'opacity':'0.9', 'border':'2px white outset', 'border-radius':'3px;', 'padding': '10px'},
-    contentStyle: { 'border':'3px outset blue',
-    'background-image': 'url("images/rudraSamhita/parvati_khand1.jpg")',
-    'background-size': 'contain',
-    'border-radius':'4px',
-    'padding':'2px',
-    'color':'orange',
-    'opacity':'1.0',
-    'background-color':'skyblue'} ,
-    subsections: [
-    {
-    subTitle: '',
-    content: `(Himacla marries)<noteref1_note1footer>(1) - (1)</note><br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
-    <ol><li>0 Brahma, how did the Goddess Sati, daughter of Daksa who forsook her body in her father's sacrifice, become the daughter of Himacala, and the mother of the Universe?</li>
-    <li>How could she secure Shiva as her husband after performing a severe penance? Please explain this clearly to me, who asks you about it</li>
-    <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
-    <li>0 foremost of sages, dear one, listen to the story of Shiva which is excellent, sanctifying, highly divine, auspicious and destructor of all sins.</li>
-    <li>When the great Goddess Sati, daughter of Daska, was sporting about in the Himalayas with Lord Shiva, Mena<noteref2_note2footer>(2) - (2)</note>, the beloved of Himacala thought she was her own daughter and loved her as a Mother with all kinds of 
-  nourishments.</li>
-    <li>When the great Goddess Sati, daughter of Daska, who had been to her father's sacrifice and who did not receive his due attention became angry and cast off her body, at the same time, Himacala's beloved Mena wanted
-    tp popitiate her in Sivaloka</li>
-    <li>Sati thiought to hersef: "I shall be her daugher" and cast off her body in order to become the daughter of Himacala</li>
-    <li>At the appropriate time, Sati who had cast off her body and who was worshipped and eulogised by the Gods became the daughter of Mena out of sheer joy.</li>
-    <li>On being advised by Narada, the Goddess who was named Parvati, performed a severe penance and thereby secured Shiva as her husband</li>
-    <em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span>
-    <li>O Brahma of great intellect and foremost of eloquent Gods, please tell me the origin and details of the marriage of Mena</li>
-    <li>Blessed indeed is the genle lady Menaka of whom Sati was born as a daughter. Hence that chaste lady is worthy of the honour and blessings of everyone</li>
-    <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
-    <li>Oh sage Narada, you listen to the story of the origin of Parvati's mother and her marriage and other details both santifying and condusive to the growth of devotion.</li>
-    <li>O excellent Sage, there in the Northern region is a mountain called Himavat who is the Lord of mountains and has great splendour and prosperity</li>
-    <li>His twofold aspects - that of a mobile nature and that of the immobile one are well kmown. I succintly describe his subtle form</li>
-    <li>He is beautiful and is the storehouse of multifarous gems. Extending from the eastern to the western ocean, he appears like a measuring rod of the Earth.</li>
-    <li>He abounds in various trees. Being of variegated shape and features, he is adorned by many peaks on him. Lions, tigers and other animals frequent it. Manu happy persons live there for ever</li>
-    <li>He is the storehouse of snow (and yet) very fierce. He is the resort of wonderful things. He is resorted to by Gods, sages and seers. He is a great favorite of Siva</li>
-    <li>He is of a divine form. He is beautiful in every part. he is the unaffected part of Visnu. He is the king of leading mountains and a great favorite of the good
-    </li>
-    <li>Due to the desire for the benefit of the manes and the Gods and for the stabilization of his race as well as for the increase of virtue, Himacala wanted to marry</li>
-    <li>In the company of Uma, Rudra became a householder and the great lord performed divine sports. He of undecaying intellect deluded me even at the time of his marriage.</li>
-    <li>At that time, considering their own interest entirely O excellent sage, the Gods approached the Celestial forefathers and said lovingly to them </li>
-    <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
-    <li>"O ye forefathers, listen to our words with pleasure. If you desire that the affairs of the Gods be fulfilled, you must act accordingly soon"</li>
-    <li>Uniting your eldest daughter Mena of auspicious features with Himacala, a great benefit will accrue to everyone. At every step, the miseries of the Gods, and those of yours as well can be reduced</li>
-    <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
-    <li>On hearing the words of the Gods, pondering over them, and remembering the curse incurred by their daughters, the forefathers said "Tatasthhu"<noteref1_note1footer>(1) - *</note></li>
-    <li>They gave their daughter Mena to Himavat. In that auspicious marriage, there were great festivities</li>
-    <li>Giving many charitable gifts, they made the celebration a great success. They praised the celestial forefathers and Himavat</li>
-    <li>All the Gods and sages rejoiced and returned to their abodes with their hearts set on Siva</li>
-    <li>After receiving many articles as gifts and marrying the beloved lady Mena, the lord of the mountains returned to his abode and rejoiced</li>
-    <li>O excellent sage, the pleasing details of the splendid marriage of Himavat with Mena have been recounted to you thus. What more do you wish to hear?</li>
-    </ol> 
-    <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
-    notes: [
-    `1. Himavat or Himacal is represented in two forms - 1. The mobile, which is the subtle human form, and 2. the immobile, which is the gross stationary form identical to the Himalayes`,
-    `2. Mena or Menaka was the wife of HImavat and Mother of Parvati - she was one of three daughters of Svadha, the wife of Kavi, a class of Pitra. Svadha was one of sixty daughters of Daksa and Prasuti who gave birth to Mena, Dhanya and Kalavati`,
-    `* Amen`]
-    }
-    ]
-    },
     {
     /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
@@ -199,7 +110,7 @@ var chapterData = [
 */
     buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
     buttonText: '2',
-title: 'PARVATI-KHAND, (SUMMARY VERSION ) BIRTH OF PARVATI ',
+title: 'PARVATI-KHAND,BIRTH OF PARVATI ',
 headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/parvati_khand2.jpg")',

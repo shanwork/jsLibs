@@ -25,38 +25,9 @@ var defaultContentStyle =   { 'border':'3px outset orange',
              'opacity':'0.5',
               'background-color':'lightgoldenrodyellow'};
 var chapterData = [
-    
-  /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-'<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
-
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
-<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-<em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
-    
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
-
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/{
+   {
     buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: `PARVATI KHAND , THE MARRIAGE OF HIMACALA`,
+    buttonText: `PARVATI KHAND, THE MARRIAGE OF HIMACALA`,
     title: `PARVATI KHAND , THE MARRIAGE OF HIMACALA`,
     headerStyle: { 'color': '#EEEEFF','font-weight': '1900','text-shadow': '1px 3px 2px darkslateblue' , 'background-color': '#DDFEFF', 'opacity':'0.9', 'border':'2px white outset', 'border-radius':'3px;', 'padding': '10px'},
     contentStyle: { 'border':'3px outset blue',
@@ -115,8 +86,110 @@ var chapterData = [
     `* Amen`]
     }
     ]
-    },
-    {
+    }, 
+  {
+    /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+    <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+    '<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+    '<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+    
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+    '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+    '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+    <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+    ' +
+    '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+    <em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+    <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+    '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+    '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+    <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+    <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+        
+    '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+    '<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+    
+    ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+    </li>' +
+    '<li>
+    */
+      buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+      buttonText: `2`,
+      title: `PARVATI KHAND , MENA AND OTHERS INCUR THE IMPRECATION OF SAGE SANAKA, ETC`,
+      headerStyle: { 'color': '#00EEFF','font-weight': '1900','text-shadow': '1px 3px 2px darkslateblue' , 'background-color': '#003377', 'opacity':'0.9', 'border':'2px white outset', 'border-radius':'3px;', 'padding': '10px'},
+      contentStyle: { 'border':'3px outset blue',
+      'background-image': 'url("images/rudraSamhita/parvati_khand2.jpg")',
+      'background-size': 'contain',
+      'border-radius':'4px',
+      'padding':'2px',
+      'color':'orange',
+      'opacity':'1.0',
+      'background-color':'skyblue'} ,
+      subsections: [
+      {
+      subTitle: '',
+      content: `<span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+      <ol><li>0 Brahma, Intelligent one. please tell me now, reverently, the origin of Mena as well as the imprecation. Please clear my doubts</li>
+      <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+      <li>0 Narada and other sages, dear one, listen to the narrative of the origin on Mena. O excellent son, O great Scholar, I shall mention it now.</li>
+      <li>O sage, I have already told you about my son Daksa, who had sixty daughters all of whom were the instruments of creation</li>
+      <li>He celebrated their marriages with Kasyapa and other bridegrooms. O Narada, now listen to the present story.</li>
+      <li>Amongst those, Savadha was given to the Forefathers. She had three daughters, each with handsome features and virtuous form</li>
+      <li>O sage listen to their Holy names which remove obstacles and confer blesssings</li>
+      <li>Mena was the eldest, Dhanya was the middle one and Kalavati was the youngest. All three were mentally concieved daughters of the Forefathers</li>
+      <li>They were not born of the womb of Svadha, but conventionally considerered here children. On reciting their names, men can achieve their desires</li>
+      <li>The mothers of the worlds are worthy of the reverence of the entire universe always. They are the bestowers of great joy. They are great Yogins. They pervade the 
+      three worlds</li>
+      <li>O excellent Sage, once the three sisters went to Shwetadvipa (white island) in the World of Visnu for sightseeing</li>
+      <li>After bowing to and eulogizing Lord Visnu, they halted there at His bidding. A great concourse of people was held there.</li>
+      <li>O Sage, at the same time, Siddhas sons of Brahma - Sanaka and others came here. They too bowed to and lauded Visnu and stayed there at his bidding</li>
+      <li>On seeing the Sages, Sanaka and others, the persons who had assembled there stood up. When they, the elders of Gods sat down, the people all bowed to them</li>
+      <li>Helpless by misfortune and deluded by Lord Shiva's illusion, the three sisters did not stand up</li>
+      <li>Shive's illusion is weighty and capable of deluding the Worlds. The entire Universe is subservient to it. It is also called Shiva's Will</li>
+      <li>The same is also called an action that has begun to fuctify. Its names are many. Everything takes place on Shiva's wish. There is nothing to be pondered in this respect</li>
+      <li>Becoming victims of this thereof, the sisters did not make obeisance to them. They remained surprised and stunned thereafter seeing them</li>
+      <li>On seeing such a behavior on their part, the Great Sages, Sanaka and others despite being wise became, unbearably furious</li>
+      <em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span>
+      <li>In spite of being the daughers of the Forefathers, you three sisters are foolish, bereft of wisdom nd ignorant of the essence of the Vedas</li>
+      <li>You did not stand up, neither did you pay respect to us. You were haughty and deluded and so evinced a deluded disposition of human beings. <strong>Hence all 
+      three of you shall leave Heaven</strong></li>
+      <li><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+      On hearing this, the chaste maidens got perplexed. They fell at his feet and spoke with their heads bowed down.</li>
+      <em><span style="font-weight:900;color:orange;text-shadow: 3px 3px 2px white;background-color:#FFEEEE;font-size:larger"> The daughters of the Forefathers said:  </span>
+      <li>"O excellent Sage, Ocean of mercy, be please now. Because we were mentally confounded, we did not bow to you.</li>
+      <li> O Brahmin, the result has been achieved. O great Sage it is not your fault. Bless us whereby we shall regain Heavenly abode again"</li>
+      <li><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+      On hearing this, O Dear, the Sage spoke to them. He had been induced by Shiva's illusion to give the redemption from the curse. He was a bit consoled</li>
+      <em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span>
+      <li>"Oh ye three Daughters of the Forefathers, listen with pleasure to my words that will dispel your sorrow and bestow Happiness upon you</li>
+      <li>May the eldest of you become the wife of Himavat, the mountain that is part of Vishnu. Parvati shall be her daughter</li>
+      <li>The second daughter Dhanya shall be the Yogini, the wife of Janaka. Her daugher shall be Mahalaxmi in the name of Sita</li>
+      <li>The youngest, Kalavati, shall be the wife of Vaisya, Vrsabhana. At the end of Dvapar Yug, Radha shall be her daughter</li>
+      <li>The Yogini Mena shall attain the great region of Kailas along with her body and in the company of her husband due to the boon of Parvati</li>
+      <li>Janaka shall be blessed bu Sita born in his race and he shall be a living liberated soul. A great Yogin, he shall attain Vaikuntha</li>
+      <li>Kalavati by virtue of Vrsabhana shall become a living liberated soul and attain Goloka<noteref1_note1footer>(1) - (5)</note> along with her daughter. There is no
+      doubt about it</li>
+      <li>Without adversaty, how can one attain greatness? To persons of good rites, if misery vanishes, happiness is likely to be difficult of access"</li>
+      
+      <li>After saying this, the Sage was freed of his fury on thinking of Siva, the bestower of wisdom, Worldly pleasures and salvation.</li>
+      <li>Listem further to my words always pleasing to you. You are all blessed by Siva's pleasure. Hence all of you will be worthy of honour and respect immediately<li>
+      <li>Mena's daughter, Goddess Parvati. the Mother of the universe shall become Shiva's beloved after performing severe penance.</li>
+      <li>Dhanya's daughter, Sita will become Shree Rama's wife. Based on Worldly conventions she will sport with Rama.</li>
+      <li>Kalavati's daughter, Radha, resident of Goloka shall become the wife of Krishna united with him in secret love</li>
+      <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+      <li>After saying this, the holy Sage, Sanatkumar vanished there itself along with his brothers after he was eulogized duly</li>
+      <li>The three sisters, the mentally conceived daughters of the Forefathers were freed of their sins ad attained happiness. They returned to their residence quickly.</li>
+      </ol> 
+      <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+      notes: [`5. Goloka is a modern addition to the original series of 14 lokas. It is identified with Gokul, a pastoral district on the banks of the Yamuna about Mathura, where Shree Krishna spent his childhood with the cowherds`]
+      }
+      ]
+      }, {
     /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -142,67 +215,11 @@ var chapterData = [
 '<li>
 */
     buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: 'PARVATI KHAND , HIMALAYA MARRIED MAINA ',
-        title: 'PARVATI KHAND , HIMALAYA MARRIED MAINA',
-        headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
-        contentStyle: { 'border':'3px outset blue',
-             'background-image': 'url("images/rudraSamhita/parvati_khand1.jpg")',
-             'background-size': 'contain',
-             'border-radius':'4px', 
-             'padding':'2px',
-             'color':'orange', 
-             'opacity':'0.5',
-              'background-color':'skyblue'} ,
-        subsections: [
-           { 
-                subTitle: '',
-                content: '<p>Narada requests lord Brahma to shed light on the birth of Maina and also too she was married with Himalaya. </p><p>Lord Brahma narrated the following tale-  </p>' +
-                          '<p>"After relinquishing her body, Sati, the daughter of Daksha attained to the abode of Shiva. In her next birth she was born to Maina, the wife of Himalaya and was known as Parvati. Maina had done great service to Sati in her previous life considering as her own daughter. For this reason she was blessed and got Parvati as her daughter. Parvati did tremendous penance and got lord Shiva as her husband." </p>' +
-'<p>Continuing with his story Brahma said-</p>' +
-'<p>"Once Himalaya, the king of the mountains, decided to marry with the desire of expanding his lineage. The deities came to know about his desires and so they went to the Pitras and requested them to give their daughter - Maina, so that Himalaya could marry her. The Pitras agreed at this proposal. Thus Maina got married wih Himalaya. After the marriage ceremony the deities returned back to their respective abodes.  </p>' +
-           '<p>Daksha had sixty daughters, \'Swadha\' was one of them and was married to the Pitras. In due course of time three daughters were born to them - Maina, Dhanya and Kalawati. Once all the three of them went to Swetadweepa to have a darshan of lord Vishnu. Right then, sages like Sanak, Sanadan etc arrived there. Everybody present there stood up in reverence, but Maina, Dhanya and Kalawati could not identify who they were and hence they remained sitting. Not only that, they did not even make any salutations to them. </p>' +
-'<p>The sages became angry and cursed them to be born as humans in their next birth. Maina, Dhanya and Kalawati became very afraid and requested to be pardoned.</p>' +
-'<p>Sages Sanak feeling pity on them told that Maina would become the wife of Himalaya, in her next birth and give birth to Parvati, Similarly Dhanya would be married to king Janaka and Sita would be born to them, similarly Kalawati would be married to Vrishbhan and Radha would be born to them. Sage Sanak also told them, that in this way all three of them would attain to the heaven.</p>' +
-'<p>Brahma told Narada that after getting married with Maina, Himalaya enjoyed a happy married life for a long time.</p>' +
-'<p>Once, lord Vishnu paid a visit to his place, accompanied by all the deities. Himalaya was very pleased by his arrival. After making salutations, he asked for the purpose of their visit. </p>' +
-'<p>The deities revealed to them that very soon the incarnation of Sati - Parvati is going to take birth. </p>' +
-'<p>"Therefore, O Himalaya! Be prepared for that glorious occasion." Said the deities.</p>' +
-'<p>Himalaya was very pleased at this news. The deities started invocating Uma.</p>' +
-'<p>Being pleased by the invocation made by the deities Goddess Uma assured the deities about her arrival in this world. She told that her incarnation would take place in the house of Himalaya and by the virtues of her tremendous penance she would get lord Shiva as her husband. She also told the deities that she was satisfied by the service of Maina, done to her in the previous life. After being assured the deities went back satisfied</p><br/><a href=\'#top\'><strong>Back To Top</strong></a></p>',
-               notes: []
-            }
-        ]
-    } , {
-    /*
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/
-    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: '2',
-title: 'PARVATI-KHAND, (SUMMARY VERSION ) BIRTH OF PARVATI ',
+    buttonText: 'PARVATI-KHAND, (SUMMARY VERSION ) THE BIRTH OF PARVATI',
+title: 'PARVATI-KHAND, (SUMMARY VERSION ) THE BIRTH OF PARVATI ',
 headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/parvati_khand2.jpg")',
+'background-image': 'url("images/rudraSamhita/parvati_khand2s.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
@@ -405,7 +422,7 @@ buttonText: '6',
 title: 'PARVATI-KHAND, ,BIRTH OF TARAKASUR AND HIS PENANCE ',
 headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'yellow', 'opacity':'0.9', 'border': '2px #ff4444 outset'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/parvati_khand6.jpg")',
+'background-image': 'url("images/rudraSamhita/parvati_khand6s.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
@@ -805,7 +822,7 @@ buttonText: '14',
 title: 'PARVATI-KHAND,SHIVA\'S DEPARTURE WITH PARVATI TO KAILASH ',
 headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.9', 'border': '2px #ff4400 outset'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/parvati_khand14.jpg")',
+'background-image': 'url("images/rudraSamhita/parvati_khand14s.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
