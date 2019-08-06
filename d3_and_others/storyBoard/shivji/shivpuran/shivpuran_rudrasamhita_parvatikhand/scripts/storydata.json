@@ -189,7 +189,107 @@ var chapterData = [
       notes: [`5. Goloka is a modern addition to the original series of 14 lokas. It is identified with Gokul, a pastoral district on the banks of the Yamuna about Mathura, where Shree Krishna spent his childhood with the cowherds`]
       }
       ]
-      }, {
+      }, 
+      {
+        /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+        '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+        <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+        '<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span>' +
+        '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+        '<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+        
+        '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+        '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+        '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+        '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+        <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+        ' +
+        '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+        <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+        <em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+        <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+        '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+        '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+        <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+        <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+        <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+        '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+        '<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+        '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+        
+        ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+        </li>' +
+        '<li>
+        */
+          buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+          buttonText: `3`,
+          title: `PARVATI KHAND , GODS PRAISE LORD SHIVA`,
+          headerStyle: { 'color': '#EEFF00','font-weight': '1900','text-shadow': '1px 1px 1px lightgoldenrodyellow' , 'background-color': '#337700', 'opacity':'0.9', 'border':'2px white outset', 'border-radius':'3px;', 'padding': '10px'},
+          contentStyle: { 'border':'3px outset blue',
+          'background-image': 'url("images/rudraSamhita/parvati_khand3.jpg")',
+          'background-size': 'contain',
+          'border-radius':'4px',
+          'padding':'2px',
+          'color':'orange',
+          'opacity':'1.0',
+          'background-color':'skyblue'} ,
+          subsections: [
+          {
+          subTitle: '',
+          content: `<span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> 
+          <ol><li>0 Brahma,the best of eloquent ones, of great wisdom, please tell me. What is the subsequent story of the good auspicious mountain?</li>
+          <li>You have narrated the wonderful story of the auspicious antecedents of Mena. The details of the marital rites are also heard. Please continue the subsequent narrative</li>
+          <li>After marrying Mena, what did the Mountain do afterwards? How was Parvati, Mother of the Universe, born of her?</li>
+          <li>How did she attain Shiva as her husband after performing a servere penance? Narrate all these things in detail regarding the glory of Lord Shiva</li>
+          <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </em></span> 
+          <li>0 Sage, lovingly listen to the auspicious glory of Siva on which even a slayer of Brahmins becomes pure and attains all desires.</li>
+          <li>O Narada. there was great pomp and ceremony in all three Worlds when Himacala returned to his abode after marrying Mena.</li>
+          <li>The delighted Himacala too celebrated a great festival. With good intent, we worshipped and revered Brahmin kinsmen and others</li>
+          <li>The contented Brahmins returned to their respective abodes after blessing them. The kinsmen and others also returned</li>
+          <li>The delighted Himacala sported with Mena in his cosy abode, Nandana<noteref1_note1footer>(1) - (6)</note>, other parts, as well as in several nice places</li>
+          <li>At that time, O sage, Vishnu, the Gods and the noble sages approached the mountain.</li>
+          <li>On seeing them after their arrival, the noble Himacala bowed to them gladly and honoured them with devotion. He praised his own good fortune </li>
+          <li>With head bent down and palms joined in reverence, he eulogized them with great devotion. Himacala's hair stood on end and tears of love fell from his eyes</li>
+          <li>O Sage, after bowing to them, the delighted Himacala spoke thus to Visnu and other Gods</li>
+          <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+          <li>Today my life has become fruitful. My good penance has become fruitful. Today my knowledge has become fruitful. Today my sacred rites have become fruitful.</li>
+          <li>I have become blessed today. My entire kingdom, my wife and family have become blessed. There is no doubt about it</li>
+          <li>Wherefor have you come in a body? Lovingly command me as your own servant.</li>
+          <li><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </em></span> 
+          On hearing these words of Himacala, Visnu and other Gods considered their affair fulfilled and were delighted. They spoke</li>
+          <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+          <li>"O Himacala of great intellect, please listen to our beneficient words. We shall gladly tell you why we are here</li>
+          <li>O Himacala, the mother of the Universe Uma, who was born as Daskha's daughter, Sati, became Rudra's wife and sported with him for a long time on Earth</li>
+          <li>On being disrespeceted by her father, Sati remembered her vow, abandoned her body and entered her own region</li>
+          <li>O Himacala, this story is well known to the world. You too know it. If it takes place it will be an asset to all Gods as well as you. The Gods too will be under your control."</li>
+          <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+          <li>On hearing the words of Visnu and others the delighted Himacala said 'So be it' and worshipped them </li>
+          <li>After intsructing him in the method to be followed with great devotion, they approached Uma, the consort of Lord Shiva</li>
+          <li>They stationed themselves in a good place and remembered the Mother of the Universe and bowing to here, eulogised her with devotion</li>
+          <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+          <li>O Goddess Uma, the mother of the universe, resident of Shivalok, favorite of Shiva, O Great Goddess Durga, we bow to you.</li>
+          <li> With great devotion, we bow to the illustrious Energey, the holy, the tranquil, the holy nourishment and the one with the forms of Mahat and Avyakta</li>
+          <li>We worship you, Siva, the cause of welfare, the pure, the gross, the subtle, the great Goal and the one delighted with the inner and good learning.</li>
+          <li>You are faith, fortitude and prosperity. You alone have control over everything; you are the splendour and energy of the Sun illuminating your own universe</li>
+          <li>We bow to Her who promotes robustness in all the beings of the universe from Brahma to a blade of grass in the whole Cosmos</li>
+          <li>You are Gayatri, Mother of the Vedas, Savitri, Saraswati, the sustenance if the universe, you are the triad of the Vedas having Dharma for its form</li>
+          <li>You are the sleep in all living beings; you are hunger, satiety, thirst, splendour, brilliance and contentment. You are the delighter of everyone for ever</li>
+          <li>To those who perform meritous actions, you are the Goddess of fortune. To the sinners you are the eldest sister, the diety of Ignominy; you are the peace for the universe and the mother sustaining lives</li>
+          <li>You are the essential feature of the five elements. You are Justice in those who uphold Justice. You are endeavour personified.</li>
+          <li>Of the Rigveda you are the invocation; Of the Yajurved, your are the blending knot of the mantras; of Samaveda you are the song and of the Atharvava veda, you are the measure of time, you are the final goal</li>
+          <li>She who is the Tamasik power of all the Gods, She who is visible in the Rasjasika quality of the Creator, she who is heard by us as the benefactress and of the form of Shiva is eulogized here</li>
+          <li>Let us bow to her who is intereted in residing in the Vindhya mountains <noteref2_note2footer>(2) - (7)</note>, who is clever in the playful activity of affording protection Astanga Yoga; who is devoid of
+          cessation and who acks like a raft that enables the crossing of the ocean of worldy existence with its terrible miseries</li>
+          <li>May she be pleased with us, for keeping up the sustenance of the world, she, who in the form of slumber that is extremely exhilarating to all born in the universe, extends pleasure in the nose, eyes, face, arms, chest and the mind.<li>
+           <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+          <li>Thus eulogizing the great Goddess Sati, the mother of the Universe, all of them stood waiting lovingly desirous of seeing her</li>
+          </ol> 
+          <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+          notes: [`6. It is a grove of Indra, lying to the North of Meru`,
+          `7. As Vindhyavasinim dweller in the Vindhyas the Goddess is worshipped at a place where the Vindhyas approach the Ganges, near Mirzapur.`]
+          }
+          ]
+          }, {
     /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -273,7 +373,7 @@ buttonText: '3',
 title: 'PARVATI-KHAND,THE BIRTH OF \'BHAUM\'- MARS ',
 headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.5', 'border': '2px brown outset'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/parvati_khand3.jpg")',
+'background-image': 'url("images/rudraSamhita/parvati_khand3s.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
