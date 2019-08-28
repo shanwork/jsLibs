@@ -289,7 +289,120 @@ var chapterData = [
           `7. As Vindhyavasinim dweller in the Vindhyas the Goddess is worshipped at a place where the Vindhyas approach the Ganges, near Mirzapur.`]
           }
           ]
-          }, {
+          }, 
+          {
+            /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+            '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+            <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+            '<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span>' +
+            '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+            '<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+            
+            '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+            '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+            '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+            '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+            <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+            ' +
+            '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+            <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+            <em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+            <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+            '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+            '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+            <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+            <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+            <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+            '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+            '<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span> ' +
+            '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+            
+            ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+            </li>' +
+            '<li>
+            */
+              buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+              buttonText: `4`,
+              title: `PARVATI KHAND , THE GODDESS CONSOLES THE GODS`,
+              headerStyle: { 'color': '#FF0000','font-weight': '1900','text-shadow': '1px 1px 1px maroon' , 'background-color': 'orange', 'opacity':'0.9', 'border':'2px white outset', 'border-radius':'3px;', 'padding': '10px'},
+              contentStyle: { 'border':'3px outset blue',
+              'background-image': 'url("images/rudraSamhita/parvati_khand4.jpg")',
+              'background-size': 'contain',
+              'border-radius':'4px',
+              'padding':'2px',
+              'color':'orange',
+              'opacity':'1.0',
+              'background-color':'skyblue'} ,
+              subsections: [
+              {
+              subTitle: '',
+              content: `<em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </em></span> 
+              <ol><li>Thus eulogized by the Gods, the Goddess Durga, Mother of the Universe, Destroyer if impassable distress appeared in front of them</li>
+              <li>She was seated in a wonderful divine gem-set chariot over which a soft cushion had been spread and which was decorated with tinkling ornaments</li>
+              <li>She was shining with the brilliance of her limbs that surpassed the lustre of even a crore of suns. She was surrounded by a halo created by her own lustre. She was of symetrical splendour.</li>
+              <li>She was the unequalled supreme illusion. She was the beautiful wife of SadaShiva. She had all three qualities and was devoid of attributes<noteref1_note1footer>(1) - (8)</note> also she has been staying in the region 
+              of Siva</li>
+              <li>She was the mother of the three dieties<noteref2_note2footer>(2) - (9)</note>, Chandi, Siva, the destroyer of distress of all, the mother of all supreme slumber and redeemer of all her own people</li>
+              <li>Shiva was seen by the Gods through the power of a huge column of brilliance. Again the Gods eulogized her in order to havbe a sight of her.</li>
+              <li>Then Vishnu and other Gods who were desirous of seeing her saw the Mother of the Universe there itself after receiving her favour</li>
+              <li>The dwellers of Heaven were extremely pleased, they bowed to her again and again and particularly eulogized her.</li>
+              <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+              <li>O Siva, O Great Goddess, O mother of the universe we Gods bow to you, the destroyer of all distress</li>
+              <li>O Goddess, neither the Vedas, nor the sacred texts know you perfectly. Your greatness, O Siva, is beyond the scope of speech and mind and cannot even be
+              meditated on</li>
+              <li>Even the Vedas mention you, trembling with fright, by negating what you are not. What will be the matter in regard to the others?</li>
+              <li>Many devotees know the same after getting your favor through devotion. There is no cause for fear in the devotees who seek refuge in you.</li>
+              <li>O great Goddess listen to our submission, which we, your slaves for ever, are going to explain.</li>
+              <li>Formerly you were born as the daughter of Daksa and married to Siva. You destroyed the great misery of Shree Brahma and others</li>
+              <li>Being disrespected by your father, you cast off your body in accordance with your vow. You then went to your own world and Siva became miserable.</li>
+              <li>O great Goddess, the purpose of the Gods has not been completely carried out. The Sages are agitated. Hence we Gods have sought refuge in you.</li>
+              <li>O great Goddess, please fulfile the desire of the God, O  Shiva, so that the words of Sage Sanatkumara may be fruitful.</li>
+              <li>O Goddess, incarnating again on Earth, please be the wife of Rudra(Siva) again. Carry on your sport in a fitting manner and let the Gods be happy.</li>
+              <li>O Goddess, may Rudra too, the resident of Kailas be happy. Let all be happy. Let misery perish entirely</li>
+              <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </em></span> 
+              <li>Saying so, Visnu and the other Gods, full of loving devotion remained waiting silently and humbly</li>
+              <li>Siva too was delighted on hearing the eulogy of the Gods and ascertaining the course of the same after remembering her Lord Siva, the compassionate Uma addressed smilingly, the Gods, chief of whom was 
+              Visnu. The Goddess favorably disposed to her devotees said</li>
+              <em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Uma said:  </span>
+              <li>O Visnu, O Brahma, O Gods and sages who are free from sorrow and pain you listen to my words. I am delighted undoubtedly.</li>
+              <li>My activities are condusive to happiness everywhere in the three worlds. The delusion of Daksa and other things were carried out by me alone</li>
+              <li>I shall take a full incarnation on the Earth. There is no doubt in this. There are also many reasons for the same. I shall mention them with respect</li>
+              <li>Formerly, O Gods, with great devotion, Himacala and Mena rendered service to me in my life as Sati, like my parents</li>
+              <li>Even now they continuously render me service abd Mena particularly (does so). There is no doubt about my becoming their daughter.</li>
+              <li>Just as you, Rudra too, desires my incarnation in the abode of Himavat. Hence I shall incarnate. That shall be the end of misery in the world.</li>
+              <li>All of you return to your abodes. You shall be happy for a long time. After incarnating, I shall give Mena full happiness</li>
+              <li>I shall become Siva's wife. But this desire is a great secret with me. Siva's divine sport is wonderful. It deludes even the wise</li>
+              <li>Ever since I cast of my body born of Daksa, on seeing my Lord's disrespect at the hands of my father at the altar of sacrifice, my Lord Rudra is tormented by thoughts about me.</li>
+              <li>He saw my anger at the altar of my father's sacrifice. Thinking that the virtuous lady had cast off her body out of love for him, he became a Yogin and abandoned
+              home life. He assumed an unearthly form and features. But he could not bear my separation</li>
+              <li>On the account of me he was much distressed. He put on an abnormal dress. Ever since he forsook the excellent pleasure of love</li>
+              <li>Hear further, O Visnu, O Brahma, O Sages and O Gods, the divine sports of the Supreme Lord Shiva that protect the Universe</li>
+              <li>Oppressed by the pangs of bereavement, he wreathed a garland of my bones. Although he is the sole enlightened God, he could not get peace anywhere</li>
+              <li>Like a non God, like a helpless creature, he roamed about here and there and cried aloud. The Lord himself could not distinguish between proper and improper.</li>
+              <li>The Lord Shiva did this just to show the behavior of a love-lorn lover. He blabbered like a lover in depair due to separation.</li>
+              <li>But really the Supreme Lord has no aberrations, is not distressed and remains unconquered. My master Shiva is perfect, Lord of all, 
+              and controller of illusion.</li>
+              <li>He is not tarnished by illusion. Of what avail are illusion, love and other emotions for Him?</li>
+              <li>Rudra, the Lord, is anxious to marry me and hence my incarnation on Earth at the residence of Mena and Himavat, O Gods.</li>
+              <li>In order to propitate Rudra, I shall incarnate as the daughter of Mena, wife of Himavat, in accordance withe the ways of the World.</li>
+              <li>After performing severe penance as His devotee, I shall become Rudra's beloved and perform the work of the Gods. This is the truth,
+              real truth; there is no doubt about it.</li>
+              <li>All of your return to your abodes. Continuously worship Lord Shiva. Undoubtedly your miseries will be quelled by His favor</li>
+              <li>By the grace of the merciful Lord Shiva, you will achieve auspicious results. As His wife, I shall be honoured and worshipped in the World</li>
+              <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+              <li>O dear, even as the Gods were watching, Siva, the Mother of the Universe, vanished after saying this and returned immediately to her world.</li>
+              <li>After making obeisance in the direction She went, the delighted Shree Vishnu and others - Sages and Gods - returned to their abodes</li>
+              <li>O excellent Sages, thus I have narrated to you this auspicious narrative of the Goddess Durga. It is always pleasing to men and it bestows worldly
+              pleasures and salvation.</li>
+              <li>Whoever hears or recites this with concentration, reads or teaches this will obtain the fruits of all desires.</li>
+              </ol> 
+              <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+              notes: [`8. As the personified energy of the Gods Brahma, Visnu, Rudra representing the three qualities Satva, Rajas, Tamas, the Goddess is called Triguna, ie possessed of three qualities. But as the
+                personified energy of Siva, who is the Supreme Being, devoid of attributes, she is called Nirguna`,
+              `9. She is the Mother Goddess of Visnu, Brahma and Rudra, the synthetic form of three qualities responsible for the creation, maintenance and dissolution of the Universe.`]
+              }
+              ]
+              }, {
     /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -420,7 +533,7 @@ buttonText: '4',
 title: 'PARVATI-KHAND,SHIVA ARRIVES AT HIMALAYA AND CONVERSATION WITH PARVATI ',
 headerStyle: { 'color': '#b22222','font-weight': '1900', 'text-shadow': '1px 1px 1px #ff0000','background-color': '#ffa500', 'opacity':'0.8', 'border': '2px brown outset'},
 contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/parvati_khand4.jpg")',
+'background-image': 'url("images/rudraSamhita/parvati_khand4s.jpg")',
 'background-size': 'contain',
 'border-radius':'4px',
 'padding':'2px',
