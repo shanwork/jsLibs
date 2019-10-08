@@ -655,61 +655,90 @@ var chapterData = [
                       ]
                       }
                       ]
-                      }, {
-    /*
-'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
-'<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
-'<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
-
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
-'<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
-'<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
-'<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
-<span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
-' +
-'<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
-<em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
-'<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
-'<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
-<br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
-'<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
-
-''<noteref2_note1footer>(2) - (17)</note>-->'  +
-</li>' +
-'<li>
-*/
-    buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-    buttonText: 'PARVATI-KHAND, (SUMMARY VERSION ) THE BIRTH OF PARVATI',
-title: 'PARVATI-KHAND, (SUMMARY VERSION ) THE BIRTH OF PARVATI ',
-headerStyle: { 'color': 'darkblue','font-weight': '1900', 'background-color': 'skyblue', 'opacity':'0.5'},
-contentStyle: { 'border':'3px outset blue',
-'background-image': 'url("images/rudraSamhita/parvati_khand2s.jpg")',
-'background-size': 'contain',
-'border-radius':'4px',
-'padding':'2px',
-'color':'orange',
-'opacity':'0.5',
-'background-color':'skyblue'} ,
-subsections: [
-{
-subTitle: '',
-content: '<p>Himalaya and Maina commenced their penance with the objective of getting Uma as their daughter. Maina did a tremendous penance which lasted for twenty-seven years. </p>' +
-'<p>Goddess Uma became very pleased by her penance. She appeared before her and asked her to demand anything she wished for. Maina expressed her desire of having one hundred valiant sons and a daughter, who would be worshipped by the people in all the three worlds.</p>' +
-'<p>Goddess Uma blessed her by saying Tathastu. Maina narrated this incident to her husband Himalaya. He became very pleased. In due course of time one hundred sons were born t o Maina. One of the sons was Mainak who possessed supreme qualities. Due to some reasons, Indra had severed the wings of Mainak\'s ninety-nine brothers, but by taking the refuge of ocean Mainak was able to survive the assault of Indra\'s Vajra.</p>' +
-'<p>Himalaya and Maina engaged themselves in the worship of Shiva and Shakti, day and night. After some days Parvati manifested herself by taking birth. After her birth the whole mountaneous region of Himalaya became illuminated by her radiance.</p>' +
-'<p>After taking her birth, Parvati gradually started growing up. Varioua names given to her like Girja, Uma, and Jagdamba. Himalaya and Maina felt proud of their fate, which had made them the parents of an incarnation. Seeing the childhood plays of Uma, their hearts knew no bounds.</p>' +
-'<p>One day sage Narada arrived there Himalaya requested him to study the palm of Parvati, as he was curious to know about her future. After studying the lines of the palm, Narada predicted that Parvati was destined to be the wife of an entity, who would be beyond the reach of all the three qualities. He also revealed to them, that her husband would be devoid of any flaws and would be self born-Rudra.</p>' +
-'<p>Narada told Himalaya that to have Rudra as her husband, Parvati will have to accomplish great austerities and penance. Narada then went away.</p>' +
-'<p>When Uma had attained the marriagable age, Maina requested her husband a suitable bridegroom for her. Himalya told her that the words of Narada would never go in vain hence Uma should be asked to do penance, so that she could have Rudra as her husband.</p>' +
-'<p>But Maina was disinclined in forcing her tender daughter - Parvati in to such hardhsips like penance. Parvati then told Maina about her dream, in which she had seen a brahmin instructing her to do penance in order to have Rudra as her husband.</p>' +
-'<p>Maina told Himalaya about Parvati\'s dream. Himalaya then revealed to Maina about his own dream, in which he had seen lord Shiva doing penance at Kailash mountain. He had tried to give Parvati to him (Shiva) was unwillingly to have her service. But Shiva ultimately changed his mind after being satisfied by Parvati\'s replies.</p>' +
-'<p>Himalaya said- "I saw in my dream that Parvati had pleased Shiva by her tremendous penance and ultimately both of them got married. Maina was satisfied and waited eagerly for that auspicious moment</p>' ,
-notes: []
-}
-]
-}  ,{
+                      }, 
+                      {
+                        /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+                        '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+                        <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                        '<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span></em>' +
+                        '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+                        '<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+                        
+                        '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+                        '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+                        '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+                        '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+                        <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+                        ' +
+                        '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+                        <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                        <em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+                        <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+                        '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+                        '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+                        <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+                        <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+                        <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+                        <em><span style="font-weight:900;color:maroon;font-size:larger"> Mena said:  </span></em>
+                          
+                        '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+                        '<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span></em> ' +
+                        '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+                        
+                        ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+                        </li>' +
+                        '<li>
+                        */
+                          buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+                          buttonText: `7`,
+                          title: `PARVATI KHAND , THE CHILDHOOD SPORTS OF PARVATI`,
+                          headerStyle: { 'color': 'green','font-weight': '1900', 'background-color': 'cyan'},
+                          contentStyle: { 'border':'3px outset blue',
+                          'background-image': 'url("images/rudraSamhita/parvati_khand7n.jpg")',
+                          'background-size': 'contain',
+                          'border-radius':'4px',
+                          'padding':'2px',
+                          'color':'orange',
+                          'opacity':'1.0',
+                          'background-color':'skyblue'} ,
+                          subsections: [
+                          {
+                          subTitle: '',
+                          content: `<ol>
+                          <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                          <li>The Goddess of great brilliance assumed the form of her baby in front of Mena and began to cry in accordance with the ways of the World.</li>
+                          <li>On account of her splendour that diffused all around the lying in couch, the midnight lamps that burnt in the lying in chamber were rendered dim in a trice, O Sage</li>
+                          <li>The women of the house were extremely glad on hearing the gentle cry of the child. In their excited flutter and great pleasure, they rushed in.</li>
+                          <li>The superintendent of the harem immediately informed the king about the birth of Parvati which was pleasant and conducive to the work of the Gods.</li>
+                          <li>To the superindendent of the harem who brought the news, there was nothing the king could not give even including his toyal white umbrella</li>
+                          <li>Accompanied by the chief priest and learned Brahmins, the lord of the mountains came there and saw the child who shone in her lovely clothes</li>
+                          <li>The lord of the mountains rejoiced on seeing the child shining in dark splendor like that of a the blue lotus</li>
+                          <li>All the citizens there, both men and women rejoiced much. There were great festivities. Different sorts of musical instruments were played.</li>
+                          <li>Auspicious songs were sung. The dancing girls exhibited their saltatorial skill. The Lord of the mountains performed post natal sacred rites and made charitable gifts to the Brahmins</li>
+                          <li>Himavat came to the outer gate and joined the festivities. With delighted mind, he ditributed monetary gifts to the Brahmins.</li>
+                          <li>In an auspicious hour, in the company of Sages, Himavat names his daughter Kali and assigned other pleasing names to her.</li>
+                          <li>He gave charitable gifts to Brahmins out of love and respect. Varieties of festivities were gone through with suitable music.</li>
+                          <li>Though he had many sons, the lord of the Mountain and his wife rejoiced more on seeing Kali frequently, after these celebrations</li>
+                          <li>There in the palace of the Lord the Goddess Siva grew up like Ganga in the rainy season and like the moon light in Autumn</li>
+                          <li>The Goddess Kali of exquisite body and comely appearance aquired more and more splendour like the disk of the moon acquiring more and more digits day by day</li>
+                          <li>The child was fondly attached to every member of the family. Hence the kinsmen called her Parvati, a name befitting her family. The girl has all the qualities of good conduct and behavior.</li>
+                          <li>Afterwards when Kali wanted to perform a penance, she was forbidden by her mother who said, "O no (U ma)" Hence O sage the sweet faced lady came to be called Uma in the world.</li>
+                          <li>Although he had many sons, the eyes of the mountain were never satiated on seeing the child Parvati endowed with good fortune. In the spring season, there may be many flowers in full bloom,
+                          but the swarms of bees, O excellent Sage, are specially drawn to the Mango Blossom.</li>
+                          <li>The Mpuntain Himalaya was both embellished and sancitified by his daughter like a learned man by his speech of grammatical purity.<br/>
+                          Just as a lamp in the house is praised by leaping flames of brilliance, just as the path of the good by the Ganga, so also the Lord of the Mountains was respected on account of Parvati</li>
+                          <li>During her childhood, the Goddess played frequently on the sandy banks of the Ganga in the middle of her playmates with balls and dolls</li>
+                          <li>O Sage, the Goddess Siva when the suitable time for her education arrived, learnt all the lores from a good perceptor, with concentrated mind and great pleasure.</li>
+                          <li>Just as the flock of swans returns to the Ganga in the autumnal season and just as the brilliant lustre manifests itself in the medicinal herbs during the night, so also all the learning of the
+                          previous birth retured to Kali.</li>
+                          <li>O sage, this I have described one of the divine sports of Siva. I shall narrate another of her divine sports. You listen to it lovingly.</li>
+                          </ol> 
+                          <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+                          notes: [
+                          ]
+                          }
+                          ]
+                          }  ,{
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
