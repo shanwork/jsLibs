@@ -738,7 +738,131 @@ var chapterData = [
                           ]
                           }
                           ]
-                          }  ,{
+                          }  , 
+                          {
+                            /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+                            '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+                            <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                            '<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span></em>' +
+                            '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+                            '<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+                            
+                            '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+                            '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+                            '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+                            '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+                            <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+                            ' +
+                            '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+                            <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                            <em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+                            <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+                            '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+                            '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+                            <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+                            <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+                            <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+                            <em><span style="font-weight:900;color:maroon;font-size:larger"> Mena said:  </span></em>
+                              
+                            '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+                            '<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span></em> ' +
+                            '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+                            
+                            ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+                            </li>' +
+                            '<li>
+                            */
+                              buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+                              buttonText: `8`,
+                              title: `PARVATI KHAND , NARADA - HIMALAYA CONVERSATION`,
+                              headerStyle: { 'color': 'maroon','font-weight': '1900', 'background-color': 'orange','border': '3px outset crimson','margin':'2px', 'border-radius':'5px'},
+                              contentStyle: { 'border':'3px outset blue',
+                              'background-image': 'url("images/rudraSamhita/parvati_khand8n.jpg")',
+                              'background-size': 'contain',
+                              'border-radius':'4px',
+                              'padding':'2px',
+                              'color':'orange',
+                              'opacity':'1.0',
+                              'background-color':'skyblue'} ,
+                              subsections: [
+                              {
+                              subTitle: '',
+                              content: `<ol>
+                              <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                              <li>Once induced by Siva, you went to the abode of Himalaya lovingly, you who have the knowledge of Siva and who are the foremost amongest those who know the divine sports of Siva.</li>
+                              <li>O Sage Narada, on seeing you the Lord of the mountains bowed to you and worshipped you. He called his daughter and asked her to fall at your feet.</li>
+                              <li>O excellent Sage, he bowed to you again. Himavat joined his palms in reverence and bent his head considering it his duty and spoke to you:</li>
+                              <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+                              <li>O Sage Narada, of good knowledge, O Lord, foremost amongst the sons of Shree Brahma, you are omniscient. You are sympathetic. You are
+                              engaged in rendering help to others</li>
+                              <li>Please read the horroscope of my daughter and tell me about her good and bad fortune. Whose beloved wife will mt fortunate daughter be?</li>
+                              <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                              <li>O excellent Sage, being thus requested by Himavat the Lord of the mountains, You looked at Kali's palms and limbs as well.O Dear, you are wise. You 
+                              know many facts. You are eloquent in speech. You then spoke.</li>
+                              <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span></em>
+                              <li>"O Mena, O King of the mountains, this daughter of yours has all auspicious signs. Like the first digit of the moon, she will increase day by day.</li>
+                              <li>She will delight her husband and heighten the glory of her husband. She will be a good chaste lady. She will grant bliss to everyone always.</li>
+                              <li>I see all good signs in the palm of your daughter, O Lord of the mountains. There is an abnormal line also. Listen to the indication thereof.</li>
+                              <li>Her husband will be a naked Yogin without any qualities. He will be free from lust, He will have neither mother nor father. He will be indifferent to honours. His dress and 
+                              manners will be inauspicious."</li>
+                              <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                              <li>On hearing your words the couple thought them true. Both Mena and Himawat were much distressed</li>
+                              <li>O Sage, on hearing your words, and inferring that indications referred to Shiva, Parvati's joy knew no bounds.</li>
+                              <li>Convinced that Narada's words could not be false, Siva turned her mind and love to Lord Shiva's feet.</li>
+                              <li>The Lord of the Mountains who was much grieved in mind, spoke to you: <br/>
+                              "O Narada, O Sage, what is the way out? What shall I do? a great misery has befallen us"</li>
+                              <li>On hearing him, O Sage you would ate eloquent in speech delighted Himavat by your sweet words of auspicious import and spoke to conole him</li>
+                              <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span></em>
+                              <li>"O Lord of the mountains, listen to my words with affability they are true. They cannot be false. The lines in the palm are the lines of Brahma. They cannot be untrue.</li>
+                              <li>There is a bridegroom like that. He is Lord Shiva who has sportively assumed a physical form.In Him all bad characteristics and equal to good characteristics.</li>
+                              <li>In a majestic person, a defect does not produce misery. It may well cause misery in a non-majestic person. Sun, Fire (Agni) and Ganga may be cited as examples</li>
+                              <li>Hence you give your daughter in marriage to Shiva. This will be a wise step. Lord Shiva who is the sole Lord, unchanging and without aberrations is worthy of being resorted to.</li>
+                              <li>By performing penance, Shiva can be propitiated quickly and He will accept Her undoubtedly.</li>
+                              <li>In every respect, Shiva, the Lord of all is the most suitable person. He cannot be slain even by thunderbolts. He can render Brahma and others distressed<noteref1_note1footer>(1) - (17)</note></li>
+                              <li>O dear Sage, after saying this, you continued. You delighted him with auspicious words. You spoke to the King of the Mountains.</li>
+                              <li>"O Lord of the Mountains, she will be the wife of Shiva and remain his favorite always. She will be a chaste lady of good rites. She will increase the pleasure of her parents.</li>
+                              <li>Performing a penance, she will fascinate Shiva's mind towards herself. He too will marry none except her</li>
+                              <li>A love akin to this pair will not be found anywhere (else). Never in the past was it seen nor will it occur in future. Nor is it current now</li>
+                              <li>O Best of the Mountains, the two will fulfill the work of the Gods. They will resuscitate those who breathed their last. </li>
+                              <li>O Lord of the Mountains, Shiva will become Ardhanarisvara(half male, half female) with your daughter forming half part of his body. Their meeting will once again be delightful.</li>
+                              <li>After propitiating Lord Shiva, the Lord of All, by the power of her penance, your daughter will take away half the body of Shiva.</li>
+                              <li>By propitiating Lord Shiva. with her penance, your daughter will aquire the lustre of gold and be known as SvarnaGauri. Your daughter will be as fair complexioned as lightning.</li>
+                              <li>The girl will be famous in the name of Gauri. She will deserve the respect of Shree Vishnu, Brahma and the other Gods.</li>
+                              <li>O Excellent Mountain, you shall not give her to anyone else. This is a secret of the Gods. This shall not be revealed to anyone else "</li>
+                              <li>O Celestial Sage, Narada, on hearing these words that you spoke, the eloquent Himavat spoke thus:</li>
+                              <span style="font-weight:900;color:crimson;font-size:larger"> Himavat said:  </span>
+                              <li>O sage Narada, O intelligent one, I have one submission to make. Please listen to it lovingly and make us delightful.</li>
+                              <li>It is heard that the great God abhors all attachments. He has perfect self-control. He is ever busy in penance and is out of reach of even the Gods</li>
+                              <li>O Celestial sage, He is in the path of meditation. How can He withdraw His mind from the supreme Brahman? I have great doubt in this respect</li>
+                              <li>The supreme Brahman is great and imperishable. It is like the streak of a lamp. It is termed Sadasiva. It is without
+                              aberration. It is beyond Brahma. It is both full and devoid of qualities. It is has no special traits, no desires. It sees within and not without.</li>
+                              <li>O Sage from the Kinaras who come here, such are the things heard about Him. Can it be untrue?</li>
+                              <li>This is also said that Shiva had entered into a contract with the lady Sati. Listen to what I say?</li>
+                              <li>"O Sati, Daksayami, my beloved, I shall not take the hand of any woman except you as my wife. This is the truth that I say"</li>
+                              <li>This was the agreement that he made with Sati formerly. She is dead. How then will He take another woman to be His Wife?</li>
+                              <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                              <li>After saying these words, the Lord of the mountains kept quiet in your presence. O celestial Sage on hearing that, you spoke words that revealed the truth.</li>
+                              <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span></em>
+                              <li>"O Lord of the mountains, of great intellect, you need not worry. This daughter of yours, Parvati, was formerly the daughter of Daksa</li>
+                              <li>Sati is her auspicious name. Sati who was Daksa's daughter became Rudra's wife.</li>
+                              <li>Being dishonoured at the sacrifice of her father, and being the witness of Shiva's dishonour, she was furious and cast off her body</li>
+                              <li>She herself is born in your house as Parvati. There is no doubt that she will become Shiva's wife"</li>
+                              <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                              <li>O Sage, all these details you mentioned to the lord of the mountains . You told the previous history of Parvati that increased her pleasure and on hearing which, the lord of the 
+                              mountains, his wife and children were freed from all suspicions.</li>
+                              <li>On hearing the story from Narada, Parvati bent down her head in bashfulness but her smile heightened the beauty of her face.</li>
+                              <li>On hearing the story, the lord of the mountains stroked her fondly, kissed her on the head and placed her on his seat</li>
+                              <li>O Sage on seeing her seated there, you spoke again delighting the lord of Mountains, Menaka and her sons:</li>
+                              <li>"O king of the mountains, she will have a better throne than this. Shiva's thigh will be her permanent abode. On getting the seat on the thigh of Shiva, your daughter will go to the world 
+                              where no eye or mind can reach"</li>
+                              <li>O Narada, after saying this to the lord of the mountains, you went to heaven immediately. The lord of the mountains too, whose mind was filled with joy, returned to his palace endowed with all riches </li>
+                              </ol> 
+                              <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+                              notes: [`17. Translation based on 'KulishaiRapyaVidhwaunsi Brahmadinakaprad'`,
+                              ]
+                              }
+                              ]
+                              },{
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
@@ -764,8 +888,8 @@ var chapterData = [
 '<li>
 */
 buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
-buttonText: '3',
-title: 'PARVATI-KHAND,THE BIRTH OF \'BHAUM\'- MARS ',
+buttonText: '--> (Summary version) 3',
+title: '--> (Summary version) PARVATI-KHAND,THE BIRTH OF \'BHAUM\'- MARS ',
 headerStyle: { 'color': 'red','font-weight': '1900', 'background-color': 'pink', 'opacity':'0.5', 'border': '2px brown outset'},
 contentStyle: { 'border':'3px outset blue',
 'background-image': 'url("images/rudraSamhita/parvati_khand3s.jpg")',
