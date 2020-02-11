@@ -862,7 +862,213 @@ var chapterData = [
                               ]
                               }
                               ]
-                              },{
+                              } , 
+                              {
+                                /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+                                '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+                                <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                                '<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span></em>' +
+                                '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+                                '<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+                                
+                                '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+                                '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+                                '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+                                '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+                                <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+                                ' +
+                                '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+                                <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                                <em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+                                <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+                                '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+                                '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+                                <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+                                <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+                                <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+                                <em><span style="font-weight:900;color:maroon;font-size:larger"> Mena said:  </span></em>
+                                  
+                                '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+                                '<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span></em> ' +
+                                '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+                                
+                                ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+                                </li>' +
+                                '<li>
+                                */
+                                  buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+                                  buttonText: `9`,
+                                  title: `PARVATI KHAND , PARENTS ADVISE PARVATI TO PROPIATE SHIVA, WHO APPEARS BEFORE PARVATI IN DREAM`,
+                                  headerStyle: { 'color': '#777A7A','font-weight': '1900', 'background-color': 'silver','border': '5px inset #7A7B7B','margin':'2px', 'border-radius':'5px'},
+                                  contentStyle: { 'border':'3px outset blue',
+                                  'background-image': 'url("images/rudraSamhita/parvati_khand9n.jpg")',
+                                  'background-size': 'contain',
+                                  'border-radius':'4px',
+                                  'padding':'2px',
+                                  'color':'orange',
+                                  'opacity':'1.0',
+                                  'background-color':'skyblue'} ,
+                                  subsections: [
+                                  {
+                                  subTitle: '',
+                                  content: `<ol>
+                                  <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span></em>
+                                  <li>O Brahma, O Dear one, O foremost amongst the devotees of Shiva, take pity on me. You have narrated a wonderful story to me and have increased my pleasure thereby</li>
+                                  <li>O Brahma, when I of divine vision had gone to my abode, what happened thereafter? Please tell me now</li>
+                                  <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                                  <li> After you had gone to Heaven, some time passed, Once Mena approached the Lord of the Mountains and bowed to him. </li>
+                                  <li> After waiting there for some time in humility, the beloved of the Mountains addressed her lord; the chaste lady who loved her daughter as ardently as her own life spoke to the
+                                  Lord of the mountains thus:</li>
+                                <em><span style="font-weight:900;color:maroon;font-size:larger"> Mena said:  </span></em>
+                                <li>"As but is natural to women, the words of the Sage have not been understood by me well. (I think it is better) that you perform the marriage of our daughter with a handsome bridegroom</li>
+                                <li>Let the bridegroom of Parvati be born og a good family endowed with good characteristic signs. In every respect that marriage will yield an unprecedented  happiness.</li>
+                                  <li>Obeisance to you. Do everything neccessary to make our daughter, as beloved as our lives, very happy and delighted after being united with a good bridegroom."</li>
+                                  <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                                  <li>After saying this, with tears in her eyes, Mena fell at the feet of her husband. Raising her, the lord of the Mountains, the most excellent amongst all intelligent men, made a true statement</li>
+                                  <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+                                  <li>O gentle lady Menaka, listen. I shall tell you the truth. Do not be under false impressions. The Sage's statements will never be false.</li>
+                                  <li>If you feel affection towards your daughter, zealously instruct your daughter. Let her perform the penance with Shiva as the Object, devoutedly and steadily </li>
+                                  <li>If Shiva is delighted, O Menaka, he will marry her. Everything will be auspicious. The inauspicious features indicated by Narada will perish</li>
+                                  <li>All inauspicious things are auspicious in Sadasiva. Hence immediately teach your daughter to hasten to perform the penance for attaining Shiva</li>
+                                  <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                                  <li>On hearing these words of the Lord of the Mountains. Mena was greatly delighted. She approached her daughter to advise her to take interest in penance</li>
+                                  <li>On seeing the tender limbs of her daughter, Menaka was greatly distressed.  Her eyes welled up with tears immediately.</li>
+                                  <li>The beloved of the lord of the Mountains was unavailable to advise her daughter to perform penance. Parvati understood the implied wish of her mother quickly</li>
+                                  <li>Then the omniscient supreme Goddess Parvati immediately spoke to her mother after consoling her again and again.</li>
+                                  <em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>
+                                  <li>O mother, of greate inetlligence, listen in the early dawn today. At night I had a dream, I shall tell you. Be pleased.</li>
+                                  <li>A Brahmin sage advised me lovingly and compassionately to perform the penance of Shiva, O mother.</li>
+                                  <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                                  <li>On hearing that, Menaka called her husband there and told him the dream as seen by her daughter</li>
+                                  <li>After hearing the dream of his daughter from Menaka, the lord of the mountains was pleased and he spoke thus to his wife.</li>
+                                  <span style="font-weight:900;color:crimson;font-size:larger"> The Lord of the Mountains said:  </span>
+                                  <li>O Dear, at the end of the latter half of this night, I too had a dream. Please listen to it lovingly. I shall zealously explain it</li>
+                                  <li>A great saint of exquisite limbs, as mentioned by Narada arrived at my city with very great pleaseure in order to performance penance there</li>
+                                  <li>Delighted much, I took my daughter there with me. He was recognized as Lord Shiva, the bridegroom, as mentioned by Narada</li>
+                                  <li>Advising our daughter to render service to that saint, I requested him to approve of it. He didnt.</li>
+                                  <li>A great discussion took place (between her and Shiva) based on Sankhya and Vedanta <noteref1_note1footer>(1) - (19)</note> Thereafter at His bidding, my daughter stayed there</li>
+                                  <li>Concealing her love in the heart, She served Him with devotion. This is the dream I had, O bright faced lady and I have told you all</li>
+                                  <li>Hence, dear Mena, for some time the result of this has to be watched. Certainly know this to be the proper step for me</li>
+                                  <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                                  <li>O excellent sage, the lord of the Mountains having thus explained to Menaka, both of them remained watching its result, pure in mind.</li>
+                                  <li>When a few days passed by Lord Shiva, the goal of saintly men, the cause of protection and enjoyment wandering here and there and in his flutter and excitement due to the separation from Sati came 
+                                  here with pleasure accompanied by a few of his Ganas, in order to perform penance. The lord was completely agitated due to Sati's love and separation from her</li>
+                                  <li>He performed his penance there. Parvati engaged herself in His service continuously accompanied by two of her maids.</li>
+                                  <li>Although the lod Shiva was hit and wounded by the arrows of Kama who was sent thither by the Gods to enchant Him, he was not swayed at all.</li>
+                                  <li>Burning Kama there by His fiery eye, on remembering my words, the Lord became angru with me and vanished from the scene</li>
+                                  <li>After some time, Lord Shiva quelled the pride of Parvati but he was propitiated again by her performing great penance</li>
+                                  <li>Following the conventions of the World, the Lord married Parvati after being sponsored by Vishnu. Then everything auspicious ensued</li>
+                                  <li>O dear, thus the story of the Lord, the Divine Story of Shiva has been narrated in brief. What is it that you wish to hear again?</li>
+                                  </ol> 
+                                  <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+                                  notes: [`19. Compare a dialogue between Shiva and Parvati who represent the different phases of Purusa and Prakriti (Chapt 13)`,
+                                  ]
+                                  }
+                                  ]
+                                  }, 
+                                  {
+                                    /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+                                    '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+                                    <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                                    '<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span></em>' +
+                                    '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+                                    '<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+                                    
+                                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+                                    '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+                                    '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+                                    '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+                                    <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+                                    ' +
+                                    '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+                                    <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                                    <em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+                                    <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+                                    '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+                                    '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+                                    <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+                                    <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+                                    <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+                                    <em><span style="font-weight:900;color:maroon;font-size:larger"> Mena said:  </span></em>
+                                      
+                                    '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+                                    '<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span></em> ' +
+                                    '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+                                    
+                                    ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+                                    </li>' +
+                                    '<li>
+                                    */
+                                      buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+                                      buttonText: `10`,
+                                      title: `PARVATI KHAND , MARS IS BORN AND IS RAISED TO THE STATUS OF A PLANET BY SHIVA's GRACE`,
+                                      headerStyle: { 'color': 'rede','font-weight': '1900', 'background-color': 'maroon','border': '5px inset #7A7B7B','margin':'2px', 'border-radius':'5px'},
+                                      contentStyle: { 'border':'3px outset blue',
+                                      'background-image': 'url("images/rudraSamhita/parvati_khand10n.jpg")',
+                                      'background-size': 'contain',
+                                      'border-radius':'4px',
+                                      'padding':'2px',
+                                      'color':'orange',
+                                      'opacity':'1.0',
+                                      'background-color':'skyblue'} ,
+                                      subsections: [
+                                      {
+                                      subTitle: '',
+                                      content: `<ol>
+                                      <br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span></em>
+                                      <li>O Brahma, the fortunate disciple of Vishnu. O Lord foremost amongst the devotees of Shiva, please narrate the divine sport of Shiva in detail to me</li>
+                                      <li>O Brahma, when I of divine vision had gone to my abode, what happened thereafter? Please tell me now</li>
+                                      <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                                      <li> After you had gone to Heaven, some time passed, Once Mena approached the Lord of the Mountains and bowed to him. </li>
+                                      <li> After waiting there for some time in humility, the beloved of the Mountains addressed her lord; the chaste lady who loved her daughter as ardently as her own life spoke to the
+                                      Lord of the mountains thus:</li>
+                                    <em><span style="font-weight:900;color:maroon;font-size:larger"> Mena said:  </span></em>
+                                    <li>"As but is natural to women, the words of the Sage have not been understood by me well. (I think it is better) that you perform the marriage of our daughter with a handsome bridegroom</li>
+                                    <li>Let the bridegroom of Parvati be born og a good family endowed with good characteristic signs. In every respect that marriage will yield an unprecedented  happiness.</li>
+                                      <li>Obeisance to you. Do everything neccessary to make our daughter, as beloved as our lives, very happy and delighted after being united with a good bridegroom."</li>
+                                      <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                                      <li>After saying this, with tears in her eyes, Mena fell at the feet of her husband. Raising her, the lord of the Mountains, the most excellent amongst all intelligent men, made a true statement</li>
+                                      <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+                                      <li>O gentle lady Menaka, listen. I shall tell you the truth. Do not be under false impressions. The Sage's statements will never be false.</li>
+                                      <li>If you feel affection towards your daughter, zealously instruct your daughter. Let her perform the penance with Shiva as the Object, devoutedly and steadily </li>
+                                      <li>If Shiva is delighted, O Menaka, he will marry her. Everything will be auspicious. The inauspicious features indicated by Narada will perish</li>
+                                      <li>All inauspicious things are auspicious in Sadasiva. Hence immediately teach your daughter to hasten to perform the penance for attaining Shiva</li>
+                                      <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                                      <li>On hearing these words of the Lord of the Mountains. Mena was greatly delighted. She approached her daughter to advise her to take interest in penance</li>
+                                      <li>On seeing the tender limbs of her daughter, Menaka was greatly distressed.  Her eyes welled up with tears immediately.</li>
+                                      <li>The beloved of the lord of the Mountains was unavailable to advise her daughter to perform penance. Parvati understood the implied wish of her mother quickly</li>
+                                      <li>Then the omniscient supreme Goddess Parvati immediately spoke to her mother after consoling her again and again.</li>
+                                      <em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>
+                                      <li>O mother, of greate inetlligence, listen in the early dawn today. At night I had a dream, I shall tell you. Be pleased.</li>
+                                      <li>A Brahmin sage advised me lovingly and compassionately to perform the penance of Shiva, O mother.</li>
+                                      <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                                      <li>On hearing that, Menaka called her husband there and told him the dream as seen by her daughter</li>
+                                      <li>After hearing the dream of his daughter from Menaka, the lord of the mountains was pleased and he spoke thus to his wife.</li>
+                                      <span style="font-weight:900;color:crimson;font-size:larger"> The Lord of the Mountains said:  </span>
+                                      <li>O Dear, at the end of the latter half of this night, I too had a dream. Please listen to it lovingly. I shall zealously explain it</li>
+                                      <li>A great saint of exquisite limbs, as mentioned by Narada arrived at my city with very great pleaseure in order to performance penance there</li>
+                                      <li>Delighted much, I took my daughter there with me. He was recognized as Lord Shiva, the bridegroom, as mentioned by Narada</li>
+                                      <li>Advising our daughter to render service to that saint, I requested him to approve of it. He didnt.</li>
+                                      <li>A great discussion took place (between her and Shiva) based on Sankhya and Vedanta <noteref1_note1footer>(1) - (19)</note> Thereafter at His bidding, my daughter stayed there</li>
+                                      <li>Concealing her love in the heart, She served Him with devotion. This is the dream I had, O bright faced lady and I have told you all</li>
+                                      <li>Hence, dear Mena, for some time the result of this has to be watched. Certainly know this to be the proper step for me</li>
+                                      <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> </em>
+                                      <li>O excellent sage, the lord of the Mountains having thus explained to Menaka, both of them remained watching its result, pure in mind.</li>
+                                      <li>When a few days passed by Lord Shiva, the goal of saintly men, the cause of protection and enjoyment wandering here and there and in his flutter and excitement due to the separation from Sati came 
+                                      here with pleasure accompanied by a few of his Ganas, in order to perform penance. The lord was completely agitated due to Sati's love and separation from her</li>
+                                      <li>He performed his penance there. Parvati engaged herself in His service continuously accompanied by two of her maids.</li>
+                                      <li>Although the lod Shiva was hit and wounded by the arrows of Kama who was sent thither by the Gods to enchant Him, he was not swayed at all.</li>
+                                      <li>Burning Kama there by His fiery eye, on remembering my words, the Lord became angru with me and vanished from the scene</li>
+                                      <li>After some time, Lord Shiva quelled the pride of Parvati but he was propitiated again by her performing great penance</li>
+                                      <li>Following the conventions of the World, the Lord married Parvati after being sponsored by Vishnu. Then everything auspicious ensued</li>
+                                      <li>O dear, thus the story of the Lord, the Divine Story of Shiva has been narrated in brief. What is it that you wish to hear again?</li>
+                                      </ol> 
+                                      <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+                                      notes: [`19. Compare a dialogue between Shiva and Parvati who represent the different phases of Purusa and Prakriti (Chapt 13)`,
+                                      ]
+                                      }
+                                      ]
+                                      },{
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
