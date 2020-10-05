@@ -1172,7 +1172,113 @@ var chapterData = [
                                           ]
                                           }
                                           ]
-                                          },{
+                                          }, 
+                                          {
+                                            /*'<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
+                                            '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
+                                            <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span> 
+                                            '<br/><em><span style="font-weight:900;color:crimson;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">The Goddess said:  </span></em>' +
+                                            '<br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>' +
+                                            '<br/><em><span style="font-weight:900;color:darkslateblue;font-size:larger">The Devas said:  </span> ' +
+                                            
+                                            '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:  </span>' +
+                                            '<!-- <em><span style="font-weight:900;color:#ff9933;font-size:larger"> The Brahmin said:  </span>' + '
+                                            '<em><span style="font-weight:900;color:crimson;font-size:larger"> Saunaka said:</span>' +
+                                            '<em><span style="font-weight:900;color:green;font-size:larger"> Suta said:  </span> ' +
+                                            <span style="font-weight:900;color:purple;font-size:larger"> Cancula said:  </span>
+                                            ' +
+                                            '<em><span style="font-weight:900;color:#ff4811;font-size:larger"> Parvati said:  </span>' +
+                                            <em><span style="font-weight:900;color:brown;font-size:larger"> Vyas said:  </span>
+                                            <em><span style="font-weight:900;color:brown;font-size:larger"> Sula said:  </span>
+                                            <em><span style="font-weight:900;color:#A0522D;font-size:larger">Shree Brahma said:  </span>
+                                            '<br/><em><span style="font-weight:900;color:darkblue;font-size:larger"> Sanatkumara said:  </span> ' +
+                                            '<br/><em><span style="font-weight:900;color:darkgreen;font-size:larger"> Nandikeswara said:  </span> ' +
+                                            <br/><em><span style="font-weight:900;color:#334443;font-size:larger">The Sages Said:  </span>' +
+                                            <em><span style="font-weight:900;color:#ff4443;font-size:larger">The Gods Said:  </span>
+                                            <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+                                            <em><span style="font-weight:900;color:maroon;font-size:larger"> Mena said:  </span></em>
+                                              
+                                            '<br/><em><span style="font-weight:900;color:purple;font-size:larger"> Acyuta said:  </span> ' +
+                                            '<br/><em><span style="font-weight:900;color:#FF000A;font-size:larger"> Narada said:  </span></em> ' +
+                                            '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:#EEEEEF;font-size:larger"> The attendants of Siva said:  </span>' +
+                                            
+                                            ''<noteref2_note1footer>(2) - (17)</note>-->'  +
+                                            </li>' +
+                                            '<li>
+                                            */
+                                              buttonStyle :  "padding:3px;font-weight:bold;color:green;background-color:lightgreen; border: 1px solid green;margin:2px; border-radius:3px;",
+                                              buttonText: `12`,
+                                              title: `PARVATI KHAND , SHIVA-HIMAVAT DIALOG`,
+                                              headerStyle: { 'color': 'green','font-weight': '1900', 'background-color': '#99F1FE','border': '5px outset #448899','margin':'2px', 'border-radius':'5px'},
+                                              contentStyle: { 'border':'3px outset blue',
+                                              'background-image': 'url("images/rudraSamhita/parvati_khand11n.jpg")',
+                                              'background-size': 'contain',
+                                              'border-radius':'4px',
+                                              'padding':'2px',
+                                              'color':'orange',
+                                              'opacity':'1.0',
+                                              'background-color':'skyblue'} ,
+                                              subsections: [
+                                              {
+                                              subTitle: '',
+                                              content: `<ol>
+                                              <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                                              <li>Then, the delighted lord of the mountains, took some fresh flowers and fruits with him and approached Shiva along with his daughter.</li> 
+                                              <li>Approaching the Lord of the three worlds, engaged in meditation and bowing to him, he mentally dedicated to Him, his wonderful daughter.</li> 
+                                              <li>Placing the fruits and flowers in front of Him and making his daughter stand in front of Him, the lord of the mountains spoke to Shiva.</li>
+                                              <span style="font-weight:900;color:crimson;font-size:larger"> Lord Himavat said:  </span>
+                                              <li>O Lord my daughter, who is eager to serve you, the moon crested Lord, I have brought here with a desire to propiate You.</li> 
+                                              <li>Let Her serve You, the benefactor, for ever, along with two of her maids. O Lord, if you wish to bless me, please permit her</li> 
+                                              <br/><em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                                              <li>Then Shiva looked at her in the first flush of her youth. Her complexion resembled the full blown blue lotus petals. Her face appeared as the full Mooon. Her auspicious
+                                              dress and features were the repositories of all graceful charms. Her neck had the shape of a conchshell. Her eyes were wide and her ears shone exquisitely. On either side, her 
+                                              long-rounded arms resembling a lotus stalk shone beautifully. Her two breasts resembling lotus buds were stout, plump and firm. Her waist was slender and the curly locks of her
+                                              hair shone well. Her feet resembled the land lotus and were comely in appearance. She was competent to shake the minds of even sages deeply engrossed in meditation, even at the 
+                                              very sight. She was a crest-jewel of all the maidens in the World.</li>
+                                              <li>On seeing her in that exquisite form as increased the pleasure and love of even those who meditate, the Great Yogin Shiva closed His eyes immediately and meditated on His real form,
+                                              the great principle that is beyond the three attributes and is imperishable.</li>
+                                              <li>On seeing Shiva the Lord of all, the chief of those devoted to penance, the Lord with the moon as His ornament, who can be known through spiritual insight and who was sitting in the
+                                              meditative posture closing His eyes, Himacala saluted His again. Though he was not disheartened, he entertained some doubts. Thus he, the lord of mountains, foremost of the eloquent, 
+                                              spoke to Shiva, the sole kinsman of the universe. </li></ol> 
+                                              <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+                                              <li>O Great lord of the Gods, O Shiva, the merciful, O Lord open your eyes, look at me who has sought refuge in You.</li></ol> 
+                                              <li>O Lord of Gods, the Vedas and sacred lore do not know you entirely. Your greatness is beyond the sphere of words and minds, inexpressible by means of words and incomprehensible.</li>
+                                              <li>Not to speak of the others, even the Vedas describe you with awe and timidity, not positively, but negating what you are not.</li>
+                                              <li>Securing Your grace through devotion, many devotees become aquainted with You. Seeking refuge in You, they get correct knowledge in Your real Self</li>
+                                              <li>Please listen to my entreaty with a long heart. I am Your slave. O Lord in humility, I shall explain the same to You.</li>
+                                              <li>O Great Lord Shiva, by your favour, I feel most fortunate. O Lord consider me to be Your slave, and be sympathetic to me. Obeisance to You.</li>
+                                              <li>O Lord I shall be visiting You dailywith my Daughter. O Lord be pleased to command me accordingly.</li>
+                                              <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                                              <li>On hearing these words, the Great Lord of the Gods broke His meditation, opened His eyes, thought a little and spoke:</li>
+                                              <em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large">Lord Shiva said:  </span>
+                                              <li>O Mountain, you shall come every day to see me, leaving your daughter in your abode. Otherwise I cannot be seen.</li>
+                                              <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                                              <li>On hearing the words of Lord Shiva in that view, the father of Parvati, the Mountain bowed his head and replied to Shiva</li>
+                                              <span style="font-weight:900;color:crimson;font-size:larger"> Himacala said:  </span>
+                                              <li>"Let this be kindly mentioned why this girl cannot accompany me here. Is She unworthy of Your service? I do not know the reason thereof."</li></ol> 
+                                              <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                                              <li>Particularly pointing out the worldly conduct of fake ascetics, the bull bannered God Shiva laughingly spoke to the mountain</li>
+                                              <em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large">Lord Shiva said:  </span>'
+                                              <liThis auspicious slender-bodied maiden of comely hips and moon like face should not be brought near me. I forbid you again and again.</li>
+                                              <li>A woman is a phase of illuison. As the scholars who have mastered the Vedas say particularly, a young damsel is a hindrance to ascetics</li>
+                                              <li>O mountain, I am an ascetic, a Yogin, never affected by illusion. Of what avail is a woman thrust on me? </li>
+                                              <li>O friend resorted to by great ascetics, you shall not say so again, since you are an adept in Vedic religion, a scholar and one foremost amongst the wise.</li>
+                                              <li>O mountain, by contact with a woman, worldliness springs up; non attachment perishes and the virtuous penance is destroyed </li>
+                                              <li>Hence, O mountan, no ascetic shall have any truck with women. A woman is the root of wordly attachments. She destroyes all wisdom and dettachment together.</li>
+                                              <em><span style="font-weight:900;color:white;text-shadow: 1px 1px 2px grey;background-color:silver;font-size:x-large"font-size:larger">Shree Brahma said:  </span>
+                                              <li>Speaking these and many other similar things to the lord of mountains, Lord Shiva, the Great Yogin stopped. </li>
+                                              <li>On hearing these ruthles words of Shiva free from sickness and desire, the father of Parvati became nervous, O celestial Sage, and a little agitated. But he kept quiet.</li>
+                                              <li>On hearing the words of the Ascetic and finding her father, the lord of the mountains, frightened, Parvati to Lord Shiva and spoke these words clearly.</li>
+                                              </ol> 
+                                              <a href=\'#top\'><strong>Back To Top</strong></a></p>`,
+                                              notes: [// `20. Cunningham identifies Brahmaputra (the Po-lo-ki-mo-pu-lo of Hyuen Thsang) with the capital city Vairatapattana(?) of the hilly country lying between the Alaknanda 
+                                                // and the Karnali rivers. The territory covers the districts of Garhwal and Kumaon and was stretched within 667 miles in circuit`,
+                                                // `21. The Capital of Himavat. The name indicates that it was a market place for mountainous herbs (Note 10)`,
+                                                // `22. It is a sacred place celebrated in the Matsya and Vayu Puran where the river Ganga emerges from the Vindu Sarovar through visible outlets and subterranean channels.`
+                                              ]
+                                              }
+                                              ]
+                                              },{
 /*
 '<br/><em><span style="font-weight:900;color:darkblue;text-shadow: 3px 3px 2px white;background-color:skyblue;font-size:xx-large"> Isvara said:  </span>' +
 '<br/><em><span style="font-weight:900;color:maroon;text-shadow: 3px 3px 2px pink;background-color:orange;font-size:x-large">Shree Vishnu said:  </span>' +
